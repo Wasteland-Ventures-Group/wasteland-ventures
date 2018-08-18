@@ -1,0 +1,4 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Weapons}{7}{chapter.2}
+\contentsline {section}{Firearms}{9}{section*.2}
+\contentsline {section}{Pistols}{9}{section*.3}
