@@ -48,43 +48,44 @@
 \contentsline {subsection}{Black Fungus Shambler}{90}{section*.163}
 \contentsline {section}{Myling}{92}{section*.167}
 \contentsline {subsection}{Myling Queen}{94}{section*.170}
-\contentsline {section}{Quarray Eel}{96}{section*.174}
-\contentsline {section}{Radbit}{98}{section*.178}
-\contentsline {section}{Rad-Butterfly}{100}{section*.182}
-\contentsline {section}{Radhog}{102}{section*.186}
-\contentsline {section}{Radrel}{104}{section*.190}
-\contentsline {section}{Radigator}{106}{section*.194}
-\contentsline {subsection}{Giant Cragadile}{108}{section*.197}
-\contentsline {section}{Radroach}{110}{section*.201}
-\contentsline {section}{Radscorpion}{112}{section*.205}
-\contentsline {section}{Radstag}{114}{section*.209}
-\contentsline {section}{Raider}{116}{section*.213}
-\contentsline {section}{Robobrain}{118}{section*.217}
-\contentsline {section}{Salamander}{120}{section*.221}
-\contentsline {section}{Shade}{122}{section*.225}
-\contentsline {section}{Slaver}{124}{section*.229}
-\contentsline {section}{Snake, Two-headed}{126}{section*.233}
-\contentsline {subsection}{Snake, Three-headed}{127}{section*.236}
-\contentsline {section}{Spider}{129}{section*.240}
-\contentsline {subsection}{Spider, Giant}{130}{section*.243}
-\contentsline {section}{Spider-Bot}{132}{section*.247}
-\contentsline {section}{Spore Carrier}{134}{section*.251}
-\contentsline {section}{Spore Plant}{136}{section*.255}
-\contentsline {section}{Sprite Bot}{138}{section*.259}
-\contentsline {section}{Steel Ranger}{140}{section*.263}
-\contentsline {section}{Star-Spawn}{142}{section*.267}
-\contentsline {section}{Tankbug}{144}{section*.271}
-\contentsline {section}{Thug}{146}{section*.275}
-\contentsline {section}{Timberwolf}{148}{section*.279}
-\contentsline {section}{Triggerbloom}{150}{section*.283}
-\contentsline {subsection}{Pale Triggerbloom}{151}{section*.286}
-\contentsline {section}{Turret}{154}{section*.290}
-\contentsline {section}{Twittermite}{156}{section*.294}
-\contentsline {section}{Ultra-Sentinel}{158}{section*.298}
-\contentsline {section}{Weedling}{160}{section*.302}
-\contentsline {section}{Windigo}{162}{section*.306}
-\contentsline {section}{Wood-Rot Wasp}{164}{section*.310}
-\contentsline {section}{Yao Guai}{166}{section*.314}
-\contentsline {subsection}{Ghoulified Yao Guai}{167}{section*.317}
-\contentsline {section}{Zebra}{169}{section*.321}
-\contentsline {chapter}{Critters by Category}{171}{chapter*.325}
+\contentsline {section}{Puckwudgie}{96}{section*.174}
+\contentsline {section}{Quarray Eel}{98}{section*.178}
+\contentsline {section}{Radbit}{100}{section*.182}
+\contentsline {section}{Rad-Butterfly}{102}{section*.186}
+\contentsline {section}{Radhog}{104}{section*.190}
+\contentsline {section}{Radrel}{106}{section*.194}
+\contentsline {section}{Radigator}{108}{section*.198}
+\contentsline {subsection}{Giant Cragadile}{110}{section*.201}
+\contentsline {section}{Radroach}{112}{section*.205}
+\contentsline {section}{Radscorpion}{114}{section*.209}
+\contentsline {section}{Radstag}{116}{section*.213}
+\contentsline {section}{Raider}{118}{section*.217}
+\contentsline {section}{Robobrain}{120}{section*.221}
+\contentsline {section}{Salamander}{122}{section*.225}
+\contentsline {section}{Shade}{124}{section*.229}
+\contentsline {section}{Slaver}{126}{section*.233}
+\contentsline {section}{Snake, Two-headed}{128}{section*.237}
+\contentsline {subsection}{Snake, Three-headed}{129}{section*.240}
+\contentsline {section}{Spider}{131}{section*.244}
+\contentsline {subsection}{Spider, Giant}{132}{section*.247}
+\contentsline {section}{Spider-Bot}{134}{section*.251}
+\contentsline {section}{Spore Carrier}{136}{section*.255}
+\contentsline {section}{Spore Plant}{138}{section*.259}
+\contentsline {section}{Sprite Bot}{140}{section*.263}
+\contentsline {section}{Steel Ranger}{142}{section*.267}
+\contentsline {section}{Star-Spawn}{144}{section*.271}
+\contentsline {section}{Tankbug}{146}{section*.275}
+\contentsline {section}{Thug}{148}{section*.279}
+\contentsline {section}{Timberwolf}{150}{section*.283}
+\contentsline {section}{Triggerbloom}{152}{section*.287}
+\contentsline {subsection}{Pale Triggerbloom}{153}{section*.290}
+\contentsline {section}{Turret}{156}{section*.294}
+\contentsline {section}{Twittermite}{158}{section*.298}
+\contentsline {section}{Ultra-Sentinel}{160}{section*.302}
+\contentsline {section}{Weedling}{162}{section*.306}
+\contentsline {section}{Windigo}{164}{section*.310}
+\contentsline {section}{Wood-Rot Wasp}{166}{section*.314}
+\contentsline {section}{Yao Guai}{168}{section*.318}
+\contentsline {subsection}{Ghoulified Yao Guai}{169}{section*.321}
+\contentsline {section}{Zebra}{171}{section*.325}
+\contentsline {chapter}{Critters by Category}{173}{chapter*.329}
