@@ -41,5 +41,29 @@
 \contentsline {section}{Fire Wheel [INT])}{34}{section*.62}
 \contentsline {section}{Guiding Light [INT])}{35}{section*.63}
 \contentsline {subsection}{Water}{35}{section*.64}
-\contentsline {subsection}{Air}{35}{section*.65}
-\contentsline {subsection}{Earth}{35}{section*.66}
+\contentsline {section}{Toxic Spray [PER])}{35}{section*.65}
+\contentsline {section}{Chilblain [PER])}{36}{section*.66}
+\contentsline {section}{Steady Walk [PER])}{36}{section*.67}
+\contentsline {section}{Windigo's Favor [PER])}{36}{section*.68}
+\contentsline {section}{Rain Shine's Springwalk [PER])}{36}{section*.69}
+\contentsline {section}{Wintry Veil [PER])}{37}{section*.70}
+\contentsline {section}{Water Whip [PER])}{37}{section*.71}
+\contentsline {section}{Silver Rain [PER])}{37}{section*.72}
+\contentsline {subsection}{Air}{38}{section*.73}
+\contentsline {section}{Soft Light [CHA])}{38}{section*.74}
+\contentsline {section}{Telekinesis [CHA])}{38}{section*.75}
+\contentsline {section}{Gale Guard [CHA])}{39}{section*.76}
+\contentsline {section}{Air Pocket [CHA])}{39}{section*.77}
+\contentsline {section}{Wind Sickle [CHA])}{40}{section*.78}
+\contentsline {section}{Downward Current [CHA])}{40}{section*.79}
+\contentsline {section}{Become Air [CHA])}{40}{section*.80}
+\contentsline {section}{Eidolon's Touch [CHA])}{41}{section*.81}
+\contentsline {subsection}{Earth}{41}{section*.82}
+\contentsline {section}{Pocket Sand [STR])}{41}{section*.83}
+\contentsline {section}{Petrify [STR])}{41}{section*.84}
+\contentsline {section}{Petrify [STR])}{42}{section*.85}
+\contentsline {section}{Purify [STR])}{42}{section*.86}
+\contentsline {section}{Salt the Earth [STR])}{42}{section*.87}
+\contentsline {section}{Magnetize [STR])}{42}{section*.88}
+\contentsline {section}{Rolling Stone [STR])}{43}{section*.89}
+\contentsline {section}{Sovereign Obelisk [STR])}{43}{section*.90}
