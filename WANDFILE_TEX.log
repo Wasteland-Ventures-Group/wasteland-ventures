@@ -1,0 +1,964 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.30)  31 DEC 2018 12:44
+entering extended mode
+**./WANDFILE_TEX.tex
+(WANDFILE_TEX.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ ("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2018/04/06 v1.3b Input encoding file
+))
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.s
+ty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts
+.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.
+sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortbl
+.sty"
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen114
+\ar@mcellbox=\box28
+\extrarowheight=\dimen115
+\NC@list=\toks22
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box29
+)
+\everycr=\toks23
+\minrowclearance=\skip48
+)
+\rownum=\count101
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.s
+ty"
+\wrapoverhang=\dimen116
+\WF@size=\dimen117
+\c@WF@wrappedlines=\count102
+\WF@box=\box30
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.st
+y"
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count103
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+141.
+
+\mult@box=\box31
+\multicol@leftmargin=\dimen118
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
+\full@width=\dimen119
+\page@free=\dimen120
+\premulticols=\dimen121
+\postmulticols=\dimen122
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box32
+\last@line=\box33
+\maxbalancingoverflow=\dimen123
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
+\last@try=\dimen124
+\multicolovershoot=\dimen125
+\multicolundershoot=\dimen126
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
+\mc@col@check@num=\count111
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow
+.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count112
+\multirow@dima=\skip52
+\bigstrutjot=\dimen127
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\paralist\paralist
+.sty"
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip53
+\plpartopsep=\skip54
+\plitemsep=\skip55
+\plparsep=\skip56
+\pl@lab=\toks25
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.s
+ty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count113
+\LTcapwidth=\dimen128
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count114
+\LT@rows=\count115
+\c@LT@tables=\count116
+\c@LT@chunks=\count117
+\LT@p@ftn=\toks26
+) ("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth
+.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count118
+\@vwid@loff=\dimen129
+\@vwid@roff=\dimen130
+)
+\c@taburow=\count119
+\tabu@nbcols=\count120
+\tabu@cnt=\count121
+\tabu@Xcol=\count122
+\tabu@alloc=\count123
+\tabu@nested=\count124
+\tabu@target=\dimen131
+\tabu@spreadtarget=\dimen132
+\tabu@naturalX=\dimen133
+\tabucolX=\dimen134
+\tabu@Xsum=\dimen135
+\extrarowdepth=\dimen136
+\abovetabulinesep=\dimen137
+\belowtabulinesep=\dimen138
+\tabustrutrule=\dimen139
+\tabu@thebody=\toks27
+\tabu@footnotes=\toks28
+\tabu@box=\box62
+\tabu@arstrutbox=\box63
+\tabu@hleads=\box64
+\tabu@vleads=\box65
+\tabu@cellskip=\skip61
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\soul.sty"
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks29
+\SOUL@lasttoken=\toks30
+\SOUL@cmds=\toks31
+\SOUL@buffer=\toks32
+\SOUL@token=\toks33
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen140
+\SOUL@uldp=\dimen141
+\SOUL@ulht=\dimen142
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.s
+ty"
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip63
+\thanksmargin=\skip64
+\droptitle=\skip65
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages
+.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count127
+\calc@Cskip=\skip68
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.s
+ty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegs
+hi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)))
+\AM@pagewidth=\dimen145
+\AM@pageheight=\dimen146
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex
+.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box66
+\AM@global@opts=\toks34
+\AM@toc@title=\toks35
+\c@AM@survey=\count128
+\AM@templatesizebox=\box67
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref
+.sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub
+-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub
+-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.
+sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count129
+\Hy@pagecounter=\count130
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.d
+ef"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count131
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref
+.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count132
+ ("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen148
+\Fld@menulength=\count133
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count134
+\c@Item=\count135
+\c@Hfootnote=\count136
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.
+def"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count137
+\c@bookmark@seq@number=\count138
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfil
+echeck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip69
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+ (WANDFILE_TEX.aux)
+\openout1 = `WANDFILE_TEX.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count139
+\scratchdimen=\dimen151
+\scratchbox=\box68
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen152
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks37
+)
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box69
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscap
+e.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.s
+ty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring ON on input line 31.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
+sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettit
+lestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count145
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+ (WANDFILE_TEX.out) (WANDFILE_TEX.out)
+\@outlinefile=\write3
+\openout3 = `WANDFILE_TEX.out'.
+
+<WORD/COVER-WANDFILE.pdf, id=167, 597.23125pt x 845.1575pt>
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf  used on input line 33.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf  used on input line 33.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<WORD/COVER-WANDFILE.pdf, id=170, page=1, 597.23125pt x 845.1575pt>
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf, page 1>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
+
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf, page 1>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf, page 1>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf, page 1>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+! Undefined control sequence.
+\@outputdblcol ...}}\@combinedblfloats \@setmarks 
+                                                  \@outputpage \begingroup \...
+l.33 ...udepdf[pages={1}]{WORD/COVER-WANDFILE.pdf}
+                                                  		
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
+<use WORD/COVER-WANDFILE.pdf, page 1>
+Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+[1
+
+ <./WORD/COVER-WANDFILE.pdf>]
+<ART/ISA_Logo.jpg, id=191, 77.53969pt x 74.52844pt>
+File: ART/ISA_Logo.jpg Graphic file (type jpg)
+<use ART/ISA_Logo.jpg>
+Package pdftex.def Info: ART/ISA_Logo.jpg  used on input line 66.
+(pdftex.def)             Requested size: 85.35826pt x 82.04292pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 	\twocolumn
+                 [1{C:/Users/Tiia S/AppData/Local/MiKTeX/2.9/pdftex/config/pdft
+ex.map}
+
+ <./ART/ISA_Logo.jpg>] [2
+
+
+
+] (WANDFILE_TEX.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+ ("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3])
+\tf@toc=\write4
+\openout4 = `WANDFILE_TEX.toc'.
+
+ [4]
+Chapter 1.
+[5
+
+
+
+] [6
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 3179) in paragraph at lines 87--88
+[]\OT1/cmr/m/n/10.95 Though food and shel-ter is plenty in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/10.95 Abyssinians' eyes are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]\OT1/cmr/m/n/10.95 Abyssinians per-form
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 99--100
+\OT1/cmr/m/n/10.95 Abyssini-ans craft these ar-ti-facts from
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 99--100
+\OT1/cmr/m/n/10.95 spells with-out said cat-a-lyst re-moves
+ []
+
+[7] [8
+
+]
+Underfull \hbox (badness 1237) in paragraph at lines 109--110
+\OT1/cmr/m/n/10.95 Princess Luna as her per-sonal guard and
+ []
+
+[9
+
+] [10
+
+]
+Underfull \hbox (badness 1603) in paragraph at lines 148--149
+\OT1/cmr/m/n/10.95 roamed the south-ern-most plains and arid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+\OT1/cmr/m/n/10.95 buf-falo main-tain their iden-tity strongly
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 161--162
+[]\OT1/cmr/m/n/10.95 Buffalo have a long his-tory with
+ []
+
+[11
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]\OT1/cmr/m/n/10.95 Changelings have a
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 181--182
+\OT1/cmr/m/n/10.95 magic that is a mix-ture of Uni-corn
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 181--182
+\OT1/cmr/m/n/10.95 magic schools and their own unique
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 181--182
+\OT1/cmr/m/n/10.95 Changelings start with Shapeshift for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[]\OT1/cmr/m/n/10.95 Changelings have thick
+ []
+
+[12
+
+]
+Underfull \hbox (badness 1264) in paragraph at lines 194--195
+\OT1/cmr/m/n/10.95 sured that the stray bomb that hit near
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 203--204
+[]\OT1/cmr/m/n/10.95 Much like their earth
+ []
+
+[13
+
+]
+Underfull \hbox (badness 3219) in paragraph at lines 221--222
+[]\OT1/cmr/m/n/10.95 Deer uti-lize their
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 223--224
+[]\OT1/cmr/m/n/10.95 Deer are quick and ag-ile
+ []
+
+[14
+
+] [15
+
+]
+Underfull \hbox (badness 1107) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10.95 Though don-keys lack the
+ []
+
+[16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]\OT1/cmr/m/n/10.95 Harpies have slim-mer
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 287--288
+[]\OT1/cmr/m/n/10.95 Harpies take ex-
+ []
+
+[17
+
+]
+Underfull \hbox (badness 4634) in paragraph at lines 296--297
+\OT1/cmr/m/n/10.95 have be-come slightly more com-mon-place
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 298--299
+\OT1/cmr/m/n/10.95 a-lypse, the hip-pogriff with their leader,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]\OT1/cmr/m/n/10.95 Hippogriffs have a
+ []
+
+[18
+
+
+]
+Underfull \hbox (badness 4886) in paragraph at lines 330--331
+[]\OT1/cmr/m/n/10.95 Kirins can chan-nel their
+ []
+
+[19
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+[]\OT1/cmr/m/n/10.95 New cities, aptly named No-pos
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 344--345
+\OT1/cmr/m/n/10.95 Pasiphaerium and No-pos Aster-po-lis, were
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 348--349
+[]\OT1/cmr/m/n/10.95 Minotaurs are vis-i-bly larger
+ []
+
+[20
+
+]
+Underfull \hbox (badness 1152) in paragraph at lines 370--371
+[]\OT1/cmr/m/n/10.95 Yak are able to pull heav-ier
+ []
+
+[21
+
+] [22
+
+
+]
+Chapter 3.
+
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
+ [23]
+Underfull \hbox (badness 1365) in paragraph at lines 417--418
+\OT1/cmr/m/n/10.95 avail-able to you, de-cided by you. Your
+ []
+
+[24]
+Underfull \hbox (badness 1038) in paragraph at lines 480--481
+[]\OT1/cmr/m/n/10.95 This trait can-not be taken with \OT1/cmr/bx/n/10.95 Small
+
+ []
+
+[25]
+Underfull \hbox (badness 6708) in paragraph at lines 508--509
+\OT1/cmr/bx/it/10.95 Reserved for Abyssini-ans, di-a-mond
+ []
+
+[26]
+Chapter 4.
+[27
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 574.
+
+
+("C:\Users\Tiia S\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 574.
+
+Underfull \hbox (badness 1205) in paragraph at lines 583--585
+[]\OT1/cmr/m/n/10.95 The co-coon's DT is de-ter-mined by the
+ []
+
+[28] [29]
+Underfull \hbox (badness 1394) in paragraph at lines 732--733
+[]\OT1/cmr/m/n/10.95 The spell's range is de-ter-mined by the
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 764--766
+\OT1/cmr/m/n/10.95 ob-ject, how-ever this is merely a cos-metic
+ []
+
+[30] [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [33]
+Underfull \hbox (badness 1043) in paragraph at lines 1025--1026
+[]\OT1/cmr/m/n/10.95 The caster con-jures up a slightly grim-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 1083--1084
+[]\OT1/cmr/m/n/10.95 The caster en-chants their body to pro-
+ []
+
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1170.
+
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+ [35]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1170.
+
+(WANDFILE_TEX.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1170.
+
+
+
+Package rerunfilecheck Warning: File `WANDFILE_TEX.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `WANDFILE_TEX.out':
+(rerunfilecheck)             Before: EDE67A57D90CAD26D821395C678000D7;2420
+(rerunfilecheck)             After:  98FE244072189366FF08C28F0295C5EF;2691.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1170.
+ ) 
+Here is how much of TeX's memory you used:
+ 8764 strings out of 492970
+ 127747 string characters out of 3126147
+ 242101 words of memory out of 3000000
+ 12384 multiletter control sequences out of 15000+200000
+ 12389 words of font info for 45 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,18n,43p,610b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Tiia S/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><C:/Users/Tiia S/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><C:/Users/Tiia S/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Tiia S/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tiia S/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/Tiia S/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+l10.pfb><C:/Users/Tiia S/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/Tiia S/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on WANDFILE_TEX.pdf (36 pages, 658466 bytes).
+PDF statistics:
+ 464 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+
