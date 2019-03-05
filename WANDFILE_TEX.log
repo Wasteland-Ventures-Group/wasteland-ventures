@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  4 JAN 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  5 MAR 2019 21:54
 entering extended mode
 **./WANDFILE_TEX.tex
 (WANDFILE_TEX.tex
@@ -685,7 +685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []\OT1/cmr/m/n/10.95 Abyssinians' eyes are
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 []\OT1/cmr/m/n/10.95 Abyssinians per-form
  []
@@ -700,7 +700,7 @@ Underfull \hbox (badness 4995) in paragraph at lines 99--100
 \OT1/cmr/m/n/10.95 spells with-out said cat-a-lyst re-moves
  []
 
-[7] [8
+[8
 
 ]
 Underfull \hbox (badness 1237) in paragraph at lines 109--110
@@ -991,7 +991,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2303.
 Here is how much of TeX's memory you used:
  8834 strings out of 493305
  128808 string characters out of 3128930
- 238102 words of memory out of 3000000
+ 238100 words of memory out of 3000000
  12081 multiletter control sequences out of 15000+200000
  12389 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1006,7 +1006,7 @@ C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsl10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WANDFILE_TEX.pdf (50 pages, 708156 bytes).
+Output written on WANDFILE_TEX.pdf (50 pages, 708362 bytes).
 PDF statistics:
  537 PDF objects out of 1000 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
