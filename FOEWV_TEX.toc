@@ -67,11 +67,11 @@
 \contentsline {chapter}{\numberline {8}Magic \& Spells}{97}{chapter.8}
 \contentsline {section}{Spell Rules}{97}{section*.288}
 \contentsline {section}{Spell Characteristics}{98}{section*.289}
-\contentsline {section}{Earth Pony Magic}{100}{section*.296}
-\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{101}{section*.299}
-\contentsline {section}{Unicorn Magic}{103}{section*.302}
-\contentsline {section}{Zebra Magic}{105}{section*.305}
-\contentsline {subsection}{Alchemy}{105}{section*.306}
-\contentsline {subsection}{Shamanism}{108}{section*.311}
-\contentsline {chapter}{Glossary}{113}{chapter*.317}
-\contentsline {chapter}{Combat Quick Reference Sheet}{115}{chapter*.318}
+\contentsline {section}{Earth Pony Magic}{100}{section*.297}
+\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{101}{section*.300}
+\contentsline {section}{Unicorn Magic}{103}{section*.303}
+\contentsline {section}{Zebra Magic}{105}{section*.306}
+\contentsline {subsection}{Alchemy}{105}{section*.307}
+\contentsline {subsection}{Shamanism}{108}{section*.312}
+\contentsline {chapter}{Glossary}{113}{chapter*.318}
+\contentsline {chapter}{Combat Quick Reference Sheet}{115}{chapter*.319}
