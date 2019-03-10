@@ -391,6 +391,7 @@
 	\medskip
 	Affected by temporary buffs:
 	\begin{compactitem}
+		\item 	Initiative
 		\item 	All five senses
 		\item 	Detecting details
 		\item 	General awareness of surroundings
@@ -468,7 +469,6 @@
 	Affected by temporary buffs:
 	\begin{compactitem}
 		\item 	Action Points
-		\item 	Initiative
 		\item 	Aerial Maneuvers of flying characters (alongside END \& CHA)
 		\item 	Breaking free of Grapple
 		\item 	General dexterity and balance
@@ -2430,9 +2430,9 @@
 	\addcontentsline{toc}{section}{Initiative}
 	Initiative is a number that represents the turn order of all character that participate in combat. Character with the highest initiative may act first.
 	
-	All combatants make an Initiative roll, which is $1d10+AGI$. The combatant with the highest roll acts first, the combatant with the second highest roll acts second, and so forth, continuing until the combatant with the lowest initiative roll has acted. At that point the round is over and a new round begins. 
+	All combatants make an Initiative roll, which is $1d10+PER$. The combatant with the highest roll acts first, the combatant with the second highest roll acts second, and so forth, continuing until the combatant with the lowest initiative roll has acted. At that point the round is over and a new round begins. 
 	
-	If combatants roll the same total initiative, the one with the highest PER acts first.  If the combatants' PER are identical, the one with the highest LCK acts first. If both are identical, they act simultaneously. The GM should keep track of the sequence of simultaneous actions.
+	If combatants roll the same total initiative, the one with the highest AGI acts first.  If the combatants' PER are identical, the one with the highest LCK acts first. If both are identical, they act simultaneously. The GM should keep track of the sequence of simultaneous actions.
 	
 	Changes to a character's AGI during the combat, such as Buffs and debuffs, do not change the character's place in the turn order. Player may choose to withhold their turn, allowing any and all players, and NPCs to act before them. However, choosing to act later than that of the initiative value cannot be changed afterward.
 	
@@ -3911,7 +3911,7 @@
 		
 		\hline
         \cellcolor{gray!50}     & \textbf{Name}           & \textbf{AP Cost}                  & \textbf{Notes}                                                                        \\ \hline
-		\cellcolor{gray!50} Turn Order     & Initiative              & -                                 & 1d10+AGI Equal Initiatives compare PER, Equal PERs compare LCK. Highest goes first    \\ \hline
+		\cellcolor{gray!50} Turn Order     & Initiative              & -                                 & 1d10+PER Equal Initiatives compare AGI, Equal PERs compare LCK. Highest goes first    \\ \hline
         \cellcolor{gray!50} Movement      & Ground Movement         & 1 AP per 2m / 1 hex               &                                                                                       \\
         \cellcolor{gray!50}      & Flying                  & 1 AP per 2m / 1 hex               & Crippled wings prevent flying                                                         \\
         \cellcolor{gray!50}      & Swimming                & 2 AP per 2m / 1 hex               & Cannot charge, cannot swim if 2 or more limbs Crippled                                \\
