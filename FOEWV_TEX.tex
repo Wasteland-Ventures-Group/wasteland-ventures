@@ -61,7 +61,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 1.4.2}
+		\textbf{Version 1.4.3}
 		
 		\emph{Last compiled on \thedate}
         
@@ -1370,9 +1370,11 @@
 	It should be noted that while ponies are usually herbivores, most Wastelanders have adapted to eating meat. However, one should not go on gnawing a raw chunk of Radigator meat off the bat, as the raw ingredients do not give HP back. Only cooking meat into better ingested meals gives these bonuses. Some cooked meals also give additional effects once eaten. These fresh meals also have recipes for them in \emph{\textbf{Wasteland Wares}}.
 	
 	\subsection*{Alcohol \& Chems}
-	Alcohol and chems, or drugs, are recreational items most Wastelanders use to wind down and distract themselves from harsh realities of Post-Apocalyptic life.
+	Alcohol and chems, or drugs, are recreational items most Wastelanders use to wind down and distract themselves from harsh realities of post-apocalyptic life.
 	
-	Though alcohol and chems do not provide one with HP or Rads, they do give additional, temporary effects to one's SPECIAL's and other effects. They do have varying chances of addiction, meaning that a character can become unable to stop using without outside help. An addicted character will experience Withdrawal penalties unless they consume some of their preferred addiction source at least once in 24 hours.
+	Though alcohol and chems do not provide one with HP or Rads, they do give additional temporary effects to one's SPECIAL's and other effects. They do have varying chances of addiction, meaning that a character may end up with severe dependence on a drug. An addicted character will experience Withdrawal penalties unless they consume some of their preferred addiction source at least once in 24 hours. 
+	
+	One can cure their addiction with a dose of Fixer, a notoriously expensive chem, or beat the withdrawal naturally. After each month (30 days) without touching the substance, a character can roll END check to see if they've beaten the addiction.
 	
 	\subsection*{Tools, Books \& Magazines}
 	Tools, books and magazines make life a little bit easier in the Wastes. Some tools provide characters with a small bonus to specific skills to aid in certain actions, such as cooking, hacking or repairing your armor and weaponry.
@@ -1384,6 +1386,7 @@
 	
 	Though most ponies would toss these items over their shoulders, tinkerers and zebra alchemists might find some of the items useful in their crafts. The rest can just sell them, preferably to the aforementioned tinkerers and alchemists.
 	
+	\vfill
 	
 	\section*{Optional Equipment Rules}
 	\addcontentsline{toc}{section}{Optional Equipment Rules}
@@ -1391,6 +1394,15 @@
 	\subsection*{Item Condition, Degradation \& Repair}
 	\addcontentsline{toc}{subsection}{Item Condition, Degradation \& Repair}
 	Most equipment and other items found in the Equestrian Wasteland are in various states of damage or disrepair; bent blades, little holes in clothes, rust and dirt here and there. Items in perfect condition are virtually unheard of, though a hidden bomb shelter of a wealthy business tycoon from days of old might hold the very thing.
+	
+	Despite how yearned some items, such as rare weapons can be for veteran wanderers, the condition of items determine their values. The more damaged something is, the less anyone will pay for them. Exceptions always exist, though. 
+	
+	\subsubsection*{Repair}
+	Characters skilled in Mechanics may attempt to repair damaged items. To repair a damaged item, you need tools - usually either a toolkit or a sewing kit - and materials. Repairing is also a considerable trade of the Wasteland, offering both caps and favors back and forth with the harmony of services and servitude.
+	
+	Weapons and armor can be dismantled for materials to use in repairing. Different items such as Firearms, Melee weapons and armor yield different \textbf{Components}, that are used to repair an item of that type. The amount of components gained is determined by the weight of the item, with each kilo giving 1 bundle of Components or a minimum of 1 Component. This means that a gun that weighs 3 kilos gives 3 Gun Components while Horseshoes weighing less than a kilo gives 1 Martial Components.
+	
+	In Table 3.2 are shown what Components are gained from dismantling items apart.
 	
 	\begin{table}[!ht]
 		\centering
@@ -1425,14 +1437,7 @@
 			\hline 
 		\end{tabular} 
 	\end{table}	
-	Despite how yearned some items, such as rare weapons can be for veteran wanderers, the condition of items determine their values. The more damaged something is, the less anyone will pay for them. Exceptions always exist, though. 
 	
-	\subsubsection*{Repair}
-	Characters skilled in Mechanics may attempt to repair damaged items. To repair a damaged item, you need tools - usually either a toolkit or a sewing kit - and materials. Repairing is also a considerable trade of the Wasteland, offering both caps and favors back and forth with the harmony of services and servitude.
-	
-	Weapons and armor can be dismantled for materials to use in repairing. Different items such as Firearms, Melee weapons and armor yield different \textbf{Components}, that are used to repair an item of that type. The amount of components gained is determined by the weight of the item, with each kilo giving 1 bundle of Components or a minimum of 1 Component. This means that a gun that weighs 3 kilos gives 3 Gun Components while Horseshoes weighing less than a kilo gives 1 Martial Components.
-	
-	In Table 3.2 are shown what Components are gained from dismantling items apart.
 	
 	To repair an item, a certain number of Components are required for repair, as well as a successful Mechanics roll. If the roll fails, 1 Component is damaged and lost and if the roll fails critically, half of the Components are damaged and rendered unusable.
 	
@@ -1476,11 +1481,7 @@
 
 	All damage equipment takes is up to the GM.
 	
-	\begin{verse}
-		\emph{\textbf{Example 1:} Emerald Glint was caught in the blast radius of an enemy frag grenade, and due to the explosion, her armor's condition drops from Good to Used. Her current apparel is \textbf{MWT Jumpsuit}, clothing which provides her with 10 DT and +1 STR, +10 Mechanics and +5 to Firearms, as well as 3 Quick Slots. As a result of the Condition drop to Used, her apparel has lost one of the effects the suit has, starting with the least effective on the list; +5 to Firearms. The apparel also loses some of its value if sold in this condition.}
-	\end{verse}
-	
-	\begin{table*}[t]
+		\begin{table*}[t]
 		%\centering
 		\caption{Weapon Degradation Levels \& Changes}
 		\label{Table:3.3}
@@ -1507,20 +1508,28 @@
 			\hline 
 			\textbf{Condition} & \begin{tabular}{@{}c@{}}
 				\textbf{DT} \\
-				 Clothing   \\
-				   Light
+				Clothing   \\
+				Light
 			\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT}\\ Heavy \\ Premium\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT} \\ Power \\ Armor\end{tabular} & \textbf{Value}  & \textbf{Effects} &  \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanic}s \\ \textbf{Modifier}\end{tabular} \\ 
 			\hline 
 			Perfect			& +5  & +10 & +10 	& 120\% & - & 16 & -50  \\ 
 			Good 			& -   & - 	& - 	& 100\% & - & 8 & -30 \\ 
 			Used 			& -   & -5 	& -10 	& 75\% & -1 Effect & 4 & -10 \\
 			\begin{tabular}{@{}l@{}}Heavily \\
-			Used \end{tabular} 	& -5  & -10 & -20 	& 50\% & \begin{tabular}{@{}c@{}} -2 Effects \\ -1 QS \end{tabular} &2 & 0 \\ 
+				Used \end{tabular} 	& -5  & -10 & -20 	& 50\% & \begin{tabular}{@{}c@{}} -2 Effects \\ -1 QS \end{tabular} &2 & 0 \\ 
 			Poor 			& -10 & -20	& -40 	& 25\% & \begin{tabular}{@{}c@{}} -3 Effects \\ -All QS \end{tabular} & 1 & +10 \\ 
 			\hline 
 		\end{tabular} 
 	\end{table*}
-
+	
+	\vfill
+	
+	\begin{verse}
+		\emph{\textbf{Example 1:} Emerald Glint was caught in the blast radius of an enemy frag grenade, and due to the explosion, her armor's condition drops from Good to Used. Her current apparel is \textbf{MWT Jumpsuit}, clothing which provides her with 10 DT and +1 STR, +10 Mechanics and +5 to Firearms, as well as 3 Quick Slots. As a result of the Condition drop to Used, her apparel has lost one of the effects the suit has, starting with the least effective on the list; +5 to Firearms. The apparel also loses some of its value if sold in this condition.}
+	\end{verse}
+	
+	\vfill
+	
 	\begin{verse}
 		\emph{\textbf{Example 2:} Emerald Glint's MWT Jumpsuit has taken further damage, meaning the condition of the item drops into Heavily Used. As the effects on dropping from Used due to Heavily Used are more severe, MWT Jumpsuit's DT value has dropped by 5. In addition, she has to remove another Effect from the suit, this time the +10 to Mechanics and remove 1 Quick Slot from use. The item's reselling value also drops to half of original.}
 	\end{verse}

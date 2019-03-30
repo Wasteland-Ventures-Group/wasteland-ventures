@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  11 MAR 2019 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  30 MAR 2019 21:24
 entering extended mode
 **./FOEWV_TEX.tex
 (FOEWV_TEX.tex
@@ -1032,28 +1032,28 @@ Underfull \hbox (badness 2591) in paragraph at lines 1311--1312
  []
 
 [42] [43] [44]
-Underfull \hbox (badness 1509) in paragraph at lines 1480--1481
-[]\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Emer-ald Glint was
- []
-
-
-Overfull \hbox (19.99156pt too wide) in paragraph at lines 1506--1522
+Overfull \hbox (19.99156pt too wide) in paragraph at lines 1507--1523
 [][] 
  []
 
+
+Underfull \hbox (badness 1509) in paragraph at lines 1528--1529
+[]\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Emer-ald Glint was
+ []
+
 [45] [46]
-Underfull \hbox (badness 1721) in paragraph at lines 1552--1553
+Underfull \hbox (badness 1721) in paragraph at lines 1561--1562
 \OT1/cmr/m/it/10.95 ify her trusty ri-fle, the IF-77
  []
 
-<"ART/Chapter 3_Sparkle Cola".jpg, id=760, 2007.5pt x 2509.375pt>
+<"ART/Chapter 3_Sparkle Cola".jpg, id=758, 2007.5pt x 2509.375pt>
 File: "ART/Chapter 3_Sparkle Cola".jpg Graphic file (type jpg)
 <use "ART/Chapter 3_Sparkle Cola".jpg>
 Package pdftex.def Info: "ART/Chapter 3_Sparkle Cola".jpg  used on input line 1
-559.
+568.
 (pdftex.def)             Requested size: 455.24408pt x 569.02666pt.
 
-Overfull \hbox (234.24408pt too wide) in paragraph at lines 1559--1560
+Overfull \hbox (234.24408pt too wide) in paragraph at lines 1568--1569
  [][] 
  []
 
@@ -1062,7 +1062,7 @@ Overfull \hbox (234.24408pt too wide) in paragraph at lines 1559--1560
  <./ART/Chapter 3_Sparkle Cola.jpg>]
 Chapter 4.
 
-Underfull \hbox (badness 1406) in paragraph at lines 1641--1641
+Underfull \hbox (badness 1406) in paragraph at lines 1650--1650
 [][]\OT1/cmr/bx/n/14.4 Improving Strain and Aerial
  []
 
@@ -1073,20 +1073,20 @@ Underfull \hbox (badness 1406) in paragraph at lines 1641--1641
 File: "ART/Chapter 4_Cybernetics".jpg Graphic file (type jpg)
 <use "ART/Chapter 4_Cybernetics".jpg>
 Package pdftex.def Info: "ART/Chapter 4_Cybernetics".jpg  used on input line 16
-77.
+86.
 (pdftex.def)             Requested size: 209.94933pt x 209.95975pt.
 
-Underfull \hbox (badness 5374) in paragraph at lines 1687--1688
+Underfull \hbox (badness 5374) in paragraph at lines 1696--1697
 []\OT1/cmr/m/n/10.95 Cybernetic im-plants can be found in
  []
 
 [51 <./ART/Chapter 4_Cybernetics.jpg>]
-Underfull \hbox (badness 1102) in paragraph at lines 1710--1711
+Underfull \hbox (badness 1102) in paragraph at lines 1719--1720
 \OT1/cmr/m/it/10.95 ous. Side ef-fects in-clude, but
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 1716--1717
+Underfull \hbox (badness 1817) in paragraph at lines 1725--1726
 []\OT1/cmr/m/n/10.95 Pre-War Books can grant a per-ma-nent
  []
 
@@ -1095,62 +1095,62 @@ Chapter 5.
 [53
 
 ]
-Underfull \hbox (badness 5119) in paragraph at lines 1763--1764
+Underfull \hbox (badness 5119) in paragraph at lines 1772--1773
 []\OT1/cmr/m/n/10.95 These tasks the
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 1765--1766
+Underfull \hbox (badness 4132) in paragraph at lines 1774--1775
 []\OT1/cmr/m/n/10.95 An oth-er-wise or-di-nary task
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1780
 []\OT1/cmr/m/n/10.95 These tasks are
  []
 
 [54] [55]
-Underfull \hbox (badness 1057) in paragraph at lines 1842--1843
+Underfull \hbox (badness 1057) in paragraph at lines 1851--1852
 \OT1/cmr/m/it/10.95 i-fiers have been cal-cu-lated, she
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 1867--1868
+Underfull \hbox (badness 1226) in paragraph at lines 1876--1877
 \OT1/cmr/m/it/10.95 sus-tained pre-vi-ous in-juries that
  []
 
 [56] [57] [58]
-Underfull \hbox (badness 4205) in paragraph at lines 1972--1973
+Underfull \hbox (badness 4205) in paragraph at lines 1981--1982
 \OT1/cmr/m/it/10.95 stand-ing un-der a falling rock
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 1989--1990
+Underfull \hbox (badness 10000) in paragraph at lines 1998--1999
 []
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 1990--1991
+Underfull \hbox (badness 1552) in paragraph at lines 1999--2000
 []\OT1/cmr/m/n/10.95 such as vi-sual or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1991--1992
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2001
 []
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 1991--1992
+Underfull \hbox (badness 2035) in paragraph at lines 2000--2001
 \OT1/cmr/m/n/10.95 cause mus-cle re-lax-ation or numb-ness,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 1991--1992
+Underfull \hbox (badness 1231) in paragraph at lines 2000--2001
 \OT1/cmr/m/n/10.95 low-er-ing a char-ac-ter's STR and AGI.
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1991--1992
+Underfull \hbox (badness 1603) in paragraph at lines 2000--2001
 \OT1/cmr/m/n/10.95 These ef-fects can be both short and
  []
 
@@ -1161,11 +1161,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <ART/Sneak.jpg, id=847, 273.36913pt x 231.07063pt>
 File: ART/Sneak.jpg Graphic file (type jpg)
 <use ART/Sneak.jpg>
-Package pdftex.def Info: ART/Sneak.jpg  used on input line 2103.
+Package pdftex.def Info: ART/Sneak.jpg  used on input line 2112.
 (pdftex.def)             Requested size: 187.85135pt x 158.79013pt.
 
 [62 <./ART/Sneak.jpg>] [63]
-Underfull \hbox (badness 1342) in paragraph at lines 2139--2140
+Underfull \hbox (badness 1342) in paragraph at lines 2148--2149
 \OT1/cmr/m/n/10.95 sail-ing through the wa-ter-ways, and fly-ing
  []
 
@@ -1179,32 +1179,32 @@ Underfull \hbox (badness 1342) in paragraph at lines 2139--2140
 ]
 Chapter 6.
 
-Underfull \hbox (badness 1292) in paragraph at lines 2194--2195
+Underfull \hbox (badness 1292) in paragraph at lines 2203--2204
 \OT1/cmr/m/n/10.95 The great-est plea-sure of Waste-land is all
  []
 
 [67] [68] [69] [70]
-Underfull \hbox (badness 1742) in paragraph at lines 2312--2313
+Underfull \hbox (badness 1742) in paragraph at lines 2321--2322
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 In an-other vil-lage,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 2312--2313
+Underfull \hbox (badness 2310) in paragraph at lines 2321--2322
 \OT1/cmr/m/it/10.95 Feath-er-fall - a ghoul - comes
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 2312--2313
+Underfull \hbox (badness 1406) in paragraph at lines 2321--2322
 \OT1/cmr/m/it/10.95 trust rather than from Neu-tral
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 2312--2313
+Underfull \hbox (badness 2635) in paragraph at lines 2321--2322
 \OT1/cmr/m/it/10.95 stance, mak-ing the in-ter-ac-tion
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 2316--2317
+Underfull \hbox (badness 2635) in paragraph at lines 2325--2326
 []\OT1/cmr/bx/it/10.95 Example 3: \OT1/cmr/m/it/10.95 Like-wise, Maabara
  []
 
@@ -1212,37 +1212,37 @@ Underfull \hbox (badness 2635) in paragraph at lines 2316--2317
 
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 2331--2332
+Underfull \hbox (badness 2197) in paragraph at lines 2340--2341
 \OT1/cmr/m/n/10.95 and E.F.S. Pip-Bucks are sub-ject to dis-
  []
 
 <ART/Pip.jpg, id=899, 345.39743pt x 345.39743pt>
 File: ART/Pip.jpg Graphic file (type jpg)
 <use ART/Pip.jpg>
-Package pdftex.def Info: ART/Pip.jpg  used on input line 2335.
+Package pdftex.def Info: ART/Pip.jpg  used on input line 2344.
 (pdftex.def)             Requested size: 271.20276pt x 271.21663pt.
 
-Underfull \hbox (badness 4899) in paragraph at lines 2346--2347
+Underfull \hbox (badness 4899) in paragraph at lines 2355--2356
 \OT1/cmr/m/n/10.95 The Pip-Buck ships with a pre-installed
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 2346--2347
+Underfull \hbox (badness 5119) in paragraph at lines 2355--2356
 \OT1/cmr/m/n/10.95 Stable-Tec Eques-trian Po-si-tion-ing Sys-tem
  []
 
 [72] [73 <./ART/Pip.jpg>]
-Underfull \hbox (badness 2310) in paragraph at lines 2429--2430
+Underfull \hbox (badness 2310) in paragraph at lines 2438--2439
 \OT1/cmr/m/it/10.95 last few days work-ing on her
  []
 
 [74]
-Underfull \hbox (badness 1137) in paragraph at lines 2448--2449
+Underfull \hbox (badness 1137) in paragraph at lines 2457--2458
 \OT1/cmr/m/it/10.95 though he has stayed hy-drated.
  []
 
 
-Overfull \hbox (20.26013pt too wide) in paragraph at lines 2460--2468
+Overfull \hbox (20.26013pt too wide) in paragraph at lines 2469--2477
  [][] 
  []
 
@@ -1251,22 +1251,22 @@ Overfull \hbox (20.26013pt too wide) in paragraph at lines 2460--2468
 ]
 Chapter 7.
 
-Underfull \hbox (badness 1769) in paragraph at lines 2498--2499
+Underfull \hbox (badness 1769) in paragraph at lines 2507--2508
 []\OT1/cmr/m/n/10.95 All com-bat-ants make an Ini-tia-tive roll,
  []
 
 [77]
-Underfull \hbox (badness 1163) in paragraph at lines 2535--2536
+Underfull \hbox (badness 1163) in paragraph at lines 2544--2545
 \OT1/cmr/m/it/10.95 friend Feath-er-fall - who has a
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 2535--2536
+Underfull \hbox (badness 1215) in paragraph at lines 2544--2545
 \OT1/cmr/m/it/10.95 next to her for Emer-ald Glint
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 2535--2536
+Underfull \hbox (badness 1389) in paragraph at lines 2544--2545
 \OT1/cmr/m/it/10.95 Glint's player may de-clare her
  []
 
@@ -1274,37 +1274,37 @@ Underfull \hbox (badness 1389) in paragraph at lines 2535--2536
 Underfull \vbox (badness 4048) has occurred while \output is active []
 
  [78]
-Underfull \hbox (badness 1817) in paragraph at lines 2556--2557
+Underfull \hbox (badness 1817) in paragraph at lines 2565--2566
 []\OT1/cmr/m/n/10.95 These mod-i-fiers af-fect only ranged and
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 2610--2611
+Underfull \hbox (badness 1946) in paragraph at lines 2619--2620
 []\OT1/cmr/bx/n/10.95 Minor Dis-trac-tion: \OT1/cmr/m/n/10.95 penalty of 10.
  []
 
 [79]
-Underfull \hbox (badness 1902) in paragraph at lines 2612--2613
+Underfull \hbox (badness 1902) in paragraph at lines 2621--2622
 []\OT1/cmr/bx/n/10.95 Major Dis-trac-tion: \OT1/cmr/m/n/10.95 penalty of 30.
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 2661--2662
+Underfull \hbox (badness 1616) in paragraph at lines 2670--2671
 []\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Feath-er-fall tries to
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 2661--2662
+Underfull \hbox (badness 6910) in paragraph at lines 2670--2671
 \OT1/cmr/m/it/10.95 shoot a raider hid-ing be-hind
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 2661--2662
+Underfull \hbox (badness 1521) in paragraph at lines 2670--2671
 \OT1/cmr/m/it/10.95 a Wooden ta-ble. Feath-er-fall's
  []
 
 [80]
-Underfull \hbox (badness 1648) in paragraph at lines 2665--2666
+Underfull \hbox (badness 1648) in paragraph at lines 2674--2675
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 Feath-er-fall has de-
  []
 
@@ -1312,23 +1312,23 @@ Underfull \hbox (badness 1648) in paragraph at lines 2665--2666
 Underfull \vbox (badness 6625) has occurred while \output is active []
 
  [81]
-Overfull \hbox (8.66103pt too wide) in paragraph at lines 2724--2732
+Overfull \hbox (8.66103pt too wide) in paragraph at lines 2733--2741
  [][] 
  []
 
 <FoE_PnP_Burst_Templates_v2.png, id=981, 878.28125pt x 375.4025pt>
 File: FoE_PnP_Burst_Templates_v2.png Graphic file (type png)
 <use FoE_PnP_Burst_Templates_v2.png>
-Package pdftex.def Info: FoE_PnP_Burst_Templates_v2.png  used on input line 274
-1.
+Package pdftex.def Info: FoE_PnP_Burst_Templates_v2.png  used on input line 275
+0.
 (pdftex.def)             Requested size: 398.33858pt x 170.26422pt.
 [82] [83 <./FoE_PnP_Burst_Templates_v2.png>] [84] [85] [86]
-Underfull \hbox (badness 2173) in paragraph at lines 2896--2897
+Underfull \hbox (badness 2173) in paragraph at lines 2905--2906
 []\OT1/cmr/m/n/10.95 Attacks are sub-ject to mod-i-fiers called
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 2909--2910
+Underfull \hbox (badness 2790) in paragraph at lines 2918--2919
 \OT1/cmr/m/n/10.95 Attacks made with thrown weapons and
  []
 
@@ -1336,32 +1336,32 @@ Underfull \hbox (badness 2790) in paragraph at lines 2909--2910
 <ART/fight_1.jpg, id=1043, 288.11317pt x 288.11317pt>
 File: ART/fight_1.jpg Graphic file (type jpg)
 <use ART/fight_1.jpg>
-Package pdftex.def Info: ART/fight_1.jpg  used on input line 2919.
+Package pdftex.def Info: ART/fight_1.jpg  used on input line 2928.
 (pdftex.def)             Requested size: 176.80067pt x 176.79947pt.
  [88 <./ART/fight_1.jpg>] [89]
-Underfull \hbox (badness 1173) in paragraph at lines 2995--2996
+Underfull \hbox (badness 1173) in paragraph at lines 3004--3005
 []\OT1/cmr/m/n/10.95 Interacting with en-vi-ron-ment, such as
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 2997--2998
+Underfull \hbox (badness 1675) in paragraph at lines 3006--3007
 \OT1/cmr/m/n/10.95 crip-pled limbs), Sci-ence (hack-ing), or
  []
 
 [90] [91
 
 ] [92] [93]
-Underfull \hbox (badness 6032) in paragraph at lines 3228--3229
+Underfull \hbox (badness 6032) in paragraph at lines 3237--3238
 []\OT1/cmr/m/n/10.95 For ex-am-ple, with su-per sledge, the
  []
 
 [94]
-Underfull \hbox (badness 1603) in paragraph at lines 3277--3278
+Underfull \hbox (badness 1603) in paragraph at lines 3286--3287
 \OT1/cmr/m/it/10.95 the in-com-ing dam-age is larger
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 3277--3278
+Underfull \hbox (badness 1342) in paragraph at lines 3286--3287
 \OT1/cmr/m/it/10.95 6 HP, and must now sub-tract
  []
 
@@ -1369,17 +1369,17 @@ Underfull \hbox (badness 1342) in paragraph at lines 3277--3278
 Underfull \vbox (badness 5985) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 3297--3298
+Underfull \hbox (badness 1472) in paragraph at lines 3306--3307
 []\OT1/cmr/bx/it/10.95 Note: \OT1/cmr/m/it/10.95 Ex-plo-sive weapons do not
  []
 
 [95]
-Underfull \hbox (badness 10000) in paragraph at lines 3319--3320
+Underfull \hbox (badness 10000) in paragraph at lines 3328--3329
 []\OT1/cmr/m/n/10.95 Successful Medicine-check gives the
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 3319--3320
+Underfull \hbox (badness 5091) in paragraph at lines 3328--3329
 \OT1/cmr/m/n/10.95 wounded char-ac-ter +1 to their Heal-ing
  []
 
@@ -1396,29 +1396,29 @@ Chapter 8.
 <ART/book.jpg, id=1120, 207.4149pt x 206.9331pt>
 File: ART/book.jpg Graphic file (type jpg)
 <use ART/book.jpg>
-Package pdftex.def Info: ART/book.jpg  used on input line 3375.
+Package pdftex.def Info: ART/book.jpg  used on input line 3384.
 (pdftex.def)             Requested size: 154.69933pt x 154.34373pt.
 [99 <./ART/book.jpg>]
-Underfull \hbox (badness 2253) in paragraph at lines 3387--3388
+Underfull \hbox (badness 2253) in paragraph at lines 3396--3397
 \OT1/cmr/m/n/10.95 Using spells is much like at-tack-ing with
  []
 
 [100
 
 ]
-Underfull \hbox (badness 1558) in paragraph at lines 3418--3419
+Underfull \hbox (badness 1558) in paragraph at lines 3427--3428
 \OT1/cmr/m/it/10.95 him into go-ing to an-other di-
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 3418--3419
+Underfull \hbox (badness 2229) in paragraph at lines 3427--3428
 \OT1/cmr/m/it/10.95 higher against Emer-ald Glint's
  []
 
 [101
 
 ]
-Underfull \hbox (badness 1043) in paragraph at lines 3438--3439
+Underfull \hbox (badness 1043) in paragraph at lines 3447--3448
 []\OT1/cmr/m/n/10.95 Unlike other ponies' ar-cane pow-ers, the
  []
 
@@ -1428,7 +1428,7 @@ File: "ART/Chapter 8_Aerial Maneuver Wonderbolt edit".jpg Graphic file (type jp
 g)
 <use "ART/Chapter 8_Aerial Maneuver Wonderbolt edit".jpg>
 Package pdftex.def Info: "ART/Chapter 8_Aerial Maneuver Wonderbolt edit".jpg  u
-sed on input line 3483.
+sed on input line 3492.
 (pdftex.def)             Requested size: 361.60138pt x 361.59697pt.
 [102
 
@@ -1436,12 +1436,12 @@ sed on input line 3483.
 Underfull \vbox (badness 2261) has occurred while \output is active []
 
  [103 <./ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 3551--3553
+Underfull \hbox (badness 10000) in paragraph at lines 3560--3562
 []\OT1/cmr/bx/n/10.95 Wonderbolt Ma-neu-vers
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 3553--3554
+Underfull \hbox (badness 1142) in paragraph at lines 3562--3563
 []\OT1/cmr/m/n/10.95 Commander Easyglide's Es-prit de
  []
 
@@ -1449,10 +1449,10 @@ Underfull \hbox (badness 1142) in paragraph at lines 3553--3554
 File: "ART/Chapter 8_Unicorn magic".jpg Graphic file (type jpg)
 <use "ART/Chapter 8_Unicorn magic".jpg>
 Package pdftex.def Info: "ART/Chapter 8_Unicorn magic".jpg  used on input line 
-3564.
+3573.
 (pdftex.def)             Requested size: 406.79724pt x 237.53577pt.
 [104]
-Underfull \hbox (badness 3690) in paragraph at lines 3573--3574
+Underfull \hbox (badness 3690) in paragraph at lines 3582--3583
 []\OT1/cmr/m/n/10.95 Arcane spells are di-vided into \OT1/cmr/bx/n/10.95 Magic
  []
 
@@ -1464,35 +1464,35 @@ Underfull \vbox (badness 4713) has occurred while \output is active []
 File: "ART/Chapter 8_Alchemy zeeb".jpg Graphic file (type jpg)
 <use "ART/Chapter 8_Alchemy zeeb".jpg>
 Package pdftex.def Info: "ART/Chapter 8_Alchemy zeeb".jpg  used on input line 3
-743.
+752.
 (pdftex.def)             Requested size: 406.79724pt x 472.43137pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 3769--3770
+Underfull \hbox (badness 1122) in paragraph at lines 3778--3779
 \OT1/cmr/m/it/10.95 son of her own mak-ing. She
  []
 
 [108] [109 <./ART/Chapter 8_Alchemy zeeb.jpg>]
-Underfull \hbox (badness 1629) in paragraph at lines 3780--3781
+Underfull \hbox (badness 1629) in paragraph at lines 3789--3790
 \OT1/cmr/m/n/10.95 Shamans pos-sess a unique sec-ondary stat
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 3789--3790
+Underfull \hbox (badness 5064) in paragraph at lines 3798--3799
 \OT1/cmr/m/n/10.95 Different spir-its have dif-fer-ent strengths.
  []
 
 <"ART/Chapter 8_shamanism".jpg, id=1188, 457.30716pt x 403.40678pt>
 File: "ART/Chapter 8_shamanism".jpg Graphic file (type jpg)
 <use "ART/Chapter 8_shamanism".jpg>
-Package pdftex.def Info: "ART/Chapter 8_shamanism".jpg  used on input line 3825
+Package pdftex.def Info: "ART/Chapter 8_shamanism".jpg  used on input line 3834
 .
 (pdftex.def)             Requested size: 361.60138pt x 318.99564pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 3843--3844
+Underfull \hbox (badness 1337) in paragraph at lines 3852--3853
 []\OT1/cmr/m/n/10.95 Crafting Spirit Pris-ons isn't par-tic-u-larly
  []
 
@@ -1505,79 +1505,79 @@ Underfull \vbox (badness 7168) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112 <./ART/Chapter 8_shamanism.jpg>]
-Underfull \hbox (badness 1331) in paragraph at lines 3883--3884
+Underfull \hbox (badness 1331) in paragraph at lines 3892--3893
 []\OT1/cmr/m/n/10.95 Once their HP reaches 0, the spirit is
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 3900--3901
+Underfull \hbox (badness 2970) in paragraph at lines 3909--3910
 []\OT1/cmr/m/n/10.95 Enchantments are per-ma-nent (or semi-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 3900--3901
+Underfull \hbox (badness 1210) in paragraph at lines 3909--3910
 \OT1/cmr/m/n/10.95 but oc-ca-sion-ally with other items. Each
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 3902--3903
+Underfull \hbox (badness 1661) in paragraph at lines 3911--3912
 []\OT1/cmr/m/n/10.95 Different spir-its grant dif-fer-ent en-chant-
  []
 
 [113] [114]
-Overfull \hbox (1.91994pt too wide) in paragraph at lines 3988--3988
+Overfull \hbox (1.91994pt too wide) in paragraph at lines 3997--3997
 []\OT1/cmr/m/n/10.95 Suppressive 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3988
+Underfull \vbox (badness 10000) detected at line 3997
  []
 
 [115
 
 
 ] [116]
-Underfull \vbox (badness 10000) detected at line 4009
+Underfull \vbox (badness 10000) detected at line 4018
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [117]
-Underfull \hbox (badness 10000) in paragraph at lines 4032--4048
+Underfull \hbox (badness 10000) in paragraph at lines 4041--4057
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4032--4048
+Underfull \hbox (badness 10000) in paragraph at lines 4041--4057
 
  []
 
 File: FoE_PnP_Burst_Templates_v2.png Graphic file (type png)
 <use FoE_PnP_Burst_Templates_v2.png>
 Package pdftex.def Info: FoE_PnP_Burst_Templates_v2.png  used on input line 405
-0.
+9.
 (pdftex.def)             Requested size: 398.33858pt x 170.26422pt.
 <ART/Sunrise.jpg, id=1230, 457.30716pt x 337.42114pt>
 File: ART/Sunrise.jpg Graphic file (type jpg)
 <use ART/Sunrise.jpg>
-Package pdftex.def Info: ART/Sunrise.jpg  used on input line 4055.
+Package pdftex.def Info: ART/Sunrise.jpg  used on input line 4064.
 (pdftex.def)             Requested size: 497.20276pt x 366.87558pt.
 
-Overfull \hbox (45.20276pt too wide) in paragraph at lines 4055--4056
+Overfull \hbox (45.20276pt too wide) in paragraph at lines 4064--4065
  [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4058.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4067.
 [118] [119 <./ART/Sunrise.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4058.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4067.
  (FOEWV_TEX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4058.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4058.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4067.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4067.
 
 Package rerunfilecheck Info: File `FOEWV_TEX.out' has not changed.
 (rerunfilecheck)             Checksum: 939A1791DE5480360D5E3D53B06C0E4C;4921.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4058.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4067.
  ) 
 Here is how much of TeX's memory you used:
  9452 strings out of 493305
@@ -1599,7 +1599,7 @@ lic/amsfonts/cm/cmsl10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Roope O/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roope O/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FOEWV_TEX.pdf (120 pages, 10643384 bytes).
+Output written on FOEWV_TEX.pdf (120 pages, 10643454 bytes).
 PDF statistics:
  1378 PDF objects out of 1440 (max. 8388607)
  494 named destinations out of 1000 (max. 500000)
