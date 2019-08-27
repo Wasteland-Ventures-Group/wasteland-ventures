@@ -39,7 +39,7 @@
 		
 		10 AP rule basis by Yondalor
 		
-		Token HP \& Status rule bases by LZ
+		Token HP, Quick Slots \& Status rules bases by LZ
 		
 		\bigskip		
 		\textbf{Playtesting and Advice:} LZ, Moonlight, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
@@ -739,33 +739,41 @@
 	\end{verse}
 
 	\subsection*{Potency \& Spirit Affinity}
-	\textbf{Potency} tells how powerful spells the spell-caster in question can throw at enemies or objects. Potency is only taken into account by unicorns. The following formula determines one's Potency:
-	\begin{center}
-		$lvl+(SPECIAL)$
-	\end{center}
-	The SPECIAL used in calculating Potency is determined by the Magic School of the spell.
+	Potency determines the strength of a spell, and it grows as characters level up. Each Magic school has their own SPECIAL that determines where the strength of the spell derives from. For example, unicorn magic's Illusion school uses CHA as its base.
 	
-	Some zebras are capable of Spirit Magic, also known as shamanism. They possess a unique statistic called \textbf{Spirit Affinity}, which determines the power of summoned spirits. The following formula is used to calculate a Shaman's Spirit Affinity:
-	\begin{center}
-		$lvl+CHA$
-	\end{center}
+	The linked SPECIAL attribute applies as a bonus in a form of a threshold, detailed in Table 2.3. The bonus gained from the SPECIAL is added to the character's level, and this becomes the spell's Potency. The Spell's potency changes each time the character gains a level or her SPECIAL value changes.
 	
-	\subsection*{Aerial Maneuvers}
-	\textbf{Aerial Maneuvers} are the skills that pegasi and griffons use in aerial combat. Aerial Maneuvers use AGI, END, or CHA depending on the maneuver. Pegasi start with 3 Aerial Maneuvers while griffons start with 2 Aerial Maneuvers.
+	\begin{table}[t]
+		\centering
+		\caption{SPECIAL Potency Modifier}
+		\label{Table:2.3}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{SPECIAL} & \begin{tabular}{@{}c@{}}\textbf{Potency} \\ \textbf{Modifier}\end{tabular} \\ \hline
+			      1-3        &        +1        \\
+			      4-7        &        +2        \\
+			       8+        &        +3        \\ \hline
+		\end{tabular} 
+	\end{table} 
 	
-	Pegasi learn a new Aerial Maneuver \textbf{every 5th level} (6, 11, 16) after first level and griffons learn a new Aerial Maneuver \textbf{every 6th level} (7, 13, 19) after first level.
+	\begin{verse}
+		\emph{\textbf{Example:} Emerald Glint has learned the spell Silver Shroud, an Illusion spell that uses CHA as its SPECIAL. Emerald Glint's level is 5 and her CHA is 6. This means that Emerald Glint's Potency Modifier is +2. Added to her level this makes the Potency of the spell into 7.}
+	\end{verse}
+
+	Some zebras are capable of Spirit Magic, also known as shamanism. They possess a unique statistic called \textbf{Spirit Affinity}, which determines the power of summoned spirits. This work similarly to aforementioned \textbf{Potency}, though the shaman in question can choose one of the following SPECIALs to use as the linked stat: \textbf{Charisma}, \textbf{Intelligence}, or \textbf{Luck}.
 	
-	In addition to this natural learning, the Aerial Maneuvers can be learned during gameplay through a magazine, flight instructor and by self-taught training.
 	
-	In the Equestrian Wasteland, characters can sometimes find a copy of a flight magazine called \emph{``Aerodynamics Monthly''}. This magazine was published during the war to showcase the techniques used by Wonderbolts. Reading this magazine will teach 1 new Aerial Maneuver per magazine.
+%	\textbf{Potency} tells how powerful spells the spell-caster in question can throw at enemies or objects. Potency is only taken into account by unicorns. The following formula determines one's Potency:
+%	\begin{center}
+%		$lvl+(SPECIAL)$
+%	\end{center}
+%	The SPECIAL used in calculating Potency is determined by the Magic School of the spell.
 	
-	To learn a new Maneuver by self-teaching, a character must succeed on a AGI/END/CHA -2 roll, depending on the Maneuver the character wants to learn. To learn a maneuver, the character must roll 4 \textbf{successful checks}, however, only one check may be made per day. The character may re-roll this check once per day. 
-	
-	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
-	
-	Flight speed can be improved in place of taking a maneuver, with each improvement giving 2 meters (1 Hex) extra movement to flight speed.
-	Aerial Maneuvers and their descriptions can be found in \textit{\textbf{Magic Codex}}.
-	
+%	Some zebras are capable of Spirit Magic, also known as shamanism. They possess a unique statistic called \textbf{Spirit Affinity}, which determines the power of summoned spirits. The following formula is used to calculate a Shaman's Spirit Affinity:
+%	\begin{center}
+%		$lvl+CHA$
+%	\end{center}
 	
 	\section*{Skills}
 	\addcontentsline{toc}{section}{Skills}	
@@ -899,7 +907,7 @@
 	\vfill
 	\pagebreak
 	
-	\section*{Traits}
+		\section*{Traits}
 	\addcontentsline{toc}{section}{Traits}	
 	Traits are the character's good and bad habits or quirks, making the life for the character a bit tougher or easier depending on the situation and the traits chosen. The Traits' purpose is to bring out a character's personality or background in a way that is not purely just for roleplay.
 	
@@ -937,9 +945,9 @@
 	
 	\emph{\textbf{Pegasus-only trait}.} 
 	
-	Character was once a member of the Grand Pegasus Enclave, but have since been given the boot and driven to exile. Thankfully, they were nice enough for them keep their gun...
+	Character was once a member of the Grand Pegasus Enclave, but have since been given the boot and driven to exile. Thankfully, they were nice enough to allow her to keep the gun...
 	
-	The character starts out with an Enclave Hailgun shotgun for free but is branded as a traitor amongst her peers and no longer has a cutie mark, rendering Special Talent bonuses moot.  \textbf{This trait is subject to GM approval. }
+	The character starts out with an Enclave weapon of their choice for free but is branded as a traitor amongst her peers and no longer has a cutie mark, rendering Special Talent bonuses moot. In addition, the character only has 300 caps to their name, as opposed to the 500 caps others start with.  \textbf{This trait is subject to GM approval. }
 	
 	\subsection*{Deep Sleeper}
 	
@@ -949,7 +957,7 @@
 	
 	\subsection*{Fast Shot}
 	
-	Why spend precious time aiming when you can pepper the field with fire? The character's attacks with firearms and magical energy weapons cost 1 less AP, though no less than 1 AP.  However, she cannot Aim or do Called Shots with firearms or magical energy weapons.
+	Why spend precious time aiming when you can pepper the field with fire? The character's attacks with firearms and magical energy weapons cost 1 less AP, though no less than 1 AP.  However, as the character doesn't carefully aim, her shots do not gain any bonus DT reduction from Called Shots.
 	
 	\subsection*{Four Eyes}
 	The character's effective PER for sight-related checks increases by 1 while wearing glasses or sunglasses. Whenever not wearing glasses, she suffers a penalty of -1 to her effective PER for sight-related checks in addition to bonus lost by not wearing glasses. The character has glasses in her inventory for free.
@@ -957,7 +965,7 @@
 	\begin{verse}
 		\textbf{Example:} Emerald Glint appears to have a poor eyesight, and wears glasses. With a base PER of 5, she has effective PER of 6 with glasses. However, if she drops her glasses her effective PER drops to 4.
 	\end{verse}
-
+	
 	\subsection*{Gambling Caster}
 	
 	\emph{\textbf{Unicorn-only trait}}
@@ -975,10 +983,10 @@
 	The character was mutated by the necromantic energies that were unleashed on Equestria in the apocalypse. This mutation has caused her to have an unnaturally long life, often having been alive during the war. 
 	
 	Most NPCs have a lower \textbf{Disposition} towards her, and they are ignored by ferals as long as they remain unprovocative. She heals through radiation, converting Rad tokens to HP tokens, but has a natural \textbf{Healing Rate} of 0. Accumulated Rads dwindle from a ghoul's body at the rate of 2 per day due to Ghoul's body using Rads to function.
-	  
+	
 	After at least 8 hours of rest, the ghoul may choose to discard 2-5 Rad Tokens, and replenish an equal amount of HP Tokens and/or Crippled Conditions, if any are present.
-	 
-	If the character loses all of her Rads, she becomes vulnerable to physical deterioration; she must remove 1 HP token per day, each day she doesn't have enough Rads. This token cannot be replenished with Medicine checks. 
+	
+	If the character loses all of her Rads, she becomes vulnerable to physical deterioration; she must remove 1 HP token per day each day she doesn't have enough Rads. This token cannot be replenished with Medicine checks. 
 	
 	When a ghoul reaches maximum amount of Rads, they will gain one point of Insanity per day. Upon gaining Insanity, the ghoul gains Enraged-status; if in combat, this lasts as long as the status usually lasts, and outside of combat for a moment seen appropriate. Should a Ghoul's Insanity be maxed, they turn feral, and are removed from the player's control. 
 	
@@ -1011,11 +1019,13 @@
 	
 	\subsection*{Heavy Hoofed}
 	
-	The character has strength behind her blows - now if she also managed to hit quickly, it would be ideal. The character adds 2 to the STR multiplier when dealing Melee and Unarmed damage, but her Melee and Unarmed attacks cost 2 AP more.
+	The character has strength behind her blows - now if she also managed to hit quickly, it would be ideal. The character has a base 20\% chance to Cripple a limb with all of her Melee and Unarmed attacks, but said attacks cost 2 AP extra. This base Cripple chance is also included in any Called Shots she makes.
 	
-	\begin{verse}
-		\emph{\textbf{Example:} Shining Example is Heavy Hoofed and strikes a foe with her bare hoof. Normally STR multiplier for bare hoof is 2, but being Heavy Hoofed, Shining Example's multiplier would be $2+2=4 \times STR$.}
-	\end{verse}
+	%The character adds 2 to the STR multiplier when dealing Melee and Unarmed damage, but her Melee and Unarmed attacks cost 2 AP more.
+	
+	%\begin{verse}
+	%	\emph{\textbf{Example:} Shining Example is Heavy Hoofed and strikes a foe with her bare hoof. Normally STR multiplier for bare hoof is 2, but being Heavy Hoofed, Shining Example's multiplier would be $2+2=4 \times STR$.}
+	%\end{verse}
 	
 	\subsection*{Hoarder}
 	
@@ -1046,19 +1056,17 @@
 	\subsection*{One Trick Pony}
 	
 	\emph{\textbf{Unicorn-only trait.}}
-	 
+	
 	Unlike most Unicorns the character can only cast a single spell. Lucky for her, she casts that one spell very well!
 	
-	The character chooses only one spell at the begin of play. She cannot learn new spells on level up or otherwise. Instead, her Potency is as follows:
-	\begin{center}
-		$2 \times lvl+(SPECIAL)$
-	\end{center}
+	The character chooses only one spell at the begin of play. She cannot learn new spells on level up or otherwise. Instead, her Potency is twice as effective with that spell than normal.
+	
 	Also, One Trick Ponies have double the standard Strain pool size, at 40.
 	A character may not have both \textbf{Spread Thin} trait and \textbf{One Trick Pony} trait.
 	
 	\subsection*{Paranoid}
 	
-	You think everything and everyone is out to get you. Because of this, you rarely put your guard down, expecting the worst to occur. However, this has made you quick on your feet; You have an additional +1 to PER and AGI, but your crazed ramblings of shadow mares that are out to get you impact your social standing. In exchange, your NPC disposition is lowered by 1.
+	You think everything and everyone is out to get you. Because of this, you rarely put your guard down, expecting the worst to occur. However, this has made you quick on your feet; You have an additional +1 to PER and AGI, but your crazed ramblings of shadow mares that are out to get you impact your social standing. In exchange, your CHA is penalized by 1 and NPC disposition towards you is lowered by 1.
 	
 	\subsection*{Random}
 	
@@ -1112,22 +1120,24 @@
 	
 	\subsection*{Spiritually Awakened}
 	
-	The character is gifted with the ability to see and communicate with spirits and ghosts who are normally imperceptible. The character's attunement to the spirit world makes them naturally well-disposed with ghosts and spirits, granting a +10 to Barter and +1 to CHA for purposes of talking to ghosts and spirits.  This bonus to CHA factors into a shaman's \textbf{Spirit Affinity} rating.
+	The character is gifted with the ability to see and communicate with spirits and ghosts who are normally imperceptible. The character's attunement to the spirit world makes them naturally well-disposed with ghosts and spirits, granting a +10 to Barter and +1 to CHA for purposes of talking to ghosts and spirits.  
 	
 	However, the spirits also acknowledge the character's existence, trying to contact and bother her at both convenient and inconvenient times - be it during lunch, when trying to sleep, or ``going behind the bushes''.
 	
 	\subsection*{Spread Thin}
 	
 	\emph{\textbf{Unicorn-only trait.}}
-	 
+	
 	The character's breadth of ability is second to none. If her spells weren't so weak, she could change the world!
 	
-	The character can choose up to 6 spells at character creation in addition to \emph{Telekinesis} and \emph{Light}.
+	The character can choose up to 6 spells at character creation in addition to \emph{Telekinesis} and \emph{Light}. 
 	
-	However, her Potency is less than normal, according to the formula below:
-	\begin{center}
-		$[lvl+(SPECIAL)]/2$
-	\end{center}
+	However, her Potency on spells is half of that of normal.
+	
+%	However, her Potency is less than normal, according to the formula below:
+%	\begin{center}
+%		$[lvl+(SPECIAL)]/2$
+%	\end{center}
 	A character may not have both \textbf{Spread Thin} trait and \textbf{One Trick Pony} trait.
 	
 	\subsection*{Stable Dweller}
@@ -1143,6 +1153,8 @@
 	
 	The character has been driven out or voluntarily left from Steel Rangers or Applejack's Rangers. This means that she starts play with Power Armor Training  -perk but is considered to be -1 NPC disposition for these factions, as she is considered to be a heretic and a traitor.
 	
+	In addition, the character was given a modification for their weapon of choice; the Steel Rangers are a civilized society, after all. This modification has to have a value of 500 or less caps.
+	
 	\textbf{This trait is subject to GM approval. }
 	
 	\subsection*{Talon Mercenary}
@@ -1155,14 +1167,14 @@
 	\subsection*{Tribal Shaman}
 	
 	\emph{\textbf{Zebra-only trait.}}
-	 
-	The character is a practitioner of zebra shamanism in the way of her ancestors, and benefits from ancient spirit pacts. The character starts with a \textbf{Spirit Affinity} score equal to $lvl+(CHA)$. She has an effective +2 Spirit Affinity with a particular type of Spirit of her choice, and an effective -2 Spirit Affinity with another type of Spirit of the GM's choice. Which spirits are the favorite and unfavorite do not have to be made known before they're encountered, if so desired.
 	
-	The character has access to Spirit Magic part of Zebra Magic, found in the \emph{\textbf{Magic Codex}}.
+	The character is a practitioner of zebra shamanism in the way of her ancestors, and benefits from ancient spirit pacts. The character starts with \textbf{Spirit Affinity}. She has an effective +2 Spirit Affinity with a particular type of Spirit of her choice, and an effective -2 Spirit Affinity with another type of Spirit of the GM's choice. Which spirits are the favorite and unfavorite do not have to be made known before they're encountered, if so desired.
+	
+	The character has access to Spirit Magic part of Zebra Magic, found in the \emph{\textbf{Magic Codex}}. Details on how shamanism and Spirit Affinity works can be found under Chapter 8 - Zebra Magic - Shamanism.
 	
 	\subsection*{Trigger Discipline}
 	
-	Why waste ammo, when you can deal more carnage with less? The character can reroll Called Shots when using firearms and magical energy weapons, but using them cost 1 more AP.
+	Why waste ammo, when you can deal more carnage with less? The character can reroll Called Shots once when using firearms and magical energy weapons, but said action costs 1 more AP to perform with these ranged weapons.
 	
 	\chapter{Equipment}
 	
@@ -1213,18 +1225,17 @@
 	
 	\section*{Quick Slots}
 	\addcontentsline{toc}{section}{Quick Slots}
-	Some kinds of armor and clothing (especially belts) have easily accessible pockets, straps, or holders called \textbf{Quick Slots (QS)}. The number of Quick Slots is determined in the statistics of the armor or clothing. Quick Slots can hold only one item each, such as one knife, one grenade or one healing potion. The item must be small enough to fit in and weigh up to 1 kg. The GM determines if the item fits in the Quick Slot.
+	Some kinds of armor and clothing (especially belts) have easily accessible pockets, straps, or holders called \textbf{Quick Slots (QS)}. The number of Quick Slots is determined in the statistics of the armor or clothing. Quick Slots can be exhausted in combat for quicker access to items. Each use of a Quick Slot drops the value by 1, and Quick Slots are refreshed back to normal after combat.
 	
-	Retrieving an item from a Quick Slot is much easier and quicker than from inventory thus costs only 3 AP.
+	The item being fetched must be a small item like a knife, a grenade, or a healing potion. Retrieving an item by using a Quick Slot is much easier and quicker than from inventory, thus costing only 3 AP.
 	
 	\begin{verse}
-		\emph{\textbf{Example:} Maabara would like to have health potions readily available when things get chunky. She puts two healing potions into her two Quick Slots - as each Slot can only hold one item, she puts them in Slots 1 and 2. Thus instead of using 8 AP to fetch one from her inventory, she can take a healing potion from a Quick Slot with a cost of 3 AP.	}	
+		\emph{\textbf{Example:} Maabara has gotten into trouble with vicious plants, and has taken damage already. She would like to fetch a health potion from her inventory to heal her wounds while conserving AP for a counter-attack. She uses one Quick Slot to grab and use the healing potion for only 3 AP instead of 8 AP. Until she can get out of combat, she now has one less Quick Slot to use.}	
 	\end{verse}
-	
 	
 	\section*{Weapon Slots}
 	\addcontentsline{toc}{section}{Weapon Slots}
-	Each character has two Weapon Slots which can hold one weapon each. If a throwable weapon such as grenades or throwing knives are slotted in a Weapon Slot, every one of said weapon are equipped there. For example if the character has 15 frag grenades and puts said grenades in the weapon slot, he has access to all of them without having to access Inventory. Unlike \textbf{Quick Slots}, Weapon Slots do not have a limit on weight and they are not dependent on equipment.
+	Each character has two Weapon Slots which can hold one weapon each. If a throwable weapon such as grenades or throwing knives are slotted in a Weapon Slot, every one of said weapon are equipped there. For example if the character has 15 frag grenades and puts said grenades in the weapon slot, he has access to all of them without having to access Inventory. Unlike \textbf{Quick Slots}, Weapon Slots do not have a limit on size and they are not dependent on equipment.
 	
 	Retrieving a weapon from a Weapon Slot is much easier and quicker than from inventory and only costs 3 AP. For each use of throwable weapons a \textbf{Ready Weapon} action must be taken.
 	
@@ -1282,14 +1293,14 @@
 	
 	\subsection*{Weapon Categories}
 	\subsubsection*{Bow string weapons}
-	When either sound or caps are running low, a classic longbow, or the more technical crossbow, are perfect for shooting various arrows and bolts at unsuspecting prey.
+	When either sound or caps are running low a classic hunting bow, a flexible sling, or the more powerful longbow are perfect for shooting various arrows and bolts at unsuspecting prey. These weapons utilize Melee skill in their accuracy, and follow the same rules when it comes to damage.
 	
 	\subsubsection*{Explosives}
-	Explosives have the widest array of different types of weapons. Explosives can be thrown grenades, placeable mines, remotely detonated charges, or launched like missiles, dealing areal destruction with varying size in Blast Radius. In addition, all explosives have a 20\% chance of causing one random limb to become Crippled on a successful hit.
+	Explosives have the widest array of different types of weapons. Explosives can be thrown like grenades or launched like missiles, dealing areal destruction with varying size in Blast Radius. In addition, all explosives have a 20\% chance of causing one random limb to become Crippled on a successful hit.
 	
-	In addition, \textbf{Explosives deal their full damage on the central hex of the Burst Template only} - other targets within the Burst's area take the base damage (damage without dice) only.
+	In addition, \textbf{Explosives deal their full damage on the central hex of the Burst Template only} - other targets within the Burst's area take half of the damage.
 	
-	However, Explosive weapons do not deal critical damage, nor can they be used to do \textbf{Called Shots}. In case of a critical success, other effects may apply.
+	However, Explosive weapons do not deal critical damage, nor can they be used to do \textbf{Called Shots}. In case of a critical success, other effects may apply. In case of a failure, the explosive can deviate at least 1 hex up to half the launched/thrown distance from the intended target. In air-to-air combat, a missed attack automatically deals no damage.
 	
 	\subsubsection*{Firearms}
 	The conventional and trustworthy Earth Pony (or griffon) engineering and gunpowder. Fires physical bullets and pellets of various shapes and size.
@@ -1297,7 +1308,7 @@
 	Shotguns, a subcategory of firearms, fire a hail of small pellets (often called ``buckshot'') that can be crippling to anyone without potent armor. For this reason, if the target of a shotgun is wearing any apparel that provides DT, an additional 20 DT is given to the target.
 	
 	\subsubsection*{Melee weapons}
-	When one wants to keep the enemy a little distance away, but still close enough to see the fear form in their expression. Melee weapons have Special attacks one can execute, mentioned in their specific weapons.
+	When one wants to keep the enemy a little distance away, but still close enough to see the fear form in their expression. Melee weapons have Special attacks one can execute, mentioned in their specific weapons. A character's STR value affects the damage output of all Melee weapons, as shown in Table 3.1.
 	
 	\subsubsection*{Magical Energy Weapons (MEW)}
 	A step up from firearms, MEWs add arcane sciences to the realm of gunfights - now everyone can be a little unicorn!
@@ -1306,12 +1317,26 @@
 	Weapons one tosses with one's bare strength - when more range is required, and firearms are out of ammo. Or just because one wants to hit their enemy with a rock.
 	
 	\subsubsection*{Unarmed weapons}
-	Aside from basic unarmed strike, a collection of weapons to attach to one's hooves, claws, wings and beak exist to further enhance the striking power of attacks.
+	Aside from basic unarmed strike, a collection of weapons to attach to one's hooves, claws, wings and beak exist to further enhance the striking power of attacks. 
 	
 	Unarmed weapons have Special attacks one can execute, mentioned in their specific weapons.
 	
-	Additionally, every 20 Skill Points in the Unarmed skill increases the character's Unarmed damage by 1 damage die - provided she's not wearing a gauntlet for her attacks.
+	Additionally, every 20 Skill Points in the Unarmed skill increases the character's Unarmed damage by 1 damage die - provided she's not wearing a gauntlet for her attacks. A character's STR value also affects the damage output of all Unarmed weapons, as shown in Table 3.1.
 	
+	\begin{table}[t]
+		\centering
+		\caption{STR effect on Melee/Unarmed}
+		\label{Table:3.1}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{STR} & \textbf{DMG Dice} \\ \hline
+			1-3      &       +0        \\
+			4-7      &       +1        \\
+			8-10     &       +2        \\
+			10+      &       +3        \\ \hline
+		\end{tabular} 
+	\end{table} 
 	
 	\section*{Apparel}
 	\addcontentsline{toc}{section}{Apparel}
@@ -1341,12 +1366,12 @@
 	\subsection*{Donning Armor}
 	Having armor on is fun and all, but there is always that little problem come nightfall. Sleep is difficult to get in a cumbersome armor or in the fancy clothes that already squeeze uncomfortably. Hence, most ponies remove their armor and clothes to slip in for something more comfortable for the night and the other way around in the morning. However, donning apparel is somewhat time-taxing matter.
 	
-	On Table 3.1 are Apparel types listed and how long it will take to wear it. Power Armor is often outfitted with servos meant to hasten donning it on.
+	On Table 3.2 are Apparel types listed and how long it will take to wear it. Power Armor is often outfitted with servos meant to hasten donning it on.
 	
 	\begin{table}[b]
 		\centering
 		\caption{Armor Donning Time}
-		\label{Table:3.1}
+		\label{Table:3.2}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|l|c|}
 			\hline
@@ -1402,12 +1427,12 @@
 	
 	Weapons and armor can be dismantled for materials to use in repairing. Different items such as Firearms, Melee weapons and armor yield different \textbf{Components}, that are used to repair an item of that type. The amount of components gained is determined by the weight of the item, with each kilo giving 1 bundle of Components or a minimum of 1 Component. This means that a gun that weighs 3 kilos gives 3 Gun Components while Horseshoes weighing less than a kilo gives 1 Martial Components.
 	
-	In Table 3.2 are shown what Components are gained from dismantling items apart.
+	In Table 3.3 are shown what Components are gained from dismantling items apart.
 	
 	\begin{table}[!ht]
 		\centering
 		\caption{Items and their Components}
-		\label{Table:3.2}
+		\label{Table:3.3}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|l|l|}
 			\hline 
@@ -1482,56 +1507,56 @@
 	All damage equipment takes is up to the GM.
 	
 		\begin{table*}[t]
-		%\centering
-		\caption{Weapon Degradation Levels \& Changes}
-		\label{Table:3.3}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|c|c|c|c|}
-			\hline 
-			\textbf{Condition} & \begin{tabular}{@{}c@{}}\textbf{Damage}\\ \textbf{Die}\end{tabular} & \textbf{Value} & \begin{tabular}{@{}c@{}}\textbf{Crit Chance} \\ \textbf{Modifier}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanics} \\ \textbf{Modifier}\end{tabular} \\ 
-			\hline 
-			Perfect			& d12 & 120\% 	& - 	& 16 & -50 \\ 
-			Good 			& d10 & 100\% 	& - 	& 8 & -30 \\ 
-			Used 			& d8 & 75\% 	& - 	& 4 & -10 \\
-			Heavily Used 	& d6 & 50\% 	& -1\% 	& 2 & 0 \\ 
-			Poor 			& d4 & 25\% 	& -3\% 	& 1  & +10 \\ 
-			\hline 
-		\end{tabular} 
-	\end{table*}
-	
-	\begin{table*}[t]
-		%\centering
-		\caption{Armor Degradation Levels \& Changes}
-		\label{Table:3.4}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|c|c|c|c|c|c|}
-			\hline 
-			\textbf{Condition} & \begin{tabular}{@{}c@{}}
-				\textbf{DT} \\
-				Clothing   \\
-				Light
-			\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT}\\ Heavy \\ Premium\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT} \\ Power \\ Armor\end{tabular} & \textbf{Value}  & \textbf{Effects} &  \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanic}s \\ \textbf{Modifier}\end{tabular} \\ 
-			\hline 
-			Perfect			& +5  & +10 & +10 	& 120\% & - & 16 & -50  \\ 
-			Good 			& -   & - 	& - 	& 100\% & - & 8 & -30 \\ 
-			Used 			& -   & -5 	& -10 	& 75\% & -1 Effect & 4 & -10 \\
-			\begin{tabular}{@{}l@{}}Heavily \\
-				Used \end{tabular} 	& -5  & -10 & -20 	& 50\% & \begin{tabular}{@{}c@{}} -2 Effects \\ -1 QS \end{tabular} &2 & 0 \\ 
-			Poor 			& -10 & -20	& -40 	& 25\% & \begin{tabular}{@{}c@{}} -3 Effects \\ -All QS \end{tabular} & 1 & +10 \\ 
-			\hline 
-		\end{tabular} 
-	\end{table*}
+			%\centering
+			\caption{Weapon Degradation Levels \& Changes}
+			\label{Table:3.4}
+			\rowcolors{1}{gray!30}{gray!10}
+			\begin{tabular}{|l|c|c|c|c|c|}
+				\hline 
+				\textbf{Condition} & \textbf{AP Cost} & \textbf{Damage} & \textbf{Value} & \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanics} \\ \textbf{Modifier}\end{tabular} \\ 
+				\hline 
+				Perfect			& - & +1 	& 120\% 	& 16 & -50 \\ 
+				Good 			& - & - 	& 100\% 	& 8 & -30 \\ 
+				Used 			& +1 & - 	& 75\% 	& 4 & -10 \\
+				Heavily Used 	& +2 & - 	& 50\% 	& 2 & 0 \\ 
+				Poor 			& +3 & - 	& 25\% 	& 1  & +10 \\ 
+				\hline 
+			\end{tabular} 
+		\end{table*}
+		
+		\begin{table*}[t]
+			%\centering
+			\caption{Armor Degradation Levels \& Changes}
+			\label{Table:3.5}
+			\rowcolors{1}{gray!30}{gray!10}
+			\begin{tabular}{|l|c|c|c|c|c|c|c|}
+				\hline 
+				\textbf{Condition} & \begin{tabular}{@{}c@{}}
+					\textbf{DT} \\
+					Light
+				\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT}\\ Heavy \\ Premium\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT} \\ Power \\ Armor\end{tabular} & \textbf{Value}  & 
+				\begin{tabular}{@{}c@{}}\textbf{Quick} \\ \textbf{Slots}\end{tabular}	&  \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanic}s \\ \textbf{Modifier}\end{tabular} \\ 
+				\hline 
+				Perfect			& +1  & +2 & +2 	& 120\% & - & 16 & -50  \\ 
+				Good 			& -   & - 	& - 	& 100\% & - & 8 & -30 \\ 
+				Used 			& -   & -1 	& -2 	& 75\% & -1 & 4 & -10 \\
+				\begin{tabular}{@{}l@{}}Heavily \\
+					Used \end{tabular} 	& -1  & -2 & -3 	& 50\% & -2 &2 & 0 \\ 
+				Poor 			& -2 & -3	& -4 	& 25\% & -3 & 1 & +10 \\ 
+				\hline 
+			\end{tabular} 
+		\end{table*}
 	
 	\vfill
 	
 	\begin{verse}
-		\emph{\textbf{Example 1:} Emerald Glint was caught in the blast radius of an enemy frag grenade, and due to the explosion, her armor's condition drops from Good to Used. Her current apparel is \textbf{MWT Jumpsuit}, clothing which provides her with 10 DT and +1 STR, +10 Mechanics and +5 to Firearms, as well as 3 Quick Slots. As a result of the Condition drop to Used, her apparel has lost one of the effects the suit has, starting with the least effective on the list; +5 to Firearms. The apparel also loses some of its value if sold in this condition.}
+		\emph{\textbf{Example 1:} Emerald Glint was caught in the blast radius of an enemy frag grenade, and due to the explosion, her armor's condition drops from Good to Used. Her current armor is \textbf{Leather Armor}, a piece of Light armor which provides her with 2 DT and 2 Quick Slots. As a result of the Condition drop to Used, her apparel has lost one Quick Slot, but maintains its DT as it is Light armor. The armor also loses some of its value if sold in this condition.}
 	\end{verse}
 	
 	\vfill
 	
 	\begin{verse}
-		\emph{\textbf{Example 2:} Emerald Glint's MWT Jumpsuit has taken further damage, meaning the condition of the item drops into Heavily Used. As the effects on dropping from Used due to Heavily Used are more severe, MWT Jumpsuit's DT value has dropped by 5. In addition, she has to remove another Effect from the suit, this time the +10 to Mechanics and remove 1 Quick Slot from use. The item's reselling value also drops to half of original.}
+		\emph{\textbf{Example 2:} Emerald Glint's Leather Armor has taken further damage, meaning the condition of the item drops down to Heavily Used. As the effects on dropping from Used to Heavily Used are more severe, the Leather Armor's DT value has dropped by 1. In addition, she has to remove another Quick Slot from use. The armor's reselling value also drops to half of original.}
 	\end{verse}
 
 	\subsubsection*{Critical Failure}
@@ -1555,7 +1580,7 @@
 	
 	Modifying equipment is not same as Inventing. Initially, all modifications are considered available to craft, found from the Wasteland or purchasable from supplying vendors instead of being discovered via inventing. Instead, modifying inventions is considered alterations and improvements, and are handled as reinventing.
 	
-	Each weapon and armor type has a collection of modifications one can craft or buy, listed under the weapon or armors in \emph{\textbf{Wasteland Wares}}. Crafting a modification requires a at least 50 in an appropriate skill, usually Mechanics or Science, but applying the modification has no skill requirements.
+	Each weapon and armor type has a collection of modifications one can craft or buy, listed under the weapon or armors in \emph{\textbf{Wasteland Wares}}. Crafting a modification requires at least 50 in an appropriate skill, usually Mechanics or Science, but applying the modification has no skill requirements.
 	
 	\begin{verse}
 		\emph{\textbf{Example:} Featherfall wants to modify her trusty rifle, the IF-77 ``Gallop'' rifle. She wishes to add the Long Barrel mod that's listed under the weapon, increasing the range. Having no required skill to craft it on her own, she has to look up a trader that will sell it for her for the price listed - or maybe less, if she can Barter for it.}
@@ -1778,26 +1803,8 @@
 		\item[Very Hard (-30):] Not only are these tests far beyond the character's capacity they are usually made worse by external circumstances. Examples: Operating complex pre-war tech in the dark, performing surgery in a sandstorm, disassembling a prototype or otherwise unheard-of firearm.
 		\item[Extremely Hard (-50):] These tasks are equal to how one instructs a blind pony to defuse a bomb by cutting the red wire - through a radio.
 	\end{description}
-
-	Additionally, many challenges require a certain level of skill to even attempt. For example, a Mechanics of 25 is necessary in order to properly modify a weapon with a weapon mod. Likewise, terminals and locks are rated according to the base skill required to attempt to hack or pick them.
 	
 	Many tests which require specific skill levels can be repeatedly tried, although there is usually a cost or limitation on doing so. Most terminals will lock down and become unbreachable after three failed attempts. Picking a lock also requires a screwdriver and a bobby pin, and each failure costs the character a bobby pin. Critical failure ends a character's ability to continue with repeatable tests -- the lock jams, the terminal goes into permanent lockdown, a part breaks, etc.
-	
-	\begin{table}[t]
-		\centering
-		\caption{Skill Level Requirements}
-		\label{Table:5.1}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|c|c|}
-			\hline
-			\textbf{Difficulty} & \textbf{Skill Value} \\ \hline
-			     Very Easy      &          0           \\
-			       Easy         &          20          \\
-			     Moderate       &          40          \\
-			       Hard         &          60          \\
-			     Very Hard      &          80          \\ \hline
-		\end{tabular} 
-	\end{table}	
 
 	In a situation where a proficiency roll is called for that is not clearly covered by one of the skills, the most appropriate skill is used. For example, any character can know how to sing without spending points in any particular skill.  But if a character is using a singing performance to attempt to overcome an obstacle or influence NPCs, then a Diplomacy check would be appropriate. Sometimes, more than one skill might seem appropriate, i.e. a roll for botany could be arguably either Science of Survival. In such cases, the GM should allow either to be used, but decide which is most applicable for the specific circumstance and give a penalty for using the less applicable skill.
 	
@@ -1841,7 +1848,7 @@
 	\addcontentsline{toc}{section}{Critical Success and Failure}
 	A critical success is where the character succeeds beyond any and all expectations and GM should award them accordingly. A critical failure is the opposite - the character has fumbled so spectacularly it either causes an entirely new danger to the character and/or the party, or it is a pure comedic display - this is up to GM's discretion. 
 	
-	A critical success always happens on a roll of 1, and a critical failure on a roll of 100. Table 5.2 shows the Critical Chances of a character.
+	A critical success always happens on a roll of 1, and a critical failure on a roll of 100. Table 5.1 shows the Critical Chances of a character.
 	
 	\textbf{NOTE:} Critical success on attack skill rolls usually results in \textbf{Critical Damage}.
 	
@@ -1854,7 +1861,7 @@
 	\begin{table}[t]
 		\centering
 		\caption{Critical Change Ranges}
-		\label{Table:5.2}
+		\label{Table:5.1}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|c|c|}
 			\hline
@@ -1940,21 +1947,21 @@
 	\begin{table*}[t]
 		\centering
 		\caption{Base Falling Damage}
-		\label{Table:5.3}
+		\label{Table:5.2}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|c c|c|c|c|c|c|c|c|c|c|}
 			\hline
 			\multicolumn{2}{|l|}{\cellcolor{gray!50}}                           & \multicolumn{9}{c|}{\cellcolor{gray!50} \textbf{Size of the falling object}} \\
-			                     \cellcolor{gray!50}                       &    &  -4  &  -3  &  -2  &  -1   &   0    &   1    &   2    &   3    &      4      \\ \hline
-			                     \cellcolor{gray!50}                       & -4 & 4d10 & 6d10 & 8d10 & 10d10 & 10d10* & 10d10* & 10d10* & 10d10* &   10d10*    \\
-			                     \cellcolor{gray!50}                       & -3 & 2d10 & 4d10 & 6d10 & 8d10  & 10d10  & 10d10* & 10d10* & 10d10* &   10d10*    \\
-			                     \cellcolor{gray!50}                       & -2 & 1d10 & 2d10 & 4d10 & 6d10  &  8d10  & 10d10  & 10d10* & 10d10* &   10d10*    \\
-			                     \cellcolor{gray!50}                       & -1 &  -   & 1d10 & 2d10 & 4d10  &  6d10  &  8d10  & 10d10  & 10d10* &   10d10*    \\
-			                     \cellcolor{gray!50}                       & 0  &  -   &  -   & 1d10 & 2d10  &  4d10  &  6d10  &  8d10  & 10d10  &   10d10*    \\
-			                     \cellcolor{gray!50}                       & 1  &  -   &  -   &  -   & 1d10  &  2d10  &  4d10  &  6d10  &  8d10  &    10d10    \\
-			                     \cellcolor{gray!50}                       & 2  &  -   &  -   &  -   &   -   &  1d10  &  2d10  &  4d10  &  6d10  &    8d10     \\
-			                     \cellcolor{gray!50}                       & 3  &  -   &  -   &  -   &   -   &   -    &  1d10  &  2d10  &  4d10  &    6d10     \\
-			\multirow{-9}{1,3cm}{\cellcolor{gray!50} \textbf{Target Size}} & 4  &  -   &  -   &  -   &   -   &   -    &   -    &  1d10  &  2d10  &    4d10     \\ \hline
+			                     \cellcolor{gray!50}                       &    & -4  & -3  & -2  &  -1  &   0   &   1   &   2   &   3   &          4          \\ \hline
+			                     \cellcolor{gray!50}                       & -4 & (4) & (6) & (8) & (10) & (10)* & (10)* & (10)* & (10)* &        (10)*        \\
+			                     \cellcolor{gray!50}                       & -3 & (2) & (4) & (6) & (8)  & (10)  & (10)* & (10)* & (10)* &        (10)*        \\
+			                     \cellcolor{gray!50}                       & -2 & (1) & (2) & (4) & (6)  &  (8)  & (10)  & (10)* & (10)* &        (10)*        \\
+			                     \cellcolor{gray!50}                       & -1 &  -  & (1) & (2) & (4)  &  (6)  &  (8)  & (10)  & (10)* &        (10)*        \\
+			                     \cellcolor{gray!50}                       & 0  &  -  &  -  & (1) & (2)  &  (4)  &  (6)  &  (8)  & (10)  &        (10)*        \\
+			                     \cellcolor{gray!50}                       & 1  &  -  &  -  &  -  & (1)  &  (2)  &  (4)  &  (6)  &  (8)  &        (10)         \\
+			                     \cellcolor{gray!50}                       & 2  &  -  &  -  &  -  &  -   &  (1)  &  (2)  &  (4)  &  (6)  &         (8)         \\
+			                     \cellcolor{gray!50}                       & 3  &  -  &  -  &  -  &  -   &   -   &  (1)  &  (2)  &  (4)  &         (6)         \\
+			\multirow{-9}{1,3cm}{\cellcolor{gray!50} \textbf{Target Size}} & 4  &  -  &  -  &  -  &  -   &   -   &   -   &  (1)  &  (2)  &         (4)         \\ \hline
 		\end{tabular}
 	 
 		*Target rolls LCK to completely avoid the damage by finding a safe crevasse.		
@@ -1968,21 +1975,20 @@
 	
 	The minimum falling distance is 4 meters. Only DT from Power Armor, Medical spells or perks - such as Tough Hide - reduce the amount of damage taken from falling objects and falling.
 	
-
-	Base falling damage applies to falling distances between 4 and 8 meters. If the falling distance is greater than that, the damage increases. For every 4 meters fallen beyond 8 meters, the damage is increased by 20.
+	Base falling damage applies to falling distances between 4 and 8 meters. If the falling distance is greater than that, the damage increases. For every 4 meters fallen beyond 8 meters, the damage is increased by 2.
 	
 	If a group of objects is falling, such as rubble or a collapsing building, the group of objects is considered a single entity, with size matching the group's total size/volume.
 	
 	If the falling object is larger than the target, and the target fails to avoid the hit, the target becomes \textbf{Pinned} beneath it.
 	
-	Examples of falling damage can be seen on Table 5.3.
+	Examples of falling damage can be seen on Table 5.2.
 
 	\begin{verse}
-		\emph{\textbf{Example 1:} Shining Example is standing under a falling rock falling from 4 meters. His player rolls PER successfully, allowing Shining to know he is under a threat and he tries evading the danger. His player chooses to roll for AGI and fails, leaving Shining under the falling rock. The rock's size is 1, while Shining Example is a regular Earth Pony, with a size of 0. Checking the table, the player finds that the base falling damage is 4d10 (compares the size of the falling object and size of the target). Because the rock falls from 4 meters, Shining Example will take 4d10 of damage. The falling rock will take falling damage, 3d10.}
+		\emph{\textbf{Example 1:} Shining Example is standing under a falling rock falling from 4 meters. His player rolls PER successfully, allowing Shining to know he is under a threat and he tries evading the danger. His player chooses to roll for AGI and fails, leaving Shining under the falling rock. The rock's size is 1, while Shining Example is a regular Earth Pony, with a size of 0. Checking the table, the player finds that the base falling damage is 6 dice, (6), by comparing the size of the falling object and size of the target. Because the rock falls from 4 meters, Shining Example will take (6) damage. The falling rock will also take falling damage.}
 	\end{verse}
 	
 	\begin{verse}
-		\emph{\textbf{Example 2:} Featherfall has managed to cripple an enemy pegasus' wings so that the pegasus is now falling to the ground. The pegasus is size 0. Checking the table, they compare the size 0 with 0, finding that the base damage is 2d10. The distance the pegasus falls is 15 meters. This means that the pegasus takes the base falling damage with additional damage; 2d10+40.}
+		\emph{\textbf{Example 2:} Featherfall has managed to cripple an enemy pegasus' wings so that the pegasus is now falling to the ground. The pegasus is size 0. Checking the table, they compare the size 0 with 0, finding that the base damage is 4 dice - (4). The distance the pegasus falls is 20 meters. This means that the pegasus takes the base falling damage with additional damage; 6 damage from extra 12 meters beyond the initial 8 meters. The final result is 6+(4) falling damage.}
 	\end{verse}
 	
 	
@@ -2010,7 +2016,7 @@
 	\begin{table*}[t]
 		\centering
 		\caption{Radiation Poisoning \& Effects}
-		\label{Table:5.4}
+		\label{Table:5.3}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|c|c|c|}
 			\hline
@@ -2033,7 +2039,7 @@
 	
 	Radiation can be found in many corners of the world, with different severity. It goes without saying that a Balefire crater is utterly deadly to walk into, as is swimming in radioactive waste. Though the world does have ambient background radiation, it is rarely strong enough to be noticeable. In some spots this ambient radiation may have formed more potent pockets.
 	
-	The effects of accumulated Rads can be seen in Table 5.4.
+	The effects of accumulated Rads can be seen in Table 5.3.
 	
 	\begin{verse}
 		\emph{\textbf{Note:} Ghouls do not suffer from the adverse effects of Radiation, but Critical and Fatal amounts of Rads can cause them to revert into a Feral state, as they take Insanity points.}
@@ -2044,21 +2050,21 @@
 	
 	In a short-term exposure to cold, such as during combat from directed attacks, the damage taken is determined by the damage source, be it a weapon, spell or cryogenic fluid. These are often short, under a minute-long exposures. Cold damage is reduced by character's DT, but certain equipment may increase taken cold damage, or lower it.
 	
-	Long term exposure deals cold damage over time. Extended periods of sitting in the snow or swimming in freezing water are considered long term exposures. If the character is wet, she will take double the damage. Swimming in freezing waters (close to 0°C temperatures) equals to standing in -30°C temperature when calculating damages. Exact damage taken can be checked from Table 5.5.
+	Long term exposure deals cold damage over time. Extended periods of sitting in the snow or swimming in freezing water are considered long term exposures. If the character is wet, she will take double the damage. Swimming in freezing waters (close to 0°C temperatures) equals to standing in -30°C temperature when calculating damages. Exact damage taken can be checked from Table 5.4.
 	
 	\subsection*{Heat \& Fire}
 	Heat and fire can be countered while wandering. Hot climates and specialized attacks can administer Heat or Fire Damage.
 	
 	Short term exposures to heat or fire can come from various sources - weapons, spells, and molten metal being few examples. The heat or fire damage taken is determined by the damage source. Heat and fire damage is reduced by character's DT, but certain equipment may increase taken heat and fire damage or lower it.
 	
-	Long term exposure to heat deal damage over time. Wandering through a scorching desert is considered a long-term exposure. If Thirst and Hunger rules are in use, suffering any heat damage from long term exposure increases the character's need for Thirst. Exact damage taken can be checked from Table 5.6.
+	Long term exposure to heat deal damage over time. Wandering through a scorching desert is considered a long-term exposure. If Thirst and Hunger rules are in use, suffering any heat damage from long term exposure increases the character's need for Thirst. Exact damage taken can be checked from Table 5.5.
 	
 	\subsection*{Electricity}
 	
 	\begin{table}[t]
 		\centering
 		\caption{Long Term Cold Exposure}
-		\label{Table:5.5}
+		\label{Table:5.4}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular} {|c|c|}
 			\hline 
@@ -2076,7 +2082,7 @@
 	\begin{table}[t]
 		\centering
 		\caption{Long Term Heat Exposure}
-		\label{Table:5.6}
+		\label{Table:5.5}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular} {|c|c|}
 			\hline 
@@ -2103,7 +2109,7 @@
 	
 	All of these actions and their success are determined by the character's Sneak skill.
 	
-	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.7.
+	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6.
 	
     %\vfill
     % Sneak Picture
@@ -2119,7 +2125,7 @@
 	\begin{table}[t]
 		\centering
 		\caption{Sneak Modifier Examples}
-		\label{Table:5.7}
+		\label{Table:5.6}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabu}to 140mm{| X[l, 2]| X[l, 4]|}
 			\hline
@@ -2158,7 +2164,7 @@
 	\begin{table*}[!t]
 		\centering
 		\caption{Long Distance Travel}
-		\label{Table:5.8}
+		\label{Table:5.7}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|c|c|c|c|}
 			\hline
@@ -2216,40 +2222,47 @@
 	
 	\section*{Invention}
 	\addcontentsline{toc}{section}{Invention}
-	What would scavenging and salvaging be without reusing those wonderful parts for something new and exciting? Quite boring indeed.
-	
-	Characters can attempt to create new equipment, modifications and Chems by inventing. Inventions are made by either discovering existing schematics or by creating new ones. Schematics are classified within three ranks: Simple, Challenging and Difficult. The ranks of new schematics are 
-	
-	determined by the GM with a minimum of 4 components required for crafting the item.
-	Creating a new schematic requires a sufficient level (see table 6.1) with the appropriate Skill and a success at a penalty of -30. The time to create a schematic and the item it produces equals days per rank of the schematic.
+	What would scavenging and salvaging be without reusing those wonderful parts for something new and exciting? Quite boring indeed. 
 
-	Science and Mechanics are used most commonly in creating new schematics. Chems can be invented with Medicine instead. Earth Ponies may use their Special Talent skill for inventing new schematics, provided said item falls under said skill.
-	
-	Created schematics can be further improved to a higher rank, but improvisation will require and then destroy at least one copy of the invention created with the previous schematic. Once improved, a statistic of said item or chem can be refined with the GM's approval.
-	
-	\begin{table}[b]
-		\centering
-		\caption{Schematic Notes}
-		\label{Table:6.1}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|l|}
-			\hline
-			\textbf{Schematic}   & \begin{tabular}{@{}c@{}}\textbf{Skill} \\ \textbf{Req.} \end{tabular} & \begin{tabular}{@{}l@{}}\textbf{Improvement} \\ \textbf{Notes} \end{tabular}     \\ \hline
-			Simple      &        40         & \begin{tabular}{@{}l@{}}Can be improved \\ twice \end{tabular} \\
-			Challenging &        60         & \begin{tabular}{@{}l@{}}Can be improved \\ once \end{tabular}  \\
-			Difficult   &        80         & None                  \\ \hline
-		\end{tabular} 
-	\end{table}
-	\vfill
+	When inventing a new item, building an existing item from parts alone or building modifications, the invention requires, most of the time, 4 successful non-consecutive rolls. Only one roll can be made per day. After 4 successful rolls, the invention is finished and ready for use. If the inventor has a schematic of what they're building, the amount of rolls required drops to 2 successes.
+
+	The amount of successful rolls can differ depending on how difficult the item is to build; for example, a high-tier weapon or armor, or a particularly rare weapon may take more successful rolls than 4, though preferably no more than 6 successful rolls.
+
+	Invention uses Mechanics as the skill with which to roll for successes, though some items, like Power Armor, require other skill rolls, such as Science or Thaumaturgy. If the item requires more than one skill, the required success amount is divided between the two. For example, if the invention requires both Mechanics and Science -skills, to complete the item the inventor needs to roll 2 successful Mechanics rolls and 2 successful Science rolls, which totals to 4 successes.
+
+	Invention and modification building use Components just like Repair does. The type of Component needed depends on the item's type: Firearms use Gun components, MEWs use Magic components and so on. Generally, the invention requires at least as 1 component as the item's weight per kilo, to a minimum of 1 component. If the item has no weight, or the weight is below 1 kilo, 1 Component is required. Much like how high-tier or rare items can take longer to build, they can also require more components.
+
+	These details should be discussed between the inventing player and GM beforehand.
 	
 	\begin{verse}
-		\emph{\textbf{Example 1:} Doc Red had a fantastic idea of combining Rad-Away with healing potions. His Medicine is 55, while his Science is 20. He opts to use Medicine instead of Science, because he is creating a Chem. He rolls 1d100 with a penalty of -30 and the result is 23 which is lower than 55 - 30 = 25. The GM and the player of Doc Red determine the new Simple schematic requires a combination of a healing potion, a Rad-Away, a Pure water and a potato. The new chem removes heals 3 HP and removes 4 Rads.}
-	\end{verse}
-	
-	\begin{verse}
-		\emph{\textbf{Example 2:} Emerald Glint wants to create a mine with larger blast radius. However, her Science is 35, which is under the starting requirement of 40 to create a simple invention.}
+		\emph{\textbf{Example 1:} Emerald Glint is building a gun similar to IF-64 ``Bloomberg'' - rifle, out of parts, bits and bobs. The rifle weight is 5 kilos, meaning that Emerald Glint requires 5 Gun components to build the gun in question, one for each kilo. Emerald Glint has no schematic for the gun, so she and the GM have agreed that 4 successful rolls are required for the gun to be completed. After 6 days the 4 successful rolls have been made and the gun is completed. The gun uses the stats of IF-64 ``Bloomberg''.}
 	\end{verse}
 
+	\begin{verse}
+		\emph{\textbf{Example 2:} Emerald Glint is building a Power Armor similar to T-51b model, with an additional Spell-like effect built in that functions alike that of Unicorn's Shield-spell. The Shield ability takes away one Mod slot. She and GM have agreed that the special Power Armor requires 6 successful rolls; 2 successful Mechanics-rolls, 2 successful Science-rolls and 2 successful Thaumaturgy-rolls, to take into account the armor's Spell-like ability. Likewise, she would require 40 pieces in total of Plates components and Magical components.} 
+	\end{verse}
+
+	\subsection*{Inventing and creating Chems}
+	While some Chems have remained a well-kept secret of the Zebras, some of the many combat drugs were reverse-engineered by ponies to bypass the magic required in the crafting of them. While zebra alchemy remains the faster source of Chems, a good pony chemist can churn out as potent stuff with a bit of extra time and effort.
+
+	Much like inventing weapons, most chems require 4 successful, non-consecutive rolls for completing the chem and only one check can be made per day. Most chems require either Medicine or Science -skills to be rolled, whichever is more appropriate for the chem in question. Having a recipe or teacher lowers the required rolls to 2 successes. Likewise, difficult, complex chems might require more rolls, and may require both Medicine and Science skills to be rolled, following the same rule of thumb as weapons and armor do. 
+
+	Creating Chems both new and old requires the chemist to possess the required ingredients for the Chem. When inventing a new Chem, the GM and player create the ingredient list for that Chem. A list of ingredients can be found in Creature drops and Junk -section of the Wasteland Wares. While not mechanically required, it is expected that the chemist creates their chems with some kind of a work-station, alchemy set or an I-made-this-myself lab made of junk and a folding table.
+
+	Unlike weapons and armor, chems do not have components, having a bit more creative freedom in what is put into the chem to make it function; existing potions, creature parts and even some junk items are all fair game, as long as they fit the Chem's theme. It is unlikely that a baseball glove would be of use in a Chem recipe, but Abraxo cleaner might. 
+	
+	Likewise, existing potions, like a Healing potion or Healing powder can be used when creating chems, to add a similar effect to the new Chem. Chems do not have a set number of ingredients required, but the general rule is that simpler chems use less, and have more common ingredients than complex, particularly potent Chems.
+
+	New Chems, like all Chems, have an Addiction chance; a likeliness of getting the character using the chem hooked on the stuff. Most of the time, each ingredient gives 5\% chance of addiction, though simple and less harmful recipes can have this lowered if GM so agrees, and complex and harmful Chems might have a higher addiction chance, though rarely more than additional 10\% to the addiction chance generated by ingredients.	Likewise, Chems have a withdrawal effect, that should be discussed when making up the makeup of the Chem, between player and GM.
+
+	\begin{verse}
+		\emph{\textbf{Example:} Doc Red wants to create a Chem that heals its user both in HP and Strain. GM and him decide that Red will require a Healing Potion, 2 Blue herbs, and a ground fresh Jackalope Horn. They decide that the effect of the chem is +2 HP healed per turn for 2 Rounds and +5 Strain recovered per turn for 2 Rounds. They agree that the potent nature of the Chem means Doc Red will require 5 successful Medicine rolls instead of 4. They calculate that the addiction chance from this Chem is 20\%, with -2 Potency and -1 END as a Withdrawal effect. After 6 days, Doc Red has successfully rolled Medicine 5 times and the Chem is complete}.
+	\end{verse}
+
+	\subsection*{Crafting Components}
+	Part of survival in the Equestrian Wasteland is the refining of scrap into something useful. Scrap items such as Scrap ArcanoTech or Scrap Metal can be used to put together a Component. A single Component uses 5 Scrap items; any Scrap item can be used to make any component as long as there's 5 in total.
+
+	Components can be crafted in an hour of downtime or while resting, and require no roll to succeed, only time and materials.
 	\vfill
 	
 	
@@ -2763,6 +2776,8 @@
 	
 	Status effects that have a duration of up to 10 rounds and do not deal damage cease at the end of combat. Damage-dealing effects, like Burning and Bleeding, continue their effects normally unless immediately treated after combat.
 	
+	Unless otherwise specified, Status Effects are resisted with END (against physical statuses) or INT/CHA (against mental statuses). Exception to this is Crippled, which cannot be resisted with a check.
+	
 	\begin{table*}[t]
 		\centering
 		\caption{Status Effects and Their Removal}
@@ -2929,15 +2944,15 @@
 	\end{figure}
 	
 	\subsubsection*{Called Shot}
-	When a character wishes to make a precise shot at her target, she performs a \textbf{Called Shot}, with additional 2 AP increase to her attack's AP cost. These attacks can hit a visible body parts, weak spots, and even disarm her targets. However, a Called Shot cannot be performed with weapons that have area or line of effect damage such as explosives and flame throwers.	
+	When a character wishes to make a precise shot at her target, she performs a \textbf{Called Shot}, with additional 2 AP increase to her attack's AP cost. These attacks can be aimed at visible body parts, weak spots, and even weapons in order to disarm her targets. However, a Called Shot cannot be performed with weapons that have area or line of effect damage such as explosives and flame throwers.	
 
-	Called shots are used to deal \textbf{Crippled} conditions to a target; it doesn't outright increase the damage dealt, but rather focuses the shot to break a particular limb exclusively. It should be noted that some enemies, such as most insects and robots have additional areas that are treated as limbs and can be Crippled.
+	Called Shots ignore 1 DT the target has, and are used to deal \textbf{Crippled} conditions to a target; it doesn't outright increase the damage dealt, but rather focuses the shot to break a particular limb exclusively. It should be noted that some enemies, such as most insects and robots have additional areas that are treated as limbs and can be Crippled.
 	
 	With each HP loss applied to the target during Called Shot, there is a cumulative 10\% chance to cripple the targeted limb. Some weapons have increased chance of inflicting Crippled, and this cumulative chance is applied on top of the Called Shot chance.
 	
 	Additionally, if the attack removes 2 or more HP through a Called Shot, the attacker can deal one less HP in damage and, in its place, guarantee a Crippled condition.
 	
-	Disarming weapons are considered Called Shots, and have their penalty listed below. A successful disarm deals 1 Condition Damage to the weapon (if Item Condition Rules are in effect) and forces the defender to roll STR. A success on the defender's part keeps the weapon in their control, but they must spend \textbf{Ready Weapon} action prior using the weapon again. A failure forces the defender to drop the weapon on an adjacent hex (up to GM which). 
+	Disarming weapons are considered Called Shots, and have their penalty listed below. A successful disarm drops the weapon's condition by one level (if Item Condition Rules are in effect) and forces the defender to roll STR. A success on the defender's part keeps the weapon in their control, but they must use \textbf{Ready Weapon} action prior using the weapon again. A failure forces the defender to drop the weapon on an adjacent hex (up to GM which). 
 	
 	\begin{table}[t]
 		\centering
@@ -3232,40 +3247,39 @@
 	
 	\subsection*{Damage \& Damage Threshold}
 	\addcontentsline{toc}{subsection}{Damage \& Damage Threshold}
-	When an attack skill roll is successful, the character usually deals damage. With weapons and explosives, the damage values are determined by the weapon's statistics. Damage consists of two or three parts: STR (melee/unarmed), base value and dice rolls.
+	When an attack skill roll is successful, the character usually deals damage. With weapons and explosives, the damage values are determined by the weapon's statistics. Damage consists of two parts: base value and dice rolls. In Melee and Unarmed weapons, the character's STR affects the number of dice rolls, as shown in Table 7.8.
 	
-	For example, with super sledge, the weapon's statistics indicate the damage as follows: $STR*2+40+(4)$. This means that the character's STR is doubled, added with the base value of 40, and finally rolling 4 dice. 
-		
-	Damage die is always d10, unless \textbf{Item Condition} additional rule is used in the campaign. Further information on Item Condition rules can be found under Chapter 3: Equipment - Optional Rules.
+	\begin{table}[t]
+		\centering
+		\caption{STR effect on Melee/Unarmed}
+		\label{Table:7.8}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{STR} & \textbf{DMG Dice} \\ \hline
+			    1-3      &       +0        \\
+			    4-7      &       +1        \\
+			    8-10     &       +2        \\
+			    10+      &       +3        \\ \hline
+		\end{tabular} 
+	\end{table} 
+	
+	For example, with super sledge, the weapon's statistics indicate the damage as follows: $6+(0-3)$. The base damage is 6, and the dice rolled ranges from 0 to 4, depending on the characters STR. For example, with STR of 6 the damage output would be $6+(0)+(1) = 6+(1)$.
+	
+	Damage die is a d6, which deals damage when the result is either 5 or 6. Perks, Traits and Racial Abilities may change which die values count as damage dealt. Any damage from dice is added together with the base damage to get the total amount of damage dealt.
+			
+	If Item Condition rules are in effect, it may change the amount of damage dealt. Further information on Item Condition rules can be found under Chapter 3: Equipment - Optional Rules.
 	
 	\textbf{Damage Threshold} (DT) determines how much of the incoming damage is absorbed by the target's armor and other defenses. The leftover damage is then translated as lost HP tokens.
 	
 	\vfill
 	
-	\subsection*{Losing HP Tokens HP Tokens}
-	\addcontentsline{toc}{subsection}{Losing HP Tokens HP Token}
-	Characters do not take the weapon damage as is, but rather translate the incoming damage into lost HP tokens on their Character Sheet's \textbf{Health Tracker}. \emph{If the damage overcomes the target's DT, that automatically removes 1 HP token.}* Additionally target loses 1 HP token for every 10 points of damage over the DT value. A quick reference on total HP tokens lost based on damage received is displayed on Table 7.8.
+	\subsection*{Losing HP Tokens}
+	\addcontentsline{toc}{subsection}{Losing HP Tokens}
+	Characters one day or another will be wounded, which is where the HP tokens come in. With each point of damage that the character's DT does not absorb, the character loses one HP token from their Character Sheet's \textbf{Health Tracker}. 
 	
-	\begin{table}[!b]
-		\centering
-		\caption{Lost HP Token Thresholds}
-		\label{Table:7.8}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|}
-			\textbf{DMG after DT} & \textbf{HP Lost} \\
-			1-9*         & 1       \\
-			10-19        & 2       \\
-			20-29        & 3       \\
-			30-39        & 4       \\
-			40-49        & 5       \\
-			50-59        & 6       \\
-			60-69        & 7       \\
-			70-79        & 8       \\
-			80-89        & 9       \\
-			90-99        & 10      \\ \hline
-		\end{tabular} 		
-	\end{table}
-
+%	Characters do not take the weapon damage as is, but rather translate the incoming damage into lost HP tokens on their Character Sheet's \textbf{Health Tracker}. \emph{If the damage overcomes the target's DT, that automatically removes 1 HP token.}* Additionally target loses 1 HP token for every 10 points of damage over the DT value. A quick reference on total HP tokens lost based on damage received is displayed on Table 7.8.
+	
 	\begin{table*}[t]
 		\centering
 		\caption{Pain Penalties}
@@ -3283,15 +3297,19 @@
 	\end{table*}
 
 	\begin{verse}
-		\emph{\textbf{Example:} Shining Example has been shot by a Raider, who has managed to do 65 damage to him. Shining Example's DT is 10. As the incoming damage is larger than Shining's DT, he automatically loses 1 HP. Next, the DT value of Shining is subtracted from the damage: 65-10 = 55. As 10 can fit in 55 five times (5*10 = 50, but 6*10 = 60), this means Shining loses 5 additional HP tokens. Overall, Shining Example has lost 6 HP, and must now subtract them from his Health Tracker.}
+		\emph{\textbf{Example:} Shining Example has been shot by a Raider, who has managed to do 6 damage to him. Shining Example's DT is 2. The DT value of Shining is subtracted from the damage: 6-2 = 4. This means Shining loses 4 HP tokens, and must now subtract them from his Health Tracker.}
 	\end{verse}
+
+%	\begin{verse}
+%		\emph{\textbf{Example:} Shining Example has been shot by a Raider, who has managed to do 65 damage to him. Shining Example's DT is 10. As the incoming damage is larger than Shining's DT, he automatically loses 1 HP. Next, the DT value of Shining is subtracted from the damage: 65-10 = 55. As 10 can fit in 55 five times (5*10 = 50, but 6*10 = 60), this means Shining loses 5 additional HP tokens. Overall, Shining Example has lost 6 HP, and must now subtract them from his Health Tracker.}
+%	\end{verse}
 
 	
 	\subsection*{Pain Thresholds}
 	\addcontentsline{toc}{subsection}{Pain Thresholds}
 	When a character's HP is lowered to the \textbf{Health Tracker's} lower end, special penalties come into effect to simulate one's body beginning to fail as it has sustained too much damage.
 	
-	Pain Thresholds come into effect at 5-4 HP, 3-2 HP and 1 HP. When a character ends up in these HP Tokens, GM rolls a 1d10 to deduce the penalty from table below. Once character's HP drops further, GM rolls for a new effect that replaces the earlier penalty.
+	Pain Thresholds come into effect at 5-4 HP, 3-2 HP and 1 HP. When a character ends up in these HP Tokens, GM rolls a 1d10 to deduce the penalty from Table 7.9. Once character's HP drops further, GM rolls for a new effect that replaces the earlier penalty.
 	
 	At 0 HP, the character is considered dead.
 	
@@ -3786,18 +3804,14 @@
 	A shaman is a powerful magic wielder that relies on spirits for results. Spirit magic takes form as either enchantments on items or through direct magic (much like spells). These can be achieved by either bartering with spirits or by binding spirits. Zebras are the masters of shamanism, although not nearly all zebras are capable of this kind of magic.
 	
 	\subsubsection*{Spirit Affinity}
-	Shamans possess a unique secondary stat called \textbf{Spirit Affinity}, which is somewhat similar to unicorns' Potency. It indicates how powerful spirits the shaman can summon, barter with and bind. Spirit Affinity is solved with the following formula:
-	
-	\begin{center}
-		$lvl+CHA$
-	\end{center}
+	Shamans possess a unique secondary stat called \textbf{Spirit Affinity}, which is somewhat similar to unicorns' Potency. It indicates how powerful spirits the shaman can summon, barter with and bind. Spirit Affinity can use either CHA, INT or LCK as its linked stat.
 	
 	The exact use of Spirit Affinity varies depending on which kind of spiritual interaction takes place, and sometimes it even varies depending on the type of spirit in question. These are explained in the appropriate sections.
 	
 	\subsubsection*{Spirit Power}
 	Different spirits have different strengths. \textbf{Spirit Power} indicates the power of the spirit, as well as the power of magic it uses. The more powerful the spirit is, the harder it is to summon, barter with or bind. However, the stronger the spirit is the greater the spirit magic effects are.
 	
-	Spirit Power rating is a number between 1 and 15 (usually between 1 and 10). The exact effect of Spirit Power varies and are explained in future sections or in the details of each individual spirit.
+	Spirit Power rating is a number between 1 and 10. The exact effect of Spirit Power varies and are explained in future sections or in the details of each individual spirit.
 	
 	\subsubsection*{Interacting with Spirits}
 	Shaman knows the world of spirits, and the spirits know and hear the shaman's call. At the beginning of the summoning ritual, the shaman chooses her end goal - will she try to imprison the spirit in a \textbf{Spirit Prison} or strike a deal with the spirit and store its power in a \textbf{Rune}.
@@ -3819,12 +3833,7 @@
 			7            & 14                   & 35              & 50     & 14\%             & 16 \\
 			8            & 16                   & 40              & 55     & 16\%             & 18 \\
 			9            & 18                   & 45              & 60     & 18\%             & 20 \\
-			10           & 20                   & 50              & 65     & 20\%             & 22 \\
-			11           & 22                   & 55              & 70     & 30\%             & 26 \\
-			12           & 24                   & 60              & 75     & 40\%             & 30 \\
-			13           & 26                   & 65              & 80     & 50\%             & 34 \\
-			14           & 28                   & 70              & 85     & 60\%             & 38 \\
-			15           & 30                   & 75              & 90     & 70\%             & 42 \\ \hline
+			10           & 20                   & 50              & 65     & 20\%             & 22 \\ \hline
 		\end{tabular} 
 		
 	\end{table*}
@@ -3872,17 +3881,17 @@
 	
 	Spirits value emotional value and effort more than material value. This means that the spiritual gifts are not necessarily expensive items. Nonetheless, these are used as a form of currency. The gift may provide a bonus or a penalty to the shaman's Barter roll. This is determined by the GM.
 	
-	If the bartering is successful, the spirit lends some of its power to shaman. If the bartering result is a tie, and the spirit's Spirit Power is 10 or less, the shaman wins. Otherwise the spirit wins, and flees contently without providing any power. If the shaman critically fails her Barter roll, the spirit becomes hostile and attacks the shaman.
+	If the bartering is successful, the spirit lends some of its power to shaman. If the bartering result is a tie, the spirit wins, and flees contently without providing any power. If the shaman critically fails her Barter roll, the spirit becomes hostile and attacks the shaman.
 	
 	The maximum number of active Runes (as enchantments or spell reserves) is equal to half of shaman's Spirit Affinity.
 	
 	\subsubsection*{Spirit Combat}
-	Sometimes the spirit turns hostile. This may be be the result of an unskilled shaman Sometimes the spirit turns hostile. This may be the result of an unskilled shaman summoning it or failing miserably in bartering, or the spirit is simply unfriendly to begin with. Whatever the case, an unfriendly or annoyed spirit may attack the shaman and her friends. When a Spirit turns hostile, they also become more tangible in order to cause damage to the subject of their ire.
+	Sometimes the spirit turns hostile. This may be the result of an unskilled shaman summoning it or failing miserably in bartering, or the spirit is simply unfriendly to begin with. Whatever the case, an unfriendly or annoyed spirit may attack the shaman and her friends. When a Spirit turns hostile, they also become more tangible in order to cause damage to the subject of their ire.
 	
 	Due to them becoming tangible, Spirits take damage from weapons as would any mortal creature. When attacking, Spirits roll their Barter to confirm a hit. In addition to having their spells, as listed in the Magic Codex, Spirits can strike with a basic attack which deals damage with the following formula:
 	
 	\begin{center}
-		$10+[Spirit \, \, Power * d10]$
+		$2+[Spirit \, \, Power * d6]$
 	\end{center}
 	
 	The basic attack uses 5 AP. Unless otherwise specified, the basic attack is a melee attack and must be done into adjacent hex. In addition, spirits can have additional effects in their Basic attack, based on what kind of a spirit they are; Fire spirits' Basic attack is purely fire-damage, and can cause a Burning- status effect.
@@ -3962,7 +3971,7 @@
         \cellcolor{gray!50} \multirow{-13}{1,3cm}{}     & Jumping, Up             & 3 AP                              & STR <5, 0,5 meters    STR 5-9, 1 meter      STR 10, 1,5 meters                        \\
 		\cellcolor{gray!50} Movement     & Withdraw                & 4 AP                              & Does not provoke AoO, may Sprint                                                      \\ \hline
         \cellcolor{gray!50} Attack Actions     & Attack                  & Weapon-specific                   & 1d100 result under or equal to Combat Skill results in a hit                          \\
-        \cellcolor{gray!50}      & Called Shot             & +2 AP                             & Cripple body parts                                                                    \\
+        \cellcolor{gray!50}      & Called Shot             & +2 AP                             & Cripple body parts , -1 DT on target                                                                   \\
         \cellcolor{gray!50}      & Aim                     & +2 AP                             & +10 to combat skill for next attack                                                   \\
         \cellcolor{gray!50}      & Reload                  & Weapon-specific                   &                                                                                       \\
         \cellcolor{gray!50}      & Casting a Spell         & Spell-specific                    &                                                                                       \\
