@@ -2656,15 +2656,15 @@
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|l|l|}
 			\hline
-			\textbf{Cover}                            & \textbf{DT}  \\ \hline
-			Window glass                              & 0   \\
-			Wooden door, Table, Bush                  & 5   \\
-			Thin metal sheet, Traffic sign            & 15  \\
-			Tree trunk, Exterior wall, Ice            & 20  \\
-			Concrete wall, 20cm                       & 25  \\
-			Stone wall                                & 25  \\
-			Bulletproof glass                         & 50  \\
-			\begin{tabular}{@{}l@{}}Metal door, Armored vehicle, \\Sandbag wall\end{tabular} & 100 \\ \hline
+			\textbf{Cover}                                       & \textbf{DT} \\ \hline
+			Window glass, Bush                                   & 0           \\
+			Wooden door, Table                                   & 1           \\
+			Thin metal sheet, Traffic sign                       & 1           \\
+			Tree trunk, Exterior wall, Ice                       & 2           \\
+			Concrete wall, 20cm                                  & 3           \\
+			Stone wall                                           & 3           \\
+			Bulletproof glass                                    & 5           \\
+			\begin{tabular}{@{}l@{}}Metal door, Armored vehicle, Sandbag wall                                         		\end{tabular} & 10 \\ \hline
 		\end{tabular} 
 		
 	\end{table}
@@ -2795,7 +2795,7 @@
 			Mind-Controlled & May act w/o her own volition     &    3     & Mind Bleach              \\
 			Encumbered      & Cannot Sprint, Climb or Swim     & Until Removal         & \begin{tabular}{@{}l@{}}Remove excess \\ weight \end{tabular}                        \\
 			Petrified       & Cannot act                       &    -     & \begin{tabular}{@{}l@{}}Failsafe,\\ Petrify-spell\end{tabular}  \\
-			Stunned         & Cannot spend AP                  &    3     & Kickstarter              \\
+			Stunned         & Cannot move or attack                  &    3     & Kickstarter, Strain              \\
 			Unconscious     & Cannot act                       &    3     & Kickstarter              \\ \hline
 		\end{tabular} 
 		
@@ -2830,7 +2830,7 @@
 	Character has turned into stone via magic, rendering them entirely unable to act. If this statue is smashed into pieces, the character dies. This nefarious magic can be countered with a Failsafe and Petrify spells.
 	
 	\subsubsection*{Stunned}
-	Character has been stunned, often by a strong electric shock or heavy blunt blow. Her actions are limited to only perceiving and communicating with her surroundings. She is unable to act until her state of daze is over or someone helps her recover.
+	Character has been stunned, often by a strong electric shock or heavy blunt blow. Her actions are limited to only perceiving and communicating with her surroundings. She is unable to act until her state of daze is over, someone helps her recover by spending 4 AP to shake her awake, or at the start of her turn the character spends 1 Strain and 4 AP to retry an END check.
 	
 	Stun can be resisted with a successful END roll. If the character fails their roll, the character gains the Stunned condition as normal. If the roll is successful, and after the character has recovered from the stun, she is immune to another Stun attempt for 1 round.
 	
@@ -2987,7 +2987,7 @@
 	Combat Variables may sometimes affect the casting of a spell. Check the skill modifiers provided in this chapter, under Combat Statistics - Combat Variables.
 	
 	\subsubsection*{Sneak Attack}
-	After a successful \textbf{Sneaking} attempt, or when the target is otherwise unaware, one can perform a Sneak Attack. She gains a bonus of 15 to her chance to deal \textbf{Critical Damage} (doesn't affect actual skill hit chance). Character can make a Sneak Attack with any attack, except explosives. The \textbf{AP cost} for Sneak Attack is increased by 2 compared to the normal attack.
+	After a successful \textbf{Sneaking} attempt, or when the target is otherwise unaware, one can perform a Sneak Attack. She gains a bonus of 15 to her chance to deal \textbf{Critical Damage} (doesn't affect actual skill hit chance). Character can make a Sneak Attack with any attack except explosives. The \textbf{AP cost} for Sneak Attack is increased by 2 compared to the normal attack.
 	
 	After her Sneak Attack, the character may try a new \textbf{Use Skill (Sneak)} action with a penalty of -30. If the action is successful, she gets away unnoticed and may make another Sneak Attack. However, the attack itself is always noticed - with Melee or unarmed sneak attacks, only the victim notices the attack made against him, while ranged attacks are noticed by everyone who could either hear or see the attack.
 	
@@ -3388,11 +3388,11 @@
 	
 	\begin{description}
 		\item[Spirit Affinity] - determines the maximum power of summoned spirits.
-		\item[Potency] - determines the power of spells. Potency is determined by the spell school of each individual spell, combining SPECIAL value with the character's level. 
+		\item[Potency] - determines the power of spells, taking into account the character's level and the school's associated SPECIAL attribute.
 		\item[Strain] - determines the amount of fatigue gained by casting the spell. The amount of Strain the character can withstand is static. Strain cost is determined by the spell. Strain recovers fully with rest.
 	\end{description} 
 	
-	The exact descriptions of these statistics and how to determine them can be found in Chapter 2: Characters - Secondary Statistics.
+	The exact descriptions of these statistics and how they are determined can be found in Chapter 2: Characters - Secondary Statistics.
 	
 	The exact descriptions of all spells, alchemical recipes and spirits can be found in \emph{\textbf{Magic Codex}}.
 	
@@ -3434,7 +3434,9 @@
 	
 	Spells that require multiple turns to cast call for concentration from the caster. If the caster is interrupted during the casting, i.e. taking damage or suffering from Distraction, she has to roll Thaumaturgy to keep her concentration on the spell. This action requires no AP or Strain from the caster, as it is reactionary.
 	
-	Combat will always be considered difficult to a Spellcaster and a Thaumaturgy roll is required for all spells cast during combat or similar situations. Any Distraction modifiers affect a Thaumaturgy roll.
+	% Have to check if we have any spells that require more than one turn to complete ~Waak
+	
+	Combat will always be considered difficult to a spellcaster and a Thaumaturgy roll is required for all spells cast during combat or similar situations. Any Distraction modifiers affect a Thaumaturgy roll. Outside of combat, if the caster can take his time with a spell and the spell in question doesn't ask for an opposed roll, the Thaumaturgy check can be ignored.
 		
 	\vfill
 	
@@ -3446,7 +3448,7 @@
 	\end{verse}
 
 	\subsection*{Damage with Spells}
-	Often magic is used for offensive purposes, and thus deal damage to the intended target. Damage is listed similarly to damage done by Equipment, with base damage listed first and the number of d10 dice to be thrown written in parenthesis, i.e. 20+(3). Some spells take the caster's Potency into account as a multiplier when calculating the base damage, i.e. Potency*2+(3).
+	Often magic is used for offensive purposes, and thus deal damage to the intended target. Damage is listed similarly to damage done by Equipment, with base damage listed first and the number of d6 dice to be thrown written in parenthesis, i.e. 2+(3). Some spells take the caster's Potency into account as a multiplier when calculating the base damage, i.e. Potency*2+(3).
 	
 	\clearpage
 	
@@ -3489,6 +3491,7 @@
 			\item Earthly Warning
 			\item Find Poison
 			\item Improve Obstacle
+			\item Seismic Sight
 			\item Smart Cookie's Invocation
 		\end{compactitem}
 		\item \textbf{Charisma Related Spells (CHA)}
@@ -3532,7 +3535,7 @@
 	
 	In the Equestrian Wasteland one can sometimes find a copy of a flight magazine called \emph{``Aerodynamics Monthly''}. This magazine was published during the war to showcase the techniques used by Wonderbolts. Reading this magazine will teach 1 new Aerial Maneuver per magazine, and the specific Maneuver learned is decided by the player.
 	
-	To learn a new Maneuver by self-teaching, the character must roll 4 successful checks of AGI/END/CHA -2, the stat depending on the Maneuver the character wants to learn. Only one check may be made per day, and this check can be re-rolled once per day. These successful checks do not have to be consecutive.
+	To learn a new Maneuver by self-teaching, the character must roll 4 successful checks of AGI/END/CHA -2, the stat depending on the Maneuver the character wants to learn. Only one check may be made per day, and these successful checks do not have to be consecutive.
 	
 	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
 	
@@ -3608,7 +3611,7 @@
 	
 	Characters can learn new spells in two ways - through leveling up or seeking out and experimenting on their own. As mentioned, every 5 levels the character can learn a new spell of their choosing, which is immediately added to their arsenal. It is best to consult the GM on spell choices. 
 	
-	To learn a new spell by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and the character may re-roll this check once per day.
+	To learn a new spell by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and these successes do not have to be consecutive.
 	
 	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
 	
@@ -3705,7 +3708,7 @@
 			\item Friendly Critter's Help
 			\item Mental Bulwark
 			\item Rad-Guard
-			\item Toughen Hide
+			\item Toughened Frame
 		\end{compactitem}
 		\item \textbf{Transmutation Magic (END)}
 		\begin{compactitem}
@@ -3811,7 +3814,7 @@
 	\subsubsection*{Spirit Power}
 	Different spirits have different strengths. \textbf{Spirit Power} indicates the power of the spirit, as well as the power of magic it uses. The more powerful the spirit is, the harder it is to summon, barter with or bind. However, the stronger the spirit is the greater the spirit magic effects are.
 	
-	Spirit Power rating is a number between 1 and 10. The exact effect of Spirit Power varies and are explained in future sections or in the details of each individual spirit.
+	Spirit Power rating is a number between 1 and 12. The exact effect of Spirit Power varies and are explained in future sections or in the details of each individual spirit.
 	
 	\subsubsection*{Interacting with Spirits}
 	Shaman knows the world of spirits, and the spirits know and hear the shaman's call. At the beginning of the summoning ritual, the shaman chooses her end goal - will she try to imprison the spirit in a \textbf{Spirit Prison} or strike a deal with the spirit and store its power in a \textbf{Rune}.
@@ -3833,7 +3836,9 @@
 			7            & 14                   & 35              & 50     & 14\%             & 16 \\
 			8            & 16                   & 40              & 55     & 16\%             & 18 \\
 			9            & 18                   & 45              & 60     & 18\%             & 20 \\
-			10           & 20                   & 50              & 65     & 20\%             & 22 \\ \hline
+			10           & 20                   & 50              & 65     & 20\%             & 22 \\ 
+			11           & 22                   & 60              & 75     & 30\%             & 24 \\ 
+			12           & 24                   & 70              & 85     & 40\%             & 26 \\ \hline
 		\end{tabular} 
 		
 	\end{table*}
