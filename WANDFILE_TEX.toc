@@ -28,5 +28,5 @@
 \contentsline {subsection}{Fire}{39}{section*.73}
 \contentsline {subsection}{Water}{41}{section*.82}
 \contentsline {section}{Yak Battle Chants}{44}{section*.91}
-\contentsline {subsection}{Yak Chant List}{45}{section*.93}
+\contentsline {subsection}{Yak Chant List}{44}{section*.93}
 \contentsline {chapter}{\numberline {5}Race Builder [WIP]}{49}{chapter.5}

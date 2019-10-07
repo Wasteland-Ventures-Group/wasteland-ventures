@@ -54,7 +54,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 1.4.3}
+		\textbf{Version 2.0.0}
 		
 		\emph{Last compiled on \thedate}
         
@@ -933,7 +933,7 @@
 	
 	Kirin start with 3 spells, 2 of their choice from the kirin's Spell list, and either Elemental Orb or Elemental Coat. Whichever one wasn't chosen can be attained later through level-up.
 	
-	Kirins learn a new spell via level-up every 6th level, and can learn spells in their spare time. To learn a new spell by self-teaching, one must make 4 successful SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and the character may re-roll this check once per day. The successful rolls do not have to be consecutive.
+	Kirins learn a new spell via level-up every 6th level, and can learn spells in their spare time. To learn a new spell by self-teaching, one must make 4 successful SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and the successful rolls do not have to be consecutive.
 	
 	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
 	
@@ -949,7 +949,7 @@
 	\begin{compactitem}
 		\item Transformation causes Minor Distraction on all within Large Burst Template, centered on you. This Distraction requires no check.
 		\item Immunity to Burning and Freezing.
-		\item Gain +10 and +(1) die to all damage; melee and unarmed attacks are considered to deal fire damage.
+		\item Gain +1 base and +(1) die to all damage; melee and unarmed attacks are considered to deal fire damage.
 		\item +10 to Intimidation skill
 	\end{compactitem}
 	
@@ -978,9 +978,9 @@
 		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 			\hline
 			School 			&  General (Any Special)\\
-			AP Cost	      	&  3				\\
-			Strain Cost     &  5				\\
-			Range     		&  Potency/2 meters	\\
+			AP Cost	      	&  4				\\
+			Strain Cost     &  2				\\
+			Range     		&  Potency*2 meters	\\
 			Target      	&  1 Target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  3 Turns			\\ \hline
@@ -993,10 +993,10 @@
 	The caster encases a target in a veil of  element of their choosing, granting them boons depending on the element they chose.
 	
 	\begin{compactitem}
-		\item Fire: Gain +1 END against Burning, and +10 DT against Fire dmg.
-		\item Ice: Gain +1 END against Freezing and +10 DT against Cold dmg.
-		\item Electric: Gain a +1 END against Stun, and +10 DT against electric damage
-		\item Arcane: Ignore half (rounded down) of the incoming damage.
+		\item Fire: Gain +1 END against Burning, and +1 DT against Fire dmg.
+		\item Ice: Gain +1 END against Freezing and +1 DT against Cold dmg.
+		\item Electric: Gain +1 END against Stun, and +1 DT against electric damage
+		\item Earth: Gain +1 END against Bleeding and Petrified.
 	\end{compactitem}
 	
 	\subsubsection*{Elemental Orb (Any)}
@@ -1007,9 +1007,9 @@
 		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 			\hline
 			School 			&  General (Any Special)\\
-			AP Cost	      	&  3					\\
+			AP Cost	      	&  4					\\
 			Strain Cost     &  1					\\
-			Range     		&  Potency*4			\\
+			Range     		&  Potency*4 meters			\\
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
@@ -1019,7 +1019,7 @@
 	
 	\medskip
 	
-	The caster summons orbs of energy from their branched horn. This spell deals Potency+10+(3) damage. This is a basic offensive spell, and the caster can fire multiple orbs of energy depending on their Potency:
+	The caster summons orbs of energy from their branched horn. This spell deals 1+(3) damage. This is a basic offensive spell, and the caster can fire multiple orbs of energy depending on their Potency:
 	
 	\begin{compactitem}
 		\item $<$10 Potency 		2 Orbs
@@ -1027,16 +1027,16 @@
 		\item 21+ Potency 			5 Orbs
 	\end{compactitem}
 	
-	Likewise, the orb can be made out of an element of the caster's choosing, though all orbs are of the same element:
+	Likewise, the orb can be made out of an element of the caster's choosing, though all orbs are of the same element when conjured:
 	
 	\begin{compactitem}
 		\item Fire: Can inflict Burning status
 		\item Ice: Can inflict Freezing status
 		\item Electricity: Can inflict Stun and will inflict Stun on robots and Power Armor
-		\item Arcane: Deals extra (2) damage
+		\item Earth: Orbs have 20\% base Cripple chance
 	\end{compactitem}
 	
-	The Strain cost of the spell targets the conjuring of the orbs, and firing the orbs doesn't cost Strain, though they do cost 2 AP to fire at a target.
+	The Strain cost of the spell targets the conjuring of the orbs, and firing the orbs doesn't cost Strain, though they do cost 3 AP to fire at a target.
 	
 	
 
@@ -1160,7 +1160,7 @@
 	
 	\medskip
 	
-	The caster turns a target temporarily incorporeal, making non-magical weaponry have their related skill halved for the purpose of hitting the target. Magical weapons, spirits, enchanted weapons (not modded) and magic are not affected, however.
+	The caster turns a target temporarily incorporeal, making non-magical weaponry have their related skill halved for the purpose of hitting the target. Magical energy weapons, spirits, enchanted weapons (not modded) and magic are not affected, however.
 	
 	The incorporeal character can function as normal, as if they were corporeal.
 	
@@ -1214,7 +1214,7 @@
 	
 	The caster's appealing and positive traits seem more pronounced, while character's less pleasant qualities seem to be more trivial. The spell adds a bonus of 5 + Potency to Barter and Diplomacy checks, and improves NPC disposition by one step. Spell costs 3 AP and 3 Strain.
 	
-	Common version of the spell affects only the caster. One may instead affect up to 4 other creatures, which then all benefit from the spell. However, this increases the spell's AP and Strain costs by 2 and 2 respectively.
+	Common version of the spell affects only the caster. One may instead affect up to 4 other creatures, which then all benefit from the spell. However, this increases the spell's AP and Strain costs by 2.
 	
 	\vfill
 	
@@ -1340,7 +1340,7 @@
 	
 	\medskip
 	
-	The caster conjures a sharp gust of wind and sends it dashing forwards. This blade-like, nearly invisible projectile moves in a straight line, injuring anyone in its path. The projectile deals Potency+(2) damage. DT applies normally.
+	The caster conjures a sharp gust of wind and sends it dashing forwards. This blade-like, nearly invisible projectile moves in a straight line, injuring anyone in its path. The projectile deals 2+(2) damage to each target it hits. DT applies normally.
 	
 	The furthest the Wind Sickle can reach relies on the caster's Potency as follows:
 	
@@ -2130,15 +2130,14 @@
 	
 	Battle chants work best when the performer maintains the effect for multiple turns. The chanting yak can freely choose to continue their spell as long as they have the AP to spend, but getting attacked or distracted while maintaining results in the chanter having to roll Thaumaturgy or have their concentration on the spell break.
 	
-	Though Strain cost is only removed when the spell is started, the AP cost of the spell hikes up the longer it is maintained. 
-	Characters that move out of the spell's Area of Effect will not be under the spell's influence in their next turn, but will feel the effects on the turn they left the Area of Effect.
+	Though Strain cost is only removed when the spell is started, the AP cost of the spell hikes up the longer it is maintained. Characters that move out of the spell's Area of Effect on their turn will maintain the associated effect until the end of their turn.
 	
 	The performance of most of these spells, sans Survival Chant, do not prohibit the Chanter from otherwise acting. In addition, no two Chants can be active on the battlefield at the same time.
 	
 	\subsection*{Learning Spells}
 	Due to the nature of the chant being a practiced routine, yaks cannot learn spells by level-up, having to resort of actively pursue new chants by learning them instead.
 	
-	To learn a new chant, the character must roll 4 successful checks of STR/CHA -2, the stat to be rolled can be decided by the player. Only one check may be made per day, and this check can be re-rolled once per day. These successful checks do not have to be consecutive.
+	To learn a new chant, the character must roll 4 successful checks of STR/CHA -2, the stat to be rolled can be decided by the player. Only one check may be made per day, and the successful checks do not have to be consecutive.
 	
 	\vfill
 	
@@ -2157,8 +2156,8 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
 			Strain Cost     &  2					\\
-			Range     		&  Potency/2 meters		\\
-			Target      	&  All enemies				\\
+			Range     		&  Potency*2 meters		\\
+			Target      	&  All enemies in range				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
 		\end{tabu}
@@ -2169,13 +2168,22 @@
 	
 	Challenge Chant is an infuriatingly loud chant that draws the ire of the yak's enemies, allowing the yak Chanter's companions more freedom on the battlefield. This however, can pose a risk on the chanter, as the enemy might overpower them.
 	
-	The spell targets all enemies within range, forcing them to turn their attention to the chanter instead of their current target for the duration of the spell. An Opposed roll of Chanter's CHA or STR against the enemy's INT determines if the spell works. Each affected enemy is rolled separately. When the spell ends, the enemies are free of the effect, and are free to decide who to attack next. 
+	The spell targets all enemies within range, forcing them to turn their attention to the chanter instead of their current target for the duration of the spell. An Opposed roll of Chanter's CHA or STR against the enemy's INT determines if the spell works, with a penalty to the enemies according to the chanter's Potency: 
 	
-	If the enemies are adjacent to the chanter and leave without Withdraw-action, the chanter gets an Attack of Opportunity.
+	\begin{quote}
+		\begin{description}
+			\item[$<$10 Potency] 	-0 penalty
+			\item[10-19 Potency] 	-10 penalty
+			\item[20+ Potency] 		-20 penalty
+		\end{description}
+	\end{quote}
 	
-	Initiating this spell costs 5 AP and 2 Strain. Maintaining this spell raises the AP cost by 1 per turn ((1st turn: 6 AP, 2nd turn: 7 AP, 3rd Turn: 8 AP...). Maintaining the spell doesn't cost Strain. 
 	
-	The spell ends once the Chanter cannot spend more AP on the spell, or if they prematurely end the spell's effect.
+	When the spell ends, the enemies are free of the effect, and are free to decide who to attack next. If the enemies are adjacent to the chanter and leave without Withdraw-action, the chanter gets an Attack of Opportunity.
+	
+	Initiating this spell costs 5 AP and 2 Strain. Maintaining this spell raises the AP cost by 1 per turn afterwards ((2nd turn: 6 AP, 3rd turn: 7 AP, 4th turn: 8 AP...). Maintaining the spell doesn't cost Strain. 
+	
+	The spell ends once the Chanter cannot spend more AP on the spell, or if they choose not to continue the chant on their turn.
 	
 	\vfill
 	
@@ -2189,7 +2197,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  7					\\
 			Strain Cost     &  4					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2200,9 +2208,9 @@
 	\medskip
 	
 	This loud but punctual chant keeps your armies organized and keeps them from breaking rank. Allies within casting area cannot be pushed or tripped, and they are immune to Panic Pain threshold; if a character under the effect of this spell are about to get Panic, GM rerolls until she gets something else as a Pain Threshold. 
-	On a critically successful Thaumaturgy roll, the group also gains a small DT bonus of +5.
+%	On a critically successful Thaumaturgy roll, the group also gains a small DT bonus of +5.
 	
-	The spell costs 7 AP and 4 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (1st turn: 8 AP, 2nd turn: 9 AP, 3rd turn: 10 AP...). Maintaining the spell doesn't cost Strain. 
+	The spell costs 7 AP and 4 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 8 AP, 3rd turn: 9 AP, 4th turn: 10 AP...). Maintaining the spell doesn't cost Strain. 
 	
 	
 			\subsubsection*{March Chant}
@@ -2215,7 +2223,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  -					\\
 			Strain Cost     &  4					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Huge Burst		\\
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2227,9 +2235,18 @@
 	
 	This punctual and precise chant was made to keep the soldiers on their hooves on long marches, and to keep focus on something other than aching feet. 
 	
-	This chant doubles traveling speed of the party, chanter included, at the cost of them suffering a loss of Strain the next day.
+	This chant doubles traveling speed of the party, chanter included, at the cost of them suffering from Encumbered status until they rest. For how long the chant, and thus the doubled speed, can be kept depends on the chanter's Potency as follows:
 	
-	For each hour this spell is maintained for, to a maximum of 5, all affected lose 1 Strain the next day due to pushing themselves.
+%	For each hour this spell is maintained for, the maximum dependent on chanter's Potency, all affected lose 1 Strain the next day due to pushing themselves. For example, keeping the chant going for 3 hours makes everyone affected to have an effective maximum Strain be reduced by 3 
+	
+	\begin{quote}
+		\begin{description}
+			\item[$<$10 Potency] 	max 4 hours
+			\item[10-19 Potency] 	max 5 hours
+			\item[20+ Potency] 		max 6 hours
+		\end{description}
+	\end{quote}
+	
 	
 	\subsubsection*{Nightmare Chant}
 	%	\addcontentsline{toc}{section}{Nightmare Chant}
@@ -2241,7 +2258,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  8					\\
 			Strain Cost     &  5					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  All enemies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2253,11 +2270,11 @@
 	
 	This monstrous melody was made with simple message to enemy - yaks are coming for you and they will stomp you down. Don't run. Don't fight. You can't change fate.
 	
-	Even if one can ignore lyrics, they can't ignore sheer noise and sharp tones of this song. Therefore any enemy in range needs to roll as if they landed on Pain Threshold. Maintaining this spell for multiple turns keeps the enemies under the Pain Threshold effect, but they do not reroll each turn this spell is active. Likewise, this spell doesn't actually drop the target's HP into Pain Threshold area, but merely mimics the effect. 
+	Even if one can ignore lyrics, they cannot overlook the sheer noise and sharp tones of this song. Therefore any enemy in range needs to roll as if they landed on a Pain Threshold. Maintaining this spell for multiple turns keeps the enemies under the Pain Threshold effect, but they do not reroll each turn this spell is active. Likewise, this spell doesn't actually drop the target's HP into Pain Threshold area, but merely mimics the effect. 
 	
-	The spell costs 8 AP and 5 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (1st turn: 9 AP, 2nd turn: 10 AP, 3rd turn: 11 AP...). Maintaining the spell doesn't cost Strain. 
+	The spell costs 8 AP and 5 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 9 AP, 3rd turn: 10 AP, 4th turn: 11 AP...). Maintaining the spell doesn't cost Strain. 
 	
-	The spell ends once the Chanter cannot spend more AP on the spell, or if they prematurely end the spell's effect. After the spell ends, the effect the enemy was under disappears.
+	The spell ends once the Chanter cannot spend more AP on the spell, or if they choose not to continue the chant on their turn. After the spell ends, the effect the enemy was under disappears.
 	
 	\vfill
 	
@@ -2287,7 +2304,7 @@
 	
 	This chant is difficult to pull off and requires all of the chanter's concentration. Thus, both initiating and maintaining this spell uses all of the chanter's AP, leaving them unable to do anything else as long as they're maintaining this spell, including defending themselves.
 	
-	If the Chanter is attacked or Distracted while maintaining this spell, they have to follow the concentration rules; roll Thaumaturgy to keep their concentration on the spell. If the concentration fails, the spell ends and the dying characters resume to die. Dying characters that get healed during this spell lose the effect of the spell on them and can go down again.
+	If the chanter is attacked or distracted while maintaining this spell, they have to follow the concentration rules; roll Thaumaturgy to keep their concentration on the spell. If the concentration fails, the spell ends and the dying characters resume to die. Dying characters that get healed during this spell lose the effect of the spell on them and can go down again.
 		
 
 		\subsubsection*{Taming Chant}
@@ -2300,7 +2317,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  10					\\
 			Strain Cost     &  4					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  All enemies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2312,9 +2329,19 @@
 	
 	A chant designed not by yaks, but by a pink-hued ministry mare, coincidentally also an honorary yak. The chant has mildly hypnotic component to it, the rhythm of it tantalizing.
 	
-	All enemies within the range of this spell must roll their INT+3, to see if they fall under the Mind-Control status effect. Insect creatures must roll twice and take the worse result due to their simpler brains.
+	All enemies within the range of this spell must roll for INT to see if they fall under the Mind-Control status effect. Insect creatures must roll twice and take the worse result due to their simpler brains.
 	
-	The spell costs 10 AP and 4 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (1st turn: 11 AP, 2nd turn: 12 AP, 3rd turn: 13 AP...). Maintaining the spell doesn't cost Strain. 
+	The chanter's Potency determines the exact roll modifiers of the enemies' INT roll:
+	
+	\begin{quote}
+		\begin{description}
+			\item[$<$10 Potency] 	+20 bonus
+			\item[10-19 Potency] 	-0 penalty
+			\item[20+ Potency] 		-20 penalty
+		\end{description}
+	\end{quote}
+	
+	The spell costs 10 AP and 4 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 11 AP, 3rd turn: 12 AP, 4th turn: 13 AP...). Maintaining the spell doesn't cost Strain. 
 	
 	For each turn the chanter continues the chant, those not affected have to roll to check if they fall under the influence again.
 
@@ -2329,7 +2356,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
 			Strain Cost     &  2					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2339,18 +2366,23 @@
 	
 	\medskip
 	
-	This concentration-boosting chant was made for sustaining mages in stressful combat situations. This chant gives all allies within range +10 to their Thaumaturgy for the duration of this spell. In addition, the allies within range are immune to Enraged-status during this spell. 
-	Any characters within range that are already under Enraged lose their status effect due to this spell.
+	This concentration-boosting chant was made for sustaining mages in stressful combat situations. This chant gives all allies within range a bonus to their Thaumaturgy for the duration of this spell. The exact Thaumaturgy bonus depends on the caster's Potency:
 	
-	The spell costs 5 AP and 2 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (1st turn: 6 AP, 2nd turn: 7 AP, 3rd turn: 8 AP...). Maintaining the spell doesn't cost Strain. 
+	\begin{quote}
+		\begin{description}
+			\item[$<$10 Potency] 	+5 bonus
+			\item[10-19 Potency] 	+10 bonus
+			\item[20+ Potency] 		+20 bonus
+		\end{description}
+	\end{quote}
+	
+	In addition, the allies within range are immune to Enraged-status while this chant is active. Allies within range already under Enraged status lose the status effect immediately.
+	
+	The spell costs 5 AP and 2 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 6 AP, 3rd turn: 7 AP, 4th turn: 8 AP...). Maintaining the spell doesn't cost Strain. 
 	
 	\vfill
-
 	
-	
-	
-	
-		\subsubsection*{Volley Chant}
+	\subsubsection*{Volley Chant}
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
@@ -2360,7 +2392,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  7					\\
 			Strain Cost     &  2					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2370,9 +2402,9 @@
 	
 	\medskip
 	
-	This chant was created back in times that firearms were crude. Yak weaponry was quite amazing in firepower but very heavy and unwieldy, so new song and routine was made to make awkward reloading of massive muskets a bit easier. Yak heavy musketeers found easier to fire fast with this chant. And so this chant reduces all nearby allies cost to fire and reload their non-auto Firearms/MEWs by 1 AP.
+	This chant was created back in times that firearms were crude. Yak weaponry was quite amazing in firepower but very heavy and unwieldy, so a new song and routine was made to make awkward reloading of massive muskets less cumbersome. Yak heavy musketeers found it easier to fire fast with this chant. And so this chant reduces all nearby allies cost to fire and reload their non-automatic Firearms/MEWs by 1 AP.
 	
-	The spell costs 7 AP and 2 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (1st turn: 8 AP, 2nd turn: 9 AP, 3rd turn: 10 AP...). Maintaining the spell doesn't cost Strain. 
+	The spell costs 7 AP and 2 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 8 AP, 3rd turn: 9 AP, 4th turn: 10 AP...). Maintaining the spell doesn't cost Strain. 
 	
 
 	
@@ -2386,7 +2418,7 @@
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
 			Strain Cost     &  2 / damage die					\\
-			Range     		&  Potency meters		\\
+			Range     		&  Potency*2 meters		\\
 			Target      	&  Allies			\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
@@ -2398,11 +2430,19 @@
 	
 	The aggressive and loud war chant is likely the oldest chant in the repertoire; thought to have originated from the very first conflicts in yak history, and composed by the very first yak chanter, Nergüi the Fearless. The actual lyrics of this chant have been lost to the sands of time, leaving behind only something resembling words.
 	
-	This chant has differing Strain cost: for each bonus damage dice applied through this chant, the Strain cost is increased by 2, with a maximum of +(4) bonus to damage at cost of 8 Strain.
+	This chant has differing Strain cost: for each bonus damage dice applied through this chant, the Strain cost is increased by 2, with a maximum bonus damage determined by the chanter's Potency:
 	
-	Characters within the caster's casting area get the bonus on their next turn's first attack. After this attack, the bonus is lost. Additional turns' chanting re-applies this bonus on the characters in range. 
+	\begin{quote}
+		\begin{description}
+			\item[$<$10 Potency] 	+2 damage dice
+			\item[10-19 Potency] 	+3 damage dice
+			\item[20+ Potency] 		+4 damage dice
+		\end{description}
+	\end{quote}
 	
-	Making this action costs 5 AP on first turn. The caster can continue the chant on the following turns, but each additional turn increases the AP cost of the chant by 1 (1st turn: 5 AP, 2nd turn: 6 AP, 3rd turn: 7 AP...). Strain cost is issued only on the starting turn of the chant.
+	Characters within range gain this bonus on their turn's first attack. After this attack, the bonus is lost. Additional turns' chanting re-applies this bonus on the characters in range. 
+	
+	Making this action costs 5 AP on first turn. The caster can continue the chant on the following turns, but each additional turn increases the AP cost of the chant by 1 (2nd turn: 5 AP, 3rd turn: 6 AP, 4th turn: 7 AP...). Strain cost is issued only on the starting turn of the chant.
 	
 	
 	\chapter{Race Builder [WIP]}
