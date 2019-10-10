@@ -1059,7 +1059,7 @@
 	
 	Unlike most Unicorns the character can only cast a single spell. Lucky for her, she casts that one spell very well!
 	
-	The character chooses only one spell at the begin of play. She cannot learn new spells on level up or otherwise. Instead, her Potency is twice as effective with that spell than normal.
+	The character chooses only one spell at the begin of play. She cannot learn new spells on level up or otherwise. Instead, her Potency modifier from SPECIALs is twice as effective with that spell than normal.
 	
 	Also, One Trick Ponies have double the standard Strain pool size, at 40.
 	A character may not have both \textbf{Spread Thin} trait and \textbf{One Trick Pony} trait.
@@ -1130,14 +1130,10 @@
 	
 	The character's breadth of ability is second to none. If her spells weren't so weak, she could change the world!
 	
-	The character can choose up to 6 spells at character creation in addition to \emph{Telekinesis} and \emph{Light}. 
+	The character can choose up to 8 spells at character creation in addition to \emph{Telekinesis} and \emph{Light}. 
 	
-	However, her Potency on spells is half of that of normal.
+	However, her Potency on spells do not gain bonuses from SPECIALs.
 	
-%	However, her Potency is less than normal, according to the formula below:
-%	\begin{center}
-%		$[lvl+(SPECIAL)]/2$
-%	\end{center}
 	A character may not have both \textbf{Spread Thin} trait and \textbf{One Trick Pony} trait.
 	
 	\subsection*{Stable Dweller}
@@ -1302,6 +1298,7 @@
 	
 	However, Explosive weapons do not deal critical damage, nor can they be used to do \textbf{Called Shots}. In case of a critical success, other effects may apply. In case of a failure, the explosive can deviate at least 1 hex up to half the launched/thrown distance from the intended target. In air-to-air combat, a missed attack automatically deals no damage.
 	
+	
 	\subsubsection*{Firearms}
 	The conventional and trustworthy Earth Pony (or griffon) engineering and gunpowder. Fires physical bullets and pellets of various shapes and size.
 	
@@ -1309,6 +1306,22 @@
 	
 	\subsubsection*{Melee weapons}
 	When one wants to keep the enemy a little distance away, but still close enough to see the fear form in their expression. Melee weapons have Special attacks one can execute, mentioned in their specific weapons. A character's STR value affects the damage output of all Melee weapons, as shown in Table 3.1.
+	
+		% Table for Melee Weapons subsubsection
+	\begin{table}[h]
+		\centering
+		\caption{STR effect on Melee/Unarmed}
+		\label{Table:3.1}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{STR} & \textbf{DMG Dice} \\ \hline
+			1-3      &       +0        \\
+			4-7      &       +1        \\
+			8-10     &       +2        \\
+			10+      &       +3        \\ \hline
+		\end{tabular} 
+	\end{table} 
 	
 	\subsubsection*{Magical Energy Weapons (MEW)}
 	A step up from firearms, MEWs add arcane sciences to the realm of gunfights - now everyone can be a little unicorn!
@@ -1323,20 +1336,6 @@
 	
 	Additionally, every 20 Skill Points in the Unarmed skill increases the character's Unarmed damage by 1 damage die - provided she's not wearing a gauntlet for her attacks. A character's STR value also affects the damage output of all Unarmed weapons, as shown in Table 3.1.
 	
-	\begin{table}[t]
-		\centering
-		\caption{STR effect on Melee/Unarmed}
-		\label{Table:3.1}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|c|c|}
-			\hline
-			\textbf{STR} & \textbf{DMG Dice} \\ \hline
-			1-3      &       +0        \\
-			4-7      &       +1        \\
-			8-10     &       +2        \\
-			10+      &       +3        \\ \hline
-		\end{tabular} 
-	\end{table} 
 	
 	\section*{Apparel}
 	\addcontentsline{toc}{section}{Apparel}
@@ -1368,7 +1367,7 @@
 	
 	On Table 3.2 are Apparel types listed and how long it will take to wear it. Power Armor is often outfitted with servos meant to hasten donning it on.
 	
-	\begin{table}[b]
+	\begin{table}[t]
 		\centering
 		\caption{Armor Donning Time}
 		\label{Table:3.2}
@@ -1394,6 +1393,11 @@
 	
 	It should be noted that while ponies are usually herbivores, most Wastelanders have adapted to eating meat. However, one should not go on gnawing a raw chunk of Radigator meat off the bat, as the raw ingredients do not give HP back. Only cooking meat into better ingested meals gives these bonuses. Some cooked meals also give additional effects once eaten. These fresh meals also have recipes for them in \emph{\textbf{Wasteland Wares}}.
 	
+	\begin{figure}[!b]
+		%\centering
+		\includegraphics[width=0.5\textwidth]{"ART/Chapter 3_Sparkle Cola"}
+	\end{figure}
+	
 	\subsection*{Alcohol \& Chems}
 	Alcohol and chems, or drugs, are recreational items most Wastelanders use to wind down and distract themselves from harsh realities of post-apocalyptic life.
 	
@@ -1413,6 +1417,8 @@
 	
 	\vfill
 	
+	\newpage
+	
 	\section*{Optional Equipment Rules}
 	\addcontentsline{toc}{section}{Optional Equipment Rules}
 	
@@ -1429,7 +1435,7 @@
 	
 	In Table 3.3 are shown what Components are gained from dismantling items apart.
 	
-	\begin{table}[!ht]
+	\begin{table}[t]
 		\centering
 		\caption{Items and their Components}
 		\label{Table:3.3}
@@ -1463,16 +1469,55 @@
 		\end{tabular} 
 	\end{table}	
 	
-	
-	To repair an item, a certain number of Components are required for repair, as well as a successful Mechanics roll. If the roll fails, 1 Component is damaged and lost and if the roll fails critically, half of the Components are damaged and rendered unusable.
-	
-	When repairing more than one condition drop, the amount of Components required are added together.
+	To repair an item, a certain number of Components are required for repair, as well as a successful Mechanics roll. If the roll fails, 1 Component is damaged and lost and if the roll fails critically, half of the Components are damaged and rendered unusable.	When repairing more than one condition drop, the amount of Components required are added together.
 	
 	Armor and weapon repair kits may be consumed to repair degradation instantly or carried around to give a +5 to Mechanics to make fixing your gear a little easier.
 	
 	If the weapon or armor drops beyond Poor condition, the item has broken and is unusable. A broken item can still be torn apart for scrap, but yields even that poorly.
 	
 	When weapons suffer a condition drop, they begin to lose in their ability to deal damage by changing the dice you roll to calculate damage. Likewise, the gun's value drops with each level of wear and tear it has. 
+	
+	% Weapon & Armor repair levels
+	\begin{table*}[t]
+		%\centering
+		\caption{Weapon Degradation Levels \& Changes}
+		\label{Table:3.4}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|l|c|c|c|c|c|}
+			\hline 
+			\textbf{Condition} & \textbf{AP Cost} & \textbf{Damage} & \textbf{Value} & \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanics} \\ \textbf{Modifier}\end{tabular} \\ 
+			\hline 
+			Perfect			& - & +1 	& 120\% 	& 16 & -50 \\ 
+			Good 			& - & - 	& 100\% 	& 8 & -30 \\ 
+			Used 			& +1 & - 	& 75\% 	& 4 & -10 \\
+			Heavily Used 	& +2 & - 	& 50\% 	& 2 & 0 \\ 
+			Poor 			& +3 & - 	& 25\% 	& 1  & +10 \\ 
+			\hline 
+		\end{tabular} 
+	\end{table*}
+	
+	\begin{table*}[t]
+		%\centering
+		\caption{Armor Degradation Levels \& Changes}
+		\label{Table:3.5}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|l|c|c|c|c|c|c|c|}
+			\hline 
+			\textbf{Condition} & \begin{tabular}{@{}c@{}}
+				\textbf{DT} \\
+				Light
+			\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT}\\ Heavy \\ Premium\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT} \\ Power \\ Armor\end{tabular} & \textbf{Value}  & 
+			\begin{tabular}{@{}c@{}}\textbf{Quick} \\ \textbf{Slots}\end{tabular}	&  \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanic}s \\ \textbf{Modifier}\end{tabular} \\ 
+			\hline 
+			Perfect			& +1  & +2 & +2 	& 120\% & - & 16 & -50  \\ 
+			Good 			& -   & - 	& - 	& 100\% & - & 8 & -30 \\ 
+			Used 			& -   & -1 	& -2 	& 75\% & -1 & 4 & -10 \\
+			\begin{tabular}{@{}l@{}}Heavily \\
+				Used \end{tabular} 	& -1  & -2 & -3 	& 50\% & -2 &2 & 0 \\ 
+			Poor 			& -2 & -3	& -4 	& 25\% & -3 & 1 & +10 \\ 
+			\hline 
+		\end{tabular} 
+	\end{table*}
 	
 	At Heavily used and Poor, the weapons' critical modifiers also lower, meaning that a badly damaged gun is less likely to do damage excellently.
 	
@@ -1506,61 +1551,24 @@
 
 	All damage equipment takes is up to the GM.
 	
-		\begin{table*}[t]
-			%\centering
-			\caption{Weapon Degradation Levels \& Changes}
-			\label{Table:3.4}
-			\rowcolors{1}{gray!30}{gray!10}
-			\begin{tabular}{|l|c|c|c|c|c|}
-				\hline 
-				\textbf{Condition} & \textbf{AP Cost} & \textbf{Damage} & \textbf{Value} & \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanics} \\ \textbf{Modifier}\end{tabular} \\ 
-				\hline 
-				Perfect			& - & +1 	& 120\% 	& 16 & -50 \\ 
-				Good 			& - & - 	& 100\% 	& 8 & -30 \\ 
-				Used 			& +1 & - 	& 75\% 	& 4 & -10 \\
-				Heavily Used 	& +2 & - 	& 50\% 	& 2 & 0 \\ 
-				Poor 			& +3 & - 	& 25\% 	& 1  & +10 \\ 
-				\hline 
-			\end{tabular} 
-		\end{table*}
+	\newpage
 		
-		\begin{table*}[t]
-			%\centering
-			\caption{Armor Degradation Levels \& Changes}
-			\label{Table:3.5}
-			\rowcolors{1}{gray!30}{gray!10}
-			\begin{tabular}{|l|c|c|c|c|c|c|c|}
-				\hline 
-				\textbf{Condition} & \begin{tabular}{@{}c@{}}
-					\textbf{DT} \\
-					Light
-				\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT}\\ Heavy \\ Premium\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{DT} \\ Power \\ Armor\end{tabular} & \textbf{Value}  & 
-				\begin{tabular}{@{}c@{}}\textbf{Quick} \\ \textbf{Slots}\end{tabular}	&  \begin{tabular}{@{}c@{}}\textbf{Components} \\ \textbf{required}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{Mechanic}s \\ \textbf{Modifier}\end{tabular} \\ 
-				\hline 
-				Perfect			& +1  & +2 & +2 	& 120\% & - & 16 & -50  \\ 
-				Good 			& -   & - 	& - 	& 100\% & - & 8 & -30 \\ 
-				Used 			& -   & -1 	& -2 	& 75\% & -1 & 4 & -10 \\
-				\begin{tabular}{@{}l@{}}Heavily \\
-					Used \end{tabular} 	& -1  & -2 & -3 	& 50\% & -2 &2 & 0 \\ 
-				Poor 			& -2 & -3	& -4 	& 25\% & -3 & 1 & +10 \\ 
-				\hline 
-			\end{tabular} 
-		\end{table*}
-	
-	\vfill
+	%\vfill
 	
 	\begin{verse}
 		\emph{\textbf{Example 1:} Emerald Glint was caught in the blast radius of an enemy frag grenade, and due to the explosion, her armor's condition drops from Good to Used. Her current armor is \textbf{Leather Armor}, a piece of Light armor which provides her with 2 DT and 2 Quick Slots. As a result of the Condition drop to Used, her apparel has lost one Quick Slot, but maintains its DT as it is Light armor. The armor also loses some of its value if sold in this condition.}
 	\end{verse}
 	
-	\vfill
+	%\vfill
 	
 	\begin{verse}
 		\emph{\textbf{Example 2:} Emerald Glint's Leather Armor has taken further damage, meaning the condition of the item drops down to Heavily Used. As the effects on dropping from Used to Heavily Used are more severe, the Leather Armor's DT value has dropped by 1. In addition, she has to remove another Quick Slot from use. The armor's reselling value also drops to half of original.}
 	\end{verse}
 
-	\subsubsection*{Critical Failure}
+	\subsubsection*{Critical Failure \& Success}
 	Every time a character critically fails while using an item, the player rolls for LCK - if the result is a failure, the item's condition degrades 1 level in addition to the other effects of the critical failure.
+	
+	Same applies to worn armor when the character gets hit with a critical success - the player rolls for LCK, and if the result is a failure the item's condition drops by 1 level.
 	  
 	\subsubsection*{Neglect} 
 	Using items such as weapons, armor and machines often expose them to moisture, dirt, snow, dust and other grinding and clogging impurities. Proper maintenance to keep them clean is a must. Neglecting your weapons, armor or machines for a week may drop their condition level. Common use of items and gear will usually not cause their condition to drop more than one level during the course of a game.
@@ -1572,8 +1580,7 @@
 	
 	\subsubsection*{Breach Lock}
 	Substitute for Lockpicking, Breach Lock allows a character to open locks with use of Explosives. Due to that, items may be damaged or destroyed during a Breach Lock attempt, i.e. contents inside a locked toolbox.  The GM announces the number of LCK rolls to determine if items inside (excluding bottlecaps or pre-war bits) are still intact after Breach Lock action. The character rolls LCK with penalty of -2. On a successful roll, she has managed to get the item intact but if the roll is 1-10 away from the target value, the item may be at poor condition.
-	
-	
+		
 	\subsection*{Modifying Equipment}
 	\addcontentsline{toc}{subsection}{Modifying Equipment}
 	Improvement is what drives the civilization forward. It just often tends to begin from simple things, such as improving capabilities of a weapon, protective qualities of an armor, and adding a spark battery to that one turret to function outside of power grid.
@@ -1582,18 +1589,15 @@
 	
 	Each weapon and armor type has a collection of modifications one can craft or buy, listed under the weapon or armors in \emph{\textbf{Wasteland Wares}}. Crafting a modification requires at least 50 in an appropriate skill, usually Mechanics or Science, but applying the modification has no skill requirements.
 	
+
+	
 	\begin{verse}
 		\emph{\textbf{Example:} Featherfall wants to modify her trusty rifle, the IF-77 ``Gallop'' rifle. She wishes to add the Long Barrel mod that's listed under the weapon, increasing the range. Having no required skill to craft it on her own, she has to look up a trader that will sell it for her for the price listed - or maybe less, if she can Barter for it.}
 	\end{verse}
 	
 	GM may limit which modifications are able to be crafted, available, or if modifications even are used in the game altogether.	
 	
-	\begin{figure}
-		\centering
-		\includegraphics[width=160mm]{"ART/Chapter 3_Sparkle Cola"}
-	\end{figure}
-	
-	
+
 	\chapter{Character Advancement}
 	\noindent
 	As your character wanders the Wastes, exploring ancient pre-war ruins and helping (or hindering, if you're so inclined) those in need, she grows as a person. Of course, with pastel-colored equines, this also means their capabilities grow in tandem.
@@ -1762,7 +1766,7 @@
 	\begin{tabular}[h]{ll}
 		INT 1-3 & +5 bonus to skill \\ 
 		INT 4-7 & +10 bonus to skill \\ 
-		INT 8-10 & +15 bonus to skill \\ 
+		INT 8+ & +15 bonus to skill \\ 
 	\end{tabular} 
 
 	\chapter{Game Rules}
@@ -1903,6 +1907,7 @@
 	
 	Unless otherwise noted, a character cannot stack benefits from the same source of enhancement or closely related sources.  If a character gains the same type of enhancement from two closely related sources, the character gains the greater benefit, not both.
 	
+	\vfill
 	
 	\section*{Character Death}
 	\addcontentsline{toc}{section}{Character Death}
@@ -1912,10 +1917,12 @@
 	
 	If the character is dying of Radiation Poisoning (see \emph{Environmental \& Other Hazards} for more detail), meaning they've went beyond Critical, there is a chance for a character to become a ghoul instead. The requirements are only known to GM, but in the event that a character is ghoulified, they gain \textbf{Ghoul}-trait for free.
 	
+	\newpage
 	
 	\section*{Environmental \& Other Hazards}
 	\addcontentsline{toc}{section}{Environmental \& Other Hazards}
 	In the Equestrian Wasteland, characters will often find themselves at risk from dangers beyond those of other characters or monsters. Below are some of the most common hazards.
+	
 	
 	\subsection*{Taint}
 	A rainbow colored reminder of good intents taking a sinister turn. Impelled Metamorphosis Potion, now better known as \textbf{Taint}, is a mutagenic compound that was used to improve Unicorns to more capable Alicorns, designed by MAS. However, its use without precise control on administration and dosage is highly catastrophic to any species, and most often lethal. First rule with Taint is to avoid it at all costs, for its effects are irreversible and often horrid.
@@ -1936,6 +1943,43 @@
 	Pink Cloud saps the character of their life force faster the longer they're exposed to it, 1 HP lost in the first hour, then 2 HP lost in the next hour, then 3 the one after that and so on. In addition, there is a chance that some of the character's gear fuses with their skin, resisted with LCK rolls. Upon a failed LCK roll, a piece of gear determined by the GM, that is in direct contact with the skin permanently fuses on the character, becoming a part of the character's body.
 	
 	The items still function as intended, but they can make putting on other equipment more difficult; in case of fused armor, this can hamper equipping other armors, but the character will always have the DT of the armor that fused onto her.
+
+	\vfill
+	
+	\subsection*{Radiation}
+	
+	% Radiation table, supposed to be on same page with the Radiation subsection	
+	\begin{table*}[t]
+		\centering
+		\caption{Radiation Poisoning \& Effects}
+		\label{Table:5.3}
+		\rowcolors{1}{gray!30}{gray!10}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Rads} & \begin{tabular}{@{}c@{}}\textbf{Poisoning} \\ \textbf{Level}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{SPECIAL} \\ \textbf{Damage}\end{tabular} \\ \hline
+			0-4      	& None		& None                        \\ 
+			5-8      	& Minor		& -1 END                        \\ 
+			9-12      	& Moderate	& -2 END, -1 AGI                        \\ 
+			13-16     	& Major  	& -3 END, -2 AGI, -1 STR                        \\ 
+			17-19     	& Critical	& -3 END, -3 AGI, -2 STR                        \\ 
+			20+      	& Fatal		& \emph{DEATH}                        \\ \hline
+		\end{tabular} 
+		
+	\end{table*}
+	
+	Radiation builds up in a character's body, causing harmful effects to it. All characters have a Radiation Resistance -stat that combats incoming radiation.
+	
+	Incoming Rads damage's severity is deduced from two parts: how many times it needs to be rolled with a 1d100 and how likely the Rads are to make contact, shown with a percentage number such as 5 x 50\%, which means that 1d100 is rolled five times at 50\% possibility of contact. If the resulting roll is under the percentage given, the Rads or poison has been successfully inflicted. Usually the person dealing the poison or Rads rolls to see how successful the contact was.
+	
+	The character taking in the Rads will add as many tokens on their Rad Meter as dictated by the source of the Radiation. Most commonly, a single successful roll gives 1 Rad token, but there are exceptions to this.
+	
+	Radiation can be found in many corners of the world, with different severity. It goes without saying that a Balefire crater is utterly deadly to walk into, as is swimming in radioactive waste. Though the world does have ambient background radiation, it is rarely strong enough to be noticeable. In some spots this ambient radiation may have formed more potent pockets.
+	
+	The effects of accumulated Rads can be seen in Table 5.3.
+	
+	\begin{verse}
+		\emph{\textbf{Note:} Ghouls do not suffer from the adverse effects of Radiation, but Critical and Fatal amounts of Rads can cause them to revert into a Feral state, as they take Insanity points.}
+	\end{verse}
 	
 	\subsection*{Drowning} 
 	Drowning may occur if a character remains underwater without means of breathing beyond the point where she can hold her breath. A character may hold her breath for her END in turns without difficulty. Once she has exceeded this time, she may make an END check to hold her breath for an additional turn. Each successive turn after, she may make another END check at a cumulative -10 penalty (to a maximum penalty of -50).
@@ -1971,11 +2015,11 @@
 	
 	If a character is hit by a falling object, it takes damage according to her own size and the size of the falling object. The falling object takes falling damage.
 	
-	Falling from a considerable height to a solid surface - for example to the ground - is likely to cause crippling injuries or death. In this case, the character is considered both the falling object and the target and the damage is dealt only to the falling character.
+	Falling from a considerable height to a solid surface, for example to the ground, is likely to cause crippling injuries or death. In this case, the character is considered both the falling object and the target and the damage is dealt only to the falling character.
 	
 	The minimum falling distance is 4 meters. Only DT from Power Armor, Medical spells or perks - such as Tough Hide - reduce the amount of damage taken from falling objects and falling.
 	
-	Base falling damage applies to falling distances between 4 and 8 meters. If the falling distance is greater than that, the damage increases. For every 4 meters fallen beyond 8 meters, the damage is increased by 2.
+	Base falling damage applies to fallen distances between 4 and 8 meters. If the distance is greater than that, the damage increases by 2 for every 4 meters fallen beyond 8 meters.
 	
 	If a group of objects is falling, such as rubble or a collapsing building, the group of objects is considered a single entity, with size matching the group's total size/volume.
 	
@@ -1990,7 +2034,8 @@
 	\begin{verse}
 		\emph{\textbf{Example 2:} Featherfall has managed to cripple an enemy pegasus' wings so that the pegasus is now falling to the ground. The pegasus is size 0. Checking the table, they compare the size 0 with 0, finding that the base damage is 4 dice - (4). The distance the pegasus falls is 20 meters. This means that the pegasus takes the base falling damage with additional damage; 6 damage from extra 12 meters beyond the initial 8 meters. The final result is 6+(4) falling damage.}
 	\end{verse}
-	
+
+	%\newpage
 	
 	\subsection*{Poison}
 	Poisons can take many forms in the wasteland; they can be used as a hunting mechanism by animals and insects, or as noxious gas clouds and liquids and as tools to aid in getting rid of unwanted personnel. All of these toxins are countered with \textbf{Poison Resistance}. There are variety of poison-effects, with different symptoms.
@@ -2011,41 +2056,10 @@
 	
 	Some poisons are in forms of gases and liquids. These poisons can be administered by a skin contact, breathed in, or digested. In these cases the Poison Resistance needs to be rolled as the armor doesn't protect against these sources, unless otherwise specified.
 	
-	\subsection*{Radiation}
-	
-	\begin{table*}[t]
-		\centering
-		\caption{Radiation Poisoning \& Effects}
-		\label{Table:5.3}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|c|c|c|}
-			\hline
-			\textbf{Rads} & \begin{tabular}{@{}c@{}}\textbf{Poisoning} \\ \textbf{Level}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{SPECIAL} \\ \textbf{Damage}\end{tabular} \\ \hline
-			0-4      	& None		& None                        \\ 
-			5-8      	& Minor		& -1 END                        \\ 
-			9-12      	& Moderate	& -2 END, -1 AGI                        \\ 
-			13-16     	& Major  	& -3 END, -2 AGI, -1 STR                        \\ 
-			17-19     	& Critical	& -3 END, -3 AGI, -2 STR                        \\ 
-			20+      	& Fatal		& \emph{DEATH}                        \\ \hline
-		\end{tabular} 
-		
-	\end{table*}
-	
-	Radiation builds up in a character's body, causing harmful effects to it. All characters have a Radiation Resistance -stat that combats incoming radiation.
-	
-	Incoming Rads damage's severity is deduced from two parts: how many times it needs to be rolled with a 1d100 and how likely the Rads are to make contact, shown with a percentage number such as 5 x 50\%, which means that 1d100 is rolled five times at 50\% possibility of contact. If the resulting roll is under the percentage given, the Rads or poison has been successfully inflicted. Usually the person dealing the poison or Rads rolls to see how successful the contact was.
-	
-	The character taking in the Rads will add as many tokens on their Rad Meter as dictated by the source of the Radiation. Most commonly, a single successful roll gives 1 Rad token, but there are exceptions to this.
-	
-	Radiation can be found in many corners of the world, with different severity. It goes without saying that a Balefire crater is utterly deadly to walk into, as is swimming in radioactive waste. Though the world does have ambient background radiation, it is rarely strong enough to be noticeable. In some spots this ambient radiation may have formed more potent pockets.
-	
-	The effects of accumulated Rads can be seen in Table 5.3.
-	
-	\begin{verse}
-		\emph{\textbf{Note:} Ghouls do not suffer from the adverse effects of Radiation, but Critical and Fatal amounts of Rads can cause them to revert into a Feral state, as they take Insanity points.}
-	\end{verse}
-
 	\subsection*{Cold}
+	
+
+	
 	Sometimes extremely low temperatures may be encountered, most often in winter and occasionally through specialized weapons and magic.
 	
 	In a short-term exposure to cold, such as during combat from directed attacks, the damage taken is determined by the damage source, be it a weapon, spell or cryogenic fluid. These are often short, under a minute-long exposures. Cold damage is reduced by character's DT, but certain equipment may increase taken cold damage, or lower it.
@@ -2053,13 +2067,6 @@
 	Long term exposure deals cold damage over time. Extended periods of sitting in the snow or swimming in freezing water are considered long term exposures. If the character is wet, she will take double the damage. Swimming in freezing waters (close to 0°C temperatures) equals to standing in -30°C temperature when calculating damages. Exact damage taken can be checked from Table 5.4.
 	
 	\subsection*{Heat \& Fire}
-	Heat and fire can be countered while wandering. Hot climates and specialized attacks can administer Heat or Fire Damage.
-	
-	Short term exposures to heat or fire can come from various sources - weapons, spells, and molten metal being few examples. The heat or fire damage taken is determined by the damage source. Heat and fire damage is reduced by character's DT, but certain equipment may increase taken heat and fire damage or lower it.
-	
-	Long term exposure to heat deal damage over time. Wandering through a scorching desert is considered a long-term exposure. If Thirst and Hunger rules are in use, suffering any heat damage from long term exposure increases the character's need for Thirst. Exact damage taken can be checked from Table 5.5.
-	
-	\subsection*{Electricity}
 	
 	\begin{table}[t]
 		\centering
@@ -2078,7 +2085,15 @@
 			\hline 
 		\end{tabular} 
 	\end{table}
-
+	
+	Heat and fire can be countered while wandering. Hot climates and specialized attacks can administer Heat or Fire Damage.
+	
+	Short term exposures to heat or fire can come from various sources - weapons, spells, and molten metal being few examples. The heat or fire damage taken is determined by the damage source. Heat and fire damage is reduced by character's DT, but certain equipment may increase taken heat and fire damage or lower it.
+	
+	Long term exposure to heat deal damage over time. Wandering through a scorching desert is considered a long-term exposure. If Thirst and Hunger rules are in use, suffering any heat damage from long term exposure increases the character's need for Thirst. Exact damage taken can be checked from Table 5.5.
+	
+	\subsection*{Electricity}
+	
 	\begin{table}[t]
 		\centering
 		\caption{Long Term Heat Exposure}
@@ -2102,24 +2117,31 @@
 	
 	Some weapons, magic and environmental sources can deal EMP damage. This kind of damage is especially disruptive against robots and may also disrupt power armors and other electrical equipment, as if \emph{Stunned}. EMP is countered with its own resistance, indicted within information.
 	
+%	\newpage
+
+		%\vfill
+	% Sneak Picture
+	\begin{figure*}[t]
+		\centering
+		\includegraphics[width=0.8\linewidth]{ART/Sneak}
+	\end{figure*}
+	
+	%To skip the page, so only the table remains on the page.
+	%\vspace*{\textheight}
 	
 	\section*{Sneaking}
 	\addcontentsline{toc}{section}{Sneaking}
-	In the Wasteland, and often in more or less civilized settlements, moving and acting unnoticed can be considered a great advantage. To some it's a defining lifestyle, to others a trade for caps and alike, and to some, a complete pain in their arses. Whether it is moving quietly, pickpocketing somepony wealthy unnoticed, breaking a window with minimal noise, or avoiding another person doing these activities against you, sneaking is worthwhile to learn for a long and healthy life in the Wasteland. Successful sneaking requires taking attention to the surrounding area and the actions taken. These include staying in the shadows, avoiding watchful eyes, as well as keeping the character's noise low, and their movement slow.
 	
+
+	
+	In the Wasteland and occasionally in more settled areas, moving and acting unnoticed can be considered a great advantage. To some it's a defining lifestyle, to others a tool of trade, and to many more a complete pain to crack down. Whether it is moving quietly, breaking a window with minimal noise, or avoiding another person doing these activities against you, sneaking is worthwhile to learn for a long and healthy life in the Wasteland. Successful sneaking requires taking attention to the surrounding area and the actions taken. These include staying in the shadows, avoiding watchful eyes, as well as keeping the character's noise low, and their movement slow.
+		
+	\newpage
 	All of these actions and their success are determined by the character's Sneak skill.
 	
-	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6.
+	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6 on page 64.
 	
-    %\vfill
-    % Sneak Picture
-    \begin{figure}[b]
-    	\centering
-    	\includegraphics[width=0.85\linewidth]{ART/Sneak}
-    \end{figure}
-    
-    %To skip the page, so only the table remains on the page.
-    %\vspace*{\textheight}
+	%\newpage
     
     \onecolumn
 	\begin{table}[t]
@@ -2159,28 +2181,28 @@
 	\end{quote}
 
 	\noindent
-	Most common form of travel in the Wasteland is by hoof. When travelling on the map, the party can move 6 km per hour, for a maximum of 8 hours. Difficult terrain such as mountains, swamplands and deserts half the amount of kilometers moved, from 6 to 3 km per hour.
+	Most common form of travel in the Wasteland is by hoof. When traveling on the map, the party can move 6 km per hour. Difficult terrain such as mountains, swamplands and deserts half the amount of kilometers moved, from 6 to 3 km per hour.
 	
-	\begin{table*}[!t]
+	\begin{table}[!b]
 		\centering
 		\caption{Long Distance Travel}
 		\label{Table:5.7}
 		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|c|c|c|c|}
+		\begin{tabular}{|c|c|c|}
 			\hline
-			\textbf{Travel Method} & \textbf{Easy terrain / h} & \textbf{Difficult terrain / h} & \textbf{Overall / 8 h} \\ \hline
-			       Walking         &             6 km             &               3 km                &      48 km and 24 km       \\
-			       Swimming        &             3 km             &              1,5 km               &      24 km and 12 km       \\
-			        Flying         &             9 km             &              4,5 km               &      72 km and 36 km       \\ \hline
+			\textbf{Method} & \textbf{\begin{tabular}{@{}l@{}}Easy \\ terrain\end{tabular}} & \textbf{\begin{tabular}{@{}l@{}}Difficult \\ terrain \end{tabular}} \\ \hline
+			       Walking         &             6 km/h             &               3 km/h                \\
+			       Swimming        &             3 km/h             &              1,5 km/h               \\
+			        Flying         &             9 km/h             &              4,5 km/h                \\ \hline
 		\end{tabular}
-	\end{table*}
+	\end{table}
 
 	\subsection*{Swimming}
-	Swimming is the slowest method of travel, due to breaks needed to gather strength. Most common ponies can travel 3 kilometers per hour by swimming, and difficult terrain such as a strong waves hampers that down to 1,5 kilometers per hour. Successful END rolls may be required to see if the character begins to drown from exhaustion.
+	Swimming is the slowest method of travel, due to breaks needed to gather strength. Most common ponies can travel 3 kilometers per hour by swimming, and difficult terrain such as strong waves hampers that down to 1,5 kilometers per hour. Successful END rolls may be required to see if the character begins to drown from exhaustion.
 	
 	\subsection*{Flying}
-	Flying is the fastest way to travel but even that is not without risk. The common pegasus or griffin can clear up to 9 kilometers per hour in good weather for 8 hours maximum. 
-	Storms count as difficult terrain for flying, which halves the above km/hour to 4,5 km. Some weather conditions, such as hurricanes or radstorms may be too risky to attempt flight. Bad conditions may result in END or AGI rolls to remain on course.
+	Flying is the fastest way to travel but even that is not without risk. The common pegasus or griffin can clear up to 9 kilometers per hour in good weather. 
+	Storms count as difficult terrain for flying, which halves the above speed to 4,5 km/h. Some weather conditions, such as hurricanes or radstorms may be too risky to attempt flight. Bad conditions may result in END or AGI rolls to remain on course.
 	
 	
 	\section*{Flight}
@@ -2251,12 +2273,12 @@
 
 	Unlike weapons and armor, chems do not have components, having a bit more creative freedom in what is put into the chem to make it function; existing potions, creature parts and even some junk items are all fair game, as long as they fit the Chem's theme. It is unlikely that a baseball glove would be of use in a Chem recipe, but Abraxo cleaner might. 
 	
-	Likewise, existing potions, like a Healing potion or Healing powder can be used when creating chems, to add a similar effect to the new Chem. Chems do not have a set number of ingredients required, but the general rule is that simpler chems use less, and have more common ingredients than complex, particularly potent Chems.
+	Likewise, existing potions like a Healing potion or Healing powder can be used when creating chems to add a similar effect to the new Chem. Chems do not have a set number of ingredients required, but the general rule is that simpler chems use less, and have more common ingredients than complex, particularly potent Chems.
 
-	New Chems, like all Chems, have an Addiction chance; a likeliness of getting the character using the chem hooked on the stuff. Most of the time, each ingredient gives 5\% chance of addiction, though simple and less harmful recipes can have this lowered if GM so agrees, and complex and harmful Chems might have a higher addiction chance, though rarely more than additional 10\% to the addiction chance generated by ingredients.	Likewise, Chems have a withdrawal effect, that should be discussed when making up the makeup of the Chem, between player and GM.
+	New Chems, like all Chems, have an Addiction chance; a likeliness of getting the character using the chem hooked on the stuff. Most of the time, each ingredient gives 5\% chance of addiction, though simple and less harmful recipes can have this lowered if GM so agrees, and complex and harmful Chems might have a higher addiction chance, though rarely more than additional 10\% to the addiction chance generated by ingredients. Likewise, Chems have a withdrawal effect, that should be discussed when making up the makeup of the Chem, between player and GM.
 
 	\begin{verse}
-		\emph{\textbf{Example:} Doc Red wants to create a Chem that heals its user both in HP and Strain. GM and him decide that Red will require a Healing Potion, 2 Blue herbs, and a ground fresh Jackalope Horn. They decide that the effect of the chem is +2 HP healed per turn for 2 Rounds and +5 Strain recovered per turn for 2 Rounds. They agree that the potent nature of the Chem means Doc Red will require 5 successful Medicine rolls instead of 4. They calculate that the addiction chance from this Chem is 20\%, with -2 Potency and -1 END as a Withdrawal effect. After 6 days, Doc Red has successfully rolled Medicine 5 times and the Chem is complete}.
+		\emph{\textbf{Example:} Doc Red wants to create a Chem that provides both HP and Strain when used. GM and him decide that Red will require a Healing Potion, 2 Blue herbs, and a freshly ground Jackalope Horn. They decide that the effect of the chem is +3 HP healed and +5 Strain recovered instantly. They agree that the potent nature of the Chem means Doc Red will require 5 successful Medicine rolls instead of 4. They calculate that the addiction chance from this Chem is 20\%, with -2 Potency and -1 END as a Withdrawal effect. After 6 days, Doc Red has successfully rolled Medicine 5 times and the Chem is complete}.
 	\end{verse}
 
 	\subsection*{Crafting Components}
@@ -2812,16 +2834,20 @@
 	The character's vision has been hampered with in some way, such as by throwing sand into one's eyes or by magic. Though it doesn't have any clear ways to heal the condition, GM can give conditions for removal on a case-by-case basis, such as ``use 4 AP to remove the sand in your eyes''. The effect lasts for 3 turns.
 	
 	\subsubsection*{Crippled}
-	Character has one or more of her limbs crippled, having taken either considerable or precise damage to them. Crippling can be Minor (a temporary state that heals naturally within a 24 hours.), Major (a near permanent state, that requires proper medical care of a doctor, or use of Magic, Chems or Doctor's Bag), or Severed (limb has been completely lost beyond recovery.) Crippled limbs affect the character in various ways. More information about being crippled can be found under this chapter, Combat Statistics - Crippled.
+	Character has one or more of her limbs crippled, having taken either considerable or precise damage to them. Crippling can be Minor, Major, or Severed if beaten to a pulp. Crippled limbs affect the character in various ways. More information about being crippled can be found under this chapter, Combat Statistics - Crippled.
 	
 	\subsubsection*{Enraged}
 	Character is filled with burning hatred, trying to smite anyone and anything that may have drawn their ire. While Enraged, the character is limited to Movement, Attack and Combat Trick actions, and may prefer melee combat over ranged. In addition, she doesn't care if her actions will have lethal risks in them. Sedatives are a quick yet risky solution to calm down a berserk character.
+	
+	\vfill
 	
 	\subsubsection*{Freezing}
 	Character experiences chills and slowness in her numbing limbs, either from attacks or from the environment. Her actions are slowed, Actions cost +2 AP. Alcohol is a known, if fickle, cure.
 
 	\subsubsection*{Mind-Controlled}
 	The character is no longer truly themselves, unable to discern friend from foe - perhaps due to an invasive spell. There is a chance that the character attacks their closest ally rather than the intended enemy. Each time the Mind-Controlled character is about to attack, they must make a INT -2 roll to see if they hit an ally instead. On a failed roll, the ally is attacked instead. Mind Bleach is a costly, but effective cure for this state, as are certain medical spells.
+	
+	\vfill
 	
 	\subsubsection*{Encumbered}
 	Character is carrying more that her maximum carry weight, or is burdened by heavy armor. She can stop being encumbered by either improving her carry weight with increases to her STR or by Perks, or by dropping the excess weight.
@@ -2837,6 +2863,7 @@
 	\subsubsection*{Unconscious}
 	Character has suffered severe damage or has been knocked out by something. She is unable to act until she recovers consciousness or someone else helps her.
 	
+	\vfill
 	
 	\section*{Combat Actions}
 	\addcontentsline{toc}{section}{Combat Actions}
@@ -2991,7 +3018,7 @@
 	
 	After her Sneak Attack, the character may try a new \textbf{Use Skill (Sneak)} action with a penalty of -30. If the action is successful, she gets away unnoticed and may make another Sneak Attack. However, the attack itself is always noticed - with Melee or unarmed sneak attacks, only the victim notices the attack made against him, while ranged attacks are noticed by everyone who could either hear or see the attack.
 	
-	\vfill
+	%\vfill
 	\begin{verse}
 		\emph{\textbf{Example 1:} Featherfall wants to perform a sneak attack on a nasty raider. She successfully rolls for Sneak and catches the raider off-guard, moving in to backstab him. Her LCK is 5, so with a bonus of 15, her Critical Damage Threshold for the attack would become 20. She rolls for her Melee skill - which is 18 - and gets a result of 19. Despite the roll being under the Critical Damage Threshold, the attack is a failure because it is over her Skill level. The roll being within the Critical Damage Threshold does not guarantee an automatic success.}
 	\end{verse}
@@ -3004,7 +3031,7 @@
 		\textbf{Note:} Silenced weapons reduce the Use Skill (Sneak) action penalty by 15.
 	\end{verse}
 	
-	\vfill		
+	%\vfill		
 	\subsubsection*{Attacks of Opportunity}
 	Whenever a character performs an action that would cause a gap in her defense, nearby opponents in melee range may use this to their advantage. In other words, they gain \textbf{Attacks of Opportunity} (AoO), which are special melee or unarmed attacks. These are quick attacks that must be engaged immediately (on other characters' turns). A character may normally perform only 1 AoO per round, she must see the target and hold an appropriate weapon.
 	
@@ -3043,7 +3070,7 @@
 	
 	
 	\bigskip\noindent
-	\clearpage
+%	\clearpage
 	\textbf{\emph{Starting Grapple}}
 	
 	This action costs 5 AP.
@@ -3078,8 +3105,10 @@
 		Pistols & Major Distraction \\ 
 	\end{tabular} 
 	
-	\bigskip\noindent	
-	\textbf{Pin}
+	\newpage
+	
+	\noindent	
+	\textbf{\emph{Pin}}
 	
 	This action costs 8 AP for the first time, 4 AP for maintaining.
 	
@@ -3109,6 +3138,7 @@
 	
 	Move Grapple action is only required once per combat turn to allow movement.
 	
+	\newpage
 	\bigskip\noindent
 	\textbf{\emph{Escape}}
 	
@@ -3249,7 +3279,7 @@
 	\addcontentsline{toc}{subsection}{Damage \& Damage Threshold}
 	When an attack skill roll is successful, the character usually deals damage. With weapons and explosives, the damage values are determined by the weapon's statistics. Damage consists of two parts: base value and dice rolls. In Melee and Unarmed weapons, the character's STR affects the number of dice rolls, as shown in Table 7.8.
 	
-	\begin{table}[t]
+	\begin{table}[b]
 		\centering
 		\caption{STR effect on Melee/Unarmed}
 		\label{Table:7.8}
@@ -3263,23 +3293,8 @@
 			    10+      &       +3        \\ \hline
 		\end{tabular} 
 	\end{table} 
-	
-	For example, with super sledge, the weapon's statistics indicate the damage as follows: $6+(0-3)$. The base damage is 6, and the dice rolled ranges from 0 to 4, depending on the characters STR. For example, with STR of 6 the damage output would be $6+(0)+(1) = 6+(1)$.
-	
-	Damage die is a d6, which deals damage when the result is either 5 or 6. Perks, Traits and Racial Abilities may change which die values count as damage dealt. Any damage from dice is added together with the base damage to get the total amount of damage dealt.
-			
-	If Item Condition rules are in effect, it may change the amount of damage dealt. Further information on Item Condition rules can be found under Chapter 3: Equipment - Optional Rules.
-	
-	\textbf{Damage Threshold} (DT) determines how much of the incoming damage is absorbed by the target's armor and other defenses. The leftover damage is then translated as lost HP tokens.
-	
-	\vfill
-	
-	\subsection*{Losing HP Tokens}
-	\addcontentsline{toc}{subsection}{Losing HP Tokens}
-	Characters one day or another will be wounded, which is where the HP tokens come in. With each point of damage that the character's DT does not absorb, the character loses one HP token from their Character Sheet's \textbf{Health Tracker}. 
-	
-%	Characters do not take the weapon damage as is, but rather translate the incoming damage into lost HP tokens on their Character Sheet's \textbf{Health Tracker}. \emph{If the damage overcomes the target's DT, that automatically removes 1 HP token.}* Additionally target loses 1 HP token for every 10 points of damage over the DT value. A quick reference on total HP tokens lost based on damage received is displayed on Table 7.8.
-	
+
+		%Pain Penalties table, preferrably on same page with the subject
 	\begin{table*}[t]
 		\centering
 		\caption{Pain Penalties}
@@ -3295,6 +3310,23 @@
 			9-10 & Panic   & Cannot use Attack actions, unless no other way out \\ \hline
 		\end{tabular} 
 	\end{table*}
+	
+	For example, with super sledge, the weapon's statistics indicate the damage as follows: $6+(0-3)$. The base damage is 6, and the dice rolled ranges from 0 to 4, depending on the characters STR. For example, with STR of 6 the damage output would be $6+(0)+(1) = 6+(1)$.
+	
+	Damage die is a d6, which deals damage when the result is either 5 or 6. Perks, Traits and Racial Abilities may change which die values count as damage dealt. Any damage from dice is added together with the base damage to get the total amount of damage dealt.
+			
+	If Item Condition rules are in effect, it may change the amount of damage dealt. Further information on Item Condition rules can be found under Chapter 3: Equipment - Optional Rules.
+	
+	\textbf{Damage Threshold} (DT) determines how much of the incoming damage is absorbed by the target's armor and other defenses. The leftover damage is then translated as lost HP tokens.
+	
+	%\vfill
+	
+	\subsection*{Losing HP Tokens}
+	\addcontentsline{toc}{subsection}{Losing HP Tokens}
+	Characters one day or another will be wounded, which is where the HP tokens come in. With each point of damage that the character's DT does not absorb, the character loses one HP token from their Character Sheet's \textbf{Health Tracker}. 
+	
+%	Characters do not take the weapon damage as is, but rather translate the incoming damage into lost HP tokens on their Character Sheet's \textbf{Health Tracker}. \emph{If the damage overcomes the target's DT, that automatically removes 1 HP token.}* Additionally target loses 1 HP token for every 10 points of damage over the DT value. A quick reference on total HP tokens lost based on damage received is displayed on Table 7.8.
+	
 
 	\begin{verse}
 		\emph{\textbf{Example:} Shining Example has been shot by a Raider, who has managed to do 6 damage to him. Shining Example's DT is 2. The DT value of Shining is subtracted from the damage: 6-2 = 4. This means Shining loses 4 HP tokens, and must now subtract them from his Health Tracker.}
@@ -3304,6 +3336,7 @@
 %		\emph{\textbf{Example:} Shining Example has been shot by a Raider, who has managed to do 65 damage to him. Shining Example's DT is 10. As the incoming damage is larger than Shining's DT, he automatically loses 1 HP. Next, the DT value of Shining is subtracted from the damage: 65-10 = 55. As 10 can fit in 55 five times (5*10 = 50, but 6*10 = 60), this means Shining loses 5 additional HP tokens. Overall, Shining Example has lost 6 HP, and must now subtract them from his Health Tracker.}
 %	\end{verse}
 
+	\vfill
 	
 	\subsection*{Pain Thresholds}
 	\addcontentsline{toc}{subsection}{Pain Thresholds}
@@ -3330,7 +3363,7 @@
 	Some attacks deal damage to character's SPECIAL attributes as well as to her HP. When a character receives SPECIAL damage, they put the amount of damage received into the character sheet's ``Temporary'' column on the SPECIAL section, on the respective SPECIAL stat currently taking damage.
 	
 	\begin{verse}
-		\emph{\textbf{Example: }Doc Red's head has been crippled by a powerful blow, giving him SPECIAL damage to both his Perception and to his Intelligence. Doc Red's player puts a -4 on Perception and -2 on Intelligence to the Temporary column on the SPECIAL-section. This means that their respective stats are lower for a time being until his crippled head is healed.}
+		\emph{\textbf{Example: }Doc Red's head has been crippled by a powerful blow, giving him SPECIAL damage to both his Perception and to his Intelligence. Doc Red's player puts a -4 on Perception and -2 on Intelligence to the Temporary column on the SPECIAL-section. This means those stats are lower for a time being until his crippled head is healed.}
 	\end{verse}
 	
 	
@@ -3341,20 +3374,18 @@
 	\subsubsection*{Practicing Medicine}
 	A learned wastelander can perform rudimentary medicine on the field, provided they have the tools. With First-aid kits and Doctor's Bags, the character can heal lost HP quickly and reliably.
 	
-	Without tools such as First-aid kit, a medical practitioner can attempt to boost the wounded character's natural healing rate to further assist the healing process, but cannot replenish HP outright. 
-	
-	Successful Medicine-check gives the wounded character +1 to their Healing Rate. Critical success gives +2 instead.
+	Without such tools, a medical practitioner can attempt to boost the wounded character's natural healing rate to further assist the healing process, but cannot replenish HP outright. Successful Medicine-check gives the wounded character +1 to their Healing Rate. Critical success gives +2 instead.
 	
 	Removing physical status effects such as bleeding can also be done without tools, but requires a successful Medicine-check. Fixing a Major Cripple requires a Doctor's Bag.
 	
 	\subsubsection*{Doctor Visit}
-	Visiting a doctor, an NPC in a town is a guaranteed way to get a wounded character healed, as no checks aside from possible bartering of price is required. 
+	Visiting a doctor, an NPC in a town is a guaranteed way to get healed, with no checks aside from possible bartering of price is required. 
 	
-	However, doctors do not practice their craft for free; each healed HP token costs \textbf{20 caps}. This means that doctors can get expensive quickly, if great amount of HP is lost. This price can vary depending on location, the characters' barter skill or GM.
+	However, doctors do not practice their craft for free and can get expensive quickly; each healed HP token costs \textbf{20 caps}. This price can vary depending on location, the characters' barter skill or GM.
 	
 	In addition, doctors can remove Rad tokens, but the procedure is considerably more costly affair: \textbf{40 caps} per each Radiation token removed. This price can likewise be affected by various things. Doctors can also remove Major Cripple conditions, but that likewise costs money - \textbf{50 caps} per limb that needs to be sewn together.
 	
-	\begin{table}[b]
+	\begin{table}[t]
 		\centering
 		\caption{Doctor's Fees}
 		\label{Table:7.10}
@@ -3602,7 +3633,7 @@
 	\addcontentsline{toc}{section}{Unicorn Magic}
 	Unicorn Magic, or as some say arcane magic, is easily the most versatile and studied magic found in the Wasteland. If there is a unicorn around, one can bet arcane spells to appear eventually. 
 	
-	Arcane spells are divided into \textbf{Magic Schools}, each with their primary, governing SPECIAL stat that determines the spell's \textbf{Potency} and strength. Exceptions to this are \emph{General Magic} and \emph{Metamagic} schools, where the unicorn can choose any SPECIAL stat they want on the former, and either CHA or INT stat on the latter.
+	Arcane spells are divided into \textbf{Magic Schools}, each with their primary, governing SPECIAL stat that determines the spell's \textbf{Potency} and strength. Exception to this is the \emph{General Magic} school, where the unicorn can choose any SPECIAL stat they want to determine Potency.
 	
 	Each magic school is geared towards a certain use. For example, Conjuration Magic revolves around creating something with or from one's magic, while Illusion Magic attempts to fool or distract others.
 	
@@ -3643,7 +3674,7 @@
 			\item Storm Cloud
 			\item Wall of Mist
 		\end{compactitem}
-		\item \textbf{Dark Magic (END)} \emph{(Picking spells from this school is always under GM discretion)}
+		\item \textbf{Dark Magic (END)} \emph{(GM discretion)}
 		\begin{compactitem}
 			\item Blood Weapons
 			\item Devouring Darkness
@@ -3654,6 +3685,9 @@
 			\item Soul Jar
 			\item Vile Crystals
 		\end{compactitem}
+%	\end{description}
+%	\newpage
+%	\begin{description}
 		\item \textbf{Enchantment Magic (CHA)}
 		\begin{compactitem}
 			\item Bypass
@@ -3709,6 +3743,7 @@
 			\item Rad-Guard
 			\item Toughened Frame
 		\end{compactitem}
+	\newpage
 		\item \textbf{Transmutation Magic (END)}
 		\begin{compactitem}
 			\item Come to Life
@@ -3722,6 +3757,13 @@
 		\end{compactitem} 
 	\end{description}
 
+
+	\begin{figure}[!b]
+		\centering
+		\includegraphics[width=0.9\linewidth]{"ART/Chapter 8_Alchemy zeeb"}
+	\end{figure}
+	
+	\newpage
 	
 	\section*{Zebra Magic}
 	\addcontentsline{toc}{section}{Zebra Magic}
@@ -3767,11 +3809,6 @@
 	
 	With mutant parts, the requirement increase is the same no matter what kind of part it is, though the player can and should discuss if the specific part would give a specific result, such as Ghoul horn giving additional damage to Unicorns or Irradiated Material giving radiation damage.
 	
-	\begin{figure*}[t]
-		\centering
-		\includegraphics[width=0.9\linewidth]{"ART/Chapter 8_Alchemy zeeb"}
-	\end{figure*}
-
 	\begin{table}[h]
 		\centering
 		\caption{Ingredients \& Their Use in Alchemy}
@@ -3955,58 +3992,57 @@
 	{
 	\rowcolors{1}{gray!30}{gray!10}
 	\begin{longtabu} to 140mm{| X[l,2] | X[l,2]| X[l,3] | X[l,6] |}
-		
 		\hline
-        \cellcolor{gray!50}     & \textbf{Name}           & \textbf{AP Cost}                  & \textbf{Notes}                                                                        \\ \hline
-		\cellcolor{gray!50} Turn Order     & Initiative              & -                                 & 1d10+PER Equal Initiatives compare AGI, Equal PERs compare LCK. Highest goes first    \\ \hline
-        \cellcolor{gray!50} Movement      & Ground Movement         & 1 AP per 2m / 1 hex               &                                                                                       \\
-        \cellcolor{gray!50}      & Flying                  & 1 AP per 2m / 1 hex               & Crippled wings prevent flying                                                         \\
-        \cellcolor{gray!50}      & Swimming                & 2 AP per 2m / 1 hex               & Cannot charge, cannot swim if 2 or more limbs Crippled                                \\
-        \cellcolor{gray!50}      & Climbing                & 3 AP per 2m / 1 hex               & Cannot charge, cannot climb if 2 or more limbs Crippled                               \\
-        \cellcolor{gray!50}      & Difficult Terrain       & +1 AP to Movement                 & May require SPECIAL roll                                                              \\
-        \cellcolor{gray!50}      & Sprinting               & All AP to Movement                & Gain additional END/2 number of AP to Movement                                        \\
-        \cellcolor{gray!50}      & Charging                & -                                 & +10 to melee/unarmed immediately after, additional 2d0 DMG. Opponents gain +5 to hit  \\
-        \cellcolor{gray!50}      & Crawling                & 2 AP per 2m / 1 hex               & Cannot do while flying                                                                \\
-        \cellcolor{gray!50}      & Drop Prone              & -                                 & Considered Prone after                                                                \\
-        \cellcolor{gray!50}      & Crawling                & 3 AP per 2m / 1 hex               & Cannot do while flying                                                                \\
-        \cellcolor{gray!50}      & Standing Up             & 4 AP                              & When Crippled, needs assistance                                                       \\
-        \cellcolor{gray!50}      & Jumping, Still Longjump & 3 AP                              & STR <5, 2 meters/1 hex  STR 5-9, 4 meters/2 hex  STR 10, 6 meters/3 hex               \\
-        \cellcolor{gray!50}      & Jumping, Running Start  & 2 AP                              & 4 meters/2 hex of movement required, can jump STR in meters (STR/2 hex)               \\
-        \cellcolor{gray!50} \multirow{-13}{1,3cm}{}     & Jumping, Up             & 3 AP                              & STR <5, 0,5 meters    STR 5-9, 1 meter      STR 10, 1,5 meters                        \\
-		\cellcolor{gray!50} Movement     & Withdraw                & 4 AP                              & Does not provoke AoO, may Sprint                                                      \\ \hline
-        \cellcolor{gray!50} Attack Actions     & Attack                  & Weapon-specific                   & 1d100 result under or equal to Combat Skill results in a hit                          \\
-        \cellcolor{gray!50}      & Called Shot             & +2 AP                             & Cripple body parts , -1 DT on target                                                                   \\
-        \cellcolor{gray!50}      & Aim                     & +2 AP                             & +10 to combat skill for next attack                                                   \\
-        \cellcolor{gray!50}      & Reload                  & Weapon-specific                   &                                                                                       \\
-        \cellcolor{gray!50}      & Casting a Spell         & Spell-specific                    &                                                                                       \\
-        \cellcolor{gray!50}      & Sneak Attack            & +2 AP                             & +15 to perform a Critical Hit                                                         \\
-		\cellcolor{gray!50}      & Attack of Opportunity   & -                                 & Max 5 AP cost for melee or unarmed.                                                   \\ \hline
-        \cellcolor{gray!50} Combat Tricks     & Grapple, Start          & 5 AP                              & Opposed Unarmed / STR                                                                 \\
-        \cellcolor{gray!50}      & Grapple, Maintain       & 2 AP                              & Opposed Unarmed / STR                                                                 \\
-        \cellcolor{gray!50}      & Grapple, Overpower      & 4 AP                              & Opposed Unarmed / STR                                                                 \\
-        \cellcolor{gray!50}      & Grapple, Attack         & Weapon-specific                   & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction \\
-        \cellcolor{gray!50}      & Grapple, Pin            & 8 AP initiate, 4 AP maintain      & Opposed Unarmed / STR (Attacker -30)                                                  \\
-        \cellcolor{gray!50}      & Grapple, Tie Up         & 8 AP                              & Opposed Unarmed / STR (Attacker -30); Grapple ends                                    \\
-        \cellcolor{gray!50}      & Grapple, Move           & 4 AP + Movement                   & Opposed Unarmed / STR; Movement 3 AP per 2 m / 1 hex                                  \\
-        \cellcolor{gray!50}      & Grapple, Escape         & 4 AP                              & Opposed Unarmed / STR                                                                 \\
-        \cellcolor{gray!50}      & Grapple, Toss           & 8 AP                              & Opposed Unarmed / STR (Attacker -30); Grapple ends                                    \\
-        \cellcolor{gray!50}      & Suppressive Fire        & 8 AP                              &                                                                                       \\
-        \cellcolor{gray!50}      & Trip                    & 5 AP                              & Melee / Unarmed (-15); On success target is Prone                                     \\ 
-		\cellcolor{gray!50}      & Distract                & 4 AP                              &                                                                                       \\ \hline
-        \cellcolor{gray!50}  Defensive    & Dodge                   & From 1 AP to Maximum AP           & Cannot be used if no movement allowed; -5 per use against one opponent                \\ 
-		\cellcolor{gray!50}      & Break Free              & 8 AP                              & STR / AGI, LCK if GM allows                                                           \\ \hline
-    \cellcolor{gray!50} Other Actions        & Ready Item              & 8 AP from inventory; 3 AP from QS & +2 AP cost if concealed item                                                          \\
-    \cellcolor{gray!50} Other Actions         & Ready / Change Weapon   & 8 AP from inventory; 3 AP from WS & +2 AP cost if concealed item                                                          \\
-     \cellcolor{gray!50}         & Use Item / Function     & 2 AP                              & GM may change AP cost if extremely long time to use or similar                        \\
-    \cellcolor{gray!50}          & Drop Item               & -                                 & If carefully dropped, costs 3 AP                                                      \\
-    \cellcolor{gray!50}          & Pick Up Item            & 6 AP                              &                                                                                       \\
-    \cellcolor{gray!50}          & Assist Ally             & 2 AP                              & GM may change AP cost depending on situation                                          \\
-    \cellcolor{gray!50}          & Use Skill / SPECIAL     & Easy, no rush: 4 Easy, rushed: 2 	Hard, no rush: 10 
+		\cellcolor{gray!50}                         & \textbf{Name}           & \textbf{AP Cost}                                                              & \textbf{Notes}                                                                        \\ \hline
+		\cellcolor{gray!50} Turn Order              & Initiative              & -                                                                             & 1d10+PER; Equal Initiatives compare AGI, Equal PERs compare LCK. Highest goes first    \\ \hline
+		\cellcolor{gray!50} Movement                & Ground Movement         & 1 AP per 2m / 1 hex                                                           &                                                                                       \\
+		\cellcolor{gray!50}                         & Flying                  & 1 AP per 2m / 1 hex                                                           & Crippled wings prevent flying                                                         \\
+		\cellcolor{gray!50}                         & Swimming                & 2 AP per 2m / 1 hex                                                           & Cannot charge, cannot swim if 2 or more limbs Crippled                                \\
+		\cellcolor{gray!50}                         & Climbing                & 3 AP per 2m / 1 hex                                                           & Cannot charge, cannot climb if 2 or more limbs Crippled                               \\
+		\cellcolor{gray!50}                         & Difficult Terrain       & +1 AP to Movement                                                             & May require SPECIAL roll                                                              \\
+		\cellcolor{gray!50}                         & Sprinting               & All AP to Movement                                                            & Gain additional END/2 number of AP to Movement                                        \\
+		\cellcolor{gray!50}                         & Charging                & -                                                                             & +10 to melee/unarmed immediately after, additional 2d0 DMG. Opponents gain +5 to hit  \\
+		\cellcolor{gray!50}                         & Crawling                & 2 AP per 2m / 1 hex                                                           & Cannot do while flying                                                                \\
+		\cellcolor{gray!50}                         & Drop Prone              & -                                                                             & Considered Prone after                                                                \\
+		\cellcolor{gray!50}                         & Crawling                & 3 AP per 2m / 1 hex                                                           & Cannot do while flying                                                                \\
+		\cellcolor{gray!50}                         & Standing Up             & 4 AP                                                                          & When Crippled, needs assistance                                                       \\
+		\cellcolor{gray!50}                         & Jumping, Still Longjump & 3 AP                                                                          & STR <5, 2 meters/1 hex  STR 5-9, 4 meters/2 hex  STR 10, 6 meters/3 hex               \\
+		\cellcolor{gray!50}                         & Jumping, Running Start  & 2 AP                                                                          & 4 meters/2 hex of movement required, can jump STR in meters (STR/2 hex)               \\
+		\cellcolor{gray!50} \multirow{-13}{1,3cm}{} & Jumping, Up             & 3 AP                                                                          & STR <5, 0,5 meters    STR 5-9, 1 meter      STR 10, 1,5 meters                        \\
+		\cellcolor{gray!50} Movement                & Withdraw                & 4 AP                                                                          & Does not provoke AoO, may Sprint                                                      \\ \hline
+		\cellcolor{gray!50} Attack Actions          & Attack                  & Weapon-specific                                                               & 1d100 result under or equal to Combat Skill results in a hit                          \\
+		\cellcolor{gray!50}                         & Called Shot             & +2 AP                                                                         & Cripple body parts , -1 DT on target                                                  \\
+		\cellcolor{gray!50}                         & Aim                     & +2 AP                                                                         & +10 to combat skill for next attack                                                   \\
+		\cellcolor{gray!50}                         & Reload                  & Weapon-specific                                                               &                                                                                       \\
+		\cellcolor{gray!50}                         & Casting a Spell         & Spell-specific                                                                &                                                                                       \\
+		\cellcolor{gray!50}                         & Sneak Attack            & +2 AP                                                                         & +15 to perform a Critical Hit                                                         \\
+		\cellcolor{gray!50}                         & Attack of Opportunity   & -                                                                             & Max 5 AP cost for melee or unarmed.                                                   \\ \hline
+		\cellcolor{gray!50} Combat Tricks           & Grapple, Start          & 5 AP                                                                          & Opposed Unarmed / STR                                                                 \\
+		\cellcolor{gray!50}                         & Grapple, Maintain       & 2 AP                                                                          & Opposed Unarmed / STR                                                                 \\
+		\cellcolor{gray!50}                         & Grapple, Overpower      & 4 AP                                                                          & Opposed Unarmed / STR                                                                 \\
+		\cellcolor{gray!50}                         & Grapple, Attack         & Weapon-specific                                                               & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction \\
+		\cellcolor{gray!50}                         & Grapple, Pin            & 8 AP initiate, 4 AP maintain                                                  & Opposed Unarmed / STR (Attacker -30)                                                  \\
+		\cellcolor{gray!50}                         & Grapple, Tie Up         & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends                                    \\
+		\cellcolor{gray!50}                         & Grapple, Move           & 4 AP + Movement                                                               & Opposed Unarmed / STR; Movement 3 AP per 2 m / 1 hex                                  \\
+		\cellcolor{gray!50}                         & Grapple, Escape         & 4 AP                                                                          & Opposed Unarmed / STR                                                                 \\
+		\cellcolor{gray!50}                         & Grapple, Toss           & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends                                    \\
+		\cellcolor{gray!50}                         & Suppressive Fire        & 8 AP                                                                          &                                                                                       \\
+		\cellcolor{gray!50}                         & Trip                    & 5 AP                                                                          & Melee / Unarmed (-15); On success target is Prone                                     \\
+		\cellcolor{gray!50}                         & Distract                & 4 AP                                                                          &                                                                                       \\ \hline
+		\cellcolor{gray!50}  Defensive              & Dodge                   & From 1 AP to Maximum AP                                                       & Cannot be used if no movement allowed; -5 per use against one opponent                \\
+		\cellcolor{gray!50}                         & Break Free              & 8 AP                                                                          & STR / AGI, LCK if GM allows                                                           \\ \hline
+		\cellcolor{gray!50} Other Actions           & Ready Item              & 8 AP from inventory; 3 AP from QS                                             & +2 AP cost if concealed item                                                          \\
+		\cellcolor{gray!50} Other Actions           & Ready / Change Weapon   & 8 AP from inventory; 3 AP from WS                                             & +2 AP cost if concealed item                                                          \\
+		\cellcolor{gray!50}                         & Use Item / Function     & 2 AP                                                                          & GM may change AP cost if extremely long time to use or similar                        \\
+		\cellcolor{gray!50}                         & Drop Item               & -                                                                             & If carefully dropped, costs 3 AP                                                      \\
+		\cellcolor{gray!50}                         & Pick Up Item            & 6 AP                                                                          &                                                                                       \\
+		\cellcolor{gray!50}                         & Assist Ally             & 2 AP                                                                          & GM may change AP cost depending on situation                                          \\
+		\cellcolor{gray!50}                         & Use Skill / SPECIAL     & Easy, no rush: 4 Easy, rushed: 2 	Hard, no rush: 10 
     
-    Hard, rushed: 5	  & If rushed, -15 to Skill or SPECIAL roll; double penalty for Hard                      \\
-    \cellcolor{gray!50}          & Maintain Spell          & Spell-specific                    &                                                                                       \\
-    \cellcolor{gray!50}          & End Spell               & -                                 &                                                                                       \\
-	\cellcolor{gray!50}          & Talking                 & -                                 & If used to influence others, check Use Skill                                          \\ \hline
+    Hard, rushed: 5 & If rushed, -15 to Skill or SPECIAL roll; double penalty for Hard                      \\
+		\cellcolor{gray!50}                         & Maintain Spell          & Spell-specific                                                                &                                                                                       \\
+		\cellcolor{gray!50}                         & End Spell               & -                                                                             &                                                                                       \\
+		\cellcolor{gray!50}                         & Talking                 & -                                                                             & If used to influence others, check Use Skill                                          \\ \hline
 	\end{longtabu}
 	} 
 	
@@ -4031,23 +4067,6 @@
 		\end{longtabu}
 	}
 
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|}
-			\textbf{DMG after DT} & \textbf{HP Lost} \\
-			1-9*         & 1       \\
-			10-19        & 2       \\
-			20-29        & 3       \\
-			30-39        & 4       \\
-			40-49        & 5       \\
-			50-59        & 6       \\
-			60-69        & 7       \\
-			70-79        & 8       \\
-			80-89        & 9       \\
-			90-99        & 10      \\ \hline
-		\end{tabular} 		
-	}
-	
 	\bigskip
 	{
 		\rowcolors{1}{gray!30}{gray!10}
@@ -4063,7 +4082,7 @@
 			Mind-Controlled & May act w/o her own volition     &    3     & Mind Bleach              \\
 			Encumbered      & Cannot Sprint, Climb or Swim     & Until Removal         & \begin{tabular}{@{}l@{}}Remove excess \\ weight \end{tabular}                        \\
 			Petrified       & Cannot act                       &    -     & \begin{tabular}{@{}l@{}}Failsafe,\\ Petrify-spell\end{tabular}  \\
-			Stunned         & Cannot spend AP                  &    3     & Kickstarter              \\
+			Stunned         & Cannot move or attack            &    3     & Kickstarter, Strain              \\
 			Unconscious     & Cannot act                       &    3     & Kickstarter              \\ \hline
 		\end{tabular} 
 	}

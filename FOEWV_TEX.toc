@@ -15,9 +15,9 @@
 \contentsline {section}{Weapon Characteristics}{40}{section*.109}
 \contentsline {section}{Apparel}{42}{section*.129}
 \contentsline {section}{Mundane Items}{43}{section*.136}
-\contentsline {section}{Optional Equipment Rules}{44}{section*.141}
-\contentsline {subsection}{Item Condition, Degradation \& Repair}{44}{section*.142}
-\contentsline {subsection}{Modifying Equipment}{47}{section*.148}
+\contentsline {section}{Optional Equipment Rules}{45}{section*.141}
+\contentsline {subsection}{Item Condition, Degradation \& Repair}{45}{section*.142}
+\contentsline {subsection}{Modifying Equipment}{48}{section*.148}
 \contentsline {chapter}{\numberline {4}Character Advancement}{49}{chapter.4}
 \contentsline {section}{Leveling Up}{49}{section*.149}
 \contentsline {section}{Improving Skills}{49}{section*.150}
@@ -31,48 +31,48 @@
 \contentsline {section}{Critical Success and Failure}{56}{section*.164}
 \contentsline {section}{SPECIAL \& Skill Value Modifiers}{56}{section*.165}
 \contentsline {section}{Character Death}{57}{section*.166}
-\contentsline {section}{Environmental \& Other Hazards}{57}{section*.167}
+\contentsline {section}{Environmental \& Other Hazards}{58}{section*.167}
 \contentsline {section}{Sneaking}{62}{section*.177}
-\contentsline {section}{Long Distance Travel}{64}{section*.178}
-\contentsline {section}{Flight}{64}{section*.182}
+\contentsline {section}{Long Distance Travel}{65}{section*.178}
+\contentsline {section}{Flight}{65}{section*.182}
 \contentsline {chapter}{\numberline {6}Additional Rules}{67}{chapter.6}
 \contentsline {section}{Scavenging}{67}{section*.183}
 \contentsline {section}{Invention}{68}{section*.184}
 \contentsline {section}{NPC Disposition}{70}{section*.187}
-\contentsline {section}{PipBuck}{74}{section*.188}
-\contentsline {section}{Optional Rules}{76}{section*.200}
-\contentsline {subsection}{Sleep Deprivation}{76}{section*.201}
-\contentsline {subsection}{Hunger \& Thirst}{77}{section*.202}
-\contentsline {chapter}{\numberline {7}Combat}{79}{chapter.7}
-\contentsline {section}{Combat Sequence}{79}{section*.203}
-\contentsline {section}{Initiative}{79}{section*.204}
-\contentsline {section}{Combat Turn}{80}{section*.205}
-\contentsline {section}{Combat Statistics}{81}{section*.206}
-\contentsline {subsection}{Combat Variables}{81}{section*.207}
-\contentsline {subsubsection}{Obstacles}{82}{section*.212}
-\contentsline {subsection}{Crippled}{84}{section*.223}
-\contentsline {subsection}{Area of Effect}{84}{section*.224}
-\contentsline {subsection}{Status Effects}{85}{section*.225}
-\contentsline {section}{Combat Actions}{87}{section*.237}
-\contentsline {subsection}{Movement Actions}{87}{section*.238}
-\contentsline {subsection}{Attack Actions}{89}{section*.252}
-\contentsline {subsection}{Combat Tricks}{93}{section*.263}
-\contentsline {subsection}{Defensive actions}{96}{section*.268}
-\contentsline {subsection}{Other Actions}{96}{section*.271}
-\contentsline {section}{Damage Calculations}{97}{section*.281}
-\contentsline {subsection}{Damage \& Damage Threshold}{97}{section*.282}
-\contentsline {subsection}{Losing HP Tokens}{98}{section*.283}
-\contentsline {subsection}{Pain Thresholds}{98}{section*.284}
-\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{98}{section*.285}
-\contentsline {subsection}{SPECIAL Damage}{98}{section*.286}
-\contentsline {subsection}{Healing HP}{99}{section*.287}
-\contentsline {chapter}{\numberline {8}Magic \& Spells}{101}{chapter.8}
-\contentsline {section}{Spell Rules}{101}{section*.291}
-\contentsline {section}{Spell Characteristics}{102}{section*.292}
-\contentsline {section}{Earth Pony Magic}{104}{section*.300}
-\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{105}{section*.303}
-\contentsline {section}{Unicorn Magic}{107}{section*.306}
-\contentsline {section}{Zebra Magic}{109}{section*.309}
-\contentsline {subsection}{Alchemy}{109}{section*.310}
-\contentsline {subsection}{Shamanism}{112}{section*.315}
-\contentsline {chapter}{Combat Quick Reference Sheet}{117}{chapter*.321}
+\contentsline {section}{PipBuck}{73}{section*.188}
+\contentsline {section}{Optional Rules}{75}{section*.200}
+\contentsline {subsection}{Sleep Deprivation}{75}{section*.201}
+\contentsline {subsection}{Hunger \& Thirst}{76}{section*.202}
+\contentsline {chapter}{\numberline {7}Combat}{77}{chapter.7}
+\contentsline {section}{Combat Sequence}{77}{section*.203}
+\contentsline {section}{Initiative}{77}{section*.204}
+\contentsline {section}{Combat Turn}{78}{section*.205}
+\contentsline {section}{Combat Statistics}{79}{section*.206}
+\contentsline {subsection}{Combat Variables}{79}{section*.207}
+\contentsline {subsubsection}{Obstacles}{80}{section*.212}
+\contentsline {subsection}{Crippled}{82}{section*.223}
+\contentsline {subsection}{Area of Effect}{82}{section*.224}
+\contentsline {subsection}{Status Effects}{83}{section*.225}
+\contentsline {section}{Combat Actions}{85}{section*.237}
+\contentsline {subsection}{Movement Actions}{85}{section*.238}
+\contentsline {subsection}{Attack Actions}{87}{section*.252}
+\contentsline {subsection}{Combat Tricks}{90}{section*.263}
+\contentsline {subsection}{Defensive actions}{93}{section*.268}
+\contentsline {subsection}{Other Actions}{93}{section*.271}
+\contentsline {section}{Damage Calculations}{94}{section*.281}
+\contentsline {subsection}{Damage \& Damage Threshold}{94}{section*.282}
+\contentsline {subsection}{Losing HP Tokens}{95}{section*.283}
+\contentsline {subsection}{Pain Thresholds}{95}{section*.284}
+\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{95}{section*.285}
+\contentsline {subsection}{SPECIAL Damage}{96}{section*.286}
+\contentsline {subsection}{Healing HP}{96}{section*.287}
+\contentsline {chapter}{\numberline {8}Magic \& Spells}{97}{chapter.8}
+\contentsline {section}{Spell Rules}{97}{section*.291}
+\contentsline {section}{Spell Characteristics}{98}{section*.292}
+\contentsline {section}{Earth Pony Magic}{100}{section*.300}
+\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{101}{section*.303}
+\contentsline {section}{Unicorn Magic}{103}{section*.306}
+\contentsline {section}{Zebra Magic}{105}{section*.309}
+\contentsline {subsection}{Alchemy}{105}{section*.310}
+\contentsline {subsection}{Shamanism}{108}{section*.315}
+\contentsline {chapter}{Combat Quick Reference Sheet}{113}{chapter*.321}
