@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  10 OCT 2019 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  28 OCT 2019 21:02
 entering extended mode
 **./FOEWV_TEX.tex
 (FOEWV_TEX.tex
@@ -927,11 +927,6 @@ Underfull \hbox (badness 2529) in paragraph at lines 1190--1191
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1191--1192
-\OT1/cmr/m/n/10.95 weapons ac-count the char-ac-ter's STR
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
 []\OT1/cmr/m/n/10.95 Certain
  []
@@ -946,9 +941,7 @@ Underfull \hbox (badness 1831) in paragraph at lines 1192--1193
 \OT1/cmr/m/n/10.95 de-scrip-tion, or ended with a counter
  []
 
-[37
 
-]
 Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
 []\OT1/cmr/m/n/10.95 The value
  []
@@ -958,7 +951,9 @@ Underfull \hbox (badness 5147) in paragraph at lines 1195--1196
 \OT1/cmr/m/n/10.95 pro-tects you from at-tacks, re-duc-ing
  []
 
+[37
 
+]
 Underfull \hbox (badness 4608) in paragraph at lines 1196--1197
 []\OT1/cmr/m/n/10.95 Weapons that have this
  []
@@ -1018,7 +1013,11 @@ Underfull \hbox (badness 1178) in paragraph at lines 1239--1240
 \OT1/cmr/m/it/10.95 throw-ing the first grenade, she
  []
 
-[39] [40]
+
+Underfull \vbox (badness 5331) has occurred while \output is active []
+
+ [39]
+[40]
 Underfull \hbox (badness 1377) in paragraph at lines 1282--1283
 \OT1/cmr/m/n/10.95 with a marker ``Hold-out Weapon'' in the
  []
@@ -1246,10 +1245,6 @@ Underfull \hbox (badness 2635) in paragraph at lines 2360--2361
 
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 2375--2376
-\OT1/cmr/m/n/10.95 and E.F.S. Pip-Bucks are sub-ject to dis-
- []
-
 <ART/Pip.jpg, id=905, 345.39743pt x 345.39743pt>
 File: ART/Pip.jpg Graphic file (type jpg)
 <use ART/Pip.jpg>
@@ -1265,7 +1260,10 @@ Underfull \hbox (badness 5119) in paragraph at lines 2390--2391
 \OT1/cmr/m/n/10.95 Stable-Tec Eques-trian Po-si-tion-ing Sys-tem
  []
 
-[73] [74 <./ART/Pip.jpg>]
+[73]
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+ [74 <./ART/Pip.jpg>]
 Underfull \hbox (badness 2310) in paragraph at lines 2473--2474
 \OT1/cmr/m/it/10.95 last few days work-ing on her
  []
@@ -1613,7 +1611,7 @@ lic/amsfonts/cm/cmsl10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Roope O/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Roope O/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FOEWV_TEX.pdf (118 pages, 10644167 bytes).
+Output written on FOEWV_TEX.pdf (118 pages, 10644100 bytes).
 PDF statistics:
  1371 PDF objects out of 1440 (max. 8388607)
  493 named destinations out of 1000 (max. 500000)
