@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  28 OCT 2019 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.29)  26 APR 2020 00:09
 entering extended mode
 **./WANDFILE_TEX.tex
 (WANDFILE_TEX.tex
@@ -582,7 +582,7 @@ LaTeX Info: Redefining \nameref on input line 31.
 \@outlinefile=\write3
 \openout3 = `WANDFILE_TEX.out'.
 
-<WORD/COVER-WANDFILE.pdf, id=131, 597.23125pt x 845.1575pt>
+<WORD/COVER-WANDFILE.pdf, id=135, 597.23125pt x 845.1575pt>
 File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
 <use WORD/COVER-WANDFILE.pdf>
 Package pdftex.def Info: WORD/COVER-WANDFILE.pdf  used on input line 33.
@@ -591,7 +591,7 @@ File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
 <use WORD/COVER-WANDFILE.pdf>
 Package pdftex.def Info: WORD/COVER-WANDFILE.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<WORD/COVER-WANDFILE.pdf, id=134, page=1, 597.23125pt x 845.1575pt>
+<WORD/COVER-WANDFILE.pdf, id=138, page=1, 597.23125pt x 845.1575pt>
 File: WORD/COVER-WANDFILE.pdf Graphic file (type pdf)
 <use WORD/COVER-WANDFILE.pdf, page 1>
 Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
@@ -632,7 +632,7 @@ Package pdftex.def Info: WORD/COVER-WANDFILE.pdf , page1 used on input line 33.
 [1
 
  <./WORD/COVER-WANDFILE.pdf>]
-<ART/ISA_Logo.jpg, id=155, 77.53969pt x 74.52844pt>
+<ART/ISA_Logo.jpg, id=159, 77.53969pt x 74.52844pt>
 File: ART/ISA_Logo.jpg Graphic file (type jpg)
 <use ART/ISA_Logo.jpg>
 Package pdftex.def Info: ART/ISA_Logo.jpg  used on input line 66.
@@ -675,12 +675,12 @@ Chapter 1.
 
 ]
 Chapter 2.
-<ART/Races/ABY_F.jpg, id=219, 1405.25pt x 1405.25pt>
+<ART/Races/ABY_F.jpg, id=224, 1405.25pt x 1405.25pt>
 File: ART/Races/ABY_F.jpg Graphic file (type jpg)
 <use ART/Races/ABY_F.jpg>
 Package pdftex.def Info: ART/Races/ABY_F.jpg  used on input line 90.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/ABY_M.jpg, id=220, 1405.25pt x 1405.25pt>
+<ART/Races/ABY_M.jpg, id=225, 1405.25pt x 1405.25pt>
 File: ART/Races/ABY_M.jpg Graphic file (type jpg)
 <use ART/Races/ABY_M.jpg>
 Package pdftex.def Info: ART/Races/ABY_M.jpg  used on input line 95.
@@ -714,12 +714,12 @@ Underfull \hbox (badness 4995) in paragraph at lines 112--113
  []
 
 [8 <./ART/Races/ABY_F.jpg> <./ART/Races/ABY_M.jpg>]
-<ART/Races/BAT_F.jpg, id=229, 1405.25pt x 1405.25pt>
+<ART/Races/BAT_F.jpg, id=234, 1405.25pt x 1405.25pt>
 File: ART/Races/BAT_F.jpg Graphic file (type jpg)
 <use ART/Races/BAT_F.jpg>
 Package pdftex.def Info: ART/Races/BAT_F.jpg  used on input line 123.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/BAT_M.jpg, id=230, 1405.25pt x 1405.25pt>
+<ART/Races/BAT_M.jpg, id=235, 1405.25pt x 1405.25pt>
 File: ART/Races/BAT_M.jpg Graphic file (type jpg)
 <use ART/Races/BAT_M.jpg>
 Package pdftex.def Info: ART/Races/BAT_M.jpg  used on input line 128.
@@ -732,12 +732,12 @@ Underfull \hbox (badness 1237) in paragraph at lines 133--134
 [9
 
  <./ART/Races/BAT_F.jpg> <./ART/Races/BAT_M.jpg>]
-<ART/Races/BRAH_F.jpg, id=235, 345.15572pt x 345.15572pt>
+<ART/Races/BRAH_F.jpg, id=240, 345.15572pt x 345.15572pt>
 File: ART/Races/BRAH_F.jpg Graphic file (type jpg)
 <use ART/Races/BRAH_F.jpg>
 Package pdftex.def Info: ART/Races/BRAH_F.jpg  used on input line 154.
 (pdftex.def)             Requested size: 176.80067pt x 176.80653pt.
-<ART/Races/BRAH_M.jpg, id=236, 135.43512pt x 135.43512pt>
+<ART/Races/BRAH_M.jpg, id=241, 135.43512pt x 135.43512pt>
 File: ART/Races/BRAH_M.jpg Graphic file (type jpg)
 <use ART/Races/BRAH_M.jpg>
 Package pdftex.def Info: ART/Races/BRAH_M.jpg  used on input line 159.
@@ -745,12 +745,12 @@ Package pdftex.def Info: ART/Races/BRAH_M.jpg  used on input line 159.
  [10
 
  <./ART/Races/BRAH_F.jpg> <./ART/Races/BRAH_M.jpg>]
-<ART/Races/BUF_F.jpg, id=241, 1405.25pt x 1405.25pt>
+<ART/Races/BUF_F.jpg, id=246, 1405.25pt x 1405.25pt>
 File: ART/Races/BUF_F.jpg Graphic file (type jpg)
 <use ART/Races/BUF_F.jpg>
 Package pdftex.def Info: ART/Races/BUF_F.jpg  used on input line 184.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/BUF_M.jpg, id=242, 1405.25pt x 1405.25pt>
+<ART/Races/BUF_M.jpg, id=247, 1405.25pt x 1405.25pt>
 File: ART/Races/BUF_M.jpg Graphic file (type jpg)
 <use ART/Races/BUF_M.jpg>
 Package pdftex.def Info: ART/Races/BUF_M.jpg  used on input line 189.
@@ -776,12 +776,12 @@ Underfull \hbox (badness 1337) in paragraph at lines 207--208
 [11
 
  <./ART/Races/BUF_F.jpg> <./ART/Races/BUF_M.jpg>]
-<ART/Races/CHN_F.jpg, id=247, 1433.355pt x 1433.355pt>
+<ART/Races/CHN_F.jpg, id=252, 1433.355pt x 1433.355pt>
 File: ART/Races/CHN_F.jpg Graphic file (type jpg)
 <use ART/Races/CHN_F.jpg>
 Package pdftex.def Info: ART/Races/CHN_F.jpg  used on input line 217.
 (pdftex.def)             Requested size: 176.80067pt x 176.78497pt.
-<ART/Races/CHN_M.jpg, id=248, 1289.81876pt x 1449.415pt>
+<ART/Races/CHN_M.jpg, id=253, 1289.81876pt x 1449.415pt>
 File: ART/Races/CHN_M.jpg Graphic file (type jpg)
 <use ART/Races/CHN_M.jpg>
 Package pdftex.def Info: ART/Races/CHN_M.jpg  used on input line 222.
@@ -802,24 +802,24 @@ Underfull \hbox (badness 2884) in paragraph at lines 237--238
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 237--238
-\OT1/cmr/m/n/10.95 Changelings start with Shapeshift for
+Underfull \hbox (badness 1371) in paragraph at lines 237--238
+\OT1/cmr/m/n/10.95 shapeshift spells, Formshift, Bodyshift
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-[]\OT1/cmr/m/n/10.95 Changelings have thick
+Underfull \hbox (badness 2393) in paragraph at lines 240--241
+\OT1/cmr/m/n/10.95 in-juries faster than a softer crea-ture
  []
 
 [12
 
  <./ART/Races/CHN_F.jpg> <./ART/Races/CHN_M.jpg>]
-<ART/Races/CRP_F.jpg, id=254, 1405.25pt x 1405.25pt>
+<ART/Races/CRP_F.jpg, id=259, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_F.jpg Graphic file (type jpg)
 <use ART/Races/CRP_F.jpg>
 Package pdftex.def Info: ART/Races/CRP_F.jpg  used on input line 250.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/CRP_M.jpg, id=255, 1405.25pt x 1405.25pt>
+<ART/Races/CRP_M.jpg, id=260, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_M.jpg Graphic file (type jpg)
 <use ART/Races/CRP_M.jpg>
 Package pdftex.def Info: ART/Races/CRP_M.jpg  used on input line 255.
@@ -837,12 +837,12 @@ Underfull \hbox (badness 1838) in paragraph at lines 269--270
 [13
 
  <./ART/Races/CRP_F.jpg> <./ART/Races/CRP_M.jpg>]
-<ART/Races/DER_F.jpg, id=260, 1405.25pt x 1405.25pt>
+<ART/Races/DER_F.jpg, id=265, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_F.jpg Graphic file (type jpg)
 <use ART/Races/DER_F.jpg>
 Package pdftex.def Info: ART/Races/DER_F.jpg  used on input line 279.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DER_M.jpg, id=261, 1405.25pt x 1405.25pt>
+<ART/Races/DER_M.jpg, id=266, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_M.jpg Graphic file (type jpg)
 <use ART/Races/DER_M.jpg>
 Package pdftex.def Info: ART/Races/DER_M.jpg  used on input line 284.
@@ -863,12 +863,12 @@ Underfull \hbox (badness 1546) in paragraph at lines 301--302
 [14
 
  <./ART/Races/DER_F.jpg> <./ART/Races/DER_M.jpg>]
-<ART/Races/DDG_F.jpg, id=266, 1405.25pt x 1405.25pt>
+<ART/Races/DDG_F.jpg, id=271, 1405.25pt x 1405.25pt>
 File: ART/Races/DDG_F.jpg Graphic file (type jpg)
 <use ART/Races/DDG_F.jpg>
 Package pdftex.def Info: ART/Races/DDG_F.jpg  used on input line 312.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DDG_M.jpg, id=267, 135.43512pt x 135.43512pt>
+<ART/Races/DDG_M.jpg, id=272, 135.43512pt x 135.43512pt>
 File: ART/Races/DDG_M.jpg Graphic file (type jpg)
 <use ART/Races/DDG_M.jpg>
 Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 317.
@@ -876,12 +876,12 @@ Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 317.
  [15
 
  <./ART/Races/DDG_F.jpg> <./ART/Races/DDG_M.jpg>]
-<ART/Races/DNK_F.jpg, id=272, 1405.25pt x 1405.25pt>
+<ART/Races/DNK_F.jpg, id=277, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_F.jpg Graphic file (type jpg)
 <use ART/Races/DNK_F.jpg>
 Package pdftex.def Info: ART/Races/DNK_F.jpg  used on input line 347.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DNK_M.jpg, id=273, 1405.25pt x 1405.25pt>
+<ART/Races/DNK_M.jpg, id=278, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_M.jpg Graphic file (type jpg)
 <use ART/Races/DNK_M.jpg>
 Package pdftex.def Info: ART/Races/DNK_M.jpg  used on input line 352.
@@ -894,12 +894,12 @@ Underfull \hbox (badness 1107) in paragraph at lines 364--365
 [16
 
  <./ART/Races/DNK_F.jpg> <./ART/Races/DNK_M.jpg>]
-<ART/Races/HAR_F.jpg, id=278, 1405.25pt x 1405.25pt>
+<ART/Races/HAR_F.jpg, id=283, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_F.jpg Graphic file (type jpg)
 <use ART/Races/HAR_F.jpg>
 Package pdftex.def Info: ART/Races/HAR_F.jpg  used on input line 376.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/HAR_M.jpg, id=279, 1405.25pt x 1405.25pt>
+<ART/Races/HAR_M.jpg, id=284, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_M.jpg Graphic file (type jpg)
 <use ART/Races/HAR_M.jpg>
 Package pdftex.def Info: ART/Races/HAR_M.jpg  used on input line 381.
@@ -917,12 +917,12 @@ Underfull \hbox (badness 1769) in paragraph at lines 396--397
 [17
 
  <./ART/Races/HAR_F.jpg> <./ART/Races/HAR_M.jpg>]
-<ART/Races/HIP_F.jpg, id=285, 1405.25pt x 1405.25pt>
+<ART/Races/HIP_F.jpg, id=290, 1405.25pt x 1405.25pt>
 File: ART/Races/HIP_F.jpg Graphic file (type jpg)
 <use ART/Races/HIP_F.jpg>
 Package pdftex.def Info: ART/Races/HIP_F.jpg  used on input line 407.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/HIP_M.jpg, id=286, 135.43512pt x 135.43512pt>
+<ART/Races/HIP_M.jpg, id=291, 135.43512pt x 135.43512pt>
 File: ART/Races/HIP_M.jpg Graphic file (type jpg)
 <use ART/Races/HIP_M.jpg>
 Package pdftex.def Info: ART/Races/HIP_M.jpg  used on input line 412.
@@ -945,12 +945,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--432
 [18
 
  <./ART/Races/HIP_F.jpg> <./ART/Races/HIP_M.jpg>]
-<ART/Races/KIR_F.jpg, id=292, 1405.25pt x 1405.25pt>
+<ART/Races/KIR_F.jpg, id=297, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_F.jpg Graphic file (type jpg)
 <use ART/Races/KIR_F.jpg>
 Package pdftex.def Info: ART/Races/KIR_F.jpg  used on input line 441.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/KIR_M.jpg, id=293, 1405.25pt x 1405.25pt>
+<ART/Races/KIR_M.jpg, id=298, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_M.jpg Graphic file (type jpg)
 <use ART/Races/KIR_M.jpg>
 Package pdftex.def Info: ART/Races/KIR_M.jpg  used on input line 446.
@@ -965,12 +965,12 @@ Underfull \hbox (badness 4886) in paragraph at lines 462--463
  <./ART/Races/KIR_F.jpg> <./ART/Races/KIR_M.jpg>] [20
 
 ]
-<ART/Races/MIN_F.jpg, id=302, 1405.25pt x 1405.25pt>
+<ART/Races/MIN_F.jpg, id=307, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_F.jpg Graphic file (type jpg)
 <use ART/Races/MIN_F.jpg>
 Package pdftex.def Info: ART/Races/MIN_F.jpg  used on input line 474.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/MIN_M.jpg, id=303, 1405.25pt x 1405.25pt>
+<ART/Races/MIN_M.jpg, id=308, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_M.jpg Graphic file (type jpg)
 <use ART/Races/MIN_M.jpg>
 Package pdftex.def Info: ART/Races/MIN_M.jpg  used on input line 479.
@@ -993,12 +993,12 @@ Underfull \hbox (badness 1067) in paragraph at lines 490--491
 [21
 
  <./ART/Races/MIN_F.jpg> <./ART/Races/MIN_M.jpg>]
-<ART/Races/YAK_F.jpg, id=308, 1405.25pt x 1405.25pt>
+<ART/Races/YAK_F.jpg, id=313, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_F.jpg Graphic file (type jpg)
 <use ART/Races/YAK_F.jpg>
 Package pdftex.def Info: ART/Races/YAK_F.jpg  used on input line 502.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/YAK_M.jpg, id=309, 1405.25pt x 1405.25pt>
+<ART/Races/YAK_M.jpg, id=314, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_M.jpg Graphic file (type jpg)
 <use ART/Races/YAK_M.jpg>
 Package pdftex.def Info: ART/Races/YAK_M.jpg  used on input line 507.
@@ -1016,21 +1016,21 @@ Chapter 3.
 
 
 ]
-Underfull \hbox (badness 1365) in paragraph at lines 568--569
+Underfull \hbox (badness 1365) in paragraph at lines 566--567
 \OT1/cmr/m/n/10.95 avail-able to you, de-cided by you. Your
  []
 
 
-Underfull \vbox (badness 1107) has occurred while \output is active []
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 1038) in paragraph at lines 631--632
+Underfull \hbox (badness 1038) in paragraph at lines 629--630
 []\OT1/cmr/m/n/10.95 This trait can-not be taken with \OT1/cmr/bx/n/10.95 Small
 
  []
 
 [25]
-Underfull \hbox (badness 6708) in paragraph at lines 659--660
+Underfull \hbox (badness 6708) in paragraph at lines 657--658
 \OT1/cmr/bx/it/10.95 Reserved for Abyssini-ans, di-a-mond
  []
 
@@ -1038,114 +1038,211 @@ Underfull \hbox (badness 6708) in paragraph at lines 659--660
 
 ]
 Chapter 4.
-[27
+
+Underfull \hbox (badness 1796) in paragraph at lines 671--672
+\OT1/cmr/m/n/10.95 Changelings start with a Shapeshift spell
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 689--690
+\OT1/cmr/m/n/10.95 Formshift, Bodyshift and Mind-shift. A
+ []
+
+
+Underfull \vbox (badness 2837) has occurred while \output is active []
+
+ [27
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 754.
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+[]\OT1/cmr/m/n/10.95 Balefire Phoenix's Bi-o-log-i-cal
+ []
 
+
+Underfull \hbox (badness 5548) in paragraph at lines 744--745
+[]\OT1/cmr/m/n/10.95 4 crea-ture com-bat
+ []
+
+[28]
+Underfull \hbox (badness 1033) in paragraph at lines 785--787
+\OT1/cmr/m/n/10.95 ob-ject, how-ever this is merely a cos-metic
+ []
+
+[29]
+Underfull \hbox (badness 4634) in paragraph at lines 872--873
+[]\OT1/cmr/m/n/10.95 +1 DT, +1 END
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 872--873
+\OT1/cmr/m/n/10.95 against Burn-ing, Freez-ing or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
+\OT1/cmr/m/n/10.95 against Burn-ing, Bleed-ing,
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 874--875
+[]\OT1/cmr/m/n/10.95 +1 DT, +1 END
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--875
+\OT1/cmr/m/n/10.95 against Burn-ing, Bleed-ing,
+ []
+
+[30] [31]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1016
+.
 
 ("C:\Users\Roope O\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 754.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1016.
 
-Underfull \hbox (badness 1205) in paragraph at lines 763--765
+
+Underfull \hbox (badness 1205) in paragraph at lines 1022--1023
 []\OT1/cmr/m/n/10.95 The co-coon's DT is de-ter-mined by the
  []
 
-[28]
-Underfull \hbox (badness 1394) in paragraph at lines 887--888
+[32]
+Underfull \hbox (badness 3323) in paragraph at lines 1093--1094
+[]\OT1/cmr/m/n/10.95 The tar-gets in range also can-not use
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 1093--1094
+\OT1/cmr/m/n/10.95 Withdraw-action to move away from the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+[]\OT1/cmr/m/n/10.95 Small Burst, 3
+ []
+
+[33] [34] [35]
+Underfull \hbox (badness 1394) in paragraph at lines 1282--1284
 []\OT1/cmr/m/n/10.95 The spell's range is de-ter-mined by the
  []
 
-[29]
-Underfull \hbox (badness 1033) in paragraph at lines 919--921
-\OT1/cmr/m/n/10.95 ob-ject, how-ever this is merely a cos-metic
+
+Underfull \hbox (badness 1509) in paragraph at lines 1352--1353
+[]\OT1/cmr/m/n/10.95 Small Burst, 1+(5)
  []
 
-[30] [31
+
+Underfull \hbox (badness 1924) in paragraph at lines 1354--1355
+[]\OT1/cmr/m/n/10.95 Huge Burst, 2+(7)
+ []
+
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1506--1507
+[]\OT1/cmr/m/n/10.95 Medium Dis-trac-
+ []
+
+[38] [39] [40
 
 ]
-Underfull \hbox (badness 1688) in paragraph at lines 1073--1074
-[]\OT1/cmr/m/n/10.95 Earth: Orbs have 20% base Crip-ple
+Underfull \hbox (badness 1014) in paragraph at lines 1696--1697
+[]\OT1/cmr/bx/n/10.95 Earth: \OT1/cmr/m/n/10.95 Orbs have 20% base Crip-ple
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1115--1116
+Underfull \hbox (badness 1019) in paragraph at lines 1743--1744
 \OT1/cmr/m/n/10.95 space once the caster's Po-tency al-lows it.
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 1115--1116
+Underfull \hbox (badness 1221) in paragraph at lines 1743--1744
 \OT1/cmr/m/n/10.95 When ac-cess-ing items put into the Wind
  []
 
-[32] [33]
-Underfull \hbox (badness 1418) in paragraph at lines 1280--1281
+[41] [42]
+Underfull \hbox (badness 1418) in paragraph at lines 1913--1914
 []\OT1/cmr/m/n/10.95 Telekinesis is di-vided in two cat-e-gories,
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 1282--1283
+Underfull \hbox (badness 2495) in paragraph at lines 1915--1916
 []\OT1/cmr/m/n/10.95 Upon learn-ing the spell, the char-ac-ter
  []
 
-[34]
-Underfull \hbox (badness 1237) in paragraph at lines 1318--1319
+[43]
+Underfull \hbox (badness 1237) in paragraph at lines 1951--1952
 []\OT1/cmr/m/n/10.95 When lev-i-tat-ing weapons with Pre-ci-sion
  []
 
-[35]
-Underfull \hbox (badness 1924) in paragraph at lines 1458--1459
+[44]
+Underfull \hbox (badness 3098) in paragraph at lines 2067--2068
+[]\OT1/cmr/bx/n/10.95 Example: \OT1/cmr/m/n/10.95 Sapling Sprout casts
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 2067--2068
+\OT1/cmr/m/n/10.95 Mag-ne-tize on her gun and on
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 2098--2099
+[]\OT1/cmr/m/n/10.95 +2 DT, +1 base
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 2099--2100
 []\OT1/cmr/m/n/10.95 +3 DT, +2 base
  []
 
-[36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[45]
+Underfull \hbox (badness 6204) in paragraph at lines 2100--2101
+[]\OT1/cmr/m/n/10.95 +4 DT, +3 base
+ []
 
- [37]
-[38] [39]
-Underfull \hbox (badness 1048) in paragraph at lines 1782--1783
+
+Underfull \hbox (badness 10000) in paragraph at lines 2161--2162
+[]\OT1/cmr/m/n/10.95 Large Burst; 4
+ []
+
+[46] [47] [48] [49]
+Underfull \hbox (badness 1048) in paragraph at lines 2456--2457
 []\OT1/cmr/m/n/10.95 The caster en-chants their body to pro-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 1840--1841
+Underfull \hbox (badness 1043) in paragraph at lines 2514--2515
 []\OT1/cmr/m/n/10.95 The caster con-jures up a slightly grim-
  []
 
-[40] [41]
-Underfull \hbox (badness 3601) in paragraph at lines 2035--2036
+[50] [51]
+Underfull \hbox (badness 3601) in paragraph at lines 2714--2715
 []\OT1/cmr/m/n/10.95 The poi-son-ing chance de-pends on the
  []
 
-[42] [43] [44] [45] [46] [47] [48
+[52] [53] [54] [55] [56] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3168.
+ [58
 
 ]
-Chapter 5.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2489.
-[49
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2489.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3168.
  (WANDFILE_TEX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2489.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2489.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3168.
 
 Package rerunfilecheck Info: File `WANDFILE_TEX.out' has not changed.
-(rerunfilecheck)             Checksum: EB013AA1AD9779A15C76A78C6E49882E;1788.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2489.
+(rerunfilecheck)             Checksum: 84CE26BE5D32B9609333A9C57D81AABB;1871.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3168.
  ) 
 Here is how much of TeX's memory you used:
- 8975 strings out of 493305
- 131740 string characters out of 3128930
- 238103 words of memory out of 3000000
- 12193 multiletter control sequences out of 15000+200000
+ 9002 strings out of 493305
+ 132028 string characters out of 3128930
+ 237101 words of memory out of 3000000
+ 12194 multiletter control sequences out of 15000+200000
  12389 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,43p,610b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,43p,669b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX
@@ -1156,9 +1253,9 @@ C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsl10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Roope O/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WANDFILE_TEX.pdf (50 pages, 13158317 bytes).
+Output written on WANDFILE_TEX.pdf (59 pages, 13846441 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 422 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 183 named destinations out of 1000 (max. 500000)
+ 430 words of extra memory for PDF output out of 10000 (max. 10000000)
 
