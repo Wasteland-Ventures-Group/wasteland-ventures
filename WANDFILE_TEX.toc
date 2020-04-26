@@ -12,22 +12,22 @@
 \contentsline {section}{Harpy}{17}{section*.11}
 \contentsline {section}{Hippogriff}{18}{section*.12}
 \contentsline {section}{Kirin}{19}{section*.13}
-\contentsline {section}{Minotaur}{21}{section*.14}
-\contentsline {section}{Yak}{22}{section*.15}
+\contentsline {section}{Minotaur}{20}{section*.14}
+\contentsline {section}{Yak}{21}{section*.15}
 \contentsline {chapter}{\numberline {3}Traits}{23}{chapter.3}
 \contentsline {chapter}{\numberline {4}Unique Magic}{27}{chapter.4}
-\contentsline {section}{Changeling Magic}{27}{section*.35}
-\contentsline {subsection}{Use of Strain}{27}{section*.37}
-\contentsline {subsection}{Shapeshifting}{27}{section*.38}
-\contentsline {subsection}{Changeling Spells}{28}{section*.39}
-\contentsline {subsection}{Shapeshift Spells}{28}{section*.40}
-\contentsline {subsection}{Other Changeling Spells}{30}{section*.44}
-\contentsline {section}{Kirin Magic}{40}{section*.66}
-\contentsline {subsection}{Kirin Spells}{41}{section*.69}
-\contentsline {subsection}{General}{41}{section*.70}
-\contentsline {subsection}{Air}{41}{section*.73}
-\contentsline {subsection}{Earth}{45}{section*.82}
-\contentsline {subsection}{Fire}{48}{section*.91}
-\contentsline {subsection}{Water}{51}{section*.100}
-\contentsline {section}{Yak Battle Ballads}{54}{section*.109}
-\contentsline {subsection}{Yak Ballad List}{55}{section*.111}
+\contentsline {section}{Changeling Magic}{27}{section*.36}
+\contentsline {subsection}{Use of Strain}{27}{section*.38}
+\contentsline {subsection}{Shapeshifting}{27}{section*.39}
+\contentsline {subsection}{Changeling Spells}{28}{section*.40}
+\contentsline {subsection}{Shapeshift Spells}{28}{section*.41}
+\contentsline {subsection}{Other Changeling Spells}{30}{section*.45}
+\contentsline {section}{Kirin Magic}{40}{section*.67}
+\contentsline {subsection}{Kirin Spells}{41}{section*.70}
+\contentsline {subsection}{General}{41}{section*.71}
+\contentsline {subsection}{Air}{41}{section*.74}
+\contentsline {subsection}{Earth}{45}{section*.83}
+\contentsline {subsection}{Fire}{48}{section*.92}
+\contentsline {subsection}{Water}{51}{section*.101}
+\contentsline {section}{Yak Battle Ballads}{54}{section*.110}
+\contentsline {subsection}{Yak Ballad List}{55}{section*.112}
