@@ -14,66 +14,66 @@
 \contentsline {section}{Quick Slots}{45}{section*.137}
 \contentsline {section}{Weapon Slots}{45}{section*.138}
 \contentsline {section}{Weapon Characteristics}{46}{section*.139}
-\contentsline {section}{Apparel}{48}{section*.159}
-\contentsline {section}{Mundane Items}{49}{section*.166}
-\contentsline {section}{Optional Equipment Rules}{51}{section*.171}
-\contentsline {subsection}{Item Condition, Degradation \& Repair}{51}{section*.172}
-\contentsline {subsection}{Modifying Equipment}{54}{section*.178}
+\contentsline {section}{Apparel}{48}{section*.156}
+\contentsline {section}{Mundane Items}{49}{section*.163}
+\contentsline {section}{Optional Equipment Rules}{51}{section*.168}
+\contentsline {subsection}{Item Condition, Degradation \& Repair}{51}{section*.169}
+\contentsline {subsection}{Modifying Equipment}{54}{section*.175}
 \contentsline {chapter}{\numberline {4}Character Advancement}{55}{chapter.4}
-\contentsline {section}{Leveling Up}{55}{section*.179}
-\contentsline {section}{Improving Skills}{55}{section*.180}
-\contentsline {section}{Improving Strain and Aerial Maneuvers}{56}{section*.181}
-\contentsline {section}{Gaining Perks}{56}{section*.182}
+\contentsline {section}{Leveling Up}{55}{section*.176}
+\contentsline {section}{Improving Skills}{55}{section*.177}
+\contentsline {section}{Improving Strain and Aerial Maneuvers}{56}{section*.178}
+\contentsline {section}{Gaining Perks}{56}{section*.179}
 \contentsline {chapter}{\numberline {5}Game Rules}{59}{chapter.5}
-\contentsline {section}{SPECIAL Rolls}{59}{section*.189}
-\contentsline {section}{Skill Rolls}{59}{section*.190}
-\contentsline {section}{Assisting}{61}{section*.192}
-\contentsline {section}{Opposed Rolls}{61}{section*.193}
-\contentsline {section}{Critical Success and Failure}{62}{section*.194}
-\contentsline {section}{SPECIAL \& Skill Value Modifiers}{62}{section*.195}
-\contentsline {section}{Character Death}{63}{section*.196}
-\contentsline {section}{Environmental \& Other Hazards}{64}{section*.197}
-\contentsline {section}{Sneaking}{68}{section*.207}
-\contentsline {section}{Long Distance Travel}{71}{section*.208}
-\contentsline {section}{Flight}{71}{section*.212}
+\contentsline {section}{SPECIAL Rolls}{59}{section*.186}
+\contentsline {section}{Skill Rolls}{59}{section*.187}
+\contentsline {section}{Assisting}{61}{section*.189}
+\contentsline {section}{Opposed Rolls}{61}{section*.190}
+\contentsline {section}{Critical Success and Failure}{62}{section*.191}
+\contentsline {section}{SPECIAL \& Skill Value Modifiers}{62}{section*.192}
+\contentsline {section}{Character Death}{63}{section*.193}
+\contentsline {section}{Environmental \& Other Hazards}{64}{section*.194}
+\contentsline {section}{Sneaking}{68}{section*.204}
+\contentsline {section}{Long Distance Travel}{71}{section*.205}
+\contentsline {section}{Flight}{71}{section*.209}
 \contentsline {chapter}{\numberline {6}Additional Rules}{73}{chapter.6}
-\contentsline {section}{Scavenging}{73}{section*.213}
-\contentsline {section}{Invention}{74}{section*.214}
-\contentsline {section}{NPC Disposition}{76}{section*.217}
-\contentsline {section}{PipBuck}{79}{section*.218}
-\contentsline {section}{Optional Rules}{81}{section*.230}
-\contentsline {subsection}{Sleep Deprivation}{81}{section*.231}
-\contentsline {subsection}{Hunger \& Thirst}{82}{section*.232}
+\contentsline {section}{Scavenging}{73}{section*.210}
+\contentsline {section}{Invention}{74}{section*.211}
+\contentsline {section}{NPC Disposition}{76}{section*.214}
+\contentsline {section}{PipBuck}{79}{section*.215}
+\contentsline {section}{Optional Rules}{81}{section*.227}
+\contentsline {subsection}{Sleep Deprivation}{81}{section*.228}
+\contentsline {subsection}{Hunger \& Thirst}{82}{section*.229}
 \contentsline {chapter}{\numberline {7}Combat}{83}{chapter.7}
-\contentsline {section}{Combat Sequence}{83}{section*.233}
-\contentsline {section}{Initiative}{83}{section*.234}
-\contentsline {section}{Combat Turn}{84}{section*.235}
-\contentsline {section}{Combat Statistics}{85}{section*.236}
-\contentsline {subsection}{Combat Variables}{85}{section*.237}
-\contentsline {subsubsection}{Obstacles}{86}{section*.242}
-\contentsline {subsection}{Crippled}{88}{section*.253}
-\contentsline {subsection}{Area of Effect}{88}{section*.254}
-\contentsline {subsection}{Status Effects}{89}{section*.255}
-\contentsline {section}{Combat Actions}{91}{section*.267}
-\contentsline {subsection}{Movement Actions}{91}{section*.268}
-\contentsline {subsection}{Attack Actions}{93}{section*.282}
-\contentsline {subsection}{Combat Tricks}{96}{section*.293}
-\contentsline {subsection}{Defensive actions}{99}{section*.298}
-\contentsline {subsection}{Other Actions}{99}{section*.301}
-\contentsline {section}{Damage Calculations}{100}{section*.311}
-\contentsline {subsection}{Damage \& Damage Threshold}{100}{section*.312}
-\contentsline {subsection}{Losing HP Tokens}{101}{section*.313}
-\contentsline {subsection}{Pain Thresholds}{101}{section*.314}
-\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{101}{section*.315}
-\contentsline {subsection}{SPECIAL Damage}{102}{section*.316}
-\contentsline {subsection}{Healing HP}{102}{section*.317}
+\contentsline {section}{Combat Sequence}{83}{section*.230}
+\contentsline {section}{Initiative}{83}{section*.231}
+\contentsline {section}{Combat Turn}{84}{section*.232}
+\contentsline {section}{Combat Statistics}{85}{section*.233}
+\contentsline {subsection}{Combat Variables}{85}{section*.234}
+\contentsline {subsubsection}{Obstacles}{86}{section*.239}
+\contentsline {subsection}{Crippled}{88}{section*.250}
+\contentsline {subsection}{Area of Effect}{88}{section*.251}
+\contentsline {subsection}{Status Effects}{89}{section*.252}
+\contentsline {section}{Combat Actions}{91}{section*.264}
+\contentsline {subsection}{Movement Actions}{91}{section*.265}
+\contentsline {subsection}{Attack Actions}{93}{section*.279}
+\contentsline {subsection}{Combat Tricks}{96}{section*.290}
+\contentsline {subsection}{Defensive actions}{99}{section*.295}
+\contentsline {subsection}{Other Actions}{99}{section*.298}
+\contentsline {section}{Damage Calculations}{100}{section*.308}
+\contentsline {subsection}{Damage \& Damage Threshold}{100}{section*.309}
+\contentsline {subsection}{Losing HP Tokens}{101}{section*.310}
+\contentsline {subsection}{Pain Thresholds}{101}{section*.311}
+\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{101}{section*.312}
+\contentsline {subsection}{SPECIAL Damage}{102}{section*.313}
+\contentsline {subsection}{Healing HP}{102}{section*.314}
 \contentsline {chapter}{\numberline {8}Magic \& Spells}{103}{chapter.8}
-\contentsline {section}{Spell Rules}{103}{section*.321}
-\contentsline {section}{Spell Characteristics}{104}{section*.322}
-\contentsline {section}{Earth Pony Magic}{106}{section*.330}
-\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{107}{section*.333}
-\contentsline {section}{Unicorn Magic}{109}{section*.336}
-\contentsline {section}{Zebra Magic}{111}{section*.339}
-\contentsline {subsection}{Alchemy}{111}{section*.340}
-\contentsline {subsection}{Shamanism}{114}{section*.345}
-\contentsline {chapter}{Combat Quick Reference Sheet}{119}{chapter*.351}
+\contentsline {section}{Spell Rules}{103}{section*.318}
+\contentsline {section}{Spell Characteristics}{104}{section*.319}
+\contentsline {section}{Earth Pony Magic}{106}{section*.327}
+\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{107}{section*.330}
+\contentsline {section}{Unicorn Magic}{109}{section*.333}
+\contentsline {section}{Zebra Magic}{111}{section*.336}
+\contentsline {subsection}{Alchemy}{111}{section*.337}
+\contentsline {subsection}{Shamanism}{114}{section*.342}
+\contentsline {chapter}{Combat Quick Reference Sheet}{119}{chapter*.348}
