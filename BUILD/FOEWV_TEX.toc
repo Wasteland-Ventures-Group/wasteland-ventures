@@ -33,47 +33,47 @@
 \contentsline {section}{SPECIAL \& Skill Value Modifiers}{62}{section*.192}
 \contentsline {section}{Character Death}{63}{section*.193}
 \contentsline {section}{Environmental \& Other Hazards}{64}{section*.194}
-\contentsline {section}{Sneaking}{68}{section*.204}
-\contentsline {section}{Long Distance Travel}{71}{section*.205}
-\contentsline {section}{Flight}{71}{section*.209}
-\contentsline {chapter}{\numberline {6}Additional Rules}{73}{chapter.6}
-\contentsline {section}{Scavenging}{73}{section*.210}
-\contentsline {section}{Invention}{74}{section*.211}
-\contentsline {section}{NPC Disposition}{76}{section*.214}
-\contentsline {section}{PipBuck}{79}{section*.215}
-\contentsline {section}{Optional Rules}{81}{section*.227}
-\contentsline {subsection}{Sleep Deprivation}{81}{section*.228}
-\contentsline {subsection}{Hunger \& Thirst}{82}{section*.229}
-\contentsline {chapter}{\numberline {7}Combat}{83}{chapter.7}
-\contentsline {section}{Combat Sequence}{83}{section*.230}
-\contentsline {section}{Initiative}{83}{section*.231}
-\contentsline {section}{Combat Turn}{84}{section*.232}
-\contentsline {section}{Combat Statistics}{85}{section*.233}
-\contentsline {subsection}{Combat Variables}{85}{section*.234}
-\contentsline {subsubsection}{Obstacles}{86}{section*.239}
-\contentsline {subsection}{Crippled}{88}{section*.250}
-\contentsline {subsection}{Area of Effect}{88}{section*.251}
-\contentsline {subsection}{Status Effects}{89}{section*.252}
-\contentsline {section}{Combat Actions}{91}{section*.264}
-\contentsline {subsection}{Movement Actions}{91}{section*.265}
-\contentsline {subsection}{Attack Actions}{93}{section*.279}
-\contentsline {subsection}{Combat Tricks}{96}{section*.290}
-\contentsline {subsection}{Defensive actions}{99}{section*.295}
-\contentsline {subsection}{Other Actions}{99}{section*.298}
-\contentsline {section}{Damage Calculations}{100}{section*.308}
-\contentsline {subsection}{Damage \& Damage Threshold}{100}{section*.309}
-\contentsline {subsection}{Losing HP Tokens}{101}{section*.310}
-\contentsline {subsection}{Pain Thresholds}{101}{section*.311}
-\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{101}{section*.312}
-\contentsline {subsection}{SPECIAL Damage}{102}{section*.313}
-\contentsline {subsection}{Healing HP}{102}{section*.314}
-\contentsline {chapter}{\numberline {8}Magic \& Spells}{103}{chapter.8}
-\contentsline {section}{Spell Rules}{103}{section*.318}
-\contentsline {section}{Spell Characteristics}{104}{section*.319}
-\contentsline {section}{Earth Pony Magic}{106}{section*.327}
-\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{107}{section*.330}
-\contentsline {section}{Unicorn Magic}{109}{section*.333}
-\contentsline {section}{Zebra Magic}{111}{section*.336}
-\contentsline {subsection}{Alchemy}{111}{section*.337}
-\contentsline {subsection}{Shamanism}{114}{section*.342}
-\contentsline {chapter}{Combat Quick Reference Sheet}{119}{chapter*.348}
+\contentsline {section}{Sneaking}{70}{section*.204}
+\contentsline {section}{Long Distance Travel}{72}{section*.205}
+\contentsline {section}{Flight}{72}{section*.209}
+\contentsline {chapter}{\numberline {6}Additional Rules}{75}{chapter.6}
+\contentsline {section}{Scavenging}{75}{section*.210}
+\contentsline {section}{Invention}{76}{section*.211}
+\contentsline {section}{NPC Disposition}{78}{section*.214}
+\contentsline {section}{PipBuck}{81}{section*.215}
+\contentsline {section}{Optional Rules}{83}{section*.227}
+\contentsline {subsection}{Sleep Deprivation}{83}{section*.228}
+\contentsline {subsection}{Hunger \& Thirst}{84}{section*.229}
+\contentsline {chapter}{\numberline {7}Combat}{85}{chapter.7}
+\contentsline {section}{Combat Sequence}{85}{section*.230}
+\contentsline {section}{Initiative}{85}{section*.231}
+\contentsline {section}{Combat Turn}{86}{section*.232}
+\contentsline {section}{Combat Statistics}{87}{section*.233}
+\contentsline {subsection}{Combat Variables}{87}{section*.234}
+\contentsline {subsubsection}{Obstacles}{88}{section*.239}
+\contentsline {subsection}{Crippled}{90}{section*.250}
+\contentsline {subsection}{Area of Effect}{90}{section*.251}
+\contentsline {subsection}{Status Effects}{91}{section*.252}
+\contentsline {section}{Combat Actions}{93}{section*.264}
+\contentsline {subsection}{Movement Actions}{93}{section*.265}
+\contentsline {subsection}{Attack Actions}{95}{section*.279}
+\contentsline {subsection}{Combat Tricks}{98}{section*.290}
+\contentsline {subsection}{Defensive actions}{101}{section*.296}
+\contentsline {subsection}{Other Actions}{102}{section*.299}
+\contentsline {section}{Damage Calculations}{103}{section*.309}
+\contentsline {subsection}{Damage \& Damage Threshold}{103}{section*.310}
+\contentsline {subsection}{Losing HP Tokens}{103}{section*.311}
+\contentsline {subsection}{Pain Thresholds}{104}{section*.312}
+\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{104}{section*.313}
+\contentsline {subsection}{SPECIAL Damage}{104}{section*.314}
+\contentsline {subsection}{Healing HP}{104}{section*.315}
+\contentsline {chapter}{\numberline {8}Magic \& Spells}{107}{chapter.8}
+\contentsline {section}{Spell Rules}{107}{section*.319}
+\contentsline {section}{Spell Characteristics}{108}{section*.320}
+\contentsline {section}{Earth Pony Magic}{110}{section*.328}
+\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{111}{section*.331}
+\contentsline {section}{Unicorn Magic}{113}{section*.334}
+\contentsline {section}{Zebra Magic}{115}{section*.337}
+\contentsline {subsection}{Alchemy}{115}{section*.338}
+\contentsline {subsection}{Shamanism}{118}{section*.343}
+\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.349}

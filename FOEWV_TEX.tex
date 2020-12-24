@@ -676,9 +676,13 @@
 	\subsection*{Insanity}
 	The Wasteland is not a nice place. It will beat you down mercilessly and it will take a toll on your sanity. Certain spells, traumatic experiences, and damage to your mental capabilities can steer you towards insanity. \textbf{Insanity meter} is meant to gauge how well your character is taking in the brutality of Wasteland.
 	
-	When a character is about to get an Insanity point, they roll a 1d100. If the result is 20 or under, their sanity has worsened. There are certain perks that affect this roll, as well as methods to lower one's Insanity - such as certain Chems, spells, and alchemy recipes.
+	When a character is about to get an Insanity point, they roll a 1d100. If the result is 20 or under, their sanity has worsened. There are certain perks that affect this roll, as well as methods to lower one's Insanity - such as certain Chems, spells, and alchemy recipes. If the character already has 5 points in Insanity, they gain a new Insanity point at 50 or under on the 1d100 roll.
 	
-	Insanity meter is equal to your base Charisma or Intelligence, whichever is the higher stat. Should a character's Insanity meter reach maximum, the character will go insane and be removed from the player's control. It is at the GM's discretion if a character that has left play in this manner can be brought back.
+	Your Insanity meter's maximum is determined by the following formula:
+	\begin{center}
+		$5+(INT/2)$
+	\end{center}	
+	Should a character's Insanity meter reach maximum, the character will go insane and be removed from the player's control. It is at the GM's discretion if a character that has left play in this manner can be brought back.
 	
 	\subsection*{Size}
 	Size category determines how large the character is. It ranges from -4 to +4, with most equines representing the middle size category of 0. Size category can be changed with Traits, Spells and Zebra Alchemy.
@@ -847,14 +851,14 @@
 	As things are constantly breaking in the wastes, and there aren't customer service hot-lines anymore. A person with a high Mechanics skill is always good to have around.
 	
 	The Mechanics skill determines the character's ability to build, repair and modify items, as well as to disable machines and non-explosive traps. It is also used in the scavenging of useful parts from machinery and robotics.
-	\vfill
+%	\vfill
 	
 	\subsection*{Medicine}
 	\textbf{Starting value:} $(2 \times INT)+(LCK/2)$
 	
 	The ability to protect life can be just as important as the ability to take life. The Medicine skill represents a character's medical training as well as basic biological intuition and the ability to properly diagnose causes of illness and wounds that are not immediately apparent.
 	
-	Outside of healing potions, which are the quick but costly fix to the injured, a medical practitioner can heal others with a successful Medicine check. Details on how to heal others with Medicine is found under Chapter 7: Combat - Damage Calculations.
+	Outside of healing potions, which are the quick but costly fix to the injured, a medical practitioner can heal others with a successful Medicine check. In addition, a well-versed doctor can double the effects of medicinal items upon a successful check. Details on how to heal others with Medicine is found under Chapter 7: Combat - Damage Calculations.
 	
 	\subsection*{Melee}
 	\textbf{Starting value:} $(2 \times STR)+(LCK/2)$
@@ -1189,7 +1193,7 @@
 	
 	The heat of battle is where you belong, and all devices of destruction are your tools of trade. If it can kill ponies, you know how to handle it.
 	
-	\textbf{Quirk - Guts:} Once per session when making an attack, gain +1 DMG for every Status Effect you're experiencing (excluding Mind-Controlled, Stunned, Dying, and Unconscious).
+	\textbf{Quirk - Guts:} Once per session when making an attack, gain +1 DMG for every Status Effect you're experiencing (excluding Mind-Controlled, Stunned, Petrified, and Unconscious).
 	
 	\vfill			
 	
@@ -1491,7 +1495,7 @@
 		\item[Range:] This lists the weapon's Short, Medium, and Long range. All ranges are in meters. Weapon ranges are ``effective'' ranges for the purposes of the game. More on range can be found in Chapter 7: Combat - Combat statistics.
 		\item[Reach:] Melee and Unarmed weapons can have reach, allowing them to deal damage against enemies from further away than adjacent hexes. This is noted with ``Melee / X m'' as Short range, where the latter value is the reach.
 		\item[Reload Type:] This determines the magazine used by weapons that consume ammunition. There are four types of reloads with their own characteristics. More information on different reloads is listed in this chapter under Weapon Characteristics - Reload Types.
-		\item[STR Requirement:] When the character has less STR than the minimum requirement for the weapon as specified in the weapon's statistics, she gains a cumulative penalty of -5 to accuracy and an additional cost of 1 AP to attacks for each lacking point of STR. The lacking STR on ranged weapons can be compensated by Bracing the weapon.
+		\item[STR Requirement:] When the character has less STR than the minimum requirement for the weapon as specified in the weapon's statistics, she gains a cumulative penalty of -5 to accuracy and an additional cost of 1 AP to attacks for each lacking point of STR. The lacking STR on weapons can be compensated by Bracing the weapon.
 		\item[Type:] Lists in which weapon category said weapon belongs to. This is used to determine effects from perks and traits, like \emph{Jury Rigging}.
 		\item[Value:] The weapon's usual rate in caps.
 		\item[Weapon Slot:] A holster or strap where one can store her weapon, easily accessible for quick switch in a combat. More information on Weapon Slots is found in this chapter under Weapon Slots.
@@ -1690,13 +1694,13 @@
 	\subsection*{Tools, Books \& Magazines}
 	Tools, books and magazines make life a little bit easier in the Wastes. Some tools provide characters with a small bonus to specific skills to aid in certain actions, such as cooking, hacking or repairing your armor and weaponry.
 	
-	Books and Magazines give either permanent bonuses or temporary bonuses in that order, to a single skill. Books and magazines are much harder to find, especially books. To know more about the effects of books and magazines, look at Chapter 4: Character Advancement - Special Bonuses.
+	Books and Magazines give either permanent bonuses or temporary bonuses in that order, to a single skill. Books and magazines are much harder to find, especially books. To know more about the effects of books and magazines, look at Chapter 4: Character Advancement - Additional Bonuses.
 
 	
-	\subsection*{Junk}
+	\subsection*{Scrap}
 	Your garden variety of mostly useless junk that every place seems to be littered with, from nigh invincible coffee mugs to foal rattles and leaf blowers.
 	
-	Though most ponies would toss these items over their shoulders, tinkerers and zebra alchemists might find some of the items useful in their crafts. The rest can just sell them, preferably to the aforementioned tinkerers and alchemists.
+	Resourceful ponies will find these items useful, and will combine the most intact pieces to form something new and operational. Scrap items can be sold to tinkerers and alchemists, or combined together to form \textbf{Components} for further inventions. To look further into potential component crafting and their uses, look into Chapter 6: Additional Rules - Invention.
 	
 	\vfill
 	
@@ -2190,13 +2194,25 @@
 	
 	Unless otherwise noted, a character cannot stack benefits from the same source of enhancement or closely related sources.  If a character gains the same type of enhancement from two closely related sources, the character gains the greater benefit, not both.
 	
-	\vfill
+%	\vfill
 	
 	\section*{Character Death}
 	\addcontentsline{toc}{section}{Character Death}
 	Though often unfavorable and unwanted, it is possible that a player's character might cross the rainbow bridge at some point in the game. When a character's HP drops to 0, they are unconscious and close to death.
 	
-	The character's allies have one full combat round of bringing the downed character back to life, either through medical spells, healing potions and items, or a Medicine -50 check. If her allies' attempts aren't successful within this time period, the character perishes due her wounds, another casualty in the cruel Wasteland.
+	The character's allies have one full combat round of bringing the downed character back to life, either through medical spells, healing potions and items, or a Medicine -30 check. If her allies' attempts aren't successful within this time period, the character perishes due her wounds, another casualty in the cruel Wasteland.
+	
+	If successfully healed before the dying character's next turn, the character heals according to the the source, starting from 0 HP. If the character remains within 5 HP or less, they get a Pain Threshold.
+	
+	Healing with a Medicine check at a penalty of 30 will, if successful, give HP back to the dying target according to the Skill user's total Skill level; Each full 10 of the skill is 1 HP healed.
+	
+	\begin{verse}
+		\emph{\textbf{Example 1:} Maabara uses a Healing Potion on the dying Featherfall; Healing Potion heals 3 HP. Featherfall gets back up with 3 HP remaining on her Health Tracker. Because this would put her on a Pain Threshold, GM rolls a new Pain Threshold status for her.}
+	\end{verse}
+
+	\begin{verse}
+		\emph{\textbf{Example 2:} Doc Red uses his Medicine-Skill to resuscitate dying Featherfall; Doc Red's current Medicine skill is 72. Doc Red succeeds in his Medicine -30 check and as per the rules on healing dying characters, he heals her by 7 HP (10 goes into 72 7 times), bringing Featherfall's Health Tracker to 7 HP as a result. As such, Featherfall does not get a Pain Threshold, as she has more than the maximum of 5 HP required.}
+	\end{verse}
 	
 	If the character is dying of Radiation Poisoning (see \emph{Environmental \& Other Hazards} for more detail), meaning they've went beyond Critical, there is a chance for a character to become a ghoul instead. The requirements are only known to GM, but in the event that a character is ghoulified, they gain \textbf{Ghoul}-trait for free.
 	
@@ -2268,6 +2284,13 @@
 	Drowning may occur if a character remains underwater without means of breathing beyond the point where she can hold her breath. A character may hold her breath for her END in turns without difficulty. Once she has exceeded this time, she may make an END check to hold her breath for an additional turn. Each successive turn after, she may make another END check at a cumulative -10 penalty (to a maximum penalty of -50).
 	
 	Once the character fails an END check, she begins to drown. A drowning character no longer rolls END checks but loses one END per turn. When she reaches 0 END, she has drowned and perished. If she manages to get to air before this time, she will recover one lost END per minute.
+	
+	\begin{figure*}[!t]
+		\centering
+		\includegraphics[width=0.8\linewidth]{ART/fall_res}
+	\end{figure*}
+
+	\newpage
 	
 	\subsection*{Falling Objects and Falling}
 	
@@ -2403,26 +2426,31 @@
 %	\newpage
 
 		%\vfill
-	% Sneak Picture
-	\begin{figure*}[t]
-		\centering
-		\includegraphics[width=0.8\linewidth]{ART/Sneak}
-	\end{figure*}
 	
-	%To skip the page, so only the table remains on the page.
-	%\vspace*{\textheight}
 	
+% Sneak Picture
+\begin{figure*}[t]
+	\centering
+	\includegraphics[width=0.8\linewidth]{ART/Sneak}
+\end{figure*}
+
+	\newpage
+
+
+%To skip the page, so only the table remains on the page.
+%\vspace*{\textheight}
+%	s		
+%	\newpage
+%	s
+%	\newpage
 	\section*{Sneaking}
 	\addcontentsline{toc}{section}{Sneaking}
 	
-
-	
 	In the Wasteland and occasionally in more settled areas, moving and acting unnoticed can be considered a great advantage. To some it's a defining lifestyle, to others a tool of trade, and to many more a complete pain to crack down. Whether it is moving quietly, breaking a window with minimal noise, or avoiding another person doing these activities against you, sneaking is worthwhile to learn for a long and healthy life in the Wasteland. Successful sneaking requires taking attention to the surrounding area and the actions taken. These include staying in the shadows, avoiding watchful eyes, as well as keeping the character's noise low, and their movement slow.
 		
-	\newpage
 	All of these actions and their success are determined by the character's Sneak skill.
 	
-	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6 on page 64.
+	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6.
 	
 	%\newpage
     
@@ -3342,6 +3370,9 @@
 	
 	\subsection*{Combat Tricks}
 	\addcontentsline{toc}{subsection}{Combat Tricks}
+	\subsubsection*{Brace Weapon}
+	Bracing a ranged weapon on a suitable surface costs 1 AP.
+	
 	\subsubsection*{Grapple}
 	Grapple is the art of wrestling an opponent in a chaotic ball of flailing limbs. Size modifiers apply to all rolls in Grapple. It's not the best to wrestle with a full-grown dragon as a small filly.
 	
