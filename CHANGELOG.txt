@@ -1,0 +1,85 @@
+********************************
+* WASTELAND VENTURES CHANGELOG *
+********************************
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+**2.1.1 - WORK IN PROGRESS
+*** Added
+- Perk Moonlighter; replaces Thief
+- Combat Trick: Brace Weapon
+- Examples to healing a dying character
+
+*** Changed
+- Enclave MEW guns have mechanics well described; some AP changes
+- Ammunition is now bought in bundles; cost per bullet is now lower
+- Following perks have been shifted from skill increases to unique mechanics: ArcanoTech Knack, First in Class, Gun Nut, Little Leaguer, Mare-do-Ill, Royal Canterlot Voice, Saboteur, Stage Magician
+- Clip, Cylinder, and Battery reload types merged into Magazine due to similarity
+- Fire Mode BA merged with SA due to similarity in mechanics
+- Medicine skill can now be used to double healing effects of items
+- Insanity meter formula changed
+- Rolling for Insanity reworded
+- Junk labeles as Scrap as per new item rules
+
+*** Deprecated
+
+*** Removed
+- Perk Thief
+
+*** Fixed
+- Warrior Quirk no longer can be activated in Petrified
+
+
+**2.1.0
+*** Added
+- P.A.S.T. mechanic
+- new Changeling magic schools
+- Changeling racial trait: Healing Shell
+- Trait: Budding Royalty
+- Unicorn spell: Mage's Bulwark
+
+*** Changed
+- Yak Battle Chants renamed to "Battle Ballads"
+- Dragon scales provide bonus to resist Burning -status; no longer additional DT
+
+*** Removed
+- Tagged skills
+- Changeling racial trait: Chitinous Shell
+
+**2.0.0
+*** Added
+- additional Earth Pony spells
+- Unicorn perk: Wardancer
+
+*** Changed
+- Damage calculation
+- Shotgun rules rewritten: no longer adding DT to target, instead damage drop-off
+- Called Shot now ignores portion of DT; additional tweaks
+- Magic Codex updated
+- Stun recovery added
+- Shamanism rewritten
+- Kirin General and Air spell updated
+- Yak Chants and Changeling Magic tweaks
+- Unicorn Metamagic merged with General school
+- Unicorn spell "Wall of Energy" renamed to "Wall of Mist"
+- Removed the Potency multiplication from spell damage
+- Kirin spell ranges updated to no longer use division of Potency
+- Talon Maneuver "Gawd's Glorious Featherbedding" now only affects allies
+- Crits will now deal armor condition damage (if optional rule is in play)
+- General Trait updates
+- Trait One-Trick Pony: bonus Potency applies only to the modifier from special
+- Trait Spread Thin: more spells can be chosen at start, while no SPECIAL will apply to Potency
+- Cybernetics: EMP generator damage specified
+- Perks require either SPECIAL or Skill at certain value, instead of both
+- Perk Combat Coordinator: removed the CHA requirement, removed Initiative bonus
+
+*** Removed
+- Unicorn perk: Mighty Spell
+- Spell: Hidden Aura
+- Item: Ultra Dash
+
+*** Fixed
+- Perk Explodey McGee listed to have 1 rank as designed
