@@ -54,26 +54,26 @@
 \contentsline {subsection}{Crippled}{90}{section*.250}
 \contentsline {subsection}{Area of Effect}{90}{section*.251}
 \contentsline {subsection}{Status Effects}{91}{section*.252}
-\contentsline {section}{Combat Actions}{93}{section*.264}
-\contentsline {subsection}{Movement Actions}{93}{section*.265}
-\contentsline {subsection}{Attack Actions}{95}{section*.279}
-\contentsline {subsection}{Combat Tricks}{98}{section*.290}
-\contentsline {subsection}{Defensive actions}{101}{section*.296}
-\contentsline {subsection}{Other Actions}{102}{section*.299}
-\contentsline {section}{Damage Calculations}{103}{section*.309}
-\contentsline {subsection}{Damage \& Damage Threshold}{103}{section*.310}
-\contentsline {subsection}{Losing HP Tokens}{103}{section*.311}
-\contentsline {subsection}{Pain Thresholds}{104}{section*.312}
-\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{104}{section*.313}
-\contentsline {subsection}{SPECIAL Damage}{104}{section*.314}
-\contentsline {subsection}{Healing HP}{104}{section*.315}
+\contentsline {section}{Combat Actions}{93}{section*.265}
+\contentsline {subsection}{Movement Actions}{94}{section*.266}
+\contentsline {subsection}{Attack Actions}{95}{section*.280}
+\contentsline {subsection}{Combat Tricks}{99}{section*.291}
+\contentsline {subsection}{Defensive actions}{101}{section*.297}
+\contentsline {subsection}{Other Actions}{102}{section*.300}
+\contentsline {section}{Damage Calculations}{103}{section*.310}
+\contentsline {subsection}{Damage \& Damage Threshold}{103}{section*.311}
+\contentsline {subsection}{Losing HP Tokens}{103}{section*.312}
+\contentsline {subsection}{Pain Thresholds}{104}{section*.313}
+\contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{104}{section*.314}
+\contentsline {subsection}{SPECIAL Damage}{104}{section*.315}
+\contentsline {subsection}{Healing HP}{104}{section*.316}
 \contentsline {chapter}{\numberline {8}Magic \& Spells}{107}{chapter.8}
-\contentsline {section}{Spell Rules}{107}{section*.319}
-\contentsline {section}{Spell Characteristics}{108}{section*.320}
-\contentsline {section}{Earth Pony Magic}{110}{section*.328}
-\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{111}{section*.331}
-\contentsline {section}{Unicorn Magic}{113}{section*.334}
-\contentsline {section}{Zebra Magic}{115}{section*.337}
-\contentsline {subsection}{Alchemy}{115}{section*.338}
-\contentsline {subsection}{Shamanism}{118}{section*.343}
-\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.349}
+\contentsline {section}{Spell Rules}{107}{section*.320}
+\contentsline {section}{Spell Characteristics}{108}{section*.321}
+\contentsline {section}{Earth Pony Magic}{110}{section*.329}
+\contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{111}{section*.332}
+\contentsline {section}{Unicorn Magic}{113}{section*.335}
+\contentsline {section}{Zebra Magic}{115}{section*.338}
+\contentsline {subsection}{Alchemy}{115}{section*.339}
+\contentsline {subsection}{Shamanism}{118}{section*.344}
+\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.350}

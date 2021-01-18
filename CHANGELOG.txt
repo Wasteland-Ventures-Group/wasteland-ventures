@@ -9,8 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **2.1.1 - WORK IN PROGRESS
 *** Added
-- Perk Moonlighter; replaces Thief
+- Perk Moonlighter
+- Perk Park Chemist
 - Combat Trick: Brace Weapon
+- Status Effect: Dazed
 - Examples to healing a dying character
 
 *** Changed
@@ -22,16 +24,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Medicine skill can now be used to double healing effects of items
 - Insanity meter formula changed
 - Rolling for Insanity reworded
+- Rewritten how Alcohol & Chems work; immediate bonuses and maluses
 - Junk labeles as Scrap as per new item rules
+- Perk Liquid Bread: will activate on high enough penalty to resist Dazed
+- Trait Chem Reliant: now provides bonuses to one drug of choice, will incur Insanity if not taken
+- Trait Chem Resistant: updated to new rules, specified how Instant drugs work
+- Trait Hard Drinker: updated to new rules, removed NPC Disposition as the status is great enough malus
 
 *** Deprecated
 
 *** Removed
 - Perk Thief
+- Perk Chem Tolerant
+- Perk Blackjack's Fury
+- Withdrawal & Addiction mechanics
 
 *** Fixed
 - Warrior Quirk no longer can be activated in Petrified
-
+- Perk Bottled Endurance now has a clear activation threshold
 
 **2.1.0
 *** Added
