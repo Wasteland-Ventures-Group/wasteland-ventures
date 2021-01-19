@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Added
 - Perk Moonlighter
 - Perk Park Chemist
+- Perk Ah made it mahself!
+- Perk Horror Horse
 - Combat Trick: Brace Weapon
 - Status Effect: Dazed
 - Examples to healing a dying character
@@ -37,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Perk Thief
 - Perk Chem Tolerant
 - Perk Blackjack's Fury
+- Perk Heavy Weapons Galore for rewrite purposes
 - Withdrawal & Addiction mechanics
 
 *** Fixed
