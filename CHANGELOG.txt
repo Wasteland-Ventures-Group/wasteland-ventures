@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Perk Park Chemist
 - Perk Ah made it mahself!
 - Perk Horror Horse
+- Perk Glue Hooves
 - Combat Trick: Brace Weapon
 - Status Effect: Dazed
 - Examples to healing a dying character
