@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-**2.1.1 - WORK IN PROGRESS
+**2.2.0 - WORK IN PROGRESS
 *** Added
 - Perk Moonlighter
 - Perk Park Chemist
@@ -30,16 +30,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rewritten how Alcohol & Chems work; immediate bonuses and maluses
 - Junk labeles as Scrap as per new item rules
 - Perk Liquid Bread: will activate on high enough penalty to resist Dazed
+- Perk Blackjack's Fury: roll bonus removed, DMG buffed and shifted to new notation
 - Trait Chem Reliant: now provides bonuses to one drug of choice, will incur Insanity if not taken
 - Trait Chem Resistant: updated to new rules, specified how Instant drugs work
 - Trait Hard Drinker: updated to new rules, removed NPC Disposition as the status is great enough malus
+- Arcane Revolver & Arcane Pistol weights changed
+- Damage changes to Buckscatter M9 "Mole Whacker", Q-Same Flamer "Book Burner", IF-92 "Melrose", Silaha Plasma "Death Star" and IF-100 "Thunderhoof"
+- Weapon prices lowered
 
 *** Deprecated
 
 *** Removed
 - Perk Thief
 - Perk Chem Tolerant
-- Perk Blackjack's Fury
 - Perk Heavy Weapons Galore for rewrite purposes
 - Withdrawal & Addiction mechanics
 
