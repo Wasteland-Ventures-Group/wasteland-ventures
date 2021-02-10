@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Combat Trick: Brace Weapon
 - Status Effect: Dazed
 - Examples to healing a dying character
+- New mechanic: Burst (automatic weapon attack)
 
 *** Changed
 - Enclave MEW guns have mechanics well described; some AP changes
@@ -35,10 +36,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Trait Chem Resistant: updated to new rules, specified how Instant drugs work
 - Trait Hard Drinker: updated to new rules, removed NPC Disposition as the status is great enough malus
 - Arcane Revolver & Arcane Pistol weights changed
-- Damage changes to Buckscatter M9 "Mole Whacker", Q-Same Flamer "Book Burner", IF-92 "Melrose", Silaha Plasma "Death Star" and IF-100 "Thunderhoof"
+- Damage changes to Buckscatter M9 "Mole Whacker", SFO Launcher "Thumper", Q-Same Flamer "Book Burner", IF-92 "Melrose", Silaha Plasma "Death Star" and IF-100 "Thunderhoof"
 - Weapon prices lowered
 
 *** Deprecated
+- Full-Auto rules
 
 *** Removed
 - Perk Thief
