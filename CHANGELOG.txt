@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Following perks have been shifted from skill increases to unique mechanics: ArcanoTech Knack, First in Class, Gun Nut, Little Leaguer, Mare-do-Ill, Royal Canterlot Voice, Saboteur, Stage Magician
 - Clip, Cylinder, and Battery reload types merged into Magazine due to similarity
 - Fire Mode BA merged with SA due to similarity in mechanics
+- Burst Templates are now referred to as "Splash Templates"
 - Medicine skill can now be used to double healing effects of items
 - Insanity meter formula changed
 - Rolling for Insanity reworded
