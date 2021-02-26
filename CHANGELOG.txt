@@ -14,17 +14,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Perk Ah made it mahself!
 - Perk Horror Horse
 - Perk Glue Hooves
+- Fire Mode: Burst
 - Combat Trick: Brace Weapon
 - Status Effect: Dazed
 - Examples to healing a dying character
 - New mechanic: Burst (automatic weapon attack)
+- Equipment: Cloud Weapon description
 
 *** Changed
 - Enclave MEW guns have mechanics well described; some AP changes
 - Ammunition is now bought in bundles; cost per bullet is now lower
 - Following perks have been shifted from skill increases to unique mechanics: ArcanoTech Knack, First in Class, Gun Nut, Little Leaguer, Mare-do-Ill, Royal Canterlot Voice, Saboteur, Stage Magician
 - Clip, Cylinder, and Battery reload types merged into Magazine due to similarity
-- Fire Mode BA merged with SA due to similarity in mechanics
+- Fire Modes overhauled
 - Burst Templates are now referred to as "Splash Templates"
 - Medicine skill can now be used to double healing effects of items
 - Insanity meter formula changed
@@ -39,6 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Arcane Revolver & Arcane Pistol weights changed
 - Damage changes to Buckscatter M9 "Mole Whacker", SFO Launcher "Thumper", Q-Same Flamer "Book Burner", IF-92 "Melrose", Silaha Plasma "Death Star" and IF-100 "Thunderhoof"
 - Weapon prices lowered
+- Spells Eldritch Knives and Gale Discus shifted away from old Full-Auto rules
 
 *** Deprecated
 - Full-Auto rules
@@ -48,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Perk Chem Tolerant
 - Perk Heavy Weapons Galore for rewrite purposes
 - Withdrawal & Addiction mechanics
+- Fire Mode: FA
 
 *** Fixed
 - Warrior Quirk no longer can be activated in Petrified

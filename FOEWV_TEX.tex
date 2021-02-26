@@ -1280,7 +1280,7 @@
 	
 	The character was mutated by the necromantic energies that were unleashed on Equestria in the apocalypse. This mutation has caused her to have an unnaturally long life, often having been alive during the war. 
 	
-	Most NPCs have a lower \textbf{Disposition} towards her, and they are ignored by ferals as long as they remain unprovocative. She heals through radiation, converting Rad tokens to HP tokens, but has a natural \textbf{Healing Rate} of 0. Accumulated Rads dwindle from a ghoul's body at the rate of 2 per day due to Ghoul's body using Rads to function.
+	The character starts the game with 4 Rad Tokens, and she ignores any negative effects from radiation. She heals through radiation by converting Rad tokens to HP tokens, but has a natural \textbf{Healing Rate} of 0. Accumulated Rads dwindle from a ghoul's body at the rate of 2 per day due to Ghoul's body using Rads to function.
 	
 	After at least 8 hours of rest, the ghoul may choose to discard 2-5 Rad Tokens, and replenish an equal amount of HP Tokens and/or Crippled Conditions, if any are present.
 	
@@ -1289,6 +1289,8 @@
 	When a ghoul reaches maximum amount of Rads, they will gain one point of Insanity per day. Upon gaining Insanity, the ghoul gains Enraged-status; if in combat, this lasts as long as the status usually lasts, and outside of combat for a moment seen appropriate. Should a Ghoul's Insanity be maxed, they turn feral, and are removed from the player's control. 
 	
 	Ghouls, due to their severely slowed metabolism do not need to eat or drink as often as regular ponies do; if Hunger and Thirst rules are in effect, they require one meal per 2 days and a drink per day to satisfy their needs.
+	
+	Most NPCs have a lower \textbf{Disposition} towards her, and they are ignored by ferals as long as they remain unprovocative.
 	
 	\subsection*{Good Natured}
 	
@@ -1446,6 +1448,7 @@
 	In addition, the character was given a modification for their weapon of choice; the Steel Rangers are a civilized society, after all. This modification has to have a value of 500 or less caps.
 	
 	\textbf{This trait is subject to GM approval. }
+	\vfill
 	
 	\subsection*{Talon Mercenary}
 	\emph{\textbf{Griffon-only trait.}}
@@ -1477,10 +1480,9 @@
 	
 	Below are notes that rise up often in the following section.
 	\begin{description}
-		\item[Ammo:] 	Most ranged weapons require a specific ammunition type to deal damage. Refer to this when shopping for bullets for your gun or checking if ammo from one gun fits another.
+		\item[Ammo \& Capacity:] 	Most ranged weapons require a specific ammunition type to deal damage, and hold only so much of it. Refer to this when shopping for bullets for your gun or checking if ammo from one gun fits another.
 		\item[AP Cost:] How much AP it takes to fire or swing with the weapon once.
 		\item[Blast Radius:] With explosives and other similar weapons, Blast Radius determines the area of effect where the damage or other effect is applied, utilizing Splash Templates.
-		\item[Capacity:] This determines the maximum amount of ammunition the weapon can hold.
 		\item [Condition:]	\emph{[Optional Rule]} All pieces of equipment have a condition, describing their overall integrity and ability to function. Equipment lose condition through wear and direct damage dealt to them, and can be Repaired.
 		\item[Damage:] Damage is listed as a combination of a base damage and a number of d6 dice to be thrown, shown in parenthesis. Ranged weapons have static damage, i.e. 2+(3), while Melee and Unarmed weapons account the character's STR value to determine additional damage dice.
 		\item[Damage Over Time (DOT):] Certain weapons and spells cause DOT, such as burning, bleeding, poison and arcane damage. DOT is applied every round after initial damage, on the turn of the character that suffers from such effect. DOT ends after certain number of turns, indicated within action, weapon or spell description, or ended with a counter action by the victim or aiding character.
@@ -1489,11 +1491,12 @@
 		\item[Damage Threshold (DT):] The value which tells how well the piece of gear protects you from attacks, reducing incoming Damage equal to the DT.
 		\item[DT Reduction:] Weapons that have this value ignore the specified amount of opponent's DT.
 		\item[Effect:] A passive, either constant or situational, effect granted by the equipment. These include but are not limited to: SPECIAL and Skill bonuses and penalties, AP cost modifiers, additional damage types and health restoration.
-		\item[Firing Mode:] Ranged weapons vary how they operate. Each firing mode has its own characteristics. More information on different firing modes can be found in this chapter under Weapon Characteristics - Firing Modes.
+%		\item[Firing Mode:] Ranged weapons vary how they operate. Each firing mode has its own characteristics. More information on different firing modes can be found in this chapter under Weapon Characteristics - Firing Modes.
+		\item[Firing Mode:] Ranged weapons vary how they operate. Most ranged weapons fire a single bullet per action, though some fire more than one in a burst. More information on different firing modes can be found in this chapter under Weapon Characteristics - Firing Modes.
 		\item[Quick Slot:] A pocket, strap or holder in a piece of clothing and armor to hold quick accessible items, such as medicines, grenades and tools. More information on Quick slots can be found in this chapter under \emph{Quick Slots}.
 		\item[Range:] This lists the weapon's Short, Medium, and Long range. All ranges are in meters. Weapon ranges are ``effective'' ranges for the purposes of the game. More on range can be found in Chapter 7: Combat - Combat statistics.
 		\item[Reach:] Melee and Unarmed weapons can have reach, allowing them to deal damage against enemies from further away than adjacent hexes. This is noted with ``Melee / X m'' as Short range, where the latter value is the reach.
-		\item[Reload Type:] This determines the magazine used by weapons that consume ammunition. There are four types of reloads with their own characteristics. More information on different reloads is listed in this chapter under Weapon Characteristics - Reload Types.
+		\item[Reload Type:] This determines the magazine used by weapons that consume ammunition. There are two types of reloads with different characteristics. More information on  reloads is listed in this chapter under Weapon Characteristics - Reload Types.
 		\item[STR Requirement:] When the character has less STR than the minimum requirement for the weapon as specified in the weapon's statistics, she gains a cumulative penalty of -5 to accuracy and an additional cost of 1 AP to attacks for each lacking point of STR. The lacking STR on weapons can be compensated by Bracing the weapon.
 		\item[Type:] Lists in which weapon category said weapon belongs to. This is used to determine effects from perks and traits, like \emph{Jury Rigging}.
 		\item[Value:] The weapon's usual rate in caps.
@@ -1548,20 +1551,31 @@
 	Weapon with internal magazine has a storage for its ammunition built inside the weapon itself. Capacity indicates the maximum amount of ammunition the internal magazine can hold. On one reload action one piece of ammunition is inserted into the magazine. The AP cost for this is determined by the weapon's statistics, under Reload AP. If one wishes to fully reload a weapon, one has to take several reload actions.
 	
 	\subsection*{Firing Modes}
-	\subsubsection*{SS - Single Shot}
-	Single Shot weapons can hold only one piece of ammunition at a time. One must commit a Reload action after each shot is fired.
+	\subsubsection*{Single}
+	Most ranged weapons utilize this firing method - a single pull of the trigger, and one bullet goes down range. As such, it is the default method of firing, and if no special notion is mentioned on the gun, expect it to work on this principle.
 	
-	\subsubsection*{SA - Semi-Auto}
-	Semi-Automatic weapons re-chamber a new piece of ammunition after each shot without the wielder's input. 
+	Some weapons have a notion of \emph{Single [x r]} added before that, with X being a number. Most of the time this is the single-fire option on some automatic weaponry, and other times it will denote how many pieces of ammo it will use on one action.
 	
-	\subsubsection*{5F-20F - Full Auto, 5-20 Rounds}
-	Full Auto weapons keep firing as long as the trigger is pulled and there's enough ammunition to dish out. The accuracy checks are rolled per every 5 rounds, meaning that a character with H\&K MGat-39 ``Mini Gun'' (rate of fire 20F) would have to roll 4 times to see how many of the shots manage to reach the target, and roll damage as many times as there were successes. Though 5 shots of ammunition are spent by every accuracy roll made, the damage is only applied to the rolls that hit the target.
+	\subsubsection*{Burst}
+	Some weapons have the option to fire in multi-projectile bursts, shooting lead or magic down range in massive quantity to improve on damage output. These are always listed as \emph{Burst [x r]} notation, where X stands for the number of ammunition used on the burst.
 	
-	However, due the rapid nature of the full auto, all rolls except the first suffer a cumulative penalty of 10 to accuracy. Bracing the weapon or using a bipod, the penalty is cut to 5. A stationary bipod or tripod negates the penalty. Spray and pray!
+	While utilizing Burst weaponry, the character suffers from a -10 penalty to his attack roll from the recoil and cannot perform the \textbf{Called Shot} action. By bracing the weapon the penalty on the roll is cut to 5. In addition, everyone within Tiny Splash template from the target will suffer from a Minor Distraction.
 	
+%	\subsubsection*{SA - Semi-Auto}	
+%	Semi-Automatic weapons re-chamber a new piece of ammunition after each shot without the wielder's input. 
+	
+%	\subsubsection*{5F-20F - Full Auto, 5-20 Rounds}
+%	Full Auto weapons keep firing as long as the trigger is pulled and there's enough ammunition to dish out. The accuracy checks are rolled per every 5 rounds, meaning that a character with H\&K MGat-39 ``Mini Gun'' (rate of fire 20F) would have to roll 4 times to see how many of the shots manage to reach the target, and roll damage as many times as there were successes. Though 5 shots of ammunition are spent by every accuracy roll made, the damage is only applied to the rolls that hit the target.
+	
+%	However, due the rapid nature of the full auto, all rolls except the first suffer a cumulative penalty of 10 to accuracy. Bracing the weapon or using a bipod, the penalty is cut to 5. A stationary bipod or tripod negates the penalty. Spray and pray!
 	\begin{verse}
-		\emph{\textbf{Example:} Doc Red has a Gretta M3 ``Greaser'' SMG, and fires at a raider with it. Because the SMG has a rate of fire of 10F, Doc Red's player rolls twice; once per 5 rounds of ammo. He manages to successfully shoot at the raider with his first 5 rounds, but not with the second five due the cumulative Full Auto penalty, now at -10. This means Doc Red's player rolls damage 5+(2) once.}
+	\emph{\textbf{Example:} Doc Red has a Gretta M3 ``Greaser'' SMG, and fires a Burst at a raider. The "Greaser" has a \textbf{Burst [3 r]}, with damage of 2+(4). As he fires with a free claw, he must add the burst fire penalty of -10 to his roll. If he hits, he has spent 3 rounds of ammunition for additional damage.}
 	\end{verse}
+
+
+%	\begin{verse}
+%		\emph{\textbf{Example:} Doc Red has a Gretta M3 ``Greaser'' SMG, and fires at a raider with it. Because the SMG has a rate of fire of 10F, Doc Red's player rolls twice; once per 5 rounds of ammo. He manages to successfully shoot at the raider with his first 5 rounds, but not with the second five due the cumulative Full Auto penalty, now at -10. This means Doc Red's player rolls damage 5+(2) once.}
+%	\end{verse}
 		
 	\subsection*{Holdout Weapons}
 	Not all establishments, especially ones that make an attempt on civilization, allow visitors to carry a weapon. If you however must get a weapon into such an establishment, holdout weapons are your greatest friend. Weapons with a marker ``Holdout Weapon'' in the \textbf{\emph{Wasteland Wares}} mean that they can be concealed and possibly smuggled through security. 
@@ -1608,8 +1622,13 @@
 		\end{tabular} 
 	\end{table} 
 	
+	\vfill
 	\subsubsection*{Magical Energy Weapons (MEW)}
 	A step up from firearms, MEWs add arcane sciences to the realm of gunfights - now everyone can be a little unicorn!
+	
+	Unique form of Magical energy weapons are the Cloud weapons of Grand Pegasus Enclave. These guns are named after their primary power source, clouds, an element of nature that pegasi and griffons can handle as if it were a tangible object.
+	Cloud weapons do not use ammo per say, but instead generate an electric -or in some cases, ice- charge that shoots out of the gun similar to a laser or a lightning pulse. 
+	The weapons do still have a capacity; the cloud inside the gun that generates its ?ammo? can only generate so much in a safe fashion. Reload action recharges the cloud.
 	
 	\subsubsection*{Thrown weapons}
 	Weapons one tosses with one's bare strength - when more range is required, and firearms are out of ammo. Or just because one wants to hit their enemy with a rock.
@@ -1882,7 +1901,7 @@
 
 	
 	\begin{verse}
-		\emph{\textbf{Example:} Featherfall wants to modify her trusty rifle, the IF-77 ``Gallop'' rifle. She wishes to add the Long Barrel mod that's listed under the weapon, increasing the range. Having no required skill to craft it on her own, she has to look up a trader that will sell it for her for the price listed - or maybe less, if she can Barter for it.}
+		\emph{\textbf{Example:} Featherfall wants to modify her trusty rifle, the IF-67 ``Bloomberg'' rifle. She wishes to add the Automatic Receiver mod that's listed under the weapon, allowing her to fire in bursts. Having no required skill to craft it on her own, she has to look up a trader that will sell it for her for the price listed - or maybe less, if she can Barter for it.}
 	\end{verse}
 	
 	GM may limit which modifications are able to be crafted, available, or if modifications even are used in the game altogether.	
@@ -2965,7 +2984,7 @@
 	
 	\bigskip
 	\begin{compactitem}
-		\item \textbf{Minor Distraction:} penalty of 10. Moving vehicle, purposeful distract-action from a character.
+		\item \textbf{Minor Distraction:} penalty of 10. Moving vehicle, purposeful distract-action from a character, getting shot by Burst fire.
 		\item \textbf{Medium Distraction:} penalty of 20. Riding a griffon
 		\item \textbf{Major Distraction:} penalty of 30. Nearby explosion, freefall
 	\end{compactitem}
@@ -3031,8 +3050,11 @@
 	
 	The modifiers related to size can be found under Chapter 2: Characters - Secondary Statistics.
 	
+	\subsubsection*{Burst Fire}
+	By utilizing a ranged weapon's \textbf{Burst} option, the character gains a penalty of 10 to accuracy.
+	
 	\subsubsection*{Braced Weapon}
-	Resting a ranged weapon on a suitable piece of terrain - for instance a large rock, short wall or fence - or \textbf{Dropping Prone} means the attacker is bracing one's weapon. This reduces \textbf{STR Requirements} by 2 and accuracy penalties by 10 at Medium \textbf{Range} or further.
+	Resting a ranged weapon on a suitable piece of terrain - for instance a large rock, short wall or fence - or \textbf{Dropping Prone} means the attacker is bracing one's weapon. This reduces \textbf{STR Requirements} by 2 and penalties from utilizing Burst fire are decreased to 5.
 	
 	\subsubsection*{Ranged Weapon in Melee Combat}
 	Firing a ranged weapon in melee combat is considered a \textbf{Minor Distraction} to the shooter.
@@ -3483,19 +3505,13 @@
 	If the opponent is successfully tossed, grapple immediately ends. On a fail, nothing happens and the grapple continues.
 	
 	\subsubsection*{Suppressive Fire}
-	With full auto weapons (\textbf{F}) a character can provide Suppressive Fire to an area, possibly pinning enemies down.
+	With weapons capable of Burst fire, a character can provide Suppressive Fire to an area and thus pin enemies down.
 	
-	This action costs 8 AP and uses 20 units of appropriate ammo.
+	This action costs 8 AP and uses 10 units of appropriate ammo. The weapon must have enough ammunition loaded to utilize this feature.
 	
 	The area affected by Suppressive Fire is a Large Splash Template centered within the weapon's effective range (up to Long). The area lasts until the character's next turn.
 	
-	The opponents under Suppressive Fire's area may Drop Prone for free or hide behind cover (if they're behind one already) to avoid the hail of lead. Those who aren't aware of the attack cannot freely Drop Prone. All characters, prone or not, suffer Minor Distraction penalty for being under heavy fire.
-	
-	The characters who stand or move in the Suppressive Fire's area without cover must roll LCK to avoid damage. On a failed LCK roll, a character suffers the base damage of the weapon - that is, without the dice.
-	
-	\begin{verse}
-		\emph{\textbf{Note:} If the character does another Action after Suppressive Fire, like moving or firing weapon normally, the effects of Suppressive Fire end prematurely.}
-	\end{verse}
+	All characters under Suppressive Fire's area suffer \textbf{Medium Distraction} penalty for being under heavy fire.
 
 	\subsubsection*{Trip}
 	Instead of dealing damage, the character can try to trip an opponent to the ground. This action requires the foe to be next to you; when using ranged weapons such as rifles to trip, the character uses the weapon's stock to sweep the foe off their feet.
