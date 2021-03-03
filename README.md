@@ -1,4 +1,5 @@
 **A tabletop roleplaying game for Fallout: Equestria setting
+
 This repository contains the rule documents - and build files - for running a post-apocalyptic adventures of pastel-colored equines or other talking sentient beings.
 
 ## General notes
