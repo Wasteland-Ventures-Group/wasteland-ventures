@@ -55,15 +55,15 @@
 \contentsline {subsection}{Area of Effect}{90}{section*.251}
 \contentsline {subsection}{Status Effects}{91}{section*.252}
 \contentsline {section}{Combat Actions}{93}{section*.265}
-\contentsline {subsection}{Movement Actions}{94}{section*.266}
-\contentsline {subsection}{Attack Actions}{95}{section*.280}
+\contentsline {subsection}{Movement Actions}{93}{section*.266}
+\contentsline {subsection}{Attack Actions}{96}{section*.280}
 \contentsline {subsection}{Combat Tricks}{99}{section*.291}
 \contentsline {subsection}{Defensive actions}{101}{section*.297}
-\contentsline {subsection}{Other Actions}{101}{section*.300}
+\contentsline {subsection}{Other Actions}{102}{section*.300}
 \contentsline {section}{Damage Calculations}{102}{section*.310}
 \contentsline {subsection}{Damage \& Damage Threshold}{102}{section*.311}
 \contentsline {subsection}{Losing HP Tokens}{103}{section*.312}
-\contentsline {subsection}{Pain Thresholds}{103}{section*.313}
+\contentsline {subsection}{Pain Thresholds}{104}{section*.313}
 \contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{104}{section*.314}
 \contentsline {subsection}{SPECIAL Damage}{104}{section*.315}
 \contentsline {subsection}{Healing HP}{104}{section*.316}

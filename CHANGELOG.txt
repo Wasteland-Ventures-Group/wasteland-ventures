@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-**2.2.0 - WORK IN PROGRESS
+**2.2.0
 *** Added
 - Perk Moonlighter
 - Perk Park Chemist
@@ -40,8 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Trait Hard Drinker: updated to new rules, removed NPC Disposition as the status is great enough malus
 - Arcane Revolver & Arcane Pistol weights changed
 - Damage changes to Buckscatter M9 "Mole Whacker", SFO Launcher "Thumper", Q-Same Flamer "Book Burner", IF-92 "Melrose", Silaha Plasma "Death Star" and IF-100 "Thunderhoof"
-- Weapon prices lowered
-- Spells Eldritch Knives and Gale Discus shifted away from old Full-Auto rules
+- Weapon & mod prices
+- Spells Eldritch Knives and Gale Discus now use Burst rules
 
 *** Deprecated
 - Full-Auto rules
