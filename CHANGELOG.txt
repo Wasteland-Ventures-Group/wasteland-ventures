@@ -7,6 +7,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+**2.2.1
+*** Changed
+- Example weapons shifted to ones currently in Wasteland Wares
+- Any non-existing gun shifted to use one available in Wasteland Wares
+- Perk "Good as Gelded / Cherchez La Filly" renamed into "We're "Best Friends""
+
+*** Fixed
+- Age doesn't limit one's P.A.S.T. options
+- Mentions of mines removed as they do not exist as their own items
+- Clarified that CHA no longer applies to Insanity cap
+- Trait Talon Mercenary now allows one to get an existing item from Wasteland Wares on GM approval
+- Noted that MEW shotguns follow same rules as Firearm shotguns
+- Notes on damage under Flight now use correct damage notation
+- Mentions of Tag skills removed
+- Mentions of AGI being primary Initiative stat removed, replaced with PER as it should be
+
+
 **2.2.0
 *** Added
 - Perk Moonlighter
