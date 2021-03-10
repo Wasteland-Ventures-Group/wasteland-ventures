@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 20:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 20:50
 entering extended mode
 **./WANDFILE_TEX.tex
 (WANDFILE_TEX.tex
@@ -795,18 +795,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 238--239
-\OT1/cmr/m/n/10.95 magic that is a mix-ture of Uni-corn
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 238--239
-\OT1/cmr/m/n/10.95 magic schools and their own unique
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 238--239
-\OT1/cmr/m/n/10.95 shapeshift spells, Formshift, Bodyshift
+Underfull \hbox (badness 2573) in paragraph at lines 238--239
+\OT1/cmr/m/n/10.95 schools and their own unique spells.
  []
 
 
@@ -816,13 +806,15 @@ Underfull \hbox (badness 2393) in paragraph at lines 241--242
 
 [12
 
- <./ART/Races/CHN_F.jpg> <./ART/Races/CHN_M.jpg>]
-<ART/Races/CRP_F.jpg, id=259, 1405.25pt x 1405.25pt>
+ <./ART/Races/CHN_F.jpg> <./ART/Races/CHN_M.jpg>] [13
+
+]
+<ART/Races/CRP_F.jpg, id=263, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_F.jpg Graphic file (type jpg)
 <use ART/Races/CRP_F.jpg>
 Package pdftex.def Info: ART/Races/CRP_F.jpg  used on input line 251.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/CRP_M.jpg, id=260, 1405.25pt x 1405.25pt>
+<ART/Races/CRP_M.jpg, id=264, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_M.jpg Graphic file (type jpg)
 <use ART/Races/CRP_M.jpg>
 Package pdftex.def Info: ART/Races/CRP_M.jpg  used on input line 256.
@@ -837,15 +829,15 @@ Underfull \hbox (badness 1838) in paragraph at lines 270--271
 []\OT1/cmr/m/n/10.95 Much like their earth
  []
 
-[13
+[14
 
  <./ART/Races/CRP_F.jpg> <./ART/Races/CRP_M.jpg>]
-<ART/Races/DER_F.jpg, id=265, 1405.25pt x 1405.25pt>
+<ART/Races/DER_F.jpg, id=269, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_F.jpg Graphic file (type jpg)
 <use ART/Races/DER_F.jpg>
 Package pdftex.def Info: ART/Races/DER_F.jpg  used on input line 280.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DER_M.jpg, id=266, 1405.25pt x 1405.25pt>
+<ART/Races/DER_M.jpg, id=270, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_M.jpg Graphic file (type jpg)
 <use ART/Races/DER_M.jpg>
 Package pdftex.def Info: ART/Races/DER_M.jpg  used on input line 285.
@@ -863,28 +855,28 @@ Underfull \hbox (badness 1546) in paragraph at lines 302--303
 []\OT1/cmr/m/n/10.95 Deer are quick and ag-ile
  []
 
-[14
+[15
 
  <./ART/Races/DER_F.jpg> <./ART/Races/DER_M.jpg>]
-<ART/Races/DDG_F.jpg, id=271, 1405.25pt x 1405.25pt>
+<ART/Races/DDG_F.jpg, id=275, 1405.25pt x 1405.25pt>
 File: ART/Races/DDG_F.jpg Graphic file (type jpg)
 <use ART/Races/DDG_F.jpg>
 Package pdftex.def Info: ART/Races/DDG_F.jpg  used on input line 313.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DDG_M.jpg, id=272, 135.43512pt x 135.43512pt>
+<ART/Races/DDG_M.jpg, id=276, 135.43512pt x 135.43512pt>
 File: ART/Races/DDG_M.jpg Graphic file (type jpg)
 <use ART/Races/DDG_M.jpg>
 Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 318.
 (pdftex.def)             Requested size: 176.80067pt x 176.8158pt.
- [15
+ [16
 
  <./ART/Races/DDG_F.jpg> <./ART/Races/DDG_M.jpg>]
-<ART/Races/DNK_F.jpg, id=277, 1405.25pt x 1405.25pt>
+<ART/Races/DNK_F.jpg, id=281, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_F.jpg Graphic file (type jpg)
 <use ART/Races/DNK_F.jpg>
 Package pdftex.def Info: ART/Races/DNK_F.jpg  used on input line 348.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/DNK_M.jpg, id=278, 1405.25pt x 1405.25pt>
+<ART/Races/DNK_M.jpg, id=282, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_M.jpg Graphic file (type jpg)
 <use ART/Races/DNK_M.jpg>
 Package pdftex.def Info: ART/Races/DNK_M.jpg  used on input line 353.
@@ -894,15 +886,15 @@ Underfull \hbox (badness 1107) in paragraph at lines 365--366
 []\OT1/cmr/m/n/10.95 Though don-keys lack the
  []
 
-[16
+[17
 
  <./ART/Races/DNK_F.jpg> <./ART/Races/DNK_M.jpg>]
-<ART/Races/HAR_F.jpg, id=283, 1405.25pt x 1405.25pt>
+<ART/Races/HAR_F.jpg, id=287, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_F.jpg Graphic file (type jpg)
 <use ART/Races/HAR_F.jpg>
 Package pdftex.def Info: ART/Races/HAR_F.jpg  used on input line 377.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/HAR_M.jpg, id=284, 1405.25pt x 1405.25pt>
+<ART/Races/HAR_M.jpg, id=288, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_M.jpg Graphic file (type jpg)
 <use ART/Races/HAR_M.jpg>
 Package pdftex.def Info: ART/Races/HAR_M.jpg  used on input line 382.
@@ -917,15 +909,15 @@ Underfull \hbox (badness 1769) in paragraph at lines 397--398
 []\OT1/cmr/m/n/10.95 Harpies take ex-
  []
 
-[17
+[18
 
  <./ART/Races/HAR_F.jpg> <./ART/Races/HAR_M.jpg>]
-<ART/Races/HIP_F.jpg, id=290, 1405.25pt x 1405.25pt>
+<ART/Races/HIP_F.jpg, id=295, 1405.25pt x 1405.25pt>
 File: ART/Races/HIP_F.jpg Graphic file (type jpg)
 <use ART/Races/HIP_F.jpg>
 Package pdftex.def Info: ART/Races/HIP_F.jpg  used on input line 408.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/HIP_M.jpg, id=291, 135.43512pt x 135.43512pt>
+<ART/Races/HIP_M.jpg, id=296, 135.43512pt x 135.43512pt>
 File: ART/Races/HIP_M.jpg Graphic file (type jpg)
 <use ART/Races/HIP_M.jpg>
 Package pdftex.def Info: ART/Races/HIP_M.jpg  used on input line 413.
@@ -945,15 +937,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--433
 []\OT1/cmr/m/n/10.95 Hippogriffs have a
  []
 
-[18
+[19
 
  <./ART/Races/HIP_F.jpg> <./ART/Races/HIP_M.jpg>]
-<ART/Races/KIR_F.jpg, id=297, 1405.25pt x 1405.25pt>
+<ART/Races/KIR_F.jpg, id=301, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_F.jpg Graphic file (type jpg)
 <use ART/Races/KIR_F.jpg>
 Package pdftex.def Info: ART/Races/KIR_F.jpg  used on input line 442.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/KIR_M.jpg, id=298, 1405.25pt x 1405.25pt>
+<ART/Races/KIR_M.jpg, id=302, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_M.jpg Graphic file (type jpg)
 <use ART/Races/KIR_M.jpg>
 Package pdftex.def Info: ART/Races/KIR_M.jpg  used on input line 447.
@@ -968,15 +960,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--463
 []\OT1/cmr/m/n/10.95 Kirins have dragon-like
  []
 
-[19
+[20
 
  <./ART/Races/KIR_F.jpg> <./ART/Races/KIR_M.jpg>]
-<ART/Races/MIN_F.jpg, id=303, 1405.25pt x 1405.25pt>
+<ART/Races/MIN_F.jpg, id=307, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_F.jpg Graphic file (type jpg)
 <use ART/Races/MIN_F.jpg>
 Package pdftex.def Info: ART/Races/MIN_F.jpg  used on input line 473.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/MIN_M.jpg, id=304, 1405.25pt x 1405.25pt>
+<ART/Races/MIN_M.jpg, id=308, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_M.jpg Graphic file (type jpg)
 <use ART/Races/MIN_M.jpg>
 Package pdftex.def Info: ART/Races/MIN_M.jpg  used on input line 478.
@@ -996,15 +988,15 @@ Underfull \hbox (badness 1067) in paragraph at lines 489--490
 []\OT1/cmr/m/n/10.95 Minotaurs are vis-i-bly larger
  []
 
-[20
+[21
 
  <./ART/Races/MIN_F.jpg> <./ART/Races/MIN_M.jpg>]
-<ART/Races/YAK_F.jpg, id=309, 1405.25pt x 1405.25pt>
+<ART/Races/YAK_F.jpg, id=313, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_F.jpg Graphic file (type jpg)
 <use ART/Races/YAK_F.jpg>
 Package pdftex.def Info: ART/Races/YAK_F.jpg  used on input line 501.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
-<ART/Races/YAK_M.jpg, id=310, 1405.25pt x 1405.25pt>
+<ART/Races/YAK_M.jpg, id=314, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_M.jpg Graphic file (type jpg)
 <use ART/Races/YAK_M.jpg>
 Package pdftex.def Info: ART/Races/YAK_M.jpg  used on input line 506.
@@ -1014,14 +1006,14 @@ Underfull \hbox (badness 1152) in paragraph at lines 522--523
 []\OT1/cmr/m/n/10.95 Yak are able to pull heav-ier
  []
 
-[21
+[22
 
- <./ART/Races/YAK_F.jpg> <./ART/Races/YAK_M.jpg>] [22
+ <./ART/Races/YAK_F.jpg> <./ART/Races/YAK_M.jpg>]
+Chapter 3.
+[23
 
 
 ]
-Chapter 3.
-[23]
 Underfull \hbox (badness 1365) in paragraph at lines 572--573
 \OT1/cmr/m/n/10.95 avail-able to you, de-cided by you. Your
  []
@@ -1254,7 +1246,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tiia/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WANDFILE_TEX.pdf (59 pages, 13843616 bytes).
+Output written on WANDFILE_TEX.pdf (59 pages, 13844160 bytes).
 PDF statistics:
  634 PDF objects out of 1000 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)
