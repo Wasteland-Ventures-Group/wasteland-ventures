@@ -1,33 +1,35 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Races}{7}{chapter.2}%
-\contentsline {section}{Abyssinian}{7}{section*.2}%
+\contentsline {section}{\numberline {2.1}Additional Races}{7}{section.2.1}%
+\contentsline {subsection}{Abyssinian}{7}{section*.2}%
 \contentsline {section}{Bat Pony}{9}{section*.3}%
 \contentsline {section}{Brahmin}{10}{section*.4}%
 \contentsline {section}{Buffalo}{11}{section*.5}%
 \contentsline {section}{Changeling}{12}{section*.6}%
-\contentsline {section}{Crystal Pony}{14}{section*.7}%
-\contentsline {section}{Deer}{15}{section*.8}%
-\contentsline {section}{Diamond Dog}{16}{section*.9}%
-\contentsline {section}{Donkey}{17}{section*.10}%
-\contentsline {section}{Harpy}{18}{section*.11}%
-\contentsline {section}{Hippogriff}{19}{section*.12}%
-\contentsline {section}{Kirin}{20}{section*.13}%
-\contentsline {section}{Minotaur}{21}{section*.14}%
-\contentsline {section}{Yak}{22}{section*.15}%
-\contentsline {chapter}{\numberline {3}Traits}{23}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Unique Magic}{27}{chapter.4}%
-\contentsline {section}{Changeling Magic}{27}{section*.36}%
-\contentsline {subsection}{Use of Strain}{27}{section*.38}%
-\contentsline {subsection}{Shapeshifting}{27}{section*.39}%
-\contentsline {subsection}{Changeling Spells}{28}{section*.40}%
-\contentsline {subsection}{Shapeshift Spells}{28}{section*.41}%
-\contentsline {subsection}{Other Changeling Spells}{30}{section*.45}%
-\contentsline {section}{Kirin Magic}{40}{section*.67}%
-\contentsline {subsection}{Kirin Spells}{41}{section*.70}%
-\contentsline {subsection}{General}{41}{section*.71}%
-\contentsline {subsection}{Air}{41}{section*.74}%
-\contentsline {subsection}{Earth}{45}{section*.83}%
-\contentsline {subsection}{Fire}{48}{section*.92}%
-\contentsline {subsection}{Water}{51}{section*.101}%
-\contentsline {section}{Yak Battle Ballads}{54}{section*.110}%
-\contentsline {subsection}{Yak Ballad List}{55}{section*.112}%
+\contentsline {section}{Crystal Pony}{13}{section*.7}%
+\contentsline {section}{Deer}{14}{section*.8}%
+\contentsline {section}{Diamond Dog}{15}{section*.9}%
+\contentsline {section}{Donkey}{16}{section*.10}%
+\contentsline {section}{Harpy}{17}{section*.11}%
+\contentsline {section}{Hippogriff}{18}{section*.12}%
+\contentsline {section}{Kirin}{19}{section*.13}%
+\contentsline {section}{Minotaur}{20}{section*.14}%
+\contentsline {section}{Yak}{21}{section*.15}%
+\contentsline {section}{\numberline {2.2}Core Races}{22}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Traits}{27}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Unique Magic}{31}{chapter.4}%
+\contentsline {section}{Changeling Magic}{31}{section*.41}%
+\contentsline {subsection}{Use of Strain}{31}{section*.43}%
+\contentsline {subsection}{Shapeshifting}{31}{section*.44}%
+\contentsline {subsection}{Changeling Spells}{32}{section*.45}%
+\contentsline {subsection}{Shapeshift Spells}{32}{section*.46}%
+\contentsline {subsection}{Other Changeling Spells}{34}{section*.50}%
+\contentsline {section}{Kirin Magic}{44}{section*.72}%
+\contentsline {subsection}{Kirin Spells}{45}{section*.75}%
+\contentsline {subsection}{General}{45}{section*.76}%
+\contentsline {subsection}{Air}{45}{section*.79}%
+\contentsline {subsection}{Earth}{49}{section*.88}%
+\contentsline {subsection}{Fire}{52}{section*.97}%
+\contentsline {subsection}{Water}{55}{section*.106}%
+\contentsline {section}{Yak Battle Ballads}{58}{section*.115}%
+\contentsline {subsection}{Yak Ballad List}{59}{section*.117}%
