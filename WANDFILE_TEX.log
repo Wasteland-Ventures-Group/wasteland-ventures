@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 21:01
 entering extended mode
 **./WANDFILE_TEX.tex
 (WANDFILE_TEX.tex
@@ -1144,11 +1144,6 @@ Underfull \hbox (badness 1019) in paragraph at lines 1749--1750
 \OT1/cmr/m/n/10.95 space once the caster's Po-tency al-lows it.
  []
 
-
-Underfull \hbox (badness 1221) in paragraph at lines 1749--1750
-\OT1/cmr/m/n/10.95 When ac-cess-ing items put into the Wind
- []
-
 [41] [42]
 Underfull \hbox (badness 1418) in paragraph at lines 1919--1920
 []\OT1/cmr/m/n/10.95 Telekinesis is di-vided in two cat-e-gories,
@@ -1246,7 +1241,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tiia/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WANDFILE_TEX.pdf (59 pages, 13844160 bytes).
+Output written on WANDFILE_TEX.pdf (59 pages, 13844158 bytes).
 PDF statistics:
  634 PDF objects out of 1000 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)
