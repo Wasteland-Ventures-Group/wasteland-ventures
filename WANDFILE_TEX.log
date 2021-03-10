@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  10 MAR 2021 22:20
 entering extended mode
 **./WANDFILE_TEX.tex
 (WANDFILE_TEX.tex
@@ -668,7 +668,6 @@ Chapter 1.
 [5
 
 
-
 ] [6
 
 ]
@@ -676,35 +675,35 @@ Chapter 2.
 <ART/Races/ABY_F.jpg, id=234, 1405.25pt x 1405.25pt>
 File: ART/Races/ABY_F.jpg Graphic file (type jpg)
 <use ART/Races/ABY_F.jpg>
-Package pdftex.def Info: ART/Races/ABY_F.jpg  used on input line 92.
+Package pdftex.def Info: ART/Races/ABY_F.jpg  used on input line 102.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/ABY_M.jpg, id=235, 1405.25pt x 1405.25pt>
 File: ART/Races/ABY_M.jpg Graphic file (type jpg)
 <use ART/Races/ABY_M.jpg>
-Package pdftex.def Info: ART/Races/ABY_M.jpg  used on input line 97.
+Package pdftex.def Info: ART/Races/ABY_M.jpg  used on input line 107.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 3179) in paragraph at lines 102--103
+Underfull \hbox (badness 3179) in paragraph at lines 112--113
 []\OT1/cmr/m/n/10.95 Though food and shel-ter is plenty in
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 []\OT1/cmr/m/n/10.95 Abyssinians' eyes are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 []\OT1/cmr/m/n/10.95 Abyssinians per-form
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 114--115
+Underfull \hbox (badness 2005) in paragraph at lines 124--125
 \OT1/cmr/m/n/10.95 Abyssini-ans craft these ar-ti-facts from
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 114--115
+Underfull \hbox (badness 4995) in paragraph at lines 124--125
 \OT1/cmr/m/n/10.95 spells with-out said cat-a-lyst re-moves
  []
 
@@ -712,15 +711,15 @@ Underfull \hbox (badness 4995) in paragraph at lines 114--115
 <ART/Races/BAT_F.jpg, id=244, 1405.25pt x 1405.25pt>
 File: ART/Races/BAT_F.jpg Graphic file (type jpg)
 <use ART/Races/BAT_F.jpg>
-Package pdftex.def Info: ART/Races/BAT_F.jpg  used on input line 125.
+Package pdftex.def Info: ART/Races/BAT_F.jpg  used on input line 135.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/BAT_M.jpg, id=245, 1405.25pt x 1405.25pt>
 File: ART/Races/BAT_M.jpg Graphic file (type jpg)
 <use ART/Races/BAT_M.jpg>
-Package pdftex.def Info: ART/Races/BAT_M.jpg  used on input line 130.
+Package pdftex.def Info: ART/Races/BAT_M.jpg  used on input line 140.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 1237) in paragraph at lines 135--136
+Underfull \hbox (badness 1237) in paragraph at lines 145--146
 \OT1/cmr/m/n/10.95 Princess Luna as her per-sonal guard and
  []
 
@@ -730,15 +729,15 @@ Underfull \hbox (badness 1237) in paragraph at lines 135--136
 <ART/Races/BRAH_F.jpg, id=250, 345.15572pt x 345.15572pt>
 File: ART/Races/BRAH_F.jpg Graphic file (type jpg)
 <use ART/Races/BRAH_F.jpg>
-Package pdftex.def Info: ART/Races/BRAH_F.jpg  used on input line 156.
+Package pdftex.def Info: ART/Races/BRAH_F.jpg  used on input line 166.
 (pdftex.def)             Requested size: 176.80067pt x 176.80653pt.
 <ART/Races/BRAH_M.jpg, id=251, 135.43512pt x 135.43512pt>
 File: ART/Races/BRAH_M.jpg Graphic file (type jpg)
 <use ART/Races/BRAH_M.jpg>
-Package pdftex.def Info: ART/Races/BRAH_M.jpg  used on input line 161.
+Package pdftex.def Info: ART/Races/BRAH_M.jpg  used on input line 171.
 (pdftex.def)             Requested size: 176.80067pt x 176.8158pt.
 
-Underfull \hbox (badness 4366) in paragraph at lines 176--177
+Underfull \hbox (badness 4366) in paragraph at lines 186--187
 []\OT1/cmr/m/n/10.95 Brahmin are vis-i-bly larger
  []
 
@@ -748,20 +747,20 @@ Underfull \hbox (badness 4366) in paragraph at lines 176--177
 <ART/Races/BUF_F.jpg, id=256, 1405.25pt x 1405.25pt>
 File: ART/Races/BUF_F.jpg Graphic file (type jpg)
 <use ART/Races/BUF_F.jpg>
-Package pdftex.def Info: ART/Races/BUF_F.jpg  used on input line 187.
+Package pdftex.def Info: ART/Races/BUF_F.jpg  used on input line 197.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/BUF_M.jpg, id=257, 1405.25pt x 1405.25pt>
 File: ART/Races/BUF_M.jpg Graphic file (type jpg)
 <use ART/Races/BUF_M.jpg>
-Package pdftex.def Info: ART/Races/BUF_M.jpg  used on input line 192.
+Package pdftex.def Info: ART/Races/BUF_M.jpg  used on input line 202.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 1603) in paragraph at lines 195--196
+Underfull \hbox (badness 1603) in paragraph at lines 205--206
 \OT1/cmr/m/n/10.95 roamed the south-ern-most plains and arid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 \OT1/cmr/m/n/10.95 buf-falo main-tain their iden-tity strongly
  []
 
@@ -769,7 +768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 210--211
+Underfull \hbox (badness 1337) in paragraph at lines 220--221
 []\OT1/cmr/m/n/10.95 Buffalo have a long his-tory with
  []
 
@@ -779,25 +778,25 @@ Underfull \hbox (badness 1337) in paragraph at lines 210--211
 <ART/Races/CHN_F.jpg, id=262, 1433.355pt x 1433.355pt>
 File: ART/Races/CHN_F.jpg Graphic file (type jpg)
 <use ART/Races/CHN_F.jpg>
-Package pdftex.def Info: ART/Races/CHN_F.jpg  used on input line 220.
+Package pdftex.def Info: ART/Races/CHN_F.jpg  used on input line 230.
 (pdftex.def)             Requested size: 176.80067pt x 176.78497pt.
 <ART/Races/CHN_M.jpg, id=263, 1289.81876pt x 1449.415pt>
 File: ART/Races/CHN_M.jpg Graphic file (type jpg)
 <use ART/Races/CHN_M.jpg>
-Package pdftex.def Info: ART/Races/CHN_M.jpg  used on input line 225.
+Package pdftex.def Info: ART/Races/CHN_M.jpg  used on input line 235.
 (pdftex.def)             Requested size: 154.69933pt x 173.83383pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 []\OT1/cmr/m/n/10.95 Changelings have a
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 240--241
+Underfull \hbox (badness 2573) in paragraph at lines 250--251
 \OT1/cmr/m/n/10.95 schools and their own unique spells.
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 243--244
+Underfull \hbox (badness 2393) in paragraph at lines 253--254
 \OT1/cmr/m/n/10.95 in-juries faster than a softer crea-ture
  []
 
@@ -807,20 +806,20 @@ Underfull \hbox (badness 2393) in paragraph at lines 243--244
 <ART/Races/CRP_F.jpg, id=269, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_F.jpg Graphic file (type jpg)
 <use ART/Races/CRP_F.jpg>
-Package pdftex.def Info: ART/Races/CRP_F.jpg  used on input line 253.
+Package pdftex.def Info: ART/Races/CRP_F.jpg  used on input line 263.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/CRP_M.jpg, id=270, 1405.25pt x 1405.25pt>
 File: ART/Races/CRP_M.jpg Graphic file (type jpg)
 <use ART/Races/CRP_M.jpg>
-Package pdftex.def Info: ART/Races/CRP_M.jpg  used on input line 258.
+Package pdftex.def Info: ART/Races/CRP_M.jpg  used on input line 268.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 1264) in paragraph at lines 263--264
+Underfull \hbox (badness 1264) in paragraph at lines 273--274
 \OT1/cmr/m/n/10.95 sured that the stray bomb that hit near
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 272--273
+Underfull \hbox (badness 1838) in paragraph at lines 282--283
 []\OT1/cmr/m/n/10.95 Much like their earth
  []
 
@@ -830,23 +829,23 @@ Underfull \hbox (badness 1838) in paragraph at lines 272--273
 <ART/Races/DER_F.jpg, id=275, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_F.jpg Graphic file (type jpg)
 <use ART/Races/DER_F.jpg>
-Package pdftex.def Info: ART/Races/DER_F.jpg  used on input line 282.
+Package pdftex.def Info: ART/Races/DER_F.jpg  used on input line 292.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/DER_M.jpg, id=276, 1405.25pt x 1405.25pt>
 File: ART/Races/DER_M.jpg Graphic file (type jpg)
 <use ART/Races/DER_M.jpg>
-Package pdftex.def Info: ART/Races/DER_M.jpg  used on input line 287.
+Package pdftex.def Info: ART/Races/DER_M.jpg  used on input line 297.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 302--303
+Underfull \hbox (badness 3219) in paragraph at lines 312--313
 []\OT1/cmr/m/n/10.95 Deer uti-lize their
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 304--305
+Underfull \hbox (badness 1546) in paragraph at lines 314--315
 []\OT1/cmr/m/n/10.95 Deer are quick and ag-ile
  []
 
@@ -856,12 +855,12 @@ Underfull \hbox (badness 1546) in paragraph at lines 304--305
 <ART/Races/DDG_F.jpg, id=281, 1405.25pt x 1405.25pt>
 File: ART/Races/DDG_F.jpg Graphic file (type jpg)
 <use ART/Races/DDG_F.jpg>
-Package pdftex.def Info: ART/Races/DDG_F.jpg  used on input line 315.
+Package pdftex.def Info: ART/Races/DDG_F.jpg  used on input line 325.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/DDG_M.jpg, id=282, 135.43512pt x 135.43512pt>
 File: ART/Races/DDG_M.jpg Graphic file (type jpg)
 <use ART/Races/DDG_M.jpg>
-Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 320.
+Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 330.
 (pdftex.def)             Requested size: 176.80067pt x 176.8158pt.
  [15
 
@@ -869,15 +868,15 @@ Package pdftex.def Info: ART/Races/DDG_M.jpg  used on input line 320.
 <ART/Races/DNK_F.jpg, id=287, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_F.jpg Graphic file (type jpg)
 <use ART/Races/DNK_F.jpg>
-Package pdftex.def Info: ART/Races/DNK_F.jpg  used on input line 350.
+Package pdftex.def Info: ART/Races/DNK_F.jpg  used on input line 360.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/DNK_M.jpg, id=288, 1405.25pt x 1405.25pt>
 File: ART/Races/DNK_M.jpg Graphic file (type jpg)
 <use ART/Races/DNK_M.jpg>
-Package pdftex.def Info: ART/Races/DNK_M.jpg  used on input line 355.
+Package pdftex.def Info: ART/Races/DNK_M.jpg  used on input line 365.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 1107) in paragraph at lines 367--368
+Underfull \hbox (badness 1107) in paragraph at lines 377--378
 []\OT1/cmr/m/n/10.95 Though don-keys lack the
  []
 
@@ -887,20 +886,20 @@ Underfull \hbox (badness 1107) in paragraph at lines 367--368
 <ART/Races/HAR_F.jpg, id=293, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_F.jpg Graphic file (type jpg)
 <use ART/Races/HAR_F.jpg>
-Package pdftex.def Info: ART/Races/HAR_F.jpg  used on input line 379.
+Package pdftex.def Info: ART/Races/HAR_F.jpg  used on input line 389.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/HAR_M.jpg, id=294, 1405.25pt x 1405.25pt>
 File: ART/Races/HAR_M.jpg Graphic file (type jpg)
 <use ART/Races/HAR_M.jpg>
-Package pdftex.def Info: ART/Races/HAR_M.jpg  used on input line 384.
+Package pdftex.def Info: ART/Races/HAR_M.jpg  used on input line 394.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 []\OT1/cmr/m/n/10.95 Harpies have slim-mer
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 399--400
+Underfull \hbox (badness 1769) in paragraph at lines 409--410
 []\OT1/cmr/m/n/10.95 Harpies take ex-
  []
 
@@ -910,25 +909,25 @@ Underfull \hbox (badness 1769) in paragraph at lines 399--400
 <ART/Races/HIP_F.jpg, id=300, 1405.25pt x 1405.25pt>
 File: ART/Races/HIP_F.jpg Graphic file (type jpg)
 <use ART/Races/HIP_F.jpg>
-Package pdftex.def Info: ART/Races/HIP_F.jpg  used on input line 410.
+Package pdftex.def Info: ART/Races/HIP_F.jpg  used on input line 420.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/HIP_M.jpg, id=301, 135.43512pt x 135.43512pt>
 File: ART/Races/HIP_M.jpg Graphic file (type jpg)
 <use ART/Races/HIP_M.jpg>
-Package pdftex.def Info: ART/Races/HIP_M.jpg  used on input line 415.
+Package pdftex.def Info: ART/Races/HIP_M.jpg  used on input line 425.
 (pdftex.def)             Requested size: 176.80067pt x 176.8158pt.
 
-Underfull \hbox (badness 4634) in paragraph at lines 418--419
+Underfull \hbox (badness 4634) in paragraph at lines 428--429
 \OT1/cmr/m/n/10.95 have be-come slightly more com-mon-place
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 420--421
+Underfull \hbox (badness 4144) in paragraph at lines 430--431
 \OT1/cmr/m/n/10.95 a-lypse, the hip-pogriff with their leader,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 []\OT1/cmr/m/n/10.95 Hippogriffs have a
  []
 
@@ -938,20 +937,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--435
 <ART/Races/KIR_F.jpg, id=307, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_F.jpg Graphic file (type jpg)
 <use ART/Races/KIR_F.jpg>
-Package pdftex.def Info: ART/Races/KIR_F.jpg  used on input line 444.
+Package pdftex.def Info: ART/Races/KIR_F.jpg  used on input line 454.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/KIR_M.jpg, id=308, 1405.25pt x 1405.25pt>
 File: ART/Races/KIR_M.jpg Graphic file (type jpg)
 <use ART/Races/KIR_M.jpg>
-Package pdftex.def Info: ART/Races/KIR_M.jpg  used on input line 449.
+Package pdftex.def Info: ART/Races/KIR_M.jpg  used on input line 459.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 463--464
+Underfull \hbox (badness 4886) in paragraph at lines 473--474
 []\OT1/cmr/m/n/10.95 Kirins can chan-nel their
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 []\OT1/cmr/m/n/10.95 Kirins have dragon-like
  []
 
@@ -961,25 +960,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 464--465
 <ART/Races/MIN_F.jpg, id=313, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_F.jpg Graphic file (type jpg)
 <use ART/Races/MIN_F.jpg>
-Package pdftex.def Info: ART/Races/MIN_F.jpg  used on input line 475.
+Package pdftex.def Info: ART/Races/MIN_F.jpg  used on input line 485.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/MIN_M.jpg, id=314, 1405.25pt x 1405.25pt>
 File: ART/Races/MIN_M.jpg Graphic file (type jpg)
 <use ART/Races/MIN_M.jpg>
-Package pdftex.def Info: ART/Races/MIN_M.jpg  used on input line 480.
+Package pdftex.def Info: ART/Races/MIN_M.jpg  used on input line 490.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 []\OT1/cmr/m/n/10.95 New cities, aptly named No-pos
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 487--488
+Underfull \hbox (badness 1975) in paragraph at lines 497--498
 \OT1/cmr/m/n/10.95 Pasiphaerium and No-pos Aster-po-lis, were
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 491--492
+Underfull \hbox (badness 1067) in paragraph at lines 501--502
 []\OT1/cmr/m/n/10.95 Minotaurs are vis-i-bly larger
  []
 
@@ -989,15 +988,15 @@ Underfull \hbox (badness 1067) in paragraph at lines 491--492
 <ART/Races/YAK_F.jpg, id=319, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_F.jpg Graphic file (type jpg)
 <use ART/Races/YAK_F.jpg>
-Package pdftex.def Info: ART/Races/YAK_F.jpg  used on input line 503.
+Package pdftex.def Info: ART/Races/YAK_F.jpg  used on input line 513.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 <ART/Races/YAK_M.jpg, id=320, 1405.25pt x 1405.25pt>
 File: ART/Races/YAK_M.jpg Graphic file (type jpg)
 <use ART/Races/YAK_M.jpg>
-Package pdftex.def Info: ART/Races/YAK_M.jpg  used on input line 508.
+Package pdftex.def Info: ART/Races/YAK_M.jpg  used on input line 518.
 (pdftex.def)             Requested size: 176.80067pt x 176.79227pt.
 
-Underfull \hbox (badness 1152) in paragraph at lines 524--525
+Underfull \hbox (badness 1152) in paragraph at lines 534--535
 []\OT1/cmr/m/n/10.95 Yak are able to pull heav-ier
  []
 
@@ -1007,12 +1006,12 @@ Underfull \hbox (badness 1152) in paragraph at lines 524--525
 <ART/Races/EP_F.jpg, id=325, 344.6723pt x 344.6723pt>
 File: ART/Races/EP_F.jpg Graphic file (type jpg)
 <use ART/Races/EP_F.jpg>
-Package pdftex.def Info: ART/Races/EP_F.jpg  used on input line 534.
+Package pdftex.def Info: ART/Races/EP_F.jpg  used on input line 544.
 (pdftex.def)             Requested size: 176.80067pt x 176.80609pt.
 <ART/Races/EP_M.jpg, id=326, 345.15572pt x 345.15572pt>
 File: ART/Races/EP_M.jpg Graphic file (type jpg)
 <use ART/Races/EP_M.jpg>
-Package pdftex.def Info: ART/Races/EP_M.jpg  used on input line 539.
+Package pdftex.def Info: ART/Races/EP_M.jpg  used on input line 549.
 (pdftex.def)             Requested size: 176.80067pt x 176.80653pt.
  [22
 
@@ -1020,15 +1019,15 @@ Package pdftex.def Info: ART/Races/EP_M.jpg  used on input line 539.
 <ART/Races/PEG_F.jpg, id=332, 344.1889pt x 344.1889pt>
 File: ART/Races/PEG_F.jpg Graphic file (type jpg)
 <use ART/Races/PEG_F.jpg>
-Package pdftex.def Info: ART/Races/PEG_F.jpg  used on input line 565.
+Package pdftex.def Info: ART/Races/PEG_F.jpg  used on input line 575.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
 <ART/Races/PEG_M.jpg, id=333, 345.15572pt x 345.15572pt>
 File: ART/Races/PEG_M.jpg Graphic file (type jpg)
 <use ART/Races/PEG_M.jpg>
-Package pdftex.def Info: ART/Races/PEG_M.jpg  used on input line 570.
+Package pdftex.def Info: ART/Races/PEG_M.jpg  used on input line 580.
 (pdftex.def)             Requested size: 176.80067pt x 176.80653pt.
 
-Underfull \hbox (badness 1533) in paragraph at lines 581--582
+Underfull \hbox (badness 1533) in paragraph at lines 591--592
 []\OT1/cmr/m/n/10.95 Pegasi may per-form
  []
 
@@ -1038,12 +1037,12 @@ Underfull \hbox (badness 1533) in paragraph at lines 581--582
 <ART/Races/UNI_F.jpg, id=339, 344.1889pt x 344.1889pt>
 File: ART/Races/UNI_F.jpg Graphic file (type jpg)
 <use ART/Races/UNI_F.jpg>
-Package pdftex.def Info: ART/Races/UNI_F.jpg  used on input line 590.
+Package pdftex.def Info: ART/Races/UNI_F.jpg  used on input line 600.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
 <ART/Races/UNI_M.jpg, id=340, 344.1889pt x 344.1889pt>
 File: ART/Races/UNI_M.jpg Graphic file (type jpg)
 <use ART/Races/UNI_M.jpg>
-Package pdftex.def Info: ART/Races/UNI_M.jpg  used on input line 595.
+Package pdftex.def Info: ART/Races/UNI_M.jpg  used on input line 605.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
  [24
 
@@ -1051,20 +1050,20 @@ Package pdftex.def Info: ART/Races/UNI_M.jpg  used on input line 595.
 <ART/Races/GRI_F.jpg, id=347, 344.1889pt x 344.1889pt>
 File: ART/Races/GRI_F.jpg Graphic file (type jpg)
 <use ART/Races/GRI_F.jpg>
-Package pdftex.def Info: ART/Races/GRI_F.jpg  used on input line 618.
+Package pdftex.def Info: ART/Races/GRI_F.jpg  used on input line 628.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
 <ART/Races/GRI_M.jpg, id=348, 345.15572pt x 345.15572pt>
 File: ART/Races/GRI_M.jpg Graphic file (type jpg)
 <use ART/Races/GRI_M.jpg>
-Package pdftex.def Info: ART/Races/GRI_M.jpg  used on input line 623.
+Package pdftex.def Info: ART/Races/GRI_M.jpg  used on input line 633.
 (pdftex.def)             Requested size: 176.80067pt x 176.80653pt.
 
-Underfull \hbox (badness 3168) in paragraph at lines 633--634
+Underfull \hbox (badness 3168) in paragraph at lines 643--644
 \OT1/cmr/m/n/10.95 abil-ity to per-form Aerial Ma-neu-vers.
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 634--635
+Underfull \hbox (badness 1472) in paragraph at lines 644--645
 []\OT1/cmr/m/n/10.95 Griffons pos-sess nat-u-ral talons,
  []
 
@@ -1074,25 +1073,25 @@ Underfull \hbox (badness 1472) in paragraph at lines 634--635
 <ART/Races/ZEB_F.jpg, id=354, 345.39743pt x 345.39743pt>
 File: ART/Races/ZEB_F.jpg Graphic file (type jpg)
 <use ART/Races/ZEB_F.jpg>
-Package pdftex.def Info: ART/Races/ZEB_F.jpg  used on input line 643.
+Package pdftex.def Info: ART/Races/ZEB_F.jpg  used on input line 653.
 (pdftex.def)             Requested size: 176.80067pt x 176.7986pt.
 <ART/Races/ZEB_M.jpg, id=355, 344.1889pt x 344.1889pt>
 File: ART/Races/ZEB_M.jpg Graphic file (type jpg)
 <use ART/Races/ZEB_M.jpg>
-Package pdftex.def Info: ART/Races/ZEB_M.jpg  used on input line 648.
+Package pdftex.def Info: ART/Races/ZEB_M.jpg  used on input line 658.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
 
-Underfull \hbox (badness 1454) in paragraph at lines 653--654
+Underfull \hbox (badness 1454) in paragraph at lines 663--664
 \OT1/cmr/m/n/10.95 to al-ter one's self. In ad-di-tion to this,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 []\OT1/cmr/m/n/10.95 Zebras can use
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 661--662
+Underfull \hbox (badness 4168) in paragraph at lines 671--672
 []\OT1/cmr/m/n/10.95 Zebras are nat-u-rally re-
  []
 
@@ -1104,30 +1103,30 @@ Chapter 3.
 
 
 ]
-Underfull \hbox (badness 1365) in paragraph at lines 711--712
+Underfull \hbox (badness 1365) in paragraph at lines 721--722
 \OT1/cmr/m/n/10.95 avail-able to you, de-cided by you. Your
  []
 
 [28]
-Underfull \hbox (badness 1038) in paragraph at lines 774--775
+Underfull \hbox (badness 1038) in paragraph at lines 784--785
 []\OT1/cmr/m/n/10.95 This trait can-not be taken with \OT1/cmr/bx/n/10.95 Small
 
  []
 
 [29]
-Underfull \hbox (badness 6708) in paragraph at lines 802--803
+Underfull \hbox (badness 6708) in paragraph at lines 812--813
 \OT1/cmr/bx/it/10.95 Reserved for Abyssini-ans, di-a-mond
  []
 
 [30]
 Chapter 4.
 
-Underfull \hbox (badness 1796) in paragraph at lines 816--817
+Underfull \hbox (badness 1796) in paragraph at lines 826--827
 \OT1/cmr/m/n/10.95 Changelings start with a Shapeshift spell
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 834--835
+Underfull \hbox (badness 2717) in paragraph at lines 844--845
 \OT1/cmr/m/n/10.95 Formshift, Bodyshift and Mind-shift. A
  []
 
@@ -1138,174 +1137,174 @@ Underfull \vbox (badness 2837) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
 []\OT1/cmr/m/n/10.95 Balefire Phoenix's Bi-o-log-i-cal
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 889--890
+Underfull \hbox (badness 5548) in paragraph at lines 899--900
 []\OT1/cmr/m/n/10.95 4 crea-ture com-bat
  []
 
 [32]
-Underfull \hbox (badness 1033) in paragraph at lines 930--932
+Underfull \hbox (badness 1033) in paragraph at lines 940--942
 \OT1/cmr/m/n/10.95 ob-ject, how-ever this is merely a cos-metic
  []
 
 [33]
-Underfull \hbox (badness 4634) in paragraph at lines 1017--1018
+Underfull \hbox (badness 4634) in paragraph at lines 1027--1028
 []\OT1/cmr/m/n/10.95 +1 DT, +1 END
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 1017--1018
+Underfull \hbox (badness 2221) in paragraph at lines 1027--1028
 \OT1/cmr/m/n/10.95 against Burn-ing, Freez-ing or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1029
 \OT1/cmr/m/n/10.95 against Burn-ing, Bleed-ing,
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 1019--1020
+Underfull \hbox (badness 3792) in paragraph at lines 1029--1030
 []\OT1/cmr/m/n/10.95 +1 DT, +1 END
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 \OT1/cmr/m/n/10.95 against Burn-ing, Bleed-ing,
  []
 
 [34] [35]
-Underfull \hbox (badness 1205) in paragraph at lines 1167--1168
+Underfull \hbox (badness 1205) in paragraph at lines 1177--1178
 []\OT1/cmr/m/n/10.95 The co-coon's DT is de-ter-mined by the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
 []\OT1/cmr/m/n/10.95 Tiny Splash Tem-
  []
 
 [36]
-Underfull \hbox (badness 2521) in paragraph at lines 1208--1209
+Underfull \hbox (badness 2521) in paragraph at lines 1218--1219
 []\OT1/cmr/m/n/10.95 Large Splash Tem-
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 1238--1239
+Underfull \hbox (badness 3323) in paragraph at lines 1248--1249
 []\OT1/cmr/m/n/10.95 The tar-gets in range also can-not use
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 1238--1239
+Underfull \hbox (badness 2384) in paragraph at lines 1248--1249
 \OT1/cmr/m/n/10.95 Withdraw-action to move away from the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
 []\OT1/cmr/m/n/10.95 Small Splash, 3
  []
 
 [37] [38] [39]
-Underfull \hbox (badness 1394) in paragraph at lines 1427--1429
+Underfull \hbox (badness 1394) in paragraph at lines 1437--1439
 []\OT1/cmr/m/n/10.95 The spell's range is de-ter-mined by the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1499
+Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
 []\OT1/cmr/m/n/10.95 Large Splash,
  []
 
 [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1651--1652
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1662
 []\OT1/cmr/m/n/10.95 Medium Dis-trac-
  []
 
 [42] [43] [44
 
 ]
-Underfull \hbox (badness 1014) in paragraph at lines 1841--1842
+Underfull \hbox (badness 1014) in paragraph at lines 1851--1852
 []\OT1/cmr/bx/n/10.95 Earth: \OT1/cmr/m/n/10.95 Orbs have 20% base Crip-ple
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1888--1889
+Underfull \hbox (badness 1019) in paragraph at lines 1898--1899
 \OT1/cmr/m/n/10.95 space once the caster's Po-tency al-lows it.
  []
 
 [45] [46]
-Underfull \hbox (badness 1418) in paragraph at lines 2058--2059
+Underfull \hbox (badness 1418) in paragraph at lines 2068--2069
 []\OT1/cmr/m/n/10.95 Telekinesis is di-vided in two cat-e-gories,
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 2060--2061
+Underfull \hbox (badness 2495) in paragraph at lines 2070--2071
 []\OT1/cmr/m/n/10.95 Upon learn-ing the spell, the char-ac-ter
  []
 
 [47]
-Underfull \hbox (badness 1237) in paragraph at lines 2096--2097
+Underfull \hbox (badness 1237) in paragraph at lines 2106--2107
 []\OT1/cmr/m/n/10.95 When lev-i-tat-ing weapons with Pre-ci-sion
  []
 
 [48]
-Underfull \hbox (badness 3098) in paragraph at lines 2212--2213
+Underfull \hbox (badness 3098) in paragraph at lines 2222--2223
 []\OT1/cmr/bx/n/10.95 Example: \OT1/cmr/m/n/10.95 Sapling Sprout casts
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 2212--2213
+Underfull \hbox (badness 1038) in paragraph at lines 2222--2223
 \OT1/cmr/m/n/10.95 Mag-ne-tize on her gun and on
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 2243--2244
+Underfull \hbox (badness 7362) in paragraph at lines 2253--2254
 []\OT1/cmr/m/n/10.95 +2 DT, +1 base
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 2244--2245
+Underfull \hbox (badness 1924) in paragraph at lines 2254--2255
 []\OT1/cmr/m/n/10.95 +3 DT, +2 base
  []
 
 [49]
-Underfull \hbox (badness 6204) in paragraph at lines 2245--2246
+Underfull \hbox (badness 6204) in paragraph at lines 2255--2256
 []\OT1/cmr/m/n/10.95 +4 DT, +3 base
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 2306--2307
+Underfull \hbox (badness 8189) in paragraph at lines 2316--2317
 []\OT1/cmr/m/n/10.95 Large Splash; 4
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 2382--2383
+Underfull \hbox (badness 10000) in paragraph at lines 2392--2393
 []\OT1/cmr/m/n/10.95 Small Splash; 1
  []
 
 [51] [52] [53]
-Underfull \hbox (badness 1048) in paragraph at lines 2601--2602
+Underfull \hbox (badness 1048) in paragraph at lines 2611--2612
 []\OT1/cmr/m/n/10.95 The caster en-chants their body to pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2631--2632
+Underfull \hbox (badness 10000) in paragraph at lines 2641--2642
 []\OT1/cmr/m/n/10.95 Tiny Splash Tem-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 2633--2634
+Underfull \hbox (badness 2521) in paragraph at lines 2643--2644
 []\OT1/cmr/m/n/10.95 Large Splash Tem-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 2659--2660
+Underfull \hbox (badness 1043) in paragraph at lines 2669--2670
 []\OT1/cmr/m/n/10.95 The caster con-jures up a slightly grim-
  []
 
 [54] [55] [56]
-Underfull \hbox (badness 3601) in paragraph at lines 2859--2860
+Underfull \hbox (badness 3601) in paragraph at lines 2869--2870
 []\OT1/cmr/m/n/10.95 The poi-son-ing chance de-pends on the
  []
 
@@ -1331,7 +1330,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tiia/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WANDFILE_TEX.pdf (63 pages, 16547233 bytes).
+Output written on WANDFILE_TEX.pdf (63 pages, 16549358 bytes).
 PDF statistics:
  678 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
