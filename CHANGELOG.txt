@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **2.3.0
 *** Added
+- Cybernetic limbs
+- New implants
 
 *** Changed
 - Movement actions lower Melee or Unarmed attack cost (down to a min of 1)
@@ -17,15 +19,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Charging provides no penalty on the attacker
 - Sprint requires Strain cost of 1 to activate
 - Sprint does not need to be triggered at the end of turn
+- Crippled Torso no longer incurs SPECIAL penalty; deals Bleeding Status and Major Distraction
+- Crippled Head no longer incurs SPECIAL penalty; deals Dazed Status instead
+- Crippled limbs do not automatically cause Major Distraction
+- Carry Weight maximum lowered to double the listed value.
+- Cybernetic implants rebalanced
+- Thermic Lance renamed Arcane Lance; Special attack & Mods changed
+- Explosives: added example of being a dud
 
 *** Deprecated
 
 *** Removed
 - Full-Auto rules
+- Cybernetic Implant upper limit
 
 *** Fixed
 - Character encoding errors of hyphens on copied texts
-
+- Carry Weight no longer applies nonexistant penalties when exceeding limit
+- Range values now explained when they are in effect
 
 
 **2.2.1

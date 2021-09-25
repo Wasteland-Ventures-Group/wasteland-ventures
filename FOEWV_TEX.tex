@@ -704,7 +704,7 @@
 	\end{center}
 	The Carry Weight can be further modified by traits. Apply changes from them after calculating the base Carry Weight.
 		
-	If a character is carrying more than their Carry Weight allows, they are considered Encumbered. If they are carrying over double their Carry Weight, the penalties are doubled. Over triple their Carry Weight, the character is unable to move. When she removes the excess weight, the conditions immediately end.
+	If a character is carrying more than their Carry Weight allows, they are considered Encumbered. If they are carrying over double their Carry Weight,  the character is unable to move. When she removes the excess weight, the conditions immediately end.
 	 
 	\subsection*{Resistances}
 	\subsubsection*{Fire, Cold \& Electricity}
@@ -1594,7 +1594,7 @@
 	
 	In addition, \textbf{Explosives deal their full damage on the central hex of the Splash Template only} - other targets within the affected area take half of the damage.
 	
-	However, Explosive weapons do not deal critical damage, nor can they be used to do \textbf{Called Shots}. In case of a critical success, other effects may apply. In case of a failure, the explosive can deviate at least 1 hex up to half the launched/thrown distance from the intended target. In air-to-air combat, a missed attack automatically deals no damage.
+	However, Explosive weapons do not deal critical damage, nor can they be used to do \textbf{Called Shots}. In case of a critical success, other effects may apply. In case of a failure, the explosive can deviate at least 1 hex up to half the launched/thrown distance from the intended target, or be a dud round. In air-to-air combat, a missed attack automatically deals no damage.
 	
 	
 	\subsubsection*{Firearms}
@@ -2011,8 +2011,8 @@
 	
 	A character who possesses two statuettes of the same Ministry Mare only gains a benefit from the first one obtained. Likewise, only one character may benefit from a Ministry Mare statuette at a time. However, the character will retain the benefit of a statuette until either she dies or she willingly gives the statuette away - it cannot be stolen. There is no Ministry Mare statuette which corresponds to LCK. Instead a character who possesses a statuette of one of each Ministry Mares - six of them - will gain the Reward Perk \emph{My Little Ponies}, which grants a permanent +1 bonus to LCK.
 	
-	\subsection*{Cybernetic Implants}
-	Implants can grant a permanent bonus to a character, but clinics capable of performing cybersurgery are extremely rare and expensive. A character can only have a total maximum of $END/2$ implants, with a limit of two per limb. One cannot have two of same implant in one limb.
+	\subsection*{Cybernetic Limbs \& Implants}
+	Cybernetic limbs and implant can grant a permanent bonus to a character, but clinics capable of performing cybersurgery are extremely rare and expensive. One cannot have two of same implants, as this will cause conflicts between them. Attachement of cybernetic limbs that the character does not biologically have do not provide new abilities, and is often considered wasteful.
 	
 	A character may not benefit from both cybernetic implants and permanent alchemical enhancements. Cybernetic Implants can be disabled by EMP, or similar weapons. Disabled implants can be reactivated at a cybersurgery-capable clinic.
 	
@@ -2929,7 +2929,7 @@
 	\subsubsection*{Range}
 	When a character is using a ranged weapon, they have to take the distance between them and their target into account.
 	
-	These modifiers affect only ranged and thrown attacks. The Range is specified under weapon's statistics in the form X/Y/Z - X for Short, Y for Medium and Z for Long range in meters.
+	These modifiers affect only ranged and thrown attacks. The Range is specified under weapon's statistics in the form X/Y/Z - X for Short, Y for Medium and Z for Long range in meters. Should the distance to target be less or equal to the value of the Range, the target is considered to be in that range.
 	
 	Weapon's maximum range is Long range, unless otherwise specified in weapon's stats.
 	
@@ -3087,7 +3087,7 @@
 	
 	\subsection*{Crippled}
 	\addcontentsline{toc}{subsection}{Crippled}
-	If successfully hit and damaged by a Called Shot attack or an explosive, a limb may become Crippled. The effects of the Crippled condition depend on which part of the body was damaged. Effects from multiple Crippled limbs will stack. Any crippled body part will cause Major Distraction to skill rolls.
+	If successfully hit and damaged by a Called Shot attack or an explosive, a limb may become Crippled. The effects of the Crippled condition depend on which part of the body was damaged. Effects from multiple Crippled limbs will stack.
 	
 	After combat, each Crippled status will be checked if they are Minor or Major. These are checked with a 1d10 roll, where a 9 or 10 signifies a Major Cripple. Major ones require doctor's attention, Minor ones will naturally heal on their own after at least 8 hours of rest, or with an easy Medical check.
 	
@@ -3103,9 +3103,11 @@
 		\begin{tabular}{|l|l|}
 			\hline
 			\textbf{Limb}    & \textbf{Effects}                                                    \\ \hline
-			Torso   & -2 STR, -3 END, -2 AGI                                     \\
+			Torso   & \begin{tabular}{@{}l@{}}Bleeding Status effect; \\
+				Major Distraction
+			\end{tabular}                                  \\
 			\begin{tabular}{@{}l@{}}Leg/Arm \\ (for each) \end{tabular} & +1 Movement AP cost                                        \\
-			Head    & \begin{tabular}{@{}l@{}}-4 PER, -2 INT; -4 AP; \\+1 AP and Strain cost for Spells\end{tabular} \\
+			Head    & \begin{tabular}{@{}l@{}}Dazed Status effect; \\+1 AP and Strain cost for Spells\end{tabular} \\
 			Wing    & \begin{tabular}{@{}l@{}}Can glide but not fly (one) \\Cannot fly or glide (both)\end{tabular}   \\ \hline
 		\end{tabular} 
 	\end{table}
@@ -3237,7 +3239,7 @@
 	Diving follows Drowning rules for holding breath, found under Chapter 5: Game Rules - Environmental \& Other Hazards
 	
 	\subsubsection*{Climbing}
-	Climbing costs \textbf{3 AP per 2 meters (1 hex)} the character moves. A character cannot charge while climbing. A character cannot climb if she has two or more \textbf{Crippled} limbs. The GGM may request a character to roll STR check.
+	Climbing costs \textbf{3 AP per 2 meters (1 hex)} the character moves. A character cannot charge while climbing. A character cannot climb if she has two or more \textbf{Crippled} limbs. The GM may request a character to roll STR check.
 	
 	If the character is climbing when at least two of her limbs gain Crippled conditions, she loses grip and is in \textbf{Freefall} and takes falling damage accordingly. Crippled wings do not interfere climbing.
 	
