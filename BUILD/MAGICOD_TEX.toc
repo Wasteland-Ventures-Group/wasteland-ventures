@@ -1,192 +1,252 @@
-\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
-\contentsline {chapter}{\numberline {2}Aerial Maneuvers}{11}{chapter.2}
-\contentsline {section}{Basic Maneuvers}{11}{section*.2}
-\contentsline {subsection}{Buccaneer Blaze [AGI]}{11}{section*.3}
-\contentsline {subsection}{Cloud Manipulation [CHA]}{12}{section*.4}
-\contentsline {subsection}{Contrail [AGI]}{12}{section*.5}
-\contentsline {subsection}{Creeping Barrage [AGI]}{13}{section*.6}
-\contentsline {subsection}{Defensive Spiral [END]}{13}{section*.7}
-\contentsline {subsection}{Defog Twirl [CHA]}{14}{section*.8}
-\contentsline {subsection}{Dirt Drag [END]}{14}{section*.9}
-\contentsline {subsection}{Divebomb [END]}{15}{section*.10}
-\contentsline {subsection}{Fantastic Flash [CHA]}{15}{section*.11}
-\contentsline {subsection}{Fire Trail [CHA]}{16}{section*.12}
-\contentsline {subsection}{Hightail Sweep [AGI]}{16}{section*.13}
-\contentsline {subsection}{Plummet [END]}{17}{section*.14}
-\contentsline {subsection}{Sonic Rain-Nuke [END]}{17}{section*.15}
-\contentsline {subsection}{Sun Celebration [CHA]}{18}{section*.16}
-\contentsline {subsection}{Tactical Weather Manipulation [CHA]}{18}{section*.17}
-\contentsline {subsection}{Tornado [AGI]}{19}{section*.18}
-\contentsline {subsection}{Twister [END]}{19}{section*.19}
-\contentsline {subsection}{Weave Defense [AGI]}{20}{section*.20}
-\contentsline {section}{Wonderbolt \& Talon Maneuvers}{20}{section*.21}
-\contentsline {subsection}{Blackwing's Mettle}{21}{section*.22}
-\contentsline {subsection}{Carrion's Blight}{21}{section*.23}
-\contentsline {subsection}{Commander Easyglider's Esprit de Corps}{22}{section*.24}
-\contentsline {subsection}{Fleetfoot's Fix-it-up}{22}{section*.25}
-\contentsline {subsection}{Gawd's Glorious Featherbedding}{22}{section*.26}
-\contentsline {subsection}{General Firefly's Double Inside-Out Loop}{23}{section*.27}
-\contentsline {subsection}{Gilda's Feline Frenzium Furiatus}{23}{section*.28}
-\contentsline {subsection}{Henrietta's Threatful Bravura}{24}{section*.29}
-\contentsline {subsection}{Rainbow Dash's Sonic Rainboom}{24}{section*.30}
-\contentsline {subsection}{Spitfire's Icarian Sun Salutation}{25}{section*.31}
-\contentsline {subsection}{Surprise's Sneak Sweep}{25}{section*.32}
-\contentsline {chapter}{\numberline {3}Earth Pony Magic}{27}{chapter.3}
-\contentsline {section}{Adrenaline Rush [STR]}{27}{section*.33}
-\contentsline {section}{Cheer [CHA]}{28}{section*.34}
-\contentsline {section}{Comforting Words [CHA]}{28}{section*.35}
-\contentsline {section}{Crash this Barn [STR]}{29}{section*.36}
-\contentsline {section}{Earthly Warning [PER]}{29}{section*.37}
-\contentsline {section}{Enchanted Hooves [STR]}{30}{section*.38}
-\contentsline {section}{Enhance Plant [CHA]}{30}{section*.39}
-\contentsline {section}{Find Poison [PER]}{31}{section*.40}
-\contentsline {section}{Fortify [STR]}{31}{section*.41}
-\contentsline {section}{Healing Hooves [CHA]}{31}{section*.42}
-\contentsline {section}{Improve Obstacle [PER]}{32}{section*.43}
-\contentsline {section}{Inner Circle [CHA]}{32}{section*.44}
-\contentsline {section}{Mend [STR]}{33}{section*.45}
-\contentsline {section}{Overgrow [STR]}{33}{section*.46}
-\contentsline {section}{Plant Calling [CHA]}{34}{section*.47}
-\contentsline {section}{Protection of the Earth [STR]}{34}{section*.48}
-\contentsline {section}{Rooted [STR]}{34}{section*.49}
-\contentsline {section}{Scrutinizing Gaze [PER]}{34}{section*.50}
-\contentsline {section}{Seismic Sight [PER]}{35}{section*.51}
-\contentsline {section}{Smart Cookie's Invocation [PER]}{36}{section*.52}
-\contentsline {section}{Sound Mind [CHA]}{36}{section*.53}
-\contentsline {section}{Stone Shield [STR]}{36}{section*.54}
-\contentsline {section}{Threatening Gaze [PER]}{37}{section*.55}
-\contentsline {chapter}{\numberline {4}Unicorn Magic}{39}{chapter.4}
-\contentsline {section}{\#1 Assistant}{39}{section*.56}
-\contentsline {section}{Alarm [END]}{40}{section*.57}
-\contentsline {section}{Amplify [CHA]}{40}{section*.58}
-\contentsline {section}{Anesthetic [INT]}{41}{section*.59}
-\contentsline {section}{Arcane Blast [INT]}{41}{section*.60}
-\contentsline {section}{Arcane Mark}{42}{section*.61}
-\contentsline {section}{Bend Surface [INT]}{43}{section*.62}
-\contentsline {section}{Blood Weapons [END]}{43}{section*.63}
-\contentsline {section}{Bonds Of Friendship}{44}{section*.64}
-\contentsline {section}{Bone Mending [INT]}{44}{section*.65}
-\contentsline {section}{Bypass [CHA]}{45}{section*.66}
-\contentsline {section}{Call Object [INT]}{45}{section*.67}
-\contentsline {section}{Calm Mind [INT]}{46}{section*.68}
-\contentsline {section}{Clean [INT]}{46}{section*.69}
-\contentsline {section}{Cloak of Elements [END]}{47}{section*.70}
-\contentsline {section}{Combat Pre-cognition [PER]}{47}{section*.71}
-\contentsline {section}{Come to Life [END]}{48}{section*.72}
-\contentsline {section}{Compulsion [CHA]}{49}{section*.73}
-\contentsline {section}{Detection [PER]}{49}{section*.74}
-\contentsline {section}{Devouring Darkness [END]}{50}{section*.75}
-\contentsline {section}{Discord [CHA]}{50}{section*.76}
-\contentsline {section}{Eldritch Knives [INT]}{51}{section*.77}
-\contentsline {section}{Enhancement [INT]}{51}{section*.78}
-\contentsline {section}{Equestria's Love [END]}{52}{section*.79}
-\contentsline {section}{Failsafe [END]}{52}{section*.80}
-\contentsline {section}{Fear [END]}{53}{section*.81}
-\contentsline {section}{Friendly Critter's Help [END]}{53}{section*.82}
-\contentsline {section}{Growth [END]}{54}{section*.83}
-\contentsline {section}{Heart Attack [END]}{54}{section*.84}
-\contentsline {section}{Invisibility [CHA]}{55}{section*.85}
-\contentsline {section}{Life Surge [END]}{55}{section*.86}
-\contentsline {section}{Light}{56}{section*.87}
-\contentsline {section}{Mage's Bulwark}{56}{section*.88}
-\contentsline {section}{Magic Mirror [PER]}{57}{section*.89}
-\contentsline {section}{Magic Trance [CHA]}{57}{section*.90}
-\contentsline {section}{Magical Fireworks [CHA]}{58}{section*.91}
-\contentsline {section}{Memory Manipulation [PER]}{58}{section*.92}
-\contentsline {section}{Mental Bulwark [END]}{59}{section*.93}
-\contentsline {section}{Mind Probe [PER]}{59}{section*.94}
-\contentsline {section}{Mirage [CHA]}{60}{section*.95}
-\contentsline {section}{Panacea [INT]}{60}{section*.96}
-\contentsline {section}{Petrify [END]}{61}{section*.97}
-\contentsline {section}{Phantasmagoria [CHA]}{61}{section*.98}
-\contentsline {section}{Phase [END]}{62}{section*.99}
-\contentsline {section}{Pocket Sand [INT]}{62}{section*.100}
-\contentsline {section}{Power of Friendship}{63}{section*.101}
-\contentsline {section}{Rad-Guard [END]}{63}{section*.102}
-\contentsline {section}{Regeneration [INT]}{64}{section*.103}
-\contentsline {section}{Remake [END]}{64}{section*.104}
-\contentsline {section}{Resilience [CHA]}{65}{section*.105}
-\contentsline {section}{Restoration [INT]}{65}{section*.106}
-\contentsline {section}{Shadow Form [END]}{66}{section*.107}
-\contentsline {section}{Shape Magic [END]}{66}{section*.108}
-\contentsline {section}{Shield [INT]}{67}{section*.109}
-\contentsline {section}{Silver Shroud [CHA]}{67}{section*.110}
-\contentsline {section}{Simulacrum [CHA]}{68}{section*.111}
-\contentsline {section}{Soft Light [CHA]}{68}{section*.112}
-\contentsline {section}{Soul Jar [END]}{69}{section*.113}
-\contentsline {section}{Spy Connections [PER]}{69}{section*.114}
-\contentsline {section}{Standstill [CHA]}{70}{section*.115}
-\contentsline {section}{Steady Walk [END]}{70}{section*.116}
-\contentsline {section}{Storm Cloud [INT]}{71}{section*.117}
-\contentsline {section}{Target [CHA]}{71}{section*.118}
-\contentsline {section}{Telekinesis}{72}{section*.119}
-\contentsline {section}{Telepathy [PER]}{73}{section*.122}
-\contentsline {section}{Teleport}{74}{section*.123}
-\contentsline {section}{Thrown Voice [CHA]}{74}{section*.124}
-\contentsline {section}{Toughened Frame [END]}{75}{section*.125}
-\contentsline {section}{Transformation [END]}{75}{section*.126}
-\contentsline {section}{Vile Crystals [END]}{76}{section*.127}
-\contentsline {section}{Wall of Mist [INT]}{76}{section*.128}
-\contentsline {section}{Want it, Need it [CHA]}{77}{section*.129}
-\contentsline {chapter}{\numberline {5}Zebra Magic}{79}{chapter.5}
-\contentsline {section}{Alchemy Recipes}{79}{section*.130}
-\contentsline {subsection}{All-Nighter}{79}{section*.131}
-\contentsline {subsection}{Antivenom}{79}{section*.132}
-\contentsline {subsection}{Assassin Powder}{80}{section*.133}
-\contentsline {subsection}{Balefire Potion}{80}{section*.134}
-\contentsline {subsection}{Beat-No-More}{81}{section*.135}
-\contentsline {subsection}{Bitter Drink}{81}{section*.136}
-\contentsline {subsection}{Blood-stopping Goo}{81}{section*.137}
-\contentsline {subsection}{Bone-Strengthening Brew}{81}{section*.138}
-\contentsline {subsection}{Bounce}{82}{section*.139}
-\contentsline {subsection}{Breath of the Phoenix}{82}{section*.140}
-\contentsline {subsection}{Bug-bane Oil}{82}{section*.141}
-\contentsline {subsection}{Cloudwalk Talisman}{83}{section*.142}
-\contentsline {subsection}{Fixer-Upper}{83}{section*.143}
-\contentsline {subsection}{Flesh Talisman}{84}{section*.144}
-\contentsline {subsection}{Flight Talisman}{84}{section*.145}
-\contentsline {subsection}{Greater Healing Potion}{84}{section*.146}
-\contentsline {subsection}{Healing Potion}{85}{section*.147}
-\contentsline {subsection}{Healing Powder}{85}{section*.148}
-\contentsline {subsection}{Infused Bandages}{85}{section*.149}
-\contentsline {subsection}{Itching Oil}{85}{section*.150}
-\contentsline {subsection}{Killing Joke Remedy}{86}{section*.151}
-\contentsline {subsection}{Kiss Of the Phoenix}{86}{section*.152}
-\contentsline {subsection}{Major Flame Bane Potion}{86}{section*.153}
-\contentsline {subsection}{Major Grounding Potion}{86}{section*.154}
-\contentsline {subsection}{Major Warming Potion}{87}{section*.155}
-\contentsline {subsection}{Mask Talisman}{87}{section*.156}
-\contentsline {subsection}{Mindflay Potion}{88}{section*.157}
-\contentsline {subsection}{Minor Flame Bane Potion}{88}{section*.158}
-\contentsline {subsection}{Minor Grounding Potion}{88}{section*.159}
-\contentsline {subsection}{Minor Restoration Potion}{88}{section*.160}
-\contentsline {subsection}{Minor Warming Potion}{89}{section*.161}
-\contentsline {subsection}{Plant-bane Oil}{89}{section*.162}
-\contentsline {subsection}{Poisonous Oil}{89}{section*.163}
-\contentsline {subsection}{Potent Antivenom}{90}{section*.164}
-\contentsline {subsection}{Potion of Weathering}{90}{section*.165}
-\contentsline {subsection}{Quickhoof Potion}{90}{section*.166}
-\contentsline {subsection}{Rad-Gone}{90}{section*.167}
-\contentsline {subsection}{Rad-Less}{91}{section*.168}
-\contentsline {subsection}{Sleeping Powder}{91}{section*.169}
-\contentsline {subsection}{Smoke Bombs}{91}{section*.170}
-\contentsline {subsection}{Spirit Renewal Potion}{91}{section*.171}
-\contentsline {subsection}{Superior Smoke Bomb}{92}{section*.172}
-\contentsline {subsection}{Thinner Oil}{92}{section*.173}
-\contentsline {subsection}{Vitality Booster}{92}{section*.174}
-\contentsline {subsection}{Wall Crawling Paste}{92}{section*.175}
-\contentsline {subsection}{World-Weathering Potion}{93}{section*.176}
-\contentsline {section}{Spirit Magic}{94}{section*.177}
-\contentsline {subsection}{Spirit of Diamond}{94}{section*.178}
-\contentsline {subsection}{Spirit of Flame}{95}{section*.181}
-\contentsline {subsection}{Spirit of Friendship}{96}{section*.184}
-\contentsline {subsection}{Spirit of Life}{98}{section*.187}
-\contentsline {subsection}{Spirit of Light}{99}{section*.190}
-\contentsline {subsection}{Spirit of Lightning}{100}{section*.193}
-\contentsline {subsection}{Spirit of Machines}{102}{section*.196}
-\contentsline {subsection}{Spirit of Nature}{104}{section*.199}
-\contentsline {subsection}{Spirit of Poisons}{105}{section*.202}
-\contentsline {subsection}{Spirit of Riddles}{106}{section*.205}
-\contentsline {subsection}{Spirit of Waves}{108}{section*.208}
-\contentsline {subsection}{Spirit of Whispers}{109}{section*.211}
-\contentsline {subsection}{Spirit of Winds}{111}{section*.214}
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}Aerial Maneuvers}{13}{chapter.2}
+\contentsline {section}{Basic Maneuvers}{13}{section*.2}
+\contentsline {subsection}{Buccaneer Blaze [AGI]}{13}{section*.3}
+\contentsline {subsection}{Cloud Manipulation [CHA]}{14}{section*.4}
+\contentsline {subsection}{Contrail [AGI]}{14}{section*.5}
+\contentsline {subsection}{Creeping Barrage [AGI]}{15}{section*.6}
+\contentsline {subsection}{Defensive Spiral [END]}{15}{section*.7}
+\contentsline {subsection}{Defog Twirl [CHA]}{16}{section*.8}
+\contentsline {subsection}{Dirt Drag [END]}{16}{section*.9}
+\contentsline {subsection}{Divebomb [END]}{17}{section*.10}
+\contentsline {subsection}{Fantastic Flash [CHA]}{17}{section*.11}
+\contentsline {subsection}{Fire Trail [CHA]}{18}{section*.12}
+\contentsline {subsection}{Hightail Sweep [AGI]}{18}{section*.13}
+\contentsline {subsection}{Plummet [END]}{19}{section*.14}
+\contentsline {subsection}{Sonic Rain-Nuke [END]}{19}{section*.15}
+\contentsline {subsection}{Sun Celebration [CHA]}{20}{section*.16}
+\contentsline {subsection}{Tactical Weather Manipulation [CHA]}{20}{section*.17}
+\contentsline {subsection}{Tornado [AGI]}{21}{section*.18}
+\contentsline {subsection}{Twister [END]}{21}{section*.19}
+\contentsline {subsection}{Weave Defense [AGI]}{22}{section*.20}
+\contentsline {section}{Wonderbolt \& Talon Maneuvers}{22}{section*.21}
+\contentsline {subsection}{Blackwing's Mettle}{23}{section*.22}
+\contentsline {subsection}{Carrion's Blight}{23}{section*.23}
+\contentsline {subsection}{Commander Easyglider's Esprit de Corps}{24}{section*.24}
+\contentsline {subsection}{Fleetfoot's Fix-it-up}{24}{section*.25}
+\contentsline {subsection}{Gawd's Glorious Featherbedding}{24}{section*.26}
+\contentsline {subsection}{General Firefly's Double Inside-Out Loop}{25}{section*.27}
+\contentsline {subsection}{Gilda's Feline Frenzium Furiatus}{25}{section*.28}
+\contentsline {subsection}{Henrietta's Threatful Bravura}{26}{section*.29}
+\contentsline {subsection}{Rainbow Dash's Sonic Rainboom}{26}{section*.30}
+\contentsline {subsection}{Spitfire's Icarian Sun Salutation}{27}{section*.31}
+\contentsline {subsection}{Surprise's Sneak Sweep}{27}{section*.32}
+\contentsline {chapter}{\numberline {3}Earth Pony Magic}{29}{chapter.3}
+\contentsline {section}{Adrenaline Rush [STR]}{29}{section*.33}
+\contentsline {section}{Cheer [CHA]}{30}{section*.34}
+\contentsline {section}{Comforting Words [CHA]}{30}{section*.35}
+\contentsline {section}{Crash this Barn [STR]}{31}{section*.36}
+\contentsline {section}{Earthly Warning [PER]}{31}{section*.37}
+\contentsline {section}{Enchanted Hooves [STR]}{32}{section*.38}
+\contentsline {section}{Enhance Plant [CHA]}{32}{section*.39}
+\contentsline {section}{Find Poison [PER]}{33}{section*.40}
+\contentsline {section}{Fortify [STR]}{33}{section*.41}
+\contentsline {section}{Healing Hooves [CHA]}{33}{section*.42}
+\contentsline {section}{Improve Obstacle [PER]}{34}{section*.43}
+\contentsline {section}{Inner Circle [CHA]}{34}{section*.44}
+\contentsline {section}{Mend [STR]}{35}{section*.45}
+\contentsline {section}{Overgrow [STR]}{35}{section*.46}
+\contentsline {section}{Plant Calling [CHA]}{36}{section*.47}
+\contentsline {section}{Protection of the Earth [STR]}{36}{section*.48}
+\contentsline {section}{Rooted [STR]}{36}{section*.49}
+\contentsline {section}{Scrutinizing Gaze [PER]}{36}{section*.50}
+\contentsline {section}{Seismic Sight [PER]}{37}{section*.51}
+\contentsline {section}{Smart Cookie's Invocation [PER]}{38}{section*.52}
+\contentsline {section}{Sound Mind [CHA]}{38}{section*.53}
+\contentsline {section}{Stone Shield [STR]}{38}{section*.54}
+\contentsline {section}{Threatening Gaze [PER]}{39}{section*.55}
+\contentsline {chapter}{\numberline {4}Unicorn Magic}{41}{chapter.4}
+\contentsline {section}{\#1 Assistant}{41}{section*.56}
+\contentsline {section}{Alarm [END]}{42}{section*.57}
+\contentsline {section}{Amplify [CHA]}{42}{section*.58}
+\contentsline {section}{Anesthetic [INT]}{43}{section*.59}
+\contentsline {section}{Arcane Blast [INT]}{43}{section*.60}
+\contentsline {section}{Arcane Mark}{44}{section*.61}
+\contentsline {section}{Bend Surface [INT]}{45}{section*.62}
+\contentsline {section}{Blood Weapons [END]}{45}{section*.63}
+\contentsline {section}{Bonds Of Friendship}{46}{section*.64}
+\contentsline {section}{Bone Mending [INT]}{46}{section*.65}
+\contentsline {section}{Bypass [CHA]}{47}{section*.66}
+\contentsline {section}{Call Object [INT]}{47}{section*.67}
+\contentsline {section}{Calm Mind [INT]}{48}{section*.68}
+\contentsline {section}{Clean [INT]}{48}{section*.69}
+\contentsline {section}{Cloak of Elements [END]}{49}{section*.70}
+\contentsline {section}{Combat Pre-cognition [PER]}{49}{section*.71}
+\contentsline {section}{Come to Life [END]}{50}{section*.72}
+\contentsline {section}{Compulsion [CHA]}{51}{section*.73}
+\contentsline {section}{Detection [PER]}{51}{section*.74}
+\contentsline {section}{Devouring Darkness [END]}{52}{section*.75}
+\contentsline {section}{Discord [CHA]}{52}{section*.76}
+\contentsline {section}{Eldritch Knives [INT]}{53}{section*.77}
+\contentsline {section}{Enhancement [INT]}{53}{section*.78}
+\contentsline {section}{Equestria's Love [END]}{54}{section*.79}
+\contentsline {section}{Failsafe [END]}{54}{section*.80}
+\contentsline {section}{Fear [END]}{55}{section*.81}
+\contentsline {section}{Friendly Critter's Help [END]}{55}{section*.82}
+\contentsline {section}{Growth [END]}{56}{section*.83}
+\contentsline {section}{Heart Attack [END]}{56}{section*.84}
+\contentsline {section}{Invisibility [CHA]}{57}{section*.85}
+\contentsline {section}{Life Surge [END]}{57}{section*.86}
+\contentsline {section}{Light}{58}{section*.87}
+\contentsline {section}{Mage's Bulwark}{58}{section*.88}
+\contentsline {section}{Magic Mirror [PER]}{59}{section*.89}
+\contentsline {section}{Magic Trance [CHA]}{59}{section*.90}
+\contentsline {section}{Magical Fireworks [CHA]}{60}{section*.91}
+\contentsline {section}{Memory Manipulation [PER]}{60}{section*.92}
+\contentsline {section}{Mental Bulwark [END]}{61}{section*.93}
+\contentsline {section}{Mind Probe [PER]}{61}{section*.94}
+\contentsline {section}{Mirage [CHA]}{62}{section*.95}
+\contentsline {section}{Panacea [INT]}{62}{section*.96}
+\contentsline {section}{Petrify [END]}{63}{section*.97}
+\contentsline {section}{Phantasmagoria [CHA]}{63}{section*.98}
+\contentsline {section}{Phase [END]}{64}{section*.99}
+\contentsline {section}{Pocket Sand [INT]}{64}{section*.100}
+\contentsline {section}{Power of Friendship}{65}{section*.101}
+\contentsline {section}{Rad-Guard [END]}{65}{section*.102}
+\contentsline {section}{Regeneration [INT]}{66}{section*.103}
+\contentsline {section}{Remake [END]}{66}{section*.104}
+\contentsline {section}{Resilience [CHA]}{67}{section*.105}
+\contentsline {section}{Restoration [INT]}{67}{section*.106}
+\contentsline {section}{Shadow Form [END]}{68}{section*.107}
+\contentsline {section}{Shape Magic [END]}{68}{section*.108}
+\contentsline {section}{Shield [INT]}{69}{section*.109}
+\contentsline {section}{Silver Shroud [CHA]}{69}{section*.110}
+\contentsline {section}{Simulacrum [CHA]}{70}{section*.111}
+\contentsline {section}{Soft Light [CHA]}{70}{section*.112}
+\contentsline {section}{Soul Jar [END]}{71}{section*.113}
+\contentsline {section}{Spy Connections [PER]}{71}{section*.114}
+\contentsline {section}{Standstill [CHA]}{72}{section*.115}
+\contentsline {section}{Steady Walk [END]}{72}{section*.116}
+\contentsline {section}{Storm Cloud [INT]}{73}{section*.117}
+\contentsline {section}{Target [CHA]}{73}{section*.118}
+\contentsline {section}{Telekinesis}{74}{section*.119}
+\contentsline {section}{Telepathy [PER]}{75}{section*.122}
+\contentsline {section}{Teleport}{76}{section*.123}
+\contentsline {section}{Thrown Voice [CHA]}{76}{section*.124}
+\contentsline {section}{Toughened Frame [END]}{77}{section*.125}
+\contentsline {section}{Transformation [END]}{77}{section*.126}
+\contentsline {section}{Vile Crystals [END]}{78}{section*.127}
+\contentsline {section}{Wall of Mist [INT]}{78}{section*.128}
+\contentsline {section}{Want it, Need it [CHA]}{79}{section*.129}
+\contentsline {chapter}{\numberline {5}Zebra Magic}{81}{chapter.5}
+\contentsline {section}{Alchemy Recipes}{81}{section*.130}
+\contentsline {subsection}{All-Nighter}{81}{section*.131}
+\contentsline {subsection}{Antivenom}{81}{section*.132}
+\contentsline {subsection}{Assassin Powder}{82}{section*.133}
+\contentsline {subsection}{Balefire Potion}{82}{section*.134}
+\contentsline {subsection}{Beat-No-More}{83}{section*.135}
+\contentsline {subsection}{Bitter Drink}{83}{section*.136}
+\contentsline {subsection}{Blood-stopping Goo}{83}{section*.137}
+\contentsline {subsection}{Bone-Strengthening Brew}{83}{section*.138}
+\contentsline {subsection}{Bounce}{84}{section*.139}
+\contentsline {subsection}{Breath of the Phoenix}{84}{section*.140}
+\contentsline {subsection}{Bug-bane Oil}{84}{section*.141}
+\contentsline {subsection}{Cloudwalk Talisman}{85}{section*.142}
+\contentsline {subsection}{Fixer-Upper}{85}{section*.143}
+\contentsline {subsection}{Flesh Talisman}{86}{section*.144}
+\contentsline {subsection}{Flight Talisman}{86}{section*.145}
+\contentsline {subsection}{Greater Healing Potion}{86}{section*.146}
+\contentsline {subsection}{Healing Potion}{87}{section*.147}
+\contentsline {subsection}{Healing Powder}{87}{section*.148}
+\contentsline {subsection}{Infused Bandages}{87}{section*.149}
+\contentsline {subsection}{Itching Oil}{87}{section*.150}
+\contentsline {subsection}{Killing Joke Remedy}{88}{section*.151}
+\contentsline {subsection}{Kiss Of the Phoenix}{88}{section*.152}
+\contentsline {subsection}{Major Flame Bane Potion}{88}{section*.153}
+\contentsline {subsection}{Major Grounding Potion}{88}{section*.154}
+\contentsline {subsection}{Major Warming Potion}{89}{section*.155}
+\contentsline {subsection}{Mask Talisman}{89}{section*.156}
+\contentsline {subsection}{Mindflay Potion}{90}{section*.157}
+\contentsline {subsection}{Minor Flame Bane Potion}{90}{section*.158}
+\contentsline {subsection}{Minor Grounding Potion}{90}{section*.159}
+\contentsline {subsection}{Minor Restoration Potion}{90}{section*.160}
+\contentsline {subsection}{Minor Warming Potion}{91}{section*.161}
+\contentsline {subsection}{Plant-bane Oil}{91}{section*.162}
+\contentsline {subsection}{Poisonous Oil}{91}{section*.163}
+\contentsline {subsection}{Potent Antivenom}{92}{section*.164}
+\contentsline {subsection}{Potion of Weathering}{92}{section*.165}
+\contentsline {subsection}{Quickhoof Potion}{92}{section*.166}
+\contentsline {subsection}{Rad-Gone}{92}{section*.167}
+\contentsline {subsection}{Rad-Less}{93}{section*.168}
+\contentsline {subsection}{Sleeping Powder}{93}{section*.169}
+\contentsline {subsection}{Smoke Bombs}{93}{section*.170}
+\contentsline {subsection}{Spirit Renewal Potion}{93}{section*.171}
+\contentsline {subsection}{Superior Smoke Bomb}{94}{section*.172}
+\contentsline {subsection}{Thinner Oil}{94}{section*.173}
+\contentsline {subsection}{Vitality Booster}{94}{section*.174}
+\contentsline {subsection}{Wall Crawling Paste}{94}{section*.175}
+\contentsline {subsection}{World-Weathering Potion}{95}{section*.176}
+\contentsline {section}{Spirit Magic}{96}{section*.177}
+\contentsline {subsection}{Spirits}{96}{section*.178}
+\contentsline {subsection}{Spells}{97}{section*.187}
+\contentsline {subsubsection}{Astral Copy [PER]}{97}{section*.188}
+\contentsline {subsubsection}{Bane [INT]}{97}{section*.189}
+\contentsline {subsubsection}{Banshee Wail [CHA]}{98}{section*.190}
+\contentsline {subsubsection}{Blink [CHA]}{98}{section*.191}
+\contentsline {subsubsection}{Blood Weapons [INT]}{98}{section*.192}
+\contentsline {subsubsection}{Burning Blood [AGI]}{98}{section*.193}
+\contentsline {subsubsection}{Burning Passion [AGI]}{99}{section*.194}
+\contentsline {subsubsection}{Cleanse)}{99}{section*.195}
+\contentsline {subsubsection}{Comforting Words [CHA]}{99}{section*.196}
+\contentsline {subsubsection}{Comforting Words [PER]}{100}{section*.197}
+\contentsline {subsubsection}{Devouring Darkness [INT]}{100}{section*.198}
+\contentsline {subsubsection}{Discord [CHA]}{100}{section*.199}
+\contentsline {subsubsection}{Dispel Magic [INT]}{101}{section*.200}
+\contentsline {subsubsection}{Doomtouch [INT]}{101}{section*.201}
+\contentsline {subsubsection}{Dreadful Charm [INT])}{101}{section*.202}
+\contentsline {subsubsection}{Eldritch Knives [CHA]}{102}{section*.203}
+\contentsline {subsubsection}{Engineer's Inspiration [INT]}{102}{section*.204}
+\contentsline {subsubsection}{Enhancement [CHA]}{102}{section*.205}
+\contentsline {subsubsection}{Fire Wheel [AGI])}{103}{section*.206}
+\contentsline {subsubsection}{Fireball [AGI])}{103}{section*.207}
+\contentsline {subsubsection}{Friendly Critter's Help [END]}{103}{section*.208}
+\contentsline {subsubsection}{Golden Glow [AGI])}{104}{section*.209}
+\contentsline {subsubsection}{Guiding Light [AGI])}{104}{section*.210}
+\contentsline {subsubsection}{Healing Surge [END]}{104}{section*.211}
+\contentsline {subsubsection}{Hypnosis [CHA])}{105}{section*.212}
+\contentsline {subsubsection}{Ice Pillar [END]}{105}{section*.213}
+\contentsline {subsubsection}{Ignite [AGI]}{105}{section*.214}
+\contentsline {subsubsection}{Inner Fire [AGI])}{105}{section*.215}
+\contentsline {subsubsection}{Invisibility [CHA]}{106}{section*.216}
+\contentsline {subsubsection}{Life Surge [INT]}{106}{section*.217}
+\contentsline {subsubsection}{Lightning Strike [END]}{106}{section*.218}
+\contentsline {subsubsection}{Magical Fireworks [PER]}{106}{section*.219}
+\contentsline {subsubsection}{Metal Barrier [INT]}{107}{section*.220}
+\contentsline {subsubsection}{Natural Protection [END]}{107}{section*.221}
+\contentsline {subsubsection}{Night Vision [PER]}{107}{section*.222}
+\contentsline {subsubsection}{Organize [INT]}{108}{section*.223}
+\contentsline {subsubsection}{Petrify [END]}{108}{section*.224}
+\contentsline {subsubsection}{Phantom Lantern)}{108}{section*.225}
+\contentsline {subsubsection}{Phase [CHA]}{108}{section*.226}
+\contentsline {subsubsection}{Phoenix Touch [AGI])}{109}{section*.227}
+\contentsline {subsubsection}{Pocket Sand [END]}{109}{section*.228}
+\contentsline {subsubsection}{Power of Friendship}{109}{section*.229}
+\contentsline {subsubsection}{Prismatic Coat [PER])}{110}{section*.230}
+\contentsline {subsubsection}{Prismatic Strike [PER])}{110}{section*.231}
+\contentsline {subsubsection}{Purification [END]}{110}{section*.232}
+\contentsline {subsubsection}{Razzle Dazzle [PER])}{110}{section*.233}
+\contentsline {subsubsection}{Reminiscence [CHA]}{111}{section*.234}
+\contentsline {subsubsection}{Restoration [END]}{111}{section*.235}
+\contentsline {section}{Sabotage [INT])}{111}{section*.236}
+\contentsline {section}{Shadowform [INT]}{112}{section*.237}
+\contentsline {subsubsection}{Shadowsight [INT])}{112}{section*.238}
+\contentsline {subsubsection}{Shield [CHA]}{112}{section*.239}
+\contentsline {subsubsection}{Shivers [END]}{113}{section*.240}
+\contentsline {subsubsection}{Shrapnel Shot [INT]}{113}{section*.241}
+\contentsline {subsubsection}{Silver Shroud [CHA]}{113}{section*.242}
+\contentsline {subsubsection}{Soothing Spectre}{114}{section*.243}
+\contentsline {subsubsection}{Spirit Spear)}{114}{section*.244}
+\contentsline {subsubsection}{Spy Connections [CHA]}{114}{section*.245}
+\contentsline {subsubsection}{Steady Walk [END]}{115}{section*.246}
+\contentsline {subsubsection}{Storm Cloud [END]}{115}{section*.247}
+\contentsline {subsubsection}{Target [INT]}{115}{section*.248}
+\contentsline {subsubsection}{Telepathy}{116}{section*.249}
+\contentsline {subsubsection}{Terror [CHA]}{116}{section*.250}
+\contentsline {subsubsection}{Toxic Friend [CHA]}{116}{section*.251}
+\contentsline {subsubsection}{Trap Defense [INT]}{116}{section*.252}
+\contentsline {subsubsection}{Venom [END]}{117}{section*.253}
+\contentsline {subsubsection}{Wall of Mist}{117}{section*.254}
+\contentsline {subsubsection}{Water Breathing [END]}{118}{section*.255}
+\contentsline {subsubsection}{Waterjet [END]}{118}{section*.256}
+\contentsline {subsubsection}{Wind Shield [END]}{118}{section*.257}
+\contentsline {section}{Windigo's Favor [PER])}{118}{section*.258}

@@ -1605,6 +1605,8 @@
 	\subsubsection*{Melee weapons}
 	When one wants to keep the enemy a little distance away, but still close enough to see the fear form in their expression. Melee weapons have Special attacks one can execute, mentioned in their specific weapons. A character's STR value affects the damage output of all Melee weapons, as shown in Table 3.1.
 	
+	Some weapons have a listed Cripple chance - this means with every successful hit, there's a chance to cripple a random limb on the target, even without using Called Shot -action.
+	
 		% Table for Melee Weapons subsubsection
 	\begin{table}[h]
 		\centering
@@ -4204,146 +4206,170 @@
 	
 	\subsection*{Shamanism}
 	\addcontentsline{toc}{subsection}{Shamanism}
-	A shaman is a powerful magic wielder that relies on spirits for results. Spirit magic takes form as either enchantments on items or through direct magic (much like spells). These can be achieved by either bartering with spirits or by binding spirits. Zebras are the masters of shamanism, although not nearly all zebras are capable of this kind of magic.
+	Shamanism is the age-old art of the Zebra, a skill that not all of them have; an art of contacting spirits of the world around you, and utilizing their force to further your goals. So long as you stay on the good side of the ethereal patron.
 	
-	\subsubsection*{Spirit Affinity}
-	Shamans possess a unique secondary stat called \textbf{Spirit Affinity}, which is somewhat similar to unicorns' Potency. It indicates how powerful spirits the shaman can summon, barter with and bind. Spirit Affinity can use either CHA, INT or LCK as its linked stat.
+	Spirit contact comes in two forms, \textbf{Pact} and \textbf{Possession}. Pact spirits forge a long-lasting contract with the shaman, while Possession is a more temporary invitation for a spirit to inhabit the shaman's body. Both forms grant the shaman powers they do not usually have. 
 	
-	The exact use of Spirit Affinity varies depending on which kind of spiritual interaction takes place, and sometimes it even varies depending on the type of spirit in question. These are explained in the appropriate sections.
+	Pact spirits tend to be undying concepts than tangible creatures: spirits of nature, light, friendship and so on, concepts that exist with or without equine existence. 
+	Possession spirits are more often than not either less powerful, lesser spirits similar to Pact Spirits, or the spirits of the dead that linger in places.
 	
-	\subsubsection*{Spirit Power}
-	Different spirits have different strengths. \textbf{Spirit Power} indicates the power of the spirit, as well as the power of magic it uses. The more powerful the spirit is, the harder it is to summon, barter with or bind. However, the stronger the spirit is the greater the spirit magic effects are.
+	Besides Spirits, which are the brunt of shaman's powers, they have a small selection of spells, built from the spiritual aether that is around all living and dead things. 
 	
-	Spirit Power rating is a number between 1 and 12. The exact effect of Spirit Power varies and are explained in future sections or in the details of each individual spirit.
+	\subsubsection*{Pact Spirits}
+	Pact spirits are forces of the world made manifest and their visage, when they will themselves visible to naked eye or when in the presence of a Shaman, is grand and often awe-inspiring, compared to the lesser spirits under their specific domains.
+	Pact spirits lend their power to a shaman, often with the intention to further their own causes and agendas. They often have ideals that they prefer to maintain, and expect the same from the shaman they're lending their power to. Going crossly against these ideals can lead to a violent removal of the Spirit's power from the shaman. Shaman can also end the contract willingly, in which the powers that they got from the spirit, fade away.
 	
-	\subsubsection*{Interacting with Spirits}
-	Shaman knows the world of spirits, and the spirits know and hear the shaman's call. At the beginning of the summoning ritual, the shaman chooses her end goal - will she try to imprison the spirit in a \textbf{Spirit Prison} or strike a deal with the spirit and store its power in a \textbf{Rune}.
+	\bigskip\noindent
+	\textbf{\emph{Forging a Contract}}
 	
-	\begin{table*}[!t]
-		\centering
-		\caption{Spirit Summoning chart}
-		\label{Table:8.2}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|l|l|l|l|l|}
-			\hline
-			\begin{tabular}{@{}l@{}}\textbf{Spirit} \\\textbf{Power}\end{tabular} & \begin{tabular}{@{}l@{}}\textbf{Min. Spirit} \\ \textbf{Affinity} \end{tabular} & \begin{tabular}{@{}l@{}}\textbf{Bind} \\ \textbf{Resistance}\end{tabular} & \textbf{Barter} & \begin{tabular}{@{}l@{}}\textbf{Hostility} \\ \textbf{Chance} \end{tabular} & \textbf{HP} \\ \hline
-			1            & 2                    & 5               & 20     & 2\%              & 4  \\
-			2            & 4                    & 10              & 25     & 4\%              & 6  \\
-			3            & 6                    & 15              & 30     & 6\%              & 8  \\
-			4            & 8                    & 20              & 35     & 8\%              & 10 \\
-			5            & 10                   & 25              & 40     & 10\%             & 12 \\
-			6            & 12                   & 30              & 45     & 12\%             & 14 \\
-			7            & 14                   & 35              & 50     & 14\%             & 16 \\
-			8            & 16                   & 40              & 55     & 16\%             & 18 \\
-			9            & 18                   & 45              & 60     & 18\%             & 20 \\
-			10           & 20                   & 50              & 65     & 20\%             & 22 \\ 
-			11           & 22                   & 60              & 75     & 30\%             & 24 \\ 
-			12           & 24                   & 70              & 85     & 40\%             & 26 \\ \hline
-		\end{tabular} 
-		
-	\end{table*}
+	\noindent
+	In order to forge a contract, a shaman has to craft a rune as a seal to the contract. Thaumaturgy or Barter is required for the crafting of the rune, and the requirement of the rune should be an item that can be inscribed upon. 
+	The shaman can only have one contract and thus only one rune active at any given time, though possession spirits -even those of opposite concepts- rarely offend Pact Spirits. 
+	On a successful roll, a rune is created to suit the spirit they are trying to summon. A failed roll means that the crafting process just takes a bit more time than usual, but does not stop the Shaman from trying again. \emph{Push the Limit} is also applicable to these rolls. 
+	
+	After the rune has been created, the shaman can summon the spirit they wish to contact with either a Thaumaturgy or Barter roll. On a failed roll, there is a 25\% chance that a rogue Spirit of Chaos appears instead. On a critical failure, the chance of this is doubled. If a Spirit of Chaos does not appear, the originally intended spirit will, but with a bad temper. This requires the Shaman to take action to calm the spirit down through bribery or lavish gifts, such as a bit of their strain or a temporary debuff.
+	
+	Spirits of Chaos do not necessarily spell doom to the Shaman that accidentally or purposefully summoned them, but they tend to be a random element to a carefully planned summoning and their boons reflect that. Their lent power is more often than not random and without much rhyme or reason, and their ethos is fickle and undefined. The largest threat to a Shaman is that the Spirits of Chaos grow bored quickly, and leave pacts when it suits them, often without the Shaman's input. Chaos is a difficult creature for any Shaman to bridle for a long time.
+	
+	\bigskip\noindent
+	\textbf{\emph{Spirit Powers}}
+	
+	\noindent
+	Spirits grant the Shaman a set of powers fitting their domain; a myriad of spells and other boons to aid the Shaman for the duration of the pact. Spirits of Chaos tend to pick and choose, often ill-fit together, abilities for their Shaman from other Spirits' domain, or even from creatures that inhabit the world.
+	
+	Pact Spirits' powers cost both AP and Strain to use, much like spells do, and utilize the Shaman's Thaumaturgy-skill for casting.
+	The spirit's power grows alongside the Shaman, and this is one incentive that the Spirits have to forge contracts with Shamans. Spirits that have had their journey with the shaman bolster them, are often a bit more willing to re-enter a pact, even ones that ended on a sour note.
+	
+	Much like how other races have \textbf{Potency}, so do shamans. Shaman Potency works like those of ponies: the shaman's level is added to an associated value of their SPECIAL that links with the Spirit's. For example, a Spirit of Machines has Intelligence (INT) as their Potency's SPECIAL, and thus the shaman will use their INT to determine any Machine spell Potency.
+	
+	When a spirit and shaman's contract ends, the shaman's powers given by the spirit fade away after their next rest, or after 24 hours.
+	
+	\subsubsection*{Possession Spirits}
+	Possession Spirits are lesser spirits or spirits of the dead that linger unseen in the Equestrian Wasteland. They lack some of the power Pact Spirits do, and cannot forge contracts. However, they can step into the mind of a Shaman to grant their own set of boons often tied to the spirit as individuals; Aspects of themselves manifest from the Shaman through magic, and they can often impart the shaman with knowledge that the Shaman does not normally have.
+	
+	The spirits around the Shaman can and often do vary depending on the location they are in. An urban area is more likely to house in it spirits of machinery, diamond and ghosts, while spirits of nature are often absent.
+	
+	Possession spirits do not linger around long, as they do not have the power to do so, and they will quickly leave their host; regularly, Possession spirits latch onto the Shaman for \textbf{5 turns in combat}, and \textbf{outside of combat for a maximum of 10 minutes}.
+	
+	The spirit can give bonuses to skills, give magical abilities that they have or had as individuals; a spirit of a dead Talon merc could give a bonus to Firearms or MEWs, and give the Shaman a magical claw attack for the duration of their possession. On average, Possession Spirits give a bonus to 2 skills and to 1 SPECIAL or a Racial Ability if it is at all feasible. Flight cannot be simulated by Shamans even if the spirit possessing them could fly, though the Shaman's jump movement actions would gain a bonus that resembles a low-altitude flight. 
+	Due to Possession spirits being more individualistic than Pact Spirits, possessions are often outside of Shaman's direct control. Whichever spirit around gets to them first, gets in.
+	
+	When a Shaman wants to invite a possession to happen, they need to make a Thaumaturgy-roll. The result of the roll affects how easy it is for the Shaman to keep control of their body. 
+	Success means that while they are possessed, they are actively making choices and the spirit is only giving them backseat advice.
+	A failed roll means that the spirit and the shaman do not see eye to eye in their goals, and attempt to mentally wrestle for direction, giving the shaman a Dazed Status Effect. A critical failure means that the mental tug of war between shaman and spirit is more severe, giving the shaman an Enraged Status Effect.
+	However, failing this roll does not negate any boons given by the spirit, and no matter the state of the spirit, the Shaman's body will eject them after the above mentioned time limit.
+	
+	The shaman can converse with the spirit during the possession, especially in times where the threat of combat does not loom over them. Sometimes possession spirits can give valuable info, but much like mortal creatures, their information can be biased, partial, or outright be missing. Spirits can also be hesitant to part with their knowledge. Spirits of the dead in particular are fond of the shaman helping them move on, or deliver a word to creatures they held dear in life in exchange for what they know. 
+	Lesser Spirits that serve the Pact Spirits but lack the power to forge contracts themselves often wish for items of power to elevate themselves closer to that coveted Pact Spirit status. Items of power are most often items of sentimental value, or other spiritually charged object. However, sometimes the spirit is just content to have some creature to talk to, even for a fleeting moment.
+	
+	\subsubsection*{Shaman Incantations}
+	Besides the spells offered by the Pact Spirit, the shaman has a small collection of spells as result of their training with the spiritual energies around them. The shaman can pick 4 spells for them to use out of a selection of spells, and can choose which SPECIAL stat to determine Potency.
+	However, unlike most creatures who learn spells of some sort, they cannot learn spells by level-up; shamans who wish to increase their collection of spells outside of what the Spirits offer, must do it through hard work and practice.
+	
+	\subsubsection*{Incantation \& Spirit List}
+	\begin{description}
+		\item \textbf{Incantations (pick one SPECIAL)}
+		\begin{compactitem}
+			\item Cleanse
+			\item Phantom Lantern
+			\item Soothing Spectre
+			\item Spirit Spear
+			\item Telepathy
+			\item Wall of Mist
+			\item Windigo's Favor
+		\end{compactitem}
+		\item \textbf{Spirit of Embers (AGI)}
+		\begin{compactitem}
+			\item Burning Passion
+			\item Burning Blood
+			\item Fire Wheel
+			\item Fireball
+			\item Golden Glow
+			\item Ignite
+			\item Inner Fire
+			\item Phoenix Touch
+		\end{compactitem}
+		\item \textbf{Spirit of Machines (INT)}
+		\begin{compactitem}
+			\item Dispel Magic
+			\item Engineer's Inspiration
+			\item Metal Barrier
+			\item Organize
+			\item Sabotage
+			\item Shrapnel Shot
+			\item Target
+			\item Trap Defense
+		\end{compactitem}
+		\item \textbf{Spirit of Nature (END)}
+		\begin{compactitem}
+			\item Friendly Critter's Help
+			\item Healing Surge
+			\item Lightning Strike
+			\item Natural Protection
+			\item Petrify
+			\item Pocket Sand
+			\item Purification
+			\item Venom
+		\end{compactitem}
+		\item \textbf{Spirit of Serenity (PER)}
+		\begin{compactitem}
+			\item Astral Copy
+			\item Devotion
+			\item Guiding Light
+			\item Magical Fireworks
+			\item Night Vision
+			\item Prismatic Coat
+			\item Prismatic Strike
+			\item Razzle Dazzle
+		\end{compactitem}
+		\item \textbf{Spirit of Shadows (INT)}
+		\begin{compactitem}
+			\item Bane
+			\item Blood Weapons
+			\item Devouring Darkness
+			\item Doomtouch
+			\item Dreadful Charm		
+			\item Life Surge
+			\item Shadowform
+			\item Shadowsight
+		\end{compactitem}
+		\item \textbf{Spirit of Streams (END)}
+		\begin{compactitem}
+			\item Ice Pillar
+			\item Restoration
+			\item Shivers
+			\item Steady Walk
+			\item Storm Cloud
+			\item Water Breathing
+			\item Waterjet
+			\item Wind Shield
+		\end{compactitem}
+		\item \textbf{Spirit of Trust (CHA)}
+		\begin{compactitem}
+			\item Blink
+			\item Comforting Words
+			\item Eldritch Knives
+			\item Enhancement
+			\item Power of Friendship
+			\item Reminiscence
+			\item Shield
+			\item Spy Connections
+		\end{compactitem}
+		\item \textbf{Spirit of Whispers (CHA)}
+		\begin{compactitem}
+			\item Banshee Wail
+			\item Discord
+			\item Hypnosis
+			\item Invisibility
+			\item Phase
+			\item Silver Shroud
+			\item Terror
+			\item Toxic Friend
+		\end{compactitem}
+	\end{description}
+	
+	
 
-	\begin{figure*}[t]
-		\centering
-		\includegraphics[width=0.8\linewidth]{"ART/Chapter 8_shamanism"}
-	\end{figure*}	
-	
-	Summoning spirits requires a great deal of focusing and effort. This means that should a shaman try to summon a spirit in combat, she has to invest AP to Use Skill action, with any combat penalties that apply with it. She can summon spirits in other kinds of tough situations too, although she receives a penalty to her summoning roll depending on the level of distraction.
-	
-	Prisons and Runes can be used to deliver the spirit's magic in form of a spell, or as enchantments on items. The exact effects of each spirit are explained in \emph{\textbf{Magic Codex}}, under Zebra Magic - Spirit Magic.
-	
-	Table 8.2 indicates the required Spirit Affinity for the summoning process, as well as the spirit's power, Barter and Hostility chance.
-	
-	\vfill
-	
-	\bigskip\noindent
-	\textbf{Spirit Binding in a Prison}
-	
-	Binding a spirit means the shaman forcefully subjugates the spirit into a \textbf{Spirit Prison}. This allows the shaman to use spiritual magic without bartering with the spirit. In addition, the shaman doesn't have to spend the effort of summoning the spirit when she needs the magic.
-	
-	Spirit Prisons are vessels capable of containing a spirit, keeping them locked in. Spirit Prisons are simple one-use containers, such as gems or flasks, which can be crafted using \textbf{Thaumaturgy} skill.
-	
-	Crafting Spirit Prisons isn't particularly hard. One must simply obtain a suitable base for the item (for example, a vial or a gem worth at least 100 caps), and then spend 10 minutes crafting the container and rolling for her Thaumaturgy skill.
-	
-	The result of the roll determines the strength of the container: for every 5 points under the skill threshold, the container can hold 1 point of Spirit Power. A critical success on the roll results the created Spirit Prison to be able to hold any spirit regardless of Spirit Power.
-	
-	To capture a spirit, one must succeed in a Thaumaturgy roll, with a penalty equal to the spirit's Bind Resistance value. If the shaman succeeds, the spirit is helplessly captured within the container. If not, the process fails and the spirit may turn hostile as per its Hostility. If it doesn't attack the shaman, it flees but remembers the attempt, possibly returning later for revenge.
-	
-	The maximum number of active Spirit Prisons a shaman can have at any time is equal to half of her Spirit Affinity. If a spirit is bound and the shaman already has the maximum number of active Spirit Prisons, the spirit in the oldest prison will break free. If the Spirit Prison is damaged and/or broken, the spirit may escape, remove enchantments it has granted, and even attack the shaman. Only one spirit may be contained in a vessel at any time.
-	
-	\begin{verse}
-		\emph{\textbf{Example:} Maabara crafts a Spirit Prison using a crystal vial worth 100 caps. Her Thaumaturgy skill is 40 and she makes a successful roll. The result is 25, a total of 15 under her skill value. This means that the maximum Spirit Power the vessel can contain is 3 (15 / 5 = 3).}
-	\end{verse}
-	
-	\bigskip\noindent
-	\textbf{Spiritual Favors with Runes}
-	
-	The shaman can negotiate with the spirit about granting the shaman a favor or two, as opposed to the more violent and forceful act of using a Spirit Prison. The shaman must possess something worth value to the spirit, as it wouldn't be bargaining if she didn't have anything to give in return.
-	
-	The magic of spirits is stored within a \textbf{Rune}, a spiritual item that allows the spirit magic to interact with the material world. Runes can be crafted by shaman using gems or other items that spirits would value. Usually they bear the symbol of the spirit which power it holds. Empty Runes can be created by shamans and can hold the magic of one spirit at a time. The creation takes 10 minutes without any roll required, but costs 10 \textbf{Strain} from the shaman.
-	
-	Upon summoning the spirit peacefully, the shaman offers her deal to the spirit. The bargaining is an opposed roll, where the shaman rolls their Barter skill against spirit's Barter. The spirit may offer a favor worth its Spirit Power, but the shaman may ask for less. For every 1 Spirit Power less the shaman asks for, she gains a bonus of 5 to her Barter roll (maximum bonus of 30).
-	
-	Spirits value emotional value and effort more than material value. This means that the spiritual gifts are not necessarily expensive items. Nonetheless, these are used as a form of currency. The gift may provide a bonus or a penalty to the shaman's Barter roll. This is determined by the GM.
-	
-	If the bartering is successful, the spirit lends some of its power to shaman. If the bartering result is a tie, the spirit wins, and flees contently without providing any power. If the shaman critically fails her Barter roll, the spirit becomes hostile and attacks the shaman.
-	
-	The maximum number of active Runes (as enchantments or spell reserves) is equal to half of shaman's Spirit Affinity.
-	
-	\subsubsection*{Spirit Combat}
-	Sometimes the spirit turns hostile. This may be the result of an unskilled shaman summoning it or failing miserably in bartering, or the spirit is simply unfriendly to begin with. Whatever the case, an unfriendly or annoyed spirit may attack the shaman and her friends. When a Spirit turns hostile, they also become more tangible in order to cause damage to the subject of their ire.
-	
-	Due to them becoming tangible, Spirits take damage from weapons as would any mortal creature. When attacking, Spirits roll their Barter to confirm a hit. In addition to having their spells, as listed in the Magic Codex, Spirits can strike with a basic attack which deals damage with the following formula:
-	
-	\begin{center}
-		$2+[Spirit \, \, Power * d6]$
-	\end{center}
-	
-	The basic attack uses 5 AP. Unless otherwise specified, the basic attack is a melee attack and must be done into adjacent hex. In addition, spirits can have additional effects in their Basic attack, based on what kind of a spirit they are; Fire spirits' Basic attack is purely fire-damage, and can cause a Burning- status effect.
-	
-	Spirits have 20 AP at their disposal.
-	
-	Once their HP reaches 0, the spirit is stunned for 5 rounds. During this time the spirit is vulnerable to being captured or pacified. \textbf{The shaman can at this point either imprison the spirit in a Prison with a Thaumaturgy roll without penalties, or strike a deal with the spirit with a bonus of 30 to her Barter.} If neither option is made, the spirit vanishes after breaking the stun. Usually spirits that are bound or bartered with this way are not pleased with this and may return later for revenge.
-	
-	\bigskip\noindent
-	\textbf{Pacifying a Spirit}
-	
-	If the shaman encounters a hostile spirit and a spirit combat begins, there is an option to soothe the spirit and end the combat peacefully.
-	
-	Shaman may spend 10 AP to try and negotiate with the spirit, making a Diplomacy check with a penalty equal to the spirit's Bind Resistance. If the shaman succeeds, the spirit calms down and becomes receptive to further bargaining. Upon failure, the spirit stays hostile.
-	
-	Shamans and characters with \textbf{Spiritually Awakened} trait can pacify a spirit, for the simple fact that only they truly understand the Spirit. One character can try to pacify a spirit only once per combat.
-	
-	\subsubsection*{Enchantments and Spells}
-	After shaman has managed to either bind or successfully bargain with the spirit, she can use the spirit's magic. This can take shape in two different ways: \textbf{enchantments} and \textbf{spells}. If the spirit is bound within a Spirit Prison, there is no limit what the shaman may do. However, bargains may limit shaman's possible actions when she uses Runes.
-	
-	\bigskip\noindent
-	\textbf{Enchantments}
-	
-	Enchantments are permanent (or semi-permanent) magical effects that enhance items. Usually they are used with armor and weapons, but occasionally with other items. Each Spirit Prison or Rune may grant only one enchantment, using the maximum Spirit Power. Once created, enchantments cannot be removed from the item using other than magic.
-	
-	Different spirits grant different enchantments. All enchantments are listed in \emph{\textbf{Magic Codex}}, under Zebra Magic - Spirit Magic.
-	
-	Enchanting an item is simple. One only needs a source of spirit magic and a target item. She must then spend 1 minute per Spirit Power to enchant the item. She must work undisturbed the whole duration. The Spirit Prison or Rune becomes an integral part of the item and grants its magical properties to the item - it cannot be used for spells after that.
-	
-	Permanent enchantments are always on effect. These include damage enchantments for weapons and damage resistance enchantments for armor.
-	
-	Semi-permanent enchantments work much like permanent enchantments but have limited number of uses. For example, armor may save the wearer from death once per day and up to 10 times. Once these kinds of enchantments have spent all of their uses, the enchantment disappears and must be reapplied.
-	
-	\textbf{When using a Spirit Prison}, the enchantment cannot be broken by the spirit. However, if the enchanted item takes damage directly, or is targeted by a dispelling effect such as Failsafe, the Spirit Prison may break (shaman rolls LCK). The enchantment immediately vanishes if the Prison breaks.
-	
-	\textbf{When using a Rune}, the enchantment works for as long as the shaman has the spirit's approval. If the spirit is displeased, it may break the bargain and the enchantment becomes obsolete. Shaman may regain the spirit's favor later, but until then the item in question is unenchanted.
-	
-	\bigskip\noindent
-	\textbf{Spells}
-	
-	Each spirit type can cast certain spells. Usually spirits can cast all of the listed spells, but sometimes (for example, as a result of a bargain) they choose to cast only one or two different spells, even if they could cast any of them. All spells are listed in \emph{\textbf{Magic Codex}}, under Zebra Magic - Spirit Magic.
-	
-	In effect, casting a spell using spirit magic is similar to unicorn magic. There is a key difference, though. Unicorns have Strain that limits their casting, while shamans do not. Instead, her Spirit Affinity determines the total number of spells she may cast from a Spirit Prison or Rune.
-	
-	\textbf{If the shaman uses a Spirit Prison}, she has no maximum number of spells she may cast with it, and can use \textbf{Thaumaturgy} skill for checks. Instead, if she casts more spells than her \emph{[Spirit Affinity]/3} per day with a Spirit Prison, there is a solid 25\% chance that the Spirit Prison breaks. If this happens, the imprisoned spirit escapes and may attack the shaman or simply flee. This limitation affects each Spirit Prison individually.
-	
-	\textbf{If the shaman uses a Rune}, she may cast a number of spells equal to her [Spirit Affinity]/2 using the particular Rune, and can use \textbf{Barter} skill for checks. After these spells the Rune loses its charge. During the bargaining she may ask for more spells than this, but for each additional spell the shaman suffers a penalty of 5 to her Bartering skill.
 	
 	
 	

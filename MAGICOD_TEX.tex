@@ -17,6 +17,8 @@
 \usepackage{pdfpages}
 \usepackage[hidelinks]{hyperref}
 
+\setcounter{tocdepth}{3}
+
 \hypersetup{
 	colorlinks,
 	citecolor=black,
@@ -81,7 +83,6 @@
 % Spell School - Section
 % Individual spell - subsection
 %
-% In shamanism, you can get creative ~Waak
 % Unnumbered sections (marked with *) are not added to TOC. Use the following to force a section to be added:
 % \addcontentsline{toc}{<chapter | section | subsection>}{<section title>}
 
@@ -4688,6 +4689,7 @@ If the object that has \textit{Want it, Need it} cast on it is destroyed, the sp
 \section*{Alchemy Recipes}
 \addcontentsline{toc}{section}{Alchemy Recipes}
 
+%TODO: Recreate entirely to the new Brews/Talisman/Artifact/Enchantment combo
 
 \subsection*{All-Nighter}
 \addcontentsline{toc}{subsection}{All-Nighter}
@@ -5976,242 +5978,321 @@ After drunk, this potion changes the character's DNA. It gives +10 to Poison and
 
 \section*{Spirit Magic}
 \addcontentsline{toc}{section}{Spirit Magic}
+\subsection*{Spirits}
+\addcontentsline{toc}{subsection}{Spirits}
 
-\subsection*{Spirit of Diamond}
-\addcontentsline{toc}{subsection}{Spirit of Diamond}
+\subsubsection*{Spirit of Embers}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
 	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
 		\hline
-		General Appearance		& A sparkling griffin-like creature with sharp features		\\
-		General Personality	   	& Calculating, pleasant, shallow, regal						\\
-		Values     				& Sparkling items, gems, neatness, greed					\\
-		Resents     			& Lack of maintenance, caps, dirt 							\\
-		Karma Standing      	& 0															\\
-		Damage Type 			& Physical, basic attack has reach of 2 m/1 hex	 			\\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
-\subsubsection*{Enchantments:}
-
-\begin{itemize}
-	\item \textbf{ [Armor] Damage Reflection enchantment:} 
-	Armor/Clothing has a [Spirit Power]*5\% chance to reflect magical energy damage (MEWs and some spells) back to the attacker.
-	
-	\item \textbf{ [Armor] Damage Resistance enchantment:} Armor/Clothing grants additional DT equal to the following:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +1 DT
-		\item Spirit Power 5-8 = +2 DT
-		\item Spirit Power $>$9 = +3 DT
-	\end{compactitem}
-	
-	\item \textbf{ [Weapon] Durability enchantment:} Weapon is practically indestructible for [Spirit Power] number of days. Cannot be used with explosives or mines.
-	
-	\item \textbf{ [Weapon] Penetration enchantment:} Weapon cuts through flesh and materials better. It deals additional damage according to the table below. Bladed melee and unarmed weapons only.
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +1 DMG
-		\item Spirit Power 5-8 = +2 DMG
-		\item Spirit Power $>$9 = +3 DMG
-	\end{compactitem}
-	
-	\item \textbf{ [Weapon] Piercing enchantment:} Weapon additionally ignores DT equal to the following:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +1 DT Negation
-		\item Spirit Power 5-8 = +2 DT Negation
-		\item Spirit Power $>$9 = +3 DT Negation
-	\end{compactitem}
-	
-\end{itemize}
-
-%\vfill
-\subsubsection*{Spells:}
-%\begin{verse}
-%  \textbf{Gem Barrier:} A large mineral cluster that acts as a Total Cover (-30 Attack penalty).
-%  \begin{itemize}
-%  \item 
-%  \end{itemize}
-
-%\end{verse}
-
-% Notice that the spells' table size is 70mm instead of 75 due to the table being slightly inward. ~Sour
-\noindent
-\textbf{Gem Barrier}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 8 					\\
-		Range     		& Huge Splash			\\
-		Target      	& -						\\
-		Area of Effect  & -  	 				\\
-		Duration     	& Spirit Power/2		\\ \hline
+		General Appearance  & Equine-dragon hybrid with flaming mane and molten skin \\
+		General Personality & Short-tempered, passionate, holds a grudge             \\
+		Values              & Revenge, strong emotions, explosions                   \\
+		Resents             & Cold, hidden emotions, tempered attitude               \\
+		Rival               & Spirit of Streams                                      \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-A large mineral cluster that acts as a Total Cover (-30 Attack penalty). The barrier's size is equal to [Spirit Power] number of 2x2x2 meter blocks, which can be assembled as desired within range, including separate from each other. 
-
-The Gem Barrier's DT is 3. The barrier disappears from the area after [Spirit Power]/2 number of turns.
-
-\bigskip
-\noindent
-\textbf{Shard Missile}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 					\\
-		Range     		& Spirit Power*8 meters	\\
-		Target      	& 1 Target				\\
-		Area of Effect  & -  	 				\\
-		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
-
-A sharp piece of crystal is shot through the air to harm a target. The shard missile deals 1+(2) damage, and ignores DT according to Spirit Power: 
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +1 DT Negation
-	\item Spirit Power 5-8 = +2 DT Negation
-	\item Spirit Power $>$9 = +3 DT Negation
-\end{compactitem}
-
-\vfill
-
-
-\subsection*{Spirit of Flame}
-\addcontentsline{toc}{subsection}{Spirit of Flame}
+\subsubsection*{Spirit of Machines}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
 	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
 		\hline
-		General Appearance		& Equine-dragon hybrid with flaming mane and molten skin		\\
-		General Personality	   	& Short-tempered, passionate, holds a grudge					\\
-		Values     				& Revenge, strong emotions, explosions							\\
-		Resents     			& Cold, hidden emotions, tempered attitude						\\
-		Karma Standing      	& -10															\\
-		Damage Type 			& Fire; basic attack deals fire dmg, can cause Burning	 		\\ \hline
+		General Appearance  & A pristine unearthly set of power armor                    \\
+		General Personality & Logical, analytical, calculative, introvert, materialistic \\
+		Values              & Order, mechanics, science, creativity                      \\
+		Resents             & Chaos, spontaneous acts, passion, obsessive use of magic   \\
+		Rival               & Spirit of Nature                                           \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-\subsubsection*{Enchantments:}
-
-\begin{itemize}
-	\item \textbf{ [Armor] Cold Resistance enchantment:} Armor/Clothing grants DT against cold equal to the following:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +2 DT
-		\item Spirit Power 5-8 = +3 DT
-		\item Spirit Power $>$9 = +4 DT
-	\end{compactitem}
-	
-	\item \textbf{ [Armor] Fire enchantment:} Armor/Clothing may inflict Burning to melee attackers who hit the wearer, for [Spirit Power] of attacks made against the wearer.
-	\item \textbf{ [Weapon] Flaming enchantment:} Weapon is considered to deal fire damage, and may inflict Burning -status effect on a successful hit. Against targets with Burning -status effect, the weapon gains additional [Spirit Power] damage dice.
-	
-	% REPLACED BY FLAMING
-	%\item \textbf{ [Weapon] Flaming enchantment:} Projectiles fired with this weapon explode on impact, dealing 20+[Spirit Power] damage to all in a Tiny Splash template.
-	
-	%In case of Full Auto weapons, the 20+[Spirit Power] damage is dealt in addition to each damage roll made. The initial target takes weapon damage + the additional 20+[Spirit Power] damage, and others within Tiny Splash template of the target take 20+[Spirit Power] damage only.
-	
-	%Ranged weapons only.
-\end{itemize}
-
-\vfill
-
-\subsubsection*{Spells:}
-
-
-\smallskip
-\noindent
-\textbf{Fireball}
-
-\smallskip
+\subsubsection*{Spirit of Nature}
+% Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
 		\hline
-		AP Cost	      	& 4 AP 					\\
-		Range     		& Spirit Power*4 meters	\\
-		Target      	& AoE           		\\
-		Area of Effect  & Small Splash Template  	 \\
-		Duration     	& 4 Rounds				\\ \hline
+		General Appearance  & Stag with horns decorated with leaves and flowers, followed by animals      \\
+		General Personality & Regal, detached, short-tempered, generous, gentle                           \\
+		Values              & Vegetarianism, kindness towards critters, humility                          \\
+		Resents             & Machinery, abominations, radiation, needless killing of critters and plants \\
+		Rival               & Spirit of Machines                                                          \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+\subsubsection*{Spirit of Serenity}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+		\hline
+		General Appearance  & Radiant orb of pure light     \\
+		General Personality & Neutral, quiet, calm, pure    \\
+		Values              & Optimism, magic, clear mind   \\
+		Resents             & Darkness, secrets, chem usage \\
+		Rival               & Spirit of Shadows             \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+\subsubsection*{Spirit of Shadows}
+% Table
+% TODO: Rewrite to be more general instead of Poison Spirit
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+		\hline
+		General Appearance  & A zebra with overly green stripes and green shabby suit. Speaks in rhyme \\
+		General Personality & Unpredictable, secretive, mischievous, smart-ass                         \\
+		Values              & Riddles, intellect, traps                                                \\
+		Resents             & Obviousness, directness, cheating                                        \\
+		Rival               & Spirit of Serenity                                                       \\
+		                    &                                                                          \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-A fiery projectile that deals damage to everything in s Small Splash Template, and sets the area on fire for 4 Rounds. Anyone who gets hit or steps into this fire have to roll END to resist getting a Burning- status effect.
-
-The fireball deals 1+(4) damage on the targets upon impact, and 1+(2) damage for foes that step into the fire afterwards. Spirit Power provides additional damage: 
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +1 DMG
-	\item Spirit Power 5-8 = +2 DMG
-	\item Spirit Power $>$9 = +3 DMG
-\end{compactitem}
-
-\bigskip
-\noindent
-\textbf{Ignite}
-
-\smallskip
+\subsubsection*{Spirit of Streams}
+% Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
 		\hline
-		AP Cost	      	& 3 					\\
-		Range     		& Spirit Power*4 meters	\\
-		Target      	& 1 Target				\\
-		Area of Effect  & -  	 				\\
-		Duration     	& 3				\\ \hline
+		General Appearance  & A whirling torrent of water with a vaguely equine figure inside \\
+		General Personality & Vicious when angered, generous, fickle                          \\
+		Values              & Exploring, courage, healing, quick thinking                     \\
+		Resents             & Cowardice, indecisiveness, greed                                \\
+		Rival               & Spirit of Serenity                                              \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-Ignites the target aflame, and the target may roll END to resist the resulting Burning-status. In addition, this spell causes, upon successful hit, a Minor Distraction for the duration of the spell. Spirit Power provides a penalty to the target's END roll as follows:
+\subsubsection*{Spirit of Trust}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+		\hline
+		General Appearance  & A group of fog-like forms of various races of equine and griffin   \\
+		General Personality & Varies depending on the part of spirit talking                     \\
+		Values              & Genuine friendship, peaceful solutions, protective behavior, mercy \\
+		Resents             & Backstabbing, deceitfulness, unnecessary violence, chaos           \\
+		Rival               & Spirit of Whispers                                                 \\ \hline
+	\end{tabu}
+	
+}
 
 \medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = -1 END
-	\item Spirit Power 5-8 = -2 END
-	\item Spirit Power $>$9 = -3 END
-\end{compactitem}
 
-\bigskip
-\newpage
-\noindent
-\textbf{Burning Passion}
+\subsubsection*{Spirit of Whispers}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+		\hline
+		General Appearance  & A silver shrouded figure in a cloak, noticeably frail in appearance \\
+		General Personality & Secretive, quiet, chaotic, mischievous                              \\
+		Values              & Secrets, quick thinking, confidence, good luck                      \\
+		Resents             & Brawn, honesty, over-careful planning, self-doubt                   \\
+		Rival               & Spirit of Trust                                                     \\ \hline
+	\end{tabu}
+	
+}
 
-\smallskip
+\medskip
+
+\subsection*{Spells}
+\addcontentsline{toc}{subsection}{Spells}
+
+%TODO: Update Spirit Power into Potency where possible
+
+\subsubsection*{Astral Copy [PER]}
+\addcontentsline{toc}{subsubsection}{Astral Copy [PER]}
 {
 	\rowcolors{1}{gray!30}{gray!10}
 	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
 		\hline
-		AP Cost	      	& 6 					\\
-		Range     		& Spirit Power*2 meters	\\
-		Target      	& 1 Ally				\\
-		Area of Effect  & -  	 				\\
-		Duration     	& 1 Round				\\ \hline
+		Spirit         & Serenity (PER)        \\
+		AP Cost        & 5                     \\
+		Strain Cost    & 2                     \\
+		Range          & -                     \\
+		Target         & Self                  \\
+		Area of Effect & -                     \\
+		Duration       & Spirit Power/2 rounds \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster creates multiple astral copies of himself. These copies occupy the same space the caster does, making hitting them harder for their enemies. The number of copies depends on the Spirit Power:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2 copies
+		\item[11-20 Potency] 4 copies
+		\item[20+ Potency] 	    6 copies
+	\end{description}	
+\end{quote}
+
+Enemies that target the caster have a 50 \% chance of hitting the right target, caster, instead of a copy after rolling their combat skill to see if they hit the target at all. If they fail, they hit one of the copies and destroy it instantly.
+
+\subsubsection*{Bane [INT]}
+\addcontentsline{toc}{subsubsection}{Bane [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Shadows (INT) \\
+		AP Cost        & 6             \\
+		Strain Cost    & 3             \\
+		Range          & Potency*2 m   \\
+		Target         & 1 Target      \\
+		Area of Effect & -             \\
+		Duration       & Instant       \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+The caster casts a dark incantation towards their enemy, enshrouding the creature in a dark miasma which deals damage to the target and eats away their Strain. The damage inflicted ignores any DT the target has.
+
+The spell deals damage according to the user's Potency:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1+(2) DMG, 2 Strain removed
+		\item[11-20 Potency] 1+(3) DMG, 3 Strain removed
+		\item[20+ Potency] 	    2+(3) DMG, 5 Strain removed
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Banshee Wail [CHA]}
+\addcontentsline{toc}{subsubsection}{Banshee Wail [CHA]}
+%TODO: Add once details fleshed out
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA) \\
+		AP Cost        &                \\
+		Strain Cost    &                \\
+		Range          &                \\
+		Target         &                \\
+		Area of Effect &                \\
+		Duration       &                \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+\subsubsection*{Blink [CHA]}
+\addcontentsline{toc}{subsubsection}{Blink [CHA]}
+
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Trust (CHA)        \\
+		AP Cost        & 4                  \\
+		Range          & [Spirit Power]*4 m \\
+		Target         & 1                  \\
+		Area of Effect & -                  \\
+		Duration       & Instant            \\ \hline
+	\end{tabu}
+	
+}
+\smallskip
+
+Caster effectively teleports adjacent to their chosen target. If they so desire, they can cast the spell and bring one adjacent ally with them by spending additional 2 AP.
+
+\subsubsection*{Blood Weapons [INT]}
+\addcontentsline{toc}{subsubsection}{Blood Weapons [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Shadows (INT)  \\
+		AP Cost        & 6              \\
+		Strain Cost    & 2              \\
+		Range          & Potency*2 m    \\
+		Target         & 1 corpse/self  \\
+		Area of Effect & -              \\
+		Duration       & Potency rounds \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster conjures ominous blood weapons out of the corpses of the fallen or herself.
+
+This spell requires either a fresh corpse (dead for less than 2 hours) or health (HP) to function. Only corpses of creatures that depend on blood can be used. Upon casting this spell, the sham must decide what kind of weapons she conjures (knife, fire axe, etc.). Only melee, unarmed or thrown weapons can be conjured.
+
+Spell conjures a number of determined weapons up to a maximum of 4. One corpse of a size 0 pony can produce up to 2 weapons, and in order to conjure more than that, more corpses are required. If no suitable corpses lay around, the caster may use her own life force to conjure weapons. For each weapon she conjures this way she loses 1 HP. The caster cannot kill herself upon casting this spell as once the caster's HP drops to a Pain Threshold, no weapons can be conjured.
+
+Conjured weapons float in the air near the caster by default. The caster must command them to attack or move away from her. Commanding these weapons is equal to the AP cost of the weapon in question, and Thaumaturgy roll is required to hit with the weapons. If not commanded, the weapon floats idly and does nothing. The weapons deal damage equal to their normal counterparts, but are destroyed if they are dropped by the caster after a Called Shot against said weapons.
+
+This spell has 50\% chance to inflict 1 Insanity on the caster.
+
+\subsubsection*{Burning Blood [AGI]}
+\addcontentsline{toc}{subsubsection}{Burning Blood [AGI]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Embers (AGI)     \\
+		AP Cost        & 6                \\
+		Strain Cost    & 3                \\
+		Range          & -                \\
+		Target         & Self             \\
+		Area of Effect & Tiny Splash Area \\
+		Duration       & 3 rounds         \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+The Spirit of Embers envelops the caster in a ghostly fire, burning anyone who comes near with the radiating heat, while leaving the caster unharmed.
+
+The damage is determined by the caster's potency:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency]	1 DMG
+		\item[11-20 Potency]	2 DMG
+		\item[20+ Potency]		3 DMG
+	\end{description}	
+\end{quote}
+
+This spell ignores DT, and can apply the Burning-status effect on anyone passing through the affected area with a -1 END to the resistance-roll.
+
+Creatures that are immune to fire damage take no damage from this spell, and creatures that heal from fire, also heal from the effects of this spell.
+
+
+\subsubsection*{Burning Passion [AGI]}
+\addcontentsline{toc}{subsubsection}{Burning Passion [AGI]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Embers (AGI)          \\
+		AP Cost        & 6                     \\
+		Range          & Spirit Power*2 meters \\
+		Target         & 1 Ally                \\
+		Area of Effect & -                     \\
+		Duration       & 1 Round               \\ \hline
 	\end{tabu}
 	
 }
@@ -6220,1448 +6301,304 @@ Ignites the target aflame, and the target may roll END to resist the resulting B
 
 The caster surrounds their ally with a warm, encouraging glow, giving them a +10 on their next SPECIAL or Skill roll. This +10 can go over the 85 skill cap for the purpose of negating penalties.
 
-%\vfill
-\newpage
-
-\subsection*{Spirit of Friendship}
-\addcontentsline{toc}{subsection}{Spirit of Friendship}
+\subsubsection*{Cleanse}
+\addcontentsline{toc}{subsubsection}{Cleanse)}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& A group of fog-like forms of various races of equine and griffin		\\
-		General Personality	   	& Varies depending on the part of spirit talking						\\
-		Values     				& Genuine friendship, peaceful solutions, protective behavior, mercy	\\
-		Resents     			& Backstabbing, deceitfulness, unnecessary violence, chaos 				\\
-		Karma Standing      	& +50																	\\
-		Damage Type 			& Physical: blows with hooves and claws	 								\\ \hline
+		Spirit         & Incantation (Any SPECIAL) \\
+		AP Cost        & 8                         \\
+		Strain Cost    & 7                         \\
+		Range          & Touch                     \\
+		Target         & 1 Target/area             \\
+		Area of Effect & See text                  \\
+		Duration       & Instant                   \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
-\subsubsection*{Enchantments:}
 
-\begin{itemize}
-	\item \textbf{ [Armor] Weathering enchantment:} Gives a [Spirit Power]*2 amount of a bonus to Poison and Radiation resistances.
-	
-	Only functions when made for/given to an ally.
-	
-	\item \textbf{ [Armor] Communication enchantment:} [Spirit Power] number of allies can be talked to in telepathic link.
-	
-	Allies are unable to answer back by using this telepathic link
-	
-	\item \textbf{ [Armor] Calming enchantment:} Once per day when activated, NPC disposition goes up by 1 level for [Spirit Power] number of minutes.
-	
-	\item \textbf{ [Armor] Disenthrall enchantment:} Once per day when activated, [Spirit Power] number of allies get a +10 bonus on their rolls to resisting Illusion school of spells.
-\end{itemize}
+The caster cleanses impurities and ailments from a single target or area by touching with their hoof. 
 
-%\vfill
+She can remove Rads from a target, as remove any poisons or physical status effects from the character, as well as the effect of Vile Crystals -spell. 
 
-\subsubsection*{Spells:}
+This spell can also be used to momentarily cleanse an area around the caster, with the size of the area depending on the caster's Potency. The caster must touch the ground with their hoof in order for the spell to channel through. 
+This spell can momentarily remove Taint, Radiation, poisons and Pink Cloud from the environment, but cannot affect temperature. The duration for which the negative effects are removed depend on Potency of the caster.
 
-\smallskip
-\noindent
-\textbf{Tempered}
+Area of Effect and duration on environmental dangers are dependent on Potency:
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Large Splash				\\
-		Target      	& [Spirit Power] allies		\\
-		Area of Effect  & Large Splash  	 			\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	Small Splash; 2 hours
+		\item[10-19 Potency] 	Large Splash; 4 hours
+		\item[20+ Potency]  	Huge Splash; 8 hours
+	\end{description}	
+\end{quote}
+%	\medskip
 
-Gives a [Spirit Power] number of allies either +2 to STR (to a maximum of 15) or +1 DT for the duration of this spell. This spell does not stack with itself.
+Note: This spell cannot reverse the permanent effects of Taint or Pink Cloud from a target.
 
-\bigskip
-\noindent
-\textbf{Blink}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 								\\
-		Range     		& [Spirit Power]*4 m		\\
-		Target      	& 1		\\
-		Area of Effect  & - 						 \\
-		Duration     	& Instant							\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Caster effectively teleports adjacent to their chosen target. If they so desire, they can cast the spell and bring one adjacent ally with them by spending additional 2 AP.
-
-%Caster teleports [Spirit Power]/2 number allies (to a minimum of 1) \textit{or} self. In combat, the allies have to be in a Tiny Splash Template from the caster, and can be teleported within a Huge Splash Template. Teleported allies can re-appear separate or in a group.
-
-%Outside of combat, the range of the spell is [Spirit Power]*2 kilometers, and the caster cannot teleport to a place unfamiliar to her.
-
-% FLURRY REMOVED DUE TO CONFLICT WITH SPIRIT'S IDEALS AND OVERALL ISSUE WITH WRITING IT OUT.
-
-%\bigskip
-%\noindent
-%\textbf{Flurry}
-
-%\smallskip
-%{
-%	\rowcolors{1}{gray!30}{gray!10}
-%	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-%		\hline
-%        AP Cost	      	& 5/3							\\
-%        Range     		& Spirit Power*8 meters		\\
-%        Target      	& -							\\
-%        Area of Effect  & -  	 					\\
-%        Duration     	& Instant					\\ \hline
-%	\end{tabu}
-%		
-%}
-%\smallskip
-
-%Caster summons [Spirit Power] number of magical orbs to bombard foes with, with quaranteed hit. Initial summoning of the orbs costs 5 AP, and dealing damage costs 3 AP per orb. The orbs remain in the caster's control until the last one of them has been used, the caster falls unconscious or ends the spell early. 
-
-%If the caster uses a weapon while in possession of these magical orbs, they have to roll a Concentration (Barter/Thaumaturgy) check to keep the orbs. If the check fails, this spell ends prematurely.
-
-\bigskip
-\newpage
-\noindent
-\textbf{Reminiscence}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 					\\
-		Range     		& Large Splash	\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 \\
-		Duration     	& -				\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-This spell manipulates the target's current feelings of aggression by reminding them of their loved ones and people important to them. This spell has a [Spirit Power]*5 chance to succeed in getting the target to flee the fight and return to whoever they find dear. 
-
-Characters with very evil Karma (-50) are immune to the effects of this spell if they have no one they truly care about. Likewise, this spell can backfire if the target in question instead believes the caster to be too big of a threat, or view them as evil. A character with the spell backfired on them gains a +1 to STR and END for [Spirit Power]/2 turns and will not back down from the fight.
-
-Causing the target to flee still rewards the party with EXP, though they will miss out on items the target was carrying.
-\vfill
-\pagebreak
-
-\subsection*{Spirit of Life}
-\addcontentsline{toc}{subsection}{Spirit of Life}
+\subsubsection*{Comforting Words [CHA]}
+\addcontentsline{toc}{subsubsection}{Comforting Words [CHA]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& A large, lumbering dog-like beast with bright eyes and a healthy appearance		\\
-		General Personality	   	& Lively, protective, selfless, vindictive											\\
-		Values     				& Mercy, righteousness, good will, spontaneous behavior								\\
-		Resents     			& Useless violence, murder, unnecessary destruction 								\\
-		Karma Standing      	& +50																				\\
-		Damage Type 			& Life drain: basic attach heals 1 HP on itself	 									\\ \hline
+		Spirit         & Trust (CHA) \\
+		AP Cost        & 3           \\
+		Strain Cost    & 3           \\
+		Range          & Potency/2 m \\
+		Target         & 1 Target    \\
+		Area of Effect & -           \\
+		Duration       & Instant     \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
-\subsubsection*{Enchantments:}
 
-\begin{itemize}
-	\item \textbf{ [Armor] Reprieve enchantment:} Once a day when dealt a fatal blow, the user's HP drops to 1 HP instead. The armor absorbs lethal blows for [Spirit Power] number of times, after which a new bargain must be made.
-	
-	\item \textbf{ [Armor] Restorative enchantment:} When dealt a crippling blow, the user's limb is immediately cured. The armor absorbs crippling blows for [Spirit Power] number of times, after which a new bargain must be made.
-	
-	It can only absorb one crippling blow every minute.
-	
-	\item \textbf{ [Weapon] Drain enchantment:} Each successful hit with this weapon that deals damage heals the user with 1 HP. This enchantment works [Spirit Power] number times per day.
-\end{itemize}
+The sensible caster uses the Spirit of Trust's magic fueled into their voice to help a single ally to calm down from a Panic-Pain Threshold during combat situations. The character doesn't suffer from a Pain Threshold until they take further damage.
 
-\newpage
-\subsubsection*{Spells:}
+Outside of combat, this spell can be used to lower one's Insanity by 1 point, to a minimum of 0. If the target has acquired half or more of their maximum Insanity points, the caster suffers a -10 to their Thaumaturgy roll.
 
-\smallskip
-\noindent
-\textbf{Healing Surge}
+When used to overcome Insanity, this spell cannot be used again in 24 hours to lower Insanity, but can be used to calm down a target from Panic. A critically successful Thaumaturgy-roll causes the Insanity to lower by 2.
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Spirit Power*4 meters		\\
-		Target      	& All						\\
-		Area of Effect  & Small Splash  	 			\\
-		Duration     	& Instant					\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
+If the Insanity-lowering effect is used on an opponent, a CHA Opposed roll is required. If successful, the opponent temporarily becomes more lucid, but not necessarily docile.
 
-The caster sends out a wave of healing energy around them that heals everyone within Small Splash Template. 
+\begin{verse}
+	\textbf{Example:} Kenobi attempts to use Comforting Words to lower Maabara's Insanity, after she suffered a devastating blow to her psyche courtesy of in-game events. Maabara's maximum insanity is 6, and she currently has 4 points. Because Maabara has more than half of her maximum Insanity points, Kenobi's Thaumaturgy suffers a penalty of -10 to successfully perform this spell.
+\end{verse}
 
-This spell targets everyone in range, friend or foe with HP determined by the Spirit Power as follows:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 2 HP
-	\item Spirit Power 5-8 = 3 HP
-	\item Spirit Power $>$9 = 4 HP
-\end{compactitem}
-
-\bigskip
-\noindent
-\textbf{Pain Relief}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 AP 						\\
-		Range     		& Spirit Power*4 meters				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Pain Relief allows target to ignore penalties from crippled limbs for [Spirit Power]/2 turns in combat. Outside combat, this spell gives +10 to Medicine-check to treat a Major Cripple.
-
-
-\bigskip
-\noindent
-\textbf{Petrify}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& Large Splash				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The target of this spell is petrified for a period of time, unable to act and are considered unconscious. Once per turn, the petrified target can use an Opposed END roll to break out of the petrified status. 
-
-Re-casting this spell on the petrified target also breaks the spell put on them, as does Unicorn's \textit{Failsafe-spell} or \textit{Petrify-spell}.
-
-\bigskip
-\noindent
-
-\subsection*{Spirit of Light}
-\addcontentsline{toc}{subsection}{Spirit of Light}
+\subsubsection*{Devotion [PER]}
+\addcontentsline{toc}{subsubsection}{Comforting Words [PER]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& Radiant orb of pure light				\\
-		General Personality	   	& Neutral, quiet, calm, pure			\\
-		Values     				& Optimism, magic, clear mind			\\
-		Resents     			& Darkness, secrets, chem usage 		\\
-		Karma Standing      	& 0										\\
-		Damage Type 			& Laser: basic attack ignores 1 DT	 	\\ \hline
+		Spirit         & Serenity (PER) \\
+		AP Cost        & 8              \\
+		Strain Cost    & 1              \\
+		Range          & See text    \\
+		Target         & 1 Ally       \\
+		Area of Effect & -              \\
+		Duration       & Instant        \\ \hline
 	\end{tabu}
 	
 }
-
 \medskip
-\subsubsection*{Enchantments:}
 
-\begin{itemize}
-	\item \textbf{ [Armor] Invisibility enchantment:} The rune reflects light from the user, making them invisible for [Spirit Power] amount of minutes per day. When active, the enchantment gives the user a bonus of to Sneak as determined by Spirit Power:
-	
-	\medskip
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +10 Sneak
-		\item Spirit Power 5-8 = +15 Sneak
-		\item Spirit Power $>$9 = +20 Sneak
-	\end{compactitem}
-	
-	The invisibility effect is activated by a word or phrase uttered by the user, the word decided by the character using the armor.
-	
-	\item \textbf{ [Armor] Blinding enchantment:} The armor radiates a bright light, giving the enemies a Distraction penalty when trying to hit the target. This also gives the user a penalty to Stealth, both determined by the Spirit Power:
-	
-	\medskip
-	\begin{compactitem}
-		\item Spirit Power $<$4 = -10 Sneak; Minor Dist.
-		\item Spirit Power 5-8 = -15 Sneak; Medium Dist.
-		\item Spirit Power $>$9 = -20 Sneak; Major Dist.
-	\end{compactitem}
-	
-	Creatures that look directly at the enchanted armor must succeed on an END check or suffer Blinded Status effect.
-	
-	\item \textbf{ [Weapon] Light enchantment:} Projectiles fired with this weapon explode on impact with a bright light, inflicting Blinded Status on all in a Tiny Splash template. Successful END check negates the effect. If not already blinded, the check must be made again for each attack.
-	
-	Spirit Power provides a penalty to resist the status as follows:
-	\medskip
-	\begin{compactitem}
-		\item Spirit Power $<$4 = -1 END
-		\item Spirit Power 5-8 = -2 END
-		\item Spirit Power $>$9 = -3 END
-	\end{compactitem}
-	
-	
-	Ranged weapons only.
-\end{itemize}
+The caster sacrifices some of their own health to regenerate Strain to an ally, with a light, gentle incantation. The caster can sacrifice up to 5 HP to give their ally 2 Strain per 1 HP sacrificed. This damage ignores the caster's DT.
 
-\subsubsection*{Spells:}
+The spell?s range is determined by the caster's Potency as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency]	Small Splash
+		\item[11-20 Potency]	Large Splash
+		\item[20+ Potency]		Huge Splash
+	\end{description}	
+\end{quote}
 
-\smallskip
-\noindent
-\textbf{Astral Copy}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& -				\\
-		Target      	& Self		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power/2 rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster creates multiple astral copies of himself. These copies occupy the same space the caster does, making hitting them harder for their enemies. The number of copies depends on the Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 2 copies
-	\item Spirit Power 5-8 = 4 copies
-	\item Spirit Power $>$9 = 6 copies
-\end{compactitem}
-
-Enemies that target the caster have a 50 \% chance of hitting the right target, caster, instead of a copy after rolling their combat skill to see if they hit the target at all. If they fail, they hit one of the copies and destroy it instantly.
-
-\bigskip
-\noindent
-\textbf{Night Vision}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 						\\
-		Range     		& -				\\
-		Target      	& Self		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power minutes		\\ \hline
-	\end{tabu}
-	
-}
-
-This spell allows caster to see as well during the night as they would during the day, for duration of [Spirit Power] minutes, removing any penalties the caster would get from dim light, darkness and total darkness. 
-
-If there is a sudden change in light to the brighter status, the user gains a Medium Distraction. Unicorn's \textit{Detection-Spell} can reveal this spell.
-
-\bigskip
-\noindent
-
-%\pagebreak
-\noindent
-\textbf{Razzle Dazzle}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 							\\
-		Range     		& Spirit Power*4				\\
-		Target      	& AoE							\\
-		Area of Effect  & Small Splash Template  	 		\\
-		Duration     	& 4 Rounds						\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster creates a sparkling cloud in a Small Splash Template, within the range of [Spirit Power]*4 meters. Creatures, both friend and foe, that are inside this cloud must roll an Opposed PER roll against the caster. Those that fail their roll are Blinded for the duration of this spell. Creatures that come into contact with this spell after its summoning must roll a -1 PER to resist the effect. After the spell ends, the cloud disappears and the Blinded- status effect ends.
-\vfill
-\pagebreak
-
-\subsection*{Spirit of Lightning}
-\addcontentsline{toc}{subsection}{Spirit of Lightning}
+\subsubsection*{Devouring Darkness [INT]}
+\addcontentsline{toc}{subsubsection}{Devouring Darkness [INT]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& Crackling, fast-moving bird of prey made of thunder				\\
-		General Personality	   	& Unpredictable, stormy, sharp, direct, proud						\\
-		Values     				& Speed, easy and fast solutions, pain, competition					\\
-		Resents     			& Prolonging solutions, mercy, cowardice, selflessness 				\\
-		Karma Standing      	& -30																\\
-		Damage Type 			& Electricity: basic attack deals electric dmg, can cause Stun	 	\\ \hline
+		Spirit 			& Shadows (INT) 	\\
+		AP Cost	      	& 8 				\\
+		Strain Cost     & 1 				\\
+		Range     		& Potency*4 m		\\
+		Target      	& AoE				\\
+		Area of Effect  & Large Splash  	 	\\
+		Duration     	& Potency turns 	\\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
-\subsubsection*{Enchantments:}
 
-\begin{itemize}
-	\item \textbf{ [Armor] Electricity Resistance enchantment:} Armor grants bonus to END to resist Stunned -status effect, according to Spirit Power as follows:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +1 END
-		\item Spirit Power 5-8 = +2 END
-		\item Spirit Power $>$9 = +3 END
-	\end{compactitem}
-	\item \textbf{ [Armor] Lightning enchantment:} Armor may inflict Stunned -status effect to melee attackers who hit the wearer, for [Spirit Power] times per day.
-	\item \textbf{ [Weapon] Arching enchantment:} A successful hit with the weapon causes an arch of electricity to form between the target and any other target within Small Splash Radius, the secondary targets taking 1+ [Spirit Power]/2 damage dice worth of damage.
-	\item \textbf{ [Weapon] EMP enchantment:} Weapon deals additional damage against robots and power-armor, according to Spirit Power: %On a critical success, the target is also stunned for [Spirit Power]/2 number of rounds.
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +3 DMG
-		\item Spirit Power 5-8 = +4 DMG
-		\item Spirit Power $>$9 = +5 DMG
-	\end{compactitem} 
-	
-	This additional damage does not work on non-robotic enemies, such as plants.
-\end{itemize}
+Devours all light from the area, turning the place into darkness.
 
-\subsubsection*{Spells:}
+Upon casting Devouring Darkness, all light sources within the spell's radius are quenched. Any natural light disappears and the area becomes pitch black. To the outside the area looks very dark, like a strong shadow, and figures and other features are still visible, meaning that characters outside of the area of effect are not affected by the visibility penalty. To those inside the area the place becomes totally dark and they can barely see anything, resulting in the Visibility -40 penalty to hitting any targets, including adjacent ones.
 
-\smallskip
-\noindent
-\textbf{Greased Lightning}
+In addition, upon casting the spell all creatures inside its Area of Effect lose 1 HP. DT, neither from armor or natural doesn't protect from this HP loss.
 
-\smallskip
+This spell has 30\% chance to inflict 1 Insanity on the caster.
+
+\subsubsection*{Discord [CHA]}
+\addcontentsline{toc}{subsubsection}{Discord [CHA]}
+% table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Spirit Power*2 meters				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& 1 Round		\\ \hline
+		School         & Whispers (CHA)  \\
+		AP Cost        & 10              \\
+		Strain Cost    & 5               \\
+		Range          & Potency*6 m     \\
+		Target         & Up to 4 targets \\
+		Area of Effect & -               \\
+		Duration       & Potency rounds  \\ \hline
 	\end{tabu}
 	
 }
-\smallskip
-
-The target gains additional free movement as determined by the Spirit Power bargained by the shaman, as follows:
 
 \medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 2m (1 hex)
-	\item Spirit Power 5-8 = 4m (2 hex)
-	\item Spirit Power $>$9 = 6m (3 hex)
-\end{compactitem} 
 
-\bigskip
-\noindent
-\textbf{Lightning Strike}
+Cause discord and friction between targets.
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 AP 						\\
-		Range     		& Spirit Power*4 meters				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
+The spell changes each target's mood and attitude towards negative. Loving becomes indifferent, indifferent become quarrelsome, and quarrelsome become hostile.
 
-The caster summons a lightning strike down their enemy. The bolt of lightning deals 2+(2) damage. Upon successful hit, it can cause a Stun- status effect on the target as well, with an END-roll to resist.
+Targets may make a CHA or INT roll with a penalty to resist the spell. If the spell is successful, the targets react to each other more negatively. Also, targets have 20\% chance to gain 1 Insanity if the spell is successful. The exact penalty is determined by the caster's Potency: 
 
-Spirit Power adds additional damage to the strike as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	-10 penalty to roll
+		\item[10-19 Potency] 	-20 penalty to roll
+		\item[20+ Potency] 	-30 penalty to roll
+	\end{description}
+\end{quote}
 
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +1 DMG
-	\item Spirit Power 5-8 = ´+2 DMG
-	\item Spirit Power $>$9 = +3 DMG
-\end{compactitem} 
+This spell can be used to lower NPC Disposition by 1 per casting. It can also be made to influence targets' mood towards a particular individual more negative.
 
-\bigskip
-\noindent
-\textbf{Thunder Volley}
+NOTE: Mindless creatures and robots are immune to the effects of this spell.
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 7 						\\
-		Range     		& Spirit Power*4 meters		\\
-		Target      	& [Spirit Power]/2 targets		\\
-		Area of Effect  & Large Splash  	 			\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster sends a ball of lightning that bounces between maximum of [Spirit Power]/2 number targets in a Large Splash Template. This lightning ball can hit a same target multiple times, but not twice in a row. Each hit causes 1+(4) damage to the target.
-
-\bigskip
-
-\newpage
-
-\subsection*{Spirit of Machines}
-\addcontentsline{toc}{subsection}{Spirit of Machines}
+\subsubsection*{Dispel Magic [INT]}
+\addcontentsline{toc}{subsubsection}{Dispel Magic [INT]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& A pristine unearthly set of power armor						\\
-		General Personality	   	& Logical, analytical, calculative, introvert, materialistic	\\
-		Values     				& Order, mechanics, science, creativity							\\
-		Resents     			& Chaos, spontaneous acts, passion, obsessive use of magic 		\\
-		Karma Standing      	& 0																\\
-		Damage Type 			& Physical: bullets and shrapnel, has reach of 2 meters/2 hex	 \\ \hline
+		Spirit         & Machines (INT) \\
+		AP Cost        & 6              \\
+		Strain Cost    & 2              \\
+		Range          & Potency*4 m    \\
+		Target         & AoE            \\
+		Area of Effect & Varies         \\
+		Duration       & 5 rounds       \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-\subsubsection*{Enchantments:} 
-\begin{itemize}
-	\item \textbf{ [Armor] Auto-Shield enchantment:} Creates a Partial Cover on the wearer against the first attacker towards them in a turn. This cover has DT equal to the following:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = DT 1
-		\item Spirit Power 5-8 = DT 2
-		\item Spirit Power $>$9 = DT 3
-	\end{compactitem}
-	\item \textbf{ [Armor] Featherweight enchantment:} While wearing the armor, wearer gains additional [Spirit Power]*2 kg Carry Weight.
-	\item \textbf{ [Weapon] Auto-Reload enchantment:} Reload cost is considered to be 0 AP for [Spirit Power]/2 times a day.
-	\item \textbf{ [Weapon] Perfection enchantment:} Once a day, weapon gains [Spirit Power]/2 extra dice (d6) to a damage roll.
-\end{itemize}
+Dispels magical effects.
 
-\pagebreak
-\subsubsection*{Spells:}
+All magical effects in the targeted area are temporarily suppressed on a successful Thaumaturgy roll for 5 rounds. All magical abilities, such as Aerial Maneuvers, Alchemy, or Spirit Magic, cannot be used in the target area. The affected area is determined by the caster's Potency:
 
-\smallskip
-\noindent
-\textbf{Engineer's Inspiration}
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	Tiny Splash Template
+		\item[10-19 Potency] 	Small Splash Template
+		\item[20+ Potency] 	Large Splash Template
+	\end{description}
+\end{quote}
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& -							\\
-		Target      	& 1 Target/self				\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster bestows an inspiration to fare better with one task. The spell gives a bonus to the next Mechanics, Lockpick or Survival roll, the exact bonus being determined by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +10 bonus
-	\item Spirit Power 5-8 = ´+20 bonus
-	\item Spirit Power $>$9 = +30 bonus
-\end{compactitem} 
-
-%The caster bestows a blessing on a target, or on themselves, that gives +10 to Mechanics, Lockpick or Survival rolls for [Spirit Power] number of minutes.
-
-\bigskip
-\noindent
-\textbf{Organize}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 						\\
-		Range     		& -							\\
-		Target      	& 1 Target/Self				\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Spirit Power*2 hours		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-This spell causes the target's inventory to magically sort itself, as well as aid the target in finding what they're looking for in their inventory. For the duration of this spell, accessing items from inventory costs 1 AP less.
-
-\bigskip
-\noindent
-\textbf{Targeting}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& Spirit Power*2 meters		\\
-		Target      	& 1 Target					\\
-		Area of Effect  & -  	 					\\
-		Duration     	& 1 round		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster creates a magical marker onto the target, which assists the caster and their allies in attacks against them. Any Called Shot attack made against the marked target in this run may ignore Called Shot penalties as determined by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = Ignore 5 
-	\item Spirit Power 5-8 = Ignore 10 
-	\item Spirit Power $>$9 = Ignore 15 
-\end{compactitem} 
-
-
-%The caster creates a magical target marker onto an enemy. which assists the caster in attacks against that target. The caster gains +5 to their chosen combat skill for the duration of this spell. In addition, this spell allows the caster to ignore visibility penalties by 20 (to minimum of 0), and distance-related penalties by 10 (to a minimum of 0) for as long as the spell is in effect.
-
-%\pagebreak
-\noindent
-\textbf{Malfunction}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Large Splash				\\
-		Target      	& 1 mechanical construct	\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Causes mechanical constructs, such as weapons, power armor or robots, to potentially malfunction.
-
-When targeting Firearms, MEWs or explosives, this spell increases the enemy's crit fail chance by [Spirit Power] amount when using said weapon. 
-
-When targeting robots, turrets, power armor, electric doors, lights or other machinery, the item in question can malfunction on a [Spirit Power]*4 chance. If successful, the robots and turrets will go incapacitated, but turn back hostile if struck, while creatures in power armor have to spend 7 AP on their next turn to reboot the suit's system and move again.
-
-If Item condition rules are in effect, this spell also has a [Spirit Power]*2 chance to lower the weapon or power armor item condition.
-
-\bigskip
-%\vfill
-
-%\pagebreak
-\clearpage
-\subsection*{Spirit of Nature}
-\addcontentsline{toc}{subsection}{Spirit of Nature}
+\subsubsection*{Doomtouch [INT]}
+\addcontentsline{toc}{subsubsection}{Doomtouch [INT]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& Stag with horns decorated with leaves and flowers, followed by animals		\\
-		General Personality	   	& Regal, detached, short-tempered, generous, gentle								\\
-		Values     				& Vegetarianism, kindness towards critters, humility							\\
-		Resents     			& Machinery, abominations, radiation, needless killing of critters and plants 	\\
-		Karma Standing      	& +10																			\\
-		Damage Type 			& Physical: Roots and flowers utilized to attack	 							\\ \hline
+		Spirit         & Shadows (INT) \\
+		AP Cost        & 10            \\
+		Strain Cost    & 3             \\
+		Range          & Touch         \\
+		Target         & 1 Target      \\
+		Area of Effect & -             \\
+		Duration       & Instant       \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
-\subsubsection*{Enchantments:}
 
-\begin{itemize}
-	\item \textbf{ [Armor] Naturality enchantment:} The wearer of the armor can ignore up to [Spirit Power] number of Status Effects, sans Crippled, per day.
-	
-	%	\item \textbf{ [Armor] Naturality enchantment:} Armor/Clothing grants [Spirit Power] amount of DT against attacks made by robots or enemies in Power Armor.
-	
-	\item \textbf{ [Armor] Rad-Purge enchantment:} Armor/Clothing can ignore [Spirit Power]/2 number of rolls of Radiation damage per day. 
-	
-	\item \textbf{ [Weapon] Purity enchantment:} Weapon gains additional [Spirit Power]/2 damage dice against Abominations.
-	
-	Non-Abominations take regular damage.
-	
-	\item \textbf{Weapon Ensnaring enchantment:} Successful attacks have a 20\% chance to ensnare the target, increasing their AP cost for Movement actions by 1 for [Spirit Power] number of turns.
-\end{itemize}
+The caster channels their spirit's power to damage them in exchange for higher damage on the target, transferring the caster's wounds twice-over. The caster sacrifices their HP to deal twice as much damage to their target's HP.
 
-\newpage
-\subsubsection*{Spells:}
+The maximum amount of HP the caster can sacrifice depends on their Potency:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	3 HP
+		\item[10-19 Potency] 	4 HP
+		\item[20+ Potency] 	5 HP
+	\end{description}
+\end{quote}
 
-\smallskip
-\noindent
-\textbf{Purification}
+DT still applies normally, and going to a pain threshold still activates from this spell. This spell has a 40\% chance of giving an Insanity point.
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 						\\
-		Range     		& -				\\
-		Target      	& Spirit Power items		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& 24 hours		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster purifies a [Spirit Power] amount of food or drink free from radiation per day.
-
-\bigskip
-\noindent
-\textbf{Friendly Critter's Help}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 8 						\\
-		Range     		& Self				\\
-		Target      	& -		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power*2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Calls a sentient creature to the caster's aid, helping them for [Spirit Power]*2 rounds. Otherwise works similarly to the unicorn spell of the same name.
-
-\bigskip
-\noindent
-\textbf{Natural Protection}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 8 						\\
-		Range     		& Large Splash				\\
-		Target      	& [Spirit Power] allies/self		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power*2 minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-This spell gives [Spirit Power] number of allies and self +10 \% Rad Resistance for the duration of this spell
-
-\bigskip	
-
-\subsection*{Spirit of Poisons}
-\addcontentsline{toc}{subsection}{Spirit of Poisons}
+\subsubsection*{Dreadful Charm [INT]}
+\addcontentsline{toc}{subsubsection}{Dreadful Charm [INT])}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& Old, grumpy and annoyed zebra										\\
-		General Personality	   	& Twisted, dark humor, disoriented									\\
-		Values     				& Use of alcohol, poisons and chem, secrecy, jealousy, addiction	\\
-		Resents     			& Mercy, healing, curing addictions, seriousness 					\\
-		Karma Standing      	& -50																\\
-		Damage Type 			& Poison: basic attack has 2x40\% chance to poison	 				\\ \hline
+		Spirit 			&  Shadows (INT)\\
+		AP Cost	      	&  6				\\
+		Strain Cost     &  3			\\
+		Range     		&  Self	\\
+		Target      	&  Foes in Splash Template			\\
+		Area of Effect  &  See text	 			\\
+		Duration     	&  See text			\\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-\subsubsection*{Enchantments:}
-\begin{itemize}
-	\item \textbf{ [Armor] Poison Resistance enchantment:} Armor/Clothing grants Poison Resistance equal to [Spirit Power]*2.
-	\item \textbf{ [Armor] Toxicity enchantment:} Once per day upon command, all enemies in Large Splash Template, centered on you, are poisoned for [Spirit Power]/2 of turns. Poison effect is random.
-	
-	\item \textbf{ [Weapon] Toxicity enchantment:} The weapon infects the enemy with poison when hit, for [Spirit Power] number of turns.
-	
-	Cannot stack with itself.
-	
-	\item \textbf{ [Weapon] Corrosion enchantment:} Attacks made by this weapon ignore DT as follows:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = 1 DT Negation
-		\item Spirit Power 5-8 = 2 DT Negation
-		\item Spirit Power $>$9 = 3 DT Negation
-	\end{compactitem}
-	
-	If Item Condition rules are in effect, the target's armor condition may drop by 1 level if the target fails a LCK check. If the target has no armor, this effect doesn't apply.
-	
-\end{itemize}
+The caster charms an area around themselves that makes enemies in the area fearful of her and averse to attacking the caster in favor of other targets. Allies are protected from the effect of this spell.
 
-\subsubsection*{Spells:}
+This unique status effect causes the targets in range to have to roll END to get over the effect and attack the caster instead of being forced to move to the closest possible target available. 
 
-\smallskip
-\noindent
-\textbf{Miasma}
+The targets in range also cannot use Withdraw-action to move away from the caster; this allows the caster to use an Attack of Opportunity on the moving target if the requirements for AoO are otherwise met.
 
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& Spirit Power*4 meters		\\
-		Target      	& -							\\
-		Area of Effect  & Small Splash  	 			\\
-		Duration     	& Spirit Power Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster creates a poisonous gas cloud in a Small Splash Template, inflicting poison on a 1x [Spirit Power]*10 \% chance. The shaman decides what kind of poisonous effect the gas has. This poison cloud affects enemies and allies alike.
-
-The cloud can travel via wind, but only at a pace of 4 meters/2 hex per round.
-
-\bigskip
-\noindent
-\textbf{Toxic Friend}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Tiny Splash				\\
-		Target      	& 1 Target/Self				\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Spirit Power minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster blesses themselves or an ally with a silver tongue, with nefarious intents. The target of this spell gains a bonus to Diplomacy for the purpose of negatively influencing someone, the exact bonus depending on Spirit Power:
-
+The spell's strength depends on the caster's potency as follows: 
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	Tiny Splash, 2 turns
+		\item[10-19 Potency] 	Small Splash, 3 turns
+		\item[20+ Potency]  	Large Splash, 4 turns
+	\end{description}	
+\end{quote}
 \medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +10 Diplomacy
-	\item Spirit Power 5-8 = +20 Diplomacy
-	\item Spirit Power $>$9 = +30 Diplomacy
-\end{compactitem}
 
-Using this spell can lower Karma, if used for particularly evil acts.
+The effect of this spell is passive after casting, and doesn't interfere with casting other spells.
 
-\bigskip
-\noindent
-
-\pagebreak
-\textbf{Venom}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& Spirit Power*4 meters				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster coats a target in a toxic substance, possibly poisoning them with a 3x [Spirit Power]*10 \% chance. The poisoned enemy will lose 1 HP token each round at the start of their turn, for the duration of this spell. 
-
-The effect of this spell can be countered with Antidote and Potent Antidote.
-
-\bigskip 	
-
-\vfill
-
-\pagebreak
-
-\subsection*{Spirit of Riddles}
-\addcontentsline{toc}{subsection}{Spirit of Riddles}
+\subsubsection*{Eldritch Knives [CHA]}
+\addcontentsline{toc}{subsubsection}{Eldritch Knives [CHA]}
 % Table
 {
 	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
 		\hline
-		General Appearance		& A zebra with overly green stripes and green shabby suit. Speaks in rhyme	\\
-		General Personality	   	& Unpredictable, secretive, mischievous, smart-ass							\\
-		Values     				& Riddles, intellect, traps													\\
-		Resents     			& Obviousness, directness, cheating 										\\
-		Karma Standing      	& -10																		\\
-		Damage Type 			& Confusion: basic attack can cause Medium Distraction	 				\\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
-\subsubsection*{Enchantments:}
-
-\begin{itemize}
-	\item \textbf{ [Armor] Dazzle enchantment:} Any successful attack against the wearer causes the attacker to suffer from Major Distraction. Can be inflicted up to [Spirit Power] times per day.
-	\item \textbf{ [Weapon] Delirium enchantment:} Successful attacks with a weapon can cause Medium Distraction up to [Spirit Power] times per day.
-\end{itemize}
-
-\subsubsection*{Spells:}
-
-\smallskip
-\noindent
-\textbf{Compulsion}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& Spirit Power*4 meters				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power*2 minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-% Text
-Spell allows the caster to influence another creature, giving it commands that will alter its behavior. Controlling other beings is difficult, and as such the caster must state her intentions (verbally or silently) with as few words as possible, preferably short and to-the-point sentences. 
-
-Mechanically, this spell works just like the spell of the same name for Unicorns, except the target of the spell has to roll either CHA or END against the spell's effect, the penalty to said roll determined by Spirit Power as follows:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = -10 penalty
-	\item Spirit Power 5-8 = -20 penalty
-	\item Spirit Power $>$9 = -30 penalty
-\end{compactitem}
-
-
-\bigskip
-\noindent
-\textbf{Construe}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& -				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-%Gain a +10 to Medicine, Science or Thaumaturgy for the duration of the spell.
-
-The caster bestows an insight to solve complicated calculations, mysteries or riddles. The spell gives a bonus to the next Medicine, Science or Thaumaturgy roll, the exact bonus being determined by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +10 bonus
-	\item Spirit Power 5-8 = ´+20 bonus
-	\item Spirit Power $>$9 = +30 bonus
-\end{compactitem} 
-
-
-\bigskip
-\noindent
-\textbf{Jargon}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& Large Splash				\\
-		Target      	& Up to 5 targets		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power*10 minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Makes the user and their allies' speech sound gibberish or otherwise difficult to understand to outside people for the duration of the spell. The allies can communicate between each other without issue.
-
-Outsiders can decipher the speech with a successful INT roll, penalty of which is determined by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = -10 penalty
-	\item Spirit Power 5-8 = -20 penalty
-	\item Spirit Power $>$9 = -30 penalty
-\end{compactitem}
-
-\bigskip
-\noindent
-\textbf{Trap Defense}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 10 						\\
-		Range     		& Small Splash				\\
-		Target      	& -		\\
-		Area of Effect  & Line, [Spirit Power]*2 meters  	 			\\
-		Duration     	& [Spirit Power]/2 rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-By uttering a word of their choice, the caster creates a row of ethereal mines. This row can either start or pass through an area within 4 meters (2 hexes) from the caster, with one mine every 2 meters (1 hex).
-
-The enemy may try to spot the mines before stepping through the area with a PER -2 roll.
-
-Each mine has the stats of a frag grenade [3+(3)], with Tiny Splash radius.
-
-If the space the spell is used in is too narrow to accommodate all the mines one could put down, the excess mines are discarded. For example, if a corridor is 10 meters (5 hexes) wide, and the shaman can put down 6 mines, only 5 mines appear to fill the corridor in a row.
-
-\bigskip   
-\vfill
-
-\pagebreak
-\subsection*{Spirit of Waves}
-\addcontentsline{toc}{subsection}{Spirit of Waves}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
-		\hline
-		General Appearance		& A whirling torrent of water with a vaguely equine figure inside		\\
-		General Personality	   	& Vicious when angered, generous, fickle								\\
-		Values     				& Exploring, courage, healing, quick thinking							\\
-		Resents     			& Cowardice, indecisiveness, greed 										\\
-		Karma Standing      	& +30																	\\
-		Damage Type 			& Water: basic attack deals cold DMG, may cause Freezing	 				\\ \hline
+		Spirit         & Trust (CHA) \\
+		AP Cost        & 8           \\
+		Strain Cost    & 3           \\
+		Range          & Potency*2 m \\
+		Target         & 1 Target    \\
+		Area of Effect & -           \\
+		Duration       & Instant     \\ \hline
 	\end{tabu}
 	
 }
 
 \medskip
 
-\subsubsection*{Enchantments:}
+Conjure a swarm of magical knives that are thrown against the target.
 
-\begin{itemize}
-	\item \textbf{ [Armor] Cold enchantment:} Armor/Clothing may inflict Freezing to melee attackers who successfully hit the wearer, for [Spirit Power] of attacks made against the wearer per day.
-	\item \textbf{ [Armor] Heat Resistance enchantment:} Armor/Clothing grants DT against fire equal to the following:
-	\begin{compactitem}
-		\item Spirit Power $<$4 = +2 DT
-		\item Spirit Power 5-8 = +3 DT
-		\item Spirit Power $>$9 = +4 DT
-	\end{compactitem}
-	\item \textbf{ [Weapon] Cold enchantment:} Weapon is considered to deal cold damage, and may inflict Freezing -status effect on a successful hit. Against targets with Freezing -status effect, the weapon gains additional [Spirit Power] damage dice.
-	\item \textbf{ [Weapon] Clearness enchantment:} For [Spirit Power]/2 times per day, the attacks made with the weapon ignore all Visibility penalties.
-\end{itemize}
+The caster summons a swarm of magical blades out of thin air, directing them against a single opponent which she can see. Eldritch Knives ignore the \textit{Shield-spell} entirely.
 
-\newpage
-\subsubsection*{Spells:}
-
-\smallskip
-\noindent
-\textbf{Waterbreathing}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 						\\
-		Range     		& Touch				\\
-		Target      	& 1 / self		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& [Spirit Power]*2 minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-% Text
-Allows the caster or the target to breathe underwater for the duration of the spell.
-
-\bigskip
-\noindent
-\textbf{Ice Pillar}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 10 						\\
-		Range     		& Large Splash				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& [Spirit Power] turns		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-% Text
-A sharp ice pillar bursts from the ground, dealing 2+(2) amount of damage to an enemy standing over it. The force of the erecting pillar sends the enemy flying afterwards, moving them 4 meters (2 Hexes) into a random direction.
-
-Spirit Power provides additional damage to the initial attack:
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +0 DMG
-	\item Spirit Power 5-8 = +2 DMG
-	\item Spirit Power $>$9 = +4 DMG
-\end{compactitem}
-
-After appearing, the pillar occupies the area it spawned on and can be used for Partial Cover and has 1 DT. It remains on the area for the rest of the spell's duration. In a hot environment, duration will shorten to 1 turn.
-
-
-\bigskip
-\newpage
-\noindent
-\textbf{Shivers}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& [Spirit Power]*2 meters				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& [Spirit Power]/2 turns		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-% Text
-Causes the target to shiver as if they were exposed to cold, giving them a Minor Distraction for the duration of the spell.
-
-\bigskip
-\noindent
-\textbf{Waterjet}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& Small Splash				\\
-		Target      	& 1		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-% Text
-Shoots a torrent of water out of the Rune or Spirit Prison, pushing back the target for [Spirit Power]*2 meters while dealing 1+(2) damage. Spirit Power adds more damage to the torrent as follows:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +(0) DMG
-	\item Spirit Power 5-8 = +(2) DMG
-	\item Spirit Power $>$9 = +(4) DMG
-\end{compactitem}
-
-Both the caster and enemy make an opposed STR roll. If the enemy is successful, the caster is moved instead. However, the enemy is still damaged as normal.
-
-\bigskip	
-
-\pagebreak
-\subsection*{Spirit of Whispers}
-\addcontentsline{toc}{subsection}{Spirit of Whispers}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
-		\hline
-		General Appearance		& A silver shrouded figure in a cloak, noticeably frail in appearance	\\
-		General Personality	   	& Secretive, quiet, chaotic, mischievous								\\
-		Values     				& Secrets, quick thinking, confidence, good luck						\\
-		Resents     			& Brawn, honesty, over-careful planning, self-doubt 					\\
-		Karma Standing      	& 0																		\\
-		Damage Type 			& Taunt: basic attack can cause Enraged	 								\\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
-
-\subsubsection*{Enchantments:}
-
-\begin{itemize}
-	\item \textbf{ [Armor] Shroud enchantment:} Provides [Spirit Power]*2 bonus to Sneak attempts.
-	\item \textbf{ [Armor] Bootleg enchantment:} Armor gives a [Spirit Power]*2 bonus to Barter when trying to sell one's items.
-	\item \textbf{ [Weapon] Silencer enchantment:} The enchantment negates [Spirit Power]*2 amount of penalties to Sneak rolls after a Surprise or Sneak Attack.
-	
-	\item \textbf{ [Weapon] Frenzy enchantment:} Upon a successful hit for [Spirit Power] times per day, the weapon may inflict Mind Controlled -status effect on the target.
-\end{itemize}
-
-\vfill
-\subsubsection*{Spells:}
-
-\smallskip
-\noindent
-\textbf{Forced Speak/Quiet}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 4 						\\
-		Range     		& Touch				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power minutes		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster magically forces a creature to either speak or remain silent for the duration of this spell. The target of this spell can attempt an Opposed CHA or END roll to attempt to resist the spell once per round in combat and once per minute outside of combat. The exact penalty on the target's roll is determined by the Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = -10 penalty
-	\item Spirit Power 5-8 = -20 penalty
-	\item Spirit Power $>$9 = -30 penalty
-\end{compactitem}
-
-If the target manages to resist the effect of this spell, they gain an immunity to this spell for an hour.
-
-When used to interrogate, this spell does \textbf{not} compel the target to tell the truth, just that they are magically compelled to speak.
-
-\bigskip
-\noindent
-\textbf{Phantasmagoria}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& Spirit Power meters				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Varies		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster alters the chemical balance of the target's brain, giving them subtle auditory or visual hallucinations that distrupt the target when they attack. When the target attempts to attack, they have to roll LCK to see if their target hit the intended target rather than a hallucination. The duration is dependent on Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 2 turns
-	\item Spirit Power 5-8 = 3 turns
-	\item Spirit Power $>$9 = 4 turns
-\end{compactitem}
-
-
-\bigskip
-\noindent
-\textbf{Shuteye}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& Large Splash				\\
-		Target      	& 1 Target		\\
-		Area of Effect  & -  	 			\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-This spell forces the target to fall asleep for the duration of this spell in combat. Outside of combat, GM can dictate the appropriate amount the target is asleep. If the target is attacked, they will startle awake and suffer a minor distraction for their next turn. 
-
-Target can try to resist this spell with an END roll with a penalty dictated by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 0 penalty
-	\item Spirit Power 5-8 = -10 penalty
-	\item Spirit Power $>$9 = -20 penalty
-\end{compactitem}
-
-\bigskip
-\noindent
-\textbf{Thrown Voice}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 3 						\\
-		Range     		& Spirit Power*2 meters				\\
-		Target      	& -		\\
-		Area of Effect  & Large Splash  	 			\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-The caster creates a sound, dictated by the caster, and throws it forward. Any enemies within Large Splash Template from where the sound happened gain a Minor distraction for duration dictated by Spirit Power:
-
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = 2 rounds
-	\item Spirit Power 5-8 = 3 rounds
-	\item Spirit Power $>$9 = 4 rounds
-\end{compactitem}
-
-\bigskip
-\vfill
-\pagebreak
-\subsection*{Spirit of Winds}
-\addcontentsline{toc}{subsection}{Spirit of Winds}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
-		\hline
-		General Appearance		& A wispy, light-colored griffon that occasionally disappears from sight		\\
-		General Personality	   	& Playful, shy and occasionally mischievous		\\
-		Values     				& Freedom, Wanderlust, a good prank		\\
-		Resents     			& Obstruct of freedom, stagnation, seriousness 		\\
-		Karma Standing      	& 0		\\
-		Damage Type 			& Wind: basic attack knocks enemies back 2m (1 hex)	 	\\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
-
-\subsubsection*{Enchantments:}
-
-\begin{compactitem}
-	\item \textbf{ [Armor] Tornado enchantment:} Armor/Clothes causes Minor Distraction on Small Splash Template centered on wearer [Spirit Power] times per day.
-	\item \textbf{ [Armor] Gliding enchantment:} Wearer may ignore the 1 extra AP cost of Difficult terrain for [Spirit Power] times per day.
-	\item \textbf{ [Armor] Swiftness enchantment:} Wearer gains extra 2 meters (1 hex) in jumping distance for [Spirit Power] times per day.
-	\item \textbf{ [Weapon] Gale enchantment:} Successful attack has a 50 \% chance of causing the target to get knocked prone.
-\end{compactitem}
-
-%\newpage
-\subsubsection*{Spells:}
-
-%\smallskip
-\noindent
-\textbf{Terror}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 6 						\\
-		Range     		& Small Splash				\\
-		Target      	& 1 Target					\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Spirit Power/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Ghostly wind twirls around the target, greating ghastly imagery and sounds and giving the target a Medium Distraction for the duration of this spell. This spell doesn't stack with itself.
-
-\bigskip
-\noindent
-\textbf{Wind Shield}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5 						\\
-		Range     		& -							\\
-		Target      	& Self						\\
-		Area of Effect  & -  	 					\\
-		Duration     	& 3 Rounds		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-A gust of magical air surrounds the caster, protecting them from magical attacks, explosives and MEW damage. This spell gives the caster additional DT against magic, explosives or MEWs for the duration of this spell as dictated by Spirit Power:
-\medskip
-\begin{compactitem}
-	\item Spirit Power $<$4 = +1 DT
-	\item Spirit Power 5-8 = +2 DT
-	\item Spirit Power $>$9 = +3 DT
-\end{compactitem}
-
-
-
-\bigskip
-\noindent
-\textbf{Gale Discus}
-
-\smallskip
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
-		\hline
-		AP Cost	      	& 5						\\
-		Range     		& Large Splash				\\
-		Target      	& -							\\
-		Area of Effect  & -  	 					\\
-		Duration     	& Instant		\\ \hline
-	\end{tabu}
-	
-}
-\smallskip
-
-Caster summons a barrage of barely visible disks to hurl at an enemy. These disks ignore \textit{Dodge-combat action}, and the attack is considered a Burst attack. The hail of discs deals 2+(4) in damage, with Spirit Power determining the amount of additional dice this attack gets:
+The attack with the blades is considered a Burst attack. The hail of blades deals 2+(4) in damage, with Potency determining the amount of additional dice this attack gets:
 
 \begin{quote}
 	\begin{description}
@@ -7671,12 +6608,1655 @@ Caster summons a barrage of barely visible disks to hurl at an enemy. These disk
 	\end{description}
 \end{quote}
 
-\bigskip
+
+\subsubsection*{Engineer's Inspiration [INT]}
+\addcontentsline{toc}{subsubsection}{Engineer's Inspiration [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Machines (INT) \\
+		AP Cost        & 4              \\
+		Strain Cost    & 2              \\
+		Range          & Touch          \\
+		Target         & 1 Target/self  \\
+		Area of Effect & -              \\
+		Duration       & Instant        \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster bestows an inspiration to fare better with one task. The spell gives a bonus to the next Mechanics, Lockpick or Survival roll, the exact bonus being determined by their Potency:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+10 bonus
+		\item[10-19 Potency] 	+20 bonus
+		\item[20+ Potency] 	    +30 bonus
+	\end{description}
+\end{quote}
+
+\subsubsection*{Enhancement [CHA]}
+\addcontentsline{toc}{subsubsection}{Enhancement [CHA]}
+% table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		School 			& Trust (CHA) 		\\
+		AP Cost	      	& 6 					\\
+		Strain Cost     & 2 					\\
+		Range     		& Potency*2 m			\\
+		Target      	& 1 Target				\\
+		Area of Effect  & -  	 				\\
+		Duration     	& Potency minutes 		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Boosts the SPECIAL stats of the target.
+
+The target of the spell has her physical or mental capabilities boosted for a period of time.
+
+The caster chooses one SPECIAL stat to boost, excluding LCK. Said stat gains a bonus of 2 for Potency minutes. A target may benefit from only one SPECIAL bonus from Enhancement at a time.
+
+Outside of combat, this spell can be used to heal SPECIAL damage, with caster's Potency determining the maximum amount of healed SPECIAL penalties. Permanently healing a target adds +3 to Strain cost. Multiple SPECIALs can be healed simultaneously, such as healing 1 point of STR damage, and 2 points of AGI damage. Critical success on the spell's Thaumaturgy roll allows 1 additional point of SPECIAL damage to be healed.
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 SPECIAL point
+		\item[10-19 Potency] 	2 SPECIAL points
+		\item[20+ Potency] 		3 SPECIAL points
+	\end{description}	
+\end{quote}
+
+\textbf{Note:} SPECIAL loss from Sleep Deprivation, Hunger and Thirst are not affected by this spell. SPECIAL loss from Radiation cannot be taken away permanently with this spell, but can be removed for the duration of the spell, after which the effects return.
+
+\subsubsection*{Fire Wheel [AGI]}
+\addcontentsline{toc}{subsubsection}{Fire Wheel [AGI])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		School 			&  Fire (AGI)			\\
+		AP Cost	      	&  7					\\
+		Strain Cost     &  3					\\
+		Range     		&  Huge Splash		\\
+		Target      	&  -					\\
+		Area of Effect  &  -	 				\\
+		Duration     	&  4 rounds		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster conjures up a burning wheel within the range of the spell, that she can control at-will. The wheel can move on the battlefield as the caster wishes, for a maximum of 6 hexes per turn. Commanding the wheel does not spend AP or Strain. 
+
+Any characters this wheel rams into must make an Opposed roll of caster's AGI versus the target's END to see if they fall prone and are burnt by the wheel. If the caster wins, the target takes Fire damage according to the caster's Potency and suffers a Burning status effect.
+
+%		\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2+(2) DMG
+		\item[10-19 Potency] 	3+(3) DMG
+		\item[20+ Potency]  	4+(4) DMG
+	\end{description}	
+\end{quote}
+%	\medskip
+
+After the spell ends, the wheel disappears in a puff of smoke.
+
+\subsubsection*{Fireball [AGI]}
+\addcontentsline{toc}{subsubsection}{Fireball [AGI])}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		School         & Fire (AGI)       \\
+		AP Cost        & 4 AP             \\
+		Strain Cost    & 2                \\
+		Range          & Potency*4 meters \\
+		Target         & AoE              \\
+		Area of Effect & Small Splash     \\
+		Duration       & 4 Rounds         \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+A fiery projectile that deals damage to everything in s Small Splash Template, and sets the area on fire for 4 Rounds. Anyone who gets hit or steps into this fire have to roll END to resist getting a Burning- status effect.
+
+The fireball deals 1+(4) damage on the targets upon impact, and 1+(2) damage for foes that step into the fire afterwards. Potency provides additional damage: 
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+1 DMG
+		\item[10-19 Potency] 	+2 DMG
+		\item[20+ Potency]  	+3 DMG
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Friendly Critter's Help [END]}
+\addcontentsline{toc}{subsubsection}{Friendly Critter's Help [END]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Nature (END) 		\\
+		AP Cost	      	& 8						\\
+		Strain Cost     & 4 					\\
+		Range     		& Self 					\\
+		Target      	& -						\\
+		Area of Effect  & -  	 				\\
+		Duration     	& Potency rounds 		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+A wasteland critter comes to the caster's aid.
+
+The caster has a bond with the surrounding wilds through the Spirit of Nature, able to call help from it by concentrating. However, the caster cannot directly determine what kind of critter will come to her aid.
+
+Upon casting the spell, the GM allows one monster (animal, plant, or insect) from the Monster Manual or his own creation to join the caster's side, which then follows simple commands of the caster for the duration of the spell. If the creature is still present after the effect of the spell ends, it resumes its normal routines - it may walk off or turn hostile, for instance.  
+
+If the caster has the \textit{Fluttershy's Apostle -perk}, the non-sentient creatures that appear with the use of this spell will not turn hostile unless injured. Likewise, non-sentients summoned with this spell do not adhere to the restrictions of the beforementioned perk.
+
+Note: Robots, abominations, or sentient creatures do not heed the call of the caster.
+
+\subsubsection*{Golden Glow [AGI]}
+\addcontentsline{toc}{subsubsection}{Golden Glow [AGI])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			&  Embers (AGI)			\\
+		AP Cost	      	&  4					\\
+		Strain Cost     &  2					\\
+		Range     		&  Potency*2 meters		\\
+		Target      	&  -					\\
+		Area of Effect  &  Small Splash	 		\\
+		Duration     	&  Instant				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster creates a bright, tiny ball of fire that explodes with a sparkling, glittery fallout that can cause Blinded -status and Minor Distraction on all within a Small Splash Template of the detonation.
+
+Targets within the area can resist the effect of the spell with a PER -2 roll. Critical Success on the Thaumaturgy roll makes the Minor Distraction into a Medium Distraction instead.
+
+\subsubsection*{Guiding Light [AGI]}
+\addcontentsline{toc}{subsubsection}{Guiding Light [AGI])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		School 			&  Embers (AGI)			\\
+		AP Cost	      	&  3					\\
+		Strain Cost     &  1					\\
+		Range     		&  Touch/None			\\
+		Target      	&  See text				\\
+		Area of Effect  &  -	 				\\
+		Duration     	&  24 hours				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster determines a connection with persons, places, or items of their choosing, and when activating this spell, a ghostly trail of fire will show caster the way to that person, place, or item and vice versa. The number of targets the spell can be connected to depends on the caster's Potency as follows:
+
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	3
+		\item[10-19 Potency] 	6
+		\item[20+ Potency]  	9
+	\end{description}	
+\end{quote}
+%	\medskip
+
+In order to forge a connection to the target, the caster must touch the target with her horn while this spell is active. If the caster wants to add a new connection when their allowed amount is full, they have to discard an older connection. Once the connection has been set, there is no limit in range for the trail to be visible.
+
+The ghostly fire trail is only visible to the caster and the connected person, and no one else. The ghostly fire is not visible to unconscious or resting targets/caster and does not interfere with resting.
+
+The fire trail is cool to touch, and burns in the color of the caster's magic aura.
 
 
+\subsubsection*{Healing Surge [END]}
+\addcontentsline{toc}{subsubsection}{Healing Surge [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END)          \\
+		AP Cost        & 5                     \\
+		Strain Cost    & 2                     \\
+		Range          & Potency*4 meters \\
+		Target         & All                   \\
+		Area of Effect & Small Splash          \\
+		Duration       & Instant               \\ \hline
+	\end{tabu}
+	
+}
+\smallskip
+
+The caster sends out a wave of healing energy around them that heals everyone within Small Splash Template. 
+
+This spell targets everyone in range, friend or foe with HP determined by the Potency as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2 HP
+		\item[10-19 Potency] 	3 HP
+		\item[20+ Potency]  	4 HP
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Hypnosis [CHA]}
+\addcontentsline{toc}{subsubsection}{Hypnosis [CHA])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA)  \\
+		AP Cost        & 5               \\
+		Strain Cost    & 3               \\
+		Range          & Large Splash    \\
+		Target         & See text        \\
+		Area of Effect & -               \\
+		Duration       & Potency/3 turns \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster casts an Opposed roll of Thaumaturgy vs. INT against their target. If successful, the Spirit's force causes the target to gain Mind Control -status effect for Potency/3 turns. The spell's range is a Large Splash Template centered on the caster. 
+
+When outside of battle, the mind-controlled character can be given simple orders. The target's speech turns monotone and robotic, and the character's allies can roll PER to notice something off with their friend.
+
+The maximum number of targets affected depends on the caster's Potency as such:
+
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 target
+		\item[10-19 Potency] 	2 targets
+		\item[20+ Potency]  	3 targets
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Ice Pillar [END]}
+\addcontentsline{toc}{subsubsection}{Ice Pillar [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Streams (END)       \\
+		AP Cost        & 10                   \\
+		Strain Cost    & 4                    \\
+		Range          & Large Splash         \\
+		Target         & 1                    \\
+		Area of Effect & -                    \\
+		Duration       & Potency turns \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+% Text
+A sharp ice pillar bursts from the ground, dealing 2+(2) amount of damage to an enemy standing over it. The force of the erecting pillar sends the enemy flying afterwards, moving them 4 meters (2 Hexes) into a random direction.
+
+Potency provides additional damage to the initial attack:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+0 DMG
+		\item[10-19 Potency] 	+2 DMG
+		\item[20+ Potency]  	+4 DMG
+	\end{description}	
+\end{quote}
+
+After appearing, the pillar occupies the area it spawned on and can be used for Partial Cover and has 1 DT. It remains on the area for the rest of the spell's duration. In a hot environment, duration will shorten to 1 turn.
 
 
+\subsubsection*{Ignite [AGI]}
+\addcontentsline{toc}{subsubsection}{Ignite [AGI]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Embers (AGI)     \\
+		AP Cost        & 3                \\
+		Strain Cost    & 1                \\
+		Range          & Potency*4 meters \\
+		Target         & 1 Target         \\
+		Area of Effect & -                \\
+		Duration       & 3 rounds         \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+Ignites the target aflame, and the target has to roll END to resist the resulting Burning-status. In addition, this spell causes, upon successful hit, a Minor Distraction for the duration of the spell. Potency provides a penalty to the target's END roll as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	-1 END
+		\item[10-19 Potency] 	-2 END
+		\item[20+ Potency]  	-3 END
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Inner Fire [AGI]}
+\addcontentsline{toc}{subsubsection}{Inner Fire [AGI])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			&  Embers (AGI)			\\
+		AP Cost	      	&  3					\\
+		Strain Cost     &  4					\\
+		Range     		&  -					\\
+		Target      	&  Self					\\
+		Area of Effect  &  Small Splash	 		\\
+		Duration     	&  Potency/4 hours		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster enchants their body to produce heat around them, essentially becoming a walking campfire, without being burning to the touch. Characters, including caster, in a Small Splash Template take half damage from Long Term Exposure to cold for the duration of this spell. They still take SPECIAL damage as normal.
+
+\subsubsection*{Invisibility [CHA]}
+\addcontentsline{toc}{subsubsection}{Invisibility [CHA]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA) \\
+		AP Cost        & 7              \\
+		Strain Cost    & 3              \\
+		Range          & Touch          \\
+		Target         & 1              \\
+		Area of Effect & -              \\
+		Duration       & Potency rounds \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Makes the target invisible for a short duration.
+
+The target of the spell is surrounded by a magical aura, rendering her completely invisible to others for a moment. If anyone tries to see or hit the target of Invisibility spell, they suffer PER penalty and Visibility penalty of 50, respectively. Locating the invisible entity is possible with other senses provided they create large enough sensory stimuli, such as knocking a can over or having a strong odor.
+
+\subsubsection*{Life Surge [INT]}
+\addcontentsline{toc}{subsubsection}{Life Surge [INT]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Shadows (INT) 		\\
+		AP Cost	      	& 10 					\\
+		Strain Cost     & 3 					\\
+		Range     		& Potency*2 m			\\
+		Target      	& 1						\\
+		Area of Effect  & -  	 				\\
+		Duration     	& Instant				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Take the life force of another for yourself.
+
+The spirit aura of the caster envelopes the target briefly, leeching the life force from the latter to the former.
+
+The caster deals damage to the target equal to 1 + (2) and regains HP equal to HP loss inflicted. Target's DT applies, and excess HP healed is not stored. Potency determines additional damage dealt, as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+0 Die
+		\item[10-19 Potency] 	+1 Dice
+		\item[20+ Potency] 		+1 Base, +1 Dice
+	\end{description}	
+\end{quote}
+
+If the target would go to or below 0 HP due the spell, they fall unconscious at 1 HP for 5 rounds and cannot be the target of Life Surge until healed.
+
+This spell has a 70\% chance to inflict Insanity on the caster.
+
+\subsubsection*{Lightning Strike [END]}
+\addcontentsline{toc}{subsubsection}{Lightning Strike [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END)          \\
+		AP Cost        & 6 AP                  \\
+		Strain Cost    & 3                     \\
+		Range          & Spirit Power*4 meters \\
+		Target         & 1 Target              \\
+		Area of Effect & -                     \\
+		Duration       & Instant               \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster summons a lightning strike down their enemy. The bolt of lightning deals 2+(2) damage. Upon successful hit, it can cause a Stun- status effect on the target as well, with an END-roll to resist.
+
+Potency adds additional damage to the strike as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+0 DMG
+		\item[10-19 Potency] 	+1 DMG
+		\item[20+ Potency]  	+2 DMG
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Magical Fireworks [PER]}
+\addcontentsline{toc}{subsubsection}{Magical Fireworks [PER]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Serenity (PER) 		\\
+		AP Cost	      	& 6 					\\
+		Strain Cost     & 2 					\\
+		Range     		& Potency*4	m			\\
+		Target      	& AoE					\\
+		Area of Effect  & Small Splash  	 		\\
+		Duration     	& 1 Round				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Creates a blinding light show with noise, causing a distraction in an area.
+
+The caster conjures a dazzling display of spirit-made fireworks, crackers and cherry-bombs in an area of her choosing, thus creating a distracting event for anyone within Small Splash Template of the location.
+
+Any creature caught in the Area of Effect suffer \textbf{Moderate Distraction} penalty for 2 rounds.
+
+\subsubsection*{Metal Barrier [INT]}
+\addcontentsline{toc}{subsubsection}{Metal Barrier [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Machines (INT)   \\
+		AP Cost        & 8                \\
+		Strain Cost    & 4                \\
+		Range          & Huge Splash      \\
+		Target         & -                \\
+		Area of Effect & -                \\
+		Duration       & Potency/2 rounds \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+A cluster of scrap gets drawn forth by the spirit, from the surroundings or from the ground, to block off an area. The cluster acts as a Total Cover (-30 Attack penalty), and fully occupies the area. Any creature on affected area has to succeed in AGI roll to move to any nearby free space or become Pinned on the affected area. 
+
+The barrier's size is equal to a number of 2x2x2 meter blocks (1 hex), determined by Potency as follows: 
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2
+		\item[10-19 Potency] 	4
+		\item[20+ Potency]  	6
+	\end{description}	
+\end{quote}
+
+These can be assembled as desired within range, including separate from each other. Any obstacle formed by the spell has 3 DT. The barrier disappears from the area after Potency/2 number of turns.
 
 
+\subsubsection*{Natural Protection [END]}
+\addcontentsline{toc}{subsubsection}{Natural Protection [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END)      \\
+		AP Cost        & 8                 \\
+		Strain Cost    & 4                 \\
+		Range          & -                 \\
+		Target         & Self              \\
+		Area of Effect & Large Splash      \\
+		Duration       & Potency*2 minutes \\ \hline
+	\end{tabu}
+	
+}
+\medskip
 
+The spirit of nature surges from the shaman's rune and forms a very thin shield around the affected, protecting them from the harmful arcane energies that now plague the land.
+
+Upon casting, the caster and all those in Large Splash Template from her gain additional Rad Resistance, determined by the caster's Potency for the duration of the spell. 
+
+The Rad Resistance increase is determined as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+10\%
+		\item[10-19 Potency] 	+20\%
+		\item[20+ Potency]  	+30\%
+	\end{description}	
+\end{quote}
+
+
+\subsubsection*{Night Vision [PER]}
+\addcontentsline{toc}{subsubsection}{Night Vision [PER]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Serenity (PER)  \\
+		AP Cost        & 3               \\
+		Strain Cost    & 1               \\
+		Range          & -               \\
+		Target         & Self            \\
+		Area of Effect & -               \\
+		Duration       & Potency minutes \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit provides enhanced vision in the dark for the shaman, not unlike that of a night animal.
+
+This spell allows caster to see as well during the night as they would during the day, for duration of Potency minutes, removing any penalties the caster would get from dim light, darkness and total darkness. 
+
+If there is a sudden change in light to the brighter status, the user gains a Medium Distraction.
+
+\subsubsection*{Organize [INT]}
+\addcontentsline{toc}{subsubsection}{Organize [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Machines (INT)  \\
+		AP Cost        & 3               \\
+		Strain Cost    & 1               \\
+		Range          & Touch               \\
+		Target         & 1 Target           \\
+		Area of Effect & -               \\
+		Duration       & 24 hours \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+This spell allows quick access to character's inventory, the spirit of machines spring cleaning the target's inventory into a neat, categorized and quick to use space. For those with ill intent, it actively hinders the process of pilfering items. 
+
+For the duration of the day, any items taken from inventory by the spell's target will have a lowered AP cost, as determined by caster's Potency. In addition, items in the target's inventory become slightly resistant to stealing, giving a character who attempts to steal from the target of this spell a -10 penalty on Sleight.
+
+The AP cost of Ready Item from inventory is determined as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	5 AP
+		\item[10-19 Potency] 	4 AP
+		\item[20+ Potency]  	3 AP
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Petrify [END]}
+\addcontentsline{toc}{subsubsection}{Petrify [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END)          \\
+		AP Cost        & 4                     \\
+		Strain Cost    & 2                     \\
+		Range          & Large Splash          \\
+		Target         & 1 Target              \\
+		Area of Effect & -                     \\
+		Duration       & Potency/2 Rounds \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The target of this spell is petrified for a period of time, unable to act and are considered unconscious. Once per turn, the petrified target can use an Opposed END roll to break out of the petrified status. 
+
+Re-casting this spell on the petrified target also breaks the spell put on them, as does Unicorn's \textit{Failsafe-spell} or \textit{Petrify-spell}.
+
+\subsubsection*{Phantom Lantern}
+\addcontentsline{toc}{subsubsection}{Phantom Lantern)}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Incantation (Any SPECIAL) \\
+		AP Cost        & 3                         \\
+		Strain Cost    & 2                         \\
+		Range          & -                         \\
+		Target         & Allies                    \\
+		Area of Effect & Large Splash              \\
+		Duration       & Potency minutes           \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster conjures up a slightly grim-looking ghostly lantern filled with a pale blue light. This light from the lantern is only visible to the caster and their allies, and invisible to others. The lantern hovers in air, about shoulder height of a regular pony, and moves according to the caster.
+
+The Phantom Lantern illuminates dark areas as if they were in bright daylight, removing visibility penalties from a Large Splash Template, which is centered on caster.
+
+\subsubsection*{Phase [CHA]}
+\addcontentsline{toc}{subsubsection}{Phase [CHA]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA) \\
+		AP Cost        & 8                   \\
+		Strain Cost    & 3                   \\
+		Range          & -         \\
+		Target         & Self            \\
+		Area of Effect & -                   \\
+		Duration       & Varies              \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster becomes phased between two dimensions - this and the spirit realm - making them intangible.
+
+Upon casting Phase, the caster phases out of the current dimension with only a faint outline of them being left behind. They are able to step through solid objects for the duration of the spell, and they only take damage from magical attacks, such as Arcane Blast and MEWs.
+
+This spell does not turn the caster invisible, but they become ethereal, which gives them a bonus of +10 on Sneak.
+
+The spell's duration is determined by the caster's Potency as follows, and has different duration for inside and outside of combat.
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2 rounds, 2 min
+		\item[10-19 Potency] 	4 rounds, 4 min
+		\item[20+ Potency] 		6 rounds, 6 min
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Phoenix Touch [AGI]}
+\addcontentsline{toc}{subsubsection}{Phoenix Touch [AGI])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Embers (AGI) \\
+		AP Cost        & 3            \\
+		Strain Cost    & 5            \\
+		Range          & Touch        \\
+		Target         & 1 Target     \\
+		Area of Effect & -            \\
+		Duration       & See text     \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+A bright flame emerges from the shaman's hooves and spreads over the target, washing the target in a non-burning fire. The target recovers HP for a period of time determined by the caster's Potency as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+1 HP, 3 rounds
+		\item[10-19 Potency] 	+1 HP, 5 rounds
+		\item[20+ Potency] 		+2 HP, 4 rounds
+	\end{description}	
+\end{quote}
+
+In addition, this spell brings a Dying character onto 1 HP immediately without having to roll an effect from a Pain Threshold. An Unconscious but not Dying character will be roused from their unconsciousness with this spell.
+
+\subsubsection*{Pocket Sand [END]}
+\addcontentsline{toc}{subsubsection}{Pocket Sand [END]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END) \\
+		AP Cost        & 3            \\
+		Strain Cost    & 2            \\
+		Range          & Potency*2 m  \\
+		Target         & 1 Target     \\
+		Area of Effect & -            \\
+		Duration       & 5 rounds     \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit dashes against the target before turning into a cloud of sand, causing a distraction and slight discomfort.
+
+The target of the spell gains Medium Distraction penalty to all attacks, against any target, if they fail an AGI check.
+
+\subsubsection*{Power of Friendship}
+\addcontentsline{toc}{subsubsection}{Power of Friendship}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Trust (CHA)    \\
+		AP Cost        & 6              \\
+		Strain Cost    & 3              \\
+		Range          & Potency*4 m    \\
+		Target         & Up to 4 allies \\
+		Area of Effect & -              \\
+		Duration       & Potency rounds \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The next single-target healing or protective spell has its effect shared amongst caster's friends.
+
+This spell will modify the effect of the next Healing or Protective spell's effect. The caster's next single-target healing or protective spell will instead affect all of the targets of Power of Friendship. The spell remains active for Potency rounds or until a qualifying spell is cast.
+
+\subsubsection*{Prismatic Coat [PER]}
+\addcontentsline{toc}{subsubsection}{Prismatic Coat [PER])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Serenity (PER)   \\
+		AP Cost        & 4                \\
+		Strain Cost    & 2                \\
+		Range          & Potency*2 meters \\
+		Target         & 1 Target         \\
+		Area of Effect & -                \\
+		Duration       & 3 Turns          \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster's spirit encases a target in a veil of prismatic energy of their choosing, granting them boons depending on the element they chose.
+
+\begin{compactitem}
+	\item \textbf{Fire:} Gain +1 END against Burning, and +1 DT against Fire dmg.
+	\item \textbf{Ice:} Gain +1 END against Freezing and +1 DT against Cold dmg.
+	\item \textbf{Electric:} Gain +1 END against Stun, and +1 DT against electric damage
+	\item \textbf{Earth:} Gain +1 END against Bleeding and Petrified.
+\end{compactitem}
+
+\subsubsection*{Prismatic Strike [PER]}
+\addcontentsline{toc}{subsubsection}{Prismatic Strike [PER])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Serenity (PER)   \\
+		AP Cost        & 6                \\
+		Strain Cost    & 3                \\
+		Range          & Potency*2 meters \\
+		Target         & -                \\
+		Area of Effect & See text         \\
+		Duration       & Instant          \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+This spell bursts forth from the shaman's spirit as a brilliant rainbow of light, smashing onto their target in a great arc and damaging besides the target in the middle, also any enemies near the target. The spell deals both HP damage and Strain damage.
+
+The spell deals 2+(3) damage, with the center taking full damage and any enemies surrounding them within the area take half of the damage inflicted. In addition, the center enemy will lose Strain according to the amount rolled with a die. What die is rolled to determine Strain loss depends on the caster's Potency.
+
+The die used to roll for Strain damage, and the Area of Effect of the spell depend on potency, and are as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	Tiny Splash area, 1d4 Strain dmg
+		\item[10-19 Potency] 	Small Splash area, 1d6 Strain dmg
+		\item[20+ Potency] 		Large Splash area, 1d8 Strain dmg
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Purification [END]}
+\addcontentsline{toc}{subsubsection}{Purification [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END) \\
+		AP Cost        & 3            \\
+		Strain Cost    & 1            \\
+		Range          & -            \\
+		Target         & See text     \\
+		Area of Effect & -            \\
+		Duration       & 24 hours     \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster purifies small amounts of food or drink free from radiation per day. The amount is determined by Potency as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	5 items
+		\item[10-19 Potency] 	10 items
+		\item[20+ Potency] 		15 items
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Razzle Dazzle [PER]}
+\addcontentsline{toc}{subsubsection}{Razzle Dazzle [PER])}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Serenity (PER)        \\
+		AP Cost        & 5                     \\
+		Strain Cost    & 2                     \\
+		Range          & Potency*4 m           \\
+		Target         & AoE                   \\
+		Area of Effect & Small Splash Template \\
+		Duration       & 4 Rounds              \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster creates a sparkling cloud in a Small Splash Template, within the range of Potency*4 meters. Creatures, both friend and foe, that are inside this cloud must roll an Opposed PER roll against the caster. Those that fail their roll are Blinded for the duration of this spell. Creatures that come into contact with this spell after its summoning must roll a -1 PER to resist the effect. After the spell ends, the cloud disappears and the Blinded- status effect ends.
+
+
+\subsubsection*{Reminiscence [CHA]}
+\addcontentsline{toc}{subsubsection}{Reminiscence [CHA]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Trust (CHA)  \\
+		AP Cost        & 5            \\
+		Strain Cost    & 2            \\
+		Range          & Large Splash \\
+		Target         & See text     \\
+		Area of Effect & -            \\
+		Duration       & 10 minutes   \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The shaman casts a spell on her ally, giving her inspiration through their shared bond and memories with one another. This manifests as a pleasant aura around the target, that slightly shimmers to the naked eye. 
+
+The target gains a one-time use bonus of the following, with their choosing:
+\begin{compactitem}
+	\item +5 bonus on a Skill-roll
+	\item +1 bonus on a SPECIAL-roll, including those to resist status effects
+	\item +5 to Poison or Rad Resistance once.
+	\item +1 damage die
+	\item +5 Potency on a spell
+\end{compactitem}
+
+The caster's potency determines how many allies they can give this bonus to, as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 ally
+		\item[10-19 Potency] 	2 allies
+		\item[20+ Potency] 		3 allies
+	\end{description}	
+\end{quote}
+
+The spell cannot be used more than once per ally in a day, and the caster cannot cast the spell on themselves.
+
+\subsubsection*{Restoration [END]}
+\addcontentsline{toc}{subsubsection}{Restoration [END]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Streams (END) 		\\
+		AP Cost	      	& 6 					\\
+		Strain Cost     & 6 					\\
+		Range     		& Touch					\\
+		Target      	& 1 Target				\\
+		Area of Effect  & -  	 				\\
+		Duration     	& Instant				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The target's frail mind is brought back together, their stream of consciousness guided by the spirit.
+
+Upon casting the spell, the target may recover from Insanity she has suffered. The caster has to succeed in a Hard Medicine check to remove Insanity from the target, and gains a bonus equal to her Potency to the roll. The amount of Insanity the caster can remove depends on their Potency:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 Insanity
+		\item[10-19 Potency] 	2 Insanity
+		\item[20+ Potency] 	    3 Insanity	
+	\end{description}	
+\end{quote}
+
+During combat, this spell can also be used to remove Mind-Controlled status effect from target without Medicine check.
+
+\subsubsection*{Sabotage (INT)}
+\addcontentsline{toc}{section}{Sabotage [INT])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			&  Machines (INT)			\\
+		AP Cost	      	&  8					\\
+		Strain Cost     &  4					\\
+		Range     		&  Potency*2 meters		\\
+		Target      	&  1 Target				\\
+		Area of Effect  &  Tiny Splash	 				\\
+		Duration     	&  Instant				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster's spirit hones into the target within range and if they are carrying ammo or grenades, the spirit triggers one of them to explode. 
+
+The target and everyone within Tiny Splash Template from them take damage according to the caster's Potency:
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	2+(3)
+		\item[10-19 Potency] 	3+(3)
+		\item[20+ Potency] 	    4+(3)
+	\end{description}
+\end{quote}
+
+\subsubsection*{Shadowform [INT]}
+\addcontentsline{toc}{section}{Shadowform [INT]}
+
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Shadows (INT) 		\\
+		AP Cost	      	& 5 					\\
+		Strain Cost     & 3 					\\
+		Range     		& Self					\\
+		Target      	& -						\\
+		Area of Effect  & -  	 				\\
+		Duration     	& Potency minutes		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Caster becomes a cloud of dark fog, allowing her to move more freely and be immune to mundane attacks. 	
+
+Spell transforms the caster into a dark cloud of smoke. While the spell is active, she is able to slip through small cracks and crevasses with ease, or enlarge herself to fill the entire room to intimidate creatures. The spell costs 5 AP and 3 Strain, and can be canceled at will.
+
+While in Shadow Form, the caster moves double her normal speed. She is immune to physical damage, but MEWs, spells and other magical damage deal damage normally. She herself is unable to use any items while in this form, but may cast spells. If intimidating or frightening a foe while in this form, she adds her Potency to the roll as a bonus.
+
+The caster can inhabit the same space as another character, and any character in the same space as Caster will start to suffocate, losing 2 HP each turn. If the character goes to 0 HP due to this HP loss, they will go unconscious from lack of air.
+
+If the caster enlarges themselves during combat, the maximum they can enlarge themselves to is Large Splash Template. In this size, they will not cause targets to suffocate, due to their form not being condensed enough. Likewise, enemies gain a +10 to hit them.
+
+Taking the form is physically and mentally taxing on the caster, which some would equal to milder forms of torture. Upon casting and every minute thereafter, the caster has a 50\% chance to gain 1 Insanity.
+
+\subsubsection*{Shadowsight [INT]}
+\addcontentsline{toc}{subsubsection}{Shadowsight [INT])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Shadows (INT)         \\
+		AP Cost        & 2                     \\
+		Strain Cost    & 1                     \\
+		Range          & -                     \\
+		Target         & -                     \\
+		Area of Effect & Small Splash Template \\
+		Duration       & Potency minutes       \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The caster charms a Small Splash Template around them to allow themselves and any other creature within the area to see in the dark as if in daylight.
+
+This spell negates up to -50 Visibility penalties from lack of light, but does not work for weather effects such as heavy rain or storms.
+
+\subsubsection*{Shield [CHA]}
+\addcontentsline{toc}{subsubsection}{Shield [CHA]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Trust (CHA) 		\\
+		AP Cost	      	& 8 						\\
+		Strain Cost     & 2 						\\
+		Range     		& Potency*2	m				\\
+		Target      	& Self/AoE					\\
+		Area of Effect  & Varies  	 				\\
+		Duration     	& Potency rounds			\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Spirit forms a moldable shield of energy that protects against bullets and similar projectile attacks and Magic Energy Weapons. The shield is thin, transparent and matches the color of caster's eyes.
+
+Shield can be wrapped around any target area within Potency*2 meters of the caster, covering maximum of 6 meters in its largest dimension. The caster chooses upon casting the spell whether the shield's position is fixed (doesn't move) or in relation to the caster (for example, always in front of the caster). Creatures and objects can go through Shield, but damaging projectiles interfere with it.
+
+Shield has a DT determined by caster's Potency, and 5 HP tokens. The DT from Shield stacks with worn equipment, the exact amount determined by Potency as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 DT
+		\item[10-19 Potency]    2 DT
+		\item[20+ Potency] 		3 DT
+	\end{description}
+\end{quote}
+
+Attacks that deal more damage than the combined DT value damage the shield first. When the Shield's HP is reduced to 0, the spell ends, and the excess HP loss is dealt normally. The spell works both ways; attacks made from both sides of Shield are affected. Caster can manifest only one Shield at a time, but she can use other spells while Shield is active.
+
+\subsubsection*{Shivers [END]}
+\addcontentsline{toc}{subsubsection}{Shivers [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Streams (END) 		\\
+		AP Cost	      	& 6 						\\
+		Strain Cost     & 3 						\\
+		Range     		& Potency*2	m				\\
+		Target      	& 1 Target					\\
+		Area of Effect  & Small Splash  	 				\\
+		Duration     	& 5 rounds			\\ \hline
+	\end{tabu}
+	
+}
+
+The spirit soars through the air onto the spot the shaman designates, hitting the target and turning the area around them into an icy Difficult Terrain. Anyone that moves in this terrain needs to avoid slipping and falling prone in addition to taking more time to cross the icy surface.
+
+This spell deals 2+(4) damage to the target, and they must succeed in END roll or suffer Freezing Status effect. Besides damage, a Small Splash area around the target turns into Difficult terrain. When moving through or in the area, characters have to make an AGI-roll or fall prone on the terrain.
+
+\subsubsection*{Shrapnel Shot [INT]}
+\addcontentsline{toc}{subsubsection}{Shrapnel Shot [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Machines (INT)        \\
+		AP Cost        & 3                     \\
+		Strain Cost    & 1                     \\
+		Range          & Spirit Power*8 meters \\
+		Target         & 1 Target              \\
+		Area of Effect & -                     \\
+		Duration       & Instant               \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit gathers pieces of clutter from the surroundings and hurls them through the air to harm a target. The shower of shrapnel deals 1+(2) damage, and ignores DT according to Spirit Power: 
+
+\medskip
+\begin{compactitem}
+	\item Spirit Power $<$4 = +1 DT Reduction
+	\item Spirit Power 5-8 = +2 DT Reduction
+	\item Spirit Power $>$9 = +3 DT Reduction
+\end{compactitem}
+
+\subsubsection*{Silver Shroud [CHA]}
+\addcontentsline{toc}{subsubsection}{Silver Shroud [CHA]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA)  \\
+		AP Cost        & 3               \\
+		Strain Cost    & 1               \\
+		Range          & Self            \\
+		Target         & AoE             \\
+		Area of Effect & Small Splash    \\
+		Duration       & Potency minutes \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit circles around the immediate vicinity of the caster, granting a dark veil that hides the allies within range.
+
+The caster provides an illusionary aura around herself, rippling and distorting their form for anyone else watching.
+
+The spell grants the caster and up to 4 allies - within Small Splash template from her - a Sneak bonus equal to her Potency.
+
+\subsubsection*{Soothing Spectre}
+\addcontentsline{toc}{subsubsection}{Soothing Spectre}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Incantation (Any SPECIAL) \\
+		AP Cost        & 10                        \\
+		Strain Cost    & 6                         \\
+		Range          & Touch                     \\
+		Target         & 1 Ally                    \\
+		Area of Effect & -                         \\
+		Duration       & Potency/2 turns           \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The shaman draws forth any nearby helpful lesser spirit, and directs their assistance towards their ally, giving one of the following boons. The following list are instant effects, curing the associated penalties:
+
+\begin{itemize}
+	\item Heal a physical status effect, such as Bleeding.
+	\item Help an Unconscious ally back on their feet.
+	\item Ally has SPECIAL damage healed.
+	\item Ally has HP damage healed.
+\end{itemize}
+
+The amount of SPECIAL and HP damage healed depends on the caster's Potency as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 point
+		\item[10-19 Potency] 	2 points
+		\item[20+ Potency] 	    4 points
+	\end{description}
+\end{quote}
+
+The following boons have a duration, and their penalties will return once the spell ends:
+
+\begin{itemize}
+	\item Ally can ignore one Crippled-condition for the duration of the spell.
+	\item Ally can ignore one Pain Threshold penalty for the duration of the spell.
+\end{itemize}
+
+
+\subsubsection*{Spirit Spear}
+\addcontentsline{toc}{subsubsection}{Spirit Spear)}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Incantation (any SPECIAL) \\
+		AP Cost        & 5                         \\
+		Strain Cost    & 3                         \\
+		Range          & See text                  \\
+		Target         & Any                       \\
+		Area of Effect & -                         \\
+		Duration       & Instant                   \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The shaman summons a minor spirit and directs their harmful energy in the direction of their choosing. This spear-like, nearly invisible projectile moves in a straight line, injuring anyone in its path. The projectile deals 2+(2) damage to each target it hits. DT applies normally.
+
+The furthest the Spirit Spear can reach relies on the caster's Potency as follows:
+
+%	\medskip
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	8 meters/4 hexes
+		\item[10-19 Potency] 	12 meters/ 6 hexes
+		\item[20+ Potency]  	16 meters/8 hexes
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Spy Connections [CHA]}
+\addcontentsline{toc}{subsubsection}{Spy Connections [CHA]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		School 			& Perception (PER) 		\\
+		AP Cost	      	& 3 					\\
+		Strain Cost     & 1 					\\
+		Range     		& Potency*6 m			\\
+		Target      	& Up to 4 targets		\\
+		Area of Effect  & - 	 				\\
+		Duration     	& Potency minutes		\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit reveals the general attitude between two or more ponies through their empathic nature.
+
+The spell manifests as thin lines between the targets, each color coded to show the social relationship between them. Among the most usual are hatred, envy, neutrality, friendship and love. Only the caster can see the formed lines, though \textit{Detection-spell} will make people aware that a spell is being used on the targets.
+
+However, to gain this information between two targets they have to stand within the range of the spell from each other. On top of that, the caster must be able to see the line in question to decipher the connection.
+
+\subsubsection*{Steady Walk [END]}
+\addcontentsline{toc}{subsubsection}{Steady Walk [END]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Streams (END) 	\\
+		AP Cost	      	& 4 					\\
+		Strain Cost     & 1 					\\
+		Range     		& Potency*2 m			\\
+		Target      	& 1 Target				\\
+		Area of Effect  & - 	 				\\
+		Duration     	& See text	            \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Allows the target to interact with intangible substances, such as clouds and water, as if they were solid.
+
+The spirit of Streams' power allows the target of the spell not only to walk on clouds and other non-tangible surfaces such as water and smoke, but to touch and interact with them as well. It lets the target use cloud technology, even if she's not a pegasus or a griffin. However, the target doesn't get wings, so they are unable to fend for themselves if they drop from a high altitude.
+
+The caster's Potency determines how long the spell's duration is:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	1 Hour
+		\item[10-19 Potency] 	2 Hours
+		\item[20+ Potency] 		4 Hours
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Storm Cloud [END]}
+\addcontentsline{toc}{subsubsection}{Storm Cloud [END]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Streams (END)  \\
+		AP Cost        & 7              \\
+		Strain Cost    & 3              \\
+		Range          & Potency*6 m    \\
+		Target         & AoE            \\
+		Area of Effect & Tiny Splash    \\
+		Duration       & Potency rounds \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Summons a small storm cloud that ravages the area.
+
+A small yet volatile storm cloud forms on the point the spell is casted at, afterwards being at the control of the spirit - for good or ill.
+
+The cloud travels a maximum of 10 meters (5 hexes) towards the nearest creature, ally or foe, and once above a target, then discharges lightning bolts on all targets on a Tiny Splash template. Characters within a Small Splash template of the cloud get a Minor distraction from the lightning bolts. The damage is determined by potency as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	3+(1) dmg
+		\item[10-19 Potency] 	4+(2) dmg
+		\item[20+ Potency] 		6+(3) dmg
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Target [INT]}
+\addcontentsline{toc}{subsubsection}{Target [INT]}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit 			& Machines (INT) 		\\
+		AP Cost	      	& 3 					\\
+		Strain Cost     & 1 					\\
+		Range     		& Potency*6 m 			\\
+		Target      	& 1 Target				\\
+		Area of Effect  & - 	 				\\
+		Duration     	& 3 rounds				\\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The spirit forms an illusionary target onto an opponent for the caster.
+
+The spell creates a magical targeting marker onto the target, which illuminates and assists in attacks made by the caster. Only the caster benefits from the spell. The spell reduces visibility-related penalties by 20 and Called Shot penalties by 10 on attacks and similar actions against the target made by the caster.
+
+\subsubsection*{Telepathy}
+\addcontentsline{toc}{subsubsection}{Telepathy}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Incantation (Any SPECIAL) \\
+		AP Cost        & 5                         \\
+		Strain Cost    & 2                         \\
+		Range          & Potency*6 m               \\
+		Target         & Up to 4 creatures         \\
+		Area of Effect & -                         \\
+		Duration       & Potency minutes           \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+Nearby spirits convey thoughts and senses with others the caster chooses with, serving as a link between minds.
+
+The caster and any target she chooses to cast this spell with share a link of thoughts, able to communicate with just their mind.
+
+The spell does not give the caster an access to the target(s) memories and knowledge - only current thoughts are transferred between any and all under the effect of the spell.
+
+\subsubsection*{Terror [CHA]}
+\addcontentsline{toc}{subsubsection}{Terror [CHA]}
+%TODO: Fill in once BRAINSTORM updated
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA) \\
+		AP Cost        &                \\
+		Strain Cost    &                \\
+		Range          &                \\
+		Target         &                \\
+		Area of Effect &                \\
+		Duration       &                \\ \hline
+	\end{tabu}
+	
+}
+
+The shaman creates a frightening visage in front of a target, which will distract the target.
+
+\subsubsection*{Toxic Friend [CHA]}
+\addcontentsline{toc}{subsubsection}{Toxic Friend [CHA]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Whispers (CHA)  \\
+		AP Cost        & 5               \\
+		Strain Cost    & 2               \\
+		Range          & Tiny Splash     \\
+		Target         & 1 Target/Self   \\
+		Area of Effect & -               \\
+		Duration       & Potency minutes \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+The caster blesses themselves or an ally with a silver tongue, with nefarious intents. The target of this spell gains a bonus to Diplomacy or Barter for the purpose of negatively influencing someone, the exact bonus depending on caster's Potency:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+10
+		\item[10-19 Potency] 	+20
+		\item[20+ Potency] 		+30
+	\end{description}	
+\end{quote}
+
+Using this spell can lower Karma, if used for particularly evil acts.
+
+\subsubsection*{Trap Defense [INT]}
+\addcontentsline{toc}{subsubsection}{Trap Defense [INT]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Machines (INT) \\
+		AP Cost        & 10             \\
+		Strain Cost    & 3              \\
+		Range          & Small Splash   \\
+		Target         & -              \\
+		Area of Effect & See text       \\
+		Duration       & 6 rounds       \\ \hline
+	\end{tabu}
+	
+}
+\smallskip
+
+By uttering a word of their choice, the shaman orders - or pleads - the spirit of machines to create a row of ethereal mines. This row can either start or pass through an area within 4 meters (2 hexes) from the caster, with one mine every 2 meters (1 hex).
+
+The enemy may try to spot the mines before stepping through the area with a PER -2 roll.
+
+Each mine has the stats of a frag grenade [3+(3)], with Tiny Splash radius.
+
+If the space the spell is used in is too narrow to accommodate all the mines one could put down, the excess mines are discarded. For example, if a corridor is 6 meters (3 hexes) wide, and the caster can put down 5 mines, only 3 mines appear to cover the corridor from wall to wall.
+
+The amount of mines created is determined by caster's Potency:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	3
+		\item[10-19 Potency] 	5
+		\item[20+ Potency] 		7
+	\end{description}	
+\end{quote}
+
+
+\subsubsection*{Venom [END]}
+\addcontentsline{toc}{subsubsection}{Venom [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Nature (END) \\
+		AP Cost        & 4            \\
+		Strain Cost    & 2            \\
+		Range          & Potency*2 m  \\
+		Target         & Area         \\
+		Area of Effect & Small Splash \\
+		Duration       & Instant      \\ \hline
+	\end{tabu}
+}
+
+The caster casts a green sigil on the ground, from which a ghostly green wind surrounds those within its reach. All who are trapped within the temporary wind-cocoon are poisoned by Spirit of Nature's gentle, but merciless hoof.
+
+The poison?s strength and effect depends on the shaman?s potency as follows:
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	Tissue dmg; -1 HP per round, 1x40\% chance
+		\item[10-19 Potency] 	Hallucinations; Minor Distraction, 1x60\% chance
+		\item[20+ Potency] 		Deterioration; -2 to a SPECIAL of caster?s choosing, 2x60\% chance
+	\end{description}	
+\end{quote}
+
+As the caster's Potency improves, they keep the previous tier's poison effect as a potential alternative. Upon casting, the caster chooses one effect to apply. However, the poison's chance is always the highest available to the caster.
+
+Outside of combat, this spell can be used to poison inanimate objects such as food. The poison remains on the item for 24 hours, after which the effect disappears. Characters that use the item, or ingest the poison, have a chance of becoming poisoned as per the caster?s potency.
+
+This spell cannot be used on weapons.
+
+\begin{verse}
+	\textbf{Example:} Kenobi casts Venom on three enemies. His potency is 15, which means that he has available the following effects; Tissue damage and hallucinations. He chooses to try to inflict tissue damage (-1 HP per round) on his enemies. Due to his potency, he can cast it with 1x60\% chance even though the effect is of a lower potency tier.
+\end{verse}
+
+\subsubsection*{Wall of Mist}
+\addcontentsline{toc}{subsubsection}{Wall of Mist}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		School         & Incantation (Any SPECIAL) \\
+		AP Cost        & 6                         \\
+		Strain Cost    & 2                         \\
+		Range          & Potency*2 m               \\
+		Target         & 1 Target                  \\
+		Area of Effect & Tiny Splash               \\
+		Duration       & Potency/2 rounds          \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The shaman collects nearby spirist to form a thick copper-colored fog around a target in a Tiny Splash Template. Creatures outside of the Tiny Splash Template have a visibility penalty determined by the caster's Potency, while the target of the spell suffers no such penalty. If any other character moves inside the Spell's area of effect, they still suffer the visibility penalty, as if they were outside of it. The Wall of Mist moves with the target, tethered to them with arcane energy.
+
+The caster's Potency determines the penalty as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	-5
+		\item[10-19 Potency] 	-10
+		\item[20+ Potency] 		-15 
+	\end{description}
+\end{quote}
+
+\subsubsection*{Water Breathing [END]}
+\addcontentsline{toc}{subsubsection}{Water Breathing [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Streams (END)            \\
+		AP Cost        & 3                        \\
+		Strain Cost    & 1                        \\
+		Range          & Touch                    \\
+		Target         & 1 / self                 \\
+		Area of Effect & -                        \\
+		Duration       & Potency*2 minutes \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+% Text
+The Spirit of Streams' power allows the caster or the target to breathe underwater for the duration of the spell. The spirit does not hinder breathing in normal conditions.
+
+\subsubsection*{Waterjet [END]}
+\addcontentsline{toc}{subsubsection}{Waterjet [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Streams      \\
+		AP Cost        & 5            \\
+		Strain Cost    & 2            \\
+		Range          & Small Splash \\
+		Target         & 1            \\
+		Area of Effect & -            \\
+		Duration       & Instant      \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+% Text
+The spirit shoots a torrent of water out of the Rune, pushing back the target for 4 meters while dealing 1+(2) damage. Spirit Power adds more damage to the torrent as follows:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+(0) DMG
+		\item[10-19 Potency] 	+(2) DMG
+		\item[20+ Potency] 		+(4) DMG
+	\end{description}	
+\end{quote}
+
+Both the caster and enemy make an opposed STR roll. If the enemy is successful, the caster is moved instead. However, the enemy is still damaged as normal.
+
+\subsubsection*{Wind Shield [END]}
+\addcontentsline{toc}{subsubsection}{Wind Shield [END]}
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Streams (END) \\
+		AP Cost        & 5             \\
+		Strain Cost    & 2             \\
+		Range          & -             \\
+		Target         & Self          \\
+		Area of Effect & -             \\
+		Duration       & 3 Rounds      \\ \hline
+	\end{tabu}
+	
+}
+\medskip
+
+A gust of magical air surrounds the caster, protecting them from magical attacks, explosives and MEW damage. This spell gives the caster additional DT against magic, explosives or MEWs for the duration of this spell as dictated by their Potency:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+1 DT
+		\item[10-19 Potency] 	+2 DT
+		\item[20+ Potency] 		+3 DT
+	\end{description}	
+\end{quote}
+
+\subsubsection*{Windigo's Favor}
+\addcontentsline{toc}{section}{Windigo's Favor [PER])}
+% Table
+{
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\hline
+		Spirit         & Incantation (any SPECIAL) \\
+		AP Cost        & 4                         \\
+		Strain Cost    & 2                         \\
+		Range          & Potency meters            \\
+		Target         & 1 Target                  \\
+		Area of Effect & -                         \\
+		Duration       & 3 Rounds                  \\ \hline
+	\end{tabu}
+	
+}
+
+\medskip
+
+The shaman summons one of the dreaded, albeit lesser, Windigos for a brief moment to enchant a weapon with icy energy, allowing that weapon to do magical cold damage for a short period of time. If the item in question already causes cold damage, this spell adds dice to the damage according to the caster's Potency:
+
+\begin{quote}
+	\begin{description}
+		\item[$<$10 Potency] 	+(1)
+		\item[10-19 Potency] 	+(2)
+		\item[20+ Potency] 	    +(3)
+	\end{description}
+\end{quote}
+
+After the spell ends, the enchantment disappears. This spell isn't cumulative in its effect, and recasting it on a weapon with Windigo's Favor already active will automatically fail.
+
+%\vfill
+%\newpage
 \end{document}

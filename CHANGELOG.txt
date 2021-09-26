@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Added
 - Cybernetic limbs
 - New implants
+- Shaman Incantations: list of spells available to all shamans, similar to Unicorn General Magic
+- Spirit Powers (spells)
+- New Spirit: Spirit of Shadows & its spells
 
 *** Changed
 - Movement actions lower Melee or Unarmed attack cost (down to a min of 1)
@@ -26,12 +29,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cybernetic implants rebalanced
 - Thermic Lance renamed Arcane Lance; Special attack & Mods changed
 - Explosives: added example of being a dud
+- Enchantements shifted from Shamanism to Alchemy
+- Spirit of Flame renamed to Spirit of Embers; New list of spells
+- Spirit of Waves renamed to Spirit of Streams; New list of spells
+- Spirit of Light renamed to Spirit of Serenity; New list of spells
+- Spirit of Friendship renamed to Spirit of Trust; New list of spells
+- Spirit of Machines: new list of spells
+- Spirit of Nature: new list of spells
+- Spirit of Whispers: new list of spells
+- Spirits now have a rival spirit they oppose at all times
+- Price changes on Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
 
 *** Deprecated
+
 
 *** Removed
 - Full-Auto rules
 - Cybernetic Implant upper limit
+- Spirit Affinity
+- Spirit Power (statistic)
+- Spirit Binding
+- Spirit Combat & Spirit damage type
+- Spirit of Diamond & its spells
+- Spirit of Life & its spells
+- Spirit of Lightning & its spells
+- Spirit of Poisons & its spells
+- Spirit of Riddles & its spells
+- Spirit of Winds & its spells
 
 *** Fixed
 - Character encoding errors of hyphens on copied texts

@@ -76,4 +76,4 @@
 \contentsline {section}{Zebra Magic}{115}{section*.338}
 \contentsline {subsection}{Alchemy}{115}{section*.339}
 \contentsline {subsection}{Shamanism}{118}{section*.344}
-\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.350}
+\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.349}

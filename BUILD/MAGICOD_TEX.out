@@ -177,16 +177,76 @@
 \BOOKMARK [2][-]{section*.175}{Wall Crawling Paste}{section*.130}% 177
 \BOOKMARK [2][-]{section*.176}{World-Weathering Potion}{section*.130}% 178
 \BOOKMARK [1][-]{section*.177}{Spirit Magic}{chapter.5}% 179
-\BOOKMARK [2][-]{section*.178}{Spirit of Diamond}{section*.177}% 180
-\BOOKMARK [2][-]{section*.181}{Spirit of Flame}{section*.177}% 181
-\BOOKMARK [2][-]{section*.184}{Spirit of Friendship}{section*.177}% 182
-\BOOKMARK [2][-]{section*.187}{Spirit of Life}{section*.177}% 183
-\BOOKMARK [2][-]{section*.190}{Spirit of Light}{section*.177}% 184
-\BOOKMARK [2][-]{section*.193}{Spirit of Lightning}{section*.177}% 185
-\BOOKMARK [2][-]{section*.196}{Spirit of Machines}{section*.177}% 186
-\BOOKMARK [2][-]{section*.199}{Spirit of Nature}{section*.177}% 187
-\BOOKMARK [2][-]{section*.202}{Spirit of Poisons}{section*.177}% 188
-\BOOKMARK [2][-]{section*.205}{Spirit of Riddles}{section*.177}% 189
-\BOOKMARK [2][-]{section*.208}{Spirit of Waves}{section*.177}% 190
-\BOOKMARK [2][-]{section*.211}{Spirit of Whispers}{section*.177}% 191
-\BOOKMARK [2][-]{section*.214}{Spirit of Winds}{section*.177}% 192
+\BOOKMARK [2][-]{section*.178}{Spirits}{section*.177}% 180
+\BOOKMARK [2][-]{section*.187}{Spells}{section*.177}% 181
+\BOOKMARK [3][-]{section*.188}{Astral Copy [PER]}{section*.187}% 182
+\BOOKMARK [3][-]{section*.189}{Bane [INT]}{section*.187}% 183
+\BOOKMARK [3][-]{section*.190}{Banshee Wail [CHA]}{section*.187}% 184
+\BOOKMARK [3][-]{section*.191}{Blink [CHA]}{section*.187}% 185
+\BOOKMARK [3][-]{section*.192}{Blood Weapons [INT]}{section*.187}% 186
+\BOOKMARK [3][-]{section*.193}{Burning Blood [AGI]}{section*.187}% 187
+\BOOKMARK [3][-]{section*.194}{Burning Passion [AGI]}{section*.187}% 188
+\BOOKMARK [3][-]{section*.195}{Cleanse\)}{section*.187}% 189
+\BOOKMARK [3][-]{section*.196}{Comforting Words [CHA]}{section*.187}% 190
+\BOOKMARK [3][-]{section*.197}{Comforting Words [PER]}{section*.187}% 191
+\BOOKMARK [3][-]{section*.198}{Devouring Darkness [INT]}{section*.187}% 192
+\BOOKMARK [3][-]{section*.199}{Discord [CHA]}{section*.187}% 193
+\BOOKMARK [3][-]{section*.200}{Dispel Magic [INT]}{section*.187}% 194
+\BOOKMARK [3][-]{section*.201}{Doomtouch [INT]}{section*.187}% 195
+\BOOKMARK [3][-]{section*.202}{Dreadful Charm [INT]\)}{section*.187}% 196
+\BOOKMARK [3][-]{section*.203}{Eldritch Knives [CHA]}{section*.187}% 197
+\BOOKMARK [3][-]{section*.204}{Engineer's Inspiration [INT]}{section*.187}% 198
+\BOOKMARK [3][-]{section*.205}{Enhancement [CHA]}{section*.187}% 199
+\BOOKMARK [3][-]{section*.206}{Fire Wheel [AGI]\)}{section*.187}% 200
+\BOOKMARK [3][-]{section*.207}{Fireball [AGI]\)}{section*.187}% 201
+\BOOKMARK [3][-]{section*.208}{Friendly Critter's Help [END]}{section*.187}% 202
+\BOOKMARK [3][-]{section*.209}{Golden Glow [AGI]\)}{section*.187}% 203
+\BOOKMARK [3][-]{section*.210}{Guiding Light [AGI]\)}{section*.187}% 204
+\BOOKMARK [3][-]{section*.211}{Healing Surge [END]}{section*.187}% 205
+\BOOKMARK [3][-]{section*.212}{Hypnosis [CHA]\)}{section*.187}% 206
+\BOOKMARK [3][-]{section*.213}{Ice Pillar [END]}{section*.187}% 207
+\BOOKMARK [3][-]{section*.214}{Ignite [AGI]}{section*.187}% 208
+\BOOKMARK [3][-]{section*.215}{Inner Fire [AGI]\)}{section*.187}% 209
+\BOOKMARK [3][-]{section*.216}{Invisibility [CHA]}{section*.187}% 210
+\BOOKMARK [3][-]{section*.217}{Life Surge [INT]}{section*.187}% 211
+\BOOKMARK [3][-]{section*.218}{Lightning Strike [END]}{section*.187}% 212
+\BOOKMARK [3][-]{section*.219}{Magical Fireworks [PER]}{section*.187}% 213
+\BOOKMARK [3][-]{section*.220}{Metal Barrier [INT]}{section*.187}% 214
+\BOOKMARK [3][-]{section*.221}{Natural Protection [END]}{section*.187}% 215
+\BOOKMARK [3][-]{section*.222}{Night Vision [PER]}{section*.187}% 216
+\BOOKMARK [3][-]{section*.223}{Organize [INT]}{section*.187}% 217
+\BOOKMARK [3][-]{section*.224}{Petrify [END]}{section*.187}% 218
+\BOOKMARK [3][-]{section*.225}{Phantom Lantern\)}{section*.187}% 219
+\BOOKMARK [3][-]{section*.226}{Phase [CHA]}{section*.187}% 220
+\BOOKMARK [3][-]{section*.227}{Phoenix Touch [AGI]\)}{section*.187}% 221
+\BOOKMARK [3][-]{section*.228}{Pocket Sand [END]}{section*.187}% 222
+\BOOKMARK [3][-]{section*.229}{Power of Friendship}{section*.187}% 223
+\BOOKMARK [3][-]{section*.230}{Prismatic Coat [PER]\)}{section*.187}% 224
+\BOOKMARK [3][-]{section*.231}{Prismatic Strike [PER]\)}{section*.187}% 225
+\BOOKMARK [3][-]{section*.232}{Purification [END]}{section*.187}% 226
+\BOOKMARK [3][-]{section*.233}{Razzle Dazzle [PER]\)}{section*.187}% 227
+\BOOKMARK [3][-]{section*.234}{Reminiscence [CHA]}{section*.187}% 228
+\BOOKMARK [3][-]{section*.235}{Restoration [END]}{section*.187}% 229
+\BOOKMARK [1][-]{section*.236}{Sabotage [INT]\)}{chapter.5}% 230
+\BOOKMARK [1][-]{section*.237}{Shadowform [INT]}{chapter.5}% 231
+\BOOKMARK [2][-]{section*.238}{Shadowsight [INT]\)}{section*.237}% 232
+\BOOKMARK [3][-]{section*.239}{Shield [CHA]}{section*.238}% 233
+\BOOKMARK [3][-]{section*.240}{Shivers [END]}{section*.238}% 234
+\BOOKMARK [3][-]{section*.241}{Shrapnel Shot [INT]}{section*.238}% 235
+\BOOKMARK [3][-]{section*.242}{Silver Shroud [CHA]}{section*.238}% 236
+\BOOKMARK [3][-]{section*.243}{Soothing Spectre}{section*.238}% 237
+\BOOKMARK [3][-]{section*.244}{Spirit Spear\)}{section*.238}% 238
+\BOOKMARK [3][-]{section*.245}{Spy Connections [CHA]}{section*.238}% 239
+\BOOKMARK [3][-]{section*.246}{Steady Walk [END]}{section*.238}% 240
+\BOOKMARK [3][-]{section*.247}{Storm Cloud [END]}{section*.238}% 241
+\BOOKMARK [3][-]{section*.248}{Target [INT]}{section*.238}% 242
+\BOOKMARK [3][-]{section*.249}{Telepathy}{section*.238}% 243
+\BOOKMARK [3][-]{section*.250}{Terror [CHA]}{section*.238}% 244
+\BOOKMARK [3][-]{section*.251}{Toxic Friend [CHA]}{section*.238}% 245
+\BOOKMARK [3][-]{section*.252}{Trap Defense [INT]}{section*.238}% 246
+\BOOKMARK [3][-]{section*.253}{Venom [END]}{section*.238}% 247
+\BOOKMARK [3][-]{section*.254}{Wall of Mist}{section*.238}% 248
+\BOOKMARK [3][-]{section*.255}{Water Breathing [END]}{section*.238}% 249
+\BOOKMARK [3][-]{section*.256}{Waterjet [END]}{section*.238}% 250
+\BOOKMARK [3][-]{section*.257}{Wind Shield [END]}{section*.238}% 251
+\BOOKMARK [1][-]{section*.258}{Windigo's Favor [PER]\)}{chapter.5}% 252
