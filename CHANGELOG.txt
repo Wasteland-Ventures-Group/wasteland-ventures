@@ -28,7 +28,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Carry Weight maximum lowered to double the listed value.
 - Cybernetic implants rebalanced
 - Thermic Lance renamed Arcane Lance; Special attack & Mods changed
+- Price changes on Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
 - Explosives: added example of being a dud
+- Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
 - Spirit of Flame renamed to Spirit of Embers; New list of spells
 - Spirit of Waves renamed to Spirit of Streams; New list of spells
@@ -37,8 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spirit of Machines: new list of spells
 - Spirit of Nature: new list of spells
 - Spirit of Whispers: new list of spells
-- Spirits now have a rival spirit they oppose at all times
-- Price changes on Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
+- Spirits now have a rival spirit they oppose at all times; serves as RP hook
+
 
 *** Deprecated
 
@@ -61,6 +63,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Character encoding errors of hyphens on copied texts
 - Carry Weight no longer applies nonexistant penalties when exceeding limit
 - Range values now explained when they are in effect
+- Listing of removed Unicorn Illusion spell "Sensory Foil" replaced with existing "Phantasmagoria"
+- Unicorn spell "Amplify" now listed under correct school "Perception Magic"
 
 
 **2.2.1
