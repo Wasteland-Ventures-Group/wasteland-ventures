@@ -32,6 +32,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Explosives: added example of being a dud
 - Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
+- Unicorn spell Phantasmagoria: now inflicts Dazed-status
+- Unicorn spell Enhancement: does no longer restore SPECIALs from Rad poisoning
 - Spirit of Flame renamed to Spirit of Embers; New list of spells
 - Spirit of Waves renamed to Spirit of Streams; New list of spells
 - Spirit of Light renamed to Spirit of Serenity; New list of spells
