@@ -11,11 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Added
 - Cybernetic limbs
 - New implants
+- New Alchemy recipes in Wasteland Wares
 - Shaman Incantations: list of spells available to all shamans, similar to Unicorn General Magic
 - Spirit Powers (spells)
 - New Spirit: Spirit of Shadows & its spells
+- New Deer Perk: Nature Walk (WF)
 
 *** Changed
+- Zebra recipe mechanics now listed under Races as well; gain 2 new recipes every 5 levels
+- Alchemy now split into three distinct categories with new rules: Brews, Talismans, Enchantments
+- Unicorns now gain 2 new spells every 5 levels.
 - Movement actions lower Melee or Unarmed attack cost (down to a min of 1)
 - Charging provides one bonus chosen by attacker 
 - Charging requirement "relatively straight line" of 12m / 6 hex; no crawling or Difficult Terrain
@@ -28,10 +33,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Carry Weight maximum lowered to double the listed value.
 - Cybernetic implants rebalanced
 - Thermic Lance renamed Arcane Lance; Special attack & Mods changed
-- Price changes on Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
+- Price changes on Weapons: Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
+- Price changes on Junk: Hellhound Paw
 - Explosives: added example of being a dud
 - Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
+- Zebra Magic in Magic Codex now solely Spirit Magic
+- Casting one spell in multiple times on a turn no longer increases the strain cost
 - Unicorn spell Phantasmagoria: now inflicts Dazed-status
 - Unicorn spell Enhancement: does no longer restore SPECIALs from Rad poisoning
 - Spirit of Flame renamed to Spirit of Embers; New list of spells
@@ -60,13 +68,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spirit of Poisons & its spells
 - Spirit of Riddles & its spells
 - Spirit of Winds & its spells
+- Alchemy recipes from Magic Codex
+- Zebra Perk Oilmaster
+- Zebra Perk Green Hoof
+- Zebra Perk Elemental Alchemist
+- Zebra Perk Potent Talisman
+- Deer Perk Oilmaster (WF)
+- Deer Perk Green Hoof (WF)
 
 *** Fixed
 - Character encoding errors of hyphens on copied texts
 - Carry Weight no longer applies nonexistant penalties when exceeding limit
 - Range values now explained when they are in effect
+- Describing how Ascended Spells work under Unicorn spells
 - Listing of removed Unicorn Illusion spell "Sensory Foil" replaced with existing "Phantasmagoria"
 - Unicorn spell "Amplify" now listed under correct school "Perception Magic"
+- Removed duplicate entires for Toolkits in Tools, Books and Magazines
 
 
 **2.2.1
