@@ -547,7 +547,9 @@
     
     It should be noted that if your campaign is relatively light in tone, it might be wise to ignore the highest number on a table altogether, or replace it with something milder, as the 6's can be the most catastrophic in effect, such as an exploding horn.
     
-    Table 4.1. Firearms/MEWs
+    %TODO: Reorganize Crit Fail Tables to be more readable and preferrably on one page
+    
+%    Table 4.1. Firearms/MEWs
 %    Roll (1d10)	Effect
     
     \begin{table*}[t]
@@ -565,7 +567,7 @@
         \label{tab:my_label}
     \end{table*}
     
-    Table 4.2. Explosives
+%    Table 4.2. Explosives
 %    Roll (1d10)	Effect
 
     \begin{table*}[t]
@@ -583,7 +585,7 @@
         \label{tab:my_label}
     \end{table*}
 
-    Table 4.3. Melee
+%    Table 4.3. Melee
 %    Roll (1d10)	Effect
     
     \begin{table*}[t]
@@ -601,10 +603,10 @@
         \label{tab:my_label}
     \end{table*}
     
-    Table 4.4. Unarmed
+%    Table 4.4. Unarmed
 %    Roll (1d10)	Effect
     
-    \begin{table*}[t]
+    \begin{table*}[!t]
         \centering
         \caption{Unarmed failure}
         \rowcolors{1}{gray!30}{gray!10}
@@ -619,7 +621,7 @@
         \label{tab:my_label}
     \end{table*}
     
-    Table 4.5. Thaumaturgy
+%    Table 4.5. Thaumaturgy
 %    Roll (1d10)	Effect
     
     \begin{table*}[t]
@@ -854,6 +856,8 @@
     \chapter{Charts and Tables, Oh my!}
     In this chapter we have gathered all the tables from the core document for quicker access for the GM.
     
+   %TODO: Clean up if possible
+    
 %    Table 2.1. Size category modifiers
     \begin{table*}[t] 
 		\centering
@@ -1003,53 +1007,464 @@
 		\end{tabular} 
 	\end{table*}
 
-    Table 4.1. XP Requirement by Level
+    %Table 4.1. XP Requirement by Level
+    	\begin{table}[!t]
+    	\centering
+    	\caption{XP Requirements by Level}
+    	\label{Table:4.1}
+    	\rowcolors{1}{gray!30}{gray!10}
+    	\begin{tabu} to 0.8\columnwidth {| X[c, 1] | X[c, 3] |}
+    		\hline
+    		\textbf{Level} & \textbf{Experience} \\ \hline
+    		1              & 0                   \\
+    		2              & 100                 \\
+    		3              & 300                 \\
+    		4              & 600                 \\
+    		5              & 1 000               \\
+    		6              & 1 500               \\
+    		7              & 2 100               \\
+    		8              & 2 800               \\
+    		9              & 3 600               \\
+    		10             & 4 500               \\
+    		11             & 5 500               \\
+    		12             & 6 600               \\
+    		13             & 7 800               \\
+    		14             & 9 100               \\
+    		15             & 10 500              \\
+    		16             & 12 000              \\
+    		17             & 13 600              \\
+    		18             & 15 300              \\
+    		19             & 17 100              \\
+    		20             & 19 000              \\
+    		21             & 21 000              \\
+    		22             & 23 100              \\
+    		23             & 25 300              \\
+    		24             & 27 600              \\
+    		25             & 30 000              \\
+    		26             & 32 500              \\
+    		27             & 35 100              \\
+    		28             & 37 800              \\
+    		29             & 40 600              \\
+    		30             & 43 500              \\ \hline
+    	\end{tabu}	
+    \end{table} 
+    
 
-    Table 5.1. Skill Level Requirements
+%    Table 5.2. Critical Chance Ranges
 
-    Table 5.2. Critical Chance Ranges
+	\begin{table}[t]
+	\centering
+	\caption{Critical Change Ranges}
+	\label{Table:5.1}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Critical Success} & \textbf{Critical Failure} \\ \hline
+		1 to LCK          &       90+LCK to 100       \\ \hline
+	\end{tabular} 	
+\end{table}
 
-    Table 5.3. Base Falling Damage
+%    Table 5.3. Base Falling Damage
 
-    Table 5.4. Radiation Poisoning \& Effects
+	\begin{table*}[t]
+	\centering
+	\caption{Base Falling Damage}
+	\label{Table:5.3}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c c|c|c|c|c|c|c|c|c|c|}
+		\hline
+		\multicolumn{2}{|l|}{\cellcolor{gray!50}}                           & \multicolumn{9}{c|}{\cellcolor{gray!50} \textbf{Size of the falling object}} \\
+		\cellcolor{gray!50}                       &    & -4  & -3  & -2  &  -1  &   0   &   1   &   2   &   3   &          4          \\ \hline
+		\cellcolor{gray!50}                       & -4 & (4) & (6) & (8) & (10) & (10)* & (10)* & (10)* & (10)* &        (10)*        \\
+		\cellcolor{gray!50}                       & -3 & (2) & (4) & (6) & (8)  & (10)  & (10)* & (10)* & (10)* &        (10)*        \\
+		\cellcolor{gray!50}                       & -2 & (1) & (2) & (4) & (6)  &  (8)  & (10)  & (10)* & (10)* &        (10)*        \\
+		\cellcolor{gray!50}                       & -1 &  -  & (1) & (2) & (4)  &  (6)  &  (8)  & (10)  & (10)* &        (10)*        \\
+		\cellcolor{gray!50}                       & 0  &  -  &  -  & (1) & (2)  &  (4)  &  (6)  &  (8)  & (10)  &        (10)*        \\
+		\cellcolor{gray!50}                       & 1  &  -  &  -  &  -  & (1)  &  (2)  &  (4)  &  (6)  &  (8)  &        (10)         \\
+		\cellcolor{gray!50}                       & 2  &  -  &  -  &  -  &  -   &  (1)  &  (2)  &  (4)  &  (6)  &         (8)         \\
+		\cellcolor{gray!50}                       & 3  &  -  &  -  &  -  &  -   &   -   &  (1)  &  (2)  &  (4)  &         (6)         \\
+		\multirow{-9}{1,3cm}{\cellcolor{gray!50} \textbf{Target Size}} & 4  &  -  &  -  &  -  &  -   &   -   &   -   &  (1)  &  (2)  &         (4)         \\ \hline
+	\end{tabular}
+	
+	*Target rolls LCK to completely avoid the damage by finding a safe crevasse.		
+\end{table*}
 
-    Table 5.5. Long Term Cold Exposure Damage
+%    Table 5.4. Radiation Poisoning \& Effects
 
-    Table 5.6. Long Term Heat Exposure Damage
+	\begin{table*}[t]
+	\centering
+	\caption{Radiation Poisoning \& Effects}
+	\label{Table:5.2}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Rads} & \begin{tabular}{@{}c@{}}\textbf{Poisoning} \\ \textbf{Level}\end{tabular} & \begin{tabular}{@{}c@{}}\textbf{SPECIAL} \\ \textbf{Damage}\end{tabular} \\ \hline
+		0-4      	& None		& None                        \\ 
+		5-8      	& Minor		& -1 END                        \\ 
+		9-12      	& Moderate	& -2 END, -1 AGI                        \\ 
+		13-16     	& Major  	& -3 END, -2 AGI, -1 STR                        \\ 
+		17-19     	& Critical	& -3 END, -3 AGI, -2 STR                        \\ 
+		20+      	& Fatal		& \emph{DEATH}                        \\ \hline
+	\end{tabular} 
+	
+\end{table*}
+
+%    Table 5.5. Long Term Cold Exposure Damage
+
+	\begin{table}[t]
+	\centering
+	\caption{Long Term Cold Exposure}
+	\label{Table:5.4}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular} {|c|c|}
+		\hline 
+		\textbf{Temperature} & \textbf{Damage} \\ 
+		\hline 
+		-10°C 		& 1 HP / hour \\ 
+		-20°C 		& 2 HP / hour \\ 
+		-30°C 		& 3 HP / hour; -1 AGI \\ 
+		-40°C 		& \begin{tabular}{@{}c@{}}4 HP / hour; \\ -1 AGI, -1 END\end{tabular} \\ 
+		$<$ -40°C 	& \begin{tabular}{@{}c@{}}5 HP / hour; \\ -2 AGI, -2 END\end{tabular} \\ 
+		\hline 
+	\end{tabular} 
+\end{table}
+
+%    Table 5.6. Long Term Heat Exposure Damage
+
+	\begin{table}[t]
+	\centering
+	\caption{Long Term Heat Exposure}
+	\label{Table:5.5}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular} {|c|c|}
+		\hline 
+		\textbf{Temperature} & \textbf{Damage} \\ 
+		\hline 
+		30°C 		& 1 HP / hour \\ 
+		50°C 		& 2 HP / hour; -1 STR \\ 
+		70°C 		& 3 HP / hour; -1 STR \\ 
+		90°C 		& \begin{tabular}{@{}c@{}}4 HP / hour; \\ -1 STR, -1 END\end{tabular} \\ 
+		$>$ 90°C 	& \begin{tabular}{@{}c@{}}5 HP / hour; \\ -2 STR, -2 END\end{tabular} \\ 
+		\hline 
+	\end{tabular} 
+\end{table}
  
-    Table 5.7. Sneak Modifier Examples
+%    Table 5.7. Sneak Modifier Examples
 
-    Table 5.8. Long Distance Travel
+    \onecolumn
+\begin{table}[t]
+	\centering
+	\caption{Sneak Modifier Examples}
+	\label{Table:5.6}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu}to 140mm{| X[l, 2]| X[l, 4]|}
+		\hline
+		\textbf{Situation}                            & \textbf{Modifier}                  \\ \hline
+		Lighting conditions (vision impaired) & \begin{tabular}{@{}l@{}}Dim light: -5 PER roll
+			
+			\\ Blinding light: -10 PER roll \\ Night: -15 PER roll \\ Bad-lit indoors: -20 PER roll \\ Darkness: -40 PER roll \end{tabular}                                   \\
+		Weather conditions                            & \begin{tabular}{@{}l@{}} Rain, dust: -5 PER roll \\ Fog, heavy rain, snowfall: -10 PER roll \\ Heavy fog, snowstorm: -15 PER roll \\ Sandstorm: -20 PER roll \end{tabular}                                   \\
+		Movement                                      & \begin{tabular}{@{}l@{}} Crippled: -5 Sneak per crippled leg; \\ \emph{max -20 with all four legs crippled.} \\ Crawling: +20 Sneak \\ Running / sprinting: -50 Sneak. \\ \emph{See perk Silent Gallop}. \\ Flying: +10 Sneak \\ Gliding: +20 Sneak \end{tabular}                                   \\
+		Character sounds (Hearing improved)   & \begin{tabular}{@{}l@{}}Whispering: Opponent +10 PER roll \\ Talking: Opponent +30 PER roll \\ Yelling: Opponent +50 PER roll\end{tabular}\\
+		Noise (hearing impaired)              & \begin{tabular}{@{}l@{}}Siren/Loudspeaker: Opponent -10 PER roll \\ Heavy wind: Opponent -20 PER roll \\ Nearby explosion: Opponent -30 PER roll \\ Long distance: Opponent -50 PER roll \end{tabular}                                   \\
+		Moving within large crowds                    & Opponent: -20 PER roll                   \\
+		Holding a light source / casting magic        & -10 Sneak                          \\
+		Surfaces                                      & \begin{tabular}{@{}l@{}}Soft surfaces: rugs, sand, soft dirt; +10 Sneak \\ Hard surfaces: metal, roof tiles, stone; -10 Sneak \\ Noisy surfaces: water puddles, glass; -20 Sneak. \end{tabular}                                   \\
+		Armor and clothing                            & Indicated within armor description \\ \hline
+	\end{tabu} 
+	
+\end{table}
 
-    Table 6.1. Schematic Notes
+\twocolumn
 
-    Table 6.2. Disposition chart
+%    Table 5.8. Long Distance Travel
 
-    Table 6.3. Sleep Deprivation and Effects
+	\begin{table}[!b]
+	\centering
+	\caption{Long Distance Travel}
+	\label{Table:5.7}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Method} & \textbf{\begin{tabular}{@{}l@{}}Easy \\ terrain\end{tabular}} & \textbf{\begin{tabular}{@{}l@{}}Difficult \\ terrain \end{tabular}} \\ \hline
+		Walking         &             6 km/h             &               3 km/h                \\
+		Swimming        &             3 km/h             &              1,5 km/h               \\
+		Flying         &             9 km/h             &              4,5 km/h                \\ \hline
+	\end{tabular}
+\end{table}
 
-    Table 6.4. Starvation
+%    Table 6.2. Disposition chart
 
-    Table 7.1. Range Accuracy
+	\onecolumn
+\begin{table*}[!t]
+	\centering
+	\caption{Disposition Chart}
+	\label{Table:6.2}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabu} to 140mm{| X[l,2] | X[l,4] | X[l,1]|}
+		\hline
+		\textbf{Disposition Level} & \textbf{NPC Behavior} & \textbf{Bonus} \\ \hline
+		Worshipped (+3)   & Views your actions in best positive light.
+		Will help you even if it causes them harm.
+		Considers how to be of benefit to you.
+		Likely to give a discount on wares or even giving something cheap for free. & +30   \\
+		Friendly (+2)     & Considers your words with positive meaning.
+		Will help you if it means no harm to themselves.
+		Considers you an ally.
+		Might give a discount on wares. & +20   \\
+		Liked (+1)        & Considers your words with positive meaning.
+		Can be persuaded to help without reward.
+		Considers how the interaction can benefit both.
+		Can be persuaded to give a discount on wares. & +10   \\
+		Neutral (0)       & Will hear you out calmly.
+		Can be persuaded to help, for a cost.
+		Considers how you may benefit them. & 0     \\
+		Distrust (-1)     & Will hear you out, but is suspicious of your intent.
+		Won't help you without a reward of some kind.
+		Considers how you may benefit them.
+		Might charge more for wares. & -10   \\
+		Hatred (-2)       & Will take your words with worst possible meaning.
+		Refuses to help, may actively sabotage you.
+		Won't consider you at all, or treat you as an enemy.
+		Can initiate combat if provoked.
+		Likely to charge more for wares or refuse to sell them altogether. & -20   \\
+		Hostile (-3)      & Refuses to listen.
+		Will actively work against you.
+		Likely to initiate combat either provoked or unprovoked.
+		Considers how to hurt you.
+		Will not sell wares to you. & -30   \\ \hline
+	\end{tabu} 
+\end{table*}
+\twocolumn
 
-    Table 7.2. Visibility Penalties
+%    Table 6.3. Sleep Deprivation and Effects
 
-    Table 7.3. Examples of Obstacles
+	\begin{table}[!b]
+	\centering
+	\caption{Sleep Deprivation and Effects}
+	\label{Table:6.3}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|c|l|}
+		\hline
+		Level & \begin{tabular}{@{}c@{}}Awake \\ Hours \end{tabular} & Effect      \\ \hline
+		Well-Rested            & -           & +1 INT, +1 PER \\
+		Rested                 & 0           & -              \\
+		Minor                  & $>$16       & -1 AGI               \\
+		Moderate               & $>$24       & -1 AGI, -1 INT                 \\
+		Major                  & $>$32       & \begin{tabular}{@{}c@{}}-2 AGI, -2 INT, \\ -1 PER, -1 END \end{tabular} \\
+		Severe                 & $>$40       & \begin{tabular}{@{}c@{}}-3 AGI, -2 INT, \\ -2 PER, -2 END \end{tabular} \\
+		Critical               & $>$48       & \begin{tabular}{@{}c@{}} -3 AGL, -3 INT, \\ -3 PER, -3 END \end{tabular} \\ \hline
+	\end{tabular} 
+\end{table}
 
-    Table 7.4. Crippled Limb Effects
+%    Table 6.4. Starvation
 
-    Table 7.5. Status Effects and Their Removal
+	\begin{table}[t]
+	\centering
+	\caption{Starvation and Dehydration}
+	\label{Table:6.4}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\begin{tabular}{@{}c@{}}Days w/o \\ Sustenance \end{tabular} & \begin{tabular}{@{}c@{}} END \\ loss \end{tabular} & Hunger &     Thirst     \\ \hline
+		1            &    -1    &   -    &       -        \\
+		2            &    -1    & -1 STR &     -1 PER     \\
+		3            &    -2    & -1 STR & -2 PER, -1 END \\
+		4            &    -3    & -2 STR & -3 PER, -2 END \\ \hline
+	\end{tabular} 	
+\end{table}
 
-    Table 7.6. Called Shot Penalties by Limb
+%    Table 7.1. Range Accuracy
 
-    Table 7.7. Skill/Special AP Costs \& Modifiers in Combat
+	\begin{table}[t]
+	\centering
+	\caption{Range Accuracy}
+	\label{Table:7.1}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		&   \textbf{Range}    & \textbf{Modifier} \\ \hline
+		Point Blank & 4m (2 hex) &    0*    \\
+		Short    &     $<$S     &    0     \\
+		Medium    &     $<$M     &   -10    \\
+		Long     &     $<$L     &   -20    \\ \hline
+	\end{tabular} 
+	
+	* Pistols, SMGs and Shotguns gain +10 to Accuracy
+\end{table}
 
-    Table 7.8 - Lost HP Token Thresholds
+%    Table 7.2. Visibility Penalties
 
-    Table 7.9 - Pain Penalties
+	\begin{table}[t]
+	\centering
+	\caption{Visibility Penalties}
+	\label{Table:7.2}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Condition}                           & \textbf{Penalty} \\ \hline
+		Normal day; well-lit building                & 0       \\ 
+		Twilight; Rain or Dust                       & -5      \\ \
+		\begin{tabular}{@{}l@{}}Flashbang; Heavy Rain, \\Snowfall, Fog or Dust\end{tabular} & -10     \\ 
+		\begin{tabular}{@{}l@{}}Night; Heavy Snowfall, \\ Heavy Fog or Dust \end{tabular}     & -15     \\
+		Bad-lit Indoors; Dust storm                  & -20     \\ 
+		Darkness                                     & -40     \\ \hline
+	\end{tabular} 		
+\end{table}
 
-    Table 7.10 - Doctor Visit Prices
+%    Table 7.3. Examples of Obstacles
 
-    Table 8.1. Ingredients and Their Use in Alchemy
+	\begin{table}[t]
+	\centering
+	\caption{Obstacle Examples}
+	\label{Table:7.3}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Cover}                                       & \textbf{DT} \\ \hline
+		Window glass, Bush                                   & 0           \\
+		Wooden door, Table                                   & 1           \\
+		Thin metal sheet, Traffic sign                       & 1           \\
+		Tree trunk, Exterior wall, Ice                       & 2           \\
+		Concrete wall, 20cm                                  & 3           \\
+		Stone wall                                           & 3           \\
+		Bulletproof glass                                    & 5           \\
+		\begin{tabular}{@{}l@{}}Metal door, Armored vehicle, Sandbag wall                                         		\end{tabular} & 10 \\ \hline
+	\end{tabular} 
+	
+\end{table}
 
-    Table 8.2. Spirit Summoning chart
+%    Table 7.4. Crippled Limb Effects
+
+	\begin{table}[t]
+	\centering
+	\caption{Crippled Limb Effects}
+	\label{Table:7.4}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Limb}    & \textbf{Effects}                                                    \\ \hline
+		Torso   & \begin{tabular}{@{}l@{}}Bleeding Status effect; \\
+			Major Distraction
+		\end{tabular}                                  \\
+		\begin{tabular}{@{}l@{}}Leg/Arm \\ (for each) \end{tabular} & +1 Movement AP cost                                        \\
+		Head    & \begin{tabular}{@{}l@{}}Dazed Status effect; \\+1 AP and Strain cost for Spells\end{tabular} \\
+		Wing    & \begin{tabular}{@{}l@{}}Can glide but not fly (one) \\Cannot fly or glide (both)\end{tabular}   \\ \hline
+	\end{tabular} 
+\end{table}
+
+%    Table 7.5. Status Effects and Their Removal
+
+	\begin{table*}[t]
+	\centering
+	\caption{Status Effects and Their Removal}
+	\label{Table:7.5}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|c|l|}
+		\hline
+		\textbf{Name}            & \textbf{Effect}                           & \textbf{Duration} & \textbf{Removal}                  \\
+		Burning         & -2 HP / round                    &    3     & \begin{tabular}{@{}l@{}}Use all AP \& \\Drop prone \end{tabular} \\
+		Bleeding        & -1 HP / round; Minor Distraction &    5     & First Aid Kit            \\
+		Blinded         & -2 PER; -5 Combat skills         &    3     & -                        \\
+		Crippled        & As per Crippled limb             & \begin{tabular}{@{}c@{}}Minor: 24h \\ Major: Removal \end{tabular}         & \begin{tabular}{@{}l@{}}Doctor's Bag, \\ Hydra\end{tabular}      \\
+		Dazed         & Roll twice, pick worse result                                 &    3     & Sedative                 \\
+		Enraged         & \begin{tabular}{@{}l@{}}Berserk; +2 STR; \\ can only attack and move \end{tabular}                                 &    3     & Sedative                 \\
+		Freezing        & +2 AP Cost of actions            &    5     & Alcohol                  \\
+		Mind-Controlled & May act w/o her own volition     &    3     & Mind Bleach              \\
+		Encumbered      & Cannot Sprint, Climb or Swim     & Until Removal         & \begin{tabular}{@{}l@{}}Remove excess \\ weight \end{tabular}                        \\
+		Petrified       & Cannot act                       &    -     & \begin{tabular}{@{}l@{}}Failsafe,\\ Petrify-spell\end{tabular}  \\
+		Stunned         & Cannot move or attack                  &    3     & Kickstarter, Strain              \\
+		Unconscious     & Cannot act                       &    3     & Kickstarter              \\ \hline
+	\end{tabular} 
+	
+	
+\end{table*}
+
+
+%    Table 7.6. Called Shot Penalties by Limb
+
+	\begin{table}[t]
+	\centering
+	\caption{Called Shot Penalties by Limb}
+	\label{Table:7.6}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Target}                   & \textbf{Ranged} & \textbf{Melee} \\ \hline
+		Torso                    & -10    & -5    \\
+		Limb (in. tails)         & -20    & -10   \\
+		Head                     & -30    & -15   \\
+		Weapon                   & -20    & -20   \\ \hline
+		Specific part (i.e. eye) & \multicolumn{2}{l|}{Additional -20}              \\ \hline
+	\end{tabular} 
+	
+\end{table}
+
+%    Table 7.7. Skill/Special AP Costs \& Modifiers in Combat
+
+	\begin{table*}[t]
+	\centering
+	\caption{Skill/SPECIAL AP Costs \& Modifiers in Combat}
+	\label{Table:7.7}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& \textbf{Easy, no rush} & \textbf{Easy, rush} & \textbf{Hard, no rush} & \textbf{Hard, rush} \\ \hline
+		\textbf{Cost}      &     4 AP      &    2 AP    &     10 AP     &    5 AP    \\
+		\textbf{Roll Modifier} &       -       &    -15     &       -       &    -30     \\ \hline
+	\end{tabular} 
+\end{table*}
+
+%    Table 7.8 - STR to DMG
+
+	\begin{table}[b]
+	\centering
+	\caption{STR effect on Melee/Unarmed}
+	\label{Table:7.8}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{STR} & \textbf{DMG Dice} \\ \hline
+		1-3      &       +0        \\
+		4-7      &       +1        \\
+		8-10     &       +2        \\
+		10+      &       +3        \\ \hline
+	\end{tabular} 
+\end{table} 
+
+%    Table 7.9 - Pain Penalties
+
+	\begin{table*}[t]
+	\centering
+	\caption{Pain Penalties}
+	\label{Table:7.9}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{d10}  & \textbf{Penalty} & \textbf{Effect}                                       \\ \hline
+		1-2  & Rattled & Minor Distraction                            \\
+		3-4  & Bruised & Minor Distraction, +1 to AP Costs            \\
+		5-6  & In Pain & Medium Distraction, +2 to AP Costs           \\
+		7-8  & Maimed  & Random limb Crippled                         \\
+		9-10 & Panic   & Cannot use Attack actions, unless no other way out \\ \hline
+	\end{tabular} 
+\end{table*}
+
+%    Table 7.10 - Doctor Visit Prices
+
+	\begin{table}[t]
+	\centering
+	\caption{Doctor's Fees}
+	\label{Table:7.10}
+	\rowcolors{1}{gray!30}{gray!10}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Case}     & \textbf{Cost/Piece} \\ \hline
+		Lost HP  & 20 Caps    \\
+		Rads     & 40 Caps    \\
+		Crippled & 50 Caps    \\ \hline
+	\end{tabular} 
+\end{table}
+
+
 \end{document}

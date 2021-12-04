@@ -10,17 +10,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **2.3.0
 *** Added
 - Cybernetic limbs
-- New implants
-- New Alchemy recipes in Wasteland Wares
+- More implants
+- Redesigned Alchemy recipes in Wasteland Wares
 - Shaman Incantations: list of spells available to all shamans, similar to Unicorn General Magic
 - Spirit Powers (spells)
-- New Spirit: Spirit of Shadows & its spells
-- New Deer Perk: Nature Walk (WF)
+- Spirit: Spirit of Shadows & its spells
+- Alchemy Perk: Black Market Connections
+- Alchemy Perk: Keen Eye
+- Alchemy Perk: Fast Learner
+- Alchemy Perk: Hurry, Hurry, Hurry!
+- Alchemy Perk: Family Favorites
+- Alchemy Perk: Herbalist
+- Alchemy Perk: Blood Magic
+- Shaman Perk: Harmonous Spiritualist
+- Shaman Perk: Beacon of Chaos
+- Shaman Perk: High Roller's Gambit
+- Shaman Perk: Runecrafter
+- Shaman Perk: You Serve Me!
+- Shaman Perk: Master Medium
+- Shaman Perk: High Summoner
+- Zebra Perk: Rooted
+- Zebra Perk: Playing Dirty
+- Zebra Perk: Machine Menace
+- Zebra Perk: Manipulator
+- Zebra Perk: Prey Preservation
+- Zebra Perk: Bucking Counter
+- Deer Perk: Agonizer (WF)
+- Deer Perk: Nature Walk (WF)
 
 *** Changed
-- Zebra recipe mechanics now listed under Races as well; gain 2 new recipes every 5 levels
-- Alchemy now split into three distinct categories with new rules: Brews, Talismans, Enchantments
-- Unicorns now gain 2 new spells every 5 levels.
+- Zebra recipe mechanics listed under Races as well; gain 2 new recipes every 5 levels
+- Alchemy split into three distinct categories with new rules: Brews, Talismans, Enchantments
+- Unicorns gain 2 new spells every 5 levels.
+- Stagepony Quirk "Grand Stand" allows character to use Distract once per session without a roll.
+- Perk "Sniperpony" ignores Cover penalties
+- Zebra Perk "Healing of Mother Earth" changed to Alchemy perk; added Thaumaturgy req. option
+- Zebra Perk "Natural Camouflage" inflicts PER penalty to spot instead of Stealth bonus to user; terrain clarified
+- Shaman Perk "Friengs in High Places" switched to lvl 4, now provide additional Potency to spells
 - Movement actions lower Melee or Unarmed attack cost (down to a min of 1)
 - Charging provides one bonus chosen by attacker 
 - Charging requirement "relatively straight line" of 12m / 6 hex; no crawling or Difficult Terrain
@@ -38,9 +64,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Explosives: added example of being a dud
 - Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
-- Zebra Magic in Magic Codex now solely Spirit Magic
+- Zebra Magic in Magic Codex solely Spirit Magic
 - Casting one spell in multiple times on a turn no longer increases the strain cost
-- Unicorn spell Phantasmagoria: now inflicts Dazed-status
+- Unicorn spell Phantasmagoria: inflicts Dazed-status
 - Unicorn spell Enhancement: does no longer restore SPECIALs from Rad poisoning
 - Spirit of Flame renamed to Spirit of Embers; New list of spells
 - Spirit of Waves renamed to Spirit of Streams; New list of spells
@@ -49,7 +75,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spirit of Machines: new list of spells
 - Spirit of Nature: new list of spells
 - Spirit of Whispers: new list of spells
-- Spirits now have a rival spirit they oppose at all times; serves as RP hook
+- Spirits have a rival spirit they oppose at all times; serves as RP hook
+- Trait "Scholar" renamed into "Arcane Enthusiast" (WF)
 
 
 *** Deprecated
@@ -69,21 +96,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spirit of Riddles & its spells
 - Spirit of Winds & its spells
 - Alchemy recipes from Magic Codex
-- Zebra Perk Oilmaster
-- Zebra Perk Green Hoof
-- Zebra Perk Elemental Alchemist
-- Zebra Perk Potent Talisman
-- Deer Perk Oilmaster (WF)
-- Deer Perk Green Hoof (WF)
+- Zebra Perk: Oilmaster
+- Zebra Perk: Green Hoof
+- Zebra Perk: Elemental Alchemist
+- Zebra Perk: Potent Talisman
+- Shaman Perk: Jailer
+- Shaman Perk: Negotiator
+- Shaman Perk: Greater Affinity
+- Shaman Perk: Elementalist
+- Shaman Perk: Subdue the Mighty
+- Deer Perk: Oilmaster (WF)
+- Deer Perk: Green Hoof (WF)
 
 *** Fixed
+- Perks that require a choice upon taking it now clearly state the decision is final
+- Perk "Gun Nut" no longer has same effect as "Saboteur", new effect listed
 - Character encoding errors of hyphens on copied texts
 - Carry Weight no longer applies nonexistant penalties when exceeding limit
 - Range values now explained when they are in effect
-- Describing how Ascended Spells work under Unicorn spells
+- All Gauss weapons now can use Firearms or MEW skill
+- Long Ranges for Silaha Plasma "Fusion", Silaha Plasma "Igneous" and Gauss SMG corrected to new formula
+- Removed duplicate entires for Toolkits in Tools, Books and Magazines
+- Describing how Ascended Spells work under Unicorn spells in Core Document
 - Listing of removed Unicorn Illusion spell "Sensory Foil" replaced with existing "Phantasmagoria"
 - Unicorn spell "Amplify" now listed under correct school "Perception Magic"
-- Removed duplicate entires for Toolkits in Tools, Books and Magazines
+- Added Dazed to Combat Quick Reference Tables
 
 
 **2.2.1

@@ -145,18 +145,18 @@
 \contentsline {chapter}{\numberline {5}Spirit Magic}{65}{chapter.5}
 \contentsline {section}{Incantations [any SPECIAL]}{65}{section*.144}
 \contentsline {subsection}{Cleanse)}{65}{section*.145}
-\contentsline {subsection}{Phantom Lantern}{65}{section*.146}
+\contentsline {subsection}{Phantom Lantern}{66}{section*.146}
 \contentsline {subsection}{Soothing Spectre}{66}{section*.147}
 \contentsline {subsection}{Spirit Spear}{66}{section*.148}
-\contentsline {subsection}{Telepathy}{66}{section*.149}
+\contentsline {subsection}{Telepathy}{67}{section*.149}
 \contentsline {subsection}{Wall of Mist}{67}{section*.150}
 \contentsline {subsection}{Windigo's Favor)}{67}{section*.151}
 \contentsline {section}{Spirit of Embers [AGI]}{67}{section*.152}
-\contentsline {subsection}{Burning Blood}{67}{section*.153}
+\contentsline {subsection}{Burning Blood}{68}{section*.153}
 \contentsline {subsection}{Burning Passion}{68}{section*.154}
 \contentsline {subsection}{Fire Wheel}{68}{section*.155}
 \contentsline {subsection}{Fireball}{68}{section*.156}
-\contentsline {subsection}{Ignite}{68}{section*.157}
+\contentsline {subsection}{Ignite}{69}{section*.157}
 \contentsline {subsection}{Phoenix Touch}{69}{section*.158}
 \contentsline {section}{Spirit of Machines [INT]}{69}{section*.159}
 \contentsline {subsection}{Dispel Magic}{69}{section*.160}
