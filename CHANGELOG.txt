@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **2.3.0
 *** Added
+- Document: Overmare's Journal
 - Cybernetic limbs
 - More implants
 - Redesigned Alchemy recipes in Wasteland Wares
@@ -59,6 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Carry Weight maximum lowered to double the listed value.
 - Cybernetic implants rebalanced
 - Thermic Lance renamed Arcane Lance; Special attack & Mods changed
+- Enclave Novasurge Rifle gains damage based on Range Increments, not every 10 meters
 - Price changes on Weapons: Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
 - Price changes on Junk: Hellhound Paw
 - Explosives: added example of being a dud
