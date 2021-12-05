@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Zebra Perk: Bucking Counter
 - Deer Perk: Agonizer (WF)
 - Deer Perk: Nature Walk (WF)
+- Chem Strong Alchohol
 
 *** Changed
 - Zebra recipe mechanics listed under Races as well; gain 2 new recipes every 5 levels
@@ -63,6 +64,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enclave Novasurge Rifle gains damage based on Range Increments, not every 10 meters
 - Price changes on Weapons: Fire Axe, Super Sledge, Auto-Axe, Warhammer, Arcane Lance, Longbow, Ripper, Warhammer
 - Price changes on Junk: Hellhound Paw
+- Drink: Purified Water has a recipe
+- Food: Radbit Stew provides +1 AGI
+- Food: Radscorpion Omelette provides Poison and Rad Resistance
+- Food: Fresh Apple Pie provides +1 LCK; new recipe
+- Food: Baked Pear Tart provides +1 PER; new recipe
+- Food: Vegetable Soup gives higher Natural Healing Rate
+- Food: Zebran Caggabe Stew restores 1 Strain instantly
+- Food: Mutfruit Tart restores 1 Strain instantly
+- New recipes for Drugs and Medicine in Chems of Wasteland Wares
+- Drug Party Time Mintals cause lower max Strain and potential Insanity gain; no longer causes Distraction
+- Drug Dash consumes Strain; no longer causes Distraction; increases max AP
+- Drug Kickstarter lasts 3 rounds
+- Drug Rage shifted to have a chance of gaining Insanity
+- Drug Stampede shifted to have a chance of gaining Insanity
+- Drug Tobacco lowers END; no HP loss
+- Drug Mintals consume Strain
+- Chem Bitter Drink exclusively in Alchemy
+- Chem Antivenom renamed "Appleloosan Antivenom"; price lowered
+- Chem First Aid Kit requires Strong Alcohol
+- Chem Healing Potion renamed "Regen-Vial"; price lowered; heals 2 HP and 2 Strain; now has recipe
+- Chem Greater Healing Potion renamed "Regen-Max"; now has recipe
+- Chem Healing Powder exclusively in Alchemy
+- Poisons exclusively in Alchemy
 - Explosives: added example of being a dud
 - Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
