@@ -671,14 +671,16 @@
     \chapter{Rewards, recoveries, and reclamations}
     The journey, jobs, quests, encounters and other acquisitions brings the traveller a wide variety of goods.
     
-    \section*{Scavenging}
+    \section*{Scavenging, Invention and Alchemy}
     When the players are scavenging, it can often lead to a GM having to take a pause to look at what to give them as loot. These following loot tables should make the process a bit easier, while still giving the GM the flexibility to scale the items found to the player level and current equipment. 
     
     General house search is used when the players are just quickly passing through a house, without much intent to turn everything upside down for loot, while other loot tables are meant for a more thorough search.
     
-    \textbf{NOTE: If the player rolls a critical success when rolling LCK to scavenge, they find a hidden Safe in Kitchen or Bedroom.}
- 
-    \textbf{NOTE: If the player has a Critical Success when rolling LCK for scavenging, they find a hidden stash of Caps of 5+2d10 in the Garage/Basement.} 
+    This part also includes searching for herbs, and includes tables for both with and without Keen Eye -perk for alchemy.
+    \vfill
+    \textbf{NOTE: If the player rolls a critical success when rolling LCK to scavenge a kitchen or bedroom, they find a hidden Safe in either location.}
+ 	\vfill
+    \textbf{NOTE: If the player has a Critical Success when rolling LCK for scavenging in a garage or basement, they find a hidden stash of Caps of 5+2d10 in either location.} 
 \begin{table}%[t]
         \centering
         \caption{Loot table: General House search}
@@ -807,10 +809,46 @@
                     3       &  Caps                 & 20+3d10          \\ 
                     4       &  Firearm/MEW Weapon   & 1           \\    
                     5       &  Gem (worth 25 Caps each)  & 1d4         \\
-                    6       &  Spell Instructions   & 1          \\  \hline
+                    6       &  Spell Instructions   & 1          \\  
+                    7		&  Alchemy Recipe		& 1			\\
+                    8		&  Components			& 1+1d4 	\\
+                    9		&  Melee/Unarmed weapon	& 1			\\	
+                    10		&  Explosive			& 1			\\ \hline
         \end{tabular}
         \label{tab:my_label}
     \end{table}
+
+       \begin{table}
+	\centering
+	\caption{Loot table: Herbs, Normal search}
+	\rowcolors{1}{gray!30}{gray!5}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{1d100}    	& \textbf{Item Type}    & \textbf{Amount}  \\ 
+			1-5      		&  White Herb         	& 1d4           \\
+		    6-15   			&  Black Herb         	& 1d4         \\
+		    16-30   		&  Blue Herb            & 2d4          \\ 
+		    31-60   		&  Red Herb   			& 2d4           \\    
+		    61-100  		&  Green Herb  			& 3d4         \\ \hline
+	\end{tabular}
+	\label{tab:my_label}
+\end{table}
+
+\begin{table}
+	\centering
+	\caption{Loot table: Herbs, Keen Eye -perk}
+	\rowcolors{1}{gray!30}{gray!5}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{1d100}    	& \textbf{Item Type}    & \textbf{Amount}  \\ 
+		1-15      			&  White Herb         	& 1d4           \\
+		16-30   			&  Black Herb         	& 1d4         \\
+		31-50   			&  Blue Herb            & 2d4          \\ 
+		51-70   			&  Red Herb   			& 2d4           \\    
+		71-100  			&  Green Herb  			& 3d4         \\ \hline
+	\end{tabular}
+	\label{tab:my_label}
+\end{table}
 
 %    Loot Table 5.7. Hospital
 %    Roll (1d6)	Item Type	Amount
@@ -830,6 +868,7 @@
 %    5	Drinks	1d4
 %    6	Caps	3d10
     
+    \newpage
     \subsection*{Looting Enemies}
     It's very probable that the party at your hooves wants to take everything they can possibly get from a downed enemy. To the victor goes the spoils, after all. In the Mutant Manual, each creature has a small collection of items listed for the players to loot for themselves. Aside from some checks required to double the amount they can get, looting doesn't require a check to perform. In case of there being a large amount of downed enemies, the looting can be collective of all the creatures, to reduce the time the party spends pulling off armors and prying weapons from dead hooves.
     
@@ -848,7 +887,7 @@
     \section*{Stealing}
     Not all loot has to be earned... or rather, it can be gained by trickery and swift hooves. 
     
-    Most societies in the Wastes do not approve of stealing, but depending on the society itself, the repercussions may vary greatly. While some societies are willing to let a thief go with a simple fine, others may be only satisfied when they take the offending party's hoof as punishment.
+    Most societies in the Wastes do not approve of stealing, but depending on the society itself, the repercussions may vary greatly. While some societies are willing to let a thief go with a simple fine, others may be only satisfied when they take the offending party's hoof as punishment. Or at least attempt to.
     
     Even societies -a term used loosely here- that often steal themselves, such as raiders or thugs, frown upon when they become the target instead. So it is safe to say that unless the thief manages to impress with a heist of a century, most will want her out of their manes. As such, stealing is considered to net Karma loss, but the thief does get to keep their nicked goods, unless they're caught. Then they just get karma loss and no valuables to call their own.
     
@@ -1171,7 +1210,7 @@
 		Holding a light source / casting magic        & -10 Sneak                          \\
 		Surfaces                                      & \begin{tabular}{@{}l@{}}Soft surfaces: rugs, sand, soft dirt; +10 Sneak \\ Hard surfaces: metal, roof tiles, stone; -10 Sneak \\ Noisy surfaces: water puddles, glass; -20 Sneak. \end{tabular}                                   \\
 		Armor and clothing                            & Indicated within armor description \\ \hline
-	\end{tabu} 
+	\end{tabu}
 	
 \end{table}
 
