@@ -39,6 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Deer Perk: Agonizer (WF)
 - Deer Perk: Nature Walk (WF)
 - Chem Strong Alchohol
+- Junk Herb, black
+- Junk Herb, white
 
 *** Changed
 - Zebra recipe mechanics listed under Races as well; gain 2 new recipes every 5 levels
@@ -87,6 +89,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Chem Greater Healing Potion renamed "Regen-Max"; now has recipe
 - Chem Healing Powder exclusively in Alchemy
 - Poisons exclusively in Alchemy
+- Junk: Weight changes
+- Junk: Scraps now have weight
 - Explosives: added example of being a dud
 - Earth Pony magic schools renamed; Might (STR), Sight (PER), Charm (CHA)
 - Enchantements shifted from Shamanism to Alchemy
