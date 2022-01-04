@@ -8,7 +8,7 @@
 \contentsline {section}{Secondary Statistics}{23}{section*.37}
 \contentsline {section}{Skills}{27}{section*.52}
 \contentsline {section}{P.A.S.T.}{31}{section*.69}
-\contentsline {section}{Traits}{36}{section*.98}
+\contentsline {section}{Traits}{37}{section*.98}
 \contentsline {chapter}{\numberline {3}Equipment}{43}{chapter.3}
 \contentsline {section}{Caps \& Currency}{44}{section*.136}
 \contentsline {section}{Quick Slots}{45}{section*.137}
@@ -46,7 +46,7 @@
 \contentsline {subsection}{Hunger \& Thirst}{84}{section*.228}
 \contentsline {chapter}{\numberline {7}Combat}{85}{chapter.7}
 \contentsline {section}{Combat Sequence}{85}{section*.229}
-\contentsline {section}{Initiative}{85}{section*.230}
+\contentsline {section}{Initiative}{86}{section*.230}
 \contentsline {section}{Combat Turn}{86}{section*.231}
 \contentsline {section}{Combat Statistics}{87}{section*.232}
 \contentsline {subsection}{Combat Variables}{87}{section*.233}
@@ -73,7 +73,7 @@
 \contentsline {section}{Earth Pony Magic}{110}{section*.329}
 \contentsline {section}{Pegasus \& Griffin Aerial Maneuvers}{111}{section*.332}
 \contentsline {section}{Unicorn Magic}{113}{section*.335}
-\contentsline {section}{Zebra Magic}{115}{section*.338}
-\contentsline {subsection}{Alchemy}{115}{section*.339}
-\contentsline {subsection}{Shamanism}{118}{section*.344}
-\contentsline {chapter}{Combat Quick Reference Sheet}{123}{chapter*.350}
+\contentsline {section}{Zebra Magic}{116}{section*.338}
+\contentsline {subsection}{Alchemy}{116}{section*.339}
+\contentsline {subsection}{Shamanism}{119}{section*.344}
+\contentsline {chapter}{Combat Quick Reference Sheet}{125}{chapter*.349}
