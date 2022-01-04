@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-**2.3.0 [UNRELEASED]
+**2.3.0
 *** Added
 - Document: Overmare's Journal
 - Cybernetics:
@@ -15,6 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- More implants
 - Redesigned Alchemy recipes in Wasteland Wares
 - Perks:
+	- Core: A Willing Shield
+	- Core: Engineer
+	- Core: Hopeful Mercy
+	- Core: Mama Bear
+	- Core: Master Builder	
+	- Core: The Heart of the Party
+	- Flying: Colibri
+	- Magic: Stallion/Mare's best friend
 	- Alchemy: Black Market Connections
 	- Alchemy: Keen Eye
 	- Alchemy: Fast Learner
@@ -122,14 +130,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Spirits have a rival spirit they oppose at all times; serves as RP hook
 - Trait "Scholar" renamed into "Arcane Enthusiast" (WF)
 
-
-*** Deprecated
-
-
 *** Removed
 - Full-Auto rules
 - Cybernetic Implant upper limit
 - Perks:
+	- Flying: Bat out of Tartarus
 	- Zebra: Oilmaster
 	- Zebra: Green Hoof
 	- Zebra: Elemental Alchemist
@@ -157,6 +162,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Fixed
 - Perks that require a choice upon taking it now clearly state the decision is final
 - Perk "Gun Nut" no longer has same effect as "Saboteur", new effect listed
+- Perk "Jury Rigging" now has clear minimum component amount listed
 - Character encoding errors of hyphens on copied texts
 - Carry Weight no longer applies nonexistant penalties when exceeding limit
 - Range values now explained when they are in effect
