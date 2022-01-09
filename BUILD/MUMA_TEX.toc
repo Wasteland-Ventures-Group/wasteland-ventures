@@ -17,76 +17,77 @@
 \contentsline {section}{Chimera}{34}{section*.48}%
 \contentsline {section}{Cockatrice}{36}{section*.52}%
 \contentsline {section}{Dragon}{38}{section*.56}%
-\contentsline {section}{Enclave}{40}{section*.60}%
-\contentsline {section}{Equitron}{42}{section*.64}%
-\contentsline {section}{Feral Dog}{44}{section*.68}%
-\contentsline {subsection}{Feral Mongrel}{45}{section*.71}%
-\contentsline {section}{Feral Ghoul}{47}{section*.75}%
-\contentsline {subsection}{Glowing One}{48}{section*.78}%
-\contentsline {subsection}{Canterlot Ghoul}{49}{section*.81}%
-\contentsline {section}{Fire Ant}{52}{section*.85}%
-\contentsline {subsection}{Fire Ant Queen}{53}{section*.88}%
-\contentsline {section}{Firebush}{56}{section*.92}%
-\contentsline {section}{Flash Bee}{58}{section*.96}%
-\contentsline {section}{Floater}{60}{section*.100}%
-\contentsline {section}{Gecko}{62}{section*.104}%
-\contentsline {subsection}{Fire Gecko}{63}{section*.107}%
-\contentsline {subsection}{Golden Gecko}{64}{section*.110}%
-\contentsline {section}{Ghost}{66}{section*.114}%
-\contentsline {section}{Giant Ant}{68}{section*.118}%
-\contentsline {subsection}{Giant Ant Queen}{69}{section*.121}%
-\contentsline {section}{Hellhound}{72}{section*.125}%
-\contentsline {section}{Hospital Horror}{74}{section*.129}%
-\contentsline {section}{Hydra}{76}{section*.133}%
-\contentsline {section}{Jackalope}{78}{section*.137}%
-\contentsline {subsection}{Al-Mi'raj}{79}{section*.140}%
-\contentsline {section}{Manticore}{82}{section*.144}%
-\contentsline {section}{Mercenary}{84}{section*.148}%
-\contentsline {section}{Mister Hoofy}{86}{section*.152}%
-\contentsline {subsection}{Sir Gallant}{88}{section*.155}%
-\contentsline {section}{Molerat}{90}{section*.159}%
-\contentsline {section}{Moss Shambler}{92}{section*.163}%
-\contentsline {subsection}{Black Fungus Shambler}{94}{section*.166}%
-\contentsline {section}{Myling}{96}{section*.170}%
-\contentsline {subsection}{Myling Queen}{98}{section*.173}%
-\contentsline {section}{Puckwudgie}{100}{section*.177}%
-\contentsline {section}{Quarray Eel}{102}{section*.181}%
-\contentsline {section}{Radbit}{104}{section*.185}%
-\contentsline {section}{Rad-Butterfly}{106}{section*.189}%
-\contentsline {section}{Radhog}{108}{section*.193}%
-\contentsline {section}{Radrel}{110}{section*.197}%
-\contentsline {section}{Radigator}{112}{section*.201}%
-\contentsline {subsection}{Giant Cragadile}{114}{section*.204}%
-\contentsline {section}{Radroach}{116}{section*.208}%
-\contentsline {section}{Radscorpion}{118}{section*.212}%
-\contentsline {section}{Radstag}{120}{section*.216}%
-\contentsline {section}{Raider}{122}{section*.220}%
-\contentsline {section}{Robobrain}{124}{section*.224}%
-\contentsline {section}{Salamander}{126}{section*.228}%
-\contentsline {section}{Shade}{128}{section*.232}%
-\contentsline {section}{Slaver}{130}{section*.236}%
-\contentsline {section}{Snake, Two-headed}{132}{section*.240}%
-\contentsline {subsection}{Snake, Three-headed}{133}{section*.243}%
-\contentsline {section}{Spider}{135}{section*.247}%
-\contentsline {subsection}{Spider, Giant}{136}{section*.250}%
-\contentsline {section}{Spider-Bot}{138}{section*.254}%
-\contentsline {section}{Spore Carrier}{140}{section*.258}%
-\contentsline {section}{Spore Plant}{142}{section*.262}%
-\contentsline {section}{Sprite Bot}{144}{section*.266}%
-\contentsline {section}{Steel Ranger}{146}{section*.270}%
-\contentsline {section}{Star-Spawn}{148}{section*.274}%
-\contentsline {section}{Tankbug}{150}{section*.278}%
-\contentsline {section}{Thug}{152}{section*.282}%
-\contentsline {section}{Timberwolf}{154}{section*.286}%
-\contentsline {section}{Triggerbloom}{156}{section*.290}%
-\contentsline {subsection}{Pale Triggerbloom}{157}{section*.293}%
-\contentsline {section}{Turret}{160}{section*.297}%
-\contentsline {section}{Twittermite}{162}{section*.301}%
-\contentsline {section}{Ultra-Sentinel}{164}{section*.305}%
-\contentsline {section}{Weedling}{166}{section*.309}%
-\contentsline {section}{Windigo}{168}{section*.313}%
-\contentsline {section}{Wood-Rot Wasp}{170}{section*.317}%
-\contentsline {section}{Yao Guai}{172}{section*.321}%
-\contentsline {subsection}{Ghoulified Yao Guai}{173}{section*.324}%
-\contentsline {section}{Zebra}{175}{section*.328}%
-\contentsline {chapter}{Critters by Category}{177}{chapter*.332}%
+\contentsline {subsection}{Balefire Dragon}{40}{section*.59}%
+\contentsline {section}{Enclave}{43}{section*.63}%
+\contentsline {section}{Equitron}{45}{section*.67}%
+\contentsline {section}{Feral Dog}{47}{section*.71}%
+\contentsline {subsection}{Feral Mongrel}{48}{section*.74}%
+\contentsline {section}{Feral Ghoul}{50}{section*.78}%
+\contentsline {subsection}{Glowing One}{51}{section*.81}%
+\contentsline {subsection}{Canterlot Ghoul}{52}{section*.84}%
+\contentsline {section}{Fire Ant}{55}{section*.88}%
+\contentsline {subsection}{Fire Ant Queen}{56}{section*.91}%
+\contentsline {section}{Firebush}{59}{section*.95}%
+\contentsline {section}{Flash Bee}{61}{section*.99}%
+\contentsline {section}{Floater}{63}{section*.103}%
+\contentsline {section}{Gecko}{65}{section*.107}%
+\contentsline {subsection}{Fire Gecko}{66}{section*.110}%
+\contentsline {subsection}{Golden Gecko}{67}{section*.113}%
+\contentsline {section}{Ghost}{69}{section*.117}%
+\contentsline {section}{Giant Ant}{71}{section*.121}%
+\contentsline {subsection}{Giant Ant Queen}{72}{section*.124}%
+\contentsline {section}{Hellhound}{75}{section*.128}%
+\contentsline {section}{Hospital Horror}{77}{section*.132}%
+\contentsline {section}{Hydra}{79}{section*.136}%
+\contentsline {section}{Jackalope}{81}{section*.140}%
+\contentsline {subsection}{Al-Mi'raj}{82}{section*.143}%
+\contentsline {section}{Manticore}{85}{section*.147}%
+\contentsline {section}{Mercenary}{87}{section*.151}%
+\contentsline {section}{Mister Hoofy}{89}{section*.155}%
+\contentsline {subsection}{Sir Gallant}{91}{section*.158}%
+\contentsline {section}{Molerat}{93}{section*.162}%
+\contentsline {section}{Moss Shambler}{95}{section*.166}%
+\contentsline {subsection}{Black Fungus Shambler}{97}{section*.169}%
+\contentsline {section}{Myling}{99}{section*.173}%
+\contentsline {subsection}{Myling Queen}{101}{section*.176}%
+\contentsline {section}{Puckwudgie}{103}{section*.180}%
+\contentsline {section}{Quarray Eel}{105}{section*.184}%
+\contentsline {section}{Radbit}{107}{section*.188}%
+\contentsline {section}{Rad-Butterfly}{109}{section*.192}%
+\contentsline {section}{Radhog}{111}{section*.196}%
+\contentsline {section}{Radrel}{113}{section*.200}%
+\contentsline {section}{Radigator}{115}{section*.204}%
+\contentsline {subsection}{Giant Cragadile}{117}{section*.207}%
+\contentsline {section}{Radroach}{119}{section*.211}%
+\contentsline {section}{Radscorpion}{121}{section*.215}%
+\contentsline {section}{Radstag}{123}{section*.219}%
+\contentsline {section}{Raider}{125}{section*.223}%
+\contentsline {section}{Robobrain}{127}{section*.227}%
+\contentsline {section}{Salamander}{129}{section*.231}%
+\contentsline {section}{Shade}{131}{section*.235}%
+\contentsline {section}{Slaver}{133}{section*.239}%
+\contentsline {section}{Snake, Two-headed}{135}{section*.243}%
+\contentsline {subsection}{Snake, Three-headed}{136}{section*.246}%
+\contentsline {section}{Spider}{138}{section*.250}%
+\contentsline {subsection}{Spider, Giant}{139}{section*.253}%
+\contentsline {section}{Spider-Bot}{141}{section*.257}%
+\contentsline {section}{Spore Carrier}{143}{section*.261}%
+\contentsline {section}{Spore Plant}{145}{section*.265}%
+\contentsline {section}{Sprite Bot}{147}{section*.269}%
+\contentsline {section}{Steel Ranger}{149}{section*.273}%
+\contentsline {section}{Star-Spawn}{151}{section*.277}%
+\contentsline {section}{Tankbug}{153}{section*.281}%
+\contentsline {section}{Thug}{155}{section*.285}%
+\contentsline {section}{Timberwolf}{157}{section*.289}%
+\contentsline {section}{Triggerbloom}{159}{section*.293}%
+\contentsline {subsection}{Pale Triggerbloom}{160}{section*.296}%
+\contentsline {section}{Turret}{163}{section*.300}%
+\contentsline {section}{Twittermite}{165}{section*.304}%
+\contentsline {section}{Ultra-Sentinel}{167}{section*.308}%
+\contentsline {section}{Weedling}{169}{section*.312}%
+\contentsline {section}{Windigo}{171}{section*.316}%
+\contentsline {section}{Wood-Rot Wasp}{173}{section*.320}%
+\contentsline {section}{Yao Guai}{175}{section*.324}%
+\contentsline {subsection}{Ghoulified Yao Guai}{176}{section*.327}%
+\contentsline {section}{Zebra}{178}{section*.331}%
+\contentsline {chapter}{Critters by Category}{181}{chapter*.335}%
