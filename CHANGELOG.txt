@@ -37,6 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Arrow: Broad Tip renamed to Broadhead to convey the image of a correct arrow type	
 - Magic:
 	- Spirit Affinity mentions removed due to deprecation
+	- Spirit of Streams now has the correct rival in form of Spirit of Embers, instead of it having a secret dispute with Spirit of Serenity
+- Mutants:
+	- Ranges of Mutant abilities changed to fit into new calculation format
 	
 
 **2.3.0
