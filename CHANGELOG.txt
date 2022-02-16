@@ -7,6 +7,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+**[UNRELEASED]
+*** Added
+- Items:
+	- Rarity value for all items (Common, Uncommon, Rare, Exotic)
+- Mutants:
+	- Balefire Dragon
+
+*** Changed
+- Magic:
+	- Clarified concentration and magical damage
+- Mutants:
+	- Added Insectoid Weakness on Bloatsprites
+	- Bugbears now have Rad Immunity; removed Rad Resistance.
+	- Changelings are now Organized
+	- Changeling Queens now have "Royalty" trait; makes other Changelings immune to distractions
+
+
+*** Deprecated
+
+*** Removed
+
+*** Fixed
+- Credits for one character use now added on Core Document, as good manners dictate
+- Perks:
+	- Grammar checked across all perks
+- Items:
+	- Ammo:
+		- Arrow: Broad Tip renamed to Broadhead to convey the image of a correct arrow type	
+- Magic:
+	- Spirit Affinity mentions removed due to deprecation
+	
+
 **2.3.0
 *** Added
 - Document: Overmare's Journal
