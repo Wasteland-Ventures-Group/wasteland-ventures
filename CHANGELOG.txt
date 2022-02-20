@@ -17,11 +17,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Changed
 - Magic:
 	- Clarified concentration and magical damage
+	- Learning new spells/recipes/maneuvers simplified
 - Mutants:
 	- Added Insectoid Weakness on Bloatsprites
 	- Bugbears now have Rad Immunity; removed Rad Resistance.
 	- Changelings are now Organized
 	- Changeling Queens now have "Royalty" trait; makes other Changelings immune to distractions
+- Optional Rules
+	- Invention
+		- Simplified creation of inventions and chems
 
 
 *** Deprecated
@@ -40,6 +44,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Spirit of Streams now has the correct rival in form of Spirit of Embers, instead of it having a secret dispute with Spirit of Serenity
 - Mutants:
 	- Ranges of Mutant abilities changed to fit into new calculation format
+- Optional Rules
+	- Invention
+		- Removed notion of Addiction from chem creation example, as addiction is no longer enforced game mechanic
 	
 
 **2.3.0
