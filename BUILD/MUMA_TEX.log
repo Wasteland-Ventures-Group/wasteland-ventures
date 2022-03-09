@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  9 JAN 2022 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  9 MAR 2022 11:51
 entering extended mode
 **MUMA_TEX.tex MUMA_TEX.tex
 (MUMA_TEX.tex
@@ -588,7 +588,7 @@ LaTeX Info: Redefining \nameref on input line 33.
 \@outlinefile=\write3
 \openout3 = `MUMA_TEX.out'.
 
-<WORD/COVER-MUMA.pdf, id=375, 597.23125pt x 845.1575pt>
+<WORD/COVER-MUMA.pdf, id=379, 597.23125pt x 845.1575pt>
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf>
 Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 35.
@@ -597,7 +597,7 @@ File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf>
 Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<WORD/COVER-MUMA.pdf, id=378, page=1, 597.23125pt x 845.1575pt>
+<WORD/COVER-MUMA.pdf, id=382, page=1, 597.23125pt x 845.1575pt>
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
 Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
@@ -633,7 +633,7 @@ Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
 [1
 
  <./WORD/COVER-MUMA.pdf>]
-<ART/ISA_Logo.jpg, id=399, 77.53969pt x 74.52844pt>
+<ART/ISA_Logo.jpg, id=403, 77.53969pt x 74.52844pt>
 File: ART/ISA_Logo.jpg Graphic file (type jpg)
 <use ART/ISA_Logo.jpg>
 Package pdftex.def Info: ART/ISA_Logo.jpg  used on input line 65.
@@ -652,12 +652,12 @@ l.69 	\twocolumn
 
 ]
 (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -693,261 +693,261 @@ Underfull \hbox (badness 4981) in paragraph at lines 105--106
 []\OT1/cmr/m/n/10.95 Non-Mutated crea-tures are
  []
 
-[10]
-Chapter 3.
-[11
+[10] [11
+
+] [12
 
 
 ]
-<ART/Enemies/Alicorn Blue.jpg, id=547, 337.26pt x 337.26pt>
+Chapter 3.
+[13]
+<ART/Enemies/Alicorn Blue.jpg, id=561, 337.26pt x 337.26pt>
 File: ART/Enemies/Alicorn Blue.jpg Graphic file (type jpg)
 <use ART/Enemies/Alicorn Blue.jpg>
-Package pdftex.def Info: ART/Enemies/Alicorn Blue.jpg  used on input line 199.
+Package pdftex.def Info: ART/Enemies/Alicorn Blue.jpg  used on input line 208.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [12 <./ART/Enemies/Alicorn Blue.jpg>] [13] [14] [15] [16
+ [14 <./ART/Enemies/Alicorn Blue.jpg>] [15] [16] [17] [18
 
 ]
-<ART/Enemies/Bale phoenix.jpg, id=577, 264.99pt x 264.99pt>
+<ART/Enemies/Bale phoenix.jpg, id=591, 264.99pt x 264.99pt>
 File: ART/Enemies/Bale phoenix.jpg Graphic file (type jpg)
 <use ART/Enemies/Bale phoenix.jpg>
-Package pdftex.def Info: ART/Enemies/Bale phoenix.jpg  used on input line 399.
+Package pdftex.def Info: ART/Enemies/Bale phoenix.jpg  used on input line 408.
 (pdftex.def)             Requested size: 226.0pt x 226.00272pt.
- [17 <./ART/Enemies/Bale phoenix.jpg>]
-<ART/Enemies/Bloodwing.jpg, id=584, 274.626pt x 274.626pt>
+ [19 <./ART/Enemies/Bale phoenix.jpg>]
+<ART/Enemies/Bloodwing.jpg, id=598, 274.626pt x 274.626pt>
 File: ART/Enemies/Bloodwing.jpg Graphic file (type jpg)
 <use ART/Enemies/Bloodwing.jpg>
-Package pdftex.def Info: ART/Enemies/Bloodwing.jpg  used on input line 474.
+Package pdftex.def Info: ART/Enemies/Bloodwing.jpg  used on input line 483.
 (pdftex.def)             Requested size: 271.20276pt x 271.20172pt.
- [18
+ [20
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 479--481
+Underfull \hbox (badness 1231) in paragraph at lines 488--490
 \OT1/cmr/m/n/10.95 i-cal com-po-nent to it that keeps
  []
 
-[19 <./ART/Enemies/Bloodwing.jpg>] [20
+[21 <./ART/Enemies/Bloodwing.jpg>] [22
 
-] [21] [22] [23] [24] [25
+] [23] [24] [25] [26] [27
 
 ]
-<ART/Enemies/Brahmin2.jpg, id=631, 216.81pt x 216.81pt>
+<ART/Enemies/Brahmin2.jpg, id=644, 216.81pt x 216.81pt>
 File: ART/Enemies/Brahmin2.jpg Graphic file (type jpg)
 <use ART/Enemies/Brahmin2.jpg>
-Package pdftex.def Info: ART/Enemies/Brahmin2.jpg  used on input line 756.
+Package pdftex.def Info: ART/Enemies/Brahmin2.jpg  used on input line 765.
 (pdftex.def)             Requested size: 203.39862pt x 203.40773pt.
- [26 <./ART/Enemies/Brahmin2.jpg>] [27
+ [28 <./ART/Enemies/Brahmin2.jpg>] [29
 
-] [28]
-Overfull \hbox (2.7391pt too wide) in paragraph at lines 885--885
+] [30]
+Overfull \hbox (2.7391pt too wide) in paragraph at lines 894--894
  []\OT1/cmr/m/n/10.95 Diplomacy| 
  []
 
-[29
+[31
 
 ]
-<ART/Enemies/Changeling.jpg, id=654, 409.53pt x 409.53pt>
+<ART/Enemies/Changeling.jpg, id=668, 409.53pt x 409.53pt>
 File: ART/Enemies/Changeling.jpg Graphic file (type jpg)
 <use ART/Enemies/Changeling.jpg>
-Package pdftex.def Info: ART/Enemies/Changeling.jpg  used on input line 924.
+Package pdftex.def Info: ART/Enemies/Changeling.jpg  used on input line 933.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [30 <./ART/Enemies/Changeling.jpg>] [31
+ [32 <./ART/Enemies/Changeling.jpg>] [33
 
 ]
-<ART/Enemies/Changeling Queen.jpg, id=666, 264.99pt x 264.99pt>
+<ART/Enemies/Changeling Queen.jpg, id=679, 264.99pt x 264.99pt>
 File: ART/Enemies/Changeling Queen.jpg Graphic file (type jpg)
 <use ART/Enemies/Changeling Queen.jpg>
-Package pdftex.def Info: ART/Enemies/Changeling Queen.jpg  used on input line 9
-99.
+Package pdftex.def Info: ART/Enemies/Changeling Queen.jpg  used on input line 1
+008.
 (pdftex.def)             Requested size: 248.60138pt x 248.60542pt.
- [32 <./ART/Enemies/Changeling Queen.jpg>] [33]
-<ART/Enemies/Chimera.jpg, id=677, 264.99pt x 264.99pt>
+ [34 <./ART/Enemies/Changeling Queen.jpg>] [35]
+<ART/Enemies/Chimera.jpg, id=690, 264.99pt x 264.99pt>
 File: ART/Enemies/Chimera.jpg Graphic file (type jpg)
 <use ART/Enemies/Chimera.jpg>
-Package pdftex.def Info: ART/Enemies/Chimera.jpg  used on input line 1074.
+Package pdftex.def Info: ART/Enemies/Chimera.jpg  used on input line 1083.
 (pdftex.def)             Requested size: 248.60138pt x 248.60542pt.
- [34
+ [36
 
 ]
-Underfull \hbox (badness 2460) in paragraph at lines 1081--1082
+Underfull \hbox (badness 2460) in paragraph at lines 1090--1091
 []\OT1/cmr/m/n/10.95 Thankfully an-tivenom, if de-liv-ered
  []
 
-[35 <./ART/Enemies/Chimera.jpg>] [36
+[37 <./ART/Enemies/Chimera.jpg>] [38
 
 ]
-<ART/Enemies/Cockatrice.jpg, id=696, 337.26pt x 337.26pt>
+<ART/Enemies/Cockatrice.jpg, id=709, 337.26pt x 337.26pt>
 File: ART/Enemies/Cockatrice.jpg Graphic file (type jpg)
 <use ART/Enemies/Cockatrice.jpg>
-Package pdftex.def Info: ART/Enemies/Cockatrice.jpg  used on input line 1162.
+Package pdftex.def Info: ART/Enemies/Cockatrice.jpg  used on input line 1171.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [37 <./ART/Enemies/Cockatrice.jpg>]
-[38
+ [39 <./ART/Enemies/Cockatrice.jpg>]
+[40
 
-] [39] [40
+] [41] [42
 
-] [41] [42] [43
-
-] [44] [45
+] [43] [44] [45
 
 ] [46] [47
 
-] [48] [49]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1638--1638
+] [48] [49
+
+] [50] [51]
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 1647--1647
  []\OT1/cmr/m/n/10.95 Unarmed| 
  []
 
-[50
+[52
 
 ]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1696--1696
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 1705--1705
  []\OT1/cmr/m/n/10.95 Unarmed| 
  []
 
-[51]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1770--1770
+[53]
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 1779--1779
  []\OT1/cmr/m/n/10.95 Unarmed| 
  []
 
-[52]
-<ART/Enemies/ghoul.jpg, id=785, 245.718pt x 245.718pt>
+[54]
+<ART/Enemies/ghoul.jpg, id=799, 245.718pt x 245.718pt>
 File: ART/Enemies/ghoul.jpg Graphic file (type jpg)
 <use ART/Enemies/ghoul.jpg>
-Package pdftex.def Info: ART/Enemies/ghoul.jpg  used on input line 1804.
+Package pdftex.def Info: ART/Enemies/ghoul.jpg  used on input line 1813.
 (pdftex.def)             Requested size: 226.0pt x 226.0108pt.
- [53] [54 <./ART/Enemies/ghoul.jpg>] [55
+ [55] [56 <./ART/Enemies/ghoul.jpg>] [57
 
-] [56]
-<ART/Enemies/Fire ant.jpg, id=808, 383.031pt x 383.031pt>
+] [58]
+<ART/Enemies/Fire ant.jpg, id=821, 383.031pt x 383.031pt>
 File: ART/Enemies/Fire ant.jpg Graphic file (type jpg)
 <use ART/Enemies/Fire ant.jpg>
-Package pdftex.def Info: ART/Enemies/Fire ant.jpg  used on input line 1952.
+Package pdftex.def Info: ART/Enemies/Fire ant.jpg  used on input line 1961.
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [57] [58 <./ART/Enemies/Fire ant.jpg>] [59
+ [59] [60 <./ART/Enemies/Fire ant.jpg>] [61
 
 ]
-<ART/Enemies/firebush.jpg, id=825, 337.26pt x 337.26pt>
+<ART/Enemies/firebush.jpg, id=839, 337.26pt x 337.26pt>
 File: ART/Enemies/firebush.jpg Graphic file (type jpg)
 <use ART/Enemies/firebush.jpg>
-Package pdftex.def Info: ART/Enemies/firebush.jpg  used on input line 2021.
+Package pdftex.def Info: ART/Enemies/firebush.jpg  used on input line 2030.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [60 <./ART/Enemies/firebush.jpg>] [61
-
-] [62] [63
+ [62 <./ART/Enemies/firebush.jpg>] [63
 
 ] [64] [65
 
+] [66] [67
+
 ]
-[66] [67] [68] [69
+[68] [69] [70] [71
 
-] [70] [71
+] [72] [73
 
-] [72]
-<ART/Enemies/Giant ant.jpg, id=903, 409.53pt x 409.53pt>
+] [74]
+<ART/Enemies/Giant ant.jpg, id=916, 409.53pt x 409.53pt>
 File: ART/Enemies/Giant ant.jpg Graphic file (type jpg)
 <use ART/Enemies/Giant ant.jpg>
-Package pdftex.def Info: ART/Enemies/Giant ant.jpg  used on input line 2532.
+Package pdftex.def Info: ART/Enemies/Giant ant.jpg  used on input line 2541.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [73] [74 <./ART/Enemies/Giant ant.jpg>]
-Overfull \hbox (0.9515pt too wide) in paragraph at lines 2569--2569
+ [75] [76 <./ART/Enemies/Giant ant.jpg>]
+Overfull \hbox (0.9515pt too wide) in paragraph at lines 2578--2578
  []\OT1/cmr/m/n/10.95 Intimidation| 
  []
 
-[75
+[77
 
 ]
-<ART/Enemies/Hellhound.jpg, id=918, 317.988pt x 317.988pt>
+<ART/Enemies/Hellhound.jpg, id=931, 317.988pt x 317.988pt>
 File: ART/Enemies/Hellhound.jpg Graphic file (type jpg)
 <use ART/Enemies/Hellhound.jpg>
-Package pdftex.def Info: ART/Enemies/Hellhound.jpg  used on input line 2611.
+Package pdftex.def Info: ART/Enemies/Hellhound.jpg  used on input line 2620.
 (pdftex.def)             Requested size: 293.79724pt x 293.81404pt.
- [76 <./ART/Enemies/Hellhound.jpg>] [77
+ [78 <./ART/Enemies/Hellhound.jpg>] [79
 
 ]
-<ART/Enemies/horror.jpg, id=930, 310.761pt x 310.761pt>
+<ART/Enemies/horror.jpg, id=944, 310.761pt x 310.761pt>
 File: ART/Enemies/horror.jpg Graphic file (type jpg)
 <use ART/Enemies/horror.jpg>
-Package pdftex.def Info: ART/Enemies/horror.jpg  used on input line 2683.
+Package pdftex.def Info: ART/Enemies/horror.jpg  used on input line 2692.
 (pdftex.def)             Requested size: 293.79724pt x 293.80347pt.
- [78 <./ART/Enemies/horror.jpg>]
-[79
+ [80 <./ART/Enemies/horror.jpg>]
+[81
 
-] [80] [81
+] [82] [83
 
-] [82]
-<ART/Enemies/jackalope.jpg, id=960, 390.258pt x 390.258pt>
+] [84]
+<ART/Enemies/jackalope.jpg, id=974, 390.258pt x 390.258pt>
 File: ART/Enemies/jackalope.jpg Graphic file (type jpg)
 <use ART/Enemies/jackalope.jpg>
-Package pdftex.def Info: ART/Enemies/jackalope.jpg  used on input line 2898.
+Package pdftex.def Info: ART/Enemies/jackalope.jpg  used on input line 2907.
 (pdftex.def)             Requested size: 361.60138pt x 361.6023pt.
- [83] [84 <./ART/Enemies/jackalope.jpg>] [85
+ [85] [86 <./ART/Enemies/jackalope.jpg>] [87
 
-] [86] [87
+] [88] [89
 
 ]
-[88] [89
-
-] [90] [91
+[90] [91
 
 ] [92] [93
 
+] [94] [95
+
 ]
-<ART/Enemies/molerat.jpg, id=1022, 337.26pt x 337.26pt>
+<ART/Enemies/molerat.jpg, id=1035, 337.26pt x 337.26pt>
 File: ART/Enemies/molerat.jpg Graphic file (type jpg)
 <use ART/Enemies/molerat.jpg>
-Package pdftex.def Info: ART/Enemies/molerat.jpg  used on input line 3255.
+Package pdftex.def Info: ART/Enemies/molerat.jpg  used on input line 3264.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [94 <./ART/Enemies/molerat.jpg>] [95
+ [96 <./ART/Enemies/molerat.jpg>] [97
 
 ]
-<ART/Enemies/Moss Shambler.jpg, id=1033, 337.26pt x 337.26pt>
+<ART/Enemies/Moss Shambler.jpg, id=1047, 337.26pt x 337.26pt>
 File: ART/Enemies/Moss Shambler.jpg Graphic file (type jpg)
 <use ART/Enemies/Moss Shambler.jpg>
-Package pdftex.def Info: ART/Enemies/Moss Shambler.jpg  used on input line 3323
+Package pdftex.def Info: ART/Enemies/Moss Shambler.jpg  used on input line 3332
 .
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [96 <./ART/Enemies/Moss Shambler.jpg>] [97
+ [98 <./ART/Enemies/Moss Shambler.jpg>] [99
 
-] [98] [99
+] [100] [101
 
 ]
-<ART/Enemies/myling drone.jpg, id=1056, 383.031pt x 383.031pt>
+<ART/Enemies/myling drone.jpg, id=1069, 383.031pt x 383.031pt>
 File: ART/Enemies/myling drone.jpg Graphic file (type jpg)
 <use ART/Enemies/myling drone.jpg>
-Package pdftex.def Info: ART/Enemies/myling drone.jpg  used on input line 3464.
+Package pdftex.def Info: ART/Enemies/myling drone.jpg  used on input line 3473.
 
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [100 <./ART/Enemies/myling drone.jpg>] [101
+ [102 <./ART/Enemies/myling drone.jpg>] [103
 
 ]
-<ART/Enemies/myling queen.jpg, id=1067, 252.945pt x 202.356pt>
+<ART/Enemies/myling queen.jpg, id=1081, 252.945pt x 202.356pt>
 File: ART/Enemies/myling queen.jpg Graphic file (type jpg)
 <use ART/Enemies/myling queen.jpg>
-Package pdftex.def Info: ART/Enemies/myling queen.jpg  used on input line 3533.
+Package pdftex.def Info: ART/Enemies/myling queen.jpg  used on input line 3542.
 
 (pdftex.def)             Requested size: 226.0pt x 180.80334pt.
- [102 <./ART/Enemies/myling queen.jpg>] [103
+ [104 <./ART/Enemies/myling queen.jpg>] [105
 
-] [104] [105
+] [106] [107
 
-] [106]
-[107
+] [108]
+[109
 
 ]
-<ART/Enemies/Radbun.jpg, id=1103, 332.442pt x 332.442pt>
+<ART/Enemies/Radbun.jpg, id=1117, 332.442pt x 332.442pt>
 File: ART/Enemies/Radbun.jpg Graphic file (type jpg)
 <use ART/Enemies/Radbun.jpg>
-Package pdftex.def Info: ART/Enemies/Radbun.jpg  used on input line 3756.
+Package pdftex.def Info: ART/Enemies/Radbun.jpg  used on input line 3765.
 (pdftex.def)             Requested size: 316.39862pt x 316.40144pt.
- [108 <./ART/Enemies/Radbun.jpg>] [109
-
-] [110] [111
+ [110 <./ART/Enemies/Radbun.jpg>] [111
 
 ] [112] [113
 
-] [114]
-[115
+] [114] [115
 
-] [116] [117
+] [116]
+[117
 
 ] [118] [119
 
@@ -957,75 +957,75 @@ Package pdftex.def Info: ART/Enemies/Radbun.jpg  used on input line 3756.
 
 ] [124] [125
 
+] [126] [127
+
 ]
-<ART/Enemies/raiders.jpg, id=1205, 289.08pt x 289.08pt>
+<ART/Enemies/raiders.jpg, id=1219, 289.08pt x 289.08pt>
 File: ART/Enemies/raiders.jpg Graphic file (type jpg)
 <use ART/Enemies/raiders.jpg>
-Package pdftex.def Info: ART/Enemies/raiders.jpg  used on input line 4379.
+Package pdftex.def Info: ART/Enemies/raiders.jpg  used on input line 4388.
 (pdftex.def)             Requested size: 271.20276pt x 271.21472pt.
 
-Underfull \hbox (badness 4144) in paragraph at lines 4382--4383
+Underfull \hbox (badness 4144) in paragraph at lines 4391--4392
 \OT1/cmr/m/n/10.95 match groups that wan-der the
  []
 
-[126 <./ART/Enemies/raiders.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 4422--4429
+[128 <./ART/Enemies/raiders.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 4431--4438
 [][]
  []
 
-[127
+[129
 
 ]
-<ART/Enemies/robobrain.jpg, id=1218, 383.031pt x 383.031pt>
+<ART/Enemies/robobrain.jpg, id=1231, 383.031pt x 383.031pt>
 File: ART/Enemies/robobrain.jpg Graphic file (type jpg)
 <use ART/Enemies/robobrain.jpg>
-Package pdftex.def Info: ART/Enemies/robobrain.jpg  used on input line 4465.
+Package pdftex.def Info: ART/Enemies/robobrain.jpg  used on input line 4474.
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [128 <./ART/Enemies/robobrain.jpg>] [129
+ [130 <./ART/Enemies/robobrain.jpg>] [131
 
-] [130] [131
+] [132] [133
 
 ]
-<ART/Enemies/Shade.jpg, id=1240, 337.26pt x 337.26pt>
+<ART/Enemies/Shade.jpg, id=1254, 337.26pt x 337.26pt>
 File: ART/Enemies/Shade.jpg Graphic file (type jpg)
 <use ART/Enemies/Shade.jpg>
-Package pdftex.def Info: ART/Enemies/Shade.jpg  used on input line 4603.
+Package pdftex.def Info: ART/Enemies/Shade.jpg  used on input line 4612.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [132 <./ART/Enemies/Shade.jpg>] [133
+ [134 <./ART/Enemies/Shade.jpg>] [135
 
 ]
-<ART/Enemies/slavers.jpg, id=1254, 409.53pt x 409.53pt>
+<ART/Enemies/slavers.jpg, id=1267, 409.53pt x 409.53pt>
 File: ART/Enemies/slavers.jpg Graphic file (type jpg)
 <use ART/Enemies/slavers.jpg>
-Package pdftex.def Info: ART/Enemies/slavers.jpg  used on input line 4676.
+Package pdftex.def Info: ART/Enemies/slavers.jpg  used on input line 4685.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [134 <./ART/Enemies/slavers.jpg>] [135
+ [136 <./ART/Enemies/slavers.jpg>] [137
 
-] [136] [137] [138
+] [138] [139] [140
 
 ]
-[139] [140] [141
-
-] [142] [143
+[141] [142] [143
 
 ] [144] [145
 
 ] [146] [147
 
+] [148] [149
+
 ]
-<ART/Enemies/spritebot.jpg, id=1334, 337.26pt x 337.26pt>
+<ART/Enemies/spritebot.jpg, id=1347, 337.26pt x 337.26pt>
 File: ART/Enemies/spritebot.jpg Graphic file (type jpg)
 <use ART/Enemies/spritebot.jpg>
-Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 5232.
+Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 5241.
 (pdftex.def)             Requested size: 271.20276pt x 271.20811pt.
- [148 <./ART/Enemies/spritebot.jpg>]
-Overfull \hbox (0.9515pt too wide) in paragraph at lines 5269--5269
+ [150 <./ART/Enemies/spritebot.jpg>]
+Overfull \hbox (0.9515pt too wide) in paragraph at lines 5278--5278
  []\OT1/cmr/m/n/10.95 Intimidation| 
  []
 
-[149
-
-] [150] [151
+[151
 
 ] [152] [153
 
@@ -1035,55 +1035,57 @@ Overfull \hbox (0.9515pt too wide) in paragraph at lines 5269--5269
 
 ] [158] [159
 
-] [160]
-<ART/Enemies/triggerbloom.jpg, id=1410, 383.031pt x 423.2613pt>
+] [160] [161
+
+] [162]
+<ART/Enemies/triggerbloom.jpg, id=1424, 383.031pt x 423.2613pt>
 File: ART/Enemies/triggerbloom.jpg Graphic file (type jpg)
 <use ART/Enemies/triggerbloom.jpg>
-Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 5711.
+Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 5720.
 
 (pdftex.def)             Requested size: 361.60138pt x 399.60944pt.
 
-[161] [162 <./ART/Enemies/triggerbloom.jpg>] [163
-
-] [164] [165
+[163] [164 <./ART/Enemies/triggerbloom.jpg>] [165
 
 ] [166] [167
 
-]
-[168] [169
+] [168] [169
 
 ]
-<ART/Enemies/weedling.jpg, id=1460, 264.99pt x 264.99pt>
+[170] [171
+
+]
+<ART/Enemies/weedling.jpg, id=1473, 264.99pt x 264.99pt>
 File: ART/Enemies/weedling.jpg Graphic file (type jpg)
 <use ART/Enemies/weedling.jpg>
-Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 5981.
+Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 5990.
 (pdftex.def)             Requested size: 226.0pt x 226.00272pt.
- [170 <./ART/Enemies/weedling.jpg>] [171
-
-] [172] [173
+ [172 <./ART/Enemies/weedling.jpg>] [173
 
 ] [174] [175
 
-]
-[176] [177] [178
-
-] [179] [180
-
+] [176] [177
 
 ]
-Overfull \hbox (3.24408pt too wide) in paragraph at lines 6339--6351
+[178] [179] [180
+
+] [181] [182
+
+
+]
+Overfull \hbox (3.24408pt too wide) in paragraph at lines 6348--6360
 [] 
  []
 
-[181] (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
+[183] (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
 Package rerunfilecheck Info: File `MUMA_TEX.out' has not changed.
-(rerunfilecheck)             Checksum: E7DFE9BD961692B33F9441B3A1512499;10189.
+(rerunfilecheck)             Checksum: 115180D44D0BBAA0A1F210AFFBF9446B;10352.
  ) 
 Here is how much of TeX's memory you used:
- 12552 strings out of 479334
- 183452 string characters out of 2857559
- 494951 words of memory out of 3000000
- 29260 multiletter control sequences out of 15000+200000
+ 12556 strings out of 479334
+ 183492 string characters out of 2857559
+ 494952 words of memory out of 3000000
+ 29261 multiletter control sequences out of 15000+200000
  412865 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,17n,77p,734b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1097,9 +1099,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tiia/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MUMA_TEX.pdf (182 pages, 11396819 bytes).
+Output written on MUMA_TEX.pdf (184 pages, 11400409 bytes).
 PDF statistics:
- 1673 PDF objects out of 1728 (max. 8388607)
- 520 named destinations out of 1000 (max. 500000)
- 905 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1687 PDF objects out of 1728 (max. 8388607)
+ 523 named destinations out of 1000 (max. 500000)
+ 913 words of extra memory for PDF output out of 10000 (max. 10000000)
 
