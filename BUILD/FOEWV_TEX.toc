@@ -60,8 +60,8 @@
 \contentsline {subsection}{Combat Tricks}{99}{section*.291}
 \contentsline {subsection}{Defensive actions}{101}{section*.297}
 \contentsline {subsection}{Other Actions}{102}{section*.300}
-\contentsline {section}{Damage Calculations}{102}{section*.310}
-\contentsline {subsection}{Damage \& Damage Threshold}{102}{section*.311}
+\contentsline {section}{Damage Calculations}{103}{section*.310}
+\contentsline {subsection}{Damage \& Damage Threshold}{103}{section*.311}
 \contentsline {subsection}{Losing HP Tokens}{103}{section*.312}
 \contentsline {subsection}{Pain Thresholds}{104}{section*.313}
 \contentsline {subsection}{Critical Damage \& Critical Damage Threshold}{104}{section*.314}
@@ -75,5 +75,5 @@
 \contentsline {section}{Unicorn Magic}{113}{section*.335}
 \contentsline {section}{Zebra Magic}{116}{section*.338}
 \contentsline {subsection}{Alchemy}{116}{section*.339}
-\contentsline {subsection}{Shamanism}{119}{section*.344}
-\contentsline {chapter}{Combat Quick Reference Sheet}{125}{chapter*.349}
+\contentsline {subsection}{Shamanism}{120}{section*.345}
+\contentsline {chapter}{Combat Quick Reference Sheet}{125}{chapter*.350}

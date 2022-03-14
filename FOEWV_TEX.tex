@@ -45,7 +45,7 @@
 		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
 		
 		\bigskip
-		\textbf{Cover and Graphics:} SourCherry
+		\textbf{Cover and Graphics:} SourCherry, Mir (Character Concept)
 		
 		\bigskip
 		\textbf{Layout:} Waak
@@ -61,7 +61,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 2.3.0}
+		\textbf{Version 2.3.1}
 		
 		\emph{Last compiled on \thedate}
         
@@ -804,7 +804,7 @@
 	
 	Barter is primarily used in the buying and selling of items, such as trading with a merchant or scavenger, or exchanging mutual goods or favors.  This skill alters prices for purchasing and selling of items. Modifiers include factors such as condition of the item a character is trying to sell and NPC disposition towards said character.
 	
-	Barter is also the primary skill involved in shamanism.
+	Barter is also a alternative skill involved in shamanism alongside Thaumaturgy.
 	
 	\subsection*{Diplomacy}
 	\textbf{Starting value:} $(2 \times CHA)+(LCK/2)$
@@ -898,14 +898,14 @@
 	
 	The Survival skill is the skill of outdoor living and survival in hostile environments. Basically what they teach in Filly Guide, modified for the post-War world. Survival has many uses: from finding food and water in the middle of a vast wasteland, to avoiding hostile creatures' domains, to knowledge about what plants and animals will be helpful or harmful.
 	
-	The Survival skill determines the character's overall wasteland savvy and her proficiency at cooking, scavenging, tracking, and crafting ``natural'' equipment and consumables.  Survival informs a character about weather, geography and orientation.
+	The Survival skill determines the character's overall wasteland savvy and her proficiency at cooking, scavenging, tracking, and crafting ``natural'' equipment and consumables.  Survival informs a character about weather, geography and orientation. Survival is also used to know information on the many mutant creatures that call the Wasteland their home.
 	
-	Survival also determines how skilled a zebra character is at Alchemy and helps determine what brews and salves an alchemist can create with the right ingredients.
+	Survival is also a skill that Alchemists can use instead of Thaumaturgy for their magic.
 	
 	\subsection*{Thaumaturgy}
 	\textbf{Starting value:} $(2 \times [SPECIA])+(LCK/2)$
 	
-	Each pony has inherent magic in them, and the Thaumaturgy skill shows how well they have mastered that. For unicorns, it's their reliability of spells; for pegasi, their maneuvers; for Earth Ponies, their touch with the earth.
+	Each pony has inherent magic in them, and the Thaumaturgy skill shows how well they have mastered that. For unicorns, it's their reliability of spells; for pegasi and griffons, their maneuvers; for earth ponies, their touch with the earth and for zebras, their skill with potions and spirits.
 	
 	Thaumaturgy determines how well the character can do her race's inherent magical capabilities and their general knowledge of the subject. As each pony's magic and how they handle it is unique, there's no specific SPECIAL value linked to Thaumaturgy. During character creation, one SPECIAL value, Luck excluded, is attached to Thaumaturgy to calculate the starting value.
 	
@@ -1505,9 +1505,9 @@
 	
 	\emph{\textbf{Zebra-only trait.}}
 	
-	The character is a practitioner of zebra shamanism in the way of her ancestors, and benefits from ancient spirit pacts. The character starts with \textbf{Spirit Affinity}. She has an effective +2 Spirit Affinity with a particular type of Spirit of her choice, and an effective -2 Spirit Affinity with another type of Spirit of the GM's choice. Which spirits are the favorite and unfavorite do not have to be made known before they're encountered, if so desired.
+	The character is a practitioner of zebra shamanism in the way of her ancestors, and benefits from ancient spirit pacts. She has an effective +2 Potency with a particular type of Spirit of her choice, and an effective -2 Potency with another type of Spirit of the GM's choice. Which spirits are the favorite and unfavorite do not have to be made known before they're encountered, if so desired, and might not be the obvious opposing spirit.
 	
-	The character has access to Spirit Magic part of Zebra Magic, found in the \emph{\textbf{Magic Codex}}. Details on how shamanism and Spirit Affinity works can be found under Chapter 8 - Zebra Magic - Shamanism.
+	The character has access to Spirit Magic part of Zebra Magic, found in the \emph{\textbf{Magic Codex}}. Details on how shamanism works can be found under Chapter 8 - Zebra Magic - Shamanism.
 	
 	\subsection*{Trigger Discipline}
 	
@@ -1535,9 +1535,9 @@
 		\item[Damage Threshold (DT):] The value which tells how well the piece of gear protects you from attacks, reducing incoming Damage equal to the DT.
 		\item[DT Reduction:] Weapons that have this value ignore the specified amount of opponent's DT.
 		\item[Effect:] A passive, either constant or situational, effect granted by the equipment. These include but are not limited to: SPECIAL and Skill bonuses and penalties, AP cost modifiers, additional damage types and health restoration.
-%		\item[Firing Mode:] Ranged weapons vary how they operate. Each firing mode has its own characteristics. More information on different firing modes can be found in this chapter under Weapon Characteristics - Firing Modes.
 		\item[Firing Mode:] Ranged weapons vary how they operate. Most ranged weapons fire a single bullet per action, though some fire more than one in a burst. More information on different firing modes can be found in this chapter under Weapon Characteristics - Firing Modes.
 		\item[Quick Slot:] A pocket, strap or holder in a piece of clothing and armor to hold quick accessible items, such as medicines, grenades and tools. More information on Quick slots can be found in this chapter under \emph{Quick Slots}.
+		\item[Rarity:] How common - or rare - the particular item is to find or purchase throughout the Wasteland. Ranges from Common (most prominent) to Exotic (uniques and limited-run items).
 		\item[Range:] This lists the weapon's Short, Medium, and Long range. All ranges are in meters. Weapon ranges are ``effective'' ranges for the purposes of the game. More on range can be found in Chapter 7: Combat - Combat statistics.
 		\item[Reach:] Melee and Unarmed weapons can have reach, allowing them to deal damage against enemies from further away than adjacent hexes. This is noted with ``Melee / X m'' as Short range, where the latter value is the reach.
 		\item[Reload Type:] This determines the magazine used by weapons that consume ammunition. There are two types of reloads with different characteristics. More information on  reloads is listed in this chapter under Weapon Characteristics - Reload Types.
@@ -1605,21 +1605,9 @@
 	
 	While utilizing Burst weaponry, the character suffers from a -10 penalty to his attack roll from the recoil and cannot perform the \textbf{Called Shot} action. By bracing the weapon the penalty on the roll is cut to 5. In addition, everyone within Tiny Splash template from the target will suffer from a Minor Distraction.
 	
-%	\subsubsection*{SA - Semi-Auto}	
-%	Semi-Automatic weapons re-chamber a new piece of ammunition after each shot without the wielder's input. 
-	
-%	\subsubsection*{5F-20F - Full Auto, 5-20 Rounds}
-%	Full Auto weapons keep firing as long as the trigger is pulled and there's enough ammunition to dish out. The accuracy checks are rolled per every 5 rounds, meaning that a character with H\&K MGat-39 ``Mini Gun'' (rate of fire 20F) would have to roll 4 times to see how many of the shots manage to reach the target, and roll damage as many times as there were successes. Though 5 shots of ammunition are spent by every accuracy roll made, the damage is only applied to the rolls that hit the target.
-	
-%	However, due the rapid nature of the full auto, all rolls except the first suffer a cumulative penalty of 10 to accuracy. Bracing the weapon or using a bipod, the penalty is cut to 5. A stationary bipod or tripod negates the penalty. Spray and pray!
 	\begin{verse}
 	\emph{\textbf{Example:} Doc Red has a Gretta M3 ``Greaser'' SMG, and fires a Burst at a raider. The "Greaser" has a \textbf{Burst [3 r]}, with damage of 2+(4). As he fires with a free claw, he must add the burst fire penalty of -10 to his roll. If he hits, he has spent 3 rounds of ammunition for additional damage.}
 	\end{verse}
-
-
-%	\begin{verse}
-%		\emph{\textbf{Example:} Doc Red has a Gretta M3 ``Greaser'' SMG, and fires at a raider with it. Because the SMG has a rate of fire of 10F, Doc Red's player rolls twice; once per 5 rounds of ammo. He manages to successfully shoot at the raider with his first 5 rounds, but not with the second five due the cumulative Full Auto penalty, now at -10. This means Doc Red's player rolls damage 5+(2) once.}
-%	\end{verse}
 		
 	\subsection*{Holdout Weapons}
 	Not all establishments, especially ones that make an attempt on civilization, allow visitors to carry a weapon. If you however must get a weapon into such an establishment, holdout weapons are your greatest friend. Weapons with a marker ``Holdout Weapon'' in the \textbf{\emph{Wasteland Wares}} mean that they can be concealed and possibly smuggled through security. 
@@ -1830,7 +1818,9 @@
 	
 	If the weapon or armor drops beyond Poor condition, the item has broken and is unusable. A broken item can still be torn apart for scrap, but yields even that poorly.
 	
-	When weapons suffer a condition drop, they begin to lose in their ability to deal damage by changing the dice you roll to calculate damage. Likewise, the gun's value drops with each level of wear and tear it has. 
+%	When weapons suffer a condition drop, they begin to lose in their ability to deal damage by changing the dice you roll to calculate damage. Likewise, the gun's value drops with each level of wear and tear it has. 
+
+	When weapons suffer a condition drop, their effectiveness starts to suffer, increasing the AP cost of attacking with said weapon. Likewise, the weapon's value drops with each level of wear and tear it has.
 	
 	% Weapon & Armor repair levels
 	\begin{table*}[t]
@@ -1874,7 +1864,7 @@
 		\end{tabular} 
 	\end{table*}
 	
-	At Heavily used and Poor, the weapons' critical modifiers also lower, meaning that a badly damaged gun is less likely to do damage excellently.
+%	At Heavily used and Poor, the weapons' critical modifiers also lower, meaning that a badly damaged gun is less likely to do damage excellently.
 	
 	As Armor Condition drops, so does the protection it gives. With each drop in Condition, the DT value drops in increments, with the table showing the total amount of DT lost for that particular item. Same goes for the Effects.
 	
@@ -2621,41 +2611,48 @@
 	
 	\section*{Invention}
 	\addcontentsline{toc}{section}{Invention}
-	What would scavenging and salvaging be without reusing those wonderful parts for something new and exciting? Quite boring indeed. 
 
-	When inventing a new item, building an existing item from parts alone or building modifications, the invention requires, most of the time, 4 successful non-consecutive rolls. Only one roll can be made per day. After 4 successful rolls, the invention is finished and ready for use. If the inventor has a schematic of what they're building, the amount of rolls required drops to 2 successes.
+%	When inventing a new item, building an existing item from parts alone or building modifications, the invention requires, most of the time, 4 successful non-consecutive rolls. Only one roll can be made per day. After 4 successful rolls, the invention is finished and ready for use. If the inventor has a schematic of what they're building, the amount of rolls required drops to 2 successes.
 
-	The amount of successful rolls can differ depending on how difficult the item is to build; for example, a high-tier weapon or armor, or a particularly rare weapon may take more successful rolls than 4, though preferably no more than 6 successful rolls.
+%	The amount of successful rolls can differ depending on how difficult the item is to build; for example, a high-tier weapon or armor, or a particularly rare weapon may take more successful rolls than 4, though preferably no more than 6 successful rolls.
 
-	Invention uses Mechanics as the skill with which to roll for successes, though some items, like Power Armor, require other skill rolls, such as Science or Thaumaturgy. If the item requires more than one skill, the required success amount is divided between the two. For example, if the invention requires both Mechanics and Science -skills, to complete the item the inventor needs to roll 2 successful Mechanics rolls and 2 successful Science rolls, which totals to 4 successes.
+%	Invention uses Mechanics as the skill with which to roll for successes, though some items, like Power Armor, require other skill rolls, such as Science or Thaumaturgy. If the item requires more than one skill, the required success amount is divided between the two. For example, if the invention requires both Mechanics and Science -skills, to complete the item the inventor needs to roll 2 successful Mechanics rolls and 2 successful Science rolls, which totals to 4 successes.
 
+	What would scavenging and salvaging be without reusing those wonderful parts for something new and exciting? Quite boring indeed.
+	
+	When inventing a new item, building an existing item from parts alone, or tinkering together modifications, the inventor requires 8 hours of focus on the task. Once finished, the inventor rolls for a skill as requested by the item's or modification's type, determined by the GM. For example, mundane crafting often calls for Mechanics, the devices dealing with arcane call for Science, and modifications for weapons ask for expertise in the weapon's associated skill, like Melee for blades. If the inventor has a schematic of what they're building, they gain a bonus of +10 to their roll.
+	
+	If the item requires more than one skill, the creation process becomes longer due to complexity. For example, if the invention requires both Mechanics and Science -skills, to complete the item the inventor needs to roll successfully for both Mechanics and Science, but can attempt one of them after an 8-hour period of inventing. Failure on one roll does not reverse the progress made on another.
+	
 	Invention and modification building use Components just like Repair does. The type of Component needed depends on the item's type: Firearms use Gun components, MEWs use Magic components and so on. Generally, the invention requires at least as 1 component as the item's weight per kilo, to a minimum of 1 component. If the item has no weight, or the weight is below 1 kilo, 1 Component is required. Much like how high-tier or rare items can take longer to build, they can also require more components.
-
-	These details should be discussed between the inventing player and GM beforehand.
+	
+	These details should be discussed between the inventing player and GM beforehand.	
 	
 	\begin{verse}
-		\emph{\textbf{Example 1:} Emerald Glint is building a gun similar to IF-64 ``Bloomberg'' - rifle, out of parts, bits and bobs. The rifle weight is 5 kilos, meaning that Emerald Glint requires 5 Gun components to build the gun in question, one for each kilo. Emerald Glint has no schematic for the gun, so she and the GM have agreed that 4 successful rolls are required for the gun to be completed. After 6 days the 4 successful rolls have been made and the gun is completed. The gun uses the stats of IF-64 ``Bloomberg''.}
+		\emph{\textbf{Example 1:} Emerald Glint is building a gun similar to IF-64 ``Bloomberg'' - rifle, out of parts, bits and bobs. The rifle weight is 5 kilos, meaning that Emerald Glint requires 5 Gun components to build the gun in question, one for each kilo. Emerald Glint has no schematic for the gun, so she and the GM have agreed that a successful Mechanics roll is required after 8 hours of work. After 16 hours of work and one failed roll, Emerald Glint succeeds in her Mechanics check and the gun is completed. The gun uses the stats of IF-64 ``Bloomberg''.}
 	\end{verse}
 
 	\begin{verse}
-		\emph{\textbf{Example 2:} Emerald Glint is building a Power Armor similar to T-51b model, with an additional Spell-like effect built in that functions alike that of Unicorn's Shield-spell. The Shield ability takes away one Mod slot. She and GM have agreed that the special Power Armor requires 6 successful rolls; 2 successful Mechanics-rolls, 2 successful Science-rolls and 2 successful Thaumaturgy-rolls, to take into account the armor's Spell-like ability. Likewise, she would require 40 pieces in total of Plates components and Magical components.} 
+		\emph{\textbf{Example 2:} Emerald Glint is building a Power Armor similar to T-51b model, with an additional Spell-like effect built in that functions alike that of Unicorn's Shield-spell. The Shield ability takes away one Mod slot. She and GM have agreed that the special Power Armor requires three skills; Mechanics, Science and Thaumaturgy, to take into account the armor's Spell-like ability. Likewise, she would require 40 pieces in total of Plates components and Magical components, and at minimum 24 hours of work (8 hours per one skill).} 
 	\end{verse}
 
 	\subsection*{Inventing and creating Chems}
 	While some Chems have remained a well-kept secret of the Zebras, some of the many combat drugs were reverse-engineered by ponies to bypass the magic required in the crafting of them. While zebra alchemy remains the faster source of Chems, a good pony chemist can churn out as potent stuff with a bit of extra time and effort.
 
-	Much like inventing weapons, most chems require 4 successful, non-consecutive rolls for completing the chem and only one check can be made per day. Most chems require either Medicine or Science -skills to be rolled, whichever is more appropriate for the chem in question. Having a recipe or teacher lowers the required rolls to 2 successes. Likewise, difficult, complex chems might require more rolls, and may require both Medicine and Science skills to be rolled, following the same rule of thumb as weapons and armor do. 
+%	Much like inventing weapons, most chems require 4 successful, non-consecutive rolls for completing the chem and only one check can be made per day. Most chems require either Medicine or Science -skills to be rolled, whichever is more appropriate for the chem in question. Having a recipe or teacher lowers the required rolls to 2 successes. Likewise, difficult, complex chems might require more rolls, and may require both Medicine and Science skills to be rolled, following the same rule of thumb as weapons and armor do. 
+
+	Much like inventing weapons, most chems require 8 hours of work before attempting a check. To complete the chem-creation process, either a successful Medicine or Science check is called for, whichever skill is more appropriate for the chem. Having a recipe or teacher applies a bonus of +10 to the roll. Likewise, difficult, complex chems might require more rolls, and may require both Medicine and Science skills to be rolled, following the same rule of thumb as weapons and armor do.
 
 	Creating Chems both new and old requires the chemist to possess the required ingredients for the Chem. When inventing a new Chem, the GM and player create the ingredient list for that Chem. A list of ingredients can be found in Creature drops and Junk -section of the Wasteland Wares. While not mechanically required, it is expected that the chemist creates their chems with some kind of a work-station, alchemy set or an I-made-this-myself lab made of junk and a folding table.
 
 	Unlike weapons and armor, chems do not have components, having a bit more creative freedom in what is put into the chem to make it function; existing potions, creature parts and even some junk items are all fair game, as long as they fit the Chem's theme. It is unlikely that a baseball glove would be of use in a Chem recipe, but Abraxo cleaner might. 
 	
-	Likewise, existing potions like a Healing potion or Healing powder can be used when creating chems to add a similar effect to the new Chem. Chems do not have a set number of ingredients required, but the general rule is that simpler chems use less, and have more common ingredients than complex, particularly potent Chems.
+	Likewise, existing potions like a Healing potion or Healing powder can be used when creating chems to add a similar effect to the new Chem. Chems do not have a set number of ingredients required, but the general rule is that common chems use less, and have more common ingredients than complex, rarer, and particularly potent Chems.
 
-	New Chems, like all Chems, have an Addiction chance; a likeliness of getting the character using the chem hooked on the stuff. Most of the time, each ingredient gives 5\% chance of addiction, though simple and less harmful recipes can have this lowered if GM so agrees, and complex and harmful Chems might have a higher addiction chance, though rarely more than additional 10\% to the addiction chance generated by ingredients. Likewise, Chems have a withdrawal effect, that should be discussed when making up the makeup of the Chem, between player and GM.
+%	New Chems, like all Chems, have an Addiction chance; a likeliness of getting the character using the chem hooked on the stuff. Most of the time, each ingredient gives 5\% chance of addiction, though simple and less harmful recipes can have this lowered if GM so agrees, and complex and harmful Chems might have a higher addiction chance, though rarely more than additional 10\% to the addiction chance generated by ingredients. Likewise, Chems have a withdrawal effect, that should be discussed when making up the makeup of the Chem, between player and GM.
 
 	\begin{verse}
-		\emph{\textbf{Example:} Doc Red wants to create a Chem that provides both HP and Strain when used. GM and him decide that Red will require a Healing Potion, 2 Blue herbs, and a freshly ground Jackalope Horn. They decide that the effect of the chem is +3 HP healed and +5 Strain recovered instantly. They agree that the potent nature of the Chem means Doc Red will require 5 successful Medicine rolls instead of 4. They calculate that the addiction chance from this Chem is 20\%, with -2 Potency and -1 END as a Withdrawal effect. After 6 days, Doc Red has successfully rolled Medicine 5 times and the Chem is complete}.
+		\emph{\textbf{Example:} Doc Red wants to create a Chem that provides both HP and Strain when used. GM and him decide that Red will require a Regen-Vial, 2 Blue herbs, and a freshly ground Jackalope Horn. They decide that the effect of the chem is +4 HP healed and +5 Strain recovered instantly, while giving a hindrance of -1 END and -1 AP for 5 rounds. They agree that the potent nature of the Chem means Doc Red will require 2 successful Medicine rolls instead of 1. After 24 hours, Doc Red has successfully rolled Medicine 2 times and the Chem is complete}.
 	\end{verse}
 
 	\vfill
@@ -3394,10 +3391,6 @@
 
 	Called Shots ignore 1 DT the target has, and are used to deal \textbf{Crippled} conditions to a target; it doesn't outright increase the damage dealt, but rather focuses the shot to break a particular limb exclusively. It should be noted that some enemies, such as most insects and robots have additional areas that are treated as limbs and can be Crippled.
 	
-%	With each HP loss applied to the target during Called Shot, there is a cumulative 10\% chance to cripple the targeted limb. Some weapons have increased chance of inflicting Crippled, and this cumulative chance is applied on top of the Called Shot chance.
-	
-%	Upon a successful hit, the attacker can choose to deal one less HP in damage and inflict a Crippled condition on the targeted limb. The Crippled condition is applied even if the deduction of damage would result in 0 damage dealt.
-	
 	Should the target take damage from a Called Shot, the targeted limb is considered Crippled.
 	
 	Disarming weapons are considered Called Shots, and have their penalty listed below. A successful disarm drops the weapon's condition by one level (if Item Condition Rules are in effect) and forces the defender to roll STR. A success on the defender's part keeps the weapon in their control, but they must use \textbf{Ready Weapon} action prior using the weapon again. A failure forces the defender to drop the weapon on an adjacent hex (up to GM which). 
@@ -3634,22 +3627,35 @@
 	\newpage
 	\subsection*{Other Actions}
 	\addcontentsline{toc}{subsection}{Other Actions}
-	\subsubsection*{Ready Item}
-	Taking and readying an item from the inventory costs 8 AP.
+	\subsubsection*{Use Item}
+	Characters can also use items in combat that are not weapons. Character fishes out the item they want to use, use it and then discard or store the item. 
+	The AP cost of this action is determined by where the item is coming from and if the item is concealed.
 	
-	Readying an item from a \textbf{Quick Slot} costs 3 AP.
+	Using an item from the inventory costs 8 AP.
 	
-	Readying a concealed item costs an additional 2 AP.
+	Using an item from a \textbf{Quick Slot} costs 3 AP.
 	
-	\subsubsection*{Ready / Change Weapon}
-	Taking and readying a weapon from the inventory costs 8 AP.
+	Using a concealed item costs an additional 2 AP.
 	
-	Readying a weapon from a \textbf{Weapon slot} or change to another weapon in Weapon slot costs 3 AP.
+	Using an item function on apparel or in the environment costs 2 AP.
+%	Taking and readying an item from the inventory costs 8 AP.
 	
-	Readying a concealed weapon costs an additional 2 AP.
+%	Readying an item from a \textbf{Quick Slot} costs 3 AP.
 	
-	\subsubsection*{Use Item / Function}
-	Using a held item (other than a weapon), weapon accessories, PipBuck or an item in the environment usually costs 2 AP. If the task is uncommonly time-consuming or hard, the GM may declare a different AP cost for the action.
+%	Readying a concealed item costs an additional 2 AP.
+	
+	\subsubsection*{Equip / Change Weapon}
+	Equipping a weapon from inventory costs 8 AP. This action will change the weapon on one of the character's \textbf{Weapon slots}.
+	
+	Equipping a weapon listed on a \textbf{Weapon slot} or swapping between weapons in Weapon slots costs 3 AP.
+	
+	Equipping a concealed weapon costs an additional 2 AP.
+	
+	Unequipping a weapon without replacing it costs 3 AP.
+	
+	% Potential Bloat - redesign
+%	\subsubsection*{Use Item / Function}
+%	Using a held item (other than a weapon), weapon accessories, PipBuck or an item in the environment usually costs 2 AP. If the task is uncommonly time-consuming or hard, the GM may declare a different AP cost for the action.
 	
 	% Skill Cost table
 	\begin{table*}[t]
@@ -3665,15 +3671,18 @@
 		\end{tabular} 
 	\end{table*}
 	
-	\subsubsection*{Drop Item}
-	Dropping an item normally costs 0 AP. However, if a character carefully places down an item, the action costs 3 AP. The GM may declare a different AP cost for the action if appropriate.
 	
-	\subsubsection*{Pick Up Item}
-	Picking an item up from the ground costs 6 AP.
+	\subsubsection*{Drop Weapon}
+	Sometimes characters want to drop or they're forced to let go of items in their hooves. Dropping a weapon costs 0 AP. % However, if a character carefully places down an item, the action costs 3 AP. The GM may declare a different AP cost for the action if appropriate.
+	
+	\subsubsection*{Pick Up Object}
+	Picking an object up from the ground and stashing it in the character's inventory costs 6 AP.
 	
 	\subsubsection*{Assist Ally}
 	Assisting ally consist of many kinds of actions, such as helping pull up an ally, catching her mid-fall, passing on a held item or other rather simple and quick actions. These actions cost 2 AP. The GM may declare a different AP cost for the action if appropriate.
-
+	
+	\subsubsection*{Ready Action}
+	There are moments where the character would prefer to let the enemy make a miscalculation and act upon that. To set up a Ready Action, the character designates an action they want to take and an associated trigger - the AP cost for the readied action is then removed from their AP. After the character's turn ends, if the associated trigger occurs before the start of the character's next turn, they can choose to use their designated action. 
 	
 	\subsubsection*{Use Skill / SPECIAL}
 	
@@ -3834,7 +3843,6 @@
 	Below is a short reminder of the governing spell statistics (some perks and traits may alter how these statistics are determined):
 	
 	\begin{description}
-		\item[Spirit Affinity] - determines the maximum power of summoned spirits.
 		\item[Potency] - determines the power of spells, taking into account the character's level and the school's associated SPECIAL attribute.
 		\item[Strain] - determines the amount of fatigue gained by casting the spell. The amount of Strain the character can withstand is static. Strain cost is determined by the spell. Strain recovers fully with rest.
 	\end{description} 
@@ -3885,7 +3893,7 @@
 	\subsection*{Duration \& Concentration}
 	Some spells have durations and linger around for a while. The duration is noted in spell's description in either rounds or real time. If the caster wishes to do so, she can end the spell prematurely by using an \textbf{End Spell} action (costs 0 AP).
 	
-	Spells that require multiple turns to cast call for concentration from the caster. If the caster is interrupted during the casting, i.e. taking damage or suffering from Distraction, she has to roll Thaumaturgy to keep her concentration on the spell. This action requires no AP or Strain from the caster, as it is reactionary.
+	Spells that require multiple turns to cast or maintain call for concentration from the caster. If the caster is interrupted during the casting, i.e. taking damage or suffering from Distraction, she has to roll Thaumaturgy to keep her concentration on the spell. This action requires no AP or Strain from the caster, as it is reactionary.
 	
 	%TODO Have to check if we have any spells that require more than one turn to complete ~Waak
 	
@@ -3903,7 +3911,7 @@
 	\vfill 
 	
 	\subsection*{Damage with Spells}
-	Often magic is used for offensive purposes, and thus deal damage to the intended target. Damage is listed similarly to damage done by Equipment, with base damage listed first and the number of d6 dice to be thrown written in parenthesis, i.e. 2+(3). Some spells take the caster's Potency into account, and higher Potency may result in higher damages.
+	Often magic is used for offensive purposes, and thus deal damage to the intended target. Damage is listed similarly to damage done by Equipment, with base damage listed first and the number of d6 dice to be thrown written in parenthesis, i.e. 2+(3). Some spells take the caster's Potency into account, and higher Potency may result in higher damages. Damage made with spells or maneuvers is always considered to be inherently magical.
 	
 
 	
@@ -3988,15 +3996,17 @@
 	
 	Pegasi learn a new Aerial Maneuver every 5th level (6, 11, 16) after first level and griffons learn a new Aerial Maneuver every 6th level (7, 13, 19) after first level.
 	
-	\textbf{Wonderbolt Maneuvers} and \textbf{Talon Maneuvers} require at least level 10 to be learned. After this, they can be learned as any other maneuvers, with Wonderbolt Maneuvers exclusive to pegasi and Talon Maneuvers exclusive to griffons. Difference to normal maneuvers is that the character twists these to fit their style, thus allowing them to use either AGI, END or CHA to determine their strength.
-	
 	In addition to this natural learning, the Aerial Maneuvers can be learned during gameplay either through a magazine, through a flight instructor and by self-taught training.
 	
 	In the Equestrian Wasteland one can sometimes find a copy of a flight magazine called \emph{``Aerodynamics Monthly''}. This magazine was published during the war to showcase the techniques used by Wonderbolts. Reading this magazine will teach 1 new Aerial Maneuver per magazine, and the specific Maneuver learned is decided by the player.
 	
-	To learn a new Maneuver by self-teaching, the character must roll 4 successful checks of AGI/END/CHA -2, the stat depending on the Maneuver the character wants to learn. Only one check may be made per day, and these successful checks do not have to be consecutive.
+%	To learn a new Maneuver by self-teaching, the character must roll 4 successful checks of AGI/END/CHA -2, the stat depending on the Maneuver the character wants to learn. Only one check may be made per day, and these successful checks do not have to be consecutive.
+
+	To learn a new Maneuver by self-teaching, the character must spend 8 hours of their time trying out the maneuver, and then roll an AGI, END, or CHA check, the stat depending on the Maneuver the character wants to learn. On a success the Maneuver is added to the character's repertoire, and on a Critical Failure the character overextends themselves and spends the Strain cost of the maneuver without adding it to their list of maneuvers.  
 	
-	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
+	Having a teacher to coach the character applies a bonus of +10 to the check.
+	
+	\textbf{Wonderbolt Maneuvers} and \textbf{Talon Maneuvers} require at least level 10 to be learned. After this, they can be learned as any other maneuvers, with Wonderbolt Maneuvers exclusive to pegasi and Talon Maneuvers exclusive to griffons. Difference to normal maneuvers is that the character twists these to fit their style, thus allowing them to use either AGI, END or CHA to determine their strength. This same flexibility calls for more experimentation, requesting more time invested on perfecting them. When learning Wonderbolt or Talon Maneuvers through experimentation, the character requires at least two successful checks, once per 8 hours of self-teaching.
 	
 	\subsection*{Aerial Maneuver List}
 	Detailed maneuver list and descriptions can be found in the appendix book \emph{\textbf{Magic Codex}} under \emph{Aerial Maneuvers}.
@@ -4070,11 +4080,15 @@
 	
 	Characters can learn new spells in two ways - through leveling up or seeking out and experimenting on their own. As mentioned, every 5 levels the character can learn a new spell of their choosing, which is immediately added to their arsenal. It is best to consult the GM on spell choices. 
 	
-	To learn a new spell by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and these successes do not have to be consecutive.
+%	To learn a new spell by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and these successes do not have to be consecutive.
 	
-	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
+	To learn a new spell by self-teaching, the character must spend 8 hours of their time trying out the spell, and then roll a SPECIAL check, the stat depending on the school of the spell. On a success the spell is learned by the character, and on a Critical Failure the character overextends themselves and spends the Strain cost of the spell without adding it to their list of spells. 
 	
-	Upon reaching 10th level, Unicorns can further study their magic to unlock their full potential - these are dubbed \textbf{Ascended Spells}, and some spells have this variant listed. To unlock the Ascended Spell, the Unicorn effectively re-learns the spell once more. This can be achieved with either through leveling up or experimentation. Unlike normal self-teaching, Ascended Spells require only \textbf{2 successful} SPECIAL -2 checks, depending on the school of the spell.
+	Having a teacher to coach the character applies a bonus of +10 to the check.
+	
+%	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
+	
+	Upon reaching 10th level, Unicorns can further study their magic to unlock their full potential - these are dubbed \textbf{Ascended Spells}, and some spells have this variant listed. To unlock the Ascended Spell, the Unicorn effectively re-learns the spell once more. This can be achieved with either through leveling up or experimentation. When learning Ascended spells they already possess through experimentation, the character requires at least two successful checks, once per 8 hours of self-teaching. 
 	
 	\subsection*{Unicorn Spell List}
 	Detailed spell list and description can be found in the appendix book \emph{\textbf{Magic Codex}} under Unicorn Magic.
@@ -4206,7 +4220,7 @@
 		\item \textbf{Talismans} are magical artifacts that grant whoever activates them a fraction of their power, and eventually become mundane when that power is exhausted through use.
 		\item \textbf{Enchantments} are inscriptions imbued with the zebra magic, empowering those individuals or items with the inscription's power until broken.
 	\end{compactitem}
-	
+
 		
 	\subsubsection*{Learning Recipes}
 	
@@ -4214,11 +4228,15 @@
 	
 	Characters can learn new recipes in two ways - through leveling up or seeking out and experimenting on their own. As mentioned, every 5 levels the character can learn 2 new recipes of their choosing, which is immediately added to their known concoctions. It is best to consult the GM on recipe choices. 
 	
-	To learn a new recipe by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, the stat depending on the category of recipe. However only one check may be made per day, and these successes do not have to be consecutive.
+%	To learn a new recipe by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, the stat depending on the category of recipe. However only one check may be made per day, and these successes do not have to be consecutive.
 	
-	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
+%	Having a teacher to coach the character reduces the required successful checks from 4 to 2.
+
+	To learn a new recipe by self-teaching, the character must spend 8 hours of their time tinkering with the recipe, and then roll a SPECIAL check, the stat depending on the category of the recipe. On a success the recipe is added to the character's recipe book, and on a Critical Failure the character messes up their cooking badly, spending the Strain cost of the recipe without adding it to their list of spells. 
 	
-	Upon reaching 10th level, Zebras can channel their magic into permanent, powerful inscriptions after perfecting their craft with Brews and Talismans. These are the fabled \textbf{Enchantments}, and these can be learned from 10th level onwards like other concoctions.
+	Having a teacher to coach the character applies a bonus of +10 to the check.
+	
+	Upon reaching 10th level, Zebras can channel their magic into permanent, powerful inscriptions after perfecting their craft with Brews and Talismans. These are the fabled \textbf{Enchantments}, and these can be learned from 10th level onward like other concoctions with more time spent on the tinkering. When learning Enchantment recipes through experimentation, the character requires at least two successful checks, once per 8 hours of self-teaching. 
 	
 	All alchemy recipes and their required ingredients are listed in \textbf{\emph{Wasteland Wares}} document, under \textbf{Alchemy}.
 	
@@ -4255,7 +4273,7 @@
 		\item \textbf{White Herb}, a very rare find, can be used to double the brewing recipe's yield.
 	\end{compactitem}
 	
-	Once the recipe's ingredients and additive herbs have been combined and brewing began, the brew has a set amount of time it takes to complete. Once begun, a Thaumaturgy or Survival roll can be used to determine the time spent. Success means that the brew finishes in schedule, while a critical success halves the time required. A failure in the roll results in complications in the brew and thus listed brewing time is doubled, and a critical failure causes the brewing time to be tripled.
+	Once the recipe's ingredients and additive herbs have been combined and brewing began, the brew has a set amount of time it takes to complete. Once begun, a \textbf{Thaumaturgy or Survival roll} can be used to determine the time spent. Success means that the brew finishes in schedule, while a critical success halves the time required. A failure in the roll results in complications in the brew and thus listed brewing time is doubled, and a critical failure causes the brewing time to be tripled.
 	
 	\begin{verse}
 		\emph{\textbf{Example:} Maabara is making a Bleeding Brew. For this she needs 1x Brew Base and 1x Poison Gland, which she possesses. The Bleeding Brew's poisoning chance is listed as 2x40\%, but Maabara wants this potion to have more bite in it. Thus, she adds one Blue Herb to the brew to make the poisoning chance into 3x40\%. Once she has her concoction planned, she begins brewing and chooses to for Survival. The result ends up as 61, above her Survival value of 60 and thus a failure. This means Maabara has to spend 20 minutes brewing her poison instead of the normal 10.}
@@ -4280,13 +4298,26 @@
 	
 	\textbf{Enchanting becomes available on 10th level}, upon which the alchemist's skills with their craft are considered high enough to begin gathering and utilizing these more advanced arts.  Enchantments come in two forms, \textbf{Icons} and \textbf{Tattoos}. Learning either category of recipes calls for successful INT or CHA rolls, chosen by the alchemist.
 	
+	\vfill
+	
 	Icons are inscriptions carved into an item to channel the magic of zebras and spirits into said item. The Icon's effect is active as long as the item is being used, and can be utilized by anyone using the item. The Icon is destroyed if the item itself is broken or destroyed, thus removing any effect the Icon brought to the item.
+ 	\textbf{Currently, Icons can only be carved onto weapons and armor. In case of firearms and MEWs, special bullets' effects stack with the weapon's enchantment.}
+ 	
+ 	\vfill
 	
 	Tattoos are pieces of art carved onto the body, faintly glowing whenever their innate magic is used. Once completed, the tattoo's effect is permanent. As they are painted on an individual's body, the effect of the tattoo cannot be transferred to another. Each individual can possess only one tattoo at any given time, as these paintings tend to not be miniscule in size.
 	
 	When tattooing or carving the enchantments, the alchemist rolls Thaumaturgy - a failure means they have to spend more time with creating the magical seal. On a critical failure the process suffers a slight mishap during its completion; the individual being tattooed may face a small injury to their mental or physical health in the form of 1d4 lost HP or strain, and an item may be tampered with and thus dropping one level in condition if \emph{Item Condition} rules are in effect. 
 	
 	As only one tattoo can be possessed by an individual, there may become a time when a removal is called for. Removing tattoos from a character can be done with a successful Thaumaturgy or Medicine roll, but due to scarred tissue and left-over magic the new tattooing process suffers a penalty of 30 to the carving alchemist's Thaumaturgy roll.
+	
+	\subsubsection*{Finding materials}
+	
+	Alchemy can be tricky due to it requiring specific ingredients. Besides hunting down various critters and scouring the wastes for herbs, they're also often sold by vendors, especially other alchemists. Among the alchemy circles, it has became a common habit that alchemists help each other when in search of materials, and sharing is encouraged. Because of this, some alchemists often give tips on rarer ingredients' locations, unlike foragers, who can often be seen selling materials as well.
+	
+	In addition to vendors, parts that do not mention a specific creature, such as "wing" or "pollen" can be found with a quick search of one's surroundings where-ever she may be. If the character isn't looking for a specific ingredient, they will get a random amount of ingredients from the Creature Parts list.
+	
+	Items that have a specific creature name attached to it, such as "Vial of Yao Guai blood" or "Twittermite wing", require sourcing from that specific creature. This includes the rarer White and Black herbs, while the other herbs can be found with a quick search of surroundings.
 	
 	\begin{figure*}[t]
 		\centering
