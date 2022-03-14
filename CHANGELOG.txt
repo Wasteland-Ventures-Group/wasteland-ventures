@@ -9,15 +9,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **[UNRELEASED]
 *** Added
+*** Changed
+*** Deprecated
+*** Removed
+*** Fixed
+
+** 2.3.1
+*** Added
+- Actions:
+	- Ready Action: preparing for an action outside your turn
 - Items:
 	- Rarity value for all items (Common, Uncommon, Rare, Exotic)
 - Mutants:
 	- Balefire Dragon
+	- Mutant info gathering example
+- Magic:
+	- Alchemy ingredient finding example
 
 *** Changed
+- Actions:
+	- Rewrote Using Items and Changing Weapons; Using Items are no longer a multi-action process
+	- Drop Item now Drop Weapon
+	- Picking up objects go directly to your inventory
+- Perks:
+	- Fast Learner: shortens time to learn new spells
+	- Fighting is Magic: increases all spell's damage; adds Bleeding -status effect as a potential
+	- Thinker Tinker (WF): adds a bonus to inventions and ability to use INT stat
+- Items:
+	- Alchemy:
+		- Talisman "Faber Vocanti" now allows for a reroll when inventing, provided first roll was not a critical failure
 - Magic:
 	- Clarified concentration and magical damage
 	- Learning new spells/recipes/maneuvers simplified
+	- Silver Rain (WF): can now be directed by caster, healing effect affected by Potency
 - Mutants:
 	- Added Insectoid Weakness on Bloatsprites
 	- Bugbears now have Rad Immunity; removed Rad Resistance.
@@ -26,19 +50,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Optional Rules
 	- Invention
 		- Simplified creation of inventions and chems
-
-
-*** Deprecated
-
+		
 *** Removed
+- Action
+	- Use Item / Function
 
 *** Fixed
 - Credits for one character use now added on Core Document, as good manners dictate
+- Races:
+	- Deer's "Blessing of the Green" now refers to new Alchemy rules
 - Perks:
 	- Grammar checked across all perks
 - Items:
 	- Ammo:
-		- Arrow: Broad Tip renamed to Broadhead to convey the image of a correct arrow type	
+		- Arrow: Broad Tip renamed to Broadhead to convey the image of a correct arrow type		
 - Magic:
 	- Spirit Affinity mentions removed due to deprecation
 	- Spirit of Streams now has the correct rival in form of Spirit of Embers, instead of it having a secret dispute with Spirit of Serenity

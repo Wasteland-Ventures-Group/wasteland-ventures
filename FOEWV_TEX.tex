@@ -61,7 +61,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 2.3.0}
+		\textbf{Version 2.3.1}
 		
 		\emph{Last compiled on \thedate}
         
@@ -1818,7 +1818,9 @@
 	
 	If the weapon or armor drops beyond Poor condition, the item has broken and is unusable. A broken item can still be torn apart for scrap, but yields even that poorly.
 	
-	When weapons suffer a condition drop, they begin to lose in their ability to deal damage by changing the dice you roll to calculate damage. Likewise, the gun's value drops with each level of wear and tear it has. 
+%	When weapons suffer a condition drop, they begin to lose in their ability to deal damage by changing the dice you roll to calculate damage. Likewise, the gun's value drops with each level of wear and tear it has. 
+
+	When weapons suffer a condition drop, their effectiveness starts to suffer, increasing the AP cost of attacking with said weapon. Likewise, the weapon's value drops with each level of wear and tear it has.
 	
 	% Weapon & Armor repair levels
 	\begin{table*}[t]
@@ -1862,7 +1864,7 @@
 		\end{tabular} 
 	\end{table*}
 	
-	At Heavily used and Poor, the weapons' critical modifiers also lower, meaning that a badly damaged gun is less likely to do damage excellently.
+%	At Heavily used and Poor, the weapons' critical modifiers also lower, meaning that a badly damaged gun is less likely to do damage excellently.
 	
 	As Armor Condition drops, so does the protection it gives. With each drop in Condition, the DT value drops in increments, with the table showing the total amount of DT lost for that particular item. Same goes for the Effects.
 	
@@ -3625,22 +3627,35 @@
 	\newpage
 	\subsection*{Other Actions}
 	\addcontentsline{toc}{subsection}{Other Actions}
-	\subsubsection*{Ready Item}
-	Taking and readying an item from the inventory costs 8 AP.
+	\subsubsection*{Use Item}
+	Characters can also use items in combat that are not weapons. Character fishes out the item they want to use, use it and then discard or store the item. 
+	The AP cost of this action is determined by where the item is coming from and if the item is concealed.
 	
-	Readying an item from a \textbf{Quick Slot} costs 3 AP.
+	Using an item from the inventory costs 8 AP.
 	
-	Readying a concealed item costs an additional 2 AP.
+	Using an item from a \textbf{Quick Slot} costs 3 AP.
 	
-	\subsubsection*{Ready / Change Weapon}
-	Taking and readying a weapon from the inventory costs 8 AP.
+	Using a concealed item costs an additional 2 AP.
 	
-	Readying a weapon from a \textbf{Weapon slot} or change to another weapon in Weapon slot costs 3 AP.
+	Using an item function on apparel or in the environment costs 2 AP.
+%	Taking and readying an item from the inventory costs 8 AP.
 	
-	Readying a concealed weapon costs an additional 2 AP.
+%	Readying an item from a \textbf{Quick Slot} costs 3 AP.
 	
-	\subsubsection*{Use Item / Function}
-	Using a held item (other than a weapon), weapon accessories, PipBuck or an item in the environment usually costs 2 AP. If the task is uncommonly time-consuming or hard, the GM may declare a different AP cost for the action.
+%	Readying a concealed item costs an additional 2 AP.
+	
+	\subsubsection*{Equip / Change Weapon}
+	Equipping a weapon from inventory costs 8 AP. This action will change the weapon on one of the character's \textbf{Weapon slots}.
+	
+	Equipping a weapon listed on a \textbf{Weapon slot} or swapping between weapons in Weapon slots costs 3 AP.
+	
+	Equipping a concealed weapon costs an additional 2 AP.
+	
+	Unequipping a weapon without replacing it costs 3 AP.
+	
+	% Potential Bloat - redesign
+%	\subsubsection*{Use Item / Function}
+%	Using a held item (other than a weapon), weapon accessories, PipBuck or an item in the environment usually costs 2 AP. If the task is uncommonly time-consuming or hard, the GM may declare a different AP cost for the action.
 	
 	% Skill Cost table
 	\begin{table*}[t]
@@ -3656,15 +3671,18 @@
 		\end{tabular} 
 	\end{table*}
 	
-	\subsubsection*{Drop Item}
-	Dropping an item normally costs 0 AP. However, if a character carefully places down an item, the action costs 3 AP. The GM may declare a different AP cost for the action if appropriate.
 	
-	\subsubsection*{Pick Up Item}
-	Picking an item up from the ground costs 6 AP.
+	\subsubsection*{Drop Weapon}
+	Sometimes characters want to drop or they're forced to let go of items in their hooves. Dropping a weapon costs 0 AP. % However, if a character carefully places down an item, the action costs 3 AP. The GM may declare a different AP cost for the action if appropriate.
+	
+	\subsubsection*{Pick Up Object}
+	Picking an object up from the ground and stashing it in the character's inventory costs 6 AP.
 	
 	\subsubsection*{Assist Ally}
 	Assisting ally consist of many kinds of actions, such as helping pull up an ally, catching her mid-fall, passing on a held item or other rather simple and quick actions. These actions cost 2 AP. The GM may declare a different AP cost for the action if appropriate.
-
+	
+	\subsubsection*{Ready Action}
+	There are moments where the character would prefer to let the enemy make a miscalculation and act upon that. To set up a Ready Action, the character designates an action they want to take and an associated trigger - the AP cost for the readied action is then removed from their AP. After the character's turn ends, if the associated trigger occurs before the start of the character's next turn, they can choose to use their designated action. 
 	
 	\subsubsection*{Use Skill / SPECIAL}
 	
