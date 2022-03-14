@@ -73,7 +73,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Optional Rules
 	- Invention
 		- Removed notion of Addiction from chem creation example, as addiction is no longer enforced game mechanic
-	
 
 **2.3.0
 *** Added
