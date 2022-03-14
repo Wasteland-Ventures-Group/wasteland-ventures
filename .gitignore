@@ -1,3 +1,7 @@
 
 ART/Races/WIP/drive-download-20191011T095131Z-001.zip
 TEMPLATES.xcf
+*.aux
+*.log
+*.out
+*.toc
