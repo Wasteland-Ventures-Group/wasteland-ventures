@@ -59,6 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Credits for one character use now added on Core Document, as good manners dictate
 - Races:
 	- Deer's "Blessing of the Green" now refers to new Alchemy rules
+	- Harpy's "Delicate Claws" refer to now-existing Use Item action
 - Perks:
 	- Grammar checked across all perks
 - Items:
