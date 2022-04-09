@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  9 MAR 2022 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  9 APR 2022 20:43
 entering extended mode
 **FOEWV_TEX.tex FOEWV_TEX.tex
 (FOEWV_TEX.tex
@@ -583,7 +583,7 @@ LaTeX Info: Redefining \nameref on input line 32.
 \@outlinefile=\write3
 \openout3 = `FOEWV_TEX.out'.
 
-<WORD/COVER-CORE.pdf, id=315, 597.50786pt x 845.01837pt>
+<WORD/COVER-CORE.pdf, id=323, 597.50786pt x 845.01837pt>
 File: WORD/COVER-CORE.pdf Graphic file (type pdf)
 <use WORD/COVER-CORE.pdf>
 Package pdftex.def Info: WORD/COVER-CORE.pdf  used on input line 34.
@@ -592,7 +592,7 @@ File: WORD/COVER-CORE.pdf Graphic file (type pdf)
 <use WORD/COVER-CORE.pdf>
 Package pdftex.def Info: WORD/COVER-CORE.pdf  used on input line 34.
 (pdftex.def)             Requested size: 597.5064pt x 845.01631pt.
-<WORD/COVER-CORE.pdf, id=318, page=1, 597.50786pt x 845.01837pt>
+<WORD/COVER-CORE.pdf, id=326, page=1, 597.50786pt x 845.01837pt>
 File: WORD/COVER-CORE.pdf Graphic file (type pdf)
 <use WORD/COVER-CORE.pdf, page 1>
 Package pdftex.def Info: WORD/COVER-CORE.pdf , page1 used on input line 34.
@@ -628,7 +628,7 @@ Package pdftex.def Info: WORD/COVER-CORE.pdf , page1 used on input line 34.
 [1
 
  <./WORD/COVER-CORE.pdf>]
-<Art/ISA_Logo.jpg, id=329, 77.53969pt x 74.52844pt>
+<Art/ISA_Logo.jpg, id=337, 77.53969pt x 74.52844pt>
 File: Art/ISA_Logo.jpg Graphic file (type jpg)
 <use Art/ISA_Logo.jpg>
 Package pdftex.def Info: Art/ISA_Logo.jpg  used on input line 73.
@@ -729,7 +729,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10.95 - The com-put-ers of this world,
  []
 
-<Art/AJ_barn.jpg, id=465, 430.23611pt x 430.23611pt>
+<Art/AJ_barn.jpg, id=475, 430.23611pt x 430.23611pt>
 File: Art/AJ_barn.jpg Graphic file (type jpg)
 <use Art/AJ_barn.jpg>
 Package pdftex.def Info: Art/AJ_barn.jpg  used on input line 208.
@@ -759,12 +759,12 @@ Underfull \hbox (badness 1400) in paragraph at lines 273--274
  []
 
 [15]
-<ART/Races/EP_F.jpg, id=497, 344.6723pt x 344.6723pt>
+<ART/Races/EP_F.jpg, id=507, 344.6723pt x 344.6723pt>
 File: ART/Races/EP_F.jpg Graphic file (type jpg)
 <use ART/Races/EP_F.jpg>
 Package pdftex.def Info: ART/Races/EP_F.jpg  used on input line 301.
 (pdftex.def)             Requested size: 176.80067pt x 176.80609pt.
-<ART/Races/EP_M.jpg, id=498, 345.15572pt x 345.15572pt>
+<ART/Races/EP_M.jpg, id=508, 345.15572pt x 345.15572pt>
 File: ART/Races/EP_M.jpg Graphic file (type jpg)
 <use ART/Races/EP_M.jpg>
 Package pdftex.def Info: ART/Races/EP_M.jpg  used on input line 306.
@@ -772,12 +772,12 @@ Package pdftex.def Info: ART/Races/EP_M.jpg  used on input line 306.
  [16
 
  <./ART/Races/EP_F.jpg> <./ART/Races/EP_M.jpg>]
-<ART/Races/PEG_F.jpg, id=504, 344.1889pt x 344.1889pt>
+<ART/Races/PEG_F.jpg, id=514, 344.1889pt x 344.1889pt>
 File: ART/Races/PEG_F.jpg Graphic file (type jpg)
 <use ART/Races/PEG_F.jpg>
 Package pdftex.def Info: ART/Races/PEG_F.jpg  used on input line 328.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
-<ART/Races/PEG_M.jpg, id=505, 345.15572pt x 345.15572pt>
+<ART/Races/PEG_M.jpg, id=515, 345.15572pt x 345.15572pt>
 File: ART/Races/PEG_M.jpg Graphic file (type jpg)
 <use ART/Races/PEG_M.jpg>
 Package pdftex.def Info: ART/Races/PEG_M.jpg  used on input line 333.
@@ -790,12 +790,12 @@ Underfull \hbox (badness 1533) in paragraph at lines 344--345
 [17
 
  <./ART/Races/PEG_F.jpg> <./ART/Races/PEG_M.jpg>]
-<ART/Races/UNI_F.jpg, id=511, 344.1889pt x 344.1889pt>
+<ART/Races/UNI_F.jpg, id=521, 344.1889pt x 344.1889pt>
 File: ART/Races/UNI_F.jpg Graphic file (type jpg)
 <use ART/Races/UNI_F.jpg>
 Package pdftex.def Info: ART/Races/UNI_F.jpg  used on input line 353.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
-<ART/Races/UNI_M.jpg, id=512, 344.1889pt x 344.1889pt>
+<ART/Races/UNI_M.jpg, id=522, 344.1889pt x 344.1889pt>
 File: ART/Races/UNI_M.jpg Graphic file (type jpg)
 <use ART/Races/UNI_M.jpg>
 Package pdftex.def Info: ART/Races/UNI_M.jpg  used on input line 358.
@@ -803,12 +803,12 @@ Package pdftex.def Info: ART/Races/UNI_M.jpg  used on input line 358.
  [18
 
  <./ART/Races/UNI_F.jpg> <./ART/Races/UNI_M.jpg>]
-<ART/Races/GRI_F.jpg, id=519, 344.1889pt x 344.1889pt>
+<ART/Races/GRI_F.jpg, id=529, 344.1889pt x 344.1889pt>
 File: ART/Races/GRI_F.jpg Graphic file (type jpg)
 <use ART/Races/GRI_F.jpg>
 Package pdftex.def Info: ART/Races/GRI_F.jpg  used on input line 381.
 (pdftex.def)             Requested size: 176.80067pt x 176.79971pt.
-<ART/Races/GRI_M.jpg, id=520, 345.15572pt x 345.15572pt>
+<ART/Races/GRI_M.jpg, id=530, 345.15572pt x 345.15572pt>
 File: ART/Races/GRI_M.jpg Graphic file (type jpg)
 <use ART/Races/GRI_M.jpg>
 Package pdftex.def Info: ART/Races/GRI_M.jpg  used on input line 386.
@@ -826,12 +826,12 @@ Underfull \hbox (badness 1472) in paragraph at lines 397--398
 [19
 
  <./ART/Races/GRI_F.jpg> <./ART/Races/GRI_M.jpg>]
-<ART/Races/ZEB_F.jpg, id=526, 345.39743pt x 345.39743pt>
+<ART/Races/ZEB_F.jpg, id=536, 345.39743pt x 345.39743pt>
 File: ART/Races/ZEB_F.jpg Graphic file (type jpg)
 <use ART/Races/ZEB_F.jpg>
 Package pdftex.def Info: ART/Races/ZEB_F.jpg  used on input line 406.
 (pdftex.def)             Requested size: 176.80067pt x 176.7986pt.
-<ART/Races/ZEB_M.jpg, id=527, 344.1889pt x 344.1889pt>
+<ART/Races/ZEB_M.jpg, id=537, 344.1889pt x 344.1889pt>
 File: ART/Races/ZEB_M.jpg Graphic file (type jpg)
 <use ART/Races/ZEB_M.jpg>
 Package pdftex.def Info: ART/Races/ZEB_M.jpg  used on input line 411.
@@ -902,7 +902,7 @@ Underfull \hbox (badness 2080) in paragraph at lines 958--959
 ion,
  []
 
-<ART/PAST/guard.jpg, id=617, 936.49875pt x 1405.25pt>
+<ART/PAST/guard.jpg, id=627, 936.49875pt x 1405.25pt>
 File: ART/PAST/guard.jpg Graphic file (type jpg)
 <use ART/PAST/guard.jpg>
 Package pdftex.def Info: ART/PAST/guard.jpg  used on input line 970.
@@ -919,7 +919,7 @@ Underfull \hbox (badness 1412) in paragraph at lines 1041--1042
 
  []
 
-<ART/PAST/pic_perfect.jpg, id=634, 1405.25pt x 1405.25pt>
+<ART/PAST/pic_perfect.jpg, id=644, 1405.25pt x 1405.25pt>
 File: ART/PAST/pic_perfect.jpg Graphic file (type jpg)
 <use ART/PAST/pic_perfect.jpg>
 Package pdftex.def Info: ART/PAST/pic_perfect.jpg  used on input line 1053.
@@ -935,7 +935,7 @@ Underfull \hbox (badness 4819) in paragraph at lines 1077--1078
  []
 
 [33 <./ART/PAST/pic_perfect.jpg>]
-<ART/PAST/priest.jpg, id=644, 1405.25pt x 1405.25pt>
+<ART/PAST/priest.jpg, id=654, 1405.25pt x 1405.25pt>
 File: ART/PAST/priest.jpg Graphic file (type jpg)
 <use ART/PAST/priest.jpg>
 Package pdftex.def Info: ART/PAST/priest.jpg  used on input line 1083.
@@ -947,7 +947,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 1133--1134
  []
 
 [34 <./ART/PAST/priest.jpg>]
-<ART/PAST/soldier.jpg, id=654, 1405.25pt x 1405.25pt>
+<ART/PAST/soldier.jpg, id=664, 1405.25pt x 1405.25pt>
 File: ART/PAST/soldier.jpg Graphic file (type jpg)
 <use ART/PAST/soldier.jpg>
 Package pdftex.def Info: ART/PAST/soldier.jpg  used on input line 1154.
@@ -965,7 +965,7 @@ e,
  []
 
 [35 <./ART/PAST/soldier.jpg>]
-<ART/PAST/thief.jpg, id=664, 1405.25pt x 1405.25pt>
+<ART/PAST/thief.jpg, id=674, 1405.25pt x 1405.25pt>
 File: ART/PAST/thief.jpg Graphic file (type jpg)
 <use ART/PAST/thief.jpg>
 Package pdftex.def Info: ART/PAST/thief.jpg  used on input line 1210.
@@ -1109,7 +1109,7 @@ Underfull \hbox (badness 2591) in paragraph at lines 1673--1674
  []
 
 [48]
-<ART/Chapter 3_Sparkle Cola.jpg, id=781, 2007.5pt x 2509.375pt>
+<ART/Chapter 3_Sparkle Cola.jpg, id=791, 2007.5pt x 2509.375pt>
 File: ART/Chapter 3_Sparkle Cola.jpg Graphic file (type jpg)
 <use ART/Chapter 3_Sparkle Cola.jpg>
 Package pdftex.def Info: ART/Chapter 3_Sparkle Cola.jpg  used on input line 173
@@ -1124,27 +1124,27 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 1736--1737
 Underfull \vbox (badness 1721) has occurred while \output is active []
 
  [50 <./ART/Chapter 3_Sparkle Cola.jpg>] [51] [52]
-Underfull \hbox (badness 1509) in paragraph at lines 1902--1903
+Underfull \hbox (badness 1509) in paragraph at lines 1904--1905
 []\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Emer-ald Glint was
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 1902--1903
+Underfull \hbox (badness 1112) in paragraph at lines 1904--1905
 \OT1/cmr/m/it/10.95 Her cur-rent ar-mor is \OT1/cmr/bx/it/10.95 Leather
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1909
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 Emer-ald Glint's
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 1908--1909
+Underfull \hbox (badness 4467) in paragraph at lines 1910--1911
 \OT1/cmr/m/it/10.95 DT value has dropped by 1.
  []
 
 [53]
-Underfull \hbox (badness 1721) in paragraph at lines 1938--1939
+Underfull \hbox (badness 1721) in paragraph at lines 1940--1941
 \OT1/cmr/m/it/10.95 ify her trusty ri-fle, the IF-67
  []
 
@@ -1153,31 +1153,31 @@ Underfull \hbox (badness 1721) in paragraph at lines 1938--1939
 ]
 Chapter 4.
 
-Underfull \hbox (badness 1406) in paragraph at lines 2022--2022
+Underfull \hbox (badness 1406) in paragraph at lines 2024--2024
 [][]\OT1/cmr/bx/n/14.4 Improving Strain and Aerial
  []
 
 [55
 
 ] [56]
-<ART/Chapter 4_Cybernetics.jpg, id=834, 259.10849pt x 259.10849pt>
+<ART/Chapter 4_Cybernetics.jpg, id=844, 259.10849pt x 259.10849pt>
 File: ART/Chapter 4_Cybernetics.jpg Graphic file (type jpg)
 <use ART/Chapter 4_Cybernetics.jpg>
-Package pdftex.def Info: ART/Chapter 4_Cybernetics.jpg  used on input line 2058
+Package pdftex.def Info: ART/Chapter 4_Cybernetics.jpg  used on input line 2060
 .
 (pdftex.def)             Requested size: 209.94933pt x 209.95975pt.
 
-Underfull \hbox (badness 5374) in paragraph at lines 2068--2069
+Underfull \hbox (badness 5374) in paragraph at lines 2070--2071
 []\OT1/cmr/m/n/10.95 Cybernetic im-plants can be found in
  []
 
 [57 <./ART/Chapter 4_Cybernetics.jpg>]
-Underfull \hbox (badness 1102) in paragraph at lines 2082--2083
+Underfull \hbox (badness 1102) in paragraph at lines 2084--2085
 \OT1/cmr/m/it/10.95 ous. Side ef-fects in-clude, but
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 2088--2089
+Underfull \hbox (badness 1817) in paragraph at lines 2090--2091
 []\OT1/cmr/m/n/10.95 Pre-War Books can grant a per-ma-nent
  []
 
@@ -1186,17 +1186,17 @@ Chapter 5.
 [59
 
 ]
-Underfull \hbox (badness 5119) in paragraph at lines 2137--2138
+Underfull \hbox (badness 5119) in paragraph at lines 2139--2140
 []\OT1/cmr/m/n/10.95 These tasks the
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 2139--2140
+Underfull \hbox (badness 4132) in paragraph at lines 2141--2142
 []\OT1/cmr/m/n/10.95 An oth-er-wise or-di-nary task
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2147
 []\OT1/cmr/m/n/10.95 These tasks are
  []
 
@@ -1204,7 +1204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
 Underfull \vbox (badness 3000) has occurred while \output is active []
 
  [61]
-Underfull \hbox (badness 1057) in paragraph at lines 2198--2199
+Underfull \hbox (badness 1057) in paragraph at lines 2200--2201
 \OT1/cmr/m/it/10.95 i-fiers have been cal-cu-lated, she
  []
 
@@ -1212,26 +1212,26 @@ Underfull \hbox (badness 1057) in paragraph at lines 2198--2199
 Underfull \vbox (badness 3895) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 2223--2224
+Underfull \hbox (badness 1226) in paragraph at lines 2225--2226
 \OT1/cmr/m/it/10.95 sus-tained pre-vi-ous in-juries that
  []
 
 [62]
-Underfull \hbox (badness 2343) in paragraph at lines 2263--2264
+Underfull \hbox (badness 2343) in paragraph at lines 2265--2266
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 Doc Red uses his
  []
 
 [63] [64]
-<ART/fall.png, id=876, 325.215pt x 433.62pt>
+<ART/fall.png, id=886, 325.215pt x 433.62pt>
 File: ART/fall.png Graphic file (type png)
 <use ART/fall.png>
-Package pdftex.def Info: ART/fall.png  used on input line 2339.
+Package pdftex.def Info: ART/fall.png  used on input line 2341.
 (pdftex.def)             Requested size: 361.60138pt x 482.1708pt.
  [65]
 Underfull \vbox (badness 5878) has occurred while \output is active []
 
  [66 <./ART/fall.png>]
-Underfull \hbox (badness 4205) in paragraph at lines 2386--2387
+Underfull \hbox (badness 4205) in paragraph at lines 2388--2389
 \OT1/cmr/m/it/10.95 stand-ing un-der a falling rock
  []
 
@@ -1239,32 +1239,32 @@ Underfull \hbox (badness 4205) in paragraph at lines 2386--2387
 Underfull \vbox (badness 6792) has occurred while \output is active []
 
  [67]
-Underfull \hbox (badness 10000) in paragraph at lines 2404--2405
-[]
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 2405--2406
-[]\OT1/cmr/m/n/10.95 such as vi-sual or
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2406--2407
 []
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 2406--2407
+Underfull \hbox (badness 1552) in paragraph at lines 2407--2408
+[]\OT1/cmr/m/n/10.95 such as vi-sual or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2408--2409
+[]
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 2408--2409
 \OT1/cmr/m/n/10.95 cause mus-cle re-lax-ation or numb-ness,
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 2406--2407
+Underfull \hbox (badness 1231) in paragraph at lines 2408--2409
 \OT1/cmr/m/n/10.95 low-er-ing a char-ac-ter's STR and AGI.
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 2406--2407
+Underfull \hbox (badness 1603) in paragraph at lines 2408--2409
 \OT1/cmr/m/n/10.95 These ef-fects can be both short and
  []
 
@@ -1274,2449 +1274,89 @@ Underfull \vbox (badness 7613) has occurred while \output is active []
  [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<ART/Sneak.jpg, id=903, 273.36913pt x 231.07063pt>
+<ART/Sneak.jpg, id=913, 273.36913pt x 231.07063pt>
 File: ART/Sneak.jpg Graphic file (type jpg)
 <use ART/Sneak.jpg>
-Package pdftex.def Info: ART/Sneak.jpg  used on input line 2483.
+Package pdftex.def Info: ART/Sneak.jpg  used on input line 2485.
 (pdftex.def)             Requested size: 361.60138pt x 305.67702pt.
  [69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 2508--2509
+[]\OT1/cmr/m/n/10.95 Besides perks, the one other source of
+ []
+
 [70 <./ART/Sneak.jpg>]
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
+Underfull \hbox (badness 2809) in paragraph at lines 2516--2517
+\OT1/cmr/m/n/10.95 When char-ac-ters, NPC or PC, want to
+ []
 
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+[71
 
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Improper \prevdepth.
-\tabu@verticalspacing ...tempdimc \the \prevdepth 
-                                                  \@tempdima \dimexpr \ht \t...
-l.2526 		\end{tabu}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\dimexpr' in restricted horizontal mode.
-\tabu@verticalspacing ...epth \@tempdima \dimexpr 
-                                                  \ht \tabu@box +\abovetabul...
-l.2526 		\end{tabu}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\hrule' here except with leaders.
-\tabu@verticalspacing ...nalstrut \@gobble \hrule 
-                                                  height\@tempdima depth\@te...
-l.2526 		\end{tabu}
-                   
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   d
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   w
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.2526 		\end{tabu}
-                   
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[71]
-Underfull \hbox (badness 1342) in paragraph at lines 2536--2537
+]
+Underfull \hbox (badness 1342) in paragraph at lines 2554--2555
 \OT1/cmr/m/n/10.95 sail-ing through the wa-ter-ways, and fly-ing
  []
 
 [72
-
 
 ] [73
 
 ] [74
 
 ]
-Chapter 6.
-
-Underfull \hbox (badness 1292) in paragraph at lines 2591--2592
+Underfull \hbox (badness 1292) in paragraph at lines 2609--2610
 \OT1/cmr/m/n/10.95 The great-est plea-sure of Waste-land is all
  []
 
-<ART/PAST/scavenger.jpg, id=938, 1405.25pt x 1405.25pt>
+<ART/PAST/scavenger.jpg, id=947, 1405.25pt x 1405.25pt>
 File: ART/PAST/scavenger.jpg Graphic file (type jpg)
 <use ART/PAST/scavenger.jpg>
-Package pdftex.def Info: ART/PAST/scavenger.jpg  used on input line 2601.
+Package pdftex.def Info: ART/PAST/scavenger.jpg  used on input line 2619.
 (pdftex.def)             Requested size: 198.89865pt x 198.89934pt.
 [75 <./ART/PAST/scavenger.jpg>]
-Underfull \hbox (badness 1924) in paragraph at lines 2625--2626
+Underfull \hbox (badness 1924) in paragraph at lines 2643--2644
 []\OT1/cmr/m/n/10.95 Invention and mod-i-fi-ca-tion build-ing use
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 2630--2631
+Underfull \hbox (badness 4556) in paragraph at lines 2648--2649
 []\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Emer-ald Glint is
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 2634--2635
+Underfull \hbox (badness 4556) in paragraph at lines 2652--2653
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 Emer-ald Glint is
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 2634--2635
+Underfull \hbox (badness 1939) in paragraph at lines 2652--2653
 \OT1/cmr/m/it/10.95 Me-chan-ics, Sci-ence and Thau-
  []
 
-
-Underfull \vbox (badness 2799) has occurred while \output is active []
-
- [76]
-[77] [78] [79]
-Underfull \hbox (badness 1742) in paragraph at lines 2730--2731
+[76] [77] [78] [79]
+Underfull \hbox (badness 1742) in paragraph at lines 2748--2749
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 In an-other vil-lage,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 2730--2731
+Underfull \hbox (badness 2310) in paragraph at lines 2748--2749
 \OT1/cmr/m/it/10.95 Feath-er-fall - a ghoul - comes
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 2730--2731
+Underfull \hbox (badness 1406) in paragraph at lines 2748--2749
 \OT1/cmr/m/it/10.95 trust rather than from Neu-tral
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 2730--2731
+Underfull \hbox (badness 2635) in paragraph at lines 2748--2749
 \OT1/cmr/m/it/10.95 stance, mak-ing the in-ter-ac-tion
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 2734--2735
+Underfull \hbox (badness 2635) in paragraph at lines 2752--2753
 []\OT1/cmr/bx/it/10.95 Example 3: \OT1/cmr/m/it/10.95 Like-wise, Maabara
  []
 
@@ -3724,18 +1364,18 @@ Underfull \hbox (badness 2635) in paragraph at lines 2734--2735
 
 
 ]
-<ART/Pip.jpg, id=967, 345.39743pt x 345.39743pt>
+<ART/Pip.jpg, id=977, 345.39743pt x 345.39743pt>
 File: ART/Pip.jpg Graphic file (type jpg)
 <use ART/Pip.jpg>
-Package pdftex.def Info: ART/Pip.jpg  used on input line 2753.
+Package pdftex.def Info: ART/Pip.jpg  used on input line 2771.
 (pdftex.def)             Requested size: 271.20276pt x 271.21663pt.
 
-Underfull \hbox (badness 4899) in paragraph at lines 2764--2765
+Underfull \hbox (badness 4899) in paragraph at lines 2782--2783
 \OT1/cmr/m/n/10.95 The Pip-Buck ships with a pre-installed
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 2764--2765
+Underfull \hbox (badness 5119) in paragraph at lines 2782--2783
 \OT1/cmr/m/n/10.95 Stable-Tec Eques-trian Po-si-tion-ing Sys-tem
  []
 
@@ -3743,86 +1383,86 @@ Underfull \hbox (badness 5119) in paragraph at lines 2764--2765
 Underfull \vbox (badness 5302) has occurred while \output is active []
 
  [82 <./ART/Pip.jpg>]
-Underfull \hbox (badness 2310) in paragraph at lines 2847--2848
+Underfull \hbox (badness 2310) in paragraph at lines 2865--2866
 \OT1/cmr/m/it/10.95 last few days work-ing on her
  []
 
 [83]
-Underfull \hbox (badness 1137) in paragraph at lines 2866--2867
+Underfull \hbox (badness 1137) in paragraph at lines 2884--2885
 \OT1/cmr/m/it/10.95 though he has stayed hy-drated.
  []
 
 
-Overfull \hbox (20.26013pt too wide) in paragraph at lines 2878--2886
+Overfull \hbox (20.26013pt too wide) in paragraph at lines 2896--2904
  [][] 
  []
 
 [84]
-Chapter 7.
-<ART/PAST/gunslinger.png, id=998, 1185.42876pt x 1185.42876pt>
+Chapter 6.
+<ART/PAST/gunslinger.png, id=1008, 1185.42876pt x 1185.42876pt>
 File: ART/PAST/gunslinger.png Graphic file (type png)
 <use ART/PAST/gunslinger.png>
-Package pdftex.def Info: ART/PAST/gunslinger.png  used on input line 2913.
+Package pdftex.def Info: ART/PAST/gunslinger.png  used on input line 2931.
 (pdftex.def)             Requested size: 176.80067pt x 176.7937pt.
 [85
 
  <./ART/PAST/gunslinger.png>]
-Underfull \hbox (badness 1769) in paragraph at lines 2921--2922
+Underfull \hbox (badness 1769) in paragraph at lines 2939--2940
 []\OT1/cmr/m/n/10.95 All com-bat-ants make an Ini-tia-tive roll,
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 2958--2959
+Underfull \hbox (badness 1163) in paragraph at lines 2976--2977
 \OT1/cmr/m/it/10.95 friend Feath-er-fall - who has a
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 2958--2959
+Underfull \hbox (badness 1215) in paragraph at lines 2976--2977
 \OT1/cmr/m/it/10.95 next to her for Emer-ald Glint
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 2958--2959
+Underfull \hbox (badness 1389) in paragraph at lines 2976--2977
 \OT1/cmr/m/it/10.95 Glint's player may de-clare her
  []
 
 [86]
-Underfull \hbox (badness 1817) in paragraph at lines 2979--2980
+Underfull \hbox (badness 1817) in paragraph at lines 2997--2998
 []\OT1/cmr/m/n/10.95 These mod-i-fiers af-fect only ranged and
  []
 
 [87]
-Underfull \hbox (badness 1946) in paragraph at lines 3033--3034
+Underfull \hbox (badness 1946) in paragraph at lines 3051--3052
 []\OT1/cmr/bx/n/10.95 Minor Dis-trac-tion: \OT1/cmr/m/n/10.95 penalty of 10.
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 3035--3036
+Underfull \hbox (badness 1902) in paragraph at lines 3053--3054
 []\OT1/cmr/bx/n/10.95 Major Dis-trac-tion: \OT1/cmr/m/n/10.95 penalty of 30.
  []
 
 
-Overfull \hbox (30.7586pt too wide) in paragraph at lines 3058--3070
+Overfull \hbox (30.7586pt too wide) in paragraph at lines 3076--3088
  [][] 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 3084--3085
+Underfull \hbox (badness 1616) in paragraph at lines 3102--3103
 []\OT1/cmr/bx/it/10.95 Example 1: \OT1/cmr/m/it/10.95 Feath-er-fall tries to
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 3084--3085
+Underfull \hbox (badness 6910) in paragraph at lines 3102--3103
 \OT1/cmr/m/it/10.95 shoot a raider hid-ing be-hind
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 3084--3085
+Underfull \hbox (badness 1521) in paragraph at lines 3102--3103
 \OT1/cmr/m/it/10.95 a Wooden ta-ble. Feath-er-fall's
  []
 
 [88]
-Underfull \hbox (badness 1648) in paragraph at lines 3088--3089
+Underfull \hbox (badness 1648) in paragraph at lines 3106--3107
 []\OT1/cmr/bx/it/10.95 Example 2: \OT1/cmr/m/it/10.95 Feath-er-fall has de-
  []
 
@@ -3830,60 +1470,57 @@ Underfull \hbox (badness 1648) in paragraph at lines 3088--3089
 Underfull \vbox (badness 6625) has occurred while \output is active []
 
  [89]
-Overfull \hbox (8.66103pt too wide) in paragraph at lines 3150--3160
+Overfull \hbox (8.66103pt too wide) in paragraph at lines 3168--3178
  [][] 
  []
 
-<WV_Splash_Templates.png, id=1046, 878.28125pt x 375.4025pt>
+<WV_Splash_Templates.png, id=1056, 878.28125pt x 375.4025pt>
 File: WV_Splash_Templates.png Graphic file (type png)
 <use WV_Splash_Templates.png>
-Package pdftex.def Info: WV_Splash_Templates.png  used on input line 3169.
+Package pdftex.def Info: WV_Splash_Templates.png  used on input line 3187.
 (pdftex.def)             Requested size: 398.33858pt x 170.26422pt.
 [90]
-Overfull \hbox (6.7092pt too wide) in paragraph at lines 3192--3208
+Overfull \hbox (6.7092pt too wide) in paragraph at lines 3210--3226
  [][] 
  []
 
 [91 <./WV_Splash_Templates.png>] [92] [93] [94] [95]
-Underfull \hbox (badness 2173) in paragraph at lines 3353--3354
+Underfull \hbox (badness 2173) in paragraph at lines 3371--3372
 []\OT1/cmr/m/n/10.95 Attacks are sub-ject to mod-i-fiers called
  []
 
-<ART/fight_1.jpg, id=1106, 288.11317pt x 288.11317pt>
+<ART/fight_1.jpg, id=1116, 288.11317pt x 288.11317pt>
 File: ART/fight_1.jpg Graphic file (type jpg)
 <use ART/fight_1.jpg>
-Package pdftex.def Info: ART/fight_1.jpg  used on input line 3357.
+Package pdftex.def Info: ART/fight_1.jpg  used on input line 3375.
 (pdftex.def)             Requested size: 176.80067pt x 176.79947pt.
 
-Underfull \hbox (badness 2790) in paragraph at lines 3374--3375
+Underfull \hbox (badness 2790) in paragraph at lines 3392--3393
 \OT1/cmr/m/n/10.95 Attacks made with thrown weapons and
  []
 
 [96 <./ART/fight_1.jpg>] [97]
-Underfull \hbox (badness 1173) in paragraph at lines 3458--3459
+Underfull \hbox (badness 1173) in paragraph at lines 3476--3477
 []\OT1/cmr/m/n/10.95 Interacting with en-vi-ron-ment, such as
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 3460--3461
+Underfull \hbox (badness 1675) in paragraph at lines 3478--3479
 \OT1/cmr/m/n/10.95 crip-pled limbs), Sci-ence (hack-ing), or
  []
 
 [98] [99] [100] [101] [102]
-Underfull \hbox (badness 6032) in paragraph at lines 3725--3726
+Underfull \hbox (badness 6032) in paragraph at lines 3759--3760
 []\OT1/cmr/m/n/10.95 For ex-am-ple, with su-per sledge, the
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 3737--3738
+Underfull \hbox (badness 4595) in paragraph at lines 3771--3772
 \OT1/cmr/m/n/10.95 Characters one day or an-other will be
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
-Underfull \hbox (badness 1472) in paragraph at lines 3762--3763
+[103]
+Underfull \hbox (badness 1472) in paragraph at lines 3796--3797
 []\OT1/cmr/bx/it/10.95 Note: \OT1/cmr/m/it/10.95 Ex-plo-sive weapons do not
  []
 
@@ -3894,46 +1531,46 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
 [106
 
 ]
-Chapter 8.
-<ART/book.jpg, id=1187, 207.4149pt x 206.9331pt>
+Chapter 7.
+<ART/book.jpg, id=1197, 207.4149pt x 206.9331pt>
 File: ART/book.jpg Graphic file (type jpg)
 <use ART/book.jpg>
-Package pdftex.def Info: ART/book.jpg  used on input line 3839.
+Package pdftex.def Info: ART/book.jpg  used on input line 3873.
 (pdftex.def)             Requested size: 154.69933pt x 154.34373pt.
 [107 <./ART/book.jpg>]
-Underfull \hbox (badness 2253) in paragraph at lines 3851--3852
+Underfull \hbox (badness 2253) in paragraph at lines 3885--3886
 \OT1/cmr/m/n/10.95 Using spells is much like at-tack-ing with
  []
 
-<ART/PAST/mage.jpg, id=1192, 1405.25pt x 1405.25pt>
+<ART/PAST/mage.jpg, id=1202, 1405.25pt x 1405.25pt>
 File: ART/PAST/mage.jpg Graphic file (type jpg)
 <use ART/PAST/mage.jpg>
-Package pdftex.def Info: ART/PAST/mage.jpg  used on input line 3865.
+Package pdftex.def Info: ART/PAST/mage.jpg  used on input line 3899.
 (pdftex.def)             Requested size: 198.89865pt x 198.89934pt.
 [108
 
  <./ART/PAST/mage.jpg>]
-Underfull \hbox (badness 1558) in paragraph at lines 3890--3891
+Underfull \hbox (badness 1558) in paragraph at lines 3924--3925
 \OT1/cmr/m/it/10.95 him into go-ing to an-other di-
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 3890--3891
+Underfull \hbox (badness 2229) in paragraph at lines 3924--3925
 \OT1/cmr/m/it/10.95 higher against Emer-ald Glint's
  []
 
 [109]
-Underfull \hbox (badness 1043) in paragraph at lines 3914--3915
+Underfull \hbox (badness 1043) in paragraph at lines 3948--3949
 []\OT1/cmr/m/n/10.95 Unlike other ponies' ar-cane pow-ers, the
  []
 
-<ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg, id=1209, 402.43997pt x 402.
+<ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg, id=1219, 402.43997pt x 402.
 43997pt>
 File: ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg Graphic file (type jpg)
 
 <use ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg>
 Package pdftex.def Info: ART/Chapter 8_Aerial Maneuver Wonderbolt edit.jpg  use
-d on input line 3962.
+d on input line 3996.
 (pdftex.def)             Requested size: 361.60138pt x 361.59697pt.
 [110
 
@@ -3944,24 +1581,24 @@ Underfull \vbox (badness 2261) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4032--4034
+Underfull \hbox (badness 10000) in paragraph at lines 4066--4068
 []\OT1/cmr/bx/n/10.95 Wonderbolt Ma-neu-vers
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 4034--4035
+Underfull \hbox (badness 1142) in paragraph at lines 4068--4069
 []\OT1/cmr/m/n/10.95 Commander Easyglide's Es-prit de
  []
 
 [112]
-<ART/Chapter 8_Unicorn magic.jpg, id=1226, 459.48251pt x 268.2933pt>
+<ART/Chapter 8_Unicorn magic.jpg, id=1236, 459.48251pt x 268.2933pt>
 File: ART/Chapter 8_Unicorn magic.jpg Graphic file (type jpg)
 <use ART/Chapter 8_Unicorn magic.jpg>
 Package pdftex.def Info: ART/Chapter 8_Unicorn magic.jpg  used on input line 40
-45.
+79.
 (pdftex.def)             Requested size: 406.79724pt x 237.53577pt.
 
-Underfull \hbox (badness 3690) in paragraph at lines 4054--4055
+Underfull \hbox (badness 3690) in paragraph at lines 4088--4089
 []\OT1/cmr/m/n/10.95 Arcane spells are di-vided into \OT1/cmr/bx/n/10.95 Magic
  []
 
@@ -3970,46 +1607,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113]
 [114 <./ART/Chapter 8_Unicorn magic.jpg>] [115]
-Underfull \hbox (badness 1931) in paragraph at lines 4202--4203
+Underfull \hbox (badness 1931) in paragraph at lines 4236--4237
 []\OT1/cmr/bx/n/10.95 Talismans \OT1/cmr/m/n/10.95 are mag-i-cal ar-ti-facts th
 at
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 4221--4222
+Underfull \hbox (badness 1248) in paragraph at lines 4255--4256
 \OT1/cmr/m/n/10.95 scrip-tions af-ter per-fect-ing their craft with
  []
 
 [116]
-<ART/Chapter 8_Alchemy zeeb.jpg, id=1247, 374.64381pt x 435.07024pt>
+<ART/Chapter 8_Alchemy zeeb.jpg, id=1257, 374.64381pt x 435.07024pt>
 File: ART/Chapter 8_Alchemy zeeb.jpg Graphic file (type jpg)
 <use ART/Chapter 8_Alchemy zeeb.jpg>
-Package pdftex.def Info: ART/Chapter 8_Alchemy zeeb.jpg  used on input line 422
-9.
+Package pdftex.def Info: ART/Chapter 8_Alchemy zeeb.jpg  used on input line 426
+3.
 (pdftex.def)             Requested size: 198.89865pt x 230.9778pt.
 
-Underfull \hbox (badness 1655) in paragraph at lines 4261--4262
+Underfull \hbox (badness 1655) in paragraph at lines 4295--4296
 []\OT1/cmr/bx/it/10.95 Example: \OT1/cmr/m/it/10.95 Maabara is mak-ing a
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 4261--4262
+Underfull \hbox (badness 2042) in paragraph at lines 4295--4296
 \OT1/cmr/m/it/10.95 1x Brew Base and 1x Poi-son
  []
 
 [117 <./ART/Chapter 8_Alchemy zeeb.jpg>] [118]
-<ART/Chapter 8_shamanism.jpg, id=1259, 457.30716pt x 403.40678pt>
+<ART/Chapter 8_shamanism.jpg, id=1269, 457.30716pt x 403.40678pt>
 File: ART/Chapter 8_shamanism.jpg Graphic file (type jpg)
 <use ART/Chapter 8_shamanism.jpg>
-Package pdftex.def Info: ART/Chapter 8_shamanism.jpg  used on input line 4306.
+Package pdftex.def Info: ART/Chapter 8_shamanism.jpg  used on input line 4340.
 (pdftex.def)             Requested size: 361.60138pt x 318.99564pt.
  [119]
-Underfull \hbox (badness 1168) in paragraph at lines 4323--4324
+Underfull \hbox (badness 1168) in paragraph at lines 4357--4358
 []\OT1/cmr/m/n/10.95 Besides Spir-its, which are the brunt of
  []
 
 [120 <./ART/Chapter 8_shamanism.jpg>] [121]
-Underfull \hbox (badness 1648) in paragraph at lines 4369--4371
+Underfull \hbox (badness 1648) in paragraph at lines 4403--4405
 \OT1/cmr/m/n/10.95 dur-ing the pos-ses-sion, es-pe-cially in times
  []
 
@@ -4017,25 +1654,25 @@ Underfull \hbox (badness 1648) in paragraph at lines 4369--4371
 
 
 ]
-Overfull \hbox (1.91994pt too wide) in paragraph at lines 4546--4546
+Overfull \hbox (1.91994pt too wide) in paragraph at lines 4580--4580
 []\OT1/cmr/m/n/10.95 Suppressive 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4546
+Underfull \vbox (badness 10000) detected at line 4580
  []
 
 [125] [126]
-Underfull \vbox (badness 10000) detected at line 4567
+Underfull \vbox (badness 10000) detected at line 4601
  []
 
 
-Overfull \hbox (6.7092pt too wide) in paragraph at lines 4573--4590
+Overfull \hbox (6.7092pt too wide) in paragraph at lines 4607--4624
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4573--4590
+Underfull \hbox (badness 10000) in paragraph at lines 4607--4624
 
  []
 
@@ -4045,31 +1682,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [127]
 File: WV_Splash_Templates.png Graphic file (type png)
 <use WV_Splash_Templates.png>
-Package pdftex.def Info: WV_Splash_Templates.png  used on input line 4592.
+Package pdftex.def Info: WV_Splash_Templates.png  used on input line 4626.
 (pdftex.def)             Requested size: 398.33858pt x 170.26422pt.
-<ART/Sunrise.jpg, id=1305, 457.30716pt x 337.42114pt>
+<ART/Sunrise.jpg, id=1315, 457.30716pt x 337.42114pt>
 File: ART/Sunrise.jpg Graphic file (type jpg)
 <use ART/Sunrise.jpg>
-Package pdftex.def Info: ART/Sunrise.jpg  used on input line 4597.
+Package pdftex.def Info: ART/Sunrise.jpg  used on input line 4631.
 (pdftex.def)             Requested size: 497.20276pt x 366.87558pt.
 
-Overfull \hbox (45.20276pt too wide) in paragraph at lines 4597--4598
+Overfull \hbox (45.20276pt too wide) in paragraph at lines 4631--4632
  [][] 
  []
 
 [128] [129 <./ART/Sunrise.jpg>]
 (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\FOEWV_TEX.aux)
 Package rerunfilecheck Info: File `FOEWV_TEX.out' has not changed.
-(rerunfilecheck)             Checksum: 9BB82D8543A31F288C4D1FAE02A981BA;10504.
+(rerunfilecheck)             Checksum: 1549CF0B743E5867CF69AB98CFFCF967;10889.
  ) 
 Here is how much of TeX's memory you used:
- 12707 strings out of 479334
- 184607 string characters out of 2857559
- 527611 words of memory out of 3000000
- 29399 multiletter control sequences out of 15000+200000
+ 12710 strings out of 479334
+ 184681 string characters out of 2857559
+ 527562 words of memory out of 3000000
+ 29400 multiletter control sequences out of 15000+200000
  412520 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,25n,77p,748b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,17n,77p,748b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tiia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 095.pk><C:/Users/Tiia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Tiia/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -4081,9 +1718,9 @@ ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tiia/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 /Tiia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FOEWV_TEX.pdf (130 pages, 17188926 bytes).
+Output written on FOEWV_TEX.pdf (130 pages, 17190592 bytes).
 PDF statistics:
- 1462 PDF objects out of 1728 (max. 8388607)
- 532 named destinations out of 1000 (max. 500000)
- 810 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1472 PDF objects out of 1728 (max. 8388607)
+ 534 named destinations out of 1000 (max. 500000)
+ 826 words of extra memory for PDF output out of 10000 (max. 10000000)
 
