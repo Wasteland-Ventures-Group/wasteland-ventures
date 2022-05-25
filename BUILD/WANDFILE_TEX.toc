@@ -17,19 +17,19 @@
 \contentsline {section}{Yak}{21}{section*.15}%
 \contentsline {section}{\numberline {2.2}Core Races}{22}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Additional Traits}{27}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Unique Magic}{31}{chapter.4}%
-\contentsline {section}{Changeling Magic}{31}{section*.41}%
-\contentsline {subsection}{Use of Strain}{31}{section*.43}%
-\contentsline {subsection}{Shapeshifting}{31}{section*.44}%
-\contentsline {subsection}{Changeling Spells}{32}{section*.45}%
-\contentsline {subsection}{Shapeshift Spells}{32}{section*.46}%
-\contentsline {subsection}{Other Changeling Spells}{34}{section*.50}%
-\contentsline {section}{Kirin Magic}{44}{section*.72}%
-\contentsline {subsection}{Kirin Spells}{45}{section*.75}%
-\contentsline {subsection}{General}{45}{section*.76}%
-\contentsline {subsection}{Air}{45}{section*.79}%
-\contentsline {subsection}{Earth}{49}{section*.88}%
-\contentsline {subsection}{Fire}{52}{section*.97}%
-\contentsline {subsection}{Water}{55}{section*.106}%
-\contentsline {section}{Yak Battle Ballads}{58}{section*.115}%
-\contentsline {subsection}{Yak Ballad List}{59}{section*.117}%
+\contentsline {chapter}{\numberline {4}Unique Magic}{33}{chapter.4}%
+\contentsline {section}{Changeling Magic}{33}{section*.44}%
+\contentsline {subsection}{Use of Strain}{33}{section*.46}%
+\contentsline {subsection}{Shapeshifting}{33}{section*.47}%
+\contentsline {subsection}{Changeling Spells}{34}{section*.48}%
+\contentsline {subsection}{Shapeshift Spells}{34}{section*.49}%
+\contentsline {subsection}{Other Changeling Spells}{36}{section*.53}%
+\contentsline {section}{Kirin Magic}{46}{section*.75}%
+\contentsline {subsection}{Kirin Spells}{47}{section*.78}%
+\contentsline {subsection}{General}{47}{section*.79}%
+\contentsline {subsection}{Air}{47}{section*.82}%
+\contentsline {subsection}{Earth}{51}{section*.91}%
+\contentsline {subsection}{Fire}{54}{section*.100}%
+\contentsline {subsection}{Water}{57}{section*.109}%
+\contentsline {section}{Yak Battle Ballads}{60}{section*.118}%
+\contentsline {subsection}{Yak Ballad List}{61}{section*.120}%
