@@ -9,9 +9,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **[UNRELEASED]
 *** Added
+- Traits:
+	- Core: Pink in the Blood
+	- Core: Spirit Child
+	- Core: Spirit in the Flesh
+	- WF: In Loving Memory
+	- WF: Songbird
+	- WF: Trick Wings
+- P.A.S.T.
+	- Dashite
+	- Stable Dweller
+	- Steel Ranger
+	- Talon Mercenary
+	
 *** Changed
+- Sneak:
+	- Rewrote to take into account group rolls
+	- Simplified modifiers
+- Magic:
+	- Spell: Magic Bulwark now lists status effects
+	- Spell: Toughened Frame now provides immunity to Crippling instead of lower chance of getting Crippled
+	
 *** Deprecated
 *** Removed
+- Traits:
+	- Core: Dashite
+	- Core: Stable Dweller
+	- Core: Steel Ranger Outcast
+	- Core: Talon Mercenary
+	
 *** Fixed
 
 ** 2.3.1
