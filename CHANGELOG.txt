@@ -21,14 +21,64 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Stable Dweller
 	- Steel Ranger
 	- Talon Mercenary
+-Perks:
+	- Base: Dirt Nap
+	- Base: Lucky Buck Bomber
+	- Base: Pyromaniac
+	- Base: Arsonist
+	- Base: Bitter Grape(shot)
+	- Base: Tremors!
+	- Base: Red Wire, Yellow Wire
+	- Base: Bully
+	- Base: Skyscraper Syndrome
+	- Base: Eyes in the Back
+	- Base: Back into the Fray
+	- Base: Disciple of Peace
+	- Base: Hooligan
+	- Base: Ironshod Heritage
+	- Base: Quick Draw
+	- Base: Cowpony Dancin'
+	- Base: Blackjack's Fury
+	- Magic: Mindrive
+	- Magic: Crisis Caster
+	- Flying: Wind Aid
+	- Flying: Weathermare
+	- Flying: The Night Witch	
+- Items:
+	- Firearms:
+		- Gretta M16
+		- Stable-Tec Explorer M2 "CMC"
+		- Gretta M8 "Raptor"
+		- IF-P01 "Applejack"
+		- H&K AR-20 "Hippogriff"
+		- Whinnyster M-86 "Trotter"
+		- H&K MP-28 "Tommy Cat"
+	- MEWs:
+		- Arcane Musket
+		- GAG Portable Metal Cutter
+	- Melee: 
+		- Slavedriver
+		- Shining Lance
+		- Soul Harvester
+	- Explosives:
+		- Stable-Tec Exterminator "Daybreaker"
+	- Apparel: 
+		- Buckler
+- Mutants:
+	- Canterlot Ghoul
+	- Possessed Shaman; Angry & Malicious Spirit
 	
 *** Changed
+- Perks:
+	- Nuclear Medic now affects all rad-affecting chems instead of specific chems
 - Sneak:
 	- Rewrote to take into account group rolls
 	- Simplified modifiers
 - Magic:
 	- Spell: Magic Bulwark now lists status effects
 	- Spell: Toughened Frame now provides immunity to Crippling instead of lower chance of getting Crippled
+- Races:
+	- (WF) Changelings now have the ability to fly
 	
 *** Deprecated
 *** Removed
