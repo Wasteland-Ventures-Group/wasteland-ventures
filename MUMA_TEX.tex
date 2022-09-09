@@ -138,6 +138,76 @@
 	
 	\chapter{Critters \& Mutants}
 	
+% EXAMPLE LAYOUT
+%	
+%		\subsection*{Green Alicorn}
+%	\addcontentsline{toc}{subsection}{Green Alicorn}
+%	\begin{quote}
+%		\emph{``Rarely do you come across a creature more dangerous than an alicorn. Armed with Unicorn's powerful magic, Pegasi' flight and the tremendous strength of the Earth Pony, this smart abomination will kill you in a blink of an eye. And all other Alicorns will know it in a heartbeat.``}
+%		
+%		\emph{-	Star Paladin Glitter Dust}
+%	\end{quote}
+%	
+%	--------------------------------------
+%	
+%	\noindent
+%	\textbf{Type:} Abomination/Sentient
+%	
+%	\noindent
+%	\textbf{EXP:} 200
+%	
+%	\noindent
+%	\textbf{STR} 8, \textbf{PER} 7, \textbf{END} 6, \textbf{CHA} 4, \textbf{INT} 5, \textbf{AGI} 7, \textbf{LCK} 5
+%	
+%	\noindent
+%	\textbf{Firearms} 65, \textbf{Explosives} 60, \textbf{Mechanics} 40, \textbf{Sneak} 40, \textbf{Thaumaturgy} X
+%	
+%	--------------------------------------
+%	
+%	\noindent
+%	\textbf{HP} 20, \textbf{DT} 4, \textbf{AP} 13, \textbf{Size} 1, \textbf{Karma} -25 (default)
+%	
+%	\noindent
+%	\textbf{Potency} 11, \textbf{Strain} 30
+%	
+%	\noindent
+%	\textbf{Immunities} Radiation
+%	
+%	\noindent
+%	\textbf{Resistances} Poison 50\%
+%	
+%	\noindent
+%	\textbf{Weaknesses} \emph{none} %Fire (2x DMG) %
+%	
+%	--------------------------------------
+%	% Combat Details in order: Offensive, Defensive, Mobility, Magic
+%	
+%	\begin{verse}
+%		\textbf{Wasteland Weaponry:} Green Alicorns equip themselves with weapons and armor, tending to favor heavy armor, and fight with various Firearms and Explosives with great efficiency.	
+%		
+%		\textbf{Super charged:} When exposed to high amounts of radiation, the Alicorns grow in size from 1 to 2. In addition, they can create a Splash attack of irradiated glowing air to all adjacent to them. This attack deals 3+(3) damage and gives 2 Rads at 1x70\%, and costs 7 AP.
+%		
+%		\textbf{Flying:} Alicorns have working wings, thus they are capable of flight. Green Alicorn's flight speed is 1 AP for 6 meter (3 Hexes).
+%		
+%		\textbf{Magical Talent:} This variant of the Alicorn has access to the Perception and Enchantment Magic schools. Spells in these schools have -1 to their AP costs (to a minimum of 1).
+%		
+%		\textbf{Alicorn Magic:} Green Alicorns have a powerful Shield Spell. Green Alicorn's Shield has 20 DT, and can stop explosives such as grenades and thrown weapons.
+%		
+%	\end{verse}
+%	
+%	--------------------------------------
+%	
+%	\textbf{Creature drops:}
+%	\begin{compactitem}
+%		\item Abomination Flesh piece (1d4, Survival doubles u.)
+%		\item Main Weapon (1)
+%		\item Additional Weapon (1, Survival doubles u.)
+%		\item Armor (1)
+%		\item Spell Instruction, Perception/Enchantment School (1 u., LCK-2 to obtain)
+%	\end{compactitem}
+%	
+%	\subsection*{Description:}	
+	
 	\section*{Alicorns}
 	\addcontentsline{toc}{section}{Alicorns}
 	\begin{quote}
@@ -152,30 +222,35 @@
 	
 	\noindent
 	\emph{\textbf{EXP:} 250}
-	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Blue Alicorn Statistics} \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\ 
-			6 & 5 & 6 & 6 & 7 & 9 & 5 & \cellcolor{gray!50} & 16 & 4 & 14 & 1 & -25* \\ \hline
-		\end{tabu}
 		
-		\emph{*Alicorn's Karma may fluctuate depending on setting}
-	}
+	\begin{tblr}
+		[caption={Mutant Info}, entry=none, label=none]
+		{
+			colspec = {| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10}
+		}
+		\hline
+		\SetCell[c=13]{c,gray!50} Blue Alicorn Statistics \\ \hline
+		S & P & E & C & I & A & L & \SetCell{gray!50} & HP & DT & AP & Size & Karma \\ 
+		6 & 5 & 6 & 6 & 7 & 9 & 5 & \SetCell{gray!50} & 16 & 4 & 14 & 1 & -25* \\ \hline
+	\end{tblr}
 	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{5}{|c|}{\cellcolor{gray!50} Blue Alicorn Skills} \\ \hline
-			Melee & Unarmed & Sneak & Potency & Strain \\ 
-			75 & 50 & 60 & 14 & 40 \\ \hline
-		\end{tabu}
-		
-	}
+	\emph{*Alicorn's Karma may fluctuate depending on setting}
+	
+	\medskip
+	
+	\begin{tblr}
+		[caption={Mutant Info}, entry=none, label=none]
+		{
+			colspec = {| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
+		\hline
+		\SetCell[c=5]{c,gray!50} Blue Alicorn Skills \\ \hline
+		Melee 	& Unarmed 	& Sneak & Potency 	& Strain \\ 
+		75 		& 50 		& 60 	& 14 		& 40 \\ \hline
+	\end{tblr}
+
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
@@ -218,29 +293,33 @@
 	
 	\emph{\textbf{EXP:} 200}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Green Alicorn Statistics} \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\ 
-			8 & 7 & 6 & 4 & 5 & 7 & 5 & \cellcolor{gray!50} & 20 & 4 & 13 & 1 & -25* \\ \hline
-		\end{tabu}
-		
-		\emph{*Alicorn's Karma may fluctuate depending on setting}
-	}
+	\begin{tblr}
+		[caption={Mutant Info}, entry=none, label=none]
+		{
+			colspec = {| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10}
+		}
+		\hline
+		\SetCell[c=13]{c,gray!50} Green Alicorn Statistics \\ \hline
+		S & P & E & C & I & A & L & \SetCell{gray!50} & HP & DT & AP & Size & Karma \\ 
+		8 & 7 & 6 & 4 & 5 & 7 & 5 & \SetCell{gray!50} & 20 & 4 & 13 & 1 & -25* \\ \hline
+	\end{tblr}
+	
+	\emph{*Alicorn's Karma may fluctuate depending on setting}
 	
 	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{6}{|c|}{\cellcolor{gray!50} Green Alicorn Skills} \\ \hline
-			Firearms & Explosives & Mechanics & Sneak & Potency & Strain \\ 
-			65 & 60 & 40 & 40 & 11 & 30 \\ \hline
-		\end{tabu}
-		
-	}
+	
+	\begin{tblr}
+		[caption={Mutant Info}, entry=none, label=none]
+		{
+			colspec = {| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
+		\hline
+		\SetCell[c=6]{c,gray!50} Green Alicorn Skills \\ \hline
+		Firearms & Explosives & Mechanics & Sneak & Potency & Strain \\ 
+		65 & 60 & 40 & 40 & 11 & 30 \\ \hline
+	\end{tblr}
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
