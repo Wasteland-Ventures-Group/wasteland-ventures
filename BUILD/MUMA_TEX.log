@@ -1,46 +1,48 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  15 JUN 2022 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  9 SEP 2022 22:19
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **MUMA_TEX.tex MUMA_TEX.tex
 (MUMA_TEX.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03>
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-30>
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
-File: bk11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
+File: latin1.def 2021/02/14 v1.3d Input encoding file
 ))
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks18
 \ex@=\dimen139
 ))
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -48,45 +50,55 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count188
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count189
-\leftroot@=\count190
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count191
-\DOTSCASE@=\count192
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count193
-\c@MaxMatrixCols=\count194
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count195
-\dspbrk@lvl=\count196
-\tag@help=\toks18
-\row@=\count197
-\column@=\count198
-\maxfields@=\count199
-\andhelp@=\toks19
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks19
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks20
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks20
+\@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -100,23 +112,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
 g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
@@ -124,78 +136,76 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 ) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen150
-\ar@mcellbox=\box49
+\ar@mcellbox=\box53
 \extrarowheight=\dimen151
-\NC@list=\toks23
+\NC@list=\toks24
 \extratabsurround=\skip52
 \backup@length=\skip53
-\ar@cellbox=\box50
+\ar@cellbox=\box54
 )
-\everycr=\toks24
+\everycr=\toks25
 \minrowclearance=\skip54
+\rownum=\count272
 )
-\rownum=\count266
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.l
+tx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen152
 \WF@size=\dimen153
-\c@WF@wrappedlines=\count267
-\WF@box=\box51
-\WF@everypar=\toks25
+\c@WF@wrappedlines=\count273
+\WF@box=\box55
+\WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
-)
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\multicol.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count268
+) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count274
+
 
 Package multicol Warning: May not work with the twocolumn option on input line 
-141.
+142.
 
-\mult@box=\box52
+\mult@box=\box56
 \multicol@leftmargin=\dimen154
-\c@unbalance=\count269
-\c@collectmore=\count270
-\doublecol@number=\count271
-\multicoltolerance=\count272
-\multicolpretolerance=\count273
+\c@unbalance=\count275
+\c@collectmore=\count276
+\doublecol@number=\count277
+\multicoltolerance=\count278
+\multicolpretolerance=\count279
 \full@width=\dimen155
 \page@free=\dimen156
 \premulticols=\dimen157
 \postmulticols=\dimen158
 \multicolsep=\skip55
 \multicolbaselineskip=\skip56
-\partial@page=\box53
-\last@line=\box54
+\partial@page=\box57
+\last@line=\box58
 \maxbalancingoverflow=\dimen159
-\mult@rightbox=\box55
-\mult@grightbox=\box56
-\mult@gfirstbox=\box57
-\mult@firstbox=\box58
-\@tempa=\box59
-\@tempa=\box60
-\@tempa=\box61
-\@tempa=\box62
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -229,19 +239,22 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
-\c@minrows=\count274
-\c@columnbadness=\count275
-\c@finalcolumnbadness=\count276
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count280
+\c@columnbadness=\count281
+\c@finalcolumnbadness=\count282
 \last@try=\dimen160
 \multicolovershoot=\dimen161
 \multicolundershoot=\dimen162
-\mult@nat@firstbox=\box96
-\colbreak@box=\box97
-\mc@col@check@num=\count277
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count283
 ) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip57
-\multirow@cntb=\count278
+\multirow@cntb=\count284
 \multirow@dima=\skip58
 \bigstrutjot=\dimen163
 ) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/paralist\paralist.sty
@@ -250,42 +263,43 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip60
 \plitemsep=\skip61
 \plparsep=\skip62
-\pl@lab=\toks26
+\pl@lab=\toks27
 )
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtable.st
-y
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip63
 \LTright=\skip64
 \LTpre=\skip65
 \LTpost=\skip66
-\LTchunksize=\count279
+\LTchunksize=\count285
 \LTcapwidth=\dimen164
-\LT@head=\box98
-\LT@firsthead=\box99
-\LT@foot=\box100
-\LT@lastfoot=\box101
-\LT@cols=\count280
-\LT@rows=\count281
-\c@LT@tables=\count282
-\c@LT@chunks=\count283
-\LT@p@ftn=\toks27
-) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
+\LT@p@ftn=\toks28
+)
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box102
-\sift@deathcycles=\count284
+\@vwid@box=\box106
+\sift@deathcycles=\count290
 \@vwid@loff=\dimen165
 \@vwid@roff=\dimen166
 )
-\c@taburow=\count285
-\tabu@nbcols=\count286
-\tabu@cnt=\count287
-\tabu@Xcol=\count288
-\tabu@alloc=\count289
-\tabu@nested=\count290
+\c@taburow=\count291
+\tabu@nbcols=\count292
+\tabu@cnt=\count293
+\tabu@Xcol=\count294
+\tabu@alloc=\count295
+\tabu@nested=\count296
 \tabu@target=\dimen167
 \tabu@spreadtarget=\dimen168
 \tabu@naturalX=\dimen169
@@ -295,25 +309,125 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen173
 \belowtabulinesep=\dimen174
 \tabustrutrule=\dimen175
-\tabu@thebody=\toks28
-\tabu@footnotes=\toks29
-\tabu@box=\box103
-\tabu@arstrutbox=\box104
-\tabu@hleads=\box105
-\tabu@vleads=\box106
+\tabu@thebody=\toks29
+\tabu@footnotes=\toks30
+\tabu@box=\box107
+\tabu@arstrutbox=\box108
+\tabu@hleads=\box109
+\tabu@vleads=\box110
 \tabu@cellskip=\skip67
+)
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.st
+y (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-08-30 L3 programming layer (loader) 
+
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box111
+))
+Package: tabularray 2022-07-01 v2022C Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count298
+\l__tblr_c_int=\count299
+\l__tblr_r_int=\count300
+\l__tblr_d_dim=\dimen176
+\l__tblr_h_dim=\dimen177
+\l__tblr_o_dim=\dimen178
+\l__tblr_p_dim=\dimen179
+\l__tblr_q_dim=\dimen180
+\l__tblr_r_dim=\dimen181
+\l__tblr_s_dim=\dimen182
+\l__tblr_t_dim=\dimen183
+\l__tblr_v_dim=\dimen184
+\l__tblr_w_dim=\dimen185
+\l__tblr_a_box=\box112
+\l__tblr_b_box=\box113
+\l__tblr_c_box=\box114
+\l__tblr_d_box=\box115
+\g__tblr_table_count_int=\count301
+\c@colnum=\count302
+\c@rowcount=\count303
+\c@colcount=\count304
+\abovesep=\dimen186
+\belowsep=\dimen187
+\leftsep=\dimen188
+\rightsep=\dimen189
+\g_tblr_level_int=\count305
+\g__tblr_data_row_key_count_int=\count306
+\g__tblr_data_column_key_count_int=\count307
+\g__tblr_data_cell_key_count_int=\count308
+\g__tblr_array_int=\count309
+\l__tblr_key_count_int=\count310
+\l__tblr_key_quotient_int=\count311
+\l__tblr_key_quotient_two_int=\count312
+\l__tblr_key_remainder_int=\count313
+\g__tblr_data_str_value_count_int=\count314
+\rulewidth=\dimen190
+\l__tblr_strut_dp_dim=\dimen191
+\l__tblr_strut_ht_dim=\dimen192
+\g__tblr_cell_wd_dim=\dimen193
+\g__tblr_cell_ht_dim=\dimen194
+\g__tblr_cell_head_dim=\dimen195
+\g__tblr_cell_foot_dim=\dimen196
+\l__column_target_dim=\dimen197
+\l__tblr_caption_box=\box116
+\l__tblr_caption_left_box=\box117
+\l__tblr_row_head_box=\box118
+\l__tblr_row_foot_box=\box119
+\l__tblr_row_head_foot_dim=\dimen198
+\tablewidth=\dimen199
+\l__tblr_table_firsthead_box=\box120
+\l__tblr_table_middlehead_box=\box121
+\l__tblr_table_lasthead_box=\box122
+\l__tblr_table_firstfoot_box=\box123
+\l__tblr_table_middlefoot_box=\box124
+\l__tblr_table_lastfoot_box=\box125
+\l__tblr_remain_height_dim=\dimen256
+\l__tblr_long_from_int=\count315
+\l__tblr_long_to_int=\count316
+\l__tblr_curr_i_int=\count317
+\l__tblr_prev_i_int=\count318
+\l__tblr_table_page_int=\count319
+\l__tblr_table_head_box=\box126
+\l__tblr_table_foot_box=\box127
+\l__tblr_table_head_foot_dim=\dimen257
+\l__tblr_table_head_body_foot_dim=\dimen258
+\l__tblr_table_box=\box128
+\l__tblr_table_hlines_box=\box129
+\l__tblr_hline_box=\box130
+\l__tblr_row_box=\box131
+\l__tblr_col_o_wd_dim=\dimen259
+\l__tblr_col_b_wd_dim=\dimen260
+\l__tblr_hline_leftskip_dim=\dimen261
+\l__tblr_hline_rightskip_dim=\dimen262
+\l__tblr_row_ht_dim=\dimen263
+\l__tblr_row_dp_dim=\dimen264
+\l__tblr_row_abovesep_dim=\dimen265
+\l__tblr_row_belowsep_dim=\dimen266
+\l__tblr_row_vlines_box=\box132
+\l__tblr_vline_box=\box133
+\l__tblr_cell_box=\box134
+\l__row_upper_dim=\dimen267
+\l__row_lower_dim=\dimen268
+\l__row_vpace_dim=\dimen269
+\l__tblr_vline_aboveskip_dim=\dimen270
+\l__tblr_vline_belowskip_dim=\dimen271
+\l__tblr_cell_wd_dim=\dimen272
+\l__tblr_cell_ht_dim=\dimen273
+\l__tblr_diag_box=\box135
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks30
-\SOUL@lasttoken=\toks31
-\SOUL@cmds=\toks32
-\SOUL@buffer=\toks33
-\SOUL@token=\toks34
+\SOUL@word=\toks31
+\SOUL@lasttoken=\toks32
+\SOUL@cmds=\toks33
+\SOUL@buffer=\toks34
+\SOUL@token=\toks35
 \SOUL@spaceskip=\skip68
-\SOUL@ttwidth=\dimen176
-\SOUL@uldp=\dimen177
-\SOUL@ulht=\dimen178
+\SOUL@ttwidth=\dimen274
+\SOUL@uldp=\dimen275
+\SOUL@ulht=\dimen276
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
@@ -322,52 +436,52 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \droptitle=\skip71
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count291
-\calc@Bcount=\count292
-\calc@Adimen=\dimen179
-\calc@Bdimen=\dimen180
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
 \calc@Askip=\skip72
 \calc@Bskip=\skip73
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count293
+\calc@Ccount=\count322
 \calc@Cskip=\skip74
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen181
-\ESO@tempdimb=\dimen182
+\ESO@tempdima=\dimen279
+\ESO@tempdimb=\dimen280
 )
-\AM@pagewidth=\dimen183
-\AM@pageheight=\dimen184
-\AM@fboxrule=\dimen185
+\AM@pagewidth=\dimen281
+\AM@pageheight=\dimen282
+\AM@fboxrule=\dimen283
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count294
-\AM@pagebox=\box107
-\AM@global@opts=\toks35
-\AM@pagecnt=\count295
-\AM@toc@title=\toks36
-\c@AM@survey=\count296
-\AM@templatesizebox=\box108
+\pdfpages@includegraphics@status=\count323
+\AM@pagebox=\box136
+\AM@global@opts=\toks36
+\AM@pagecnt=\count324
+\AM@toc@title=\toks37
+\c@AM@survey=\count325
+\AM@templatesizebox=\box137
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
 sty
@@ -401,22 +515,28 @@ sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count326
 )
-\@linkdim=\dimen186
-\Hy@linkcounter=\count297
-\Hy@pagecounter=\count298
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen284
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
+ (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langpa
-tches.def
-File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
-nguages
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -424,27 +544,27 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count299
+\Hy@SavedSpaceFactor=\count329
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count300
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count330
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen187
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen285
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -454,109 +574,113 @@ sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count301
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+\Fld@menulength=\count331
+\Field@Width=\dimen286
+\Fld@charsize=\dimen287
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count302
-\c@Item=\count303
-\c@Hfootnote=\count304
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
 check.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
 unter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
 \Hy@SectionHShift=\skip75
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 28.
+(hyperref)                setting the option has no effect on input line 29.
 
-
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box109
-) (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
+(C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
 \openout1 = `MUMA_TEX.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen190
-\scratchbox=\box110
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen191
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count337
+\scratchdimen=\dimen288
+\scratchbox=\box138
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen289
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks39
 )
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
+
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.st
+y
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+
+
+(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+))
 (C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
@@ -565,60 +689,44 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 33.
-
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\Tiia\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count314
-)
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+Package hyperref Info: Link coloring ON on input line 34.
 
 (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.out)
 (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.out)
 \@outlinefile=\write3
 \openout3 = `MUMA_TEX.out'.
 
-<WORD/COVER-MUMA.pdf, id=391, 597.23125pt x 845.1575pt>
+<WORD/COVER-MUMA.pdf, id=394, 597.23125pt x 845.1575pt>
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 36.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf  used on input line 36.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<WORD/COVER-MUMA.pdf, id=394, page=1, 597.23125pt x 845.1575pt>
+<WORD/COVER-MUMA.pdf, id=397, page=1, 597.23125pt x 845.1575pt>
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 36.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 36.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 36.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 36.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 
 ! Undefined control sequence.
 \@outputdblcol ...}}\@combinedblfloats \@setmarks 
                                                   \@outputpage \begingroup \...
-l.35 	\includepdf[pages={1}]{WORD/COVER-MUMA.pdf}
+l.36 	\includepdf[pages={1}]{WORD/COVER-MUMA.pdf}
                                                  	
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -628,23 +736,24 @@ and I'll forget about whatever was undefined.
 
 File: WORD/COVER-MUMA.pdf Graphic file (type pdf)
 <use WORD/COVER-MUMA.pdf, page 1>
-Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 35.
+Package pdftex.def Info: WORD/COVER-MUMA.pdf , page1 used on input line 36.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 [1
 
  <./WORD/COVER-MUMA.pdf>]
-<ART/ISA_Logo.jpg, id=415, 77.53969pt x 74.52844pt>
+<ART/ISA_Logo.jpg, id=418, 77.53969pt x 74.52844pt>
 File: ART/ISA_Logo.jpg Graphic file (type jpg)
 <use ART/ISA_Logo.jpg>
-Package pdftex.def Info: ART/ISA_Logo.jpg  used on input line 65.
+Package pdftex.def Info: ART/ISA_Logo.jpg  used on input line 66.
 (pdftex.def)             Requested size: 85.35826pt x 82.04292pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 	\twocolumn
-                 [1{C:/Users/Tiia/AppData/Local/MiKTeX/pdftex/config/pdftex.map
-}
+l.70 	\twocolumn
+                 [1{C:/Users/Tiia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.
+map}
 
  <./ART/ISA_Logo.jpg>] [2
 
@@ -679,17 +788,17 @@ Chapter 1.
 ]
 Chapter 2.
 
-Underfull \hbox (badness 3179) in paragraph at lines 96--97
+Underfull \hbox (badness 3179) in paragraph at lines 100--101
 \OT1/cmr/m/it/10.95 friends and at-tack the clos-est
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 100--101
+Underfull \hbox (badness 2351) in paragraph at lines 104--105
 []\OT1/cmr/m/n/10.95 What com-monly dif-fer-en-ti-
  []
 
 [9]
-Underfull \hbox (badness 4981) in paragraph at lines 105--106
+Underfull \hbox (badness 4981) in paragraph at lines 109--110
 []\OT1/cmr/m/n/10.95 Non-Mutated crea-tures are
  []
 
@@ -701,397 +810,401 @@ Underfull \hbox (badness 4981) in paragraph at lines 105--106
 ]
 Chapter 3.
 [13]
-<ART/Enemies/Alicorn Blue.jpg, id=576, 337.26pt x 337.26pt>
+<ART/Enemies/Alicorn Blue.jpg, id=580, 337.26pt x 337.26pt>
 File: ART/Enemies/Alicorn Blue.jpg Graphic file (type jpg)
 <use ART/Enemies/Alicorn Blue.jpg>
-Package pdftex.def Info: ART/Enemies/Alicorn Blue.jpg  used on input line 208.
+Package pdftex.def Info: ART/Enemies/Alicorn Blue.jpg  used on input line 337.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [14 <./ART/Enemies/Alicorn Blue.jpg>] [15] [16] [17] [18
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./ART/Enemies/Alicorn Blue.jpg>] [16] [17] [18] [19
 
 ]
-<ART/Enemies/Bale phoenix.jpg, id=606, 264.99pt x 264.99pt>
+<ART/Enemies/Bale phoenix.jpg, id=614, 264.99pt x 264.99pt>
 File: ART/Enemies/Bale phoenix.jpg Graphic file (type jpg)
 <use ART/Enemies/Bale phoenix.jpg>
-Package pdftex.def Info: ART/Enemies/Bale phoenix.jpg  used on input line 408.
+Package pdftex.def Info: ART/Enemies/Bale phoenix.jpg  used on input line 726.
 (pdftex.def)             Requested size: 226.0pt x 226.00272pt.
- [19 <./ART/Enemies/Bale phoenix.jpg>]
-<ART/Enemies/Bloodwing.jpg, id=613, 274.626pt x 274.626pt>
+ [20 <./ART/Enemies/Bale phoenix.jpg>]
+<ART/Enemies/Bloodwing.jpg, id=621, 274.626pt x 274.626pt>
 File: ART/Enemies/Bloodwing.jpg Graphic file (type jpg)
 <use ART/Enemies/Bloodwing.jpg>
-Package pdftex.def Info: ART/Enemies/Bloodwing.jpg  used on input line 483.
+Package pdftex.def Info: ART/Enemies/Bloodwing.jpg  used on input line 801.
 (pdftex.def)             Requested size: 271.20276pt x 271.20172pt.
- [20
+ [21
 
 ]
-Underfull \hbox (badness 1231) in paragraph at lines 488--490
+Underfull \hbox (badness 1231) in paragraph at lines 806--808
 \OT1/cmr/m/n/10.95 i-cal com-po-nent to it that keeps
  []
 
-[21 <./ART/Enemies/Bloodwing.jpg>] [22
+[22 <./ART/Enemies/Bloodwing.jpg>] [23
 
-] [23] [24] [25] [26] [27
+] [24] [25] [26] [27] [28
 
 ]
-<ART/Enemies/Brahmin2.jpg, id=659, 216.81pt x 216.81pt>
+<ART/Enemies/Brahmin2.jpg, id=667, 216.81pt x 216.81pt>
 File: ART/Enemies/Brahmin2.jpg Graphic file (type jpg)
 <use ART/Enemies/Brahmin2.jpg>
-Package pdftex.def Info: ART/Enemies/Brahmin2.jpg  used on input line 765.
+Package pdftex.def Info: ART/Enemies/Brahmin2.jpg  used on input line 1083.
 (pdftex.def)             Requested size: 203.39862pt x 203.40773pt.
- [28 <./ART/Enemies/Brahmin2.jpg>] [29
+ [29 <./ART/Enemies/Brahmin2.jpg>] [30
 
-] [30]
-Overfull \hbox (2.7391pt too wide) in paragraph at lines 894--894
+] [31]
+Overfull \hbox (2.7391pt too wide) in paragraph at lines 1212--1212
  []\OT1/cmr/m/n/10.95 Diplomacy| 
  []
 
-[31
+[32
 
 ]
-<ART/Enemies/Changeling.jpg, id=683, 409.53pt x 409.53pt>
+<ART/Enemies/Changeling.jpg, id=691, 409.53pt x 409.53pt>
 File: ART/Enemies/Changeling.jpg Graphic file (type jpg)
 <use ART/Enemies/Changeling.jpg>
-Package pdftex.def Info: ART/Enemies/Changeling.jpg  used on input line 933.
+Package pdftex.def Info: ART/Enemies/Changeling.jpg  used on input line 1251.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [32 <./ART/Enemies/Changeling.jpg>] [33
+ [33 <./ART/Enemies/Changeling.jpg>] [34
 
 ]
-<ART/Enemies/Changeling Queen.jpg, id=694, 264.99pt x 264.99pt>
+<ART/Enemies/Changeling Queen.jpg, id=702, 264.99pt x 264.99pt>
 File: ART/Enemies/Changeling Queen.jpg Graphic file (type jpg)
 <use ART/Enemies/Changeling Queen.jpg>
 Package pdftex.def Info: ART/Enemies/Changeling Queen.jpg  used on input line 1
-008.
+326.
 (pdftex.def)             Requested size: 248.60138pt x 248.60542pt.
- [34 <./ART/Enemies/Changeling Queen.jpg>] [35]
-<ART/Enemies/Chimera.jpg, id=705, 264.99pt x 264.99pt>
+ [35 <./ART/Enemies/Changeling Queen.jpg>] [36]
+<ART/Enemies/Chimera.jpg, id=714, 264.99pt x 264.99pt>
 File: ART/Enemies/Chimera.jpg Graphic file (type jpg)
 <use ART/Enemies/Chimera.jpg>
-Package pdftex.def Info: ART/Enemies/Chimera.jpg  used on input line 1083.
+Package pdftex.def Info: ART/Enemies/Chimera.jpg  used on input line 1401.
 (pdftex.def)             Requested size: 248.60138pt x 248.60542pt.
- [36
+ [37
 
 ]
-Underfull \hbox (badness 2460) in paragraph at lines 1090--1091
+Underfull \hbox (badness 2460) in paragraph at lines 1408--1409
 []\OT1/cmr/m/n/10.95 Thankfully an-tivenom, if de-liv-ered
  []
 
-[37 <./ART/Enemies/Chimera.jpg>] [38
+[38 <./ART/Enemies/Chimera.jpg>] [39
 
 ]
-<ART/Enemies/Cockatrice.jpg, id=724, 337.26pt x 337.26pt>
+<ART/Enemies/Cockatrice.jpg, id=732, 337.26pt x 337.26pt>
 File: ART/Enemies/Cockatrice.jpg Graphic file (type jpg)
 <use ART/Enemies/Cockatrice.jpg>
-Package pdftex.def Info: ART/Enemies/Cockatrice.jpg  used on input line 1171.
+Package pdftex.def Info: ART/Enemies/Cockatrice.jpg  used on input line 1489.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [39 <./ART/Enemies/Cockatrice.jpg>]
-[40
+ [40 <./ART/Enemies/Cockatrice.jpg>]
+[41
 
-] [41] [42
+] [42] [43
 
-] [43] [44] [45
+] [44] [45] [46
 
-] [46] [47
+] [47] [48
 
-] [48] [49
+] [49] [50
 
-] [50] [51]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1647--1647
+] [51] [52]
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 1965--1965
  []\OT1/cmr/m/n/10.95 Unarmed| 
  []
 
-[52
+[53
 
 ]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1705--1705
- []\OT1/cmr/m/n/10.95 Unarmed| 
- []
-
-[53]
-Overfull \hbox (4.74231pt too wide) in paragraph at lines 1779--1779
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 2023--2023
  []\OT1/cmr/m/n/10.95 Unarmed| 
  []
 
 [54]
-<ART/Enemies/ghoul.jpg, id=814, 245.718pt x 245.718pt>
+Overfull \hbox (4.74231pt too wide) in paragraph at lines 2097--2097
+ []\OT1/cmr/m/n/10.95 Unarmed| 
+ []
+
+[55]
+<ART/Enemies/ghoul.jpg, id=822, 245.718pt x 245.718pt>
 File: ART/Enemies/ghoul.jpg Graphic file (type jpg)
 <use ART/Enemies/ghoul.jpg>
-Package pdftex.def Info: ART/Enemies/ghoul.jpg  used on input line 1813.
+Package pdftex.def Info: ART/Enemies/ghoul.jpg  used on input line 2131.
 (pdftex.def)             Requested size: 226.0pt x 226.0108pt.
- [55] [56 <./ART/Enemies/ghoul.jpg>] [57
+ [56] [57 <./ART/Enemies/ghoul.jpg>] [58
 
-] [58]
-<ART/Enemies/Fire ant.jpg, id=836, 383.031pt x 383.031pt>
+] [59]
+<ART/Enemies/Fire ant.jpg, id=844, 383.031pt x 383.031pt>
 File: ART/Enemies/Fire ant.jpg Graphic file (type jpg)
 <use ART/Enemies/Fire ant.jpg>
-Package pdftex.def Info: ART/Enemies/Fire ant.jpg  used on input line 1961.
+Package pdftex.def Info: ART/Enemies/Fire ant.jpg  used on input line 2279.
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [59] [60 <./ART/Enemies/Fire ant.jpg>] [61
+ [60] [61 <./ART/Enemies/Fire ant.jpg>] [62
 
 ]
-<ART/Enemies/firebush.jpg, id=854, 337.26pt x 337.26pt>
+<ART/Enemies/firebush.jpg, id=862, 337.26pt x 337.26pt>
 File: ART/Enemies/firebush.jpg Graphic file (type jpg)
 <use ART/Enemies/firebush.jpg>
-Package pdftex.def Info: ART/Enemies/firebush.jpg  used on input line 2030.
+Package pdftex.def Info: ART/Enemies/firebush.jpg  used on input line 2348.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [62 <./ART/Enemies/firebush.jpg>] [63
+ [63 <./ART/Enemies/firebush.jpg>] [64
 
-] [64] [65
+] [65] [66
 
-] [66] [67
+] [67] [68
 
 ]
-[68] [69] [70] [71
+[69] [70] [71] [72
 
-] [72] [73
+] [73] [74
 
-] [74]
-<ART/Enemies/Giant ant.jpg, id=931, 409.53pt x 409.53pt>
+] [75]
+<ART/Enemies/Giant ant.jpg, id=939, 409.53pt x 409.53pt>
 File: ART/Enemies/Giant ant.jpg Graphic file (type jpg)
 <use ART/Enemies/Giant ant.jpg>
-Package pdftex.def Info: ART/Enemies/Giant ant.jpg  used on input line 2541.
+Package pdftex.def Info: ART/Enemies/Giant ant.jpg  used on input line 2859.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [75] [76 <./ART/Enemies/Giant ant.jpg>]
-Overfull \hbox (0.9515pt too wide) in paragraph at lines 2578--2578
+ [76] [77 <./ART/Enemies/Giant ant.jpg>]
+Overfull \hbox (0.9515pt too wide) in paragraph at lines 2896--2896
  []\OT1/cmr/m/n/10.95 Intimidation| 
  []
 
-[77
+[78
 
 ]
-<ART/Enemies/Hellhound.jpg, id=946, 317.988pt x 317.988pt>
+<ART/Enemies/Hellhound.jpg, id=955, 317.988pt x 317.988pt>
 File: ART/Enemies/Hellhound.jpg Graphic file (type jpg)
 <use ART/Enemies/Hellhound.jpg>
-Package pdftex.def Info: ART/Enemies/Hellhound.jpg  used on input line 2620.
+Package pdftex.def Info: ART/Enemies/Hellhound.jpg  used on input line 2938.
 (pdftex.def)             Requested size: 293.79724pt x 293.81404pt.
- [78 <./ART/Enemies/Hellhound.jpg>] [79
+ [79 <./ART/Enemies/Hellhound.jpg>] [80
 
 ]
-<ART/Enemies/horror.jpg, id=959, 310.761pt x 310.761pt>
+<ART/Enemies/horror.jpg, id=967, 310.761pt x 310.761pt>
 File: ART/Enemies/horror.jpg Graphic file (type jpg)
 <use ART/Enemies/horror.jpg>
-Package pdftex.def Info: ART/Enemies/horror.jpg  used on input line 2692.
+Package pdftex.def Info: ART/Enemies/horror.jpg  used on input line 3010.
 (pdftex.def)             Requested size: 293.79724pt x 293.80347pt.
- [80 <./ART/Enemies/horror.jpg>]
-[81
+ [81 <./ART/Enemies/horror.jpg>]
+[82
 
-] [82] [83
+] [83] [84
 
-] [84]
-<ART/Enemies/jackalope.jpg, id=989, 390.258pt x 390.258pt>
+] [85]
+<ART/Enemies/jackalope.jpg, id=997, 390.258pt x 390.258pt>
 File: ART/Enemies/jackalope.jpg Graphic file (type jpg)
 <use ART/Enemies/jackalope.jpg>
-Package pdftex.def Info: ART/Enemies/jackalope.jpg  used on input line 2907.
+Package pdftex.def Info: ART/Enemies/jackalope.jpg  used on input line 3225.
 (pdftex.def)             Requested size: 361.60138pt x 361.6023pt.
- [85] [86 <./ART/Enemies/jackalope.jpg>] [87
+ [86] [87 <./ART/Enemies/jackalope.jpg>] [88
 
-] [88] [89
-
-]
-[90] [91
-
-] [92] [93
-
-] [94] [95
+] [89] [90
 
 ]
-<ART/Enemies/molerat.jpg, id=1050, 337.26pt x 337.26pt>
+[91] [92
+
+] [93] [94
+
+] [95] [96
+
+]
+<ART/Enemies/molerat.jpg, id=1059, 337.26pt x 337.26pt>
 File: ART/Enemies/molerat.jpg Graphic file (type jpg)
 <use ART/Enemies/molerat.jpg>
-Package pdftex.def Info: ART/Enemies/molerat.jpg  used on input line 3264.
+Package pdftex.def Info: ART/Enemies/molerat.jpg  used on input line 3582.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [96 <./ART/Enemies/molerat.jpg>] [97
+ [97 <./ART/Enemies/molerat.jpg>] [98
 
 ]
-<ART/Enemies/Moss Shambler.jpg, id=1062, 337.26pt x 337.26pt>
+<ART/Enemies/Moss Shambler.jpg, id=1070, 337.26pt x 337.26pt>
 File: ART/Enemies/Moss Shambler.jpg Graphic file (type jpg)
 <use ART/Enemies/Moss Shambler.jpg>
-Package pdftex.def Info: ART/Enemies/Moss Shambler.jpg  used on input line 3332
+Package pdftex.def Info: ART/Enemies/Moss Shambler.jpg  used on input line 3650
 .
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [98 <./ART/Enemies/Moss Shambler.jpg>] [99
+ [99 <./ART/Enemies/Moss Shambler.jpg>] [100
 
-] [100] [101
+] [101] [102
 
 ]
-<ART/Enemies/myling drone.jpg, id=1084, 383.031pt x 383.031pt>
+<ART/Enemies/myling drone.jpg, id=1093, 383.031pt x 383.031pt>
 File: ART/Enemies/myling drone.jpg Graphic file (type jpg)
 <use ART/Enemies/myling drone.jpg>
-Package pdftex.def Info: ART/Enemies/myling drone.jpg  used on input line 3473.
+Package pdftex.def Info: ART/Enemies/myling drone.jpg  used on input line 3791.
 
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [102 <./ART/Enemies/myling drone.jpg>] [103
+ [103 <./ART/Enemies/myling drone.jpg>] [104
 
 ]
-<ART/Enemies/myling queen.jpg, id=1096, 252.945pt x 202.356pt>
+<ART/Enemies/myling queen.jpg, id=1104, 252.945pt x 202.356pt>
 File: ART/Enemies/myling queen.jpg Graphic file (type jpg)
 <use ART/Enemies/myling queen.jpg>
-Package pdftex.def Info: ART/Enemies/myling queen.jpg  used on input line 3542.
+Package pdftex.def Info: ART/Enemies/myling queen.jpg  used on input line 3860.
 
 (pdftex.def)             Requested size: 226.0pt x 180.80334pt.
- [104 <./ART/Enemies/myling queen.jpg>] [105
+ [105 <./ART/Enemies/myling queen.jpg>] [106
 
-] [106] [107] [108]
-[109] [110
+] [107] [108] [109]
+[110] [111
 
-] [111] [112
+] [112] [113
 
-] [113] [114
+] [114] [115
 
 ]
-<ART/Enemies/Radbun.jpg, id=1161, 332.442pt x 332.442pt>
+<ART/Enemies/Radbun.jpg, id=1169, 332.442pt x 332.442pt>
 File: ART/Enemies/Radbun.jpg Graphic file (type jpg)
 <use ART/Enemies/Radbun.jpg>
-Package pdftex.def Info: ART/Enemies/Radbun.jpg  used on input line 3987.
+Package pdftex.def Info: ART/Enemies/Radbun.jpg  used on input line 4305.
 (pdftex.def)             Requested size: 316.39862pt x 316.40144pt.
- [115 <./ART/Enemies/Radbun.jpg>] [116
+ [116 <./ART/Enemies/Radbun.jpg>] [117
 
 ]
-[117] [118
+[118] [119
 
-] [119] [120
+] [120] [121
 
-] [121] [122
+] [122] [123
 
-] [123] [124
+] [124] [125
 
-] [125] [126
+] [126] [127
 
-] [127] [128
-
-]
-[129] [130
-
-] [131] [132
+] [128] [129
 
 ]
-<ART/Enemies/raiders.jpg, id=1263, 289.08pt x 289.08pt>
+[130] [131
+
+] [132] [133
+
+]
+<ART/Enemies/raiders.jpg, id=1271, 289.08pt x 289.08pt>
 File: ART/Enemies/raiders.jpg Graphic file (type jpg)
 <use ART/Enemies/raiders.jpg>
-Package pdftex.def Info: ART/Enemies/raiders.jpg  used on input line 4610.
+Package pdftex.def Info: ART/Enemies/raiders.jpg  used on input line 4928.
 (pdftex.def)             Requested size: 271.20276pt x 271.21472pt.
 
-Underfull \hbox (badness 4144) in paragraph at lines 4613--4614
+Underfull \hbox (badness 4144) in paragraph at lines 4931--4932
 \OT1/cmr/m/n/10.95 match groups that wan-der the
  []
 
-[133 <./ART/Enemies/raiders.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 4653--4660
+[134 <./ART/Enemies/raiders.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 4971--4978
 [][]
  []
 
-[134
+[135
 
 ]
-<ART/Enemies/robobrain.jpg, id=1275, 383.031pt x 383.031pt>
+<ART/Enemies/robobrain.jpg, id=1283, 383.031pt x 383.031pt>
 File: ART/Enemies/robobrain.jpg Graphic file (type jpg)
 <use ART/Enemies/robobrain.jpg>
-Package pdftex.def Info: ART/Enemies/robobrain.jpg  used on input line 4696.
+Package pdftex.def Info: ART/Enemies/robobrain.jpg  used on input line 5014.
 (pdftex.def)             Requested size: 361.60138pt x 361.62721pt.
- [135 <./ART/Enemies/robobrain.jpg>] [136
+ [136 <./ART/Enemies/robobrain.jpg>] [137
 
-] [137] [138
+] [138] [139
 
 ]
-<ART/Enemies/Shade.jpg, id=1298, 337.26pt x 337.26pt>
+<ART/Enemies/Shade.jpg, id=1306, 337.26pt x 337.26pt>
 File: ART/Enemies/Shade.jpg Graphic file (type jpg)
 <use ART/Enemies/Shade.jpg>
-Package pdftex.def Info: ART/Enemies/Shade.jpg  used on input line 4834.
+Package pdftex.def Info: ART/Enemies/Shade.jpg  used on input line 5152.
 (pdftex.def)             Requested size: 316.39862pt x 316.40689pt.
- [139 <./ART/Enemies/Shade.jpg>] [140
+ [140 <./ART/Enemies/Shade.jpg>] [141
 
 ]
-<ART/Enemies/slavers.jpg, id=1311, 409.53pt x 409.53pt>
+<ART/Enemies/slavers.jpg, id=1319, 409.53pt x 409.53pt>
 File: ART/Enemies/slavers.jpg Graphic file (type jpg)
 <use ART/Enemies/slavers.jpg>
-Package pdftex.def Info: ART/Enemies/slavers.jpg  used on input line 4907.
+Package pdftex.def Info: ART/Enemies/slavers.jpg  used on input line 5225.
 (pdftex.def)             Requested size: 361.60138pt x 361.62479pt.
- [141 <./ART/Enemies/slavers.jpg>] [142
+ [142 <./ART/Enemies/slavers.jpg>] [143
 
-] [143] [144] [145
-
-]
-[146] [147] [148
-
-] [149] [150
-
-] [151] [152
-
-] [153] [154
+] [144] [145] [146
 
 ]
-<ART/Enemies/spritebot.jpg, id=1391, 337.26pt x 337.26pt>
+[147] [148] [149
+
+] [150] [151
+
+] [152] [153
+
+] [154] [155
+
+]
+<ART/Enemies/spritebot.jpg, id=1399, 337.26pt x 337.26pt>
 File: ART/Enemies/spritebot.jpg Graphic file (type jpg)
 <use ART/Enemies/spritebot.jpg>
-Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 5463.
+Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 5781.
 (pdftex.def)             Requested size: 271.20276pt x 271.20811pt.
- [155 <./ART/Enemies/spritebot.jpg>]
-Overfull \hbox (0.9515pt too wide) in paragraph at lines 5500--5500
+ [156 <./ART/Enemies/spritebot.jpg>]
+Overfull \hbox (0.9515pt too wide) in paragraph at lines 5818--5818
  []\OT1/cmr/m/n/10.95 Intimidation| 
  []
 
-[156
+[157
 
-] [157] [158
+] [158] [159
 
-] [159] [160
+] [160] [161
 
-] [161] [162
+] [162] [163
 
-] [163] [164
+] [164] [165
 
-] [165] [166
+] [166] [167
 
-] [167]
-<ART/Enemies/triggerbloom.jpg, id=1467, 383.031pt x 423.2613pt>
+] [168]
+<ART/Enemies/triggerbloom.jpg, id=1476, 383.031pt x 423.2613pt>
 File: ART/Enemies/triggerbloom.jpg Graphic file (type jpg)
 <use ART/Enemies/triggerbloom.jpg>
-Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 5942.
+Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 6260.
 
 (pdftex.def)             Requested size: 361.60138pt x 399.60944pt.
 
-[168] [169 <./ART/Enemies/triggerbloom.jpg>] [170
+[169] [170 <./ART/Enemies/triggerbloom.jpg>] [171
 
-] [171] [172
+] [172] [173
 
-] [173] [174
-
-]
-[175] [176
+] [174] [175
 
 ]
-<ART/Enemies/weedling.jpg, id=1517, 264.99pt x 264.99pt>
+[176] [177
+
+]
+<ART/Enemies/weedling.jpg, id=1525, 264.99pt x 264.99pt>
 File: ART/Enemies/weedling.jpg Graphic file (type jpg)
 <use ART/Enemies/weedling.jpg>
-Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 6212.
+Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 6530.
 (pdftex.def)             Requested size: 226.0pt x 226.00272pt.
- [177 <./ART/Enemies/weedling.jpg>] [178
+ [178 <./ART/Enemies/weedling.jpg>] [179
 
-] [179] [180
+] [180] [181
 
-] [181] [182
+] [182] [183
 
 ]
-[183] [184] [185
+[184] [185] [186
 
-] [186]
-Overfull \hbox (3.24408pt too wide) in paragraph at lines 6570--6582
+] [187] [188
+
+
+]
+Overfull \hbox (3.24408pt too wide) in paragraph at lines 6888--6900
 [] 
  []
 
-[187
-
-
-] (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
+[189] (C:\Users\Tiia\Documents\GitHub\wasteland-ventures\BUILD\MUMA_TEX.aux)
 Package rerunfilecheck Info: File `MUMA_TEX.out' has not changed.
-(rerunfilecheck)             Checksum: D78E2A90B22E61C9CD2F3637AE2380DB;10902.
+(rerunfilecheck)             Checksum: 9EABC3895ECD0C5AFCE0BB042B302970;11020.
  ) 
 Here is how much of TeX's memory you used:
- 12575 strings out of 479334
- 183709 string characters out of 2857559
- 493952 words of memory out of 3000000
- 29265 multiletter control sequences out of 15000+200000
- 412865 words of font info for 60 fonts, out of 3000000 for 9000
+ 15678 strings out of 475389
+ 270062 string characters out of 2777473
+ 619663 words of memory out of 3000000
+ 36269 multiletter control sequences out of 15000+600000
+ 478694 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,17n,77p,734b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,17n,79p,752b,575s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Tiia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1
 095.pk> <C:\Users\Tiia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1095.pk><C:/Users/Tiia/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -1102,9 +1215,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Tiia/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MUMA_TEX.pdf (188 pages, 11418205 bytes).
+Output written on MUMA_TEX.pdf (190 pages, 11425786 bytes).
 PDF statistics:
- 1729 PDF objects out of 2073 (max. 8388607)
- 538 named destinations out of 1000 (max. 500000)
- 937 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1748 PDF objects out of 2073 (max. 8388607)
+ 540 named destinations out of 1000 (max. 500000)
+ 945 words of extra memory for PDF output out of 10000 (max. 10000000)
 
