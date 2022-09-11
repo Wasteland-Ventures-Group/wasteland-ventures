@@ -79,6 +79,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Spell: Toughened Frame now provides immunity to Crippling instead of lower chance of getting Crippled
 - Races:
 	- (WF) Changelings now have the ability to fly
+- Mutants:
+	- Alicorns: added Thaumaturgy skill
+	- Blue Alicorn: added Sleight skill
+	- Green Alicorn: Magic Shield DT reduced to 3
+	- Purple Alicorn: Replaced Diplomacy with Intimidation
+	- Balefire Phoenix: 
+		- Removed Rad Resistance special traits
+		- Added Rad Healing trait, similar to Ghouls
+	- Bloodwing:
+		- Replaced creature drop Fangs with Teeth
+		- Added creature drops Berries & Herbs
+	- Bloatsprite: 
+		- "Bloated" and "Poison Barb" hallucination effect changed to Dazed status effect for standardization
+	- Fillydelphia Bloatsprite:
+		- Added Bloatsprite Meat as creature drop
+	- Brahmin: 
+		- Made the statblock entries default for feral ones, including DT.
+		- Corrected "Abomination Flesh" creature drop to "Abomination Flesh Piece"
+		- Relabeled "Random Tool" drop to "Random Gear from Tools, Books & Magazines"
+	- Bugbear: "Large Fur Pelt" replaced with "Fur Pelt" x2
+	- Changeling: added Thaumaturgy skill
+	- Changeling Queen: added Thaumaturgy skill
 	
 *** Deprecated
 *** Removed

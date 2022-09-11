@@ -42,7 +42,7 @@
 		Token HP, Quick Slots \& Status rules bases by LZ
 		
 		\bigskip		
-		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
+		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis, Etymologically Correct Filly
 		
 		\bigskip
 		\textbf{Cover and Graphics:} SourCherry, Mir (Character Concept)
@@ -3610,7 +3610,7 @@
 	\textbf{Jumping directly Upwards} - If the character's STR is less than 5, she can jump 0,5 meters. If her STR is at or greater than 5 but less than 10, she can jump 1 meter. If her STR is at 10 or greater, she can jump 1,5 meters. This jump costs 3 AP.
 	
 	\subsubsection*{Withdraw}
-	Sometimes situation gets too hot to handle and a tactical retreat is the best option available. With a cost of 4 AP, a character can move 2 meters (1 hex) and withdraw from melee combat range without provoking \textbf{Attacks of Opportunity}. A character can Sprint with the remaining AP she has available.
+	Sometimes situation gets too hot to handle and a tactical retreat is the best option available. With a cost of 4 AP, a character can move 2 meters (1 hex) and withdraw from melee combat range without provoking \textbf{Attacks of Opportunity}. % A character can Sprint with the remaining AP she has available.
 	
 	\newpage
 	
@@ -4785,14 +4785,14 @@
 			row{1} = {gray!50}
 		}
 		\hline
-		\textbf{Category} & \textbf{Name} & \textbf{AP Cost} & \textbf{Notes} &  \\ \hline
+		\textbf{Category} & \textbf{Name} & \textbf{Cost} & \textbf{Notes} &  \\ \hline
 		\SetCell{gray!50} & Initiative & - & 1d10+PER; Equal Initiatives compare AGI, Equal AGIs compare LCK. Highest goes first \\ \hline
 		\SetCell{gray!50} Movement                & Ground Movement         & 1 AP per 2m / 1 hex                                                           &                 \\
 		\SetCell{gray!50}                         & Flying                  & 1 AP per 2m / 1 hex                                                           & Crippled wings prevent flying              \\
 		\SetCell{gray!50}                         & Swimming                & 2 AP per 2m / 1 hex                                                           & Cannot charge, cannot swim if 2 or more limbs Crippled  \\
 		\SetCell{gray!50}                         & Climbing                & 3 AP per 2m / 1 hex                                                           & Cannot charge, cannot climb if 2 or more limbs Crippled   \\
 		\SetCell{gray!50}                         & Difficult Terrain       & +1 AP to Movement                                                             & May require SPECIAL roll              \\
-		\SetCell{gray!50}                         & Sprinting               & All AP to Movement                                                            & Gain additional END/2 number of AP to Movement          \\
+		\SetCell{gray!50}                         & Sprinting               & 1 Strain                                                            & Gain additional END/2 number of AP to Movement          \\
 		\SetCell{gray!50}                         & Charging                & -                                                                             & +10 to melee/unarmed immediately after, deal DMG from dice at 4-6. Opponents gain +5 to hit \\
 		\SetCell{gray!50}                         & Crawling                & 2 AP per 2m / 1 hex                                                           & Cannot do while flying                            \\
 		\SetCell{gray!50}                         & Drop Prone              & -                                                                             & Considered Prone after                     \\
@@ -4802,18 +4802,18 @@
 		\SetCell{gray!50}                         & Jumping, Running Start  & 2 AP                                                                          & 4 meters/2 hex of movement required, can jump STR in meters (STR/2 hex)                     \\
 		\SetCell{gray!50}                         & Jumping, Up             & 3 AP                                                                          & STR $<$5, 0,5 meters    STR 5-9, 1 meter      STR 10+, 1,5 meters                           \\
 		\SetCell{gray!50}                         & Withdraw                & 4 AP                                                                          & Does not provoke AoO, may Sprint          \\ \hline
-		\SetCell{gray!50} Attack Actions          & Attack                  & Weapon-specific                                                               & 1d100 result under or equal to Combat Skill results in a hit    \\
+		\SetCell{gray!50} Attack Actions          & Attack                  & Weapon-specific AP Cost                                                              & 1d100 result under or equal to Combat Skill results in a hit    \\
 		\SetCell{gray!50}                         & Called Shot             & +2 AP                                                                         & Cripple body parts , -1 DT on target         \\
 		\SetCell{gray!50}                         & Aim                     & +2 AP                                                                         & +10 to combat skill for next attack             \\
-		\SetCell{gray!50}                         & Reload                  & Weapon-specific                                                               &                                                 \\
-		\SetCell{gray!50}                         & Casting a Spell         & Spell-specific                                                                &                                                 \\
+		\SetCell{gray!50}                         & Reload                  & Weapon-specific AP Cost                                                              &                                                 \\
+		\SetCell{gray!50}                         & Casting a Spell         & Spell-specific AP \& Strain Cost                                                                &                                                 \\
 		\SetCell{gray!50}                         & Sneak Attack            & +2 AP                                                                         & +15 to perform a Critical Hit          \\
 		\SetCell{gray!50}                         & Attack of Opportunity   & -                                                                             & Max 5 AP cost for melee or unarmed.       \\ \hline
 		\SetCell{gray!50} Combat Tricks           & Brace Weapon            & 1 AP                                                                          & Reduce STR Penalty by 2; Lower Burst penalty      \\
 		\SetCell{gray!50}                         & Grapple, Start          & 5 AP                                                                          & Opposed Unarmed / STR        \\
 		\SetCell{gray!50}                         & Grapple, Maintain       & 2 AP                                                                          & Opposed Unarmed / STR        \\
 		\SetCell{gray!50}                         & Grapple, Overpower      & 4 AP                                                                          & Opposed Unarmed / STR        \\
-		\SetCell{gray!50}                         & Grapple, Attack         & Weapon-specific                                                               & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction       \\
+		\SetCell{gray!50}                         & Grapple, Attack         & Weapon-specific AP Cost                                                              & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction       \\
 		\SetCell{gray!50}                         & Grapple, Pin            & 8 AP initiate, 4 AP maintain                                                  & Opposed Unarmed / STR (Attacker -30)                   \\
 		\SetCell{gray!50} Combat Tricks           & Grapple, Tie Up         & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends        \\
 		\SetCell{gray!50}                         & Grapple, Move           & 4 AP + Movement                                                               & Opposed Unarmed / STR; Movement 3 AP per 2 m / 1 hex      \\
@@ -4833,7 +4833,7 @@
 		\SetCell{gray!50}                         & Use Skill / SPECIAL     & Easy, no rush: 4 Easy, rushed: 2 	Hard, no rush: 10 
 		
 		Hard, rushed: 5 & If rushed, -15 to Skill or SPECIAL roll; double penalty for Hard                            \\
-		\SetCell{gray!50} Other Actions           & Maintain Spell          & Spell-specific                                                                &                               \\
+		\SetCell{gray!50} Other Actions           & Maintain Spell          & Spell-specific AP \& Strain Cost                                                                &                               \\
 		\SetCell{gray!50}                         & End Spell               & -                                                                             &                               \\
 		\SetCell{gray!50}                         & Talking                 & -                                                                             & If influencing others, check Use Skill           \\ \hline
 	\end{longtblr} 
