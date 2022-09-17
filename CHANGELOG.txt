@@ -101,6 +101,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Bugbear: "Large Fur Pelt" replaced with "Fur Pelt" x2
 	- Changeling: added Thaumaturgy skill
 	- Changeling Queen: added Thaumaturgy skill
+	- Feral Ghoul: added Potency
+	- Glowing One: added Potency
+	- Canterlot Ghoul: added Potency
 	
 *** Deprecated
 *** Removed
