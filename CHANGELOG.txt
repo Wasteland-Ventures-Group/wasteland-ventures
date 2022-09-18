@@ -64,13 +64,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Stable-Tec Exterminator "Daybreaker"
 	- Apparel: 
 		- Buckler
+		- Scabbard
 - Mutants:
 	- Canterlot Ghoul
 	- Possessed Shaman; Angry & Malicious Spirit
+	- Protochimera
 	
 *** Changed
 - Perks:
 	- Nuclear Medic now affects all rad-affecting chems instead of specific chems
+	- Cybernetic Surgeon: 
+		- Provides more bonuses related to cybernetic installation and rebooting
+		- Added second rank with bonuses
+- Items:
+	- Firearms:
+		- Whinnyster M-76 "Bear Stopper"
+			- Added Rifle Stock
+			- Increased Long Barrel range modifiers
+			- Renamed "Rifle Conversion" into "Ammo Conversion"
+	- Apparel:
+		- "Tribal Armor" renamed to "Makeshift Armor"
+	- Cybernetics:
+		- Bodyparts have mod slots for implants
 - Sneak:
 	- Rewrote to take into account group rolls
 	- Simplified modifiers
@@ -111,6 +126,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Al-Mi'raj: added Thaumaturgy
 	
 *** Deprecated
+
+
+
 *** Removed
 - Traits:
 	- Core: Dashite
