@@ -76,6 +76,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Cybernetic Surgeon: 
 		- Provides more bonuses related to cybernetic installation and rebooting
 		- Added second rank with bonuses
+	- Determination removes a chosen status effect by spending Strain
 - Items:
 	- Firearms:
 		- Whinnyster M-76 "Bear Stopper"
@@ -119,12 +120,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Enclave: 
 		- added Potency and Strain for maneuvers 
 		- added Thaumaturgy skill
+	- Equitron: replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"	
 	- Feral Ghoul: added Potency
 	- Glowing One: added Potency
 	- Canterlot Ghoul: added Potency
+	- Gecko: replaced non-existant drop "Gecko Hide" with "Hide"
+	- Hospital Horror: Removed non-existant drop "Tentacle"
 	- Jackalope: added Thaumaturgy skill
 	- Al-Mi'raj: added Thaumaturgy skill
 	- Mercenary: added Thaumaturgy skill
+	- Mister Hoofy: 
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
+		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
+	- Sir Gallant:
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech", rare variant
+		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
+		- replaced Scrap Metal with rare variant
+	- Moss Shambler:
+		- changed Poison Resistance to be static, no longer taking note what poison used
+		- added Combat Detail "Sickening"
+		- replaced non-existant drop "Fuzzy Mold" with "Scrap Chemicals"
+	- Black Fungus Shambler:
+		- Bite AP no longer increases with size category; DMG increased
+		- changed Poison Resistance to be static, no longer taking note what poison used
+		- added Combat Detail "Sickening"
+		- added drop "Pollen"
+		- added drop "Black Herb"
+		- replaced non-existant drop "Fuzzy Mold" with "Scrap Chemicals"
+	- Myling:
+		- Increased AGI to 8
+		- Lowered LCK to 3
+		- Stinger AP cost changed to 3; ignores 2 DT
+		- added drop "Myling Poison Gland"
+		- replaced drop "Junk" with "Scrap Leather"
+	- Myling Queen:
+		- added Combat Detail "Royal Guard"
+		- explained "Bile" attack rules
+		- added drop "Myling Poison Gland"
+		- replaced drop "Junk" with "Scrap Chemicals"
+	- Puckwudgie:
+		- Bite AP lowered to 3; DMG increased
+		- Combustion DMG increased
+		- replaced drop "Barbs" with "Thorn"
+		- added drop "Venom Sac" 
 	
 *** Deprecated
 
