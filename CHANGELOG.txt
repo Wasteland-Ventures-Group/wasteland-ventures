@@ -122,8 +122,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Feral Ghoul: added Potency
 	- Glowing One: added Potency
 	- Canterlot Ghoul: added Potency
-	- Jackalope: added Thaumaturgy
-	- Al-Mi'raj: added Thaumaturgy
+	- Jackalope: added Thaumaturgy skill
+	- Al-Mi'raj: added Thaumaturgy skill
+	- Mercenary: added Thaumaturgy skill
 	
 *** Deprecated
 
