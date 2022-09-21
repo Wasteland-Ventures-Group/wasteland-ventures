@@ -3842,7 +3842,7 @@
 		
 		--------------------------------------				
 		
-		\textbf{Digger (3 AP):} Hellhounds can dig underground and travel distances unharmed, and pop up from the ground like very deadly daisies. They can move 10 meters/5 hex underground by using all of their AP, and resurfacing costs 0 AP.
+		\textbf{Digger (3 AP):} Hellhounds can dig underground and travel distances unharmed, and pop up from the ground like very deadly daisies. While underground, their movement AP cost is doubled. Getting back above ground again costs 3 AP.
 		
 		--------------------------------------
 		
@@ -5676,41 +5676,72 @@
 	
 	\emph{\textbf{EXP:} 350}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Quarray Eel Statistics}                  \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
-			8 & 5 & 5 & 2 & 3 & 6 & 3 & \cellcolor{gray!50} & 18 & 3 & 12 & 3    & 0     \\ \hline
-		\end{tabu}
-		
-		%\emph{*see Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			Unarmed & Sneak                          \\
-			50      & 50                             \\ \hline
-		\end{tabu}
-		
-	}	
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Quarray Eel Statistics}                  \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
+%			8 & 5 & 5 & 2 & 3 & 6 & 3 & \cellcolor{gray!50} & 18 & 3 & 12 & 3    & 0     \\ \hline
+%		\end{tabu}
+%		
+%		%\emph{*see Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			Unarmed & Sneak                          \\
+%			50      & 50                             \\ \hline
+%		\end{tabu}
+%		
+%	}	
+
+	--------------------------------------
+
+\noindent
+\textbf{STR} 8, \textbf{PER} 5, \textbf{END} 5, \textbf{CHA} 2, \textbf{INT} 3, \textbf{AGI} 6, \textbf{LCK} 3
+
+\noindent
+\textbf{Sneak} 50, \textbf{Unarmed} 70 %\textbf{Explosives} 65, \textbf{Melee} 50, 
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 18, \textbf{DT} 3, \textbf{AP} 12, \textbf{Size} 3, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 18, \textbf{Strain} 25
+
+\noindent
+\textbf{Immunities}  Radiation %Taint \emph{none}   
+
+\noindent
+\textbf{Resistances} Poison 60\%, %Radiation 5\%, Fire +3 DT, +5 END vs Heat exposure % \emph{none} %
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------	
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
 		\textbf{Bite (8 AP):} Two rows of foal sized teeth crunch onto Quarray Eel's prey, dealing 5+(3) damage.
 		
-		\textbf{Swallow Whole:} Due to its size, the quarray eel can easily swallow a pony whole. If the quarray eel wins an opposed roll of STR against the target's AGI, the target is swallowed whole. After this, on Quarray Eel's turn, the target takes 2 HP damage as the eel is slowly munching away, ignoring DT. After 3 Rounds, on the Quarray Eel's turn, it spits out the eaten target, dealing 1 HP damage, ignoring DT.
+		\textbf{Swallow Whole:} Due to its size, the quarray eel can easily swallow a pony whole. If the quarray eel wins an opposed roll of STR against the target's AGI, the target is swallowed whole. After this, on Quarray Eel's turn, the target takes 2 HP damage as the eel is slowly munching away, ignoring DT. After 3 Rounds, on the Quarray Eel's turn, it spits out the eaten target, dealing 2 HP damage, ignoring DT. The target can attempt Break Free-action to get out. 
 		
-		\textbf{Fling (6 AP):} Quarray eels use their large heads to fling anything size 0 or smaller into the air and let them drop to the ground. This attack utilizes Falling Objects and Falling rules.
+		\textbf{Fling (6 AP):} Quarray eels use their large heads to fling anything size 0 or smaller into the air and let them drop to the ground. This attack utilizes Falling Objects and Falling rules. The target is flung upwards \textit{14 meters}, and a size 0 target takes 4+(4) damage.
 		
-		\textbf{Poison Resistant:} Quarray Eels feast on almost anything they can take a bite off of. This omnivorous devouring has developed them a poison resistance of 60.
+		--------------------------------------
 		
-		\textbf{Rad Resistant:} Due their remote habitats underground, Quarray Eels have avoided most of the harmful exposure of Radiation. However, Quarray Eels devour many mutated creatures venturing their land, and remain mostly unaffected thanks to their rad resistance of 30.
+		\textbf{Digger (3 AP):} Quarray Eel can dig underground and travel distances unharmed, and pop up from the ground like very deadly daisies. While underground, their movement AP cost is doubled. Getting back above ground costs 3 AP.
+		
+%		\textbf{Poison Resistant:} Quarray Eels feast on almost anything they can take a bite off of. This omnivorous devouring has developed them a poison resistance of 60.
+%		
+%		\textbf{Rad Resistant:} Due their remote habitats underground, Quarray Eels have avoided most of the harmful exposure of Radiation. However, Quarray Eels devour many mutated creatures venturing their land, and remain mostly unaffected thanks to their rad resistance of 30.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
