@@ -125,6 +125,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Glowing One: added Potency
 	- Canterlot Ghoul: added Potency
 	- Gecko: replaced non-existant drop "Gecko Hide" with "Hide"
+	- Hellhound:
+		- Combat Detail "Digger" no longer forces you to spend all AP; increased movement cost while underground
 	- Hospital Horror: Removed non-existant drop "Tentacle"
 	- Jackalope: added Thaumaturgy skill
 	- Al-Mi'raj: added Thaumaturgy skill
@@ -163,6 +165,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Combustion DMG increased
 		- replaced drop "Barbs" with "Thorn"
 		- added drop "Venom Sac" 
+	- Quarray Eel:
+		- increased Unarmed skill to 70
+		- replaced Radiation resistance with Radiation Immunity
+		- Increased damage of "Swallow Whole"
+		- clarified damage of "Fling"
+		- added Combat Detail "Digger"
 	
 *** Deprecated
 
@@ -178,6 +186,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *** Fixed
 	- Actions:
 		- Withdraw -action no longer refers to old Sprinting rules
+	- Clarified Trip roll modifiers between rules written and Quick Reference sheet
 
 ** 2.3.1
 *** Added
