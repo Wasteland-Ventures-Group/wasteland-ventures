@@ -6598,6 +6598,33 @@
 %		\end{tabu}
 %		
 %	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 5, \textbf{PER} 6, \textbf{END} 5, \textbf{CHA} 2, \textbf{INT} 2, \textbf{AGI} 8, \textbf{LCK} 5
+
+\noindent
+\textbf{Sneak} 50, \textbf{Unarmed} 60 %\textbf{Explosives} 65, \textbf{Melee} 50, 
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 14, \textbf{DT} 2, \textbf{AP} 14, \textbf{Size} 1, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 18, \textbf{Strain} 25
+
+\noindent
+\textbf{Immunities} \emph{none} %Taint    Radiation  
+
+\noindent
+\textbf{Resistances} Poison 75\%, Radiation 40\%,% Cold +2 DT, +2 END vs Cold exposure % % \emph{none} %
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
@@ -6605,15 +6632,17 @@
 		
 		\textbf{Trample (8 AP):} Radstags can charge at their foes, trampling them under their weight. Trample causes 3+(2) damage, as well as additional +(1) damage for each size category smaller than Radstag.
 		
-		\textbf{Twin-headed:} As Radstags have two heads, crippling one head has only half the effect. (-2 PER, -1 INT; -2 AP)
+		--------------------------------------
+			
+		\textbf{Quick Runner:} Due to their flexible bodies and sharp reflexes, Radstags gain +2 to initiative rolls.
+	
+		\textbf{Twin-headed:} As Radstags have two heads, crippling one head has only half the effect. (-2 PER, -1 INT; -2 max AP)
 		
 		\textbf{Woodlands Stride:} Radstags run with grace despite their disproportionate bodies, ignoring the +1 AP cost of Difficult Terrain.
 		
-		\textbf{Quick Runner:} Due to their flexible bodies and sharp reflexes, Radstags gain +2 to initiative rolls.
-		
-		\textbf{Poison Resistant:} Some of the deer's ancient healing magic is still functioning, as their bodies are well protected against poisons and toxins. Their poison resistance is 75.
-		
-		\textbf{Rad Resistant:} Though they've evolved to shed off some of the magical radiation, their bodies do still absorb it. Their Rad resistance is 40.
+%		\textbf{Poison Resistant:} Some of the deer's ancient healing magic is still functioning, as their bodies are well protected against poisons and toxins. Their poison resistance is 75.
+%		
+%		\textbf{Rad Resistant:} Though they've evolved to shed off some of the magical radiation, their bodies do still absorb it. Their Rad resistance is 40.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
@@ -6641,7 +6670,7 @@
 	\section*{Raider}
 	\addcontentsline{toc}{section}{Raider}
 	\begin{quote}
-		\emph{``You don't do deals with raiders... not without it biting you in the arse later. It's the best that any caravan-merchant stays away from their ilk, they're nothing but Trouble. They're not content just robbing you like some common thug, they prefer mutilating you beforehoof or 	worse... Now I'm not saying that they don't have a bad hand dealt to them, but that doesn't give them the right to murder, rape and pillage as they see fit. Sometimes in that order.''}
+		\emph{``You don't do deals with raiders... not without it biting you in the arse later. It's the best that any caravan-merchant stays away from their ilk, they're nothing but Trouble. They're not content just robbing you like some common thug, they prefer mutilating you beforehoof or worse... Now I'm not saying that they don't have a bad deal dealt to them, but that doesn't give them the right to murder, rape and pillage as they see fit. Sometimes in that order.''}
 		
 		\emph{-	Merchant Silver Bit}
 	\end{quote}
@@ -6650,33 +6679,66 @@
 	
 	\emph{\textbf{EXP:} 50}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Raider Statistics}                  \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
-			6 & 6 & 5 & 4 & 4 & 6 & 5 & \cellcolor{gray!50} & 13 & 0  & 12 & 0    & -25   \\ \hline
-		\end{tabu}
-		
-		%\emph{*see Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{5}{|c|}{\cellcolor{gray!50} Skills}  \\ \hline
-			Firearms & Melee & Unarmed & Sneak & Intimidation \\
-			40       & 40    & 40      & 30    & 50           \\ \hline
-		\end{tabu}
-		
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Raider Statistics}                  \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
+%			6 & 6 & 5 & 4 & 4 & 6 & 5 & \cellcolor{gray!50} & 13 & 0  & 12 & 0    & -25   \\ \hline
+%		\end{tabu}
+%		
+%		%\emph{*see Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{5}{|c|}{\cellcolor{gray!50} Skills}  \\ \hline
+%			Firearms & Melee & Unarmed & Sneak & Intimidation \\
+%			40       & 40    & 40      & 30    & 50           \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 6, \textbf{PER} 6, \textbf{END} 5, \textbf{CHA} 4, \textbf{INT} 4, \textbf{AGI} 6, \textbf{LCK} 5
+
+\noindent
+\textbf{Firearms} 40, \textbf{Intimidation} 50, \textbf{Melee} 40, \textbf{Sneak} 30, \textbf{Unarmed} 40
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 13, \textbf{DT} 0, \textbf{AP} 14, \textbf{Size} 0, \textbf{Karma} -25
+
+\noindent
+\textbf{Potency} 5, \textbf{Strain} 15
+
+\noindent
+\textbf{Immunities} \emph{none} %Taint    Radiation  
+
+\noindent
+\textbf{Resistances} Poison 10\%, Radiation 5\%,% Cold +2 DT, +2 END vs Cold exposure % % \emph{none} %
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
-		\textbf{Wasteland Weaponry:} Raiders can carry just about any weapon and armor imaginable, though preferring low-end weapons for their abundance. 
+		\textbf{Wasteland Weaponry:} Raiders can carry just about any weapon and armor imaginable, though preferring low-end weapons for their abundance.
+		
+--------------------------------------		 
+		
+		\textbf{Raider Magic:} As ponies, zebras and griffons, Raiders are capable of Magic. They tend to favor combat-focused magic, and forgo protective ones. Earth Ponies tend to use spells from Branch of Might, Pegasi and Griffons lean towards Agility Maneuvers and Unicorns prefer Conjuration and Illusion magic schools. Zebra Raiders prefer volatile Spirits such as Embers or Shadows. Raiders have 2-3 spells available to them.
+		
+--------------------------------------
 		
 		\textbf{Druggie:} Raiders have a penchant for combat Chems, such as Painkillers, Buck and Dash. However, many raiders become addicted junkies due to overuse, and providing them Chems may allow dealings with words alone.
 		
@@ -6684,9 +6746,9 @@
 		
 		\textbf{Unorganized:} Raiders often lack proper leadership, and are instead ruled by fear, and the show of force. However, as they have hardly any  respect for one another, death is a sign of weakness, and not something Raiders can be demoralized with by eliminating leaders.
 		
-		\textbf{Poison Resistant:} Raiders are, despite their fearsome reputation, still just ponies. Their poison resistance depends on their race.
-		
-		\textbf{Rad Resistant:} Raiders' Rad Resistance depends on their race.
+%		\textbf{Poison Resistant:} Raiders are, despite their fearsome reputation, still just ponies. Their poison resistance depends on their race.
+%		
+%		\textbf{Rad Resistant:} Raiders' Rad Resistance depends on their race.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
@@ -6713,7 +6775,7 @@
 	
 	Though is is easy to imagine that raiders value physical strength only, there have been instances where a particularly brutal and cunning unicorns has risen in the ranks all the way to overboss-status. It could be said that on some level, raiders approve all kind of power, be it brawn, magic or high intelligence, if it can be put to good use.
 	
-	In combat, raiders prefer to attack head-on, trying to overwhelm their opponents with numbers, and use combat drugs such as Dash and Stampede to their advantage. Their use of drugs have left them unpredictable, but they do still have a sense of self-preservation; when things start to turn bad for them, they will attempt to flee.
+	In combat, raiders prefer to attack head-on, trying to overwhelm their opponents with numbers, and use combat drugs such as Dash and Stampede to their advantage. Use of drugs has left them unpredictable, but they do still have a sense of self-preservation; when things start to turn bad for them, they will attempt to flee.
 	
 	\clearpage
 	
