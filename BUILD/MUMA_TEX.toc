@@ -68,31 +68,31 @@
 \contentsline {section}{Radstag}{132}{section*.230}%
 \contentsline {section}{Raider}{134}{section*.234}%
 \contentsline {section}{Robobrain}{137}{section*.238}%
-\contentsline {section}{Salamander}{139}{section*.242}%
-\contentsline {section}{Shade}{141}{section*.246}%
-\contentsline {section}{Slaver}{143}{section*.250}%
-\contentsline {section}{Snake, Two-headed}{145}{section*.254}%
-\contentsline {subsection}{Snake, Three-headed}{146}{section*.257}%
-\contentsline {section}{Spider}{148}{section*.261}%
-\contentsline {subsection}{Spider, Giant}{149}{section*.264}%
-\contentsline {section}{Spider-Bot}{151}{section*.268}%
-\contentsline {section}{Spore Carrier}{153}{section*.272}%
-\contentsline {section}{Spore Plant}{155}{section*.276}%
-\contentsline {section}{Sprite Bot}{157}{section*.280}%
-\contentsline {section}{Steel Ranger}{159}{section*.284}%
-\contentsline {section}{Star-Spawn}{161}{section*.288}%
-\contentsline {section}{Tankbug}{163}{section*.292}%
-\contentsline {section}{Thug}{165}{section*.296}%
-\contentsline {section}{Timberwolf}{167}{section*.300}%
-\contentsline {section}{Triggerbloom}{169}{section*.304}%
-\contentsline {subsection}{Pale Triggerbloom}{170}{section*.307}%
-\contentsline {section}{Turret}{173}{section*.311}%
-\contentsline {section}{Twittermite}{175}{section*.315}%
-\contentsline {section}{Ultra-Sentinel}{177}{section*.319}%
-\contentsline {section}{Weedling}{179}{section*.323}%
-\contentsline {section}{Windigo}{181}{section*.327}%
-\contentsline {section}{Wood-Rot Wasp}{183}{section*.331}%
-\contentsline {section}{Yao Guai}{185}{section*.335}%
-\contentsline {subsection}{Ghoulified Yao Guai}{186}{section*.338}%
-\contentsline {section}{Zebra}{188}{section*.342}%
-\contentsline {chapter}{Critters by Category}{191}{chapter*.346}%
+\contentsline {section}{Salamander}{140}{section*.242}%
+\contentsline {section}{Shade}{142}{section*.246}%
+\contentsline {section}{Slaver}{144}{section*.250}%
+\contentsline {section}{Snake, Two-headed}{147}{section*.254}%
+\contentsline {subsection}{Snake, Three-headed}{148}{section*.257}%
+\contentsline {section}{Spider}{150}{section*.261}%
+\contentsline {subsection}{Spider, Giant}{151}{section*.264}%
+\contentsline {section}{Spider-Bot}{153}{section*.268}%
+\contentsline {section}{Spore Carrier}{155}{section*.272}%
+\contentsline {section}{Spore Plant}{157}{section*.276}%
+\contentsline {section}{Sprite Bot}{159}{section*.280}%
+\contentsline {section}{Steel Ranger}{161}{section*.284}%
+\contentsline {section}{Star-Spawn}{163}{section*.288}%
+\contentsline {section}{Tankbug}{165}{section*.292}%
+\contentsline {section}{Thug}{167}{section*.296}%
+\contentsline {section}{Timberwolf}{169}{section*.300}%
+\contentsline {section}{Triggerbloom}{171}{section*.304}%
+\contentsline {subsection}{Pale Triggerbloom}{172}{section*.307}%
+\contentsline {section}{Turret}{175}{section*.311}%
+\contentsline {section}{Twittermite}{177}{section*.315}%
+\contentsline {section}{Ultra-Sentinel}{179}{section*.319}%
+\contentsline {section}{Weedling}{181}{section*.323}%
+\contentsline {section}{Windigo}{183}{section*.327}%
+\contentsline {section}{Wood-Rot Wasp}{185}{section*.331}%
+\contentsline {section}{Yao Guai}{187}{section*.335}%
+\contentsline {subsection}{Ghoulified Yao Guai}{188}{section*.338}%
+\contentsline {section}{Zebra}{190}{section*.342}%
+\contentsline {chapter}{Critters by Category}{193}{chapter*.346}%
