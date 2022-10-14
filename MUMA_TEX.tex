@@ -2214,7 +2214,9 @@
 		
 --------------------------------------
 		
-		\textbf{Combat Inhibitor:} Equitrons are equipped with a combat inhibitor, that help them separate friends from woes. Combat inhibitor can be hacked with Science to various ends, such as shutting down the Equitron. Destroying the combat inhibitor turns Equitron against anything around them. 
+		\textbf{Combat Inhibitor:} Equitrons are equipped with a combat inhibitor, that help them separate friends from woes. Combat inhibitor can be hacked with Science to various ends, such as shutting down the Equitron. Destroying the combat inhibitor turns Equitron against anything around them.
+		
+		\textbf{Painless:} As a machine, Spider-Bot has no Pain Thresholds. 
 		
 	\end{verse}
 	
@@ -7206,7 +7208,7 @@
 	\section*{Snake, Two-headed}
 	\addcontentsline{toc}{section}{Snake, Two-headed}
 	\begin{quote}
-		\emph{``This is your garden variety viper turned huge and multiheaded, kind of like a tiny Hydra, except it doesn't have a lizard-like body. What it does have is poisonous fangs and in some cases, habit of squeezing their targets lifeless. What is worse is that all the heads are poisonous, making them more formidable than any would prefer. At least they make fantastic boots.''}
+		\emph{``This is your garden variety viper turned huge and multi-headed, kind of like a tiny Hydra, except it doesn't have a lizard-like body. What it does have is poisonous fangs and in some cases, habit of squeezing their targets lifeless. What is worse is that all the heads are poisonous, making them more formidable than any would prefer. At least they make fantastic boots.''}
 		
 		\emph{-	Verdant Brink, Hunter}
 	\end{quote}
@@ -7215,29 +7217,57 @@
 	
 	\emph{\textbf{EXP:} 100}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Snake Statistics}                    \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP  & Size & Karma \\
-			6 & 6 & 5 & 5 & 3 & 6 & 7 & \cellcolor{gray!50} & 8  & 1 & 10* & 0    & 0     \\ \hline
-		\end{tabu}
-		
-		\emph{*See Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			Unarmed & Sneak                                  \\
-			60      & 70                                     \\ \hline
-		\end{tabu}
-		
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Snake Statistics}                    \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP  & Size & Karma \\
+%			6 & 6 & 5 & 5 & 3 & 6 & 7 & \cellcolor{gray!50} & 8  & 1 & 10* & 0    & 0     \\ \hline
+%		\end{tabu}
+%		
+%		\emph{*See Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			Unarmed & Sneak                                  \\
+%			60      & 70                                     \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 6, \textbf{PER} 6, \textbf{END} 5, \textbf{CHA} 5, \textbf{INT} 3, \textbf{AGI} 6, \textbf{LCK} 7
+
+\noindent
+\textbf{Sneak} 60, \textbf{Unarmed} 70 %\textbf{Barter} 70, \textbf{Diplomacy} 60, \textbf{Firearms} 60, \textbf{MEWs} 60, \textbf{Melee} 40, 
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 8, \textbf{DT} 1, \textbf{AP} 10$^{\dag}$, \textbf{Size} 0, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 10, \textbf{Strain} 20
+
+\noindent
+\textbf{Immunities} \emph{none} %Poison, Radiation, %Taint  Fire, 
+
+\noindent
+\textbf{Resistances} Poison 50\%, Radiation 20\% % \emph{none} %  ,% +2 END vs Cold exposure Cold +2 DT,  % 
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
+
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
@@ -7254,21 +7284,27 @@
 		\begin{compactitem}
 			\item Note: Snakes have either Venomous Spit or Constrict attack at their disposal
 		\end{compactitem}
-		
-		\textbf{*Multiple Heads:} Snakes can control their heads independently from each other, giving the creature more sources to attack with. the snake's AP is 10 + the number of heads it has. Snakes' heads suffer Crippled -status effect only if all heads are crippled.
-		
+	
+--------------------------------------
+
 		\textbf{Escape Artist:} When grappled, the snake begins to wriggle and writhe to break free, their scaly body and frantic movements easing the escape. Snakes gain a +2 to AGI and +10 to Unarmed when using Break Free -action, or when trying to Escape from the Grapple.
 		
-		\textbf{Poison Resistant:} Though often poisonous themselves, snakes can still fall victim to other poisons. Their poison resistance is 50\%
+--------------------------------------
 		
-		\textbf{Rad Resistant:} Despite being a mutated creature, snakes do not have a high tolerance to Rads. Their Rad resistance is 20.
+		\textbf{\dag Multiple Heads:} Snakes can control their heads independently from each other, giving the creature more sources to attack with. The snake's AP is 10 + the number of heads it has. Snakes' heads suffer Crippled -status effect only if all heads are crippled.
+		
+		
+%		\textbf{Poison Resistant:} Though often poisonous themselves, snakes can still fall victim to other poisons. Their poison resistance is 50\%
+%		
+%		\textbf{Rad Resistant:} Despite being a mutated creature, snakes do not have a high tolerance to Rads. Their Rad resistance is 20.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
 	\begin{compactitem}
 		\item Venom Sac (1 u.)
 		\item Hide (1 u.)
-		\item Teeth (6 u.)
+		\item Teeth (6 u., Survival doubles u.)
+		\item General Meat, raw (1 u. Survival doubles)
 	\end{compactitem}
 	
 	\subsection*{Snake, Three-headed}
@@ -7277,54 +7313,82 @@
 	
 	\emph{\textbf{EXP:} 150}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Snake Statistics}                    \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP  & Size & Karma \\
-			7 &	6 &	6 &	4 &	3 &	6 &	7 & \cellcolor{gray!50} & 8  & 1 & 10* & 1    & 0     \\ \hline
-		\end{tabu}
-		
-		\emph{*See Additional Combat Details}
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Snake Statistics}                    \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP  & Size & Karma \\
+%			7 &	6 &	6 &	4 &	3 &	6 &	7 & \cellcolor{gray!50} & 8  & 1 & 10* & 1    & 0     \\ \hline
+%		\end{tabu}
+%		
+%		\emph{*See Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			Unarmed & Sneak                                  \\
+%			65      & 75                                     \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 7, \textbf{PER} 6, \textbf{END} 6, \textbf{CHA} 4, \textbf{INT} 3, \textbf{AGI} 6, \textbf{LCK} 7
+
+\noindent
+\textbf{Sneak} 65, \textbf{Unarmed} 75 %\textbf{Barter} 70, \textbf{Diplomacy} 60, \textbf{Firearms} 60, \textbf{MEWs} 60, \textbf{Melee} 40, 
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 8, \textbf{DT} 1, \textbf{AP} 10$^{\dag}$, \textbf{Size} 0, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 10, \textbf{Strain} 20
+
+\noindent
+\textbf{Immunities} \emph{none} %Poison, Radiation, %Taint  Fire, 
+
+\noindent
+\textbf{Resistances} Poison 50\%, Radiation 20\% % \emph{none} %  ,% +2 END vs Cold exposure Cold +2 DT,  % 
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
+
 	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			Unarmed & Sneak                                  \\
-			65      & 75                                     \\ \hline
-		\end{tabu}
-		
-	}
+\subsubsection*{Additional Combat Details:}
+\begin{verse}
+	\textbf{Bite (3 AP):} The snake takes a bite out of their target, dealing 2+(2) damage.
 	
-	\subsubsection*{Additional Combat Details:}
-	\begin{verse}
-		\textbf{Bite (3 AP):} The snake takes a bite out of their target, dealing 2+(4) damage.
-		
-		\textbf{Venomous Spit (5 AP):} Much like certain species of cobras, the two-headed snake can spit out venom from its fangs. This attack deals 2+(4) damage, and if it pierces DT, can cause the following effects, with 2x50\% chance of poisoning: 
-		\begin{compactitem}	
-			\item On skin-contact, this venom causes a burning sensation and painful blisters, giving the target Burning Status effect. 
-			
-			\item If the venom gets to the eyes, the target suffers a penalty of -2 to PER when using eye-sight, as well as a -5 to Combat skills.
-			
-			\item Note: Snakes have either Venomous Spit or Constrict attack at their disposal
-		\end{compactitem}
-		\textbf{Constrict (5 AP):} Some snakes have evolved to wrap themselves around their target and squeezing the life out of them. After a successful Grapple, for each round that the snake has constricted around a target, it deals 2+(4) damage. Once the snake lets go of the target, the target is inflicted with the Stun- Status Effect.
-		\begin{compactitem}	
-			\item Note: Snakes have either Venomous Spit or Constrict attack at their disposal
-		\end{compactitem}
-		
-		\textbf{*Multiple Heads:} Snakes can control their heads independently from each other, giving the creature more sources to attack with. the snake's AP is 10 + the number of heads it has. Snakes' heads suffer Crippled -status effect only if all heads are crippled.
-		
-		\textbf{Escape Artist:} When grappled, the snake begins to wriggle and writhe to break free, their scaly body and frantic movements easing the escape. Snakes gain a +2 to AGI and +10 to Unarmed when using Break Free -action, or when trying to Escape from the Grapple.
-		
-		\textbf{Poison Resistant:} Though often poisonous themselves, snakes can still fall victim to other poisons. Their poison resistance is 50\%
-		
-		\textbf{Rad Resistant:} Despite being a mutated creature, snakes do not have a high tolerance to Rads. Their Rad resistance is 20.
+	\textbf{Venomous Spit (5 AP):} Much like certain species of cobras, the three-headed snake can spit out venom from its fangs. This attack deals 2+(3) damage, and if it pierces DT, can cause the following effects, with 2x50\% chance of poisoning: 
+	\begin{compactitem}
+		\item On skin-contact, this venom causes a burning sensation and painful blisters, giving the target Burning Status effect. 
+		\item If the venom gets to the eyes, the target suffers a penalty of -2 to PER when using eye-sight, as well as a -5 to Combat skills.
+		\item Note: Snakes have either Venomous Spit or Constrict attack at their disposal
+	\end{compactitem}
+	
+	\textbf{Constrict (5 AP):} Some snakes have evolved to wrap themselves around their target and squeezing the life out of them. After a successful Grapple, for each round that the snake has constricted around a target, it deals 2+(3) damage. Once the snake lets go of the target, the target is inflicted with the Stun -Status Effect.
+	\begin{compactitem}
+		\item Note: Snakes have either Venomous Spit or Constrict attack at their disposal
+	\end{compactitem}
+	
+	--------------------------------------
+	
+	\textbf{Escape Artist:} When grappled, the snake begins to wriggle and writhe to break free, their scaly body and frantic movements easing the escape. Snakes gain a +2 to AGI and +10 to Unarmed when using Break Free -action, or when trying to Escape from the Grapple.
+	
+	--------------------------------------
+	
+	\textbf{\dag Multiple Heads:} Snakes can control their heads independently from each other, giving the creature more sources to attack with. The snake's AP is 10 + the number of heads it has. Snakes' heads suffer Crippled -status effect only if all heads are crippled.
+
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
@@ -7332,6 +7396,7 @@
 		\item Venom Sac (2 u.)
 		\item Hide (2 u.)
 		\item Teeth (8 u.)
+		\item General Meat, raw (1 u. Survival doubles)
 	\end{compactitem}
 	
 	\subsection*{Description:}
@@ -7353,53 +7418,86 @@
 	
 	\emph{\textbf{EXP:} 50}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider Statistics}                   \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
-			4 & 8 & 5 & 4 & 3 & 7 & 5 & \cellcolor{gray!50} & 7  & 0  & 13 & -1   & 0     \\ \hline
-		\end{tabu}
-		
-		%\emph{*See Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 80mm{| X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			Unarmed & Sneak                                  \\
-			55      & 55                                     \\ \hline
-		\end{tabu}
-		
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider Statistics}                   \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
+%			4 & 8 & 5 & 4 & 3 & 7 & 5 & \cellcolor{gray!50} & 7  & 0  & 13 & -1   & 0     \\ \hline
+%		\end{tabu}
+%		
+%		%\emph{*See Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 80mm{| X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			Unarmed & Sneak                                  \\
+%			55      & 55                                     \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 4, \textbf{PER} 8, \textbf{END} 5, \textbf{CHA} 4, \textbf{INT} 3, \textbf{AGI} 7, \textbf{LCK} 5
+
+\noindent
+\textbf{Sneak} 55, \textbf{Unarmed} 55 %\textbf{Barter} 70, \textbf{Diplomacy} 60, \textbf{Firearms} 60, \textbf{MEWs} 60, \textbf{Melee} 40,
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 7, \textbf{DT} 0, \textbf{AP} 13, \textbf{Size} -1, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 10, \textbf{Strain} 20
+
+\noindent
+\textbf{Immunities} \emph{none} %Poison, Radiation, %Taint  Fire, 
+
+\noindent
+\textbf{Resistances} Poison 70\%, Radiation 30\% % \emph{none} %  ,% +2 END vs Cold exposure Cold +2 DT,  % 
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
-		\textbf{Web (5 AP):} The spider entangles its target in a flung webbing, slowing them down. The target suffers a +1 AP to Movement actions.
-		
+
 		\textbf{Bite (4 AP):} The spider's bite is dangerous as the wounds often begin to bleed. This attack deals 2+(2) damage, and can cause Bleeding- Status effect.
+		
+		\textbf{Web (5 AP):} The spider entangles its target in a flung webbing, slowing them down. The target suffers a +1 AP to Movement actions. The range is 4/8/12.
+		
+--------------------------------------
+		
+		\textbf{Balanced:} Due to having 8 legs, spiders have high balance. Spiders receive +20 to resist Trip, and they ignore up to 4 crippled legs' effects.
 		
 		\textbf{Wild Dance (5 AP, 1/min):} The spiders are often colored with bright warning colors in a myriad of patterns. They can make an interpretive dance to cause a Minor Distraction.
 		
-		\textbf{Balanced:} Due to having 8 legs, spiders have high balance. Spiders receive +20 to resist Trip, and they ignore up to 4 crippled legs before debilitations.
-		
-		\textbf{Quick Runner:} Spiders, despite their size, move at a terrifying speed, giving them +2 to their Initiative rolls.
+--------------------------------------
 		
 		\textbf{Long Legs:} Spiders are capable of crawling on many surfaces which other species struggle with, thus ignoring the +1 AP cost of Difficult Terrain.
 		
-		\textbf{Poison Resistant:} Spiders are often tolerant against a myriad of poisons, and with their mutation even insecticides have trouble taking them down permanently. Their poison resistance is 70.
+--------------------------------------
 		
-		\textbf{Rad Resistant:} The magical mutations have given spiders slight boost on their Rad resistance, but not by a substantial amount. Their Rad resistance is 30.
+		\textbf{Quick Runner:} Spiders, despite their size, move at a terrifying speed, giving them +2 to their Initiative rolls.
+		
+%		\textbf{Poison Resistant:} Spiders are often tolerant against a myriad of poisons, and with their mutation even insecticides have trouble taking them down permanently. Their poison resistance is 70.
+%		
+%		\textbf{Rad Resistant:} The magical mutations have given spiders slight boost on their Rad resistance, but not by a substantial amount. Their Rad resistance is 30.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
 	\begin{compactitem}
 		\item Spider Legs (8 u.)
-		\item Mandibles (2 u.)
 		\item Poison Gland (1 u.)
 	\end{compactitem}
 	
@@ -7410,55 +7508,88 @@
 	
 	\emph{\textbf{EXP:} 100}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider Statistics}                  \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
-			6 & 8 & 5 & 4 & 3 & 7 & 5 & \cellcolor{gray!50} & 11 & 3 & 13 & 1    & 0     \\ \hline
-		\end{tabu}
-		
-		%\emph{*See Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			Unarmed & Sneak                                  \\
-			70      & 45                                     \\ \hline
-		\end{tabu}
-		
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider Statistics}                  \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
+%			6 & 8 & 5 & 4 & 3 & 7 & 5 & \cellcolor{gray!50} & 11 & 3 & 13 & 1    & 0     \\ \hline
+%		\end{tabu}
+%		
+%		%\emph{*See Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 60mm{| X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{2}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			Unarmed & Sneak                                  \\
+%			70      & 45                                     \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 6, \textbf{PER} 8, \textbf{END} 5, \textbf{CHA} 4, \textbf{INT} 3, \textbf{AGI} 7, \textbf{LCK} 5
+
+\noindent
+\textbf{Sneak} 45, \textbf{Unarmed} 70 %\textbf{Barter} 70, \textbf{Diplomacy} 60, \textbf{Firearms} 60, \textbf{MEWs} 60, \textbf{Melee} 40,
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 11, \textbf{DT} 3, \textbf{AP} 13, \textbf{Size} 1, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 10, \textbf{Strain} 20
+
+\noindent
+\textbf{Immunities} \emph{none} %Poison, Radiation, %Taint  Fire, 
+
+\noindent
+\textbf{Resistances} Poison 70\%, Radiation 30\% % \emph{none} %  ,% +2 END vs Cold exposure Cold +2 DT,  % 
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
-		\textbf{Web (5 AP):} The spider entangles its target in a flung webbing, slowing them down. The target suffers a +1 AP to Movement actions.
 		
 		\textbf{Bite (4 AP):} The spider's bite is dangerous as the wounds often begin to bleed. This attack deals 4+(2) damage, and can cause Bleeding- Status effect.
 		
-		\textbf{Wild Dance (5 AP, 1/min):} The spiders are often colored with bright warning colors in a myriad of patterns. They can make an interpretive dance to cause a Medium Distraction.
+		\textbf{Web (5 AP):} The spider entangles its target in a flung webbing, slowing them down. The target suffers a +1 AP to Movement actions. The range is 6/12/18
 		
-		\textbf{Balanced:} Due to having 8 legs, spiders have high balance. Spiders receive +20 to resist Trip, and they ignore up to 4 crippled legs before debilitations.
+--------------------------------------
 		
-		\textbf{Quick Runner:} Spiders, despite their size, move at a terrifying speed, giving them +2 to their Initiative rolls.
-		
-		\textbf{Long Legs:} Spiders are capable of crawling on many surfaces which other species struggle with, thus ignoring the +1 AP cost of Difficult Terrain.
+		\textbf{Balanced:} Due to having 8 legs, spiders have high balance. Spiders receive +20 to resist Trip, and they ignore up to 4 crippled legs' effects.
 		
 		\textbf{Firm grip:} Giant spiders have their Grapple Actions cost -1 AP less, and their STR is considered +1 higher when Grappling.
 		
-		\textbf{Poison Resistant:} Spiders are often tolerant against a myriad of poisons, and with their mutation even insecticides have trouble taking them down permanently. Their poison resistance is 70.
+		\textbf{Wild Dance (5 AP, 1/min):} The spiders are often colored with bright warning colors in a myriad of patterns. They can make an interpretive dance to cause a Medium Distraction.
 		
-		\textbf{Rad Resistant:} The magical mutations have given spiders slight boost on their Rad resistance, but not by a substantial amount. Their Rad resistance is 30.
+--------------------------------------
+		
+		\textbf{Long Legs:} Spiders are capable of crawling on many surfaces which other species struggle with, thus ignoring the +1 AP cost of Difficult Terrain.
+
+--------------------------------------
+		
+		\textbf{Quick Runner:} Spiders, despite their size, move at a terrifying speed, giving them +2 to their Initiative rolls.
+		
+%		\textbf{Poison Resistant:} Spiders are often tolerant against a myriad of poisons, and with their mutation even insecticides have trouble taking them down permanently. Their poison resistance is 70.
+%		
+%		\textbf{Rad Resistant:} The magical mutations have given spiders slight boost on their Rad resistance, but not by a substantial amount. Their Rad resistance is 30.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
 	\begin{compactitem}
 		\item Spider Legs (8 u.)
-		\item Mandibles (2 u.)
 		\item Poison Gland (1 u.)
 	\end{compactitem}
 	
@@ -7485,29 +7616,56 @@
 	
 	\emph{\textbf{EXP:} 100}
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
-			\hline
-			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider-Bot Statistics}                  \\ \hline
-			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
-			5 & 6 & 7 & 4 & 4 & 5 & 3 & \cellcolor{gray!50} & 5  & 2 & 12 & -2   & 0     \\ \hline
-		\end{tabu}
-		
-		%\emph{*See Additional Combat Details}
-	}
-	
-	\bigskip
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 120mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
-			\hline
-			\multicolumn{4}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
-			MEW & Firearms & Unarmed & Sneak                 \\
-			35  & 45       & 40      & 50                    \\ \hline
-		\end{tabu}
-		
-	}
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 150mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] | X[c,1] |  X[c,3] | X[c,3]| X[c,3] | X[c,3] | X[c,3] |}
+%			\hline
+%			\multicolumn{13}{|c|}{\cellcolor{gray!50} Spider-Bot Statistics}                  \\ \hline
+%			S & P & E & C & I & A & L & \cellcolor{gray!50} & HP & DT & AP & Size & Karma \\
+%			5 & 6 & 7 & 4 & 4 & 5 & 3 & \cellcolor{gray!50} & 5  & 2 & 12 & -2   & 0     \\ \hline
+%		\end{tabu}
+%		
+%		%\emph{*See Additional Combat Details}
+%	}
+%	
+%	\bigskip
+%	{
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabu} to 120mm{| X[c,1] | X[c,1] | X[c,1] | X[c,1] |}
+%			\hline
+%			\multicolumn{4}{|c|}{\cellcolor{gray!50} Skills} \\ \hline
+%			MEW & Firearms & Unarmed & Sneak                 \\
+%			35  & 45       & 40      & 50                    \\ \hline
+%		\end{tabu}
+%		
+%	}
+
+--------------------------------------
+
+\noindent
+\textbf{STR} 5, \textbf{PER} 6, \textbf{END} 7, \textbf{CHA} 4, \textbf{INT} 4, \textbf{AGI} 5, \textbf{LCK} 3
+
+\noindent
+\textbf{Firearms} 45, \textbf{MEWs} 35, \textbf{Sneak} 50, \textbf{Unarmed} 40 %\textbf{Barter} 70, \textbf{Diplomacy} 60, , \textbf{Melee} 40,
+
+--------------------------------------
+
+\noindent
+\textbf{HP} 5, \textbf{DT} 2, \textbf{AP} 12, \textbf{Size} -2, \textbf{Karma} 0
+
+%\noindent
+%\textbf{Potency} 10, \textbf{Strain} 20
+
+\noindent
+\textbf{Immunities}  Poison, Radiation, Taint  %Fire, \emph{none}
+
+\noindent
+\textbf{Resistances} \emph{none} % Poison 70\%, Radiation 30\% %   ,% +2 END vs Cold exposure Cold +2 DT,  % 
+
+\noindent
+\textbf{Weaknesses} \emph{none}% %Cold (2x DMG), Fire (2x DMG) % 
+
+--------------------------------------
 	
 	\subsubsection*{Additional Combat Details:}
 	\begin{verse}
@@ -7517,25 +7675,33 @@
 		
 		\textbf{Laser Beam (4 AP):} Spider-bots are outfitted with a Magical Energy Pistol's mechanisms inside their robotic body and deals 1+(2) damage and ignores 1 DT.
 		
+--------------------------------------	
+
+		\textbf{Self-destruct:} Upon reaching 0 HP, Spider-bot explodes with a Small Splash template centered on itself. Deals 2+(2) damage.
+		
+--------------------------------------
+		
+		\textbf{Combat Inhibitor:} Spider-bots are equipped with a combat inhibitor, that help them separate friends from woes. Combat inhibitor can be hacked with Science to various ends, such as shutting down the robot. Destroying the combat inhibitor turns the Spider-bot against anything around them.
+		
 		\textbf{Painless:} As a machine, Spider-Bot has no Pain Thresholds.
 		
-		\textbf{Poison Immunity:} As a machine, Spider-Bot is immune to toxins.
-		
-		\textbf{Rad Immunity:} Due to not being alive, radiation has no effect on Spider-Bots.
+%		\textbf{Poison Immunity:} As a machine, Spider-Bot is immune to toxins.
+%		
+%		\textbf{Rad Immunity:} Due to not being alive, radiation has no effect on Spider-Bots.
 	\end{verse}
 	
 	\subsubsection*{Creature drops:}
 	\begin{compactitem}
-		\item Scrap Metal (1d4 u, Mechanics doubles u.)
-		\item Scrap Electronics (1d4 u, Science doubles u.)
-		\item Ammo - Gem Pack
+		\item Scrap Metal, common (1d4 u., Mechanics doubles u.)
+		\item Scrap ArcanoTech, common (1d4 u., Science doubles u.)
+		\item Ammo - Gem Pack, (1d4 u., Luck doubles u.)
 		\item Junk (1d4)
 	\end{compactitem}
 	
 	\subsection*{Description:}
 	Spider-Bots resemble normal spiders a lot - they have eight mechanical legs for stability, and various sensors on the center part to detect movement and life. Over the years, the number of legs may have dropped by one or two, though that won't hinder their movement.
 	
-	Spider-Bots were created as a cheap, mobile yet effective defense mechanism for various commercial uses. Mimicking their more insect cousins, Spider-Bots carry around an arsenal of sedatives to utilize on ``trespassers'', as well as shocking ability and ranged magical attack for the more troublesome ``hoodlums''. 
+	Spider-Bots were created as a cheap, mobile yet effective defense mechanism for various commercial uses. Mimicking their more lively cousins, Spider-Bots carry around an arsenal of sedatives to utilize on ``trespassers'', as well as shocking ability and ranged magical attack for the more troublesome ``hoodlums''. 
 	
 	Spider-Bots are programmed as purely defensive, and thus do not roam the wastes at all. Instead, they stay in and around the very building they were assigned to, protecting it from any danger, be it a mutated animal or scavenger.
 	
