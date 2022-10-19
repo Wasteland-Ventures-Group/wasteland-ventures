@@ -79,20 +79,20 @@
 \contentsline {section}{Spore Carrier}{155}{section*.272}%
 \contentsline {section}{Spore Plant}{157}{section*.276}%
 \contentsline {section}{Sprite Bot}{159}{section*.280}%
-\contentsline {section}{Steel Ranger}{161}{section*.284}%
-\contentsline {section}{Star-Spawn}{163}{section*.288}%
-\contentsline {section}{Tankbug}{165}{section*.292}%
-\contentsline {section}{Thug}{167}{section*.296}%
-\contentsline {section}{Timberwolf}{169}{section*.300}%
-\contentsline {section}{Triggerbloom}{171}{section*.304}%
-\contentsline {subsection}{Pale Triggerbloom}{172}{section*.307}%
-\contentsline {section}{Turret}{175}{section*.311}%
-\contentsline {section}{Twittermite}{177}{section*.315}%
-\contentsline {section}{Ultra-Sentinel}{179}{section*.319}%
-\contentsline {section}{Weedling}{181}{section*.323}%
-\contentsline {section}{Windigo}{183}{section*.327}%
-\contentsline {section}{Wood-Rot Wasp}{185}{section*.331}%
-\contentsline {section}{Yao Guai}{187}{section*.335}%
-\contentsline {subsection}{Ghoulified Yao Guai}{188}{section*.338}%
-\contentsline {section}{Zebra}{190}{section*.342}%
+\contentsline {section}{Steel Ranger}{162}{section*.284}%
+\contentsline {section}{Star-Spawn}{164}{section*.288}%
+\contentsline {section}{Tankbug}{166}{section*.292}%
+\contentsline {section}{Thug}{168}{section*.296}%
+\contentsline {section}{Timberwolf}{170}{section*.300}%
+\contentsline {section}{Triggerbloom}{172}{section*.304}%
+\contentsline {subsection}{Pale Triggerbloom}{173}{section*.307}%
+\contentsline {section}{Turret}{176}{section*.311}%
+\contentsline {section}{Twittermite}{178}{section*.315}%
+\contentsline {section}{Ultra-Sentinel}{180}{section*.319}%
+\contentsline {section}{Weedling}{182}{section*.323}%
+\contentsline {section}{Windigo}{184}{section*.327}%
+\contentsline {section}{Wood-Rot Wasp}{186}{section*.331}%
+\contentsline {section}{Yao Guai}{188}{section*.335}%
+\contentsline {subsection}{Ghoulified Yao Guai}{189}{section*.338}%
+\contentsline {section}{Zebra}{191}{section*.342}%
 \contentsline {chapter}{Critters by Category}{193}{chapter*.346}%

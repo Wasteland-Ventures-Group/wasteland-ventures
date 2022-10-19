@@ -138,6 +138,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech", rare variant
 		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
 		- replaced Scrap Metal with rare variant
+	-Mercenary:
+		- added Thaumaturgy
+		- Added Mercenary Magic
 	- Moss Shambler:
 		- changed Poison Resistance to be static, no longer taking note what poison used
 		- added Combat Detail "Sickening"
@@ -161,6 +164,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- added drop "Myling Poison Gland"
 		- replaced drop "Junk" with "Scrap Chemicals"
 	- Puckwudgie:
+		- Added Thaumaturgy
 		- Bite AP lowered to 3; DMG increased
 		- Combustion DMG increased
 		- replaced drop "Barbs" with "Thorn"
@@ -171,10 +175,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Increased damage of "Swallow Whole"
 		- clarified damage of "Fling"
 		- added Combat Detail "Digger"
+	-Raider:
+		-Added Thaumaturgy
+		-Added Raider Magic
+	-Slaver:
+		-Added Thaumaturgy
+		-Added Slaver Magic
 	-Spiderbot:
 		- added Combat Detail: "Self-Destruct"
 		- added Combat Detail: "Combat Inhibitor"
-		- Replaced Scrap Electronics into Scrap ArcanoTech
+		- Replaced Scrap Electronics with Scrap ArcanoTech
 		- Creature Drop Ammo - Gem Pack 1 changed into "1d4 u., Luck doubles u."
 	- Equitron:
 		- added Combat Detail: "Painless"
@@ -184,6 +194,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Added Combat Detail: "Painless"
 		- Creature drop "Spore Carrier Thorn" changed to "Spore Plant Sap"
 		- Creature Drop "Junk" changed to "Blue Herbs"
+	- Spore Plant:
+		- Added text into the Description
+	-Sprite Bot:
+		- Added Combat Detail: "Combat Inhibitor"
+	-Steel Ranger:
+		-Added Thaumaturgy
+		- Added Strain and Potency
+		- Added Steel Ranger Magic
+		- Replaced Junk with Ammo
+	-Star Spawn
+		-Destroyer has AP cost and more explanation how it works
+	-Thug
+		-Added skill Thaumaturgy 45
+		-Added Potency and Strain
+		-Added Combat detail "Thug Magic"
 	
 *** Deprecated
 
