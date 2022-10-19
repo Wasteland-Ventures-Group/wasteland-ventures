@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  14 OCT 2022 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  19 OCT 2022 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,10 +1115,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <ART/Enemies/spritebot.jpg, id=1416, 337.26pt x 337.26pt>
 File: ART/Enemies/spritebot.jpg Graphic file (type jpg)
 <use ART/Enemies/spritebot.jpg>
-Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 7923.
+Package pdftex.def Info: ART/Enemies/spritebot.jpg  used on input line 7959.
 (pdftex.def)             Requested size: 271.20276pt x 271.20811pt.
  [160 <./ART/Enemies/spritebot.jpg>]
-Overfull \hbox (0.9515pt too wide) in paragraph at lines 7960--7960
+Overfull \hbox (0.9515pt too wide) in paragraph at lines 7996--7996
  []\OT1/cmr/m/n/10.95 Intimidation| 
  []
 
@@ -1138,7 +1138,7 @@ Overfull \hbox (0.9515pt too wide) in paragraph at lines 7960--7960
 <ART/Enemies/triggerbloom.jpg, id=1492, 383.031pt x 423.2613pt>
 File: ART/Enemies/triggerbloom.jpg Graphic file (type jpg)
 <use ART/Enemies/triggerbloom.jpg>
-Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 8402.
+Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 8438.
 
 (pdftex.def)             Requested size: 361.60138pt x 399.60944pt.
 
@@ -1155,7 +1155,7 @@ Package pdftex.def Info: ART/Enemies/triggerbloom.jpg  used on input line 8402.
 <ART/Enemies/weedling.jpg, id=1542, 264.99pt x 264.99pt>
 File: ART/Enemies/weedling.jpg Graphic file (type jpg)
 <use ART/Enemies/weedling.jpg>
-Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 8672.
+Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 8708.
 (pdftex.def)             Requested size: 226.0pt x 226.00272pt.
  [182 <./ART/Enemies/weedling.jpg>] [183
 
@@ -1170,7 +1170,7 @@ Package pdftex.def Info: ART/Enemies/weedling.jpg  used on input line 8672.
 
 
 ]
-Overfull \hbox (3.24408pt too wide) in paragraph at lines 9030--9042
+Overfull \hbox (3.24408pt too wide) in paragraph at lines 9066--9078
 [] 
  []
 
@@ -1196,7 +1196,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tiia/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tiia/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on MUMA_TEX.pdf (194 pages, 11389975 bytes).
+Output written on MUMA_TEX.pdf (194 pages, 11389883 bytes).
 PDF statistics:
  1766 PDF objects out of 2073 (max. 8388607)
  544 named destinations out of 1000 (max. 500000)

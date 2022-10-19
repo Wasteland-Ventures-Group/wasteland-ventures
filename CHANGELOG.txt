@@ -171,6 +171,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Increased damage of "Swallow Whole"
 		- clarified damage of "Fling"
 		- added Combat Detail "Digger"
+	-Spiderbot:
+		- added Combat Detail: "Self-Destruct"
+		- added Combat Detail: "Combat Inhibitor"
+		- Replaced Scrap Electronics into Scrap ArcanoTech
+		- Creature Drop Ammo - Gem Pack 1 changed into "1d4 u., Luck doubles u."
+	- Equitron:
+		- added Combat Detail: "Painless"
+	-Spore Carrier:
+		- Size changed from -2 to 0
+		- Added Combat Detail: "Organized"
+		- Added Combat Detail: "Painless"
+		- Creature drop "Spore Carrier Thorn" changed to "Spore Plant Sap"
+		- Creature Drop "Junk" changed to "Blue Herbs"
 	
 *** Deprecated
 
