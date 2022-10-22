@@ -242,6 +242,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Creature Drop "Scrap Electronics" is now "Scrap ArcanoTech, Rare"
 		- Creature Drop "Gun Components" added
 		- Creature Drop "Magical Components" added
+	- Windigo
+		-Gave Windigo more HP
+	-Yao Guai
+		-Renamed Ghoulified Yao Guai into Ming Yao Guai
+	- Zebra
+		-Zebra renamed Zebra Tribal
+		-Added Combat detail "Organized"
+
 	
 *** Deprecated
 
