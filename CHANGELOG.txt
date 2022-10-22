@@ -120,7 +120,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Enclave: 
 		- added Potency and Strain for maneuvers 
 		- added Thaumaturgy skill
-	- Equitron: replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"	
+	- Equitron: replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
+		- Added Gun Component and Magical Component
 	- Feral Ghoul: added Potency
 	- Glowing One: added Potency
 	- Canterlot Ghoul: added Potency
@@ -128,12 +129,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Hellhound:
 		- Combat Detail "Digger" no longer forces you to spend all AP; increased movement cost while underground
 	- Hospital Horror: Removed non-existant drop "Tentacle"
+		- Added Martial Component
 	- Jackalope: added Thaumaturgy skill
 	- Al-Mi'raj: added Thaumaturgy skill
 	- Mercenary: added Thaumaturgy skill
 	- Mister Hoofy: 
 		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
 		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
+		- added martial component
 	- Sir Gallant:
 		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech", rare variant
 		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
@@ -178,6 +181,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	-Raider:
 		-Added Thaumaturgy
 		-Added Raider Magic
+	- Robobrain
+		- added Gun and Magical components
 	-Slaver:
 		-Added Thaumaturgy
 		-Added Slaver Magic
@@ -194,10 +199,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Added Combat Detail: "Painless"
 		- Creature drop "Spore Carrier Thorn" changed to "Spore Plant Sap"
 		- Creature Drop "Junk" changed to "Blue Herbs"
+	- Spider Bot:
+		-Added Magical Component
 	- Spore Plant:
 		- Added text into the Description
 	-Sprite Bot:
 		- Added Combat Detail: "Combat Inhibitor"
+		-Added magical component
 	-Steel Ranger:
 		-Added Thaumaturgy
 		- Added Strain and Potency
@@ -209,6 +217,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		-Added skill Thaumaturgy 45
 		-Added Potency and Strain
 		-Added Combat detail "Thug Magic"
+	- Timberwolf:
+		- Combat Detail "Magic Resistant" effect changed.
+		- Combat Detail "Unify" specified a bit further
+		- Added Black Herbs as a Creature Drop
+	-Triggerbloom
+		- Creature drops generalized into Thorn and Flower
+		- Added Creature drop "pollen"
+	-Pale Triggerbloom
+		- Creature drop generalized to Irradiated Material
+		- Added Creature drop "White herbs"
+	- Turret
+		- Combat Detail "Tracking system" specified further
+		- Combat detail "Turret Matrix" added
+		- Combat detail "Combat inhibitor" added
+		- Added Thaumaturgy, Potency and Strain
+		- Creature drop changed to ArcanoTech
+		- Added Creature drop "Scrap ArcanoTech, Rare)
+		- Creature Drop Ammo has a amount of 2d6
+		- added Gun component
+	- Ultra-Sentinel:
+		- Added Combat Detail "Gauss Shotgun"
+		- Added Combat Detail "Combat Inhibitor"
+		- Creature Drop "Scrap Electronics" is now "Scrap ArcanoTech, Rare"
+		- Creature Drop "Gun Components" added
+		- Creature Drop "Magical Components" added
 	
 *** Deprecated
 
