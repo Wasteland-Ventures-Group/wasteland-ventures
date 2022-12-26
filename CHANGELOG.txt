@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-**[UNRELEASED]
+** 2.4.0
 *** Added
 - Traits:
 	- Core: Pink in the Blood
@@ -120,15 +120,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Enclave: 
 		- added Potency and Strain for maneuvers 
 		- added Thaumaturgy skill
-	- Equitron: replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
+		- added Combat Detail "Enclave Magic"
+	- Equitron: 
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
 		- Added Gun Component and Magical Component
+		- added Combat Detail: "Painless"
 	- Feral Ghoul: added Potency
 	- Glowing One: added Potency
 	- Canterlot Ghoul: added Potency
 	- Gecko: replaced non-existant drop "Gecko Hide" with "Hide"
 	- Hellhound:
 		- Combat Detail "Digger" no longer forces you to spend all AP; increased movement cost while underground
-	- Hospital Horror: Removed non-existant drop "Tentacle"
+		- added Combat Detail "Burrower"
+	- Hospital Horror: 
+		- Removed non-existant drop "Tentacle"
 		- Added Martial Component
 	- Jackalope: added Thaumaturgy skill
 	- Al-Mi'raj: added Thaumaturgy skill
@@ -141,7 +146,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech", rare variant
 		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
 		- replaced Scrap Metal with rare variant
-	-Mercenary:
+	- Mercenary:
 		- added Thaumaturgy
 		- Added Mercenary Magic
 	- Moss Shambler:
@@ -178,42 +183,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Increased damage of "Swallow Whole"
 		- clarified damage of "Fling"
 		- added Combat Detail "Digger"
-	-Raider:
-		-Added Thaumaturgy
-		-Added Raider Magic
+	- Rad-Butterfly: Added creature drop "Wings"
+	- Raider:
+		- added Potency and Thaumaturgy for spellcasting
+		- added Combat Detail "Raider Magic"
 	- Robobrain
 		- added Gun and Magical components
-	-Slaver:
-		-Added Thaumaturgy
-		-Added Slaver Magic
-	-Spiderbot:
+		- added Sneak
+		- added Combat Detail "Subdued Sprint"
+	- Slaver:
+		- Added Thaumaturgy
+		- Added Slaver Magic
+	- Snake: Added creature drop "General Meat"
+	- Spider:
+		- Combat Detail "Web" now has range
+		- creature drop "Mandibles" removed; does not exist in loot
+	- Spiderbot:
 		- added Combat Detail: "Self-Destruct"
 		- added Combat Detail: "Combat Inhibitor"
 		- Replaced Scrap Electronics with Scrap ArcanoTech
+		- Added creature drop Magical Component
 		- Creature Drop Ammo - Gem Pack 1 changed into "1d4 u., Luck doubles u."
-	- Equitron:
-		- added Combat Detail: "Painless"
-	-Spore Carrier:
+	- Spore Carrier:
 		- Size changed from -2 to 0
 		- Added Combat Detail: "Organized"
 		- Added Combat Detail: "Painless"
 		- Creature drop "Spore Carrier Thorn" changed to "Spore Plant Sap"
 		- Creature Drop "Junk" changed to "Blue Herbs"
-	- Spider Bot:
-		-Added Magical Component
-	- Spore Plant:
-		- Added text into the Description
-	-Sprite Bot:
+	- Spore Plant: Added text into the Description
+	- Sprite Bot:
 		- Added Combat Detail: "Combat Inhibitor"
-		-Added magical component
-	-Steel Ranger:
-		-Added Thaumaturgy
+		- Added magical component
+	- Steel Ranger:
+		- Added Thaumaturgy
 		- Added Strain and Potency
 		- Added Steel Ranger Magic
 		- Replaced Junk with Ammo
-	-Star Spawn
-		-Destroyer has AP cost and more explanation how it works
-	-Thug
+	- Star Spawn: Destroyer has AP cost and more explanation how it works
+	- Thug:
 		-Added skill Thaumaturgy 45
 		-Added Potency and Strain
 		-Added Combat detail "Thug Magic"
@@ -221,13 +228,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Combat Detail "Magic Resistant" effect changed.
 		- Combat Detail "Unify" specified a bit further
 		- Added Black Herbs as a Creature Drop
-	-Triggerbloom
+	-Triggerbloom:
 		- Creature drops generalized into Thorn and Flower
 		- Added Creature drop "pollen"
-	-Pale Triggerbloom
+	-Pale Triggerbloom:
 		- Creature drop generalized to Irradiated Material
 		- Added Creature drop "White herbs"
-	- Turret
+	- Turret:
 		- Combat Detail "Tracking system" specified further
 		- Combat detail "Turret Matrix" added
 		- Combat detail "Combat inhibitor" added
@@ -242,18 +249,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 		- Creature Drop "Scrap Electronics" is now "Scrap ArcanoTech, Rare"
 		- Creature Drop "Gun Components" added
 		- Creature Drop "Magical Components" added
-	- Windigo
-		-Gave Windigo more HP
-	-Yao Guai
+	- Windigo: Increased HP
+	-Yao Guai:
 		-Renamed Ghoulified Yao Guai into Ming Yao Guai
-	- Zebra
+	- Zebra:
 		-Zebra renamed Zebra Tribal
 		-Added Combat detail "Organized"
-
 	
 *** Deprecated
-
-
 
 *** Removed
 - Traits:
