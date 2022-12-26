@@ -255,8 +255,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Zebra:
 		-Zebra renamed Zebra Tribal
 		-Added Combat detail "Organized"
-	
-*** Deprecated
 
 *** Removed
 - Traits:
