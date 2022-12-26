@@ -7,12 +7,266 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-**[UNRELEASED]
+** 2.4.0
 *** Added
+- Traits:
+	- Core: Pink in the Blood
+	- Core: Spirit Child
+	- Core: Spirit in the Flesh
+	- WF: In Loving Memory
+	- WF: Songbird
+	- WF: Trick Wings
+- P.A.S.T.
+	- Dashite
+	- Stable Dweller
+	- Steel Ranger
+	- Talon Mercenary
+-Perks:
+	- Base: Dirt Nap
+	- Base: Lucky Buck Bomber
+	- Base: Pyromaniac
+	- Base: Arsonist
+	- Base: Bitter Grape(shot)
+	- Base: Tremors!
+	- Base: Red Wire, Yellow Wire
+	- Base: Bully
+	- Base: Skyscraper Syndrome
+	- Base: Eyes in the Back
+	- Base: Back into the Fray
+	- Base: Disciple of Peace
+	- Base: Hooligan
+	- Base: Ironshod Heritage
+	- Base: Quick Draw
+	- Base: Cowpony Dancin'
+	- Base: Blackjack's Fury
+	- Magic: Mindrive
+	- Magic: Crisis Caster
+	- Flying: Wind Aid
+	- Flying: Weathermare
+	- Flying: The Night Witch	
+- Items:
+	- Firearms:
+		- Gretta M16
+		- Stable-Tec Explorer M2 "CMC"
+		- Gretta M8 "Raptor"
+		- IF-P01 "Applejack"
+		- H&K AR-20 "Hippogriff"
+		- Whinnyster M-86 "Trotter"
+		- H&K MP-28 "Tommy Cat"
+	- MEWs:
+		- Arcane Musket
+		- GAG Portable Metal Cutter
+	- Melee: 
+		- Slavedriver
+		- Shining Lance
+		- Soul Harvester
+	- Explosives:
+		- Stable-Tec Exterminator "Daybreaker"
+	- Apparel: 
+		- Buckler
+		- Scabbard
+- Mutants:
+	- Canterlot Ghoul
+	- Possessed Shaman; Angry & Malicious Spirit
+	- Protochimera
+	
 *** Changed
-*** Deprecated
+- Perks:
+	- Nuclear Medic now affects all rad-affecting chems instead of specific chems
+	- Cybernetic Surgeon: 
+		- Provides more bonuses related to cybernetic installation and rebooting
+		- Added second rank with bonuses
+	- Determination removes a chosen status effect by spending Strain
+- Items:
+	- Firearms:
+		- Whinnyster M-76 "Bear Stopper"
+			- Added Rifle Stock
+			- Increased Long Barrel range modifiers
+			- Renamed "Rifle Conversion" into "Ammo Conversion"
+	- Apparel:
+		- "Tribal Armor" renamed to "Makeshift Armor"
+	- Cybernetics:
+		- Bodyparts have mod slots for implants
+- Sneak:
+	- Rewrote to take into account group rolls
+	- Simplified modifiers
+- Magic:
+	- Spell: Magic Bulwark now lists status effects
+	- Spell: Toughened Frame now provides immunity to Crippling instead of lower chance of getting Crippled
+- Races:
+	- (WF) Changelings now have the ability to fly
+- Mutants:
+	- Alicorns: added Thaumaturgy skill
+	- Blue Alicorn: added Sleight skill
+	- Green Alicorn: Magic Shield DT reduced to 3
+	- Purple Alicorn: Replaced Diplomacy with Intimidation
+	- Balefire Phoenix: 
+		- Removed Rad Resistance special traits
+		- Added Rad Healing trait, similar to Ghouls
+	- Bloodwing:
+		- Replaced creature drop Fangs with Teeth
+		- Added creature drops Berries & Herbs
+	- Bloatsprite: 
+		- "Bloated" and "Poison Barb" hallucination effect changed to Dazed status effect for standardization
+	- Fillydelphia Bloatsprite:
+		- Added Bloatsprite Meat as creature drop
+	- Brahmin: 
+		- Made the statblock entries default for feral ones, including DT.
+		- Corrected "Abomination Flesh" creature drop to "Abomination Flesh Piece"
+		- Relabeled "Random Tool" drop to "Random Gear from Tools, Books & Magazines"
+	- Bugbear: "Large Fur Pelt" replaced with "Fur Pelt" x2
+	- Changeling: added Thaumaturgy skill
+	- Changeling Queen: added Thaumaturgy skill
+	- Enclave: 
+		- added Potency and Strain for maneuvers 
+		- added Thaumaturgy skill
+		- added Combat Detail "Enclave Magic"
+	- Equitron: 
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
+		- Added Gun Component and Magical Component
+		- added Combat Detail: "Painless"
+	- Feral Ghoul: added Potency
+	- Glowing One: added Potency
+	- Canterlot Ghoul: added Potency
+	- Gecko: replaced non-existant drop "Gecko Hide" with "Hide"
+	- Hellhound:
+		- Combat Detail "Digger" no longer forces you to spend all AP; increased movement cost while underground
+		- added Combat Detail "Burrower"
+	- Hospital Horror: 
+		- Removed non-existant drop "Tentacle"
+		- Added Martial Component
+	- Jackalope: added Thaumaturgy skill
+	- Al-Mi'raj: added Thaumaturgy skill
+	- Mercenary: added Thaumaturgy skill
+	- Mister Hoofy: 
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech"
+		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
+		- added martial component
+	- Sir Gallant:
+		- replaced non-existant drop "Scrap Electronics" with "Scrap ArcanoTech", rare variant
+		- replaced non-existant drop "Buzzsaw" with "Bonesaw"
+		- replaced Scrap Metal with rare variant
+	- Mercenary:
+		- added Thaumaturgy
+		- Added Mercenary Magic
+	- Moss Shambler:
+		- changed Poison Resistance to be static, no longer taking note what poison used
+		- added Combat Detail "Sickening"
+		- replaced non-existant drop "Fuzzy Mold" with "Scrap Chemicals"
+	- Black Fungus Shambler:
+		- Bite AP no longer increases with size category; DMG increased
+		- changed Poison Resistance to be static, no longer taking note what poison used
+		- added Combat Detail "Sickening"
+		- added drop "Pollen"
+		- added drop "Black Herb"
+		- replaced non-existant drop "Fuzzy Mold" with "Scrap Chemicals"
+	- Myling:
+		- Increased AGI to 8
+		- Lowered LCK to 3
+		- Stinger AP cost changed to 3; ignores 2 DT
+		- added drop "Myling Poison Gland"
+		- replaced drop "Junk" with "Scrap Leather"
+	- Myling Queen:
+		- added Combat Detail "Royal Guard"
+		- explained "Bile" attack rules
+		- added drop "Myling Poison Gland"
+		- replaced drop "Junk" with "Scrap Chemicals"
+	- Puckwudgie:
+		- Added Thaumaturgy
+		- Bite AP lowered to 3; DMG increased
+		- Combustion DMG increased
+		- replaced drop "Barbs" with "Thorn"
+		- added drop "Venom Sac" 
+	- Quarray Eel:
+		- increased Unarmed skill to 70
+		- replaced Radiation resistance with Radiation Immunity
+		- Increased damage of "Swallow Whole"
+		- clarified damage of "Fling"
+		- added Combat Detail "Digger"
+	- Rad-Butterfly: Added creature drop "Wings"
+	- Raider:
+		- added Potency and Thaumaturgy for spellcasting
+		- added Combat Detail "Raider Magic"
+	- Robobrain
+		- added Gun and Magical components
+		- added Sneak
+		- added Combat Detail "Subdued Sprint"
+	- Slaver:
+		- Added Thaumaturgy
+		- Added Slaver Magic
+	- Snake: Added creature drop "General Meat"
+	- Spider:
+		- Combat Detail "Web" now has range
+		- creature drop "Mandibles" removed; does not exist in loot
+	- Spiderbot:
+		- added Combat Detail: "Self-Destruct"
+		- added Combat Detail: "Combat Inhibitor"
+		- Replaced Scrap Electronics with Scrap ArcanoTech
+		- Added creature drop Magical Component
+		- Creature Drop Ammo - Gem Pack 1 changed into "1d4 u., Luck doubles u."
+	- Spore Carrier:
+		- Size changed from -2 to 0
+		- Added Combat Detail: "Organized"
+		- Added Combat Detail: "Painless"
+		- Creature drop "Spore Carrier Thorn" changed to "Spore Plant Sap"
+		- Creature Drop "Junk" changed to "Blue Herbs"
+	- Spore Plant: Added text into the Description
+	- Sprite Bot:
+		- Added Combat Detail: "Combat Inhibitor"
+		- Added magical component
+	- Steel Ranger:
+		- Added Thaumaturgy
+		- Added Strain and Potency
+		- Added Steel Ranger Magic
+		- Replaced Junk with Ammo
+	- Star Spawn: Destroyer has AP cost and more explanation how it works
+	- Thug:
+		-Added skill Thaumaturgy 45
+		-Added Potency and Strain
+		-Added Combat detail "Thug Magic"
+	- Timberwolf:
+		- Combat Detail "Magic Resistant" effect changed.
+		- Combat Detail "Unify" specified a bit further
+		- Added Black Herbs as a Creature Drop
+	-Triggerbloom:
+		- Creature drops generalized into Thorn and Flower
+		- Added Creature drop "pollen"
+	-Pale Triggerbloom:
+		- Creature drop generalized to Irradiated Material
+		- Added Creature drop "White herbs"
+	- Turret:
+		- Combat Detail "Tracking system" specified further
+		- Combat detail "Turret Matrix" added
+		- Combat detail "Combat inhibitor" added
+		- Added Thaumaturgy, Potency and Strain
+		- Creature drop changed to ArcanoTech
+		- Added Creature drop "Scrap ArcanoTech, Rare)
+		- Creature Drop Ammo has a amount of 2d6
+		- added Gun component
+	- Ultra-Sentinel:
+		- Added Combat Detail "Gauss Shotgun"
+		- Added Combat Detail "Combat Inhibitor"
+		- Creature Drop "Scrap Electronics" is now "Scrap ArcanoTech, Rare"
+		- Creature Drop "Gun Components" added
+		- Creature Drop "Magical Components" added
+	- Windigo: Increased HP
+	-Yao Guai:
+		-Renamed Ghoulified Yao Guai into Ming Yao Guai
+	- Zebra:
+		-Zebra renamed Zebra Tribal
+		-Added Combat detail "Organized"
+
 *** Removed
+- Traits:
+	- Core: Dashite
+	- Core: Stable Dweller
+	- Core: Steel Ranger Outcast
+	- Core: Talon Mercenary
+	
 *** Fixed
+	- Actions:
+		- Withdraw -action no longer refers to old Sprinting rules
+	- Clarified Trip roll modifiers between rules written and Quick Reference sheet
 
 ** 2.3.1
 *** Added

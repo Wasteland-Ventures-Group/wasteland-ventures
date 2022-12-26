@@ -11,7 +11,7 @@
 \usepackage{multirow}
 \usepackage{paralist}
 \usepackage{longtable}
-\usepackage{tabu}
+\usepackage{tabularray}
 \usepackage{soul}
 \usepackage{titling}
 \usepackage{pdfpages}
@@ -42,7 +42,7 @@
 		Token HP, Quick Slots \& Status rules bases by LZ
 		
 		\bigskip		
-		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
+		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis, Etymologically Correct Filly
 		
 		\bigskip
 		\textbf{Cover and Graphics:} SourCherry, Mir (Character Concept)
@@ -61,7 +61,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 2.3.1}
+		\textbf{Version 2.4.0}
 		
 		\emph{Last compiled on \thedate}
         
@@ -609,18 +609,26 @@
 	Various perks and traits modify how many APs a character has and/or spends with specific actions. Be sure to keep note on the modifiers if you choose one.
 	
 	If you have AP remaining after having used all actions you wanted to use, the remaining AP doesn't carry over to the next turn. In other words, AP refreshes each turn.
+
+	\bigskip
 	
-	\begin{table}[b]
-		\centering
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 0.8\columnwidth {| X[l] |}
+	\begin{tblr}[
+				caption={AP Design Note},
+				entry=none,
+				label=none
+			]
+			{				
+				colspec = {|X|},
+				width = 0.8\linewidth,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
 		\hline
 		\emph{\textbf{Design Note: AP explained}}\\
 		\hline 
 		\emph{Action points limit the number of actions characters can do within a turn and normally every action costs AP to prevent characters from acting indefinitely. As different actions are faster and simpler to do, AP prevents need of limiting characters to set amount of actions per turn.}\\ 
-		\hline 
-		\end{tabu}	
-	\end{table} 
+		\hline 			
+	\end{tblr}	
 	
 	\subsection*{Strain}
 	\textbf{Strain} tells how long one can keep dishing out those special tricks, maneuvers, or spells a character possesses until burnout strikes. Essentially, this is your fatigue. All characters have a default Strain pool of 20, which increases by 5 every 5 levels. Characters regain all their Strain after 8 hours of rest.
@@ -730,7 +738,7 @@
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|l|c|}
 			\hline
-			Resistance   &      Value      \\ \hline
+			\textbf{Resistance}   &      \textbf{Value}      \\ \hline
 			Poison       &      10\%       \\
 			Radiaton     &       5\%       \\
 			Cold         & END / AGI check \\
@@ -909,6 +917,8 @@
 	
 	Thaumaturgy determines how well the character can do her race's inherent magical capabilities and their general knowledge of the subject. As each pony's magic and how they handle it is unique, there's no specific SPECIAL value linked to Thaumaturgy. During character creation, one SPECIAL value, Luck excluded, is attached to Thaumaturgy to calculate the starting value.
 	
+	\vfill	
+	
 	\subsection*{Unarmed}
 	\textbf{Starting value:} $(2 \times END)+(LCK/2)$
 	
@@ -954,6 +964,19 @@
 	
 	\textbf{Quirk - Deep Pockets:} Once per session, you can utilize Use Item -action without AP cost.
 	
+	\subsection*{Dashite}
+	\textbf{Associated skills:} MEWs, Thaumaturgy, Intimidation, Sneak
+	
+	\medskip
+	
+	You have descended from the clouds, driven into exile by the mysterious Grand Pegasus Enclave. Thankfully they were nice enough to allow you to keep your gun.	
+	
+	\textbf{This P.A.S.T. is subject to GM approval.}
+	
+	\textbf{Quirk - Enclave Weaponry:} You start the game with an Enclave cloud weapon of your choice.
+	
+	\vfill
+	
 	\subsection*{Deal Breaker}
 	\textbf{Associated skills:} Barter, Intimidation, Lockpick, Unarmed
 	
@@ -988,7 +1011,7 @@
 	
 	\textbf{Quirk - Bounce-Off:} Once per session in a Grapple, gain +1 STR  when performing Grapple actions.
 	
-	\vfill
+%	\vfill
 	
 	\subsection*{Gunslinger}
 	\textbf{Associated skills:} Firearms, Intimidation, Mechanics, Sneak
@@ -1008,6 +1031,8 @@
 	
 	\textbf{Quirk - Harvester:} Once per session, you gain optimal yield of any non-sentient creature parts off corpses.
 	
+	\vfill
+	
 	\subsection*{Mage}
 	\textbf{Associated skills:} MEWs, Melee, Science, Thaumaturgy
 	
@@ -1017,7 +1042,7 @@
 	
 	\textbf{Quirk - Magical Outburst:} Once per session, cast a spell with halved Strain cost (rounded down, min. 1)
 	
-	\vfill
+	%\vfill
 	
 	\subsection*{Mechanic}
 	\textbf{Associated skills:} Lockpick, Mechanics, Melee, Science
@@ -1037,6 +1062,8 @@
 	
 	\textbf{Quirk - Tidbit Knowledge:} Once per session, add +10 to your ally's INT roll.
 	
+	\vfill
+	
 	\subsection*{Nurse}
 	\textbf{Associated skills:} Diplomacy, Medicine, Melee, Sneak
 	
@@ -1046,7 +1073,7 @@
 	
 	\textbf{Quirk - Love and Bed-rest:} Once per session, heal 1d4 HP for one character without a check.
 	
-	\vfill
+	%\vfill
 	
 	\begin{figure}[!t]
 		\centering
@@ -1096,7 +1123,7 @@
 	
 	\textbf{Quirk - Double Check:} Once per session, search an already looted area again with -1 LCK.
 	
-	\vfill
+%	\vfill
 	
 	\subsection*{Scholar}
 	\textbf{Associated skills:} MEWs, Science, Survival, Thaumaturgy
@@ -1117,6 +1144,8 @@
 	The ways of the Seer was a trial and error, and the spirits fickle. Yet, you chose this path for yourself, the power of the otherworldly beings something you yearned for, and worked to achieve.
 	
 	\textbf{Quirk - Spirit Guidance:} Once per session, Bind Resistance of a spirit is halved when pacifying it.
+	
+	\vfill
 	
 	\subsection*{Sheriff}
 	\textbf{Associated skills:} Diplomacy, Firearms, Intimidation, Unarmed
@@ -1165,6 +1194,17 @@
 	
 	\textbf{Quirk - War Face:} Once per session, intimidate a target without a roll when you have your weapon visible.
 	
+	\subsection*{Stable Dweller}
+	\textbf{Associated skills:} Science, Melee, Medicine, Lockpick
+	
+	\medskip
+	
+	You have left the safety of your underground shelter - either voluntarily or not - and now must brave the Wasteland and its horrors with the help of some durable Stable-Tec equipment.	
+	
+	\textbf{This P.A.S.T. is subject to GM approval.}
+	
+	\textbf{Quirk - Stable Tech:} You start the game with \emph{Pip-Buck training} -perk for free.
+	
 	\subsection*{Stagepony}
 	\textbf{Associated skills:} Barter, Explosives, Sleight, Sneak
 	
@@ -1176,6 +1216,17 @@
 	
 	%\vfill
 	
+	\subsection*{Steel Ranger}
+	\textbf{Associated skills:} Firearms, Mechanics, Intimidation, Explosive
+	
+	\medskip
+	
+	Having been part of the well-armed faction of Steel Rangers, you have gotten used to wearing heavier armors.	
+	
+	\textbf{This P.A.S.T. is subject to GM approval.}
+	
+	\textbf{Quirk - Ranger Schooling:} You start the game with \emph{Tank Horse} -perk for free.
+	
 	\subsection*{Stuntpony}
 	\textbf{Associated skills:} Explosives, Medicine, Melee, Sleight
 	
@@ -1185,7 +1236,18 @@
 	
 	\textbf{Quirk - Athletic Instruction:} Once per session, add +10 to an ally's AGI roll.
 	
-	\vfill
+%	\vfill
+	
+	\subsection*{Talon Mercenary}
+	\textbf{Associated skills:} Barter, Survival, Unarmed, Sleight
+	
+	\medskip
+	
+	Contracts and caps - they are your forte for having been part of one of the notorious griffin mercenary groups in the Wasteland, the Talons. As such, you have picked some tricks from the best.
+	
+	\textbf{This P.A.S.T. is subject to GM approval.}
+	
+	\textbf{Quirk - Talon Guarantee:} You start the game with \emph{Bounty Hunter} -perk for free.
 	
 	\subsection*{Tech-Raider}
 	\textbf{Associated skills:} Barter, MEWs, Mechanics, Science
@@ -1281,16 +1343,8 @@
 	
 	\subsection*{Chem Resistant}
 	
-	The character?s body has developed methods against the harmful drugs Wasteland has to offer, effectively purging the system of them. You ignore negative penalties from any item labeled Drug, but their duration is halved and Drug-labeled items with a duration Instant are ineffective.
-	
-	\subsection*{Dashite}
-	
-	\emph{\textbf{Pegasus-only trait}.} 
-	
-	Character was once a member of the Grand Pegasus Enclave, but have since been given the boot and driven to exile. Thankfully, they were nice enough to allow her to keep the gun...
-	
-	The character starts out with an Enclave weapon of their choice for free but is branded as a traitor amongst her peers and no longer has a cutie mark, rendering Special Talent bonuses moot. In addition, the character only has 300 caps to their name, as opposed to the 500 caps others start with.  \textbf{This trait is subject to GM approval. }
-	
+	The character's body has developed methods against the harmful drugs Wasteland has to offer, effectively purging the system of them. You ignore negative penalties from any item labeled Drug, but their duration is halved and Drug-labeled items with a duration Instant are ineffective.	
+
 	\subsection*{Deep Sleeper}
 	
 	The character sleeps more soundly than most, making the most of her beauty sleep. The character regains double their Natural Healing Rate when resting for 8 hours. In addition, their Strain pool is increased by 5 permanently. 
@@ -1408,6 +1462,14 @@
 	
 	You think everything and everyone is out to get you. Because of this, you rarely put your guard down, expecting the worst to occur. However, this has made you quick on your feet; You have an additional +1 to PER and AGI, but your crazed ramblings of shadow mares that are out to get you impact your social standing. In exchange, your CHA is penalized by 1 and NPC disposition towards you is lowered by 1.
 	
+	\subsection*{Pink in the Blood}
+	\emph{\textbf{Earth Pony-only trait.}}
+	
+	You are just a little bit more magical than your kin, much like the Ministry Mare Pinkie Pie. How, you ask? Who knows! Don?t look now, but I think she?s staring at you.
+	
+	You have access to \textbf{Enchantment and Conjuration Unicorn magic schools} in addition to your Earth Pony Magic. As a downside, your mind is a little bit more frail than that of your kin; -1 END to resist mind-altering status effects (Dazed, Enraged and Mind-Controlled and you have a 35 \% chance of accumulating Insanity instead of 25 \%.
+	
+	
 	\subsection*{Random}
 	
 	\emph{\textbf{Earth Pony/Zebra-only trait.}}
@@ -1458,6 +1520,83 @@
 	
 	The GM determines what is considered a small or large community.
 	
+		\begin{table*}[!htbp]
+		\begin{talltblr}[
+			caption={Spirit Specific Effects of Spirit Child -trait},
+			entry=none
+			]
+			{				
+				colspec = {|l|X[l,3]|X[l,1]|X[l,1]|X[l,1]|},
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
+			\hline
+			\textbf{Spirit} & \textbf{Buff}                                                                       & \textbf{Immunity} & \textbf{Skill} & \textbf{Penalty}       &  \\ \hline
+			Embers		& Non-Magic attacks are considered to deal Fire damage								  & Burning			  & +10 Intimidation     & -1 END vs Freezing \\
+			Machines    & When within a Small Splash Radius of you, allies have a +5 Crit chance for 3 rounds & Stunned           & +10 Mechanics        & -5\% Poison Resistance &  \\
+			Nature		& When within a Small Splash Radius of you, allies recover +1 HP per turn for 3 rounds & Poisons (except Taint \& Pink Cloud) & +10 Survival & -1 END vs Stunned \\
+			Serenity	& Non-Magic attacks are considered to deal Electricity damage						  & Dazed			  & +10 Medicine		& -1 END vs Bleeding \\
+			Shadows		& You are surrounded by a Small Splash area of darkness, giving enemies -15 to hit you for 3 rounds of combat. & Bleeding 		& +10 Sneak & -1 END vs Dazed \\
+			Streams 	& Non-Magic attacks are considered to deal Cold damage									& Freezing 		& +10 Science			& -1 END vs Burning \\
+			Trust		& When within a Small Splash Radius of you, allies have +1 DT for 3 rounds				& Mind-Controlled & +10 Diplomacy 		& -1 END vs Blinded \\
+			Whispers	& Non-Magic attacks can cause Enraged-status effect										& Blinded		& +10 Sleight			& -1 END vs Mind-Controlled \\
+			Chaos		& When within a Small Splash Radius of you, enemies suffer a +5 to their Crit Failure chance. & Enraged & +10 Barter 			& -1 END vs Petrified \\
+			\hline
+		\end{talltblr}		
+	\end{table*}
+	
+	\subsection*{Spirit Child}
+	\emph{\textbf{Zebra-only trait.}}
+	
+	You're something of an anomaly, even among your fellow Zebra. You are kin to a spirit, and you have an unusual and strange air about you because of it. Ancient ritual of marrying a mortal mare or stallion to a spirit has resulted well... in you. 
+	
+	You gain access to a special form that you can slip into at will, gaining bonuses and penalties while under its effect. You can maintain the form for CHA number of rounds safely. Each turn afterwards requires an Insanity roll as the form begins to shake your mental fortitude. 
+	
+	When in this form, you resemble the spirit you originate from, with otherworldly qualities such as being wrought in flame, having your skin ripple like waves and so on. The effect itself can be determined by the player in question, but even the most benign transformation is upsetting and alarming to creatures around the character.
+	
+	You can choose any of the Spirits listed in Table 2.4. You gain spells of your chosen Spirit as you level-up, and different bonuses and penalties when slipping into the special form as detailed on the table. The list of spells can be found under Chapter 8: Magic \& Spells - Zebra Magic - Shamanism.
+	
+	
+	\textbf{Universal Form effects:}
+	
+	\textit{Bonuses:}
+	\begin{compactitem}
+		\item Gain access to spirit's Spells depending on your level; Start with 2 Spells from their list, gain 2 every 4th lvl*
+		\item +1 DT against non-magical dmg
+	\end{compactitem}
+	\textit{*Spirit of Chaos rolls 1d8 to select a Spirit where their spells come from, then rolls another 1d8 to determine the spell they get. Duplicate spells are rerolled.}
+	
+	\textit{Penalties:}
+	\begin{compactitem}
+		\item Distraction from transformation affects all in Large Splash area
+		\item AP cost for non-magic attacks is increased by 2
+		\item -1 DT against Magical dmg
+		\item -2 max HP
+	\end{compactitem}
+
+
+%	\vfill
+	
+	\textbf{This Trait cannot be taken alongside Spirit in the Flesh. Taking this trait doesn't require Spiritually Awakened or Tribal Shaman.}
+	
+	\pagebreak
+	
+	\subsection*{Spirit in the Flesh}
+	\emph{\textbf{Zebra-only trait.}}
+	
+	From an early age you have had something inhabit your body, whispering things to you and guiding -in either good or ill intent- you. The circumstances of your union can vary; maybe you found it weak and gave it shelter, maybe the vagabond spirit bound itself to you upon your birth. The spirit can be of any Karma, including the opposite of your own.
+	
+	Having a lesser spirit or a spirit of the dead coexist with you has given you something unique however, aside from having a companion in your head that only you can hear. Your Melee and Unarmed attacks are always magical in nature and when taking damage, you can convert half of the damage (rounded down) into Strain damage instead for as long as you have Strain available. A minimum of 1 damage has to go to your HP when dividing the damage.
+	
+	Spirits are likely to show themselves to you, and with a successful PER -1 roll, you can see spirits that try to hide from you.
+	
+	As a downside, your spiritual coexistence has made your body somewhat weaker; your Natural Healing goes down by one, to a minimum of 1 and you never managed to learn Alchemy.
+	
+	Shamans and spirit-sensitive creatures can see your otherworldly passenger, while to most creatures it is invisible. It will tempt you to do deeds of its Karma -Positive karma will urge you to help other creatures, while negative karma urges you to be selfish-, which you can resist with an opposed CHA roll. Both you and the Spirit use your CHA as the stat for the Opposed roll.
+	
+	\textbf{Cannot be taken simultaneously with Spirit Child. Taking this trait doesn't require Spiritually Awakened or Tribal Shaman.}
+	
+	
 	\subsection*{Spiritually Awakened}
 	
 	The character is gifted with the ability to see and communicate with spirits and ghosts who are normally imperceptible. The character's attunement to the spirit world makes them naturally well-disposed with ghosts and spirits, granting a +10 to Barter and +1 to CHA for purposes of talking to ghosts and spirits.  
@@ -1475,31 +1614,6 @@
 	However, her Potency on spells do not gain bonuses from SPECIALs.
 	
 	A character may not have both \textbf{Spread Thin} trait and \textbf{One Trick Pony} trait.
-	
-	\subsection*{Stable Dweller}
-	
-	The character starts the game with a PipBuck. Her starting Survival score is only $LCK/2$ and her starting Poison and Radiation Resistances are 0. 
-	
-	\textbf{This trait is subject to GM approval.}
-	
-	You can check PipBuck rules under Chapter 6: Additional Rules - PipBuck.
-	
-	\subsection*{Steel Ranger Outcast}
-	\emph{\textbf{Earth Pony or Unicorn-only trait}}
-	
-	The character has been driven out or voluntarily left from Steel Rangers or Applejack's Rangers. This means that she starts play with Power Armor Training  -perk but is considered to be -1 NPC disposition for these factions, as she is considered to be a heretic and a traitor.
-	
-	In addition, the character was given a modification for their weapon of choice; the Steel Rangers are a civilized society, after all. This modification has to have a value of 500 or less caps.
-	
-	\textbf{This trait is subject to GM approval. }
-	\vfill
-	
-	\subsection*{Talon Mercenary}
-	\emph{\textbf{Griffon-only trait.}}
-	
-	The character is either an active or a former Talon Company mercenary. The character gains the \emph{Bounty Hunter} -perk for free, but \textbf{NPC Disposition} is considered one level lower towards this character when discussing contracts of any kind.
-	
-	\textbf{This trait is subject to GM approval.}  At the GM's discretion, the character may start out with access to a suit of Wasteland Warrior clothing.
 	
 	\subsection*{Tribal Shaman}
 	
@@ -1532,6 +1646,7 @@
 		\item[Damage Over Time (DOT):] Certain weapons and spells cause DOT, such as burning, bleeding, poison and arcane damage. DOT is applied every round after initial damage, on the turn of the character that suffers from such effect. DOT ends after certain number of turns, indicated within action, weapon or spell description, or ended with a counter action by the victim or aiding character.
 		
 		The character takes DOT if the initial damage was above their corresponding DT or Resistances. DOT ignores DT and Resistances from armors, and clothing, as attack is considered to have breached armor or clothing. For instance, a blade that deals damage has punctured the hide and causes bleeding despite armor.
+		\vfill
 		\item[Damage Threshold (DT):] The value which tells how well the piece of gear protects you from attacks, reducing incoming Damage equal to the DT.
 		\item[DT Reduction:] Weapons that have this value ignore the specified amount of opponent's DT.
 		\item[Effect:] A passive, either constant or situational, effect granted by the equipment. These include but are not limited to: SPECIAL and Skill bonuses and penalties, AP cost modifiers, additional damage types and health restoration.
@@ -1698,7 +1813,7 @@
 	
 	Unlike other armors that can be equipped without worry, Power Armor requires special training to function -without heavy penalties, that is. An uneducated pony can still put the Power Armor on, but they're incapable of moving faster than 5 AP per 2 meters/1 Hex. In addition, they do not have the additional effects Power armor has, such as increased Rad Resistance.
 	 
-	Characters that want to use Power Armor without these cruel penalties must gain the training, and \textbf{Power Armor Training} -reward perk, from a suitable faction in-story, or choose the \textbf{Steel Ranger Outcast} trait.
+	Characters that want to use Power Armor without these cruel penalties must gain the training, and \textbf{Power Armor Training} -reward perk or get chummy with a suitable faction in-story.
 	
 	\subsection*{Donning Armor}
 	Having armor on is fun and all, but there is always that little problem come nightfall. Sleep is difficult to get in a cumbersome armor or in the fancy clothes that already squeeze uncomfortably. Hence, most ponies remove their armor and clothes to slip in for something more comfortable for the night and the other way around in the morning. However, donning apparel is somewhat time-taxing matter.
@@ -1724,7 +1839,7 @@
 	
 	\section*{Mundane Items}
 	\addcontentsline{toc}{section}{Mundane Items}
-	The adventurer now has weapons and armor to face the odds of the Wasteland. However, she also might wish to have utilities to help her through the journey.  Such utilities are backpacks to hold her gear in, such as food, medicine and anything she comes upon travelling.
+	The adventurer now has weapons and armor to face the odds of the Wasteland. However, she also might wish to have utilities to help her through the journey.  Such utilities are backpacks to hold her gear in, such as food, medicine and anything she comes upon traveling. \textbf{PCs start with a Saddle-bag.}
 	
 	\subsection*{Food \& Water}
 	Food and water are both essential to character's survival, especially if the campaign tracks Hunger and Thirst. But both food and drink have usage outside of this rule as well; they heal small amount of HP at risk of Rads.
@@ -1950,24 +2065,38 @@
 	This chapter focuses on what happens when a character goes further in their adventure, what improvements she gets and how to implement the growth your character undergoes.
 	
 	\vfill
-	\begin{table}[!b]
-		\centering
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 0.8\linewidth {| X[l] |}
+	\begin{tblr} [
+		caption={HP Design Note},
+		entry=none,
+		label=none
+		]
+		{				
+			colspec = {|X|},
+			width = 0.8\linewidth,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 			\hline
 			\emph{\textbf{Design Note: Increasing HP}}\\
 			\hline 
 			\emph{In these rules, characters do not gain new Health Points on level up. This reflects the reality that even after roaming the post-apocalyptic wastes for a long time, she is still as mortal as ever. However, there are ways to gain more HP. Increasing one's END permanently with Perks, Cybernetic implants, Alchemy and such, and direct increases to HP via Perks, Alchemy and such. Temporary increases to END such as from Equipment do not increase HP.}\\ 
 			\hline 
-		\end{tabu}	
-	\end{table} 
+	\end{tblr}	
 		
 	\begin{table}[!t]
 		\centering
 		\caption{XP Requirements by Level}
 		\label{Table:4.1}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 0.8\columnwidth {| X[c, 1] | X[c, 3] |}
+		\begin{tblr}
+			[
+			caption={XP Requirement Level},
+			entry=none,
+			label=none
+			]
+			{				
+				colspec = {|X[c,1]|X[c,3]|},
+				width = 0.8\linewidth,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			\textbf{Level} & \textbf{Experience} \\ \hline
 			1              & 0                   \\
@@ -2000,13 +2129,13 @@
 			28             & 37 800              \\
 			29             & 40 600              \\
 			30             & 43 500              \\ \hline
-		\end{tabu}	
+		\end{tblr}	
 	\end{table} 
 	
 	
 	\section*{Leveling Up}
 	\addcontentsline{toc}{section}{Leveling Up}
-	Your character gains experience points for accomplishing goals, killing things, cunning plans or just about anything that the GM feels it would merit it. Experience points are rewarded at the end of each session. Your character gains a level when she reaches the associated experience total.
+	Your character gains experience points for accomplishing goals, killing things, cunning plans or just about anything that the GM feels would merit it. Your character gains a level when she reaches the associated experience total. How your GM gives experience points depends on the GM's preference; some give EXP at the end of the session, while others may give experience at certain points in the story. 
 	
 	The GM is permitted to cap the game at Level 20. Levels above 20 are considered ``Epic'' levels and are usually reserved for long-running games with grand plots.
 	
@@ -2032,16 +2161,21 @@
 	
 	\section*{Gaining Perks}
 	\addcontentsline{toc}{section}{Gaining Perks}
-	Your character gains a \textbf{perk} every time she gains a level. Perks are beneficial bonuses to the character, and a measure of the character's growth. Unlike Traits which have both pros and cons to them, perks are mostly positive.
+	Your character gains a \textbf{perk} every time she gains a level. Perks are beneficial bonuses to the character, and a measure of the character's growth. Unlike Traits which have both pros and cons to them, perks are positive qualities your character has learned over their adventure.
 	
-	There are a great deal of perks available in \emph{Wasteland Ventures}. Perks have requirements which must be met before taking the perk. Temporary penalties do not limit a character's available perks, but temporary buffs do not allow one to take a perk she could otherwise not take.
+	Perks also have levels associated with them, indicating the earliest level the character must be for the perk to be available to them. A level 2 perk is open to characters at level 2 and onward. Level 12 perks are available at level 12 and further. Players can choose any perks from any levels they've already cleared, as long as they meet requirements. For example, a 10th level PC can take perks from level 2 to 10 as long as they fill the requirements.
+	
+	There are a great deal of perks available in \emph{Wasteland Ventures}. Perks have requirements which must be met before taking the perk, often either a SPECIAL or Skill requirement. Temporary penalties do not limit a character's available perks, but temporary buffs do not allow one to take a perk she could otherwise not take.
 	
 	Some perks have ranks. This means that the perk may be taken multiple times. Usually, these additional ranks may be taken at any level after the perk is gained.
 	
 	For a list of available perks, see the \emph{\textbf{Perk List}}. 
 	
 	\section*{Additional Bonuses}
-	Your character can also improve her SPECIALs, skills and other attributes through bonuses gained by items. Most bonuses are temporary, either lasting a pre-set duration - such as bonuses from drugs - or only while your character is actively using the item, such as bonuses from clothing. However, there are a few items in the Equestrian Wasteland which can be used for permanent character improvement, such as the Ministry Mare Statuettes.
+	While leveling up and getting perks are the most common, most available way for character growth, there are other ways PCs can improve their SPECIALs, skills and attributes. Some items, such as alcohol, food or clothing give temporary bonuses, and have been explained in the previous chapter. 
+	
+	Permanent bonuses come from much rarer sources; Ministry Mare statuettes, Cybernetic implanting, Alchemical Enhancements and Pre-War books.
+%	Your character can also improve her SPECIALs, skills and other attributes through bonuses gained by items. Most bonuses are temporary, either lasting a pre-set duration - such as bonuses from drugs - or only while your character is actively using the item, such as bonuses from clothing. However, there are a few items in the Equestrian Wasteland which can be used for permanent character improvement, such as the Ministry Mare Statuettes.
 	
 	\subsection*{Ministry Mare Statuettes}
 	These are magical items that grant a permanent boost to one of a character's SPECIALs: Strength, Perception, Endurance, Charisma, Intelligence or Agility. The statuettes are small, indestructible figurines in the form of the Ministry Mares. There are only 42 of these statuettes in existence, seven of each different statuette. Character in possession of more than one of these statuettes often find themselves being influenced as if by the Ministry Mares themselves.
@@ -2049,11 +2183,25 @@
 	A character who possesses two statuettes of the same Ministry Mare only gains a benefit from the first one obtained. Likewise, only one character may benefit from a Ministry Mare statuette at a time. However, the character will retain the benefit of a statuette until either she dies or she willingly gives the statuette away - it cannot be stolen. There is no Ministry Mare statuette which corresponds to LCK. Instead a character who possesses a statuette of one of each Ministry Mares - six of them - will gain the Reward Perk \emph{My Little Ponies}, which grants a permanent +1 bonus to LCK.
 	
 	\subsection*{Cybernetic Limbs \& Implants}
-	Cybernetic limbs and implant can grant a permanent bonus to a character, but clinics capable of performing cybersurgery are extremely rare and expensive. One cannot have two of same implants, as this will cause conflicts between them. Attachement of cybernetic limbs that the character does not biologically have do not provide new abilities, and is often considered wasteful.
+	Cybernetic limbs and implant can grant a permanent bonus to a character, but clinics capable of performing cybersurgery are extremely rare and expensive. One cannot have two of same implants, as this will cause conflicts between them. Attachement of cybernetic limbs that the character does not biologically have do not provide new abilities, and is often considered wasteful or weird.
 	
-	A character may not benefit from both cybernetic implants and permanent alchemical enhancements. Cybernetic Implants can be disabled by EMP, or similar weapons. Disabled implants can be reactivated at a cybersurgery-capable clinic.
+	\textbf{A character may not benefit from both cybernetic implants and permanent alchemical enhancements.} 
 	
-	When a character has gained a new implant, they will suffer a temporary penalty of 1 to both END and CHA, due to their body and mind having to adjust to the changes made. When counting the days for adjusting, the penalty to END is included.
+	Much like armors, Cybernetic bodyparts consist of their default form and modifications -or as they're known, implants- to those cybernetic bodyparts. Modifying your parts is not required, but many wastelanders find they give a bit more of an edge, if they can fork over the caps, that is. Implants can be added during or after installation of the main cyberware. 
+	
+	\vfill
+	
+	Artificial bodyparts have mod slots much like armors do; different parts have varied amount of mods they can allow simultaneously. It should be noted that not all implants are compatible with each other and thus they cannot be installed on the same cyberware. Likewise, multiples of the same implant do not stack. Often, both the cybernatic bodypart and modifications have bonuses to their user's functions, and these do not cancel each other out. 
+	
+	\bigskip
+	
+	When installing a cybernetic part, the process will take 24 hours and during this time the character getting the cybernetic is out of commission. The character or characters performing the operation roll their Medicine or Science skill to see how well the installation goes. \textbf{Characters without Field Doctor, Nurse or Tech-Raider P.A.S.T.s suffer a -20 to this roll.}. 
+	
+	\bigskip
+	
+	If the Roll is a success, the operation goes off without a hitch. A Critical Success halves the amount of days the operated character needs getting used to their new installation. A failure gives a Permanent -1 to either END or CHA, but the cybernetic is successfully installed. A Critical failure introduces a complication in the process that permanently damages the patient, giving them -1 to both END and CHA. 
+	\vfill
+	When a character has gained a new installation, they will suffer a temporary penalty of 1 to both END and CHA, due to their body and mind having to adjust to the changes made. When counting the days for adjusting, the penalty to END is included.
 	
 	\begin{figure}
 		\centering
@@ -2064,13 +2212,19 @@
 	\begin{center}
 		$15\, \, days - END$
 	\end{center}
-		
-	A botched implant may cause these penalties to be permanent. Re-activating implants do not cause a penalty.
+	
+	Characters with botched installation have above adjustment penalty in addition to their permanent ones.
+	
+	Re-activating bodyparts and adding modifications do not cause above adjustment period. Cybernetics can be disabled by EMP, or similar weapons. Disabled implants can be reactivated at a cybersurgery-capable clinic or by a character capable of crafting implants.
 	
 	Cybernetic implants can be found in \emph{\textbf{Wasteland Wares}}.
 	
+		\begin{verse}
+		\emph{\textbf{Example 1:} Doc Red installs an Artificial Eye to Emerald Glint. Doc Red has the P.A.S.T. Field Doctor, which means they do not suffer a penalty for performing the surgery. Emerald Glint is out cold for 24 hours as Doc crafts the eye onto their body. Doc rolls Medicine, getting a Critical Success on their roll, meaning that Emerald will only need to recover and suffer from a temporary penalty for half the usual time. Emerald's END is 5 after the temporary penalty to their END from the surgery, meaning normally Emerald would suffer 10 days of temporary penalty (15 days-5 END). However, thanks to a smashing success on the surgery, Emerald has this time halved to 5 days instead.}
+	\end{verse}
+	
 	\begin{verse}
-		\emph{\textbf{Note:} taking cybernetic implants is risky and potentially dangerous. The more implants a character has taken, the riskier the following new implant operations. Side effects include, but are not limited to, dizziness, headaches, amnesia, loss of blood, limbs, intestines, and appetite. Avoid fatty and spicy foods after operation.}
+		\emph{\textbf{Note:} taking cybernetic implants is risky and potentially dangerous. Side effects include, but are not limited to; dizziness, headaches, amnesia, loss of blood, limbs, intestines, and appetite. Avoid fatty and spicy foods after operation.}
 	\end{verse}
 	
 	\subsection*{Alchemical Enhancements}
@@ -2497,37 +2651,71 @@
 	\section*{Sneaking}
 	\addcontentsline{toc}{section}{Sneaking}
 	
-	In the Wasteland and occasionally in more settled areas, moving and acting unnoticed can be considered a great advantage. To some it's a defining lifestyle, to others a tool of trade, and to many more a complete pain to crack down. Whether it is moving quietly, breaking a window with minimal noise, or avoiding another person doing these activities against you, sneaking is worthwhile to learn for a long and healthy life in the Wasteland. Successful sneaking requires taking attention to the surrounding area and the actions taken. These include staying in the shadows, avoiding watchful eyes, as well as keeping the character's noise low, and their movement slow.
-		
-	All of these actions and their success are determined by the character's Sneak skill.
+	In the Wasteland and occasionally in more settled areas, moving and acting unnoticed can be considered a great advantage. To some it's a defining lifestyle, to others a tool of trade, and to many more a complete pain to crack down. Whether it is moving quietly, breaking a window with minimal noise, or avoiding another person doing these activities against you, sneaking is worthwhile to learn for a long and healthy life in the Wasteland. 
 	
-	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6.
+	Successful sneaking requires taking attention to the surrounding area and the actions taken. These include staying in the shadows, avoiding watchful eyes, as well as keeping the character's noise low, and their movement slow.
+	
+	\vfill
+	
+	Characters attempting to sneak roll an Opposed roll of Sneak vs. PER of the character that could spot them. If there are multiple NPC among spotters, GM can roll them collectively as a group. If half or more of the group's Sneak rolls are a success, they sneak past without a problem. Assist, Push the Limit and Distract are all applicable actions.
+	
+	The other source of bonuses and penalties is Visibility, which affects only the perceiving character's roll. This is discussed further in section \textit{Spotting sneaking characters} later in this section.
+	
+	%\medskip
+	
+	Though it can depend on the GM, if a character fails their Sneak-roll it doesn't necessarily mean that they are immediately discovered by the spotter; maybe they stepped on a dry branch, or knocked something over, enough to pique the spotter's interest. The spotter would become more alert as a result. This can, depending on the GM, give the Spotter a slight bonus to their roll, or just make the situation tense as the Spotter begins to look around.
+	
+%	\vfill
+	
+	If every character in the group fails their Sneak-roll, then it is safe to say they've bungled up the job well enough to be discovered outright. A Critical Failure might make things particularly tense, or make a sneaking situation into a chase scene instead. It is up to the GM to determine what is the severity of the failure, but know that combat doesn't have to be the only result.
+	
+%	\subsection{Sneaking in a group}
+	
+%	When characters are sneaking as a group, instead of every player character rolling separately, the group can appoint a specific person to take the lead. The leading character does an Opposed roll of their Sneak versus the opponent's Perception roll. Similar to Assisting, the other characters can help the leader in their roll.
+	 
+%	For each character with Sneak-skill of 25 or more, the leader can either gain +5 per character to their roll, or give a -5 cumulative penalty to the Opponent's roll instead. Characters with Sneak-skill below 25 do not provide bonus or penalty to either. In action, this can be thought of as carefully following the leader's lead or distracting the opponent.
+	
+% 	Besides perks, the one other source of bonuses and penalties for sneaking is Visibility, which affects only the perceiving character's roll. This is discussed further in \textbf{5.0.3: Spotting sneaking characters}.
+	
+%	\subsection{Sneaking alone}
+	
+%	Sometimes your character has to do things on their own, without the help of their teammates. Maybe they're scouting up ahead, or maybe they're the group's lone sniper making their way to a high spot. The roll in question is again an Opposed Roll of Sneak vs. opponent's PER.  
+	
+	\subsection*{Spotting sneaking characters}
+	
+	When characters, NPC or PC, want to spot sneaking characters, they roll Perception against the sneaking character's Sneak-skill in an Opposed Roll. Spotting character gets a bonus or penalty to their PER from Visibility, as per \textit{Table 7.2. under Combat Variables, in Chapter 6: Combat}. Bright light gives a bonus to the character's PER, while dark gives a penalty.
+	
+	When sneaking characters have been spotted, it can lead to conflict, violent or otherwise. 
+
+% TODO: Before un-commenting this table, shift to longtblr -element as tabu -element is no longer supported ~Waak
+	
+%	Sneak skill rolls are opposed by a potential opponent's PER rolls. Like every skill, modifiers to both Sneak and PER vary from bonus of +50 to penalty of -50. Each modifier can be subtracted or added up to a maximum of +50 / -50. Difference between Sneak rolls and opposed PER rolls can however be up to a maximum of 100, with penalty of -50 on one and bonus of +50 on the other. Examples are detailed on Table 5.6.
 	
 	%\newpage
     
-    \onecolumn
-	\begin{table}[t]
-		\centering
-		\caption{Sneak Modifier Examples}
-		\label{Table:5.6}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu}to 140mm{| X[l, 2]| X[l, 4]|}
-			\hline
-			\textbf{Situation}                            & \textbf{Modifier}                  \\ \hline
-			Lighting conditions (vision impaired) & \begin{tabular}{@{}l@{}}Dim light: -5 PER roll
+   % \onecolumn
+%	\begin{table}[t]
+%		\centering
+%		\caption{Sneak Modifier Examples}
+%		\label{Table:5.6}
+%		\rowcolors{1}{gray!30}{gray!10}
+	%	\begin{tabu}to 140mm{| X[l, 2]| X[l, 4]|}
+%			\hline
+%			\textbf{Situation}                            & \textbf{Modifier}                  \\ \hline
+%			Lighting conditions (vision impaired) & \begin{tabular}{@{}l@{}}Dim light: -5 PER roll
 				
-				 \\ Blinding light: -10 PER roll \\ Night: -15 PER roll \\ Bad-lit indoors: -20 PER roll \\ Darkness: -40 PER roll \end{tabular}                                   \\
-			Weather conditions                            & \begin{tabular}{@{}l@{}} Rain, dust: -5 PER roll \\ Fog, heavy rain, snowfall: -10 PER roll \\ Heavy fog, snowstorm: -15 PER roll \\ Sandstorm: -20 PER roll \end{tabular}                                   \\
-			Movement                                      & \begin{tabular}{@{}l@{}} Crippled: -5 Sneak per crippled leg; \\ \emph{max -20 with all four legs crippled.} \\ Crawling: +20 Sneak \\ Running / sprinting: -50 Sneak. \\ \emph{See perk Silent Gallop}. \\ Flying: +10 Sneak \\ Gliding: +20 Sneak \end{tabular}                                   \\
-			Character sounds (Hearing improved)   & \begin{tabular}{@{}l@{}}Whispering: Opponent +10 PER roll \\ Talking: Opponent +30 PER roll \\ Yelling: Opponent +50 PER roll\end{tabular}\\
-			Noise (hearing impaired)              & \begin{tabular}{@{}l@{}}Siren/Loudspeaker: Opponent -10 PER roll \\ Heavy wind: Opponent -20 PER roll \\ Nearby explosion: Opponent -30 PER roll \\ Long distance: Opponent -50 PER roll \end{tabular}                                   \\
-			Moving within large crowds                    & Opponent: -20 PER roll                   \\
-			Holding a light source / casting magic        & -10 Sneak                          \\
-			Surfaces                                      & \begin{tabular}{@{}l@{}}Soft surfaces: rugs, sand, soft dirt; +10 Sneak \\ Hard surfaces: metal, roof tiles, stone; -10 Sneak \\ Noisy surfaces: water puddles, glass; -20 Sneak. \end{tabular}                                   \\
-			Armor and clothing                            & Indicated within armor description \\ \hline
-		\end{tabu} 
+%				 \\ Blinding light: -10 PER roll \\ Night: -15 PER roll \\ Bad-lit indoors: -20 PER roll \\ Darkness: -40 PER roll \end{tabular}                                   \\
+%			Weather conditions                            & \begin{tabular}{@{}l@{}} Rain, dust: -5 PER roll \\ Fog, heavy rain, snowfall: -10 PER roll \\ Heavy fog, snowstorm: -15 PER roll \\ Sandstorm: -20 PER roll \end{tabular}                                   \\
+%			Movement                                      & \begin{tabular}{@{}l@{}} Crippled: -5 Sneak per crippled leg; \\ \emph{max -20 with all four legs crippled.} \\ Crawling: +20 Sneak \\ Running / sprinting: -50 Sneak. \\ \emph{See perk Silent Gallop}. \\ Flying: +10 Sneak \\ Gliding: +20 Sneak \end{tabular}                                   \\
+%			Character sounds (Hearing improved)   & \begin{tabular}{@{}l@{}}Whispering: Opponent +10 PER roll \\ Talking: Opponent +30 PER roll \\ Yelling: Opponent +50 PER roll\end{tabular}\\
+%			Noise (hearing impaired)              & \begin{tabular}{@{}l@{}}Siren/Loudspeaker: Opponent -10 PER roll \\ Heavy wind: Opponent -20 PER roll \\ Nearby explosion: Opponent -30 PER roll \\ Long distance: Opponent -50 PER roll \end{tabular}                                   \\
+%			Moving within large crowds                    & Opponent: -20 PER roll                   \\
+%			Holding a light source / casting magic        & -10 Sneak                          \\
+%			Surfaces                                      & \begin{tabular}{@{}l@{}}Soft surfaces: rugs, sand, soft dirt; +10 Sneak \\ Hard surfaces: metal, roof tiles, stone; -10 Sneak \\ Noisy surfaces: water puddles, glass; -20 Sneak. \end{tabular}                                   \\
+%			Armor and clothing                            & Indicated within armor description \\ \hline
+%		\end{tabu} 
         
-	\end{table}
+%	\end{table}
    	
     \twocolumn
 	
@@ -2655,13 +2843,13 @@
 		\emph{\textbf{Example:} Doc Red wants to create a Chem that provides both HP and Strain when used. GM and him decide that Red will require a Regen-Vial, 2 Blue herbs, and a freshly ground Jackalope Horn. They decide that the effect of the chem is +4 HP healed and +5 Strain recovered instantly, while giving a hindrance of -1 END and -1 AP for 5 rounds. They agree that the potent nature of the Chem means Doc Red will require 2 successful Medicine rolls instead of 1. After 24 hours, Doc Red has successfully rolled Medicine 2 times and the Chem is complete}.
 	\end{verse}
 
-	\vfill
+%	\vfill
 
 	\subsection*{Crafting Components}
 	Part of survival in the Equestrian Wasteland is the refining of scrap into something useful. Scrap items such as Scrap ArcanoTech or Scrap Metal can be used to put together a Component. A single Component uses 5 Scrap items; any Scrap item can be used to make any component as long as there's 5 in total.
 
 	Components can be crafted in an hour of downtime or while resting, and require no roll to succeed, only time and materials.
-	%\vfill
+	\vfill
 	
 	
 	\section*{NPC Disposition}
@@ -2685,10 +2873,17 @@
 	\onecolumn
 	\begin{table*}[!t]
 		\centering
-		\caption{Disposition Chart}
-		\label{Table:6.2}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 140mm{| X[l,2] | X[l,4] | X[l,1]|}
+		\begin{talltblr}
+			[
+			caption={NPC Disposition Levels},
+			entry=none,
+			label={Table:6.1}
+			]
+			{				
+				colspec = {| X[l,1] | X[l,5] | X[l,1] |},
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
 			\hline
 			\textbf{Disposition Level} & \textbf{NPC Behavior} & \textbf{Bonus} \\ \hline
 			Worshipped (+3)   & Views your actions in best positive light.
@@ -2720,7 +2915,7 @@
 			Likely to initiate combat either provoked or unprovoked.
 			Considers how to hurt you.
 			Will not sell wares to you. & -30   \\ \hline
-		\end{tabu} 
+		\end{talltblr} 
 	\end{table*}
 	\twocolumn
 
@@ -2816,37 +3011,65 @@
 	\addcontentsline{toc}{subsection}{Sleep Deprivation}
 	Out in the Wasteland, or in an ill-mannered settlement, having a proper amount of sleep is a must for a successful and healthy traveller. While sleeping can be done anywhere, it is strongly advised to sleep in a secure and safe location, with soft, warm, and comfortable surface.
 	
-	Sleep Deprivation indicates the lack of sleep one can accumulate when on the road. It causes loss in SPECIAL stats as bodily functions begin to decrease. The effects of sleep deprivation are listed on Table 6.3.
+	Sleep Deprivation indicates the lack of sleep one can accumulate when on the road. It causes loss in SPECIAL stats as bodily functions begin to decrease. The effects of sleep deprivation are listed on Table 6.2.
 	
 	Table shows intervals based on hours stayed awake, and their effects on character's SPECIAL stats. 
 	These losses will drop the SPECIAL to a minimum of 1. Once the character loses more than one point of Perception, hallucinations may begin. Death does not actually occur from sleep loss, although the severely compromised END of somepony suffering sleep deprivation can make sickness and other hazards far more deadly.
 	
-	For every hour of sleep, the awake hours of the character are decreased by four. For example, a character suffering from Major sleep deprivation (32+ awake hours) has to sleep for ten hours to restore herself from effects of sleep deprivation. It is not required that one sleeps all of their required rest in one go, and it is possible to recover Sleep Deprivation in 8 hour cycles. This can lower the SD to a lesser effect, such as from Moderate to Minor, with a shift in penalties accordingly.
+	For every hour of sleep, the awake hours of the character are decreased by four. For example, a character suffering from Major sleep deprivation (32+ awake hours) has to sleep for ten hours to restore herself from effects of sleep deprivation. It is not required that one sleeps all of their required rest in one go, and it is possible to recover Sleep Deprivation in 8 hour cycles. This can lower the level to a lesser effect, such as from Moderate to Minor, with a shift in penalties accordingly.
 	
+%	\begin{table}[!b]
+%		\centering
+%		\caption{Sleep Deprivation and Effects}
+%		\label{Table:6.3}
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabular}{|l|c|l|}
+%			\hline
+%			Level & \begin{tabular}{@{}c@{}}Awake \\ Hours \end{tabular} & Effect      \\ \hline
+%			Well-Rested            & -           & +1 INT, +1 PER \\
+%			Rested                 & 0           & -              \\
+%			Minor                  & $>$16       & -1 AGI               \\
+%			Moderate               & $>$24       & -1 AGI, -1 INT                 \\
+%			Major                  & $>$32       & \begin{tabular}{@{}c@{}}-2 AGI, -2 INT, \\ -1 PER, -1 END \end{tabular} \\
+%			Severe                 & $>$40       & \begin{tabular}{@{}c@{}}-3 AGI, -2 INT, \\ -2 PER, -2 END \end{tabular} \\
+%			Critical               & $>$48       & \begin{tabular}{@{}c@{}} -3 AGL, -3 INT, \\ -3 PER, -3 END \end{tabular} \\ \hline
+%		\end{tabular} 
+%	\end{table}
+
 	\begin{table}[!b]
-		\centering
 		\caption{Sleep Deprivation and Effects}
-		\label{Table:6.3}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|c|l|}
+		\label{Table:6.2}
+		\begin{tblr}
+			[
+			caption={Sleep Deprivation and Effects},
+			entry=none,
+			label={Table:5.8}
+			]
+			{				
+				colspec = {| X[l,2] | X[c,1] | X[l,3] |},
+				%			width = 0.9\linewidth,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1,
+				rulesep = 1pt
+			}
 			\hline
-			Level & \begin{tabular}{@{}c@{}}Awake \\ Hours \end{tabular} & Effect      \\ \hline
+			Level 					& Awake Hours & Effect      \\ \hline
 			Well-Rested            & -           & +1 INT, +1 PER \\
 			Rested                 & 0           & -              \\
 			Minor                  & $>$16       & -1 AGI               \\
 			Moderate               & $>$24       & -1 AGI, -1 INT                 \\
-			Major                  & $>$32       & \begin{tabular}{@{}c@{}}-2 AGI, -2 INT, \\ -1 PER, -1 END \end{tabular} \\
-			Severe                 & $>$40       & \begin{tabular}{@{}c@{}}-3 AGI, -2 INT, \\ -2 PER, -2 END \end{tabular} \\
-			Critical               & $>$48       & \begin{tabular}{@{}c@{}} -3 AGL, -3 INT, \\ -3 PER, -3 END \end{tabular} \\ \hline
-		\end{tabular} 
+			Major                  & $>$32       & -2 AGI, -2 INT, -1 PER, -1 END \\
+			Severe                 & $>$40       & -3 AGI, -2 INT, -2 PER, -2 END \\
+			Critical               & $>$48       & -3 AGL, -3 INT, -3 PER, -3 END \\ \hline
+		\end{tblr}
 	\end{table}
 	
-	Sleeping in a comfortable place such as on a good conditioned bed or with pleasant company without disturbance for at least 8 hours grants a state of well-rested, unless character still has lowered SPECIAL stats due to SD. Well-rested gives a temporary bonus of +1 INT and +1 PER for END / 2 hours.
+	Sleeping in a comfortable place such as on a good conditioned bed or with pleasant company without disturbance for at least 8 hours grants a state of well-rested, unless character still has lowered SPECIAL stats due to Sleep Deprivation. Well-rested gives a temporary bonus of +1 INT and +1 PER for END / 2 hours.
 	
-	Some Chems, alchemy, foods and drinks, such as coffee, can help character to overcome states of sleep deprivation.
+	Some consumables, such as coffee, can help a character to overcome the penalties caused by Minor Sleep Deprivation. However, no amount of coffee can supplement severe lack of sleep, not even in the Wasteland.
 	
 	\begin{verse}
-			\emph{\textbf{Example:} Maabara has spent the last few days working on her alchemy recipes without so much as shut eye. She has managed to stay awake for 32 hours without any rest. This means that she is currently suffering from Major Sleep Deprivation, and suffers a debilitation of -2 to her AGI and INT, as well as -1 to her PER and END. In order to recover from her sleep deprivation, Maabara has to sleep 8 hours (32/4= 8).}
+			\emph{\textbf{Example:} Maabara has spent the last few days working on her alchemy recipes without so much as shut eye. She has managed to stay awake for 32 hours without any rest. Thus she is suffering from Major Sleep Deprivation, and suffers a penalty of -2 to her AGI and INT, as well as -1 to her PER and END. In order to recover from her sleep deprivation, Maabara has to sleep 8 hours (32/4= 8).}
 	\end{verse}
 	
 	
@@ -2854,7 +3077,7 @@
 	\addcontentsline{toc}{subsection}{Hunger \& Thirst}
 	Hunger and thirst are easily one of the bigger problems of the Equestrian Wasteland. While a lot of Pre-war foods and drinks fill the ruined homes, one should remember their expiration dates have passed about 200 years ago, and may contain residue radiation. If the character goes without nutrition and a source of water for too long, their SPECIAL will begin to drop in response to the body lacking materials to keep functioning.
 	
-	Should a character remain without sufficient sustenance of daily meals and drinks, her Hunger and Thirst will increase; on the first day, the character's END will drop regardless of what sustenance she missed. In the following days without sustenance, her STR will decrease due to hunger and her PER will decrease due to thirst. Since characters require more water than food, their END will take additional decrease should thirst become too high. A character whose END reaches zero, dies. The rate of effects from hunger and thirst can be seen on Table 6.4.
+	Should a character remain without daily meals and drinks, her Hunger and Thirst will increase; on the first day, the character's END will drop regardless of what sustenance she missed. In the following days, her STR will decrease due to hunger and her PER will decrease due to thirst. Since characters require more water than food, their END will take additional decrease should thirst become too high. A character dies if their END reaches zero from these penalties. The rate of effects from hunger and thirst can be seen on Table 6.4.
 	
 	A regular equine or griffon requires 1 meal and 2 drinks per day to stay fed. Ghouls, due to their slow metabolism need to eat 1 meal per two days and 1 drink per day.
 	
@@ -2864,28 +3087,30 @@
 	
 	Recovering from the effects of hunger and thirst is relatively simple: each extra food or drink removes a point in penalties. For example, drinking an extra bottle of water in addition to the required two per day, removes 1 point of PER or END loss caused by Thirst. Likewise, eating extra amount of food removes 1 point of STR loss caused by Hunger. Eating extra amount of both removes 1 point of Endurance loss.
 	
-	\begin{verse}
-	 	\emph{\textbf{Example 1:} Shining Example has gone without a meal for a day, though he has stayed hydrated. Due to this loss of meal, his END has suffered a penalty of 1. On the second day, he again goes without food, but still has enough water to keep himself hydrated. His END remains at -1, but his STR now gets a penalty of 1 as well.}
-	\end{verse}
-	
-	\begin{verse}
-		\emph{\textbf{Example 2:} Emerald Glint has been without food and drink for three days. This means that she suffers following penalties: -2 END for overall fatigue resulting from lack of sustenance, -1 STR for lack of food and -2 PER and -1 END for lack of drink. This means her full penalties are -3 END, -2 PER and -1 STR. This means, to remedy her state, she has to drink 3 additional drinks, eat 1 additional food item. To remedy the general fatigue, both food and drink are acceptable.}
-	\end{verse}
-	
-	\begin{table}[t]
+	\begin{table}[!t]
 		\centering
 		\caption{Starvation and Dehydration}
-		\label{Table:6.4}
+		\label{Table:6.3}
 		\rowcolors{1}{gray!30}{gray!10}
 		\begin{tabular}{|c|c|c|c|}
 			\hline
 			\begin{tabular}{@{}c@{}}Days w/o \\ Sustenance \end{tabular} & \begin{tabular}{@{}c@{}} END \\ loss \end{tabular} & Hunger &     Thirst     \\ \hline
-			           1            &    -1    &   -    &       -        \\
-			           2            &    -1    & -1 STR &     -1 PER     \\
-			           3            &    -2    & -1 STR & -2 PER, -1 END \\
-			           4            &    -3    & -2 STR & -3 PER, -2 END \\ \hline
+			1            &    -1    &   -    &       -        \\
+			2            &    -1    & -1 STR &     -1 PER     \\
+			3            &    -2    & -1 STR & -2 PER, -1 END \\
+			4            &    -3    & -2 STR & -3 PER, -2 END \\ \hline
 		\end{tabular} 	
 	\end{table}
+	
+	\begin{verse}
+	 	\emph{\textbf{Example 1:} Shining Example has gone without a meal for a day while staying hydrated. Due to hunger, his END has suffered a penalty of 1. On the second day, he skips a meal again but still has enough water to drink. His END remains at -1, but his STR now gets a penalty of 1 as well.}
+	\end{verse}
+	
+	\begin{verse}
+		\emph{\textbf{Example 2:} Emerald Glint has been without food and drink for three days. This means that she suffers following penalties: -2 END from overall lack of sustenance, -1 STR from lack of food and -2 PER and -1 END from lack of drink. This means her full penalties are -3 END, -2 PER and -1 STR. To remedy her state, she has to drink 3 additional drinks and eat 1 additional food item. To remedy the general fatigue, both food and drink are acceptable.}
+	\end{verse}
+	
+
 	
 	\chapter{Combat}
 	When words fail, lead will fill the gap. This chapter's goes into detail how combat situations are dealt and what one can do in such situations.
@@ -3052,12 +3277,41 @@
 	\subsubsection{Obstacles}
 	Whenever the character takes \textbf{Cover}, said object used becomes an \textbf{Obstacle} to attacks made against the target. The Obstacle provides additional DT to the target against normal attacks - examples are provided on Table 7.3.
 	
+%	\begin{table}[t]
+%		\centering
+%		\caption{Obstacle Examples}
+%		\label{Table:7.3}
+%		\rowcolors{1}{gray!30}{gray!10}
+%		\begin{tabular}{|l|l|}
+%			\hline
+%			\textbf{Cover}                                       & \textbf{DT} \\ \hline
+%			Window glass, Bush                                   & 0           \\
+%			Wooden door, Table                                   & 1           \\
+%			Thin metal sheet, Traffic sign                       & 1           \\
+%			Tree trunk, Exterior wall, Ice                       & 2           \\
+%			Concrete wall, 20cm                                  & 3           \\
+%			Stone wall                                           & 3           \\
+%			Bulletproof glass                                    & 5           \\
+%			\begin{tabular}{@{}l@{}}Metal door, Armored vehicle, Sandbag wall                                         		\end{tabular} & 10 \\ \hline
+%		\end{tabular} 
+%		
+%	\end{table}
+
 	\begin{table}[t]
-		\centering
-		\caption{Obstacle Examples}
-		\label{Table:7.3}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|l|}
+	\centering
+	\caption{Obstacle Examples}
+	\label{Table:7.3}
+		\begin{tblr}
+			[
+			caption={Obstacle Examples},
+			entry=none,
+			label=none
+			]
+			{				
+				colspec = {| X[l,7] | X[c,1] |},
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
 			\hline
 			\textbf{Cover}                                       & \textbf{DT} \\ \hline
 			Window glass, Bush                                   & 0           \\
@@ -3067,10 +3321,11 @@
 			Concrete wall, 20cm                                  & 3           \\
 			Stone wall                                           & 3           \\
 			Bulletproof glass                                    & 5           \\
-			\begin{tabular}{@{}l@{}}Metal door, Armored vehicle, Sandbag wall                                         		\end{tabular} & 10 \\ \hline
-		\end{tabular} 
-		
+			Metal door, Armored vehicle, Sandbag wall            & 10		   \\ \hline
+		\end{tblr}
 	\end{table}
+
+	
 	
 	The attacker can avoid the DT from Obstacles by committing a Called Shot against one of the target's limbs.
 	
@@ -3148,18 +3403,26 @@
 		\centering
 		\caption{Crippled Limb Effects}
 		\label{Table:7.4}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|l|}
+		\begin{tblr}
+			[
+			caption={Criplled Limb Effects},
+			entry=none,
+			label=none
+			]
+			{				
+				colspec = {| X[l,1] | X[l,3] |},
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
 			\hline
-			\textbf{Limb}    & \textbf{Effects}                                                    \\ \hline
-			Torso   & \begin{tabular}{@{}l@{}}Bleeding Status effect; \\
-				Major Distraction
-			\end{tabular}                                  \\
-			\begin{tabular}{@{}l@{}}Leg/Arm \\ (for each) \end{tabular} & +1 Movement AP cost                                        \\
-			Head    & \begin{tabular}{@{}l@{}}Dazed Status effect; \\+1 AP and Strain cost for Spells\end{tabular} \\
-			Wing    & \begin{tabular}{@{}l@{}}Can glide but not fly (one) \\Cannot fly or glide (both)\end{tabular}   \\ \hline
-		\end{tabular} 
+			\textbf{Limb}   	& \textbf{Effects}                                          \\ \hline
+			Torso   			& Bleeding Status effect; 	Major Distraction  				\\
+			Leg/Arm (for each) 	& +1 Movement AP cost                                       \\
+			Head    			& Dazed Status effect; +1 AP and Strain cost for Spells		\\
+			Wing    			& Can glide but not fly (one); Cannot fly or glide (both)   	\\ \hline
+		\end{tblr} 
 	\end{table}
+	
 	
 	
 	\subsection*{Area of Effect}	
@@ -3190,26 +3453,34 @@
 		\centering
 		\caption{Status Effects and Their Removal}
 		\label{Table:7.5}
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabular}{|l|l|c|l|}
+		\begin{tblr}
+			[
+			caption={Status Effects and Their Removal},
+			entry=none,
+			label=none
+			]
+			{				
+				colspec = {| l | l | X[c,2] |X[l,3] |},
+				row{odd} = {gray!30}, row{even} = {gray!10},
+				rowhead = 1
+			}
 			\hline
-			\textbf{Name}            & \textbf{Effect}                           & \textbf{Duration} & \textbf{Removal}                  \\
-			Burning         & -2 HP / round                    &    3     & \begin{tabular}{@{}l@{}}Use all AP \& \\Drop prone \end{tabular} \\
-			Bleeding        & -1 HP / round; Minor Distraction &    5     & First Aid Kit            \\
-			Blinded         & -2 PER; -5 Combat skills         &    3     & -                        \\
-			Crippled        & As per Crippled limb             & \begin{tabular}{@{}c@{}}Minor: 24h \\ Major: Removal \end{tabular}         & \begin{tabular}{@{}l@{}}Doctor's Bag, \\ Hydra\end{tabular}      \\
-			Dazed         & Roll twice, pick worse result                                 &    3     & Sedative                 \\
-			Enraged         & \begin{tabular}{@{}l@{}}Berserk; +2 STR; \\ can only attack and move \end{tabular}                                 &    3     & Sedative                 \\
-			Freezing        & +2 AP Cost of actions            &    5     & Alcohol                  \\
-			Mind-Controlled & May act w/o her own volition     &    3     & Mind Bleach              \\
-			Encumbered      & Cannot Sprint, Climb or Swim     & Until Removal         & \begin{tabular}{@{}l@{}}Remove excess \\ weight \end{tabular}                        \\
-			Petrified       & Cannot act                       &    -     & \begin{tabular}{@{}l@{}}Failsafe,\\ Petrify-spell\end{tabular}  \\
-			Stunned         & Cannot move or attack                  &    3     & Kickstarter, Strain              \\
-			Unconscious     & Cannot act                       &    3     & Kickstarter              \\ \hline
-		\end{tabular} 
-		
-		
+			\textbf{Name}   & \textbf{Effect}                  & \textbf{Duration} & \textbf{Removal}                  \\ \hline
+			Burning         & -2 HP / round                    &    3     					& Use all AP \& Drop prone 	 \\
+			Bleeding        & {-1 HP / round; \\ Minor Distraction} &    5     					& First Aid Kit           	 \\
+			Blinded         & -2 PER; -5 Combat skills         &    3    				   	& -                    	\\
+			Crippled        & As per Crippled limb             & {Minor: 24h \\ Major: Removal}	& Doctor's Bag, Hydra     \\
+			Dazed           & Roll twice, pick worse result    &    3     					& Sedative                 \\
+			Enraged         & {Berserk; +2 STR; \\ can only attack and move} &    3    		 	& Sedative                 \\
+			Freezing        & +2 AP Cost of actions            &    5     					& Alcohol                  \\
+			{Mind-\\Controlled} & May act w/o her own volition     &    3     					& Mind Bleach              \\
+			Encumbered      & Cannot Sprint, Climb or Swim     & Until Removal         		& Remove excess weight \\
+			Petrified       & Cannot act                       &    -     					& Failsafe, Petrify-spell \\
+			Stunned         & Cannot move or attack            &    3     & Kickstarter, Strain              \\
+			Unconscious     & Cannot act                       &    3     & Kickstarter              \\ \hline		
+		\end{tblr}		
 	\end{table*}
+		
 	
 	\subsubsection*{Burning}
 	Character has caught on fire, either from attacks or the environment. They take damage every turn until the fire goes out, either by water, magic or other physical methods.
@@ -3255,7 +3526,7 @@
 	\subsubsection*{Unconscious}
 	Character has suffered severe damage or has been knocked out by something. She is unable to act until she recovers consciousness or someone else helps her.
 	
-	\vfill
+%	\vfill
 	
 	\section*{Combat Actions}
 	\addcontentsline{toc}{section}{Combat Actions}
@@ -3344,7 +3615,7 @@
 	\textbf{Jumping directly Upwards} - If the character's STR is less than 5, she can jump 0,5 meters. If her STR is at or greater than 5 but less than 10, she can jump 1 meter. If her STR is at 10 or greater, she can jump 1,5 meters. This jump costs 3 AP.
 	
 	\subsubsection*{Withdraw}
-	Sometimes situation gets too hot to handle and a tactical retreat is the best option available. With a cost of 4 AP, a character can move 2 meters (1 hex) and withdraw from melee combat range without provoking \textbf{Attacks of Opportunity}. A character can Sprint with the remaining AP she has available.
+	Sometimes situation gets too hot to handle and a tactical retreat is the best option available. With a cost of 4 AP, a character can move 2 meters (1 hex) and withdraw from melee combat range without provoking \textbf{Attacks of Opportunity}. % A character can Sprint with the remaining AP she has available.
 	
 	\newpage
 	
@@ -3769,10 +4040,12 @@
 	
 	At 0 HP, the character is considered dead.
 	
+	If the character is healed but remains in a Pain Threshold, such as going from 1 HP to 4 HP, GM rolls a 1d10 to replace earlier penalty from Pain Penalty (Table 7.9.). If the character is dying and is healed to a Pain Threshold, same rolling of a Pain Penalty applies.
+	
 	
 	\subsection*{Critical Damage \& Critical Damage Threshold}
 	\addcontentsline{toc}{subsection}{Critical Damage \& Critical Damage Threshold}	
-	When the character's attack skill roll is successful and within the critical damage threshold, she deals Critical Damage. Critical damage threshold is usually character's normal skill \textbf{critical success chance} but some factors, such as Sneak Attack and weapon modifications, may increase the threshold.
+	When the character's attack skill roll is successful and within the critical damage threshold, she deals Critical Damage. Critical damage threshold is usually character's normal skill \textbf{critical success chance} but some factors, such as Sneak+ Attack and weapon modifications, may increase the threshold.
 	
 	For critical damage, the character rolls for damage normally, and then multiplies the result, usually by 2. Some weapons have greater critical multipliers than 2.
 	
@@ -3915,7 +4188,7 @@
 	
 
 	
-	\clearpage
+%	\clearpage
 	
 	
 	\section*{Earth Pony Magic}
@@ -4062,7 +4335,7 @@
 		\centering
 		\includegraphics[width=0.9\linewidth]{"ART/Chapter 8_Unicorn magic"}
 	\end{figure*}
-	\vfill
+%	\vfill
 	
 	
 	\section*{Unicorn Magic}
@@ -4078,7 +4351,7 @@
 	
 	An exception to this is \textbf{Dark Magic school}, which is a collection of particularly vile and heinous spells. Not to mention that they're rare, and as such picking spells from the school will be under GM discretion.
 	
-	Characters can learn new spells in two ways - through leveling up or seeking out and experimenting on their own. As mentioned, every 5 levels the character can learn a new spell of their choosing, which is immediately added to their arsenal. It is best to consult the GM on spell choices. 
+	Characters can learn new spells in two ways - through leveling up or seeking out and experimenting on their own. As mentioned, every 5 levels the character can learn two new spells of their choosing, which are immediately added to their arsenal. It is best to consult the GM on spell choices. 
 	
 %	To learn a new spell by self-teaching, one must make \textbf{4 successful} SPECIAL -2 rolls, depending on the school of the spell. However only one check may be made per day, and these successes do not have to be consecutive.
 	
@@ -4185,7 +4458,7 @@
 			\item Rad-Guard
 			\item Toughened Frame
 		\end{compactitem}
-	\newpage
+%	\newpage
 		\item \textbf{Transmutation Magic (END)}
 		\begin{compactitem}
 			\item Come to Life
@@ -4324,7 +4597,7 @@
 		\includegraphics[width=0.8\linewidth]{"ART/Chapter 8_shamanism"}
 	\end{figure*}
 
-	\newpage
+%	\newpage
 	
 
 	
@@ -4506,84 +4779,95 @@
 	
 	\chapter*{Combat Quick Reference Sheet}
 	\addcontentsline{toc}{chapter}{Combat Quick Reference Sheet}
-	{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{longtabu} to 140mm{| X[l,2] | X[l,2]| X[l,3] | X[l,6] |}
-		\hline
-		\cellcolor{gray!50}                         & \textbf{Name}           & \textbf{AP Cost}                                                              & \textbf{Notes}                                                                              \\ \hline
-		\cellcolor{gray!50} Turn Order              & Initiative              & -                                                                             & 1d10+PER; Equal Initiatives compare AGI, Equal PERs compare LCK. Highest goes first         \\ \hline
-		\cellcolor{gray!50} Movement                & Ground Movement         & 1 AP per 2m / 1 hex                                                           &                                                                                             \\
-		\cellcolor{gray!50}                         & Flying                  & 1 AP per 2m / 1 hex                                                           & Crippled wings prevent flying                                                               \\
-		\cellcolor{gray!50}                         & Swimming                & 2 AP per 2m / 1 hex                                                           & Cannot charge, cannot swim if 2 or more limbs Crippled                                      \\
-		\cellcolor{gray!50}                         & Climbing                & 3 AP per 2m / 1 hex                                                           & Cannot charge, cannot climb if 2 or more limbs Crippled                                     \\
-		\cellcolor{gray!50}                         & Difficult Terrain       & +1 AP to Movement                                                             & May require SPECIAL roll                                                                    \\
-		\cellcolor{gray!50}                         & Sprinting               & All AP to Movement                                                            & Gain additional END/2 number of AP to Movement                                              \\
-		\cellcolor{gray!50}                         & Charging                & -                                                                             & +10 to melee/unarmed immediately after, deal DMG from dice at 4-6. Opponents gain +5 to hit \\
-		\cellcolor{gray!50}                         & Crawling                & 2 AP per 2m / 1 hex                                                           & Cannot do while flying                                                                      \\
-		\cellcolor{gray!50}                         & Drop Prone              & -                                                                             & Considered Prone after                                                                      \\
-		\cellcolor{gray!50}                         & Crawling                & 3 AP per 2m / 1 hex                                                           & Cannot do while flying                                                                      \\
-		\cellcolor{gray!50}                         & Standing Up             & 4 AP                                                                          & When Crippled, needs assistance                                                             \\
-		\cellcolor{gray!50}                         & Jumping, Still Longjump & 3 AP                                                                          & STR $<$5, 2 meters/1 hex  STR 5-9, 4 meters/2 hex  STR 10+, 6 meters/3 hex                  \\
-		\cellcolor{gray!50}                         & Jumping, Running Start  & 2 AP                                                                          & 4 meters/2 hex of movement required, can jump STR in meters (STR/2 hex)                     \\
-		\cellcolor{gray!50} \multirow{-13}{1,3cm}{} & Jumping, Up             & 3 AP                                                                          & STR $<$5, 0,5 meters    STR 5-9, 1 meter      STR 10+, 1,5 meters                           \\
-		\cellcolor{gray!50} Movement                & Withdraw                & 4 AP                                                                          & Does not provoke AoO, may Sprint                                                            \\ \hline
-		\cellcolor{gray!50} Attack Actions          & Attack                  & Weapon-specific                                                               & 1d100 result under or equal to Combat Skill results in a hit                                \\
-		\cellcolor{gray!50}                         & Called Shot             & +2 AP                                                                         & Cripple body parts , -1 DT on target                                                        \\
-		\cellcolor{gray!50}                         & Aim                     & +2 AP                                                                         & +10 to combat skill for next attack                                                         \\
-		\cellcolor{gray!50}                         & Reload                  & Weapon-specific                                                               &                                                                                             \\
-		\cellcolor{gray!50}                         & Casting a Spell         & Spell-specific                                                                &                                                                                             \\
-		\cellcolor{gray!50}                         & Sneak Attack            & +2 AP                                                                         & +15 to perform a Critical Hit                                                               \\
-		\cellcolor{gray!50}                         & Attack of Opportunity   & -                                                                             & Max 5 AP cost for melee or unarmed.                                                         \\ \hline
-		\cellcolor{gray!50} Combat Tricks           & Brace Weapon            & 1 AP                                                                          & Reduce STR Penalty by 2; Lower Burst penalty                                          \\
-		\cellcolor{gray!50}                         & Grapple, Start          & 5 AP                                                                          & Opposed Unarmed / STR                                                                       \\
-		\cellcolor{gray!50}                         & Grapple, Maintain       & 2 AP                                                                          & Opposed Unarmed / STR                                                                       \\
-		\cellcolor{gray!50}                         & Grapple, Overpower      & 4 AP                                                                          & Opposed Unarmed / STR                                                                       \\
-		\cellcolor{gray!50}                         & Grapple, Attack         & Weapon-specific                                                               & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction       \\
-		\cellcolor{gray!50}                         & Grapple, Pin            & 8 AP initiate, 4 AP maintain                                                  & Opposed Unarmed / STR (Attacker -30)                                                        \\
-		\cellcolor{gray!50}                         & Grapple, Tie Up         & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends                                          \\
-		\cellcolor{gray!50}                         & Grapple, Move           & 4 AP + Movement                                                               & Opposed Unarmed / STR; Movement 3 AP per 2 m / 1 hex                                        \\
-		\cellcolor{gray!50}                         & Grapple, Escape         & 4 AP                                                                          & Opposed Unarmed / STR                                                                       \\
-		\cellcolor{gray!50}                         & Grapple, Toss           & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends                                          \\
-		\cellcolor{gray!50}                         & Suppressive Fire        & 8 AP                                                                          & Moderate Distraction on Large Splash; -10 ammo                                              \\
-		\cellcolor{gray!50}                         & Trip                    & 5 AP                                                                          & Melee / Unarmed (-15); On success target is Prone                                           \\
-		\cellcolor{gray!50}                         & Distract                & 4 AP                                                                          &                                                                                             \\ \hline
-		\cellcolor{gray!50}  Defensive              & Dodge                   & From 1 AP to Maximum AP                                                       & Cannot be used if no movement allowed; -5 per use against one opponent                      \\
-		\cellcolor{gray!50}                         & Break Free              & 8 AP                                                                          & STR / AGI, LCK if GM allows                                                                 \\ \hline
-		\cellcolor{gray!50} Other Actions           & Ready Item              & 8 AP from inventory; 3 AP from QS                                             & +2 AP cost if concealed item                                                                \\
-		\cellcolor{gray!50} Other Actions           & Ready / Change Weapon   & 8 AP from inventory; 3 AP from WS                                             & +2 AP cost if concealed item                                                                \\
-		\cellcolor{gray!50}                         & Use Item / Function     & 2 AP                                                                          & GM may change AP cost to fit duration                              \\
-		\cellcolor{gray!50}                         & Drop Item               & -                                                                             & If carefully dropped, costs 3 AP                                                            \\
-		\cellcolor{gray!50}                         & Pick Up Item            & 6 AP                                                                          &                                                                                             \\
-		\cellcolor{gray!50}                         & Assist Ally             & 2 AP                                                                          & GM may change AP cost depending on situation                                                \\
-		\cellcolor{gray!50}                         & Use Skill / SPECIAL     & Easy, no rush: 4 Easy, rushed: 2 	Hard, no rush: 10 
-    
-    Hard, rushed: 5 & If rushed, -15 to Skill or SPECIAL roll; double penalty for Hard                            \\
-		\cellcolor{gray!50}                         & Maintain Spell          & Spell-specific                                                                &                                                                                             \\
-		\cellcolor{gray!50}                         & End Spell               & -                                                                             &                                                                                             \\
-		\cellcolor{gray!50}                         & Talking                 & -                                                                             & If influencing others, check Use Skill                                                \\ \hline
-	\end{longtabu}
-	} 
 	
-	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{longtabu} to 140mm{| X[l,2] | X[l,6] |}
-			\hline
-			\textbf{Combat Variable} & \textbf{Modifiers}                                                                                                         \\ \hline
-			Range                    & Point Blank 0; Short 0; Medium -10; Long -20                                                                               \\
-			Visibility               & Normal 0; Twilight / Rain -5; Fog / Snowfall -10; Night / Heavy Fog -15; Dark Indoors / Dust Storm -20; Total Darkness -40 \\
-			Distraction              & Minor -10; Medium -20; Major -30                                                                                           \\
-			Cover                    & None 0; Partial -10; Great -30                                                                                             \\
-			STR Requirement          & +1 AP cost, -5 for each STR value under requirement                                                                        \\
-			Size                     & See Table 2.1                                                                                                              \\
-			Braced Weapon            & STR Requirement -2; Range Medium 0; Range Long -10                                                                         \\
-			Ranged in Melee          & Shooter gains Minor Distraction                                                                                            \\
-			Prone                    & Gain Partial Cover against ranged; Cannot Dodge; -30 Melee / Unarmed                                                       \\
-			Gang Up                  & +10 to Melee / Unarmed if adjacent to same target with an ally                                                             \\
-			Grappled                 & Cannot access inventory; Move only with Move Grapple action                                                                \\
-			Pinned Down              & Cannot use Movement actions; Major Distraction to actions sans Break Free                                                  \\
-			Tied up                  & Cannot use Movement actions; Major Distraction to actions sans Break Free \\ \hline
-		\end{longtabu}
-	}
+	\begin{longtblr}[
+		caption={Action Reference},
+		entry=none
+		]{			
+			colspec = {| X[l,2] | X[l,2]| X[l,3] | X[l,6] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+			row{1} = {gray!50}
+		}
+		\hline
+		\textbf{Category} & \textbf{Name} & \textbf{Cost} & \textbf{Notes} &  \\ \hline
+		\SetCell{gray!50} & Initiative & - & 1d10+PER; Equal Initiatives compare AGI, Equal AGIs compare LCK. Highest goes first \\ \hline
+		\SetCell{gray!50} Movement                & Ground Movement         & 1 AP per 2m / 1 hex                                                           &                 \\
+		\SetCell{gray!50}                         & Flying                  & 1 AP per 2m / 1 hex                                                           & Crippled wings prevent flying              \\
+		\SetCell{gray!50}                         & Swimming                & 2 AP per 2m / 1 hex                                                           & Cannot charge, cannot swim if 2 or more limbs Crippled  \\
+		\SetCell{gray!50}                         & Climbing                & 3 AP per 2m / 1 hex                                                           & Cannot charge, cannot climb if 2 or more limbs Crippled   \\
+		\SetCell{gray!50}                         & Difficult Terrain       & +1 AP to Movement                                                             & May require SPECIAL roll              \\
+		\SetCell{gray!50}                         & Sprinting               & 1 Strain                                                            & Gain additional END/2 number of AP to Movement          \\
+		\SetCell{gray!50}                         & Charging                & -                                                                             & +10 to melee/unarmed immediately after, deal DMG from dice at 4-6. Opponents gain +5 to hit \\
+		\SetCell{gray!50}                         & Crawling                & 2 AP per 2m / 1 hex                                                           & Cannot do while flying                            \\
+		\SetCell{gray!50}                         & Drop Prone              & -                                                                             & Considered Prone after                     \\
+		\SetCell{gray!50}                         & Crawling                & 3 AP per 2m / 1 hex                                                           & Cannot do while flying                     \\
+		\SetCell{gray!50}                         & Standing Up             & 4 AP                                                                          & When Crippled, needs assistance               \\
+		\SetCell{gray!50}  Movement               & Jumping, Still Longjump & 3 AP                                                                          & STR $<$5, 2 meters/1 hex  STR 5-9, 4 meters/2 hex  STR 10+, 6 meters/3 hex                  \\
+		\SetCell{gray!50}                         & Jumping, Running Start  & 2 AP                                                                          & 4 meters/2 hex of movement required, can jump STR in meters (STR/2 hex)                     \\
+		\SetCell{gray!50}                         & Jumping, Up             & 3 AP                                                                          & STR $<$5, 0,5 meters    STR 5-9, 1 meter      STR 10+, 1,5 meters                           \\
+		\SetCell{gray!50}                         & Withdraw                & 4 AP                                                                          & Does not provoke AoO, may Sprint          \\ \hline
+		\SetCell{gray!50} Attack Actions          & Attack                  & Weapon-specific AP Cost                                                              & 1d100 result under or equal to Combat Skill results in a hit    \\
+		\SetCell{gray!50}                         & Called Shot             & +2 AP                                                                         & Cripple body parts , -1 DT on target         \\
+		\SetCell{gray!50}                         & Aim                     & +2 AP                                                                         & +10 to combat skill for next attack             \\
+		\SetCell{gray!50}                         & Reload                  & Weapon-specific AP Cost                                                              &                                                 \\
+		\SetCell{gray!50}                         & Casting a Spell         & Spell-specific AP \& Strain Cost                                                                &                                                 \\
+		\SetCell{gray!50}                         & Sneak Attack            & +2 AP                                                                         & +15 to perform a Critical Hit          \\
+		\SetCell{gray!50}                         & Attack of Opportunity   & -                                                                             & Max 5 AP cost for melee or unarmed.       \\ \hline
+		\SetCell{gray!50} Combat Tricks           & Brace Weapon            & 1 AP                                                                          & Reduce STR Penalty by 2; Lower Burst penalty      \\
+		\SetCell{gray!50}                         & Grapple, Start          & 5 AP                                                                          & Opposed Unarmed / STR        \\
+		\SetCell{gray!50}                         & Grapple, Maintain       & 2 AP                                                                          & Opposed Unarmed / STR        \\
+		\SetCell{gray!50}                         & Grapple, Overpower      & 4 AP                                                                          & Opposed Unarmed / STR        \\
+		\SetCell{gray!50}                         & Grapple, Attack         & Weapon-specific AP Cost                                                              & Unarmed: no penalty      Melee, 1-H: Minor Distraction      Pistol: Major Distraction       \\
+		\SetCell{gray!50}                         & Grapple, Pin            & 8 AP initiate, 4 AP maintain                                                  & Opposed Unarmed / STR (Attacker -30)                   \\
+		\SetCell{gray!50} Combat Tricks           & Grapple, Tie Up         & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends        \\
+		\SetCell{gray!50}                         & Grapple, Move           & 4 AP + Movement                                                               & Opposed Unarmed / STR; Movement 3 AP per 2 m / 1 hex      \\
+		\SetCell{gray!50}                         & Grapple, Escape         & 4 AP                                                                          & Opposed Unarmed / STR              \\
+		\SetCell{gray!50}                         & Grapple, Toss           & 8 AP                                                                          & Opposed Unarmed / STR (Attacker -30); Grapple ends   \\
+		\SetCell{gray!50}                         & Suppressive Fire        & 8 AP                                                                          & Moderate Distraction on Large Splash; -10 ammo     \\
+		\SetCell{gray!50}                         & Trip                    & 5 AP                                                                          & Melee / Unarmed; On success target is Prone   \\
+		\SetCell{gray!50}                         & Distract                & 4 AP                                                                          &       \\ \hline
+		\SetCell{gray!50}  Defensive              & Dodge                   & From 1 AP to Maximum AP                                                       & Cannot be used if no movement allowed; -5 per use against one opponent \\
+		\SetCell{gray!50}                         & Break Free              & 8 AP                                                                          & STR / AGI, LCK if GM allows     \\ \hline
+		\SetCell{gray!50} Other Actions           & Ready Item              & 8 AP from inventory; 3 AP from QS                                             & +2 AP cost if concealed item       \\
+		\SetCell{gray!50}                         & Ready / Change Weapon   & 8 AP from inventory; 3 AP from WS                                             & +2 AP cost if concealed item            \\
+		\SetCell{gray!50}                         & Use Item / Function     & 2 AP                                                                          & GM may change AP cost to fit duration             \\
+		\SetCell{gray!50}                         & Drop Item               & -                                                                             & If carefully dropped, costs 3 AP                    \\
+		\SetCell{gray!50}                         & Pick Up Item            & 6 AP                                                                          &                                    \\
+		\SetCell{gray!50}                         & Assist Ally             & 2 AP                                                                          & GM may change AP cost depending on situation              \\
+		\SetCell{gray!50}                         & Use Skill / SPECIAL     & Easy, no rush: 4 Easy, rushed: 2 	Hard, no rush: 10 
+		
+		Hard, rushed: 5 & If rushed, -15 to Skill or SPECIAL roll; double penalty for Hard                            \\
+		\SetCell{gray!50} Other Actions           & Maintain Spell          & Spell-specific AP \& Strain Cost                                                                &                               \\
+		\SetCell{gray!50}                         & End Spell               & -                                                                             &                               \\
+		\SetCell{gray!50}                         & Talking                 & -                                                                             & If influencing others, check Use Skill           \\ \hline
+	\end{longtblr} 
+	
+	\begin{tblr}[
+		caption={Combat Variable Reference},
+		entry=none]
+		{			
+			colspec = {| X[l,2] | X[l,6] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+			row{1} = {gray!50}
+		}
+		\hline
+		\textbf{Combat Variable} & \textbf{Modifiers}                                                                                                         \\ \hline
+		Range                    & Point Blank 0; Short 0; Medium -10; Long -20                                                                               \\
+		Visibility               & Normal 0; Twilight / Rain -5; Fog / Snowfall -10; Night / Heavy Fog -15; Dark Indoors / Dust Storm -20; Total Darkness -40 \\
+		Distraction              & Minor -10; Medium -20; Major -30                                                                                           \\
+		Cover                    & None 0; Partial -10; Great -30                                                                                             \\
+		STR Requirement          & +1 AP cost, -5 for each STR value under requirement                                                                        \\
+		Size                     & See Table 2.1                                                                                                              \\
+		Braced Weapon            & STR Requirement -2; Range Medium 0; Range Long -10                                                                         \\
+		Ranged in Melee          & Shooter gains Minor Distraction                                                                                            \\
+		Prone                    & Gain Partial Cover against ranged; Cannot Dodge; -30 Melee / Unarmed                                                       \\
+		Gang Up                  & +10 to Melee / Unarmed if adjacent to same target with an ally                                                             \\
+		Grappled                 & Cannot access inventory; Move only with Move Grapple action                                                                \\
+		Pinned Down              & Cannot use Movement actions; Major Distraction to actions sans Break Free                                                  \\
+		Tied up                  & Cannot use Movement actions; Major Distraction to actions sans Break Free \\ \hline
+	\end{tblr}
 
 	\bigskip
 	{

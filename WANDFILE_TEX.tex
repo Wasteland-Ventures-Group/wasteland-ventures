@@ -11,7 +11,7 @@
 \usepackage{multirow}
 \usepackage{paralist}
 \usepackage{longtable}
-\usepackage{tabu}
+\usepackage{tabularray}
 \usepackage{soul}
 \usepackage{titling}
 \usepackage{pdfpages}
@@ -41,7 +41,7 @@
 		Token HP \& Status rule bases by LZ
 		
 		\bigskip		
-		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
+		\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis, Etymologically Correct Filly
 		
 		\bigskip
 		\textbf{Cover and Graphics:} SourCherry
@@ -54,7 +54,7 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Version 2.3.1}
+		\textbf{Version 2.4.0}
 		
 		\emph{Last compiled on \thedate}
 		
@@ -92,10 +92,10 @@
 	
 	\vfill
 
-	\section{Additional Races}
+	\section*{Additional Races}
 	
 	\subsection*{Abyssinian}
-	\addcontentsline{toc}{subsection}{Abyssinian}
+	\addcontentsline{toc}{section}{Abyssinian}
 	
 	\begin{figure}[b]
 		\centering
@@ -235,10 +235,11 @@
 		\includegraphics[width=0.7\linewidth]{ART/Races/CHN_M}
 	\end{figure}
 	
-	One of the more evasive races in the Equestrian Wasteland, the changelings are shapeshifters whose original form resembles a thin insect and pony hybrid. Commonly seen as Equestria's version of the boogeyman due to their transformative magic, many independent hives began to break out of their old molds after the Last Day; some for the better, some for the worse. Most settlements in Wasteland regard changelings with suspicion and fear, though there are exceptions.
+	One of the more evasive races in the Equestrian Wasteland, the changelings are shapeshifters whose base form resembles a thin insect and pony hybrid. Commonly seen as Equestria's version of the boogeyman due to their transformative magic, many independent hives began to break out of their old molds after the Last Day; some for the better, some for the worse. Most settlements in Wasteland regard changelings with suspicion and fear, though there are exceptions.
 	
-	Changelings are unique in that they do not get the bulk of their nutrients from regular food, but rather they gather and eat emotions (Strain in this system) from ponies. To successfully steal emotions from them, they take the form of the pony's loved one and feed off of the pony's affections for that person. Changelings do not need to eat solid food-items like vegetables, but they need to drink water or other fluids twice a day just like ponies do. While ineffective for sating their hunger, food-items do, when consumed, still give them stat bonuses and HP back.
+	Changelings are unique in that they do not get the bulk of their nutrients from regular food, but rather they gather and eat emotions (Strain in this system) from ponies. To successfully steal emotions from them, the changeling takes the place of the pony's loved one and feeds off of their love. Changelings do not need to eat solid food, but they need to drink water or other fluids twice a day just like ponies do. While ineffective for sating their hunger, food-items do, when consumed, still give them stat bonuses and HP back.
 	
+	Changelings are capable of flight, but cannot operate clouds or use Aerial Maneuvers.	
 	%	However, changelings are not perfect copies of the pony they're posing as, only of their outward appearance, leaving their behavior something that a changeling has to study well to not get caught.
 	
 	Changeling hives rarely have contact with one another. The hive is often ran by a changeling queen, a taller and more powerful creature than the common changeling. She makes the decisions in the hive, with or without input from her subjects, and tend to live longer than her subjects. 
@@ -249,7 +250,7 @@
 	\begin{description}
 		\item[Changeling Magic:] Changelings have a magic that is a mixture of Unicorn magic schools and their own unique spells. Changelings start with one of the three shapeshift spells for free, and 3 additional spells. They learn a new spell every 5 levels (6th, 11th...). See Changeling Magic for details. %They can only learn one of the Shapeshift spells. 
 		\item[Contort:] Changelings have bug-like qualities, and they can contort their bodies in ways ponies cannot. They have +10 to Unarmed when grappling.
-		\item[Strain Feeder:] Changelings feed off Strain of others because they do not regenerate Strain on their own. Strain can be given to the changeling willingly, or taken by force. See Changeling Magic for more details.
+		\item[Strain Feeder:] Changelings feed off Strain of others because they do not regenerate Strain on their own. See Changeling Magic for more details.
 		\item[Healing Shell:] Changelings regenerate their injuries faster than a softer creature would, they heal an additional 1 point of HP from all sources of Healing.
 	\end{description}
 	
@@ -537,7 +538,8 @@
 	
 		\clearpage
 
-	\section{Core Races}	
+	\section*{Core Races}
+	\addcontentsline{toc}{section}{Core Races}	
 			
 	\begin{figure}[b]
 		\centering
@@ -747,6 +749,19 @@
 	
 	You're a force to reckon with once you get badly hurt. When reaching a Pain Threshold, you gain 4 extra dice to the damage you deal. However, your PER and AGI drop by 2 until you're healed.
 	
+	\section*{In Loving Memory}
+	\emph{\textbf{Ghoul-only trait}}
+	
+	You have a sentimental item that you have carried with you through the apocalypse and the following years since; maybe an old letter from a loved one, an engraved lighter or a photo album, anything somepony else might consider unnecessary junk. Something that is immeasurably important to you. It helps you feel sane and normal despite what your mirror shows you, and allows you to connect to your past and your sense of self.
+	
+	For as long as you have the item in question, you have the following bonuses:
+	Once per day, you may focus on your item and gain +5 to a Skill covered by your P.A.S.T.
+	You have a +2 END against Mental Status effects and gaining insanity doesn't give you Enraged-status effect. If your Insanity is maxed out, you can roll END or CHA twice and pick the better result to resist going feral instead of turning immediately. 
+	
+	However, losing the object in question will start your rapid descent to ferality. Each day that you are without your item, you have to roll Insanity, regardless of your current Rads. After CHA/2 days without your item, regaining your item will not prevent the need to roll Insanity, as the stress of the situation has deteriorated your mental state.
+	
+	If you do recover the item or find a new focus before this time limit is up, you recover from the trauma of the situation and you no longer need to roll for Insanity. Your current Insanity counter is also lowered by two upon recovery or rediscovery.
+	
 	\section*{Junktown Engineer}
 	\emph{\textbf{Harpy-only trait}}
 	
@@ -795,6 +810,20 @@
 	
 	On the other hoof, you are extremely hard to read, meaning you're going to rake in all the caps in any game of poker... You also have total immunity to Enraged-status, and +1 bonus against Mind-Control -status effect.
 	
+	\section*{Songbird}
+	\emph{\textbf{Griffon and Hippogriff-only trait}}
+	
+	Some creatures see Griffons as brutish thugs dealing with blood and caps, or as heartless merchants dealing caps and blood. Hippogriffs face similar challenges, being often considered dumb oddballs. 
+	
+	Some see griffons and hippogriffs like you, with a gift of song in your voice. Your voice has an exceptional melodious quality that calms down those close to you and even helps them focus. Alas, your sweet voice is quite lacking when it comes to roaring timbre.
+	
+	You can always use Diplomacy-skill when making Assist-rolls, and aren't required to know a spell to assist in spellcasting. 
+	Your sweet, gentle voice can even soothe distress; Once per day, your song removes 1 Insanity point from one individual.
+	
+	As a downside, you lose the Griffon racial ability "Predator" or Hippogriff racial ability "Birdbrain" and have a -10 to Intimidation-skill.
+	
+	
+	
 	\section*{Split Personality}
 	\emph{\textbf{Brahmin-only trait}}
 	
@@ -810,6 +839,18 @@
 	You are the shining beacon of donkeys' stubbornness, as you refuse to even go down nice and easylike. Character with this trait has an extra turn to be healed after their HP hits 0. 
 	
 	Downside is they suffer a little bit more when their body begins to show pain before death; When rolling Pain Threshold penalties for this character, the GM adds a +1 to the roll. This +1 has no effect when it goes over 10, giving the character the largest penalty on the list.
+	
+	\section*{Trick Wings}
+	\emph{\textbf{Pegasus and Bat Pony-only trait}}
+	
+	Your wings are kind of petite and particularly bendy, enabling you to use them for delicate work far more efficiently than most of your kin or griffons with their huge wings.
+	
+	You can use your wings to pick locks without bobby pins and a screwdriver. Likewise, Grapple-actions performed by you have a +1 and +10 to STR and Unarmed respectively, and you gain a +10 Sleight when hiding holdout weapons with your wings.
+	
+	When you Trip or Distract with your wings, you have +10 to the roll.
+	
+	As a downside, you never were a very skilled flier and your Potency is halved in all Aerial Maneuvers.
+	
 	
 	\section*{Unidexterous}
 	\emph{\textbf{Reserved for Abyssinians, diamond dogs, harpies or minotaurs}}
@@ -866,8 +907,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Shapeshift [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  3				\\
@@ -876,8 +921,7 @@
 			Target      	&  Self				\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  -				\\ \hline
-		\end{tabu}
-		
+		\end{tblr}
 	}
 	
 	\medskip
@@ -922,8 +966,13 @@
 	%	\addcontentsline{toc}{subsubsection}{Shapeshift [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Covert (INT)     \\
 			AP Cost	      	&  3				\\
@@ -932,7 +981,7 @@
 			Target      	&  Self				\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  -				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -941,6 +990,8 @@
 	This spell allows the changeling character to assume the look of another living creature; a very wholesome illusion that makes use of all senses. However, it is possible for a particularly perceptive character, including other changelings, to see through the illusion.
 	
 	Casting the spell costs 3 AP and 2 Strain. Outside of combat, this spell doesn't require a Thaumaturgy roll. The caster can cast other spells while this spell is active, as Formshift-spell is largely a passive one that requires very little concentration from the changeling.
+	
+	When taking a form of a magic-casting race such as unicorns, the changeling's magical aura's color is not disguised alongside their form. If they take the form of a flying race, they do not gain access to Aerial Maneuvers or ability to manipulate clouds.
 	
 	Changelings can also take a disguise of an object, however this is merely a cosmetic change; a changeling disguised as a weapon does not function as it should and any transformed changeling that is used as such is considered an Improvised Weapon. Depending on target, GM may determine that the changeling takes damage on impact.
 	If the changeling has taken the disguise of an armor, the armor in question doesn't provide DT.
@@ -966,8 +1017,12 @@
 	\subsubsection*{Mindshift [CHA]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Control (CHA)\\
 			AP Cost	      	&  3				\\
@@ -976,7 +1031,7 @@
 			Target      	&  Self				\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  -				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1004,8 +1059,12 @@
 	\subsubsection*{Carapace [STR]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)    \\
 			AP Cost	      	&  4				\\
@@ -1014,7 +1073,7 @@
 			Target      	&  Self				\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1041,8 +1100,12 @@
 %	\addcontentsline{toc}{section}{Compulsion [CHA]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			& Control (CHA) 	\\
 			AP Cost	      	& 6 					\\
@@ -1051,7 +1114,7 @@
 			Target      	& 1 					\\
 			Area of Effect  & - 	 				\\
 			Duration     	& Potency minutes 		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1085,8 +1148,12 @@
 %	\addcontentsline{toc}{subsubsection}{Confusion[CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Control (CHA)\\
 			AP Cost	      	&  4				\\
@@ -1095,7 +1162,7 @@
 			Target      	&  All	\\
 			Area of Effect  &  See text	 		\\
 			Duration     	&  -				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1123,8 +1190,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Copy Ability [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  	Control (CHA)\\
 			AP Cost	      	&  6				\\
@@ -1133,7 +1204,7 @@
 			Target      	&  1 target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  3 turns/minutes	\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1150,8 +1221,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Create Cocoon [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Control (CHA)\\
 			AP Cost	      	&  6				\\
@@ -1160,7 +1235,7 @@
 			Target      	&  1 target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  See text			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1196,8 +1271,12 @@
 %	\addcontentsline{toc}{section}{Dispel Magic [INT]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			& Covert (INT)		\\
 			AP Cost	      	& 6 					\\
@@ -1206,7 +1285,7 @@
 			Target      	& AoE					\\
 			Area of Effect  & Varies  	 		\\
 			Duration     	& 5 rounds 				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1230,8 +1309,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Create Cocoon [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  6				\\
@@ -1240,7 +1323,7 @@
 			Target      	&  Foes in Splash Template			\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  See text			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1271,8 +1354,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Forced Combat Feeding [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Control (CHA)\\
 			AP Cost	      	&  -				\\
@@ -1281,7 +1368,7 @@
 			Target      	&  1 target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  See text			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1321,8 +1408,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Forced Combat Feeding [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  6				\\
@@ -1331,7 +1422,7 @@
 			Target      	&  1 target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  Instant			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1355,8 +1446,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Hypnosis [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Control (CHA)\\
 			AP Cost	      	&  5				\\
@@ -1365,7 +1460,7 @@
 			Target      	&  See text			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  Potency/3 turns	\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1391,8 +1486,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Manipulate Size [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Covert (INT)\\
 			AP Cost	      	&  5				\\
@@ -1401,7 +1500,7 @@
 			Target      	&  1 Target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  Potency/2 turns	\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1419,8 +1518,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Scapegoat [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)    \\
 			AP Cost	      	&  4				\\
@@ -1429,7 +1532,7 @@
 			Target      	&  1 Target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  3 Turns			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1458,8 +1561,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Splash Goo [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Covert (INT)\\
 			AP Cost	      	&  3				\\
@@ -1468,7 +1575,7 @@
 			Target      	&  Self	\\
 			Area of Effect  &  Huge Splash Template	 		\\
 			Duration     	&  Potency/2 hours				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1486,8 +1593,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Splash Goo [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}			
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  5				\\
@@ -1496,7 +1607,7 @@
 			Target      	&  See text	\\
 			Area of Effect  &  -	 		\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1524,8 +1635,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Splash Goo [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Covert (INT)\\
 			AP Cost	      	&  2				\\
@@ -1534,7 +1649,7 @@
 			Target      	&  -	\\
 			Area of Effect  &  Small Splash Template	 		\\
 			Duration     	&  Potency minutes				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1548,8 +1663,12 @@
 	%\addcontentsline{toc}{section}{Shield [CHA]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			& Control (CHA) 		\\
 			AP Cost	      	& 8 						\\
@@ -1558,7 +1677,7 @@
 			Target      	& Self/AoE					\\
 			Area of Effect  & Varies  	 				\\
 			Duration     	& Potency rounds			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1586,8 +1705,12 @@
 %	\addcontentsline{toc}{section}{Sleep [CHA]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			& Covert (INT) 	\\
 			AP Cost	      	& 5 				\\
@@ -1596,7 +1719,7 @@
 			Target      	& 1 Target 			\\
 			Area of Effect  & - 	 			\\
 			Duration     	& Potency min / rounds 	\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1614,8 +1737,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Splash Goo [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  4				\\
@@ -1624,7 +1751,7 @@
 			Target      	&  1 Target/area	\\
 			Area of Effect  &  See text	 		\\
 			Duration     	&  3				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1642,8 +1769,12 @@
 %	\addcontentsline{toc}{subsubsection}{Splinter Self [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Conquer (STR)\\
 			AP Cost	      	&  8				\\
@@ -1652,7 +1783,7 @@
 			Target      	&  Self	\\
 			Area of Effect  &  -	 		\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1675,8 +1806,12 @@
 %	\addcontentsline{toc}{subsubsection}{Splash Goo [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Covert (INT)\\
 			AP Cost	      	&  5				\\
@@ -1685,7 +1820,7 @@
 			Target      	&  1 Target	\\
 			Area of Effect  &  -	 		\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1712,8 +1847,12 @@
 %	\addcontentsline{toc}{subsection}{Want it, Need it [CHA]}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			& Covert (INT) 		\\
 			AP Cost	      	& 10 						\\
@@ -1722,7 +1861,7 @@
 			Target      	& -							\\
 			Area of Effect  & - 	 					\\
 			Duration     	& Potency minutes			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1794,8 +1933,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Elemental Coat [Any])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  General (Any Special)\\
 			AP Cost	      	&  4				\\
@@ -1804,7 +1947,7 @@
 			Target      	&  1 Target			\\
 			Area of Effect  &  -	 			\\
 			Duration     	&  3 Turns			\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1823,8 +1966,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Elemental Coat [Any])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  General (Any Special)\\
 			AP Cost	      	&  4					\\
@@ -1833,7 +1980,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1872,8 +2019,12 @@
 	%	\addcontentsline{toc}{section}{Air Pocket [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  4					\\
@@ -1882,7 +2033,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1912,8 +2063,12 @@
 	%	\addcontentsline{toc}{section}{Become Air [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  3					\\
@@ -1922,7 +2077,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  Small Splash	 		\\
 			Duration     	&  Potency/2 min		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1942,8 +2097,12 @@
 	%	\addcontentsline{toc}{section}{Downward Current [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  5					\\
@@ -1952,7 +2111,7 @@
 			Target      	&  See text				\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -1978,8 +2137,12 @@
 	%	\addcontentsline{toc}{section}{Eidolon's Touch [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  All					\\
@@ -1988,7 +2151,7 @@
 			Target      	&  1 target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Potency/2 rounds		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2006,8 +2169,12 @@
 	%	\addcontentsline{toc}{section}{Gale Guard [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  3					\\
@@ -2016,7 +2183,7 @@
 			Target      	&  Self					\\
 			Area of Effect  &  Tiny Splash	 		\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2028,8 +2195,12 @@
 	%	\addcontentsline{toc}{section}{Soft Light [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  3/5					\\
@@ -2038,7 +2209,7 @@
 			Target      	&  Self/up to 4 targets	\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Potency minutes		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2056,8 +2227,12 @@
 	%	\addcontentsline{toc}{section}{Telekinesis [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  2				\\
@@ -2066,7 +2241,7 @@
 			Target      	&  Varies			\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2105,8 +2280,10 @@
 			\item[20+ Potency] 		Size 4
 		\end{description}	
 	\end{quote}
+
+	\newpage
 	
-	\bigskip
+	%\bigskip
 	\noindent
 	\textbf{Precision Style:}
 	
@@ -2128,8 +2305,12 @@
 	%	\addcontentsline{toc}{section}{Wind Sickle [CHA])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Air (CHA)			\\
 			AP Cost	      	&  5					\\
@@ -2138,7 +2319,7 @@
 			Target      	&  Any					\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2167,8 +2348,12 @@
 	%	\addcontentsline{toc}{section}{Petrify [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  3					\\
@@ -2177,7 +2362,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  Small Splash	 		\\
 			Duration     	&  Potency/2 minutes	\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2191,8 +2376,12 @@
 	%	\addcontentsline{toc}{section}{Magnetize [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  5					\\
@@ -2201,7 +2390,7 @@
 			Target      	&  Up to 2 Objects		\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  5 Rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2237,8 +2426,12 @@
 	%	\addcontentsline{toc}{section}{Petrify [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  8					\\
@@ -2247,7 +2440,7 @@
 			Target      	&  1 target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Potency rounds		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2265,12 +2458,18 @@
 		\end{description}	
 	\end{quote}
 	
+	\newpage
+	
 	\subsubsection*{Pocket Sand (STR)}
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  3					\\
@@ -2279,7 +2478,7 @@
 			Target      	&  1 target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  5 rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2293,8 +2492,12 @@
 	%	\addcontentsline{toc}{section}{Purify [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  8					\\
@@ -2303,7 +2506,7 @@
 			Target      	&  1 Target/area		\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2330,14 +2533,18 @@
 	
 	Note: This spell cannot reverse the permanent effects of Taint or Pink Cloud from a target.
 	
-	\vfill
+%	\vfill
 	
 	\subsubsection*{Rolling Stone (STR)}
 	%	\addcontentsline{toc}{section}{Rolling Stone [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  5					\\
@@ -2346,7 +2553,7 @@
 			Target      	&  1 target				\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2370,14 +2577,18 @@
 	\end{quote}
 %	\medskip
 
-	\vfill
+%	\vfill
 	
 	\subsubsection*{Salt the Earth (STR)}
 	%	\addcontentsline{toc}{section}{Salt the Earth [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  4					\\
@@ -2386,7 +2597,7 @@
 			Target      	&  Area					\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  3 rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2408,8 +2619,12 @@
 	%	\addcontentsline{toc}{section}{Sovereign Obelisk [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Earth (STR)			\\
 			AP Cost	      	&  8					\\
@@ -2418,7 +2633,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  3 rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2463,8 +2678,12 @@
 	%	\addcontentsline{toc}{section}{Blaze Delivery [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  3					\\
@@ -2473,7 +2692,7 @@
 			Target      	&  See text				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2503,8 +2722,12 @@
 	%	\addcontentsline{toc}{section}{Fire Wheel [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  7					\\
@@ -2513,7 +2736,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  4 rounds		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2539,8 +2762,12 @@
 	%	\addcontentsline{toc}{section}{Golden Glow [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  4					\\
@@ -2549,7 +2776,7 @@
 			Target      	&  -					\\
 			Area of Effect  &  Small Splash	 		\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2563,8 +2790,12 @@
 	%	\addcontentsline{toc}{section}{Guiding Light [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  3					\\
@@ -2573,7 +2804,7 @@
 			Target      	&  See text				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  24 hours				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2601,8 +2832,12 @@
 	%	\addcontentsline{toc}{section}{Inner Fire [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  3					\\
@@ -2611,7 +2846,7 @@
 			Target      	&  Self					\\
 			Area of Effect  &  Small Splash	 		\\
 			Duration     	&  Potency/4 hours		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2625,8 +2860,12 @@
 	%	\addcontentsline{toc}{subsubsection}{Mirage [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  4					\\
@@ -2635,7 +2874,7 @@
 			Target      	&  1 Target/AoE			\\
 			Area of Effect  &  Small Splash	 		\\
 			Duration     	&  Potency rounds		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2659,8 +2898,12 @@
 	%	\addcontentsline{toc}{section}{Phantom Lantern [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  3					\\
@@ -2669,7 +2912,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  Large Splash	 		\\
 			Duration     	&  Potency minutes		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2679,12 +2922,18 @@
 	
 	The Phantom Lantern illuminates dark areas as if they were in bright daylight, removing visibility penalties from a Large Splash Template, which is centered on caster.
 	
+	\vfill
+	
 	\subsubsection*{Sabotage (INT)}
 	%	\addcontentsline{toc}{section}{Sabotage [INT])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Fire (INT)			\\
 			AP Cost	      	&  8					\\
@@ -2693,7 +2942,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  Tiny Splash	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2721,8 +2970,12 @@
 	%	\addcontentsline{toc}{section}{Chilblain [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  3					\\
@@ -2731,7 +2984,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  2 Rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2749,8 +3002,12 @@
 	%	\addcontentsline{toc}{section}{Rain Shine's Springwalk [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  3					\\
@@ -2759,7 +3016,7 @@
 			Target      	&  Self					\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2778,8 +3035,12 @@
 	%	\addcontentsline{toc}{section}{Silver Rain [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  10					\\
@@ -2788,7 +3049,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  See text	 			\\
 			Duration     	&  4 rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2814,8 +3075,12 @@
 	%	\addcontentsline{toc}{section}{Steady Walk [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  4					\\
@@ -2824,7 +3089,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  Varies		\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2849,8 +3114,12 @@
 	%	\addcontentsline{toc}{section}{Toxic Spray [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  5					\\
@@ -2859,7 +3128,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  3 Rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2892,8 +3161,12 @@
 	%	\addcontentsline{toc}{section}{Water Whip [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  5					\\
@@ -2902,7 +3175,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 		            \\
 			Duration     	&  Instant				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2925,8 +3198,12 @@
 	%	\addcontentsline{toc}{section}{Windigo's Favor [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  4					\\
@@ -2935,7 +3212,7 @@
 			Target      	&  1 Target				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  3 Rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -2959,8 +3236,12 @@
 	%	\addcontentsline{toc}{section}{Wintry Veil [PER])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Water (PER)			\\
 			AP Cost	      	&  6					\\
@@ -2969,7 +3250,7 @@
 			Target      	&  Self					\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  3 rounds				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3035,8 +3316,12 @@
 	%	\addcontentsline{toc}{section}{Challenge Chant}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
@@ -3045,7 +3330,7 @@
 			Target      	&  All enemies in range				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3076,8 +3361,12 @@
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  7					\\
@@ -3086,7 +3375,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3101,8 +3390,12 @@
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  -					\\
@@ -3111,7 +3404,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3136,8 +3429,12 @@
 	%	\addcontentsline{toc}{section}{Nightmare Chant}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  8					\\
@@ -3146,7 +3443,7 @@
 			Target      	&  All enemies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3168,8 +3465,12 @@
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  All					\\
@@ -3178,7 +3479,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3195,8 +3496,12 @@
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  10					\\
@@ -3205,7 +3510,7 @@
 			Target      	&  All enemies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3229,13 +3534,18 @@
 	
 	For each turn the chanter continues the chant, those not affected have to roll to check if they fall under the influence again.
 	
-	
+	\vfill
+		
 	\subsubsection*{Tranquil Chant}
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
@@ -3244,7 +3554,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3264,14 +3574,18 @@
 	
 	The spell costs 5 AP and 2 Strain to initiate, and has a cumulative +1 to AP cost for each turn the spell is maintained (2nd turn: 6 AP, 3rd turn: 7 AP, 4th turn: 8 AP...). Maintaining the spell doesn't cost Strain. 
 	
-%	\vfill
+	\vfill
 	
 	\subsubsection*{Volley Chant}
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  7					\\
@@ -3280,7 +3594,7 @@
 			Target      	&  Allies				\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	
@@ -3296,8 +3610,12 @@
 	%	\addcontentsline{toc}{section}{Pocket Sand [STR])}
 	% Table
 	{
-		\rowcolors{1}{gray!30}{gray!10}
-		\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+		\begin{tblr}
+			[caption={Spell Info List}, entry=none, label=none]
+			{			
+				colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+				row{odd} = {gray!30}, row{even} = {gray!10},
+			}
 			\hline
 			School 			&  Yak Chant (STR/CHA)			\\
 			AP Cost	      	&  5					\\
@@ -3306,7 +3624,7 @@
 			Target      	&  Allies			\\
 			Area of Effect  &  -	 				\\
 			Duration     	&  See text				\\ \hline
-		\end{tabu}
+		\end{tblr}
 		
 	}
 	

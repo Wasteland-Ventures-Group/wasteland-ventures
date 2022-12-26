@@ -11,7 +11,7 @@
 \usepackage{multirow}
 \usepackage{paralist}
 \usepackage{longtable}
-\usepackage{tabu}
+\usepackage{tabularray}
 \usepackage{soul}
 \usepackage{titling}
 \usepackage{pdfpages}
@@ -43,7 +43,7 @@
 	Token HP \& Status rule bases by LZ
 	
 	\bigskip		
-	\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis
+	\textbf{Playtesting and Advice:} LZ, Moonlight Grimoire, Mittens, Kittyfluff, Ray\_Lionheart, f1r3w4rr10r, Tierney Kelly, Eden, Kendallkun, Pesian, Raven, dumbhat, GODOG, Borealis, Etymologically Correct Filly
 	
 	\bigskip
 	\textbf{Cover and Graphics:} SourCherry
@@ -63,7 +63,7 @@
 \vfill
 
 \begin{center}
-	\textbf{Version 2.3.1}
+	\textbf{Version 2.4.0}
 	
 	\emph{Last compiled on \thedate}
 	
@@ -129,21 +129,29 @@ Basic Maneuvers are the maneuvers every flying character can learn, or has learn
 \subsection*{Buccaneer Blaze}
 \addcontentsline{toc}{subsection}{Buccaneer Blaze}
 
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
-		\hline
-		School 			& Agility (AGI) \\
-		AP Cost	      	& 10 			\\
-		Strain Cost     & 4 			\\
-		Range     		& Huge Splash 	\\
-		Target      	& AoE 			\\
-		Area of Effect  & Small Splash 	\\
-		Duration     	& Instant 		\\
-		Position After  & On Ground     \\ \hline
-	\end{tabu}
-	
-}
+
+\begin{tblr}
+	[
+	caption={Spell Info List},
+	entry=none,
+	label=none
+	]
+	{			
+		colspec = {| X[l,4] | X[l,7] |},
+		rowhead = 1,
+		row{odd} = {gray!30}, row{even} = {gray!10},
+	}
+	\hline
+	School 			& Agility (AGI) \\
+	AP Cost	      	& 10 			\\
+	Strain Cost     & 4 			\\
+	Range     		& Huge Splash 	\\
+	Target      	& AoE 			\\
+	Area of Effect  & Small Splash 	\\
+	Duration     	& Instant 		\\
+	Position After  & On Ground     \\ \hline
+\end{tblr}
+
 
 \medskip
 The flier flies around a cloud in top speed, gathering electricity  and then dives towards enemy at neck-breaking speed. When the character comes to a halt, she releases an Area of Effect - lightning attack on a Small Splash Template.
@@ -165,9 +173,17 @@ The distance the character can dive to is within a Huge Splash Template from her
 \subsection*{Contrail}
 \addcontentsline{toc}{subsection}{Contrail}
 %Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Agility (AGI) 	\\
 		AP Cost	      	& Movement 			\\
@@ -177,9 +193,8 @@ The distance the character can dive to is within a Huge Splash Template from her
 		Area of Effect  & - 	 			\\
 		Duration     	& 2 Rounds 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -201,9 +216,18 @@ The flier dashes fast enough to create a contrail behind them while flying low e
 \subsection*{Creeping Barrage}
 \addcontentsline{toc}{subsection}{Creeping Barrage}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Agility (AGI) 	\\
 		AP Cost	      	& 5 + Weapon 		\\
@@ -213,9 +237,9 @@ The flier dashes fast enough to create a contrail behind them while flying low e
 		Area of Effect  & Line, [Potency]*2 meters 	 	\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
+	\end{tblr}
 	
-}
+
 
 \medskip
 
@@ -230,9 +254,17 @@ If the Thaumaturgy roll fails, the flier ends up on the ground while knocked pro
 \subsection*{Hightail Sweep}
 \addcontentsline{toc}{subsection}{Hightail Sweep}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Agility (AGI) 	\\
 		AP Cost	      	& 5 				\\
@@ -242,10 +274,8 @@ If the Thaumaturgy roll fails, the flier ends up on the ground while knocked pro
 		Area of Effect  & Small Splash 	 	\\
 		Duration     	& 2 Rounds 	 			\\
 		Position After  & On the ground 	\\ \hline
-	\end{tabu}
+	\end{tblr}
 	
-}
-
 \medskip
 
 The flier makes a quick flip on the spot, whipping up a dust cloud with their wings once they right themselves. 
@@ -260,14 +290,23 @@ The maneuver creates a cloud adjacent to the target, the size of which is a Smal
 	\end{description}
 \end{quote}
 
-%\vfill
+\vfill
 
 \subsection*{Tornado}
 \addcontentsline{toc}{subsection}{Tornado}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Agility (AGI) 	\\
 		AP Cost	      	& Attack	 		\\
@@ -277,9 +316,9 @@ The maneuver creates a cloud adjacent to the target, the size of which is a Smal
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & Start 			\\ \hline
-	\end{tabu}
+	\end{tblr}
 	
-}
+
 
 \medskip
 
@@ -294,9 +333,18 @@ This Maneuver does not provoke attacks of opportunity.
 \subsection*{Weave Defense}
 \addcontentsline{toc}{subsection}{Weave Defense}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Agility (AGI) \\
 		AP Cost        & 3             \\
@@ -306,9 +354,7 @@ This Maneuver does not provoke attacks of opportunity.
 		Area of Effect & -             \\
 		Duration       & 2 Rounds      \\
 		Position After & In air        \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -324,7 +370,7 @@ All enemies that target her during this maneuver's duration gain a Distraction p
 	\end{description}
 \end{quote}
 
-\vfill
+%\vfill
 
 
 \section*{Charisma Maneuvers} 
@@ -333,9 +379,18 @@ All enemies that target her during this maneuver's duration gain a Distraction p
 \subsection*{Cloud Manipulation}
 \addcontentsline{toc}{subsection}{Cloud Manipulation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 5 				\\
@@ -345,9 +400,8 @@ All enemies that target her during this maneuver's duration gain a Distraction p
 		Area of Effect  & Varies 			\\
 		Duration     	& Instant 			\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 The flyer can manipulate clouds to different effects, such as causing momentary weather effects or striking all enemies with lightning-bolts. Thaumaturgy roll is used to determine success. Area of effect is determined by the flier's Potency as shown below: 
@@ -371,14 +425,24 @@ The flyer can manipulate clouds to different effects, such as causing momentary 
 \noindent
 Lightning bolts and hail deal 1+(3) damage.
 
-\medskip
+%\medskip
+\vfill
 
 \subsection*{Defog Twirl}
 \addcontentsline{toc}{subsection}{Defog Twirl}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 4			 		\\
@@ -388,9 +452,7 @@ Lightning bolts and hail deal 1+(3) damage.
 		Area of Effect  & Varies (Potency) 	\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -409,9 +471,18 @@ Flier makes a dainty twirl near the ground, dispelling fog, poisonous clouds or 
 \subsection*{Fantastic Flash}
 \addcontentsline{toc}{subsection}{Fantastic Flash [CHA]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 5 				\\
@@ -421,9 +492,7 @@ Flier makes a dainty twirl near the ground, dispelling fog, poisonous clouds or 
 		Area of Effect  & - 	 			\\
 		Duration     	& 2 Rounds	 		\\
 		Position After  & In air, adjacent to target 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -442,14 +511,23 @@ If the Thaumaturgy roll fails, the character remains in air, but the effects of 
 \end{quote}
 
 \medskip
-\vfill
+%\vfill
 
 \subsection*{Fire Trail}
 \addcontentsline{toc}{subsection}{Fire Trail}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 3 	 		    \\
@@ -459,9 +537,7 @@ If the Thaumaturgy roll fails, the character remains in air, but the effects of 
 		Area of Effect  & Line 	            \\
 		Duration     	& Potency/2 turns 	\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -471,14 +547,23 @@ After successfully starting this maneuver, any movement the flier makes until th
 
 A successful Thaumaturgy roll is required to perform this Maneuver.
 
-%\newpage
+\newpage
 
 \subsection*{Sun Celebration}
 \addcontentsline{toc}{subsection}{Sun Celebration}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 5/6 				\\
@@ -488,9 +573,8 @@ A successful Thaumaturgy roll is required to perform this Maneuver.
 		Area of Effect  & - 	 			\\
 		Duration     	& 2 Turns 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -512,9 +596,18 @@ As her second action, she positions herself in front of the sun in a bright disp
 \subsection*{Tactical Weather Manipulation}
 \addcontentsline{toc}{subsection}{Tactical Weather Manipulation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 3 				\\
@@ -524,9 +617,8 @@ As her second action, she positions herself in front of the sun in a bright disp
 		Area of Effect  & Varies 	 		\\
 		Duration     	& Potency Rounds	\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -540,7 +632,7 @@ Flier can further worsen or improve the weather conditions, making visibility in
 	\end{description}
 \end{quote}
 
-\vfill
+%\vfill
 
 
 
@@ -551,9 +643,18 @@ Flier can further worsen or improve the weather conditions, making visibility in
 \subsection*{Defensive Spiral}
 \addcontentsline{toc}{subsection}{Defensive Spiral}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 10 				\\
@@ -563,9 +664,8 @@ Flier can further worsen or improve the weather conditions, making visibility in
 		Area of Effect  & Varies (Potency)	\\
 		Duration     	& 1 round	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -585,7 +685,7 @@ GM decides the direction a failed maneuverer flies towards with a roll of the di
 
 The flier can maintain this Spiral for a single turn, and must rest their wings for the next turn - they cannot perform maneuvers but can still otherwise act.
 
-\vfill
+%\vfill
 
 
 
@@ -593,9 +693,18 @@ The flier can maintain this Spiral for a single turn, and must rest their wings 
 \subsection*{Dirt Drag}
 \addcontentsline{toc}{subsection}{Dirt Drag}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 10 				\\
@@ -605,9 +714,8 @@ The flier can maintain this Spiral for a single turn, and must rest their wings 
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air, adjacent to target  			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -628,9 +736,18 @@ This maneuver requires a successful opposed roll of flier's Thaumaturgy against 
 \subsection*{Divebomb}
 \addcontentsline{toc}{subsection}{Divebomb}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 10 				\\
@@ -640,9 +757,8 @@ This maneuver requires a successful opposed roll of flier's Thaumaturgy against 
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & Adjacent to target 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -665,9 +781,17 @@ This maneuver requires a successful Thaumaturgy roll as well as either Melee or 
 \addcontentsline{toc}{subsection}{Plummet}
 % Table
 
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 8					\\
@@ -677,8 +801,7 @@ This maneuver requires a successful Thaumaturgy roll as well as either Melee or 
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-}
+	\end{tblr}
 
 \medskip
 
@@ -695,14 +818,21 @@ The target takes 3+(4) damage, and ends up Prone on the ground. The flier's \tex
 \end{quote}
 
 
-\vfill
+%\vfill
 
 \subsection*{Sonic Rain-Nuke}
 \addcontentsline{toc}{subsection}{Sonic Rain-Nuke}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 8 				\\
@@ -712,9 +842,8 @@ The target takes 3+(4) damage, and ends up Prone on the ground. The flier's \tex
 		Area of Effect  & Large Splash 	 	\\
 		Duration     	& Instant 	 		\\
 		Position After  & On the ground 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -743,9 +872,17 @@ If the flier is a ghoul, they inflict an additional 1 Rad at 3x40\% alongside th
 \subsection*{Twister}
 \addcontentsline{toc}{subsection}{Twister}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Endurance (END) 	\\
 		AP Cost	      	& 10 				\\
@@ -755,9 +892,7 @@ If the flier is a ghoul, they inflict an additional 1 Rad at 3x40\% alongside th
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & Target's original position 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -789,13 +924,21 @@ Deals 1+(3) damage to the target and anything they hit, and the flier's Potency 
 
 These maneuvers are for experts, requiring expertise and know-how to properly pull off without causing injuries to oneself. Unlike basic maneuvers, these maneuvers are divided into two categories, Wonderbolt and Talon, exclusive to pegasi and griffins respectively. Characters can start properly learning them after reaching level 10, and when learning or executing these maneuvers the flier can choose to go with \textbf{Agility}, \textbf{Charisma}, or \textbf{Endurance} style.
 
-\vfill
+%\vfill
 \subsection*{Blackwing's Mettle}
 \addcontentsline{toc}{subsection}{Blackwing's Mettle}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Talon (AGI/END/CHA) 			\\
 		AP Cost	      	& 6 				\\
@@ -805,9 +948,8 @@ These maneuvers are for experts, requiring expertise and know-how to properly pu
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/3 turns 	 \\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -822,9 +964,17 @@ This Aerial Maneuver provides +10 to all combat skills to the allies, but doesn'
 \subsection*{Carrion's Blight}
 \addcontentsline{toc}{subsection}{Carrion's Blight}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Talon (AGI/END/CHA)			\\
 		AP Cost	      	& 9 				\\
@@ -834,8 +984,7 @@ This Aerial Maneuver provides +10 to all combat skills to the allies, but doesn'
 		Area of Effect  & Varies 	 	\\
 		Duration     	& 3 Rounds	 	\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-}
+	\end{tblr}
 
 \medskip
 
@@ -859,9 +1008,17 @@ If Flier is a ghoul, Radiation is also emitted, with 2 Rads at 2x60\%. This also
 \subsection*{Commander Easyglider's Esprit de Corps}
 \addcontentsline{toc}{subsection}{Commander Easyglider's Esprit de Corps}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA) 		\\
 		AP Cost	      	& 10 				\\
@@ -871,8 +1028,8 @@ If Flier is a ghoul, Radiation is also emitted, with 2 Rads at 2x60\%. This also
 		Area of Effect  & Large Splash 	 	\\
 		Duration     	& Potency/4 rounds	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-}
+	\end{tblr}
+
 
 \medskip
 
@@ -886,15 +1043,23 @@ Before executing the maneuver, the flier must decide if they want to boost their
 	\item If the Thaumaturgy roll is unsuccessful, everyone, including the Flier, in the Large Splash Template suffer a Minor Distraction.
 \end{itemize}
 
-%\vfill
+\vfill
 
 
 \subsection*{Fleetfoot's Fix-it-up}
 \addcontentsline{toc}{subsection}{Fleetfoot's Fix-it-up}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA)		\\
 		AP Cost	      	& 6 				\\
@@ -904,9 +1069,7 @@ Before executing the maneuver, the flier must decide if they want to boost their
 		Area of Effect  & -	 				\\
 		Duration     	& Potency/2 rounds	 	\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -921,9 +1084,17 @@ On a success, the flier ignores one Crippled limb penalty of her choosing for an
 \subsection*{Gawd's Glorious Featherbedding}
 \addcontentsline{toc}{subsection}{Gawd's Glorious Featherbedding}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Talon (AGI/END/CHA)			\\
 		AP Cost	      	& 10 				\\
@@ -933,9 +1104,7 @@ On a success, the flier ignores one Crippled limb penalty of her choosing for an
 		Area of Effect  & Huge Splash 	 	\\
 		Duration     	& Potency/4 Rounds 	\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -943,14 +1112,22 @@ The Flier makes a grand display of agile and charming, enticing movements, givin
 
 On a success, the flier grants a bonus of +10 to all SPECIAL and Skill rolls for Potency/4 amount of turns to everyone in Huge Splash Template. A failed roll instead causes a Minor Distraction to all allies within Huge Splash Template.
 
-\vfill
+%\vfill
 
 \subsection*{General Firefly's Double Inside-Out Loop}
 \addcontentsline{toc}{subsection}{General Firefly's Double Inside-Out Loop}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA) 		\\
 		AP Cost	      	& 5+ Weapon		    \\
@@ -960,9 +1137,7 @@ On a success, the flier grants a bonus of +10 to all SPECIAL and Skill rolls for
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -981,14 +1156,22 @@ In addition, the damage gets a boost depending on the caster's Potency:
 	\end{description}
 \end{quote}
 
-%\vfill
+\vfill
 
 \subsection*{Gilda's Feline Frenzium Furiatus}
 \addcontentsline{toc}{subsection}{Gilda's Feline Frenzium Furiatus}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Talon (AGI/END/CHA)			\\
 		AP Cost	      	& See text   	\\
@@ -998,9 +1181,7 @@ In addition, the damage gets a boost depending on the caster's Potency:
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1018,14 +1199,22 @@ At the end of her turn, the flier can choose to continue the maneuver on her nex
 	\end{description}
 \end{quote}
 
-%\vfill
+\vfill
 
 \subsection*{Henrietta's Threatful Bravura}
 \addcontentsline{toc}{subsection}{Henrietta's Threatful Bravura}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Talon (AGI/END/CHA)			\\
 		AP Cost	      	& 10                \\
@@ -1035,9 +1224,7 @@ At the end of her turn, the flier can choose to continue the maneuver on her nex
 		Area of Effect  & Large Splash 	 	\\
 		Duration     	& 1 Round	 			\\
 		Position After  & On the ground 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1055,13 +1242,21 @@ The targets' END resistance depends on the flier's Potency as follows:
 	\end{description}
 \end{quote}
 
-%\vfill
+\vfill
 
 \subsection*{Rainbow Dash's Sonic Rainboom}
 \addcontentsline{toc}{subsection}{Rainbow Dash's Sonic Rainboom}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA)		\\
 		AP Cost	      	& 10 				\\
@@ -1071,9 +1266,7 @@ The targets' END resistance depends on the flier's Potency as follows:
 		Area of Effect  & Huge Splash 	 	\\
 		Duration     	& Instant 	 		\\
 		Position After  & In air 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1094,9 +1287,17 @@ The attack deals 4+(5) damage, with the flier's Potency determining additional d
 \subsection*{Spitfire's Icarian Sun Salutation}
 \addcontentsline{toc}{subsection}{Spitfire's Icarian Sun Salutation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA)		\\
 		AP Cost	      	& 10 		\\
@@ -1106,9 +1307,7 @@ The attack deals 4+(5) damage, with the flier's Potency determining additional d
 		Area of Effect  & Small Splash 	 	\\
 		Duration     	& Instant 	 		\\
 		Position After  & Adjacent to target 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1129,9 +1328,17 @@ When successfully performing this maneuver, the initial opponent takes 2+(5) dam
 \subsection*{Surprise's Sneak Sweep}
 \addcontentsline{toc}{subsection}{Surprise's Sneak Sweep}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}		
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Wonderbolt (AGI/END/CHA)		\\
 		AP Cost	      	& 8 				\\
@@ -1141,9 +1348,7 @@ When successfully performing this maneuver, the initial opponent takes 2+(5) dam
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 	 		\\
 		Position After  & Ground 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1169,9 +1374,17 @@ The Earth Pony magic is divided in three branches: \textbf{Charm}, \textbf{Sight
 \subsection*{Cheer}
 \addcontentsline{toc}{subsection}{Cheer}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 4 				\\
@@ -1180,9 +1393,7 @@ The Earth Pony magic is divided in three branches: \textbf{Charm}, \textbf{Sight
 		Target      	& Allies 			\\
 		Area of Effect  & -	 			\\
 		Duration     	& 3 turns 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1209,9 +1420,17 @@ A new Cheer-bonus given to a character will replace the old one.
 \subsection*{Comforting Words}
 \addcontentsline{toc}{subsection}{Comforting Words}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 3 				\\
@@ -1220,9 +1439,7 @@ A new Cheer-bonus given to a character will replace the old one.
 		Target      	& 1 Target 			\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant		 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1241,9 +1458,17 @@ If the Insanity-lowering effect is used on an opponent, a CHA Opposed roll is re
 \subsection*{Enhance Plant}
 \addcontentsline{toc}{subsection}{Enhance Plant}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 5 				\\
@@ -1252,9 +1477,7 @@ If the Insanity-lowering effect is used on an opponent, a CHA Opposed roll is re
 		Target      	& See text 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& - 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1282,9 +1505,17 @@ Character can only have a limited number of enchanted plants, and if she wishes 
 \subsection*{Healing Hooves}
 \addcontentsline{toc}{subsection}{Healing Hooves}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 10 				\\
@@ -1293,9 +1524,7 @@ Character can only have a limited number of enchanted plants, and if she wishes 
 		Target      	& 1 Ally 			\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/2 turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1331,13 +1560,22 @@ The following boons have a duration, and their penalties will return once the sp
 
 A successful Thaumaturgy roll is required for casting this spell.
 
+\vfill
 
 \subsection*{Inner Circle}
 \addcontentsline{toc}{subsection}{Inner Circle}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& +2 AP to attached spell 				\\
@@ -1346,9 +1584,7 @@ A successful Thaumaturgy roll is required for casting this spell.
 		Target      	& - 				\\
 		Area of Effect  & Varies 	\\
 		Duration     	& 3 turns 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1368,9 +1604,17 @@ The area of effect is determined by the caster's Potency:
 \subsection*{Plant Calling}
 \addcontentsline{toc}{subsection}{Plant Calling}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 8 				\\
@@ -1379,9 +1623,7 @@ The area of effect is determined by the caster's Potency:
 		Target      	& 1 	\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/2 turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1394,9 +1636,17 @@ After the spell ends, the plant disappears.
 \subsection*{Sound Mind}
 \addcontentsline{toc}{subsection}{Sound Mind}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Charisma (CHA) 	\\
 		AP Cost	      	& 8 				\\
@@ -1405,9 +1655,7 @@ After the spell ends, the plant disappears.
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency*2 minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1418,9 +1666,17 @@ The caster's chance of gaining an Insanity point is halved from 20\% to 10\% for
 \subsection*{Adrenaline Rush}
 \addcontentsline{toc}{subsection}{Adrenaline Rush}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 5 				\\
@@ -1429,9 +1685,7 @@ The caster's chance of gaining an Insanity point is halved from 20\% to 10\% for
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/3 turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1441,14 +1695,22 @@ After the duration of the spell ends, the Pain Threshold status returns along wi
 
 This spell can only be done once per combat.
 
-\vfill
+%\vfill
 
 \subsection*{Crash this Barn}
 \addcontentsline{toc}{subsection}{Crash this Barn}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 5 				\\
@@ -1457,9 +1719,7 @@ This spell can only be done once per combat.
 		Target      	& AoE 				\\
 		Area of Effect  & See text 	 		\\
 		Duration     	& Instant 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1482,9 +1742,17 @@ Only covers with 3 DT or under can be destroyed. Covers stronger than that suffe
 \subsection*{Enchanted Hooves}
 \addcontentsline{toc}{subsection}{Enchanted Hooves}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 5 				\\
@@ -1493,9 +1761,7 @@ Only covers with 3 DT or under can be destroyed. Covers stronger than that suffe
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency minutes 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1506,9 +1772,17 @@ On a success, the earth pony ignores the +1 AP cost of Difficult Terrain and Mov
 \subsection*{Fortify}
 \addcontentsline{toc}{subsection}{Fortify}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 5 				\\
@@ -1517,9 +1791,7 @@ On a success, the earth pony ignores the +1 AP cost of Difficult Terrain and Mov
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/2 turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1542,9 +1814,17 @@ Should the caster choose to cast the spell again before the duration runs out, t
 \subsection*{Mend}
 \addcontentsline{toc}{subsection}{Mend}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 10 				\\
@@ -1553,9 +1833,7 @@ Should the caster choose to cast the spell again before the duration runs out, t
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& 24 hours 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1580,9 +1858,17 @@ The number of extra HP tokens healed with Natural Healing is determined by the c
 \subsection*{Overgrow}
 \addcontentsline{toc}{subsection}{Overgrow}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Strength (STR)        \\
 		AP Cost        & 6                     \\
@@ -1591,9 +1877,7 @@ The number of extra HP tokens healed with Natural Healing is determined by the c
 		Target         & -                     \\
 		Area of Effect & Large Splash Template \\
 		Duration       & 5 Rounds              \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1605,14 +1889,22 @@ In addition, any creature between Size -2 and +2 has to make an Opposed STR roll
 
 Sizes 3-4 trample over the plants while sizes -3 to -4 simply slip through. When the spell ends, the plants return to their normal size.
 
-\vfill
+%\vfill
 
 \subsection*{Protection of the Earth}
 \addcontentsline{toc}{subsection}{Protection of the Earth}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 6 				\\
@@ -1621,9 +1913,7 @@ Sizes 3-4 trample over the plants while sizes -3 to -4 simply slip through. When
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency minutes 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1635,10 +1925,17 @@ The caster becomes temporarily immune to physical status effects for Potency num
 
 \subsection*{Rooted}
 \addcontentsline{toc}{subsection}{Rooted}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 7 				\\
@@ -1647,22 +1944,28 @@ The caster becomes temporarily immune to physical status effects for Potency num
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency/2 turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
 The earth pony sinks their hooves into the earth for [Potency]/2 turns, making them immune to trip attempts against them, but cannot use movement or any actions that require limbs unless they end the spell. Enemies Size 3 and larger suffer a -10 to their Unarmed for their Trip attempts instead.
 
-\vfill
+%\vfill
 
 \subsection*{Stone Shield}
 \addcontentsline{toc}{subsection}{Stone Shield}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Strength (STR) 	\\
 		AP Cost	      	& 8 				\\
@@ -1671,12 +1974,13 @@ The earth pony sinks their hooves into the earth for [Potency]/2 turns, making t
 		Target      	& - 				\\
 		Area of Effect  & 4 meters 	 		\\
 		Duration     	& - 				\\ \hline
-	\end{tabu}
-}
+	\end{tblr}
 
 \medskip
 
 The caster kicks the ground to release a small tremor in the earth, to raise up a platform to create a cover made from stone. This cover has a DT of 2. The caster's Potency gives the Cover extra DT as follows:
+
+\newpage
 
 \begin{quote}
 	\begin{description}
@@ -1709,9 +2013,17 @@ A successful Thaumaturgy roll is required for casting this spell.
 \subsection*{Earthly Warning}
 \addcontentsline{toc}{subsection}{Earthly Warning}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER)	\\
 		AP Cost	      	& 6 				\\
@@ -1720,9 +2032,7 @@ A successful Thaumaturgy roll is required for casting this spell.
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency minutes 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1739,9 +2049,17 @@ Outside of combat, this spell gives a +1 to AGI to dodge falling objects or crea
 \subsection*{Find Poison}
 \addcontentsline{toc}{subsection}{Find Poison}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& 1 				\\
@@ -1750,9 +2068,7 @@ Outside of combat, this spell gives a +1 to AGI to dodge falling objects or crea
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency*2 min 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1767,9 +2083,17 @@ A successful Thaumaturgy roll is required for casting this spell.
 \subsection*{Improve Obstacle}
 \addcontentsline{toc}{subsection}{Improve Obstacle}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& 7 				\\
@@ -1778,9 +2102,7 @@ A successful Thaumaturgy roll is required for casting this spell.
 		Target      	& Cover/Obstacle 	\\
 		Area of Effect  & - 	 			\\
 		Duration     	& 3 Rounds 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1802,9 +2124,17 @@ The amount of DT that the Earth Pony can improve the cover with is dependent on 
 \subsection*{Scrutinizing Gaze}
 \addcontentsline{toc}{subsection}{Scrutinizing Gaze}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& 5 				\\
@@ -1813,9 +2143,7 @@ The amount of DT that the Earth Pony can improve the cover with is dependent on 
 		Target      	& Self				\\
 		Area of Effect  & - 	 		\\
 		Duration     	& 4 turns / 4 hours 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1879,9 +2207,17 @@ A new effect given with this spell replaces the old one.
 \subsection*{Seismic Sight}
 \addcontentsline{toc}{subsection}{Seismic Sight}
 %Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& See text 				\\
@@ -1890,8 +2226,7 @@ A new effect given with this spell replaces the old one.
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& [Potency] minutes \\ \hline
-	\end{tabu}
-}
+	\end{tblr}
 
 \medskip
 
@@ -1907,9 +2242,17 @@ The caster has to have at least one hoof on the ground for the spell to work.
 \subsection*{Smart Cookie's Invocation}
 \addcontentsline{toc}{subsection}{Smart Cookie's Invocation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& 7 				\\
@@ -1918,9 +2261,7 @@ The caster has to have at least one hoof on the ground for the spell to work.
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Varies 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1944,9 +2285,17 @@ A successful Thaumaturgy roll is required for casting this spell.
 \subsection*{Threatening Gaze}
 \addcontentsline{toc}{subsection}{Threatening Gaze}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[
+		caption={Spell Info List},
+		entry=none,
+		label=none
+		]
+		{			
+			colspec = {| X[l,4] | X[l,7] |},
+			rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 	\\
 		AP Cost	      	& 7 				\\
@@ -1955,9 +2304,7 @@ A successful Thaumaturgy roll is required for casting this spell.
 		Target      	& 1 Target				\\
 		Area of Effect  & - 	 		\\
 		Duration     	& 2 turns 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -1992,7 +2339,7 @@ The range of this spell, centered on caster, is determined by the caster's poten
 \chapter{Unicorn Magic}
 
 \begin{quote}
-	\emph{``From Star Swirl to a certain Ministry Mare of fairly ill reputation, unicorns have always been the apex of magical might! Most of us heh, of good intentions, despite uh... our impressive world record on uhm... world domination and evil. Can... can we maybe start this again? Fact is, unicorns hold a lot of power in shaping the world.''}
+	\emph{``From Star Swirl to a certain Ministry Mare of fairly ill reputation, unicorns have always been the apex of magical might! Most of us heh, have good intentions, despite uh... our impressive world record on uhm... world domination and evil. Can... can we maybe start this again? Fact is, unicorns hold a lot of power in shaping the world.''}
 	
 	\emph{- Lorem Ipsum, Writer, 4 BS\&R}
 \end{quote}
@@ -2020,9 +2367,12 @@ Unicorn magic is divided into several schools: \textbf{General}, \textbf{Conjura
 \subsection*{\#1 Assitant}
 \addcontentsline{toc}{subsection}{\#1 Assistant}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 	\\
 		AP Cost	      	& - 				\\
@@ -2031,9 +2381,7 @@ Unicorn magic is divided into several schools: \textbf{General}, \textbf{Conjura
 		Target      	& Self 				\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Permanent 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2054,9 +2402,12 @@ If this spell is acquired at some point during a campaign, it is up to the GM wh
 \subsection*{Arcane Mark}
 \addcontentsline{toc}{subsection}{Arcane Mark}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) \\
 		AP Cost	      	& 1 					\\
@@ -2065,9 +2416,7 @@ If this spell is acquired at some point during a campaign, it is up to the GM wh
 		Target      	& 1 entity or surface 	\\
 		Area of Effect  & Large Splash 	 		\\
 		Duration     	& Potency days 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2094,10 +2443,12 @@ The caster can have up to 4 Arcane Marks at a time.
 \subsection*{Bonds Of Friendship}
 \addcontentsline{toc}{subsection}{Bonds Of Friendship}
 % Table
-
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 	\\
 		AP Cost	      	& 4 					\\
@@ -2106,9 +2457,7 @@ The caster can have up to 4 Arcane Marks at a time.
 		Target      	& Up to 4 allies			\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2125,9 +2474,12 @@ Upon casting this spell, the caster creates invisible magical connections betwee
 \subsection*{Light}
 \addcontentsline{toc}{subsection}{Light}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any one SPECIAL) 		\\
 		AP Cost	      	& 1 								\\
@@ -2136,9 +2488,7 @@ Upon casting this spell, the caster creates invisible magical connections betwee
 		Target      	& AoE								\\
 		Area of Effect  & Small Splash  	 					\\
 		Duration     	& 1 Hour							\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2153,9 +2503,12 @@ The caster's horn becomes a dazzling beacon of light, brightly illuminating an a
 \subsection*{Mage's Bulwark}
 \addcontentsline{toc}{subsection}{Mage's Bulwark}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 	\\
 		AP Cost	      	& 5 					\\
@@ -2164,9 +2517,7 @@ The caster's horn becomes a dazzling beacon of light, brightly illuminating an a
 		Target      	& Self					\\
 		Area of Effect  & Tiny Splash  	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2192,9 +2543,12 @@ The amount of additional DT gained depends on the caster's Potency:
 \subsection*{Power of Friendship}
 \addcontentsline{toc}{subsection}{Power of Friendship}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 	\\
 		AP Cost	      	& 6 					\\
@@ -2203,9 +2557,7 @@ The amount of additional DT gained depends on the caster's Potency:
 		Target      	& Up to 4 allies		\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2218,9 +2570,12 @@ This spell will modify the effect of the next Healing or Protective spell's effe
 \subsection*{Telekinesis}
 \addcontentsline{toc}{subsection}{Telekinesis}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 		\\
 		AP Cost	      	& 2 						\\
@@ -2229,9 +2584,7 @@ This spell will modify the effect of the next Healing or Protective spell's effe
 		Target      	& Varies					\\
 		Area of Effect  & - 	 						\\
 		Duration     	& See text					\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2286,9 +2639,12 @@ Potency determines the maximum amount of items the caster can levitate:
 \subsection*{Teleport}
 \addcontentsline{toc}{subsection}{Teleport}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& General (Any SPECIAL) 		\\
 		AP Cost	      	& 6 						    \\
@@ -2297,9 +2653,7 @@ Potency determines the maximum amount of items the caster can levitate:
 		Target      	& 1/Multiple					\\
 		Area of Effect  & - 	 						\\
 		Duration     	& Instant						\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2333,9 +2687,12 @@ Especially long distance Teleport (beyond above mentioned meters determined by P
 \subsection*{Arcane Blast}
 \addcontentsline{toc}{subsection}{Arcane Blast}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT) \\
 		AP Cost	      	& 4 				\\
@@ -2344,9 +2701,7 @@ Especially long distance Teleport (beyond above mentioned meters determined by P
 		Target      	& 1 Target 			\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Instant 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2382,9 +2737,12 @@ When casting, the caster denotes what element she uses with her Arcane Blast. Th
 \subsection*{Bend Surface}
 \addcontentsline{toc}{subsection}{Bend Surface}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT) 	\\
 		AP Cost	      	& 4 					\\
@@ -2393,9 +2751,7 @@ When casting, the caster denotes what element she uses with her Arcane Blast. Th
 		Target      	& 1 surface 			\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Permanent				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2410,9 +2766,12 @@ Upon casting, new surface up to Potency meters in one dimension can be created. 
 \subsection*{Call Object}
 \addcontentsline{toc}{subsection}{Call Object}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT) 	\\
 		AP Cost	      	& See description 		\\
@@ -2421,9 +2780,7 @@ Upon casting, new surface up to Potency meters in one dimension can be created. 
 		Target      	& 1 object 				\\
 		Area of Effect  & -	 					\\
 		Duration     	& Instant 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2451,9 +2808,12 @@ The spell lasts on the object until summoned by the caster, after which the spel
 \subsection*{Eldritch Knives}
 \addcontentsline{toc}{subsection}{Eldritch Knives}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration 			\\
 		AP Cost	      	& 8 					\\
@@ -2462,9 +2822,7 @@ The spell lasts on the object until summoned by the caster, after which the spel
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2486,14 +2844,17 @@ The attack with the blades is considered a Burst attack. The hail of blades deal
 
 \textbf{Ascended Spell:} The spell now ignores 1 DT, and the caster can deal elemental damage of her preferred type, but cannot cause status effects with this spell.
 
-\vfill
+%\vfill
 
 \subsection*{Pocket Sand}
 \addcontentsline{toc}{subsection}{Pocket Sand}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Conjuration (INT) \\
 		AP Cost        & 3                 \\
@@ -2502,9 +2863,7 @@ The attack with the blades is considered a Burst attack. The hail of blades deal
 		Target         & 1 Target          \\
 		Area of Effect & -                 \\
 		Duration       & 5 rounds          \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2518,14 +2877,17 @@ The target of the spell gains Medium Distraction penalty to all attacks, against
 
 \textbf{Ascended Spell:} Caster can modify their spell with one of two effects: The spell now inflicts a Major Distraction on the target if they fail the AGI check, or the spell now affects a Small Splash Template instead of 1 target, but with Minor Distraction.
 
-%\vfill
+\vfill
 
 \subsection*{Shield}
 \addcontentsline{toc}{subsection}{Shield}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT) 		\\
 		AP Cost	      	& 8 						\\
@@ -2534,9 +2896,7 @@ The target of the spell gains Medium Distraction penalty to all attacks, against
 		Target      	& Self/AoE					\\
 		Area of Effect  & Varies  	 				\\
 		Duration     	& Potency rounds			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2564,9 +2924,12 @@ Attacks that deal more damage than the combined DT value damage the shield first
 \subsection*{Storm Cloud}
 \addcontentsline{toc}{subsection}{Storm Cloud}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT)		\\
 		AP Cost	      	& 7 					\\
@@ -2575,9 +2938,7 @@ Attacks that deal more damage than the combined DT value damage the shield first
 		Target      	& AoE					\\
 		Area of Effect  & Tiny Splash 	 		\\
 		Duration     	& Potency rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2602,9 +2963,12 @@ The cloud travels a maximum of 10 meters (5 hexes) towards the nearest creature,
 \subsection*{Wall of Mist}
 \addcontentsline{toc}{subsection}{Wall of Mist}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Conjuration (INT) 			\\
 		AP Cost	      	& 6 							\\
@@ -2613,9 +2977,7 @@ The cloud travels a maximum of 10 meters (5 hexes) towards the nearest creature,
 		Target      	& 1 Target						\\
 		Area of Effect  & Tiny Splash 	 			    \\
 		Duration     	& Potency/2 rounds				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2644,7 +3006,7 @@ The caster's Potency determines the penalty as follows:
 	\item \textbf{Electricity:} Electricity crackles within the mist - any entities passing through the area may gain Stunned -status effect.
 \end{compactitem}
 
-\newpage
+%\newpage
 
 \section*{Dark Magic [END]}
 \addcontentsline{toc}{section}{Dark Magic [END]}
@@ -2653,9 +3015,12 @@ The caster's Potency determines the penalty as follows:
 \subsection*{Blood Weapons}
 \addcontentsline{toc}{subsection}{Blood Weapons}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 		\\
 		AP Cost	      	& 6 					\\
@@ -2664,9 +3029,7 @@ The caster's Potency determines the penalty as follows:
 		Target      	& 1 corpse/self 		\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2689,9 +3052,12 @@ This spell has 50\% chance to inflict 1 Insanity on the caster.
 \subsection*{Devouring Darkness}
 \addcontentsline{toc}{subsection}{Devouring Darkness}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 	\\
 		AP Cost	      	& 8 				\\
@@ -2700,9 +3066,7 @@ This spell has 50\% chance to inflict 1 Insanity on the caster.
 		Target      	& AoE				\\
 		Area of Effect  & Large Splash  	 	\\
 		Duration     	& Potency turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2718,14 +3082,17 @@ This spell has 30\% chance to inflict 1 Insanity on the caster.
 
 \textbf{Ascended Spell:} Creatures outside of the spell, aside from caster, suffer a -10 Visibility Penalty when trying to hit targets inside the spell's area of effect. Creatures inside the spell take 2 HP damage and 1 Insanity upon casting.
 
-\vfill
+%\vfill
 
 \subsection*{Fear}
 \addcontentsline{toc}{subsection}{Fear}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END)		\\
 		AP Cost	      	& 6 					\\
@@ -2734,9 +3101,7 @@ This spell has 30\% chance to inflict 1 Insanity on the caster.
 		Target      	& 1						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& 5 rounds 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2760,9 +3125,12 @@ This spell has 40\% chance to inflict 1 Insanity on the caster.
 \subsection*{Heart Attack}
 \addcontentsline{toc}{subsection}{Heart Attack}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 		\\
 		AP Cost	      	& 10 					\\
@@ -2771,9 +3139,7 @@ This spell has 40\% chance to inflict 1 Insanity on the caster.
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2800,9 +3166,12 @@ This spell inflicts 1 Insanity on the caster.
 \subsection*{Life Surge}
 \addcontentsline{toc}{subsection}{Life Surge}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 		\\
 		AP Cost	      	& 10 					\\
@@ -2811,9 +3180,7 @@ This spell inflicts 1 Insanity on the caster.
 		Target      	& 1						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2839,15 +3206,17 @@ This spell has a 70\% chance to inflict Insanity on the caster.
 
 \textbf{Ascended Spell:} The ascended version of this spell allows the caster to ignore all DT of their target.
 
-%\vfill
+\vfill
 
 \subsection*{Shadow Form}
 \addcontentsline{toc}{subsection}{Shadow Form}
-
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 		\\
 		AP Cost	      	& 5 					\\
@@ -2856,32 +3225,33 @@ This spell has a 70\% chance to inflict Insanity on the caster.
 		Target      	& -						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
-\medskip
+\smallskip
 
 Caster becomes a cloud of dark fog, allowing her to move more freely and be immune to mundane attacks. 	
 
 Spell transforms the caster into a dark cloud of smoke. While the spell is active, she is able to slip through small cracks and crevasses with ease, or enlarge herself to fill the entire room to intimidate creatures. The spell costs 5 AP and 3 Strain, and can be canceled at will.
 
-While in Shadow Form, the caster moves double her normal speed. She is immune to physical damage, but MEWs, spells and other magical damage deal damage normally. She herself is unable to use any items while in this form, but may cast spells. If intimidating or frightening a foe while in this form, she adds her Potency to the roll as a bonus.
+While in Shadow Form, the caster moves double her normal speed. She is immune to physical damage, but MEWs, spells and other magical damage deal damage normally. Caster cannot use any items while in this form, but may cast spells. If intimidating or frightening a foe while in this form, she adds her Potency to the roll as a bonus.
 
 The caster can inhabit the same space as another character, and any character in the same space as Caster will start to suffocate, losing 2 HP each turn. If the character goes to 0 HP due to this HP loss, they will go unconscious from lack of air.
 
-If the caster enlarges themselves during combat, the maximum they can enlarge themselves to is Large Splash Template. In this size, they will not cause targets to suffocate, due to their form not being condensed enough. Likewise, enemies gain a +10 to hit them.
+In combat, the caster can enlarge themselves to cover an area equal to Large Splash Template. In this size, they will not cause targets to suffocate due to their form not being condensed enough. Likewise, enemies gain a +10 to hit them.
 
-Taking the form is physically and mentally taxing on the caster, which some would equal to milder forms of torture. Upon casting and every minute thereafter, the caster has a 50\% chance to gain 1 Insanity.
+Taking the form is physically and mentally taxing on the caster. Upon casting and every minute thereafter, the caster has a 50\% chance to gain 1 Insanity.
 
 %\vfill
 
 \subsection*{Soul Jar}
 \addcontentsline{toc}{subsection}{Soul Jar}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 		\\
 		AP Cost	      	& - 					\\
@@ -2890,9 +3260,7 @@ Taking the form is physically and mentally taxing on the caster, which some woul
 		Target      	& 1 Object/Creature		\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Permanent				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2915,9 +3283,12 @@ This spell inflicts 1 Insanity on the caster. Assisting casters have a 50\% chan
 \subsection*{Vile Crystals}
 \addcontentsline{toc}{subsection}{Vile Crystals}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Dark Magic (END) 				\\
 		AP Cost	      	& 8 / 12 						\\
@@ -2926,9 +3297,7 @@ This spell inflicts 1 Insanity on the caster. Assisting casters have a 50\% chan
 		Target      	& 1 Target/AoE					\\
 		Area of Effect  & Small Splash 	 				\\
 		Duration     	& Permanent, see descr.			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2952,9 +3321,12 @@ This spell has 60\% chance to inflict 1 Insanity on the caster.
 \subsection*{Bypass}
 \addcontentsline{toc}{subsection}{Bypass}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 	\\
 		AP Cost	      	& 8 					\\
@@ -2963,9 +3335,7 @@ This spell has 60\% chance to inflict 1 Insanity on the caster.
 		Target      	& 1 weapon 				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency hours 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -2984,9 +3354,12 @@ The effect can be removed prematurely by destroying the weapon or with Failsafe-
 \subsection*{Compulsion}
 \addcontentsline{toc}{subsection}{Compulsion}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 	\\
 		AP Cost	      	& 6 					\\
@@ -2995,9 +3368,7 @@ The effect can be removed prematurely by destroying the weapon or with Failsafe-
 		Target      	& 1 					\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency minutes 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3030,9 +3401,12 @@ The target will perform the desired command to the letter (for example, if order
 \subsection*{Discord}
 \addcontentsline{toc}{subsection}{Discord}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 	\\
 		AP Cost	      	& 10 					\\
@@ -3041,9 +3415,7 @@ The target will perform the desired command to the letter (for example, if order
 		Target      	& Up to 4 targets	\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3069,14 +3441,17 @@ This spell can be used to lower NPC Disposition by 1 per casting. It can also be
 
 \textbf{Ascended Spell:} The chance to cause Insanity onto the targets is doubled, likewise, the AP cost is lowered to 7. Strain cost of the spell is 3.
 
-\vfill
+%\vfill
 
 \subsection*{Magic Trance}
 \addcontentsline{toc}{subsection}{Magic Trance}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 		\\
 		AP Cost	      	& 10 					\\
@@ -3085,9 +3460,7 @@ This spell can be used to lower NPC Disposition by 1 per casting. It can also be
 		Target      	& Self					\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3112,9 +3485,12 @@ However, if the caster receives any damage between the castings of Magic Trance 
 \subsection*{Resilience}
 \addcontentsline{toc}{subsection}{Resilience}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 	\\
 		AP Cost	      	& 4 					\\
@@ -3123,9 +3499,7 @@ However, if the caster receives any damage between the castings of Magic Trance 
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency days			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3142,9 +3516,12 @@ Magically enchants an item to survive the test of time. It protects the item fro
 \subsection*{Soft Light}
 \addcontentsline{toc}{subsection}{Soft Light}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 	\\
 		AP Cost	      	& 3/5 					\\
@@ -3153,9 +3530,7 @@ Magically enchants an item to survive the test of time. It protects the item fro
 		Target      	& Self/Up to 4 targets	\\
 		Area of Effect  & -	 					\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3165,14 +3540,17 @@ The caster's appealing and positive traits seem more pronounced, while character
 
 Common version of the spell affects only the caster. One may instead affect up to 4 other creatures, which then all benefit from the spell. However, this increases the spell's AP and Strain costs by 2.
 
-\vfill
+%\vfill
 
 \subsection*{Standstill}
 \addcontentsline{toc}{subsection}{Standstill}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 		\\
 		AP Cost	      	& 6 					\\
@@ -3181,9 +3559,7 @@ Common version of the spell affects only the caster. One may instead affect up t
 		Target      	& Up to 4 targets		\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency/2 Rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3200,9 +3576,12 @@ The target under the effects of this spell can attempt to break out of the spell
 \subsection*{Want it, Need it}
 \addcontentsline{toc}{subsection}{Want it, Need it}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Enchantment (CHA) 		\\
 		AP Cost	      	& 10 						\\
@@ -3211,9 +3590,7 @@ The target under the effects of this spell can attempt to break out of the spell
 		Target      	& -							\\
 		Area of Effect  & - 	 					\\
 		Duration     	& Potency minutes			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3223,7 +3600,7 @@ All intelligent creatures (except the caster) who observe the spell's object gro
 
 If the object that has \textit{Want it, Need it} cast on it is destroyed, the spell's effect ends.
 
-%\vfill
+\vfill
 \bigskip
 
 \section*{Illusion Magic [CHA]}
@@ -3232,9 +3609,12 @@ If the object that has \textit{Want it, Need it} cast on it is destroyed, the sp
 \subsection*{Invisibility}
 \addcontentsline{toc}{subsection}{Invisibility}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 7 					\\
@@ -3243,9 +3623,7 @@ If the object that has \textit{Want it, Need it} cast on it is destroyed, the sp
 		Target      	& 1						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3269,9 +3647,12 @@ The target of the spell is surrounded by a magical aura, rendering her completel
 \subsection*{Magical Fireworks}
 \addcontentsline{toc}{subsection}{Magical Fireworks}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 6 					\\
@@ -3280,9 +3661,7 @@ The target of the spell is surrounded by a magical aura, rendering her completel
 		Target      	& AoE					\\
 		Area of Effect  & Small Splash  	 		\\
 		Duration     	& 1 Round				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3301,9 +3680,12 @@ Any creature caught in the Area of Effect suffer \textbf{Medium Distraction} pen
 \subsection*{Mirage}
 \addcontentsline{toc}{subsection}{Mirage}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 4 					\\
@@ -3312,9 +3694,7 @@ Any creature caught in the Area of Effect suffer \textbf{Medium Distraction} pen
 		Target      	& AoE					\\
 		Area of Effect  & Varies  	 		\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3337,9 +3717,12 @@ This spell can be broken with a Failsafe-spell. Any perks and abilities that rel
 \subsection*{Phantasmagoria}
 \addcontentsline{toc}{subsection}{Phantasmagoria}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 6 					\\
@@ -3348,9 +3731,7 @@ This spell can be broken with a Failsafe-spell. Any perks and abilities that rel
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Varies				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3374,9 +3755,12 @@ When cast, the target has to succeed in an Opposed CHA check against caster's CH
 \subsection*{Silver Shroud}
 \addcontentsline{toc}{subsection}{Silver Shroud}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 3 					\\
@@ -3385,9 +3769,7 @@ When cast, the target has to succeed in an Opposed CHA check against caster's CH
 		Target      	& AoE					\\
 		Area of Effect  & Small Splash  	 		\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3404,9 +3786,12 @@ The spell grants the caster and up to 4 allies - within Small Splash template fr
 \subsection*{Simulacrum}
 \addcontentsline{toc}{subsection}{Simulacrum}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 				\\
 		AP Cost	      	& 10  				        	\\
@@ -3415,9 +3800,7 @@ The spell grants the caster and up to 4 allies - within Small Splash template fr
 		Target      	& -		                    	\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency/2 rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3445,9 +3828,12 @@ The illusionary duplicate has 10 HP, and once it's HP goes to 0, the illusion di
 \subsection*{Target}
 \addcontentsline{toc}{subsection}{Target}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 		\\
 		AP Cost	      	& 3 					\\
@@ -3456,9 +3842,7 @@ The illusionary duplicate has 10 HP, and once it's HP goes to 0, the illusion di
 		Target      	& 1 Target				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& 3 rounds				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3466,14 +3850,17 @@ Creates an illusionary target onto an opponent for the caster.
 
 The spell creates a magical target marker onto the target, which illuminates and assists in attacks made by the caster. Only the caster benefits from the spell. The spell reduces visibility-related penalties by 20 and Called Shot penalties by 10 on attacks and similar actions against the target made by the caster.
 
-\vfill
+%\vfill
 
 \subsection*{Thrown Voice}
 \addcontentsline{toc}{subsection}{Thrown Voice}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Illusion (CHA) 				\\
 		AP Cost	      	& 3								\\
@@ -3482,9 +3869,7 @@ The spell creates a magical target marker onto the target, which illuminates and
 		Target      	& AoE							\\
 		Area of Effect  & Large Splash 	 				\\
 		Duration     	& Instant						\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3496,7 +3881,7 @@ The spell affects anyone within Large Splash of the targeted area, provided they
 
 This spell can be used to confuse others and direct their focus elsewhere outside of combat.
 
-\vfill
+%\vfill
 
 \section*{Medical Magic [INT]}
 \addcontentsline{toc}{section}{Medical Magic [INT]}
@@ -3504,9 +3889,12 @@ This spell can be used to confuse others and direct their focus elsewhere outsid
 \subsection*{Anesthetic}
 \addcontentsline{toc}{subsection}{Anesthetic}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 	\\
 		AP Cost	      	& 5 				\\
@@ -3515,9 +3903,7 @@ This spell can be used to confuse others and direct their focus elsewhere outsid
 		Target      	& 1 Target 			\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency min / rounds 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3538,9 +3924,12 @@ The spell can also be used offensively. In such cases, the target makes an END o
 \subsection*{Bone Mending}
 \addcontentsline{toc}{subsection}{Bone Mending}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 10 					\\
@@ -3549,9 +3938,7 @@ The spell can also be used offensively. In such cases, the target makes an END o
 		Target      	& Varies 					\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Instant 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3578,14 +3965,17 @@ The number of characters the caster can Bone Mend with one casting is determined
 \textbf{Ascended Spell:} Instead of choosing one limb, the caster can cure all Crippled limbs with one casting. The Strain cost is determined by the most severe limb condition.
 
 
-%\vfill
+\vfill
 
 \subsection*{Calm Mind}
 \addcontentsline{toc}{subsection}{Calm Mind}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 5 					\\
@@ -3594,9 +3984,7 @@ The number of characters the caster can Bone Mend with one casting is determined
 		Target      	& 1 entity 				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3613,9 +4001,12 @@ This spell calms the person from a panic attack or worst fears, as well as activ
 \subsection*{Clean}
 \addcontentsline{toc}{subsection}{Clean}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 4 					\\
@@ -3624,9 +4015,7 @@ This spell calms the person from a panic attack or worst fears, as well as activ
 		Target      	& 1 entity/AoE 			\\
 		Area of Effect  & Varies 	 		\\
 		Duration     	& Instant 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3647,14 +4036,17 @@ If used to clean an area, the size is dependent on the caster's Potency:
 
 \textbf{Note:} This spell can be used to counter the effects of Vile Crystals -spell.
 
-\vfill
+%\vfill
 
 \subsection*{Enhancement}
 \addcontentsline{toc}{subsection}{Enhancement}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 6 					\\
@@ -3663,9 +4055,7 @@ If used to clean an area, the size is dependent on the caster's Potency:
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3694,9 +4084,12 @@ Outside of combat, this spell can be used to heal SPECIAL damage, with caster's 
 \subsection*{Panacea}
 \addcontentsline{toc}{subsection}{Panacea}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 4 					\\
@@ -3705,9 +4098,7 @@ Outside of combat, this spell can be used to heal SPECIAL damage, with caster's 
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency hours			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 A spell to cure ailments and ills, for at least a little while...
@@ -3728,14 +4119,17 @@ Likewise, the spell can be used to give 1 target additional bonus against physic
 
 \textbf{Ascended Spell:} The spell can remove withdrawal effects completely, though only one addiction per casting. Target under the effect of this spell can, when getting hit with a physical status effect, roll twice and take the better result.
 
-\vfill
+%\vfill
 
 \subsection*{Regeneration}
 \addcontentsline{toc}{subsection}{Regeneration}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 10 					\\
@@ -3744,9 +4138,7 @@ Likewise, the spell can be used to give 1 target additional bonus against physic
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3774,9 +4166,12 @@ The spell restores HP according to the caster's Potency, and a Critical Success 
 \subsection*{Restoration}
 \addcontentsline{toc}{subsection}{Restoration}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Medical (INT) 		\\
 		AP Cost	      	& 6 					\\
@@ -3785,9 +4180,7 @@ The spell restores HP according to the caster's Potency, and a Critical Success 
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3817,9 +4210,12 @@ During combat, this spell can also be used to remove Mind-Controlled status effe
 \subsection*{Amplify}
 \addcontentsline{toc}{subsection}{Amplify}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) \\
 		AP Cost	      	& 5 				\\
@@ -3828,9 +4224,7 @@ During combat, this spell can also be used to remove Mind-Controlled status effe
 		Target      	& Up to 4 targets 	\\
 		Area of Effect  & - 	 			\\
 		Duration     	& Potency Rounds 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3857,9 +4251,12 @@ The spell can also have a secondary effect. For example, if the caster chooses t
 \subsection*{Combat Pre-cognition} 
 \addcontentsline{toc}{subsection}{Combat Pre-cognition}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) \\
 		AP Cost	      	& 3 					\\
@@ -3868,9 +4265,7 @@ The spell can also have a secondary effect. For example, if the caster chooses t
 		Target      	& 1 Creature 			\\
 		Area of Effect  & - 	 				\\
 		Duration     	& 3 Rounds 			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3895,9 +4290,12 @@ The spell provides a series of various, minor buffs that the caster can choose o
 \subsection*{Detection}
 \addcontentsline{toc}{subsection}{Detection}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 7 					\\
@@ -3906,9 +4304,7 @@ The spell provides a series of various, minor buffs that the caster can choose o
 		Target      	& AoE 					\\
 		Area of Effect  & Huge Splash 	 		\\
 		Duration     	& Instant 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3927,9 +4323,12 @@ The spell can also be used to find magic items, magical creatures and traces of 
 \subsection*{Magic Mirror}
 \addcontentsline{toc}{subsection}{Magic Mirror}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 2 					\\
@@ -3938,9 +4337,7 @@ The spell can also be used to find magic items, magical creatures and traces of 
 		Target      	& Self					\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency hours			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -3957,9 +4354,12 @@ Once a mirror has been conjured, it will be tangible and can be carried in inven
 \subsection*{Memory Manipulation}
 \addcontentsline{toc}{subsection}{Memory Manipulation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 10 					\\
@@ -3968,9 +4368,7 @@ Once a mirror has been conjured, it will be tangible and can be carried in inven
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 Allows the caster to implant, copy or remove memories of another.
@@ -4000,9 +4398,12 @@ Memories are not always in pristine condition, and traumatic memories can cause 
 \subsection*{Mind Probe}
 \addcontentsline{toc}{subsection}{Mind Probe}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 5 					\\
@@ -4011,9 +4412,7 @@ Memories are not always in pristine condition, and traumatic memories can cause 
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4030,9 +4429,12 @@ If not specified, the results of Mind Probe reveals the target's next action. On
 \subsection*{Spy Connections}
 \addcontentsline{toc}{subsection}{Spy Connections}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 3 					\\
@@ -4041,9 +4443,7 @@ If not specified, the results of Mind Probe reveals the target's next action. On
 		Target      	& Up to 4 targets		\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4058,9 +4458,12 @@ However, to gain this information between two targets they have to stand within 
 \subsection*{Telepathy}
 \addcontentsline{toc}{subsection}{Telepathy}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 				\\
 		AP Cost	      	& 5								\\
@@ -4069,9 +4472,7 @@ However, to gain this information between two targets they have to stand within 
 		Target      	& Up to 4 creatures				\\
 		Area of Effect  & - 	 						\\
 		Duration     	& Potency minutes				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4093,9 +4494,12 @@ The spell does not give the caster an access to the target(s) memories and knowl
 \subsection*{Alarm}
 \addcontentsline{toc}{subsection}{Alarm}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 	\\
 		AP Cost	      	& 5 				\\
@@ -4104,10 +4508,7 @@ The spell does not give the caster an access to the target(s) memories and knowl
 		Target      	& AoE 				\\
 		Area of Effect  & Large Splash Template 	\\
 		Duration     	& Potency hours 	\\ \hline
-	\end{tabu}
-	
-}
-
+	\end{tblr}
 \medskip
 
 Designates an area that triggers when a threatening force enters it.
@@ -4121,9 +4522,12 @@ The spell's area can be made visible with \textbf{Detection-spell}.
 \subsection*{Cloak of Elements}
 \addcontentsline{toc}{subsection}{Cloak of Elements}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 		\\
 		AP Cost	      	& 4 					\\
@@ -4132,9 +4536,7 @@ The spell's area can be made visible with \textbf{Detection-spell}.
 		Target      	& Up to 4 entities 		\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency minutes 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4151,9 +4553,12 @@ The element bouncing can only be done once per turn.
 \subsection*{Equestria's Love}
 \addcontentsline{toc}{subsection}{Equestria's Love}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 		\\
 		AP Cost	      	& 4 					\\
@@ -4162,9 +4567,7 @@ The element bouncing can only be done once per turn.
 		Target      	& -					\\
 		Area of Effect  & -			\\
 		Duration     	& Potency hours 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4178,14 +4581,17 @@ Those affected by the spell are immune to non-damaging effects such as rain and 
 
 \textbf{Ascended Spell:} The spell gains an area of effect, a Small Splash template centered on caster. Likewise, all inside the spell gain +1 END against Taint. Against Pink Cloud, targets can ignore 1 HP loss caused by the hazard.
 
-\vfill
+%\vfill
 
 \subsection*{Failsafe}
 \addcontentsline{toc}{subsection}{Failsafe}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END)		\\
 		AP Cost	      	& 6 					\\
@@ -4194,9 +4600,7 @@ Those affected by the spell are immune to non-damaging effects such as rain and 
 		Target      	& AoE					\\
 		Area of Effect  & Varies  	 		\\
 		Duration     	& 5 rounds 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4216,14 +4620,17 @@ All magical effects in the targeted area are temporarily suppressed on a success
 
 \textbf{Ascended Spell:} Once per Round outside of their turn, caster may make one magical effect automatically fail within the spell's range with a successful Thaumaturgy roll. She will then start her next turn with 6 AP less, and 2 Strain less due to use of this spell. 
 
-%\vfill
+\vfill
 
 \subsection*{Friendly Critter's Help}
 \addcontentsline{toc}{subsection}{Friendly Critter's Help}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 		\\
 		AP Cost	      	& 8						\\
@@ -4232,9 +4639,7 @@ All magical effects in the targeted area are temporarily suppressed on a success
 		Target      	& -						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4254,9 +4659,12 @@ Note: Robots and plants do not heed the call of the caster.
 \subsection*{Mental Bulwark}
 \addcontentsline{toc}{subsection}{Mental Bulwark}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 		\\
 		AP Cost	      	& 5 					\\
@@ -4265,15 +4673,13 @@ Note: Robots and plants do not heed the call of the caster.
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency*10 minutes	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
 Protects against mental probing and mind-affecting effects.
 
-This spell creates a mental barrier that protects the target against mental probing and mind affecting effects. If the target ends up under hostile mind attack (such as illusions or Memory Manipulation), the attacker must roll twice and take the worse result. If the target would be mentally affected (such as addiction to chems), she may roll twice and take the better result. 
+This spell creates a mental barrier that protects the target against mental probing and mind affecting effects. If the target ends up under hostile mind attack (such as illusions or Memory Manipulation), the attacker must roll twice and take the worse result. If the target would be mentally affected by a status effect such as Dazed, Enraged or Mind-Controlled, she may roll twice and take the better result.
 
 If the character under the effect of this Spell is about to get an Insanity point, they can roll twice to resist. However, they have to take the second roll.
 
@@ -4284,9 +4690,12 @@ The spell doesn't work on effects that are already active upon casting of Mental
 \subsection*{Rad-Guard}
 \addcontentsline{toc}{subsection}{Rad-Guard}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protective (END) 			\\
 		AP Cost	      	& 6 						\\
@@ -4295,9 +4704,7 @@ The spell doesn't work on effects that are already active upon casting of Mental
 		Target      	& AoE centered on self		\\
 		Area of Effect  & Small Splash  	 			\\
 		Duration     	& Potency minutes			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4322,9 +4729,12 @@ Casting Rad-Guard creates an aura surrounding the caster that provides protectio
 \subsection*{Toughened Frame}
 \addcontentsline{toc}{subsection}{Toughened Frame}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Protection (END) 				\\
 		AP Cost	      	& 5 							\\
@@ -4333,29 +4743,19 @@ Casting Rad-Guard creates an aura surrounding the caster that provides protectio
 		Target      	& 1								\\
 		Area of Effect  & - 	 						\\
 		Duration     	& Potency/2 rounds				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
-Target's body hardens to resist fracturing of bones.
+Target's body hardens to resist fracturing of bones, and is one of the first spells many aspiring scavengers learn.
 
-This spell thickens and hardens the target's bones and musculature to lessen oncoming cripple chance for the duration of this spell. Likewise, this spell allows the target to take half the damage from falling. The amount of cripple chance negated to a minimum of 5 \% is as follows:
-
-\begin{quote}
-	\begin{description}
-		\item[$<$10 Potency] 	10 \%
-		\item[10-19 Potency] 	20 \%
-		\item[20+ Potency] 		30 \%
-	\end{description}
-\end{quote}
+For the duration of this spell, the target is immune to Crippled and takes half damage from falling. In addition if the target goes to a Pain Threshold when under the effect of this spell, they can roll twice on the Pain Penalty roll and pick the better result.
 
 \bigskip
 
-\textbf{Ascended Spell:} The target of this spell can ignore 1 Minor Cripple per day, if the Minor Cripple happens during this spell being active. Likewise, the spell's AP cost is 3 instead of 5.
+\textbf{Ascended Spell:} The target of this spell can ignore 1 Minor Cripple per day by the application of this spell. Likewise, the spell's AP cost is 3 instead of 5.
 
-%\vfill
+\vfill
 
 
 \section*{Transmutation Magic [END]}
@@ -4364,9 +4764,12 @@ This spell thickens and hardens the target's bones and musculature to lessen onc
 \subsection*{Come to Life}
 \addcontentsline{toc}{subsection}{Come to Life}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& Varies 				\\
@@ -4375,9 +4778,7 @@ This spell thickens and hardens the target's bones and musculature to lessen onc
 		Target      	& 1 object 				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency minutes 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4389,19 +4790,20 @@ The size of the object determines the cost and difficulty of the spell. Size cat
 
 \medskip
 
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
-		\hline
-		Size -2 or smaller		&  	6 AP, 1 Strain, no penalty\\
-		Size -1	      			&  	8 AP, 2 Strain, -10 Penalty to INT roll			\\
-		Size 0     				&  	10 AP, 3 Strain, -20 Penalty to INT roll		\\
-		Size +1     			&  	12 AP, 4 Strain, -30 Penalty to INT roll		\\
-		Size +2      			&  	14 AP, 5 Strain, -40 Penalty to INT roll		\\
-		Size +3 or bigger  		&  	16 AP, 6 Strain, -50 Penalty to INT roll 		\\ \hline
-	\end{tabu}
-	
-}
+\begin{tblr}
+	[caption={Spell Info List}, entry=none, label=none]
+	{			
+		colspec = {| X[l,3] | X[l,7] |}, rowhead = 1, width = 0.9\linewidth,
+		row{odd} = {gray!30}, row{even} = {gray!10},
+	}
+	\hline
+	Size -2 or smaller		&  	6 AP, 1 Strain, no penalty\\
+	Size -1	      			&  	8 AP, 2 Strain, -10 Penalty to INT roll			\\
+	Size 0     				&  	10 AP, 3 Strain, -20 Penalty to INT roll		\\
+	Size +1     			&  	12 AP, 4 Strain, -30 Penalty to INT roll		\\
+	Size +2      			&  	14 AP, 5 Strain, -40 Penalty to INT roll		\\
+	Size +3 or bigger  		&  	16 AP, 6 Strain, -50 Penalty to INT roll 		\\ \hline
+\end{tblr}
 
 \medskip
 
@@ -4417,14 +4819,17 @@ NOTE: Attended objects, such as enemy's weapon, can be animated but if the caste
 
 \textbf{Ascended Spell:} The caster can reroll their INT roll when trying to gain command of the object, but the second roll stays in effect. In addition, the caster has a +10 to Diplomacy, Barter and Intimidation rolls if the INT roll was unsuccessful, for the purpose of asking the independent animated object to do specific things.
 
-\vfill
+%\vfill
 
 \subsection*{Growth}
 \addcontentsline{toc}{subsection}{Growth}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& See description 		\\
@@ -4433,9 +4838,7 @@ NOTE: Attended objects, such as enemy's weapon, can be animated but if the caste
 		Target      	& 1/AoE					\\
 		Area of Effect  & Varies  	 			\\
 		Duration     	& Varies 				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4456,9 +4859,12 @@ NOTE: Spell doesn't work on targets capable of reasoning (for example ponies, ze
 \subsection*{Petrify}
 \addcontentsline{toc}{subsection}{Petrify}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& 8 					\\
@@ -4467,9 +4873,7 @@ NOTE: Spell doesn't work on targets capable of reasoning (for example ponies, ze
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4492,9 +4896,12 @@ In addition to being turned to stone, the target gains DT against damage from fi
 \subsection*{Phase}
 \addcontentsline{toc}{subsection}{Phase}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Transmutation (END) \\
 		AP Cost        & 8                   \\
@@ -4503,9 +4910,7 @@ In addition to being turned to stone, the target gains DT against damage from fi
 		Target         & Self            \\
 		Area of Effect & -                   \\
 		Duration       & Varies              \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4525,14 +4930,17 @@ The spell's duration is determined by the caster's Potency as follows, and has d
 	\end{description}	
 \end{quote}
 
-\vfill
+%\vfill
 
 \subsection*{Remake}
 \addcontentsline{toc}{subsection}{Remake}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& Varies 				\\
@@ -4541,9 +4949,7 @@ The spell's duration is determined by the caster's Potency as follows, and has d
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4569,9 +4975,12 @@ The base cost of the spell is 4 AP and 1 Strain, when used in combat. The condit
 \addcontentsline{toc}{subsection}{Shape Magic}
 
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& 3 					\\
@@ -4580,9 +4989,7 @@ The base cost of the spell is 4 AP and 1 Strain, when used in combat. The condit
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4601,9 +5008,12 @@ The caster can have up to 4 different mundane objects simultaneously conjured by
 \subsection*{Steady Walk}
 \addcontentsline{toc}{subsection}{Steady Walk}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 	\\
 		AP Cost	      	& 4 					\\
@@ -4612,9 +5022,7 @@ The caster can have up to 4 different mundane objects simultaneously conjured by
 		Target      	& 1 Target				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& See text	            \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4641,9 +5049,12 @@ The caster's Potency determines how long the spell's duration is:
 \subsection*{Transformation}
 \addcontentsline{toc}{subsection}{Transformation}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Transmutation (END) 		\\
 		AP Cost	      	& 10 						\\
@@ -4652,9 +5063,7 @@ The caster's Potency determines how long the spell's duration is:
 		Target      	& 1 Creature		        \\
 		Area of Effect  & - 	 				    \\
 		Duration     	& Potency minutes			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4702,9 +5111,12 @@ Spirit Magic is divided into sections as defined by the spirit's domain: \textbf
 \subsection*{Cleanse}
 \addcontentsline{toc}{subsection}{Cleanse)}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (Any SPECIAL) \\
 		AP Cost        & 8                         \\
@@ -4713,9 +5125,7 @@ Spirit Magic is divided into sections as defined by the spirit's domain: \textbf
 		Target         & 1 Target/area             \\
 		Area of Effect & See text                  \\
 		Duration       & Instant                   \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4745,9 +5155,12 @@ Area of Effect and duration on environmental dangers are dependent on Potency:
 \subsection*{Phantom Lantern}
 \addcontentsline{toc}{subsection}{Phantom Lantern}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (Any SPECIAL) \\
 		AP Cost        & 3                         \\
@@ -4756,22 +5169,24 @@ Area of Effect and duration on environmental dangers are dependent on Potency:
 		Target         & Allies                    \\
 		Area of Effect & Large Splash              \\
 		Duration       & Potency minutes           \\ \hline
-	\end{tabu}
-	
-}
-
+	\end{tblr}
 \medskip
 
 The caster conjures up a slightly grim-looking ghostly lantern filled with a pale blue light. This light from the lantern is only visible to the caster and their allies, and invisible to others. The lantern hovers in air, about shoulder height of a regular pony, and moves according to the caster.
 
 The Phantom Lantern illuminates dark areas as if they were in bright daylight, removing visibility penalties from a Large Splash Template, which is centered on caster.
 
+\vfill
+
 \subsection*{Soothing Spectre}
 \addcontentsline{toc}{subsection}{Soothing Spectre}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (Any SPECIAL) \\
 		AP Cost        & 10                        \\
@@ -4780,9 +5195,7 @@ The Phantom Lantern illuminates dark areas as if they were in bright daylight, r
 		Target         & 1 Ally                    \\
 		Area of Effect & -                         \\
 		Duration       & Potency/2 turns           \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4815,9 +5228,12 @@ The following boons have a duration, and their penalties will return once the sp
 \subsection*{Spirit Spear}
 \addcontentsline{toc}{subsection}{Spirit Spear}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (any SPECIAL) \\
 		AP Cost        & 5                         \\
@@ -4826,9 +5242,7 @@ The following boons have a duration, and their penalties will return once the sp
 		Target         & Any                       \\
 		Area of Effect & -                         \\
 		Duration       & Instant                   \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4846,9 +5260,12 @@ The furthest the Spirit Spear can reach relies on the caster's Potency as follow
 \subsection*{Telepathy}
 \addcontentsline{toc}{subsection}{Telepathy}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (Any SPECIAL) \\
 		AP Cost        & 5                         \\
@@ -4857,9 +5274,7 @@ The furthest the Spirit Spear can reach relies on the caster's Potency as follow
 		Target         & Up to 4 creatures         \\
 		Area of Effect & -                         \\
 		Duration       & Potency minutes           \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4872,9 +5287,12 @@ The spell does not give the caster an access to the target(s) memories and knowl
 \subsection*{Wall of Mist}
 \addcontentsline{toc}{subsection}{Wall of Mist}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Incantation (Any SPECIAL) \\
 		AP Cost        & 6                         \\
@@ -4883,9 +5301,7 @@ The spell does not give the caster an access to the target(s) memories and knowl
 		Target         & 1 Target                  \\
 		Area of Effect & Tiny Splash               \\
 		Duration       & Potency/2 rounds          \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4901,12 +5317,17 @@ The caster's Potency determines the penalty as follows:
 	\end{description}
 \end{quote}
 
+\vfill
+
 \subsection*{Windigo's Favor}
 \addcontentsline{toc}{subsection}{Windigo's Favor)}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Incantation (any SPECIAL) \\
 		AP Cost        & 4                         \\
@@ -4915,9 +5336,7 @@ The caster's Potency determines the penalty as follows:
 		Target         & 1 Target                  \\
 		Area of Effect & -                         \\
 		Duration       & 3 Rounds                  \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -4936,26 +5355,29 @@ After the spell ends, the enchantment disappears. This spell isn't cumulative in
 \section*{Spirit of Embers [AGI]}
 \addcontentsline{toc}{section}{Spirit of Embers [AGI]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & Equine-dragon hybrid with flaming mane and molten skin \\
 		General Personality & Short-tempered, passionate, holds a grudge             \\
 		Values              & Revenge, strong emotions, explosions                   \\
 		Resents             & Cold, hidden emotions, tempered attitude               \\
 		Rival               & Spirit of Streams                                      \\ \hline
-	\end{tabu}
-	
-}
-
+	\end{tblr}
 \medskip
 
 \subsection*{Burning Blood}
 \addcontentsline{toc}{subsection}{Burning Blood}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Embers (AGI)     \\
 		AP Cost        & 6                \\
@@ -4964,9 +5386,8 @@ After the spell ends, the enchantment disappears. This spell isn't cumulative in
 		Target         & Self             \\
 		Area of Effect & Tiny Splash Area \\
 		Duration       & 3 rounds         \\ \hline
-	\end{tabu}
+	\end{tblr}
 	
-}
 \medskip
 The Spirit of Embers envelops the caster in a ghostly fire, burning anyone who comes near with the radiating heat, while leaving the caster unharmed.
 
@@ -4986,9 +5407,12 @@ Creatures that are immune to fire damage take no damage from this spell, and cre
 
 \subsection*{Burning Passion}
 \addcontentsline{toc}{subsection}{Burning Passion}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Embers (AGI)          \\
 		AP Cost        & 6                     \\
@@ -4996,9 +5420,7 @@ Creatures that are immune to fire damage take no damage from this spell, and cre
 		Target         & 1 Ally                \\
 		Area of Effect & -                     \\
 		Duration       & 1 Round               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5007,9 +5429,12 @@ The caster surrounds their ally with a warm, encouraging glow, giving them a +10
 \subsection*{Fire Wheel}
 \addcontentsline{toc}{subsection}{Fire Wheel}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			&  Fire (AGI)			\\
 		AP Cost	      	&  7					\\
@@ -5018,9 +5443,7 @@ The caster surrounds their ally with a warm, encouraging glow, giving them a +10
 		Target      	&  -					\\
 		Area of Effect  &  -	 				\\
 		Duration     	&  4 rounds		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5040,11 +5463,16 @@ Any characters this wheel rams into must make an Opposed roll of caster's AGI ve
 
 After the spell ends, the wheel disappears in a puff of smoke.
 
+\vfill
+
 \subsection*{Fireball}
 \addcontentsline{toc}{subsection}{Fireball}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Fire (AGI)       \\
 		AP Cost        & 4 AP             \\
@@ -5053,11 +5481,7 @@ After the spell ends, the wheel disappears in a puff of smoke.
 		Target         & AoE              \\
 		Area of Effect & Small Splash     \\
 		Duration       & 4 Rounds         \\ \hline
-	\end{tabu}
-	
-}
-
-\medskip
+	\end{tblr}
 
 A fiery projectile that deals damage to everything in s Small Splash Template, and sets the area on fire for 4 Rounds. Anyone who gets hit or steps into this fire have to roll END to resist getting a Burning- status effect.
 
@@ -5095,11 +5519,16 @@ The fireball deals 1+(4) damage on the targets upon impact, and 1+(2) damage for
 %
 %Targets within the area can resist the effect of the spell with a PER -2 roll. Critical Success on the Thaumaturgy roll makes the Minor Distraction into a Medium Distraction instead.
 
+\vfill
+
 \subsection*{Ignite}
 \addcontentsline{toc}{subsection}{Ignite}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Embers (AGI)     \\
 		AP Cost        & 3                \\
@@ -5108,12 +5537,10 @@ The fireball deals 1+(4) damage on the targets upon impact, and 1+(2) damage for
 		Target         & 1 Target         \\
 		Area of Effect & -                \\
 		Duration       & 3 rounds         \\ \hline
-	\end{tabu}
+	\end{tblr}
 	
-}
-\medskip
-
 Ignites the target aflame, and the target has to roll END to resist the resulting Burning-status. In addition, this spell causes, upon successful hit, a Minor Distraction for the duration of the spell. Potency provides a penalty to the target's END roll as follows:
+
 \begin{quote}
 	\begin{description}
 		\item[$<$10 Potency] 	-1 END
@@ -5147,9 +5574,12 @@ Ignites the target aflame, and the target has to roll END to resist the resultin
 \subsection*{Phoenix Touch}
 \addcontentsline{toc}{subsection}{Phoenix Touch}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Embers (AGI) \\
 		AP Cost        & 3            \\
@@ -5158,9 +5588,7 @@ Ignites the target aflame, and the target has to roll END to resist the resultin
 		Target         & 1 Target     \\
 		Area of Effect & -            \\
 		Duration       & See text     \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5176,32 +5604,36 @@ A bright flame emerges from the shaman's hooves and spreads over the target, was
 
 In addition, this spell brings a Dying character onto 1 HP immediately without having to roll an effect from a Pain Threshold. An Unconscious but not Dying character will be roused from their unconsciousness with this spell.
 
-\newpage
+%\newpage
 
 \section*{Spirit of Machines [INT]}
 \addcontentsline{toc}{section}{Spirit of Machines [INT]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & A pristine unearthly set of power armor                    \\
 		General Personality & Logical, analytical, calculative, introvert, materialistic \\
 		Values              & Order, mechanics, science, creativity                      \\
 		Resents             & Chaos, spontaneous acts, passion, obsessive use of magic   \\
 		Rival               & Spirit of Nature                                           \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
 \subsection*{Dispel Magic}
 \addcontentsline{toc}{subsection}{Dispel Magic}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Machines (INT) \\
 		AP Cost        & 6              \\
@@ -5210,9 +5642,7 @@ In addition, this spell brings a Dying character onto 1 HP immediately without h
 		Target         & AoE            \\
 		Area of Effect & Varies         \\
 		Duration       & 5 rounds       \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5228,7 +5658,7 @@ All magical effects in the targeted area are temporarily suppressed on a success
 	\end{description}
 \end{quote}
 
-\vfill
+%\vfill
 
 %\subsubsection*{Engineer's Inspiration}
 %\addcontentsline{toc}{subsubsection}{Engineer's Inspiration}
@@ -5260,9 +5690,12 @@ All magical effects in the targeted area are temporarily suppressed on a success
 
 \subsection*{Metal Barrier}
 \addcontentsline{toc}{subsection}{Metal Barrier}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Machines (INT)   \\
 		AP Cost        & 8                \\
@@ -5271,9 +5704,7 @@ All magical effects in the targeted area are temporarily suppressed on a success
 		Target         & -                \\
 		Area of Effect & -                \\
 		Duration       & Potency/2 rounds \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5290,11 +5721,16 @@ The barrier's size is equal to a number of 2x2x2 meter blocks (1 hex), determine
 
 These can be assembled as desired within range, including separate from each other. Any obstacle formed by the spell has 3 DT. The barrier disappears from the area after Potency/2 number of turns.
 
+\vfill
+
 \subsection*{Organize}
 \addcontentsline{toc}{susection}{Organize}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Machines (INT)  \\
 		AP Cost        & 3               \\
@@ -5303,9 +5739,7 @@ These can be assembled as desired within range, including separate from each oth
 		Target         & 1 Target           \\
 		Area of Effect & -               \\
 		Duration       & 24 hours \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5325,9 +5759,12 @@ The AP cost of Ready Item from inventory is determined as follows:
 \subsection*{Sabotage}
 \addcontentsline{toc}{subsection}{Sabotage}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			&  Machines (INT)			\\
 		AP Cost	      	&  8					\\
@@ -5336,9 +5773,7 @@ The AP cost of Ready Item from inventory is determined as follows:
 		Target      	&  1 Target				\\
 		Area of Effect  &  Tiny Splash	 				\\
 		Duration     	&  Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5354,13 +5789,16 @@ The target and everyone within Tiny Splash Template from them take damage accord
 	\end{description}
 \end{quote}
 
-\vfill
+%\vfill
 
 \subsection*{Shrapnel Shot}
 \addcontentsline{toc}{subsection}{Shrapnel Shot}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Machines (INT)        \\
 		AP Cost        & 3                     \\
@@ -5369,9 +5807,7 @@ The target and everyone within Tiny Splash Template from them take damage accord
 		Target         & 1 Target              \\
 		Area of Effect & -                     \\
 		Duration       & Instant               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5411,9 +5847,12 @@ The spirit gathers pieces of clutter from the surroundings and hurls them throug
 
 \subsection*{Trap Defense}
 \addcontentsline{toc}{subsection}{Trap Defense}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Machines (INT) \\
 		AP Cost        & 10             \\
@@ -5422,9 +5861,8 @@ The spirit gathers pieces of clutter from the surroundings and hurls them throug
 		Target         & -              \\
 		Area of Effect & See text       \\
 		Duration       & 6 rounds       \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \smallskip
 
 By uttering a word of their choice, the shaman orders - or pleads - the spirit of machines to create a row of ethereal mines. This row can either start or pass through an area within 4 meters (2 hexes) from the caster, with one mine every 2 meters (1 hex).
@@ -5444,31 +5882,37 @@ The amount of mines created is determined by caster's Potency:
 	\end{description}	
 \end{quote}
 
-
+\vfill
+\pagebreak
 
 \section*{Spirit of Nature [END]}
 \addcontentsline{toc}{section}{Spirit of Nature [END]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & Stag with horns decorated with leaves and flowers, followed by animals      \\
 		General Personality & Regal, detached, short-tempered, generous, gentle                           \\
 		Values              & Vegetarianism, kindness towards critters, humility                          \\
 		Resents             & Machinery, abominations, radiation, needless killing of critters and plants \\
 		Rival               & Spirit of Machines                                                          \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 \subsection*{Friendly Critter's Help}
 \addcontentsline{toc}{subsection}{Friendly Critter's Help}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Nature (END) 		\\
 		AP Cost	      	& 8						\\
@@ -5477,9 +5921,7 @@ The amount of mines created is determined by caster's Potency:
 		Target      	& -						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency rounds 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5495,9 +5937,12 @@ If the caster has the \textit{Fluttershy's Apostle -perk}, the non-sentient crea
 
 \subsection*{Healing Surge}
 \addcontentsline{toc}{subsection}{Healing Surge}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Nature (END)          \\
 		AP Cost        & 5                     \\
@@ -5506,9 +5951,8 @@ If the caster has the \textit{Fluttershy's Apostle -perk}, the non-sentient crea
 		Target         & All                   \\
 		Area of Effect & Small Splash          \\
 		Duration       & Instant               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \smallskip
 
 The caster sends out a wave of healing energy around them that heals everyone within Small Splash Template. 
@@ -5526,9 +5970,12 @@ This spell targets everyone in range, friend or foe with HP determined by the Po
 
 \subsection*{Lightning Strike}
 \addcontentsline{toc}{subsection}{Lightning Strike}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Nature (END)          \\
 		AP Cost        & 6 AP                  \\
@@ -5537,9 +5984,8 @@ This spell targets everyone in range, friend or foe with HP determined by the Po
 		Target         & 1 Target              \\
 		Area of Effect & -                     \\
 		Duration       & Instant               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The caster summons a lightning strike down their enemy. The bolt of lightning deals 2+(2) damage. Upon successful hit, it can cause a Stun- status effect on the target as well, with an END-roll to resist.
@@ -5555,9 +6001,12 @@ Potency adds additional damage to the strike as follows:
 
 \subsection*{Natural Protection}
 \addcontentsline{toc}{subsection}{Natural Protection}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Nature (END)      \\
 		AP Cost        & 8                 \\
@@ -5566,9 +6015,8 @@ Potency adds additional damage to the strike as follows:
 		Target         & Self              \\
 		Area of Effect & Large Splash      \\
 		Duration       & Potency*2 minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The spirit of nature surges from the shaman's rune and forms a very thin shield around the affected, protecting them from the harmful arcane energies that now plague the land.
@@ -5589,9 +6037,12 @@ The Rad Resistance increase is determined as follows:
 
 \subsection*{Petrify}
 \addcontentsline{toc}{subsection}{Petrify}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Nature (END)          \\
 		AP Cost        & 4                     \\
@@ -5600,9 +6051,8 @@ The Rad Resistance increase is determined as follows:
 		Target         & 1 Target              \\
 		Area of Effect & -                     \\
 		Duration       & Potency/2 Rounds \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The target of this spell is petrified for a period of time, unable to act and are considered unconscious. Once per turn, the petrified target can use an Opposed END roll to break out of the petrified status. 
@@ -5663,9 +6113,12 @@ Re-casting this spell on the petrified target also breaks the spell put on them,
 
 \subsection*{Venom}
 \addcontentsline{toc}{subsection}{Venom}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Nature (END) \\
 		AP Cost        & 4            \\
@@ -5674,8 +6127,7 @@ Re-casting this spell on the petrified target also breaks the spell put on them,
 		Target         & Area         \\
 		Area of Effect & Small Splash \\
 		Duration       & Instant      \\ \hline
-	\end{tabu}
-}
+	\end{tblr}
 
 The caster casts a green sigil on the ground, from which a ghostly green wind surrounds those within its reach. All who are trapped within the temporary wind-cocoon are poisoned by Spirit of Nature's gentle, but merciless hoof.
 
@@ -5700,26 +6152,31 @@ This spell cannot be used on weapons.
 \section*{Spirit of Serenity [PER]}
 \addcontentsline{toc}{section}{Spirit of Serenity [PER]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & Radiant orb of pure light     \\
 		General Personality & Neutral, quiet, calm, pure    \\
 		Values              & Optimism, magic, clear mind   \\
 		Resents             & Darkness, secrets, chem usage \\
 		Rival               & Spirit of Shadows             \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 \vfill
 
 \subsection*{Astral Copy}
 \addcontentsline{toc}{subsection}{Astral Copy}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Serenity (PER)        \\
 		AP Cost        & 5                     \\
@@ -5728,9 +6185,8 @@ This spell cannot be used on weapons.
 		Target         & Self                  \\
 		Area of Effect & -                     \\
 		Duration       & Potency/2 rounds \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The caster creates multiple astral copies of himself. These copies occupy the same space the caster does, making hitting them harder for their enemies. The number of copies depends on the caster's Potency:
@@ -5748,9 +6204,12 @@ Enemies that target the caster have a 50 \% chance of hitting the right target, 
 \subsection*{Devotion}
 \addcontentsline{toc}{subsection}{Comforting Words}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Serenity (PER) \\
 		AP Cost        & 8              \\
@@ -5759,14 +6218,13 @@ Enemies that target the caster have a 50 \% chance of hitting the right target, 
 		Target         & 1 Ally       \\
 		Area of Effect & -              \\
 		Duration       & Instant        \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The caster sacrifices some of their own health to regenerate Strain to an ally, with a light, gentle incantation. The caster can sacrifice up to 5 HP to give their ally 2 Strain per 1 HP sacrificed. This damage ignores the caster's DT.
 
-The spell?s range is determined by the caster's Potency as follows:
+The spell's range is determined by the caster's Potency as follows:
 \begin{quote}
 	\begin{description}
 		\item[$<$10 Potency]	Small Splash
@@ -5778,9 +6236,12 @@ The spell?s range is determined by the caster's Potency as follows:
 \subsection*{Guiding Light}
 \addcontentsline{toc}{subsection}{Guiding Light}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			&  Serenity (PER)			\\
 		AP Cost	      	&  3					\\
@@ -5789,9 +6250,7 @@ The spell?s range is determined by the caster's Potency as follows:
 		Target      	&  See text				\\
 		Area of Effect  &  -	 				\\
 		Duration     	&  24 hours				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5841,9 +6300,12 @@ The ghostly trail is only visible to the caster and the connected person, and no
 
 \subsection*{Night Vision}
 \addcontentsline{toc}{subsection}{Night Vision}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Serenity (PER)  \\
 		AP Cost        & 3               \\
@@ -5852,9 +6314,7 @@ The ghostly trail is only visible to the caster and the connected person, and no
 		Target         & Self            \\
 		Area of Effect & -               \\
 		Duration       & Potency minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5896,9 +6356,12 @@ If there is a sudden change in light to the brighter status, the user gains a Me
 \subsection*{Prismatic Strike}
 \addcontentsline{toc}{subsection}{Prismatic Strike}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Serenity (PER)   \\
 		AP Cost        & 6                \\
@@ -5907,9 +6370,7 @@ If there is a sudden change in light to the brighter status, the user gains a Me
 		Target         & -                \\
 		Area of Effect & See text         \\
 		Duration       & Instant          \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -5930,9 +6391,12 @@ The die used to roll for Strain damage, and the Area of Effect of the spell depe
 
 \subsection*{Razzle Dazzle}
 \addcontentsline{toc}{subsection}{Razzle Dazzle}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Serenity (PER)        \\
 		AP Cost        & 5                     \\
@@ -5941,9 +6405,8 @@ The die used to roll for Strain damage, and the Area of Effect of the spell depe
 		Target         & AoE                   \\
 		Area of Effect & Small Splash Template \\
 		Duration       & 4 Rounds              \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The caster creates a sparkling cloud in a Small Splash Template, within the range of Potency*4 meters. Creatures, both friend and foe, that are inside this cloud must roll an Opposed PER roll against the caster. Those that fail their roll are Blinded for the duration of this spell. Creatures that come into contact with this spell after its summoning must roll a -1 PER to resist the effect. After the spell ends, the cloud disappears and the Blinded- status effect ends.
@@ -5953,9 +6416,12 @@ The caster creates a sparkling cloud in a Small Splash Template, within the rang
 \section*{Spirit of Shadows [INT]}
 \addcontentsline{toc}{section}{Spirit of Shadows [INT]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & An ethereal form of an equine with tendrils of shadow emerging from it \\
 		General Personality & Unpredictable, secretive, mischievous                         \\
@@ -5963,18 +6429,19 @@ The caster creates a sparkling cloud in a Small Splash Template, within the rang
 		Resents             & Aid, selflessness                                        \\
 		Rival               & Spirit of Serenity                                                       \\
 		                    &                                                                          \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \textbf{Note:} This spirit's magic is rare, vile, and heinous, and pursuing it will put the character's mental health at risk. Consult your GM on the spells.
 \medskip
 
 \subsection*{Bane}
 \addcontentsline{toc}{subsection}{Bane}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Shadows (INT) \\
 		AP Cost        & 6             \\
@@ -5983,9 +6450,8 @@ The caster creates a sparkling cloud in a Small Splash Template, within the rang
 		Target         & 1 Target      \\
 		Area of Effect & -             \\
 		Duration       & Instant       \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 The caster casts a dark incantation towards their enemy, enshrouding the creature in a dark miasma which deals damage to the target and eats away their Strain. The damage inflicted ignores any DT the target has.
 
@@ -6033,9 +6499,12 @@ The spell deals damage according to the user's Potency:
 \subsection*{Devouring Darkness}
 \addcontentsline{toc}{subsection}{Devouring Darkness}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Shadows (INT) 	\\
 		AP Cost	      	& 8 				\\
@@ -6044,9 +6513,7 @@ The spell deals damage according to the user's Potency:
 		Target      	& AoE				\\
 		Area of Effect  & Large Splash  	 	\\
 		Duration     	& Potency turns 	\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6062,9 +6529,12 @@ This spell has 30\% chance to inflict 1 Insanity on the caster.
 \subsection*{Doomtouch}
 \addcontentsline{toc}{subsection}{Doomtouch}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Shadows (INT) \\
 		AP Cost        & 10            \\
@@ -6073,9 +6543,7 @@ This spell has 30\% chance to inflict 1 Insanity on the caster.
 		Target         & 1 Target      \\
 		Area of Effect & -             \\
 		Duration       & Instant       \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6095,9 +6563,12 @@ DT still applies normally, and going to a pain threshold still activates from th
 \subsection*{Dreadful Charm}
 \addcontentsline{toc}{subsection}{Dreadful Charm}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			&  Shadows (INT)\\
 		AP Cost	      	&  6				\\
@@ -6106,9 +6577,7 @@ DT still applies normally, and going to a pain threshold still activates from th
 		Target      	&  Foes in Splash Template			\\
 		Area of Effect  &  See text	 			\\
 		Duration     	&  See text			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6136,9 +6605,12 @@ The effect of this spell is passive after casting, and doesn't interfere with ca
 \subsection*{Life Surge}
 \addcontentsline{toc}{subsection}{Life Surge}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Shadows (INT) 		\\
 		AP Cost	      	& 10 					\\
@@ -6147,9 +6619,7 @@ The effect of this spell is passive after casting, and doesn't interfere with ca
 		Target      	& 1						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6174,11 +6644,13 @@ This spell has a 70\% chance to inflict Insanity on the caster.
 
 \subsection*{Shadowform}
 \addcontentsline{toc}{subsection}{Shadowform}
-
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Shadows (INT) 		\\
 		AP Cost	      	& 5 					\\
@@ -6187,9 +6659,7 @@ This spell has a 70\% chance to inflict Insanity on the caster.
 		Target      	& -						\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6232,26 +6702,30 @@ Taking the form is physically and mentally taxing on the caster, which some woul
 \section*{Spirit of Streams [END]}
 \addcontentsline{toc}{section}{Spirit of Streams [END]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & A whirling torrent of water with a vaguely equine figure inside \\
 		General Personality & Vicious when angered, generous, fickle                          \\
 		Values              & Exploring, courage, healing, quick thinking                     \\
 		Resents             & Cowardice, indecisiveness, greed                                \\
 		Rival               & Spirit of Embers                                              \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
 \subsection*{Ice Pillar}
 \addcontentsline{toc}{subsection}{Ice Pillar}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Streams (END)       \\
 		AP Cost        & 10                   \\
@@ -6260,9 +6734,8 @@ Taking the form is physically and mentally taxing on the caster, which some woul
 		Target         & 1                    \\
 		Area of Effect & -                    \\
 		Duration       & Potency turns \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 % Text
@@ -6282,9 +6755,12 @@ After appearing, the pillar occupies the area it spawned on and can be used for 
 \subsection*{Restoration}
 \addcontentsline{toc}{subsection}{Restoration}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Streams (END) 		\\
 		AP Cost	      	& 6 					\\
@@ -6293,9 +6769,7 @@ After appearing, the pillar occupies the area it spawned on and can be used for 
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Instant				\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6315,9 +6789,12 @@ During combat, this spell can also be used to remove Mind-Controlled status effe
 
 \subsection*{Shivers}
 \addcontentsline{toc}{subsection}{Shivers}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Streams (END) 		\\
 		AP Cost	      	& 6 						\\
@@ -6326,9 +6803,7 @@ During combat, this spell can also be used to remove Mind-Controlled status effe
 		Target      	& 1 Target					\\
 		Area of Effect  & Small Splash  	 				\\
 		Duration     	& 5 rounds			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 The spirit soars through the air onto the spot the shaman designates, hitting the target and turning the area around them into an icy Difficult Terrain. Anyone that moves in this terrain needs to avoid slipping and falling prone in addition to taking more time to cross the icy surface.
 
@@ -6337,10 +6812,12 @@ This spell deals 2+(4) damage to the target, and they must succeed in END roll o
 
 \subsection*{Steady Walk}
 \addcontentsline{toc}{subsection}{Steady Walk}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Streams (END) 	\\
 		AP Cost	      	& 4 					\\
@@ -6349,9 +6826,7 @@ This spell deals 2+(4) damage to the target, and they must succeed in END roll o
 		Target      	& 1 Target				\\
 		Area of Effect  & - 	 				\\
 		Duration     	& See text	            \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6403,12 +6878,15 @@ The caster's Potency determines how long the spell's duration is:
 %	\end{description}	
 %\end{quote}
 
-\vfill
+%\vfill
 \subsection*{Water Breathing}
 \addcontentsline{toc}{subsection}{Water Breathing}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Streams (END)            \\
 		AP Cost        & 3                        \\
@@ -6417,9 +6895,8 @@ The caster's Potency determines how long the spell's duration is:
 		Target         & 1 / self                 \\
 		Area of Effect & -                        \\
 		Duration       & Potency*2 minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 % Text
@@ -6427,9 +6904,12 @@ The Spirit of Streams' power allows the caster or the target to breathe underwat
 
 \subsection*{Waterjet}
 \addcontentsline{toc}{subsection}{Waterjet}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Streams      \\
 		AP Cost        & 5            \\
@@ -6438,9 +6918,8 @@ The Spirit of Streams' power allows the caster or the target to breathe underwat
 		Target         & 1            \\
 		Area of Effect & -            \\
 		Duration       & Instant      \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 % Text
@@ -6491,27 +6970,30 @@ Both the caster and enemy make an opposed STR roll. If the enemy is successful, 
 \section*{Spirit of Trust [CHA]}
 \addcontentsline{toc}{section}{Spirit of Trust [CHA]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & A group of fog-like forms of various races of equine and griffin   \\
 		General Personality & Varies depending on the part of spirit talking                     \\
 		Values              & Genuine friendship, peaceful solutions, protective behavior, mercy \\
 		Resents             & Backstabbing, deceitfulness, unnecessary violence, chaos           \\
 		Rival               & Spirit of Whispers                                                 \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
 \subsection*{Blink}
 \addcontentsline{toc}{subsection}{Blink}
-
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Trust (CHA)        \\
 		AP Cost        & 4                  \\
@@ -6519,9 +7001,8 @@ Both the caster and enemy make an opposed STR roll. If the enemy is successful, 
 		Target         & 1                  \\
 		Area of Effect & -                  \\
 		Duration       & Instant            \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \smallskip
 
 Caster effectively teleports adjacent to their chosen target. If they so desire, they can cast the spell and bring one adjacent ally with them by spending additional 2 AP.
@@ -6530,9 +7011,12 @@ Caster effectively teleports adjacent to their chosen target. If they so desire,
 \subsection*{Comforting Words}
 \addcontentsline{toc}{subsection}{Comforting Words}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Trust (CHA) \\
 		AP Cost        & 3           \\
@@ -6541,9 +7025,7 @@ Caster effectively teleports adjacent to their chosen target. If they so desire,
 		Target         & 1 Target    \\
 		Area of Effect & -           \\
 		Duration       & Instant     \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6562,10 +7044,12 @@ If the Insanity-lowering effect is used on an opponent, a CHA Opposed roll is re
 
 \subsection*{Eldritch Knives}
 \addcontentsline{toc}{subsection}{Eldritch Knives}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Trust (CHA) \\
 		AP Cost        & 8           \\
@@ -6574,9 +7058,7 @@ If the Insanity-lowering effect is used on an opponent, a CHA Opposed roll is re
 		Target         & 1 Target    \\
 		Area of Effect & -           \\
 		Duration       & Instant     \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6600,9 +7082,12 @@ The attack with the blades is considered a Burst attack. The hail of blades deal
 \subsection*{Enhancement}
 \addcontentsline{toc}{subsection}{Enhancement}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Trust (CHA) 		\\
 		AP Cost	      	& 6 					\\
@@ -6611,9 +7096,7 @@ The attack with the blades is considered a Burst attack. The hail of blades deal
 		Target      	& 1 Target				\\
 		Area of Effect  & -  	 				\\
 		Duration     	& Potency minutes 		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6637,10 +7120,12 @@ Outside of combat, this spell can be used to heal SPECIAL damage, with caster's 
 
 \subsection*{Power of Friendship}
 \addcontentsline{toc}{subsection}{Power of Friendship}
-% Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Trust (CHA)    \\
 		AP Cost        & 6              \\
@@ -6649,9 +7134,7 @@ Outside of combat, this spell can be used to heal SPECIAL damage, with caster's 
 		Target         & Up to 4 allies \\
 		Area of Effect & -              \\
 		Duration       & Potency rounds \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6660,13 +7143,16 @@ The next single-target healing or protective spell has its effect shared amongst
 This spell will modify the effect of the next Healing or Protective spell's effect. The caster's next single-target healing or protective spell will instead affect all of the targets of Power of Friendship. The spell remains active for Potency rounds or until a qualifying spell is cast.
 
 
-
+\vfill
 
 \subsection*{Reminiscence}
 \addcontentsline{toc}{subsection}{Reminiscence}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Trust (CHA)  \\
 		AP Cost        & 5            \\
@@ -6675,9 +7161,8 @@ This spell will modify the effect of the next Healing or Protective spell's effe
 		Target         & See text     \\
 		Area of Effect & -            \\
 		Duration       & 10 minutes   \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The shaman casts a spell on her ally, giving her inspiration through their shared bond and memories with one another. This manifests as a pleasant aura around the target, that slightly shimmers to the naked eye. 
@@ -6707,9 +7192,12 @@ The spell cannot be used more than once per ally in a day, and the caster cannot
 \subsection*{Shield}
 \addcontentsline{toc}{subsection}{Shield}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit 			& Trust (CHA) 		\\
 		AP Cost	      	& 8 						\\
@@ -6718,9 +7206,7 @@ The spell cannot be used more than once per ally in a day, and the caster cannot
 		Target      	& Self/AoE					\\
 		Area of Effect  & Varies  	 				\\
 		Duration     	& Potency rounds			\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6729,7 +7215,7 @@ Spirit forms a moldable shield of energy that protects against bullets and simil
 Shield can be wrapped around any target area within Potency*2 meters of the caster, covering maximum of 6 meters in its largest dimension. The caster chooses upon casting the spell whether the shield's position is fixed (doesn't move) or in relation to the caster (for example, always in front of the caster). Creatures and objects can go through Shield, but damaging projectiles interfere with it.
 
 
-\newpage
+%\newpage
 Shield has a DT determined by caster's Potency, and 5 HP tokens. The DT from Shield stacks with worn equipment, the exact amount determined by Potency as follows:
 \begin{quote}
 	\begin{description}
@@ -6745,9 +7231,12 @@ Attacks that deal more damage than the combined DT value damage the shield first
 \subsection*{Spy Connections}
 \addcontentsline{toc}{subsection}{Spy Connections}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School 			& Perception (PER) 		\\
 		AP Cost	      	& 3 					\\
@@ -6756,9 +7245,7 @@ Attacks that deal more damage than the combined DT value damage the shield first
 		Target      	& Up to 4 targets		\\
 		Area of Effect  & - 	 				\\
 		Duration     	& Potency minutes		\\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6772,27 +7259,33 @@ However, to gain this information between two targets they have to stand within 
 \section*{Spirit of Whispers [CHA]}
 \addcontentsline{toc}{section}{Spirit of Whispers [CHA]}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,8] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,8] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		General Appearance  & A silver shrouded figure in a cloak, noticeably frail in appearance \\
 		General Personality & Secretive, quiet, chaotic, mischievous                              \\
 		Values              & Secrets, quick thinking, confidence, good luck                      \\
 		Resents             & Brawn, honesty, over-careful planning, self-doubt                   \\
 		Rival               & Spirit of Trust                                                     \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
+
+\vfill
 
 \subsection*{Banshee Wail}
 \addcontentsline{toc}{subsection}{Banshee Wail}
 %TODO: Balance? Currently affects all creatures, be it man or machine
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA) \\
 		AP Cost        & 7               \\
@@ -6801,9 +7294,8 @@ However, to gain this information between two targets they have to stand within 
 		Target         & AoE               \\
 		Area of Effect & Small Splash               \\
 		Duration       & 3 rounds               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The spirit hides inside the shaman, enchanting their voice into a loud, booming, and vicious cry. All who are within a Small Splash area can feel the wail pierce their eardrums.
@@ -6822,12 +7314,17 @@ The damage ignores any DT on the afflicted targets. In addition, those taking da
 
 The shaman can use this attack multiple times during the duration of the spell, and only pays the Strain cost upon the spell's activation. Spell's normal AP cost applies to further uses.
 
+\vfill
+
 \subsection*{Discord}
 \addcontentsline{toc}{subsection}{Discord}
 % table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		School         & Whispers (CHA)  \\
 		AP Cost        & 10              \\
@@ -6836,9 +7333,7 @@ The shaman can use this attack multiple times during the duration of the spell, 
 		Target         & Up to 4 targets \\
 		Area of Effect & -               \\
 		Duration       & Potency rounds  \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6860,13 +7355,17 @@ This spell can be used to lower NPC Disposition by 1 per casting. It can also be
 
 \textbf{Note:} Mindless creatures and robots are immune to the effects of this spell.
 
+\vfill
 
 \subsection*{Hypnosis}
 \addcontentsline{toc}{subsection}{Hypnosis}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA)  \\
 		AP Cost        & 5               \\
@@ -6875,9 +7374,7 @@ This spell can be used to lower NPC Disposition by 1 per casting. It can also be
 		Target         & See text        \\
 		Area of Effect & -               \\
 		Duration       & Potency/3 turns \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6901,9 +7398,12 @@ The maximum number of targets affected depends on the caster's Potency as such:
 \subsection*{Invisibility}
 \addcontentsline{toc}{subsection}{Invisibility}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA) \\
 		AP Cost        & 7              \\
@@ -6912,9 +7412,7 @@ The maximum number of targets affected depends on the caster's Potency as such:
 		Target         & 1              \\
 		Area of Effect & -              \\
 		Duration       & Potency rounds \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6922,14 +7420,17 @@ Makes the target invisible for a short duration.
 
 The target of the spell is surrounded by a magical aura, rendering her completely invisible to others for a moment. If anyone tries to see or hit the target of Invisibility spell, they suffer PER penalty and Visibility penalty of 50, respectively. Locating the invisible entity is possible with other senses provided they create large enough sensory stimuli, such as knocking a can over or having a strong odor.
 
-\vfill
+%\vfill
 
 \subsection*{Phase}
 \addcontentsline{toc}{subsection}{Phase}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA) \\
 		AP Cost        & 8                   \\
@@ -6938,9 +7439,7 @@ The target of the spell is surrounded by a magical aura, rendering her completel
 		Target         & Self            \\
 		Area of Effect & -                   \\
 		Duration       & Varies              \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6965,9 +7464,12 @@ The spell's duration is determined by the caster's Potency as follows, and has d
 \subsection*{Silver Shroud}
 \addcontentsline{toc}{subsection}{Silver Shroud}
 % Table
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA)  \\
 		AP Cost        & 3               \\
@@ -6976,9 +7478,7 @@ The spell's duration is determined by the caster's Potency as follows, and has d
 		Target         & AoE             \\
 		Area of Effect & Small Splash    \\
 		Duration       & Potency minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 \medskip
 
@@ -6988,13 +7488,16 @@ The caster provides an illusionary aura around herself, rippling and distorting 
 
 The spell grants the caster and up to 4 allies - within Small Splash template from her - a Sneak bonus equal to her Potency.
 
-
+%\vfill
 
 \subsection*{Terror}
 \addcontentsline{toc}{subsection}{Terror}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 75mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA) \\
 		AP Cost        & 7               \\
@@ -7003,9 +7506,7 @@ The spell grants the caster and up to 4 allies - within Small Splash template fr
 		Target         & 1 target               \\
 		Area of Effect & -               \\
 		Duration       & 2 rounds               \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
 
 The shaman creates a frightening visage in front of a target, which will distract the target.  The visage is usually something unexpected and terrifying, relying on the caster's imagination while scrying just a little into the mind of their target to pull the spell off.
 
@@ -7020,9 +7521,12 @@ The shaman's Potency determines the spell's effectiveness in distracting their t
 
 \subsection*{Toxic Friend}
 \addcontentsline{toc}{subsection}{Toxic Friend}
-{
-	\rowcolors{1}{gray!30}{gray!10}
-	\begin{tabu} to 70mm{| X[l,4] | X[l,7] |}
+	\begin{tblr}
+		[caption={Spell Info List}, entry=none, label=none]
+		{			
+			colspec = {| X[l,4] | X[l,7] |}, rowhead = 1,
+			row{odd} = {gray!30}, row{even} = {gray!10},
+		}
 		\hline
 		Spirit         & Whispers (CHA)  \\
 		AP Cost        & 5               \\
@@ -7031,9 +7535,8 @@ The shaman's Potency determines the spell's effectiveness in distracting their t
 		Target         & 1 Target/Self   \\
 		Area of Effect & -               \\
 		Duration       & Potency minutes \\ \hline
-	\end{tabu}
-	
-}
+	\end{tblr}
+
 \medskip
 
 The caster blesses themselves or an ally with a silver tongue, with nefarious intents. The target of this spell gains a bonus to Diplomacy or Barter for the purpose of negatively influencing someone, the exact bonus depending on caster's Potency:
@@ -7047,19 +7550,9 @@ The caster blesses themselves or an ally with a silver tongue, with nefarious in
 
 Using this spell can lower Karma, if used for particularly evil acts.
 
-
-
-
-
-
 \begin{verse}
 	\textbf{Example:} Kenobi casts Venom on three enemies. His potency is 15, which means that he has available the following effects; Tissue damage and hallucinations. He chooses to try to inflict tissue damage (-1 HP per round) on his enemies. Due to his potency, he can cast it with 1x60\% chance even though the effect is of a lower potency tier.
 \end{verse}
-
-
-
-
-
 
 %\vfill
 %\newpage
