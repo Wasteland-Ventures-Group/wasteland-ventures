@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  25 SEP 2022 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.9)  29 DEC 2022 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1903,7 +1903,7 @@ Package rerunfilecheck Info: File `FOEWV_TEX.out' has not changed.
 Here is how much of TeX's memory you used:
  15757 strings out of 475389
  285589 string characters out of 2777473
- 856152 words of memory out of 3000000
+ 855888 words of memory out of 3000000
  36352 multiletter control sequences out of 15000+600000
  496916 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1919,7 +1919,7 @@ ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tiia/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Tiia/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 /Tiia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FOEWV_TEX.pdf (135 pages, 17214249 bytes).
+Output written on FOEWV_TEX.pdf (135 pages, 17214264 bytes).
 PDF statistics:
  1496 PDF objects out of 1728 (max. 8388607)
  540 named destinations out of 1000 (max. 500000)
