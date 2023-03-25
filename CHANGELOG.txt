@@ -7,6 +7,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+** 2.4.1
+*** Changed
+- P.A.S.T.
+	- Seer: Quirk changed to Indomitable
+
+*** Fixed
+- Bookmark and layout fixes
+- Secondary Stats:
+	- Strain section no longer refers to old Shamanism rules by falsely advertising Spiritual magic being Strain-free
+- Perks:
+	- Bully and Skyscraper Syndrome now listed among Level 4 perks as they should
+- Magic:
+	- Spirit of Trust Spell: Blink now has a Strain cost; shamans cannot use the spirit highway freely anymore
+
+
 ** 2.4.0
 *** Added
 - Traits:
